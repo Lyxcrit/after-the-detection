@@ -1,0 +1,5 @@
+_time,host,event_code,user,src_ip,logon_type,process_name,process_id,status
+2026-06-24T13:58:44Z,WKSTN-042,4624,ACME\\j.smith,10.20.30.55,2,User32,2100,success
+2026-06-24T14:03:11Z,WKSTN-042,4688,ACME\\j.smith,,,"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",4248,success
+2026-06-24T14:04:02Z,WKSTN-042,4688,ACME\\j.smith,,,"C:\\Windows\\System32\\sc.exe",4504,success
+2026-06-24T14:05:10Z,WKSTN-042,4688,NT AUTHORITY\\SYSTEM,,,"C:\\Users\\Public\\Libraries\\Cache\\winupdate.exe",5120,success
