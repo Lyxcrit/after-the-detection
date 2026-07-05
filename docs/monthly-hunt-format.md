@@ -1,6 +1,8 @@
 # Monthly Hunt Format
 
-After the Detection Monthly Hunts are synthetic, platform-portable hunt packages based on defender-relevant attack patterns.
+This document describes the monthly capstone format inside the After the Detection Hunt Series.
+
+Weekly hunts handle the focused reps. Monthly capstones combine those concepts into a larger field exercise.
 
 The point is not just to fire a detection.
 
@@ -8,9 +10,9 @@ The point is to answer:
 
 > The detection fired. Now what?
 
-## Monthly hunt objectives
+## Monthly capstone objectives
 
-Each monthly hunt should help defenders:
+Each monthly capstone should help defenders:
 
 - understand a current or relevant attack pattern
 - load synthetic data into their tool of choice
@@ -23,7 +25,7 @@ Each monthly hunt should help defenders:
 
 ## Required sections
 
-Each monthly hunt should include:
+Each monthly capstone should include:
 
 ```text
 README.md
@@ -42,7 +44,7 @@ linkedin-content.md
 
 ## Required data categories
 
-Each real monthly hunt should include multiple telemetry perspectives, not just one host event.
+Each real monthly capstone should include multiple telemetry perspectives, not just one host event.
 
 Recommended CSV files:
 
@@ -62,7 +64,7 @@ data/
 
 ## Design principle
 
-A useful monthly hunt should include:
+A useful monthly capstone should include:
 
 - normal background activity
 - suspicious activity
@@ -75,13 +77,17 @@ A toy dataset says:
 
 > Here is a suspicious event. Find it.
 
-A monthly hunt says:
+A monthly capstone says:
 
 > Here is the kind of attack defenders are seeing. Here is the data. One alert fired. Now prove what happened, scope it, and decide what to do next.
 
-## Current hunt candidate
+## Current capstone candidate
 
-The first real monthly hunt is:
+The first real monthly capstone should build on the weekly hunts rather than replace them.
+
+The current Hunt 001 is a guided weekly hunt, not the capstone.
+
+The first real monthly capstone candidate is:
 
 > Hunt 001: Edge Exploitation to Persistence
 
