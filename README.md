@@ -1,8 +1,12 @@
-# After the Detection Labs
+# After the Detection Hunt Series
 
 Public, synthetic detection-engineering labs for exploring what happens **after** an alert fires.
 
-This repository supports the **After the Detection** series: practical notes, mock telemetry, investigation paths, and detection workflow examples for SOC, DCO, threat hunting, and SIEM teams.
+This repository supports the **After the Detection Hunt Series**: practical notes, mock telemetry, investigation paths, and detection workflow examples for SOC, DCO, threat hunting, and SIEM teams.
+
+The weekly hunts are the reps. The monthly capstone is the field exercise.
+
+Each week, I'll publish a small synthetic hunt focused on one part of the investigation. At the end of the month, I'll combine those concepts into a larger capstone hunt with more noise, more ambiguity, and a full after-the-detection workflow.
 
 ## What this is
 
@@ -21,7 +25,15 @@ This repository does **not** contain customer data, victim data, real incident d
 
 The data in this repo is synthetic and intentionally simplified. It is meant for education, detection-engineering practice, and SOC workflow discussion.
 
-## First lab
+## Hunt series model
+
+- Weekly hunts are focused teaching reps.
+- Monthly capstones are larger field exercises that check whether the learning holds up under more noise and ambiguity.
+- The current Hunt 001 is positioned as a guided weekly hunt in the July edge-exploitation arc.
+
+See [docs/hunt-series-model.md](docs/hunt-series-model.md) for the operating model.
+
+## Current labs
 
 The first lab models a common investigation pattern:
 
@@ -30,6 +42,7 @@ The first lab models a common investigation pattern:
 Start here:
 
 - [Lab: New Service After PowerShell](labs/new-service-after-powershell/README.md)
+- [Hunt 001: Edge Exploitation to Persistence](labs/001-edge-exploitation-to-persistence/README.md)
 
 ## Why mock data?
 
