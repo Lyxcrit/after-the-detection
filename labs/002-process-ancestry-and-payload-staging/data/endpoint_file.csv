@@ -1,0 +1,14 @@
+_time,host,user,action,file_path,file_name,sha256,source_process,source_process_id,signature_status
+2026-07-14T14:02:12Z,WEB-EDGE-01,IIS APPPOOL\DefaultAppPool,directory_created,C:\ProgramData\IISCache,IISCache,,powershell.exe,7932,n/a
+2026-07-14T14:02:20Z,WEB-EDGE-01,IIS APPPOOL\DefaultAppPool,file_created,C:\ProgramData\IISCache\version.dll,version.dll,3c6d45f5d9f6509f27e5f6f4c2f4cb4048fe6f0b148f365b5a3c5f65e13d777a,certutil.exe,8016,unsigned
+2026-07-14T14:02:24Z,WEB-EDGE-01,IIS APPPOOL\DefaultAppPool,file_modified,C:\ProgramData\IISCache\version.dll,version.dll,3c6d45f5d9f6509f27e5f6f4c2f4cb4048fe6f0b148f365b5a3c5f65e13d777a,powershell.exe,7932,unsigned
+2026-07-14T14:03:09Z,WEB-EDGE-02,NT AUTHORITY\SYSTEM,file_created,C:\Windows\Temp\apppool-warmup.log,apppool-warmup.log,7bb69d16f6b9fd71bd6a4aa0f2b29837a58e08fd0b7fd3b1b64f3302ddadd0a5,powershell.exe,6332,n/a
+2026-07-14T14:04:15Z,WEB-EDGE-01,NT AUTHORITY\SYSTEM,file_created,C:\ProgramData\Monitoring\web-counters.json,web-counters.json,91e6a0133d1717ed81bbdb8c6cb7c9fb942ad2f9a7eec914816c01c7977aa2ea,typeperf.exe,8572,n/a
+2026-07-14T14:05:04Z,MONITOR-01,NT AUTHORITY\SYSTEM,file_created,C:\ProgramData\Monitoring\poll-WEB-EDGE-01.json,poll-WEB-EDGE-01.json,5efa9c6674fe4fc144f55b41195a2ad0e5d653da7f7b1d5e4c469f6e1a049d7d,powershell.exe,4420,n/a
+2026-07-14T14:06:48Z,WEB-EDGE-01,WEBLAB\admin.jlee,file_created,C:\Windows\Temp\iis-health.txt,iis-health.txt,a43c8dd529dfe87d55aa273a747a5ea8526d3be2f92a98643714d31e57d102e4,powershell.exe,9344,n/a
+2026-07-14T14:09:20Z,BACKUP-01,NT AUTHORITY\SYSTEM,file_created,C:\Backups\WEB-EDGE-01\web.config,web.config,e9f151fe6c2e31a8d1d3b418b6db5fcb01e067aa2419c54f09d406df4b6f2dd1,robocopy.exe,5312,n/a
+2026-07-14T14:11:22Z,WEB-EDGE-01,WEBLAB\svc_webdeploy,file_created,C:\Windows\Temp\deploy-status.txt,deploy-status.txt,71fdc2e9df6aa8065e6dd9f847cb063614e1932e608b3b92002e381a2fd6fa96,cmd.exe,9604,n/a
+2026-07-14T14:12:04Z,APP-API-02,NT AUTHORITY\SYSTEM,file_created,C:\ProgramData\Deploy\company-agent.msi,company-agent.msi,df70f8c23a1fd4f62ff13fcbb0348f93fbe2cc49b70ae1e8da9380dd70d28a99,powershell.exe,5140,signed
+2026-07-14T14:12:16Z,APP-API-02,NT AUTHORITY\SYSTEM,file_created,C:\Program Files\Company\agent.exe,agent.exe,6a4f6b18e6dca9b5f5cc53629930d57b5fd9d8259f7550d6aee41a379227f69a,msiexec.exe,5264,signed
+2026-07-14T14:13:22Z,WEB-EDGE-01,NT AUTHORITY\SYSTEM,file_created,C:\ProgramData\WebLab\Logs\iis-20260714.zip,iis-20260714.zip,c16a5320fa475530d9583c34fd356ef5b4147b3c6a47228e3da02b4c9f64243a,powershell.exe,9960,n/a
+2026-07-14T14:14:12Z,DEV-BUILD-03,WEBLAB\svc_build,file_created,C:\Build\Artifacts\WebLab.zip,WebLab.zip,81ef6c23a3ef0bf61ccd7a42976aa50bf64803886a8fa1f75c574c6ec88cfad1,powershell.exe,7120,signed
