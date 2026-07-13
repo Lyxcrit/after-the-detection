@@ -1,0 +1,45 @@
+{
+  "hunt_id": "002",
+  "slug": "002-process-ancestry-and-payload-staging",
+  "title": "Process Ancestry and Payload Staging",
+  "difficulty": "Guided, moderate noise",
+  "expected_minutes": "10-15",
+  "monthly_arc": "July 2026 \u2014 Edge Exploitation",
+  "noise_profile": [
+    "health checks",
+    "commodity scanning",
+    "vulnerability scanning",
+    "peer-server maintenance",
+    "monitoring PowerShell",
+    "backup access",
+    "deployment command shell",
+    "benign file writes",
+    "medium-severity review detections"
+  ],
+  "datasets": [
+    "asset_inventory.csv",
+    "detection_results.csv",
+    "endpoint_file.csv",
+    "endpoint_process.csv",
+    "identity_auth.csv",
+    "investigation_findings.csv",
+    "network_activity.csv",
+    "web_access.csv"
+  ],
+  "documents": [
+    "README.md",
+    "analyst-hunt-guide.md",
+    "apt-falconer-showcase.md",
+    "attack-narrative.md",
+    "content-calendar.md",
+    "coverage-map.md",
+    "data-dictionary.md",
+    "falconsearch-notes.md",
+    "linkedin-content.md",
+    "response-plan.md",
+    "root-readme-snippet.md",
+    "sample-spl.md",
+    "splunk-ingest-guide.md",
+    "threat-brief.md"
+  ]
+}
