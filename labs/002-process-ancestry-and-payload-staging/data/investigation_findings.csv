@@ -1,0 +1,12 @@
+finding_id,finding_type,host,entity,evidence_summary,initial_confidence,analyst_decision
+F-001,process_lineage,WEB-EDGE-01,w3wp.exe -> cmd.exe -> powershell.exe,Application worker crossed into shell and hidden PowerShell execution,high,
+F-002,payload_staging,WEB-EDGE-01,C:\ProgramData\IISCache\version.dll,Unsigned DLL written by certutil in the suspicious process chain,high,
+F-003,network_context,WEB-EDGE-01,cdn-sync.example,PowerShell and certutil retrieved the staged DLL from a newly observed external destination,high,
+F-004,benign_admin,WEB-EDGE-01,Collect-IISHealth.ps1,Interactive administrator collected health and event-log data after the alert,medium,
+F-005,benign_deployment,APP-API-02,install-agent.ps1,Approved service-context PowerShell launched signed MSI deployment,medium,
+F-006,benign_maintenance,WEB-EDGE-01,RotateLogs.ps1,Scheduled task created expected log archive and contacted internal log service,medium,
+F-007,web_context,WEB-EDGE-01,POST /api/v1/diagnostics,Suspicious source 203.0.113.77 probed and then posted to diagnostics immediately before process execution,medium,
+F-008,benign_monitoring,WEB-EDGE-01,Collect-WebCounters.ps1,Service-context PowerShell wrote monitoring counters and contacted internal monitoring collector,medium,
+F-009,benign_peer_activity,WEB-EDGE-02,Warmup-AppPool.ps1,Peer edge server recycled an app pool through approved maintenance ancestry,medium,
+F-010,benign_backup,BACKUP-01,Snapshot-WebConfig.ps1,Backup service copied web config over SMB using approved backup context,medium,
+F-011,benign_deployment_noise,WEB-EDGE-01,msdeploy.exe -> cmd.exe,"Deployment tool used cmd.exe, but ancestry and identity differ from IIS-spawned shell",medium,

@@ -29,20 +29,17 @@ The data in this repo is synthetic and intentionally simplified. It is meant for
 
 - Weekly hunts are focused teaching reps.
 - Monthly capstones are larger field exercises that check whether the learning holds up under more noise and ambiguity.
-- The current Hunt 001 is positioned as a guided weekly hunt in the July edge-exploitation arc.
+- The current July arc is focused on edge exploitation and follow-on investigation workflow.
 
 See [docs/hunt-series-model.md](docs/hunt-series-model.md) for the operating model.
 
 ## Current labs
 
-The first lab models a common investigation pattern:
-
-> Suspicious PowerShell activity followed by new Windows service creation.
-
 Start here:
 
 - [Lab: New Service After PowerShell](labs/new-service-after-powershell/README.md)
 - [Hunt 001: Edge Exploitation to Persistence](labs/001-edge-exploitation-to-persistence/README.md)
+- [Hunt 002: Process Ancestry and Payload Staging](labs/002-process-ancestry-and-payload-staging/README.md)
 
 ## Why mock data?
 

@@ -1,0 +1,14 @@
+_time,host,user,process_name,process_id,dest_domain,dest_ip,dest_port,protocol,uri,action,bytes_in
+2026-07-14T14:00:14Z,WEB-EDGE-01,NT AUTHORITY\SYSTEM,w3wp.exe,4120,ocsp.digicert.com,192.0.2.40,80,tcp,/,allowed,1024
+2026-07-14T14:02:16Z,WEB-EDGE-01,IIS APPPOOL\DefaultAppPool,powershell.exe,7932,cdn-sync.example,192.0.2.210,443,tcp,/assets/v3.dat,allowed,184320
+2026-07-14T14:02:19Z,WEB-EDGE-01,IIS APPPOOL\DefaultAppPool,certutil.exe,8016,cdn-sync.example,192.0.2.210,443,tcp,/assets/v3.dat,allowed,184320
+2026-07-14T14:03:08Z,WEB-EDGE-02,NT AUTHORITY\SYSTEM,powershell.exe,6332,intranet.weblab.example,10.40.50.12,443,tcp,/ops/apppool,allowed,862
+2026-07-14T14:04:16Z,WEB-EDGE-01,NT AUTHORITY\SYSTEM,powershell.exe,8524,monitor-01.weblab.example,10.40.50.20,443,tcp,/metrics/submit,allowed,4412
+2026-07-14T14:05:03Z,MONITOR-01,NT AUTHORITY\SYSTEM,powershell.exe,4420,web-edge-01.weblab.example,10.40.10.21,5985,tcp,/wsman,allowed,2112
+2026-07-14T14:06:46Z,WEB-EDGE-01,WEBLAB\admin.jlee,powershell.exe,9344,intranet.weblab.example,10.40.50.12,443,tcp,/ops/health,allowed,1337
+2026-07-14T14:07:40Z,SVC-SCAN-01,svc_scan,python3,2104,web-edge-01.weblab.example,10.40.10.21,443,tcp,/server-status,allowed,733
+2026-07-14T14:09:19Z,BACKUP-01,NT AUTHORITY\SYSTEM,robocopy.exe,5312,web-edge-01.weblab.example,10.40.10.21,445,tcp,/c$/inetpub,allowed,552014
+2026-07-14T14:11:20Z,WEB-EDGE-01,WEBLAB\svc_webdeploy,msdeploy.exe,9570,deploy.weblab.example,10.40.50.12,8172,tcp,/msdeploy.axd,allowed,8120
+2026-07-14T14:12:03Z,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,5140,mgmt-01.weblab.example,10.40.50.12,445,tcp,/Packages/company-agent.msi,allowed,9384412
+2026-07-14T14:13:21Z,WEB-EDGE-01,NT AUTHORITY\SYSTEM,powershell.exe,9960,logs.weblab.example,10.40.50.12,443,tcp,/archive,allowed,26144
+2026-07-14T14:14:13Z,DEV-BUILD-03,WEBLAB\svc_build,powershell.exe,7120,artifact-store.weblab.example,10.40.50.12,443,tcp,/artifacts/WebLab.zip,allowed,1424412
