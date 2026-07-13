@@ -1,0 +1,11 @@
+_time,host,target_host,user,logon_type,src_ip,result,auth_package,session_context
+2026-07-14T13:55:00Z,ADMIN-WS-07,WEB-EDGE-01,WEBLAB\admin.jlee,3,10.40.60.47,success,Kerberos,approved administration
+2026-07-14T14:03:00Z,MGMT-01,WEB-EDGE-02,WEBLAB\svc_app_pool,3,10.40.50.12,success,Kerberos,approved application-pool maintenance
+2026-07-14T14:04:10Z,MONITOR-01,WEB-EDGE-01,WEBLAB\svc_monitor,3,10.40.50.20,success,Kerberos,approved monitoring collection
+2026-07-14T14:06:42Z,ADMIN-WS-07,WEB-EDGE-01,WEBLAB\admin.jlee,3,10.40.60.47,success,Kerberos,approved incident triage
+2026-07-14T14:07:39Z,SVC-SCAN-01,WEB-EDGE-01,WEBLAB\svc_scan,3,10.40.50.30,success,Kerberos,approved vulnerability scan
+2026-07-14T14:09:17Z,BACKUP-01,WEB-EDGE-01,WEBLAB\svc_backup,3,10.40.50.25,success,Kerberos,approved backup access
+2026-07-14T14:11:18Z,MGMT-01,WEB-EDGE-01,WEBLAB\svc_webdeploy,3,10.40.50.12,success,Kerberos,approved web deployment
+2026-07-14T14:12:00Z,MGMT-01,APP-API-02,WEBLAB\svc_deploy,3,10.40.50.12,success,Kerberos,approved software deployment
+2026-07-14T14:13:18Z,MGMT-01,WEB-EDGE-01,WEBLAB\svc_logrotate,3,10.40.50.12,success,Kerberos,approved scheduled maintenance
+2026-07-14T14:14:09Z,DEV-BUILD-03,MGMT-01,WEBLAB\svc_build,3,10.40.70.33,success,Kerberos,approved artifact publication
