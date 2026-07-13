@@ -1,0 +1,8 @@
+_time,detection_id,title,host,user,process_name,parent_process_name,severity,status,reason
+2026-07-14T14:02:10Z,ATD-002-001,Suspicious Script Interpreter from Web Application,WEB-EDGE-01,IIS APPPOOL\DefaultAppPool,powershell.exe,cmd.exe,high,new,PowerShell descended from command shell launched by IIS worker
+2026-07-14T14:03:00Z,ATD-002-004,PowerShell on Peer Edge Server,WEB-EDGE-02,NT AUTHORITY\SYSTEM,powershell.exe,services.exe,medium,review,Peer edge server ran service-context PowerShell during app-pool warmup
+2026-07-14T14:04:11Z,ATD-002-005,PowerShell from Service Context on Edge Server,WEB-EDGE-01,NT AUTHORITY\SYSTEM,powershell.exe,services.exe,medium,review,Monitoring script uses PowerShell and creates a local JSON output
+2026-07-14T14:09:05Z,ATD-002-006,Backup Tool Accessed Edge Web Content,BACKUP-01,NT AUTHORITY\SYSTEM,robocopy.exe,powershell.exe,low,review,Backup process copied web configuration from edge server
+2026-07-14T14:11:21Z,ATD-002-007,Command Shell During Deployment,WEB-EDGE-01,WEBLAB\svc_webdeploy,cmd.exe,msdeploy.exe,medium,review,Deployment process used cmd.exe to write a completion marker
+2026-07-14T14:12:01Z,ATD-002-002,PowerShell from Service Context,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,services.exe,medium,review,Rare PowerShell execution under SYSTEM
+2026-07-14T14:13:20Z,ATD-002-003,PowerShell from Scheduled Task,WEB-EDGE-01,NT AUTHORITY\SYSTEM,powershell.exe,taskeng.exe,medium,review,Scheduled PowerShell execution on edge server
