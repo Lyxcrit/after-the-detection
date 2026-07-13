@@ -1,0 +1,15 @@
+_time,host,src_ip,http_method,uri_path,status,bytes_out,user_agent,note
+2026-07-14T13:59:50Z,WEB-EDGE-01,192.0.2.88,GET,/health,200,84,ELB-HealthChecker/2.0,routine health check
+2026-07-14T14:00:11Z,WEB-EDGE-01,198.51.100.44,GET,/,200,5421,Mozilla/5.0,normal browsing
+2026-07-14T14:00:42Z,WEB-EDGE-01,198.51.100.53,GET,/.env,404,312,masscan,commodity scan
+2026-07-14T14:01:03Z,WEB-EDGE-01,198.51.100.53,GET,/wp-login.php,404,312,masscan,commodity scan
+2026-07-14T14:01:44Z,WEB-EDGE-01,203.0.113.77,GET,/api/v1/diagnostics,200,981,curl/8.4.0,pre-exploit probe
+2026-07-14T14:02:03Z,WEB-EDGE-01,203.0.113.77,POST,/api/v1/diagnostics,500,944,curl/8.4.0,failed suspicious request
+2026-07-14T14:02:07Z,WEB-EDGE-01,203.0.113.77,POST,/api/v1/diagnostics,200,1264,curl/8.4.0,likely trigger
+2026-07-14T14:02:35Z,WEB-EDGE-01,192.0.2.88,GET,/health,200,84,ELB-HealthChecker/2.0,routine health check
+2026-07-14T14:03:01Z,WEB-EDGE-02,198.51.100.53,GET,/.git/config,404,289,masscan,scan against peer host
+2026-07-14T14:03:25Z,WEB-EDGE-01,203.0.113.77,GET,/favicon.ico,404,312,curl/8.4.0,returning suspicious source
+2026-07-14T14:05:00Z,WEB-EDGE-01,192.0.2.88,GET,/health,200,84,ELB-HealthChecker/2.0,routine health check
+2026-07-14T14:06:44Z,WEB-EDGE-01,10.40.60.47,GET,/admin/status,200,4122,Mozilla/5.0,approved admin triage
+2026-07-14T14:08:15Z,WEB-EDGE-01,10.40.50.30,GET,/server-status,403,287,Nessus,scheduled vulnerability scan
+2026-07-14T14:13:00Z,WEB-EDGE-01,192.0.2.88,GET,/health,200,84,ELB-HealthChecker/2.0,routine health check
