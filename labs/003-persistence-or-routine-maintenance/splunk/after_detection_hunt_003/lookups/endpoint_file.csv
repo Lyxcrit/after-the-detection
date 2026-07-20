@@ -1,0 +1,9 @@
+_time,host,user,action,file_path,file_name,sha256,source_process,source_process_id,signature_status,note
+2026-07-21T14:00:17Z,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,directory_created,C:\\ProgramData\\WinCache,WinCache,,powershell.exe,7860,n/a,suspicious staging directory
+2026-07-21T14:00:22Z,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,file_created,C:\\ProgramData\\WinCache\\wcache.exe,wcache.exe,9f7b4a3d6d5cb44df5c9d7909d7e8e61769a02da341f5ceaa6e620efdb3434ad,certutil.exe,7904,unsigned,staged payload
+2026-07-21T14:00:27Z,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,file_modified,C:\\ProgramData\\WinCache\\wcache.exe,wcache.exe,9f7b4a3d6d5cb44df5c9d7909d7e8e61769a02da341f5ceaa6e620efdb3434ad,powershell.exe,7860,unsigned,payload finalized
+2026-07-21T14:05:48Z,WEB-EDGE-01,WEBLAB\\admin.jlee,file_created,C:\\Windows\\Temp\\service-state.txt,service-state.txt,5b8cf02a5b1f05a0e4e2fdf384f024cb9f90301d7b1d8f7c13a96cb7fc9083ff,powershell.exe,9208,n/a,admin triage output
+2026-07-21T14:08:24Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,file_created,C:\\ProgramData\\WebLab\\Logs\\iis-20260721.zip,iis-20260721.zip,6fb2b6fd55e9ca69753687c26ea1685a4aa821b29d5eeac9861d3f90b6a199ce,powershell.exe,9612,n/a,routine log archive
+2026-07-21T14:10:18Z,APP-API-02,NT AUTHORITY\\SYSTEM,file_created,C:\\ProgramData\\Deploy\\company-agent.msi,company-agent.msi,df70f8c23a1fd4f62ff13fcbb0348f93fbe2cc49b70ae1e8da9380dd70d28a99,powershell.exe,5120,signed,approved deployment package
+2026-07-21T14:10:27Z,APP-API-02,NT AUTHORITY\\SYSTEM,file_created,C:\\Program Files\\Company\\agent.exe,agent.exe,6a4f6b18e6dca9b5f5cc53629930d57b5fd9d8259f7550d6aee41a379227f69a,msiexec.exe,5268,signed,approved installed binary
+2026-07-21T14:12:08Z,WEB-EDGE-02,NT AUTHORITY\\SYSTEM,file_created,C:\\ProgramData\\WebLab\\Logs\\iis-20260721.zip,iis-20260721.zip,6fb2b6fd55e9ca69753687c26ea1685a4aa821b29d5eeac9861d3f90b6a199ce,powershell.exe,6020,n/a,peer routine log archive
