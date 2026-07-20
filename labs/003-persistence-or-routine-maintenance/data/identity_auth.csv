@@ -1,0 +1,8 @@
+_time,host,target_host,user,logon_type,src_ip,result,auth_package,session_context,note
+2026-07-21T13:45:00Z,ADMIN-WS-07,WEB-EDGE-01,WEBLAB\\admin.jlee,3,10.40.60.47,success,Kerberos,approved administration,baseline admin access
+2026-07-21T14:05:40Z,ADMIN-WS-07,WEB-EDGE-01,WEBLAB\\admin.jlee,3,10.40.60.47,success,Kerberos,approved incident triage,admin response
+2026-07-21T14:08:30Z,BACKUP-01,WEB-EDGE-01,WEBLAB\\svc_backup,3,10.40.50.20,success,Kerberos,approved backup,backup activity
+2026-07-21T14:10:14Z,MGMT-01,APP-API-02,WEBLAB\\svc_deploy,3,10.40.50.12,success,Kerberos,approved software deployment,deployment
+2026-07-21T14:12:02Z,BACKUP-01,WEB-EDGE-02,WEBLAB\\svc_backup,3,10.40.50.20,success,Kerberos,approved backup,peer backup activity
+2026-07-21T14:16:01Z,WEB-EDGE-01,APP-API-02,IIS APPPOOL\\DefaultAppPool,3,10.40.10.21,failure,NTLM,unknown,possible credential test but failed
+2026-07-21T14:20:00Z,MGMT-01,WEB-EDGE-01,WEBLAB\\svc_monitor,3,10.40.50.12,success,Kerberos,monitoring collection,monitoring noise
