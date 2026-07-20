@@ -1,0 +1,10 @@
+_time,host,src_ip,http_method,uri_path,status,user_agent,note
+2026-07-21T13:55:01Z,WEB-EDGE-01,192.0.2.88,GET,/health,200,ELB-HealthChecker/2.0,routine health check
+2026-07-21T13:56:44Z,WEB-EDGE-01,198.51.100.44,GET,/,200,Mozilla/5.0,normal browser
+2026-07-21T13:57:20Z,WEB-EDGE-01,203.0.113.55,GET,/.env,404,masscan,commodity scan
+2026-07-21T14:00:11Z,WEB-EDGE-01,203.0.113.77,POST,/api/v1/diagnostics,500,curl/8.4.0,suspicious request
+2026-07-21T14:00:14Z,WEB-EDGE-01,203.0.113.77,POST,/api/v1/diagnostics,200,curl/8.4.0,likely triggering request
+2026-07-21T14:00:59Z,WEB-EDGE-01,192.0.2.88,GET,/health,200,ELB-HealthChecker/2.0,routine health check
+2026-07-21T14:08:21Z,WEB-EDGE-01,203.0.113.77,GET,/api/v1/diagnostics?mode=status,200,curl/8.4.0,same suspicious source returns
+2026-07-21T14:10:01Z,WEB-EDGE-02,192.0.2.88,GET,/health,200,ELB-HealthChecker/2.0,peer health check
+2026-07-21T14:12:19Z,WEB-EDGE-02,198.51.100.80,GET,/products,200,Mozilla/5.0,normal peer activity
