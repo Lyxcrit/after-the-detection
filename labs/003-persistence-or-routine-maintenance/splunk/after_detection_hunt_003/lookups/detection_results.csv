@@ -1,0 +1,8 @@
+_time,detection_id,title,host,user,process_name,parent_process_name,severity,status,reason
+2026-07-21T14:00:16Z,ATD-003-001,Suspicious Script Interpreter from Web Application,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,powershell.exe,cmd.exe,high,new,PowerShell descended from command shell launched by IIS worker
+2026-07-21T14:02:03Z,ATD-003-002,New Auto-Start Service from Staged Path,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,sc.exe,wcache.exe,critical,new,Service points to unsigned binary staged earlier in the suspicious chain
+2026-07-21T14:05:47Z,ATD-003-003,Administrator Queried Suspicious Service,WEB-EDGE-01,WEBLAB\\admin.jlee,sc.exe,powershell.exe,low,review,Admin triage following alert
+2026-07-21T14:08:20Z,ATD-003-004,Scheduled PowerShell on Edge Server,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,powershell.exe,taskeng.exe,medium,review,Routine scheduled maintenance look-alike
+2026-07-21T14:10:22Z,ATD-003-005,Command Shell During Agent Deployment,APP-API-02,NT AUTHORITY\\SYSTEM,cmd.exe,powershell.exe,medium,review,Approved deployment workflow uses cmd and msiexec
+2026-07-21T14:15:01Z,ATD-003-006,Scanner Touched Diagnostics Endpoint,VULN-SCAN-01,scanner,nuclei,bash,low,review,Authorized vulnerability scan after incident window
+2026-07-21T14:16:01Z,ATD-003-007,Failed Internal Authentication from Edge Host,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,unknown,unknown,medium,review,Failed auth toward APP-API-02; requires scoping but not confirmed lateral movement
