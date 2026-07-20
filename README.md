@@ -40,6 +40,7 @@ Start here:
 - [Lab: New Service After PowerShell](labs/new-service-after-powershell/README.md)
 - [Hunt 001: Edge Exploitation to Persistence](labs/001-edge-exploitation-to-persistence/README.md)
 - [Hunt 002: Process Ancestry and Payload Staging](labs/002-process-ancestry-and-payload-staging/README.md)
+- [Hunt 003: Persistence or Routine Maintenance?](labs/003-persistence-or-routine-maintenance/README.md)
 
 ## Why mock data?
 

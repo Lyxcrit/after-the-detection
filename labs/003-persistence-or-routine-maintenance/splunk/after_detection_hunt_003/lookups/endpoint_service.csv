@@ -1,0 +1,7 @@
+_time,host,user,event_id,service_name,display_name,image_path,start_type,action,source_process,source_process_id,signature_status,note
+2026-07-21T14:02:03Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,7045,WindowsCacheSync,Windows Cache Synchronization,C:\\ProgramData\\WinCache\\wcache.exe,auto,created,sc.exe,8468,unsigned,malicious persistence candidate
+2026-07-21T14:02:10Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,7036,WindowsCacheSync,Windows Cache Synchronization,C:\\ProgramData\\WinCache\\wcache.exe,auto,started,services.exe,760,unsigned,service started
+2026-07-21T14:10:28Z,APP-API-02,NT AUTHORITY\\SYSTEM,7045,CompanyMonitoringAgent,Company Monitoring Agent,C:\\Program Files\\Company\\agent.exe,auto,created,msiexec.exe,5268,signed,approved deployment
+2026-07-21T14:10:33Z,APP-API-02,NT AUTHORITY\\SYSTEM,7036,CompanyMonitoringAgent,Company Monitoring Agent,C:\\Program Files\\Company\\agent.exe,auto,started,services.exe,744,signed,approved service start
+2026-07-21T14:12:15Z,WEB-EDGE-02,NT AUTHORITY\\SYSTEM,7036,W3SVC,World Wide Web Publishing Service,C:\\Windows\\System32\\svchost.exe -k iissvcs,auto,restarted,services.exe,760,signed,peer IIS restart
+2026-07-21T14:18:00Z,WEB-EDGE-01,WEBLAB\\admin.jlee,7036,W3SVC,World Wide Web Publishing Service,C:\\Windows\\System32\\svchost.exe -k iissvcs,auto,restarted,services.exe,760,signed,admin response restart

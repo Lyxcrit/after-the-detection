@@ -1,0 +1,5 @@
+_time,host,task_name,task_path,user,action,process_name,process_id,note
+2026-07-21T13:30:00Z,WEB-EDGE-01,WebLogRotation,\\WebLab\\WebLogRotation,NT AUTHORITY\\SYSTEM,registered,taskeng.exe,1480,existing routine maintenance
+2026-07-21T14:08:20Z,WEB-EDGE-01,WebLogRotation,\\WebLab\\WebLogRotation,NT AUTHORITY\\SYSTEM,started,taskeng.exe,1480,scheduled execution
+2026-07-21T14:12:04Z,WEB-EDGE-02,WebLogRotation,\\WebLab\\WebLogRotation,NT AUTHORITY\\SYSTEM,started,taskeng.exe,1404,peer scheduled execution
+2026-07-21T14:20:00Z,WEB-EDGE-01,BackupInventory,\\Infrastructure\\BackupInventory,WEBLAB\\svc_backup,started,taskeng.exe,1552,backup inventory noise

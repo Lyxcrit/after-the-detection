@@ -1,0 +1,8 @@
+host,ip,role,os,owner,criticality,internet_facing,peer_group
+WEB-EDGE-01,10.40.10.21,Public web application server,Windows Server 2022,Web Platform,high,true,web_edge
+WEB-EDGE-02,10.40.10.22,Public web application server,Windows Server 2022,Web Platform,high,true,web_edge
+APP-API-02,10.40.20.32,Internal application API server,Windows Server 2022,Application Team,high,false,app_api
+MGMT-01,10.40.50.12,Software deployment and monitoring server,Windows Server 2022,Infrastructure,high,false,management
+BACKUP-01,10.40.50.20,Backup server,Windows Server 2022,Infrastructure,high,false,management
+VULN-SCAN-01,10.40.50.30,Vulnerability scanner,Linux,Security Engineering,medium,false,security_tools
+ADMIN-WS-07,10.40.60.47,Administrator workstation,Windows 11,Infrastructure,medium,false,workstation

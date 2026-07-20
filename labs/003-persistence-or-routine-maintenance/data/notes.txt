@@ -1,0 +1,3 @@
+Hunt 003 dataset and Splunk lab app were assembled as a guided, moderate-noise weekly hunt.
+
+Run python3 validate_lab.py from this directory after cloning the branch to validate required CSV headers and Splunk lookup presence.
