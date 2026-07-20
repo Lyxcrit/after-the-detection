@@ -1,0 +1,12 @@
+{
+  "hunt_id": "003",
+  "slug": "003-persistence-or-routine-maintenance",
+  "title": "Persistence or Routine Maintenance?",
+  "difficulty": "Guided, moderate noise",
+  "expected_minutes": "15-20",
+  "monthly_arc": "July 2026 — Edge Exploitation",
+  "linkedin_theme": "Persistence is a relationship, not a registry key",
+  "has_splunk_lab_app": true,
+  "primary_host": "WEB-EDGE-01",
+  "starting_detection": "ATD-003-002"
+}
