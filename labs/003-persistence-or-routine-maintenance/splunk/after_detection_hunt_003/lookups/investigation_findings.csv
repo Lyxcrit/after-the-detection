@@ -1,0 +1,11 @@
+finding_id,finding_type,host,entity,evidence_summary,expected_decision,analyst_decision
+F-001,entry_context,WEB-EDGE-01,POST /api/v1/diagnostics,Likely triggering request from 203.0.113.77 immediately precedes IIS-descended shell and PowerShell,escalate,
+F-002,process_lineage,WEB-EDGE-01,w3wp.exe -> cmd.exe -> powershell.exe -> certutil.exe,Execution originates from web app context and stages a payload,escalate,
+F-003,payload_staging,WEB-EDGE-01,C:\\ProgramData\\WinCache\\wcache.exe,Unsigned payload written by certutil in suspicious chain,escalate,
+F-004,persistence,WEB-EDGE-01,WindowsCacheSync,Auto-start service points to staged unsigned payload and starts successfully,escalate,
+F-005,callback,WEB-EDGE-01,cdn-sync.example /api/register,Service-launched payload calls external infrastructure after service start,escalate,
+F-006,admin_triage,WEB-EDGE-01,Collect-ServiceState.ps1,Interactive admin reviews suspicious service after alert; do not treat as attacker activity without more evidence,context,
+F-007,scheduled_maintenance,WEB-EDGE-01,WebLogRotation,Scheduled log rotation and backup activity also seen on peer host,context,
+F-008,approved_deployment,APP-API-02,CompanyMonitoringAgent,Signed agent deployment from MGMT-01 uses service-context PowerShell/cmd/msiexec,context,
+F-009,authorized_scan,VULN-SCAN-01,nuclei scan,Scanner hits diagnostics endpoint after the suspicious chain; timing and source differ,context,
+F-010,failed_scope,WEB-EDGE-01 -> APP-API-02,Failed NTLM authentication from edge host needs scoping but does not prove lateral movement,investigate,
