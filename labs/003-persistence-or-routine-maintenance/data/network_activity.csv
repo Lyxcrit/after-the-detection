@@ -1,0 +1,9 @@
+_time,host,user,process_name,process_id,dest_domain,dest_ip,dest_port,protocol,uri,action,bytes_in,note
+2026-07-21T14:00:20Z,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,powershell.exe,7860,cdn-sync.example,192.0.2.210,443,tcp,/bin/wcache.dat,allowed,184320,suspicious staging download
+2026-07-21T14:00:22Z,WEB-EDGE-01,IIS APPPOOL\\DefaultAppPool,certutil.exe,7904,cdn-sync.example,192.0.2.210,443,tcp,/bin/wcache.dat,allowed,184320,suspicious staging download
+2026-07-21T14:02:17Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,wcache.exe,8556,cdn-sync.example,192.0.2.210,443,tcp,/api/register,allowed,612,service callback
+2026-07-21T14:06:01Z,WEB-EDGE-01,WEBLAB\\admin.jlee,powershell.exe,9208,intranet.weblab.example,10.40.50.12,443,tcp,/ops/service-state,allowed,1337,admin triage
+2026-07-21T14:08:33Z,WEB-EDGE-01,NT AUTHORITY\\SYSTEM,robocopy.exe,9664,backup-01.weblab.example,10.40.50.20,445,tcp,/edge-web-logs,allowed,1048576,routine backup
+2026-07-21T14:10:18Z,APP-API-02,NT AUTHORITY\\SYSTEM,powershell.exe,5120,mgmt-01.weblab.example,10.40.50.12,445,tcp,/Packages/company-agent.msi,allowed,9384412,approved deployment
+2026-07-21T14:12:08Z,WEB-EDGE-02,NT AUTHORITY\\SYSTEM,powershell.exe,6020,backup-01.weblab.example,10.40.50.20,445,tcp,/edge-web-logs,allowed,1048576,peer backup
+2026-07-21T14:15:01Z,VULN-SCAN-01,scanner,nuclei,1180,web-edge-01.example.com,10.40.10.21,443,tcp,/api/v1/diagnostics,allowed,2048,authorized scan
