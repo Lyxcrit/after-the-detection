@@ -7,6 +7,12 @@ on:
     paths:
       - labs/004-july-2026-edge-exploitation-capstone/generate_large_dataset.py
       - .github/workflows/generate-july-2026-capstone.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - labs/004-july-2026-edge-exploitation-capstone/generate_large_dataset.py
+      - .github/workflows/generate-july-2026-capstone.yml
   workflow_dispatch:
 
 permissions:
@@ -16,9 +22,10 @@ jobs:
   generate-and-validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out branch
+      - name: Check out source branch
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.head_ref || github.ref_name }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -57,4 +64,4 @@ jobs:
             exit 0
           fi
           git commit -m "Add July 2026 monthly capstone data"
-          git push
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
