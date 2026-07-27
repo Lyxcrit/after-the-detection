@@ -1,0 +1,60 @@
+name: Generate July 2026 monthly capstone
+
+on:
+  push:
+    branches:
+      - agent/add-july-2026-monthly-capstone
+    paths:
+      - labs/004-july-2026-edge-exploitation-capstone/generate_large_dataset.py
+      - .github/workflows/generate-july-2026-capstone.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate 130,000 synthetic records
+        run: python3 labs/004-july-2026-edge-exploitation-capstone/generate_large_dataset.py
+
+      - name: Validate capstone
+        run: python3 labs/004-july-2026-edge-exploitation-capstone/validate_lab.py
+
+      - name: Add capstone to repository index
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path("README.md")
+          text = path.read_text(encoding="utf-8")
+          entry = "- [Hunt 004: July 2026 Edge Exploitation Monthly Capstone](labs/004-july-2026-edge-exploitation-capstone/README.md)"
+          anchor = "- [Hunt 003: Persistence or Routine Maintenance?](labs/003-persistence-or-routine-maintenance/README.md)"
+          if entry not in text:
+              if anchor not in text:
+                  raise SystemExit("README anchor for Hunt 003 was not found")
+              text = text.replace(anchor, anchor + "\n" + entry)
+              path.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Commit generated lab
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md labs/004-july-2026-edge-exploitation-capstone
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+          git commit -m "Add July 2026 monthly capstone data"
+          git push
