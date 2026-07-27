@@ -41,6 +41,7 @@ Start here:
 - [Hunt 001: Edge Exploitation to Persistence](labs/001-edge-exploitation-to-persistence/README.md)
 - [Hunt 002: Process Ancestry and Payload Staging](labs/002-process-ancestry-and-payload-staging/README.md)
 - [Hunt 003: Persistence or Routine Maintenance?](labs/003-persistence-or-routine-maintenance/README.md)
+- [Hunt 004: July 2026 Edge Exploitation Monthly Capstone](labs/004-july-2026-edge-exploitation-capstone/README.md)
 
 ## Why mock data?
 
