@@ -1,0 +1,5 @@
+<form version="1.1" theme="dark">
+  <label>Hunt 005 — The Work Is in the Pivots</label>
+  <row><panel><table><search><query>| inputlookup detection_results.csv | search detection_id="ATD-005-001" OR expected_decision="escalate" | table _time severity detection_id title host user process_name reason expected_decision</query></search></table></panel></row>
+  <row><panel><table><search><query>| inputlookup investigation_findings.csv | search finding_id IN ("F-001","F-002","F-003","F-004","F-005","F-006","F-007") | table finding_id finding_type host entity evidence_summary expected_decision expected_confidence</query></search></table></panel></row>
+</form>

@@ -1,0 +1,4 @@
+<nav search_view="search">
+  <view name="hunt_005_overview" default="true" />
+  <view name="search" />
+</nav>

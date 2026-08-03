@@ -1,0 +1,17 @@
+{
+  "seed": 20260803,
+  "rows_per_lookup": 1500,
+  "lookup_count": 12,
+  "confirmed_compromised": [
+    "ADMIN-WS-07"
+  ],
+  "scope_only": [
+    "APP-API-02"
+  ],
+  "starting_detection": "ATD-005-001",
+  "decisive_evidence": [
+    "LSASS dump created by procdump64.exe",
+    "persistence points to unsigned DLL",
+    "task-launched callback to cdn-tools.example"
+  ]
+}
