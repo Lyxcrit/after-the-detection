@@ -1,0 +1,46 @@
+name: Generate Hunt 005
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - labs/005-investigation-work-alert-to-evidence/generate_lab.py
+      - .github/workflows/generate-hunt-005.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Hunt 005
+        run: python3 labs/005-investigation-work-alert-to-evidence/generate_lab.py
+
+      - name: Validate Hunt 005
+        run: python3 labs/005-investigation-work-alert-to-evidence/validate_lab.py
+
+      - name: Commit generated lab
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md labs/005-investigation-work-alert-to-evidence
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+          git commit -m "Add Hunt 005 generated lab data"
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
