@@ -1,0 +1,162 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "c49129d6cca15cc63b4c066d03496365d2a943bc953ec4121fd92f6310c53435",
+    "bytes": 917
+  },
+  {
+    "path": "analyst-hunt-guide.md",
+    "sha256": "aa1e802a634e6e82ddcb365e0daf9d0be6130f56de8e4b5a358b13140577c16e",
+    "bytes": 457
+  },
+  {
+    "path": "answer-key.json",
+    "sha256": "02407064af9c9d8f6a20ebe9f445ade43b892c723d7b699d08b21afcf4ac68b1",
+    "bytes": 325
+  },
+  {
+    "path": "attack-narrative.md",
+    "sha256": "6332799dff2e1ead4c1269bfcffcbd5b4262e62017cafdc4531076b68aac1b5b",
+    "bytes": 512
+  },
+  {
+    "path": "data/asset_inventory.csv",
+    "sha256": "6e0a8a00665675ea67748907058198e5fd0b326a80cb69038b23e8252dba4401",
+    "bytes": 140866
+  },
+  {
+    "path": "data/detection_results.csv",
+    "sha256": "712ce9ac1005242a66ebd2858a2d9bf3a2d92a4e94c8fa1b3ef4e796856490a8",
+    "bytes": 173350
+  },
+  {
+    "path": "data/endpoint_file.csv",
+    "sha256": "bdea28e537cf243a5b925dec2fa52c2968abcb02f9c54f1ae84990645da9a28e",
+    "bytes": 180095
+  },
+  {
+    "path": "data/endpoint_process.csv",
+    "sha256": "5a1d6a3f371e09d9573af474ff6bd8471b0981683750ab17051d0cfe888d4b17",
+    "bytes": 193806
+  },
+  {
+    "path": "data/identity_auth.csv",
+    "sha256": "ad3cae9264f792181fccf1b6b459ea958eab21b1c8532e91799da3f40b04bac2",
+    "bytes": 186382
+  },
+  {
+    "path": "data/investigation_findings.csv",
+    "sha256": "c9ffa500f2b1bc38e2cf3b8846785bce2dbbde1b715b20c6d2b10e65f90ee4a4",
+    "bytes": 95923
+  },
+  {
+    "path": "data/network_activity.csv",
+    "sha256": "884cada2b9163bed4c9340fc3122b8f7b4ed87a1173d21af7ec3dd2bb2513f4f",
+    "bytes": 182708
+  },
+  {
+    "path": "data/response_activity.csv",
+    "sha256": "8a8968b9e77530a458eea8af74f9ba58a9f78e23d57bb5f448b88c38df1bb456",
+    "bytes": 145548
+  },
+  {
+    "path": "data-dictionary.md",
+    "sha256": "f0e44efa54bd87927b98b56fab83cb2b24b8f577d1dd490922b825671322fac5",
+    "bytes": 338
+  },
+  {
+    "path": "generate_lab.py",
+    "sha256": "80cc0d82c571777c08688cf8d6b70f7e67aed94840c8bf492ce4b5a50ec4c6a7",
+    "bytes": 19719
+  },
+  {
+    "path": "investigation-worksheet.md",
+    "sha256": "67764db95944dfde8051526411429cb9ca73cd980c9daf4de7c3e122823e3f31",
+    "bytes": 343
+  },
+  {
+    "path": "response-plan.md",
+    "sha256": "070ca31da8146563fa45422ee876390aac1aaee50cfe8d8548ff20f52376c8c1",
+    "bytes": 598
+  },
+  {
+    "path": "sample-spl.md",
+    "sha256": "d1486ae3f7f020b0b9a7e0968d19d5bca0809b223c60bb4b5af4d62fa1ef4ff1",
+    "bytes": 447
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/README.md",
+    "sha256": "3c1269ba6cb97e0b84afe8c799c8f4a85186c7232ed35290f76afd491bdc3ac0",
+    "bytes": 166
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/default/app.conf",
+    "sha256": "4f4e8c0103552a89f490559fcb024f2c413a0a356d4bc902681ecd607366e2c7",
+    "bytes": 206
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/default/data/ui/nav/default.xml",
+    "sha256": "aa931527cd71b12c93c1c377c71106ecbbe2fff032f146d4f1898125fd8bc0ad",
+    "bytes": 101
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/default/data/ui/views/hunt_006_overview.xml",
+    "sha256": "53b8456c134e3597958a7d162c524494aaffb39602d1734eb4940a12650c5f8d",
+    "bytes": 308
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/lookups/asset_inventory.csv",
+    "sha256": "6e0a8a00665675ea67748907058198e5fd0b326a80cb69038b23e8252dba4401",
+    "bytes": 140866
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/lookups/detection_results.csv",
+    "sha256": "712ce9ac1005242a66ebd2858a2d9bf3a2d92a4e94c8fa1b3ef4e796856490a8",
+    "bytes": 173350
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/lookups/endpoint_file.csv",
+    "sha256": "bdea28e537cf243a5b925dec2fa52c2968abcb02f9c54f1ae84990645da9a28e",
+    "bytes": 180095
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/lookups/endpoint_process.csv",
+    "sha256": "5a1d6a3f371e09d9573af474ff6bd8471b0981683750ab17051d0cfe888d4b17",
+    "bytes": 193806
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/lookups/identity_auth.csv",
+    "sha256": "ad3cae9264f792181fccf1b6b459ea958eab21b1c8532e91799da3f40b04bac2",
+    "bytes": 186382
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/lookups/investigation_findings.csv",
+    "sha256": "c9ffa500f2b1bc38e2cf3b8846785bce2dbbde1b715b20c6d2b10e65f90ee4a4",
+    "bytes": 95923
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/lookups/network_activity.csv",
+    "sha256": "884cada2b9163bed4c9340fc3122b8f7b4ed87a1173d21af7ec3dd2bb2513f4f",
+    "bytes": 182708
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/lookups/response_activity.csv",
+    "sha256": "8a8968b9e77530a458eea8af74f9ba58a9f78e23d57bb5f448b88c38df1bb456",
+    "bytes": 145548
+  },
+  {
+    "path": "splunk/after_detection_hunt_006/metadata/default.meta",
+    "sha256": "8e0c1f78b2c3e4414fa4f50f758b886f74570c880cd91f0b12cd1dba251aa8ea",
+    "bytes": 60
+  },
+  {
+    "path": "validate_lab.py",
+    "sha256": "597403dda32714c541d77bc922d599f7cd3e083f1c8cddf3f0994b8592caf52c",
+    "bytes": 714
+  },
+  {
+    "path": "validation-report.md",
+    "sha256": "fdb3a3ebdf66ab983d880a3814a37c74df839fef944e1d8bbf20b22a9cb43139",
+    "bytes": 256
+  }
+]
