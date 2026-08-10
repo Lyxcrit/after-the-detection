@@ -1,0 +1,61 @@
+name: Generate Hunt 006
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - labs/006-scope-after-failed-lateral-movement/generate_lab.py
+      - .github/workflows/generate-hunt-006.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Hunt 006
+        run: python3 labs/006-scope-after-failed-lateral-movement/generate_lab.py
+
+      - name: Validate Hunt 006
+        run: python3 labs/006-scope-after-failed-lateral-movement/validate_lab.py
+
+      - name: Add Hunt 006 to repository index
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("README.md")
+          text = p.read_text(encoding="utf-8")
+          anchor = "- [Hunt 005: The Work Is in the Pivots](labs/005-investigation-work-alert-to-evidence/README.md)"
+          entry = "- [Hunt 006: Scope After Failed Lateral Movement](labs/006-scope-after-failed-lateral-movement/README.md)"
+          if entry not in text:
+              if anchor not in text:
+                  raise SystemExit("Hunt 005 README anchor not found")
+              text = text.replace(anchor, anchor + "\n" + entry)
+              p.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Commit generated lab
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md labs/006-scope-after-failed-lateral-movement
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+          git commit -m "Add Hunt 006 generated lab data"
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
