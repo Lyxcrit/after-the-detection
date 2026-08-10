@@ -1,0 +1,13 @@
+{
+  "seed": 20260810,
+  "rows_per_lookup": 1500,
+  "lookup_count": 8,
+  "confirmed_compromised": [
+    "FIN-WS-14"
+  ],
+  "scope_required_not_confirmed": [
+    "APP-API-02",
+    "APP-API-03"
+  ],
+  "key_decision": "Failed WinRM from a confirmed compromised host is attempted movement, not proof of destination compromise."
+}

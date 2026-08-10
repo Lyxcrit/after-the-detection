@@ -1,0 +1,1501 @@
+detection_id,_time,severity,title,host,user,expected_decision,note
+ATD-006-00785,2026-08-11T13:01:30Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00590,2026-08-11T13:33:43Z,medium,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01196,2026-08-11T13:35:05Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01195,2026-08-11T13:37:05Z,medium,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00458,2026-08-11T13:45:09Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01221,2026-08-11T13:48:52Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00136,2026-08-11T13:53:44Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00588,2026-08-11T14:09:31Z,medium,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00335,2026-08-11T14:15:03Z,medium,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-01238,2026-08-11T14:26:22Z,medium,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01147,2026-08-11T14:29:42Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00048,2026-08-11T14:30:17Z,medium,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00570,2026-08-11T14:31:05Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00969,2026-08-11T14:33:56Z,low,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00852,2026-08-11T14:36:06Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00380,2026-08-11T14:37:56Z,low,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00558,2026-08-11T14:40:54Z,low,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00466,2026-08-11T14:47:37Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00604,2026-08-11T14:58:33Z,low,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01236,2026-08-11T15:07:23Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00088,2026-08-11T15:08:05Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00550,2026-08-11T15:08:59Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01006,2026-08-11T15:13:27Z,low,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01396,2026-08-11T15:17:07Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-005,2026-08-11T15:18:00Z,critical,Known Compromise on FIN-WS-14,FIN-WS-14,ACME\mrivera,confirmed,source host already confirmed
+ATD-006-001,2026-08-11T15:23:00Z,high,WinRM Attempt from Confirmed Compromised Host,APP-API-02,ACME\mrivera,scope,failed auth; destination not confirmed compromised
+ATD-006-002,2026-08-11T15:23:18Z,high,Second WinRM Attempt from Confirmed Compromised Host,APP-API-03,ACME\mrivera,scope,failed auth
+ATD-006-003,2026-08-11T15:25:00Z,medium,Successful WinRM to APP-API-02,APP-API-02,ACME\svc_deploy,context,approved deployment
+ATD-006-01213,2026-08-11T15:28:03Z,low,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01143,2026-08-11T15:30:03Z,medium,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-004,2026-08-11T15:35:00Z,medium,Interactive Admin on Scoped Host,APP-API-02,ACME\jsmith,response,authorized responder
+ATD-006-00428,2026-08-11T15:40:08Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00934,2026-08-11T15:44:03Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00640,2026-08-11T16:03:15Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00915,2026-08-11T16:05:49Z,low,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01285,2026-08-11T16:16:39Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00545,2026-08-11T16:33:38Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01070,2026-08-11T16:39:19Z,medium,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01415,2026-08-11T16:39:46Z,medium,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00151,2026-08-11T16:44:59Z,low,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00434,2026-08-11T16:48:30Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01364,2026-08-11T16:52:01Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00753,2026-08-11T17:00:19Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00453,2026-08-11T17:04:32Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00087,2026-08-11T17:26:59Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00947,2026-08-11T17:38:40Z,low,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00778,2026-08-11T17:40:20Z,medium,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01445,2026-08-11T17:42:30Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00671,2026-08-11T17:44:33Z,low,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00792,2026-08-11T17:47:15Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00487,2026-08-11T18:00:15Z,low,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00821,2026-08-11T18:04:01Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00670,2026-08-11T18:05:39Z,medium,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00276,2026-08-11T18:06:59Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00906,2026-08-11T18:08:37Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00973,2026-08-11T18:08:44Z,medium,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01060,2026-08-11T18:10:42Z,medium,Failed Remote Auth Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00757,2026-08-11T18:30:23Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01077,2026-08-11T18:33:22Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01209,2026-08-11T18:35:13Z,low,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01071,2026-08-11T18:42:57Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01183,2026-08-11T18:44:49Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00749,2026-08-11T18:45:41Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00968,2026-08-11T18:46:43Z,low,Failed Remote Auth Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01231,2026-08-11T18:48:10Z,medium,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00974,2026-08-11T18:56:37Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00292,2026-08-11T18:58:51Z,low,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00026,2026-08-11T19:04:24Z,medium,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00184,2026-08-11T19:06:11Z,low,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00099,2026-08-11T19:12:11Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01187,2026-08-11T19:27:29Z,low,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00275,2026-08-11T19:37:26Z,medium,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00220,2026-08-11T19:42:16Z,medium,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00251,2026-08-11T19:53:29Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00549,2026-08-11T19:54:54Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00339,2026-08-11T19:57:23Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01427,2026-08-11T20:02:12Z,medium,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00226,2026-08-11T20:02:56Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01164,2026-08-11T20:10:29Z,medium,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01374,2026-08-11T20:13:50Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00813,2026-08-11T20:22:30Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00798,2026-08-11T20:24:17Z,medium,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01453,2026-08-11T20:29:41Z,low,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00070,2026-08-11T20:32:55Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01462,2026-08-11T20:33:39Z,low,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01246,2026-08-11T20:45:17Z,low,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00856,2026-08-11T20:48:04Z,medium,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00907,2026-08-11T20:53:13Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01036,2026-08-11T20:58:12Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00916,2026-08-11T21:04:08Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00529,2026-08-11T21:06:04Z,medium,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00243,2026-08-11T21:16:03Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00310,2026-08-11T21:20:16Z,low,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00173,2026-08-11T21:26:57Z,low,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00383,2026-08-11T21:37:39Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01323,2026-08-11T21:37:43Z,medium,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01085,2026-08-11T21:39:19Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00089,2026-08-11T21:43:00Z,medium,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00711,2026-08-11T21:56:03Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00585,2026-08-11T21:58:20Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00479,2026-08-11T22:13:26Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00177,2026-08-11T22:16:59Z,low,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00527,2026-08-11T22:27:20Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00127,2026-08-11T22:39:02Z,low,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01503,2026-08-11T22:54:53Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00568,2026-08-11T22:59:55Z,medium,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00373,2026-08-11T23:00:56Z,low,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00410,2026-08-11T23:07:44Z,low,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00633,2026-08-11T23:15:41Z,low,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00142,2026-08-11T23:20:03Z,low,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01112,2026-08-11T23:22:04Z,low,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01191,2026-08-11T23:23:43Z,medium,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00595,2026-08-11T23:24:21Z,medium,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01096,2026-08-11T23:29:14Z,medium,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00961,2026-08-11T23:35:57Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01416,2026-08-11T23:44:18Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00281,2026-08-11T23:44:31Z,medium,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00955,2026-08-11T23:48:24Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00299,2026-08-11T23:49:37Z,low,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01152,2026-08-11T23:51:26Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01381,2026-08-12T00:04:59Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01335,2026-08-12T00:11:07Z,medium,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01280,2026-08-12T00:12:55Z,low,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01027,2026-08-12T00:21:10Z,low,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00811,2026-08-12T00:24:57Z,medium,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01054,2026-08-12T00:25:03Z,low,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00920,2026-08-12T00:30:05Z,medium,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00498,2026-08-12T00:30:41Z,medium,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01030,2026-08-12T00:32:10Z,medium,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00665,2026-08-12T00:33:34Z,low,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00209,2026-08-12T00:48:34Z,low,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00446,2026-08-12T00:48:46Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00834,2026-08-12T00:56:10Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00583,2026-08-12T00:58:49Z,medium,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00598,2026-08-12T01:02:02Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00200,2026-08-12T01:17:24Z,medium,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00286,2026-08-12T01:23:38Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00015,2026-08-12T01:25:06Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00301,2026-08-12T01:39:52Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01420,2026-08-12T01:42:31Z,low,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01336,2026-08-12T01:48:10Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00876,2026-08-12T01:49:21Z,low,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00091,2026-08-12T01:58:02Z,medium,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00729,2026-08-12T01:59:06Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00779,2026-08-12T02:02:07Z,low,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00124,2026-08-12T02:08:19Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01315,2026-08-12T02:09:07Z,medium,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00181,2026-08-12T02:15:14Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01292,2026-08-12T02:18:07Z,medium,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00451,2026-08-12T02:27:23Z,medium,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01337,2026-08-12T02:38:21Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01291,2026-08-12T02:40:13Z,medium,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00542,2026-08-12T02:48:16Z,low,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00727,2026-08-12T02:56:23Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00898,2026-08-12T02:57:55Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00421,2026-08-12T03:03:56Z,low,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01378,2026-08-12T03:10:01Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00055,2026-08-12T03:12:27Z,low,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01368,2026-08-12T03:25:28Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01134,2026-08-12T03:29:29Z,low,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01252,2026-08-12T03:34:03Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01383,2026-08-12T03:38:30Z,medium,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00626,2026-08-12T03:42:22Z,low,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01444,2026-08-12T03:45:00Z,medium,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01303,2026-08-12T03:54:52Z,medium,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00617,2026-08-12T04:04:14Z,low,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00046,2026-08-12T04:05:08Z,medium,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01332,2026-08-12T04:06:42Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00657,2026-08-12T04:08:03Z,low,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00904,2026-08-12T04:11:21Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01402,2026-08-12T04:24:20Z,low,Failed Remote Auth Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01064,2026-08-12T04:30:24Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00247,2026-08-12T04:46:22Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01301,2026-08-12T04:47:10Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00156,2026-08-12T05:11:30Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00996,2026-08-12T05:14:38Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01482,2026-08-12T05:18:07Z,medium,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00939,2026-08-12T05:32:34Z,low,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00758,2026-08-12T05:36:39Z,low,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01093,2026-08-12T05:37:23Z,medium,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00013,2026-08-12T05:48:54Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00476,2026-08-12T05:50:07Z,medium,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00630,2026-08-12T06:14:39Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00513,2026-08-12T06:19:01Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01300,2026-08-12T06:22:51Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01038,2026-08-12T06:31:43Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01227,2026-08-12T06:36:27Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01455,2026-08-12T06:37:14Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00554,2026-08-12T06:47:21Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00860,2026-08-12T06:48:07Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01288,2026-08-12T06:54:51Z,low,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00965,2026-08-12T06:56:10Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00681,2026-08-12T07:01:11Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01268,2026-08-12T07:05:23Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00494,2026-08-12T07:11:16Z,low,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01055,2026-08-12T07:20:39Z,medium,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00279,2026-08-12T07:31:22Z,medium,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00256,2026-08-12T07:33:38Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00691,2026-08-12T07:35:27Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01233,2026-08-12T07:37:25Z,medium,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00073,2026-08-12T07:37:47Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00858,2026-08-12T07:39:00Z,medium,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-01066,2026-08-12T07:41:23Z,medium,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00162,2026-08-12T07:45:09Z,low,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01091,2026-08-12T07:50:35Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01146,2026-08-12T07:57:00Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00862,2026-08-12T08:00:15Z,medium,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01277,2026-08-12T08:00:45Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00486,2026-08-12T08:02:48Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00967,2026-08-12T08:27:02Z,low,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00999,2026-08-12T08:29:15Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00021,2026-08-12T08:37:34Z,medium,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00794,2026-08-12T08:38:09Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00943,2026-08-12T08:58:58Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00956,2026-08-12T09:04:03Z,medium,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01270,2026-08-12T09:05:54Z,medium,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00366,2026-08-12T09:05:58Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00132,2026-08-12T09:15:33Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00248,2026-08-12T09:16:41Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01473,2026-08-12T09:19:31Z,low,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00962,2026-08-12T09:21:05Z,medium,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00028,2026-08-12T09:23:40Z,medium,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00979,2026-08-12T09:31:09Z,medium,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00232,2026-08-12T09:32:41Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00160,2026-08-12T09:45:03Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00829,2026-08-12T10:04:41Z,medium,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01052,2026-08-12T10:07:10Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01316,2026-08-12T10:07:57Z,medium,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00484,2026-08-12T10:14:09Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01136,2026-08-12T10:21:53Z,medium,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00150,2026-08-12T10:30:50Z,medium,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00623,2026-08-12T10:33:20Z,medium,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00075,2026-08-12T10:43:01Z,medium,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01389,2026-08-12T10:47:41Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00321,2026-08-12T10:51:17Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00402,2026-08-12T10:57:23Z,low,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00104,2026-08-12T11:11:16Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01184,2026-08-12T11:11:26Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00536,2026-08-12T11:29:23Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00556,2026-08-12T11:29:48Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00646,2026-08-12T11:48:34Z,medium,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00288,2026-08-12T11:55:53Z,medium,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01492,2026-08-12T12:07:10Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00189,2026-08-12T12:07:35Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01307,2026-08-12T12:07:56Z,low,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01429,2026-08-12T12:17:00Z,medium,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-01308,2026-08-12T12:18:59Z,low,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00386,2026-08-12T12:29:25Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01100,2026-08-12T12:33:09Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01051,2026-08-12T12:33:31Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00437,2026-08-12T12:37:48Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00771,2026-08-12T12:52:48Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01200,2026-08-12T12:54:24Z,low,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00369,2026-08-12T13:03:58Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00317,2026-08-12T13:05:38Z,low,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00827,2026-08-12T13:11:59Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01153,2026-08-12T13:17:42Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00770,2026-08-12T13:20:15Z,low,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00258,2026-08-12T13:20:31Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01084,2026-08-12T13:21:20Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01496,2026-08-12T13:23:28Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01113,2026-08-12T13:32:15Z,medium,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01261,2026-08-12T13:34:13Z,medium,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00207,2026-08-12T13:40:42Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00690,2026-08-12T13:43:41Z,low,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01179,2026-08-12T14:00:53Z,low,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01130,2026-08-12T14:18:18Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00677,2026-08-12T14:18:41Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01188,2026-08-12T14:22:45Z,low,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00029,2026-08-12T14:26:19Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00077,2026-08-12T14:30:23Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01255,2026-08-12T14:32:57Z,medium,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01127,2026-08-12T14:40:11Z,low,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00240,2026-08-12T14:50:35Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00963,2026-08-12T15:07:52Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00216,2026-08-12T15:20:59Z,low,PowerShell Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00919,2026-08-12T15:25:33Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01321,2026-08-12T15:28:44Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00885,2026-08-12T15:37:41Z,medium,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00564,2026-08-12T15:38:00Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-01406,2026-08-12T15:42:39Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01150,2026-08-12T15:55:28Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00780,2026-08-12T16:00:03Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01363,2026-08-12T16:02:48Z,low,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00060,2026-08-12T16:04:31Z,medium,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00577,2026-08-12T16:06:15Z,medium,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00080,2026-08-12T16:08:17Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01498,2026-08-12T16:10:58Z,low,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00655,2026-08-12T16:12:39Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00781,2026-08-12T16:14:03Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-01343,2026-08-12T16:56:27Z,medium,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00815,2026-08-12T16:59:51Z,medium,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00551,2026-08-12T17:06:31Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00245,2026-08-12T17:11:39Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01331,2026-08-12T17:19:13Z,medium,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00273,2026-08-12T17:30:15Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00326,2026-08-12T17:37:08Z,low,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00135,2026-08-12T17:37:21Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01376,2026-08-12T17:37:50Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01159,2026-08-12T17:42:44Z,low,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00235,2026-08-12T17:49:25Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00576,2026-08-12T17:51:50Z,medium,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01351,2026-08-12T17:58:06Z,medium,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01282,2026-08-12T18:02:15Z,medium,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00787,2026-08-12T18:06:22Z,medium,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01348,2026-08-12T18:25:47Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00354,2026-08-12T18:26:39Z,medium,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00723,2026-08-12T18:27:54Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00022,2026-08-12T18:32:21Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00050,2026-08-12T18:33:01Z,medium,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00930,2026-08-12T19:16:33Z,low,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00873,2026-08-12T19:25:52Z,medium,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00266,2026-08-12T19:28:46Z,low,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00511,2026-08-12T19:34:36Z,low,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00016,2026-08-12T19:53:06Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00441,2026-08-12T19:56:41Z,medium,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01025,2026-08-12T20:15:55Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00190,2026-08-12T20:17:10Z,medium,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00797,2026-08-12T20:28:05Z,medium,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00218,2026-08-12T20:28:50Z,low,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01053,2026-08-12T20:31:13Z,medium,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01483,2026-08-12T20:34:18Z,medium,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01008,2026-08-12T20:35:37Z,medium,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01049,2026-08-12T20:35:38Z,medium,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00756,2026-08-12T20:45:44Z,medium,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00879,2026-08-12T20:55:24Z,medium,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00689,2026-08-12T20:55:43Z,medium,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00081,2026-08-12T21:03:49Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00706,2026-08-12T21:08:27Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01124,2026-08-12T21:08:38Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00340,2026-08-12T21:10:39Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00424,2026-08-12T21:12:17Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00314,2026-08-12T21:12:47Z,medium,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01375,2026-08-12T21:13:02Z,medium,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00702,2026-08-12T21:14:46Z,medium,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01485,2026-08-12T21:14:57Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01015,2026-08-12T21:16:09Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00492,2026-08-12T21:17:38Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00287,2026-08-12T21:19:13Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00653,2026-08-12T21:20:45Z,low,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00774,2026-08-12T21:24:13Z,medium,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00719,2026-08-12T21:32:55Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00754,2026-08-12T21:38:28Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01488,2026-08-12T21:39:48Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01059,2026-08-12T21:40:46Z,low,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00311,2026-08-12T21:52:02Z,medium,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00664,2026-08-12T21:53:50Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00112,2026-08-12T21:56:47Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00025,2026-08-12T21:58:44Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00732,2026-08-12T21:59:04Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00431,2026-08-12T22:01:18Z,medium,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01193,2026-08-12T22:05:35Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00439,2026-08-12T22:11:11Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01097,2026-08-12T22:13:12Z,low,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01477,2026-08-12T22:30:54Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00322,2026-08-12T22:34:53Z,low,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00847,2026-08-12T22:48:16Z,medium,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00212,2026-08-12T22:49:12Z,medium,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00610,2026-08-12T22:53:55Z,low,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00589,2026-08-12T22:54:21Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00159,2026-08-12T22:59:31Z,low,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01073,2026-08-12T23:06:48Z,low,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00358,2026-08-12T23:06:50Z,medium,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00565,2026-08-12T23:13:52Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01322,2026-08-12T23:17:02Z,medium,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01299,2026-08-12T23:22:07Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01013,2026-08-12T23:24:29Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01137,2026-08-12T23:26:32Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01041,2026-08-12T23:28:26Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00539,2026-08-12T23:32:11Z,low,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01102,2026-08-12T23:32:35Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00912,2026-08-12T23:32:41Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00615,2026-08-12T23:47:48Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01156,2026-08-12T23:48:40Z,low,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00712,2026-08-12T23:49:38Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00482,2026-08-12T23:54:46Z,medium,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01115,2026-08-13T00:01:52Z,low,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01215,2026-08-13T00:16:17Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01350,2026-08-13T00:17:00Z,low,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00909,2026-08-13T00:17:06Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00042,2026-08-13T00:21:50Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00992,2026-08-13T00:24:05Z,low,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00734,2026-08-13T00:39:58Z,medium,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01385,2026-08-13T00:43:44Z,low,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01421,2026-08-13T00:55:10Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00432,2026-08-13T01:00:21Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01309,2026-08-13T01:01:48Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00994,2026-08-13T01:06:48Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00960,2026-08-13T01:32:00Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01278,2026-08-13T01:40:09Z,low,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00115,2026-08-13T01:42:44Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01295,2026-08-13T01:52:07Z,low,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00586,2026-08-13T01:53:31Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01320,2026-08-13T02:09:05Z,medium,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00387,2026-08-13T02:12:09Z,low,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00981,2026-08-13T02:17:02Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00065,2026-08-13T02:20:53Z,medium,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00808,2026-08-13T02:21:15Z,medium,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00172,2026-08-13T02:24:38Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00743,2026-08-13T02:26:24Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00203,2026-08-13T02:26:54Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00624,2026-08-13T02:34:11Z,low,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00926,2026-08-13T02:46:06Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00566,2026-08-13T02:50:47Z,medium,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00397,2026-08-13T02:51:35Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00685,2026-08-13T03:16:25Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00846,2026-08-13T03:27:10Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00819,2026-08-13T03:29:20Z,medium,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00737,2026-08-13T03:30:40Z,low,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01408,2026-08-13T03:34:37Z,medium,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00893,2026-08-13T03:42:21Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00457,2026-08-13T03:46:29Z,low,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01017,2026-08-13T03:52:42Z,low,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01032,2026-08-13T03:53:53Z,low,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00280,2026-08-13T03:57:46Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00739,2026-08-13T04:03:07Z,medium,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00538,2026-08-13T04:06:14Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01501,2026-08-13T04:11:49Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01329,2026-08-13T04:20:36Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01079,2026-08-13T04:23:15Z,low,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01333,2026-08-13T04:37:50Z,medium,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00090,2026-08-13T04:45:02Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00307,2026-08-13T04:45:53Z,medium,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00143,2026-08-13T05:04:00Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00883,2026-08-13T05:05:48Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01034,2026-08-13T05:22:17Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00370,2026-08-13T05:22:36Z,low,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00580,2026-08-13T05:34:35Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00701,2026-08-13T05:50:17Z,medium,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00490,2026-08-13T05:53:51Z,low,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00061,2026-08-13T06:08:28Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00696,2026-08-13T06:09:09Z,low,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00667,2026-08-13T06:10:02Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00751,2026-08-13T06:15:23Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00125,2026-08-13T06:17:43Z,low,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00352,2026-08-13T06:20:31Z,medium,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01361,2026-08-13T06:21:51Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00038,2026-08-13T06:45:28Z,low,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00922,2026-08-13T06:45:34Z,low,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00742,2026-08-13T06:56:11Z,low,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00137,2026-08-13T06:57:55Z,low,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00349,2026-08-13T07:01:22Z,medium,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01029,2026-08-13T07:04:06Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01019,2026-08-13T07:06:23Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00303,2026-08-13T07:07:40Z,medium,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00769,2026-08-13T07:10:29Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00264,2026-08-13T07:17:39Z,medium,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01272,2026-08-13T07:22:23Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00291,2026-08-13T07:27:50Z,medium,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00459,2026-08-13T07:35:04Z,low,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00308,2026-08-13T07:39:39Z,low,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00296,2026-08-13T07:42:33Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00365,2026-08-13T08:02:43Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01075,2026-08-13T08:05:23Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00835,2026-08-13T08:15:24Z,medium,Failed Remote Auth Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01273,2026-08-13T08:16:46Z,low,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00637,2026-08-13T08:21:24Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01048,2026-08-13T08:21:31Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01287,2026-08-13T08:25:56Z,low,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00425,2026-08-13T08:35:04Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00202,2026-08-13T08:35:12Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01353,2026-08-13T08:36:34Z,medium,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00027,2026-08-13T08:43:13Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00330,2026-08-13T08:52:19Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00703,2026-08-13T08:55:34Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01223,2026-08-13T09:00:29Z,low,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01373,2026-08-13T09:05:58Z,low,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01423,2026-08-13T09:09:48Z,medium,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00109,2026-08-13T09:10:24Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01072,2026-08-13T09:12:58Z,medium,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00395,2026-08-13T09:17:27Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00111,2026-08-13T09:29:42Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00903,2026-08-13T09:30:26Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01400,2026-08-13T09:47:36Z,low,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00164,2026-08-13T09:48:25Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00438,2026-08-13T09:49:22Z,low,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01414,2026-08-13T09:55:49Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00295,2026-08-13T10:00:26Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01078,2026-08-13T10:03:21Z,medium,New File Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01173,2026-08-13T10:07:40Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00499,2026-08-13T10:16:36Z,medium,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00221,2026-08-13T10:18:07Z,medium,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00265,2026-08-13T10:18:29Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00152,2026-08-13T10:22:48Z,medium,New File Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00465,2026-08-13T10:30:42Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00233,2026-08-13T10:34:24Z,medium,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00436,2026-08-13T10:36:50Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00246,2026-08-13T10:49:24Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-01185,2026-08-13T10:57:53Z,medium,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01028,2026-08-13T10:58:52Z,low,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00679,2026-08-13T11:00:42Z,low,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01476,2026-08-13T11:01:38Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-01116,2026-08-13T11:03:51Z,medium,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01495,2026-08-13T11:06:40Z,medium,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00522,2026-08-13T11:10:39Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00878,2026-08-13T11:11:13Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00068,2026-08-13T11:13:59Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01016,2026-08-13T11:15:21Z,medium,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00941,2026-08-13T11:19:08Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00141,2026-08-13T11:29:52Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01241,2026-08-13T11:34:07Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00746,2026-08-13T11:38:21Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01412,2026-08-13T11:44:33Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00940,2026-08-13T12:11:14Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-01274,2026-08-13T12:17:31Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00647,2026-08-13T12:25:54Z,low,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00801,2026-08-13T12:29:45Z,medium,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00096,2026-08-13T12:34:36Z,low,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00456,2026-08-13T12:36:56Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00952,2026-08-13T12:37:37Z,low,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00881,2026-08-13T12:56:22Z,medium,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00687,2026-08-13T12:57:58Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00134,2026-08-13T12:58:06Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00236,2026-08-13T13:02:07Z,low,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00832,2026-08-13T13:10:55Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01247,2026-08-13T13:14:07Z,low,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00816,2026-08-13T13:14:27Z,low,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01082,2026-08-13T13:16:04Z,low,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00599,2026-08-13T13:34:33Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00704,2026-08-13T13:42:51Z,low,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00795,2026-08-13T13:45:14Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00768,2026-08-13T13:45:18Z,medium,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01417,2026-08-13T13:52:45Z,medium,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-01269,2026-08-13T14:02:11Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00700,2026-08-13T14:02:45Z,medium,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01296,2026-08-13T14:07:24Z,medium,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01407,2026-08-13T14:10:30Z,medium,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00526,2026-08-13T14:17:24Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00843,2026-08-13T14:18:39Z,low,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01050,2026-08-13T14:24:55Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01276,2026-08-13T14:25:44Z,low,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01327,2026-08-13T14:30:10Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01210,2026-08-13T14:31:42Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01021,2026-08-13T14:32:04Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00988,2026-08-13T14:34:56Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01253,2026-08-13T14:42:36Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00318,2026-08-13T14:43:52Z,medium,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00391,2026-08-13T15:00:37Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00574,2026-08-13T15:03:59Z,medium,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00849,2026-08-13T15:04:08Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00817,2026-08-13T15:09:33Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00625,2026-08-13T15:10:36Z,medium,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00261,2026-08-13T15:10:43Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00166,2026-08-13T15:23:15Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00841,2026-08-13T15:26:13Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01216,2026-08-13T15:27:34Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01339,2026-08-13T15:30:12Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00066,2026-08-13T15:50:31Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01166,2026-08-13T16:03:02Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00755,2026-08-13T16:05:36Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00398,2026-08-13T16:09:37Z,low,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00557,2026-08-13T16:14:50Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00772,2026-08-13T16:30:52Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00039,2026-08-13T16:31:54Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00375,2026-08-13T16:38:51Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01220,2026-08-13T16:52:00Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01328,2026-08-13T17:14:40Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01478,2026-08-13T17:26:45Z,medium,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00337,2026-08-13T17:46:30Z,medium,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00855,2026-08-13T17:55:24Z,medium,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00663,2026-08-13T18:00:17Z,low,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01404,2026-08-13T18:08:51Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00892,2026-08-13T18:21:53Z,medium,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00854,2026-08-13T18:30:19Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01362,2026-08-13T18:32:24Z,medium,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01140,2026-08-13T18:32:57Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00699,2026-08-13T18:35:24Z,low,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00806,2026-08-13T18:38:48Z,low,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00227,2026-08-13T18:41:16Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01167,2026-08-13T18:45:48Z,low,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01207,2026-08-13T18:48:29Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00636,2026-08-13T18:53:07Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00824,2026-08-13T19:02:04Z,low,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00364,2026-08-13T19:04:02Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00478,2026-08-13T19:08:03Z,low,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01345,2026-08-13T19:10:16Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00228,2026-08-13T19:13:34Z,medium,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00553,2026-08-13T19:20:02Z,low,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00379,2026-08-13T19:28:25Z,medium,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00338,2026-08-13T19:30:06Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01144,2026-08-13T19:33:53Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00355,2026-08-13T19:46:47Z,medium,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00547,2026-08-13T19:51:37Z,medium,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00034,2026-08-13T19:52:00Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00259,2026-08-13T19:55:56Z,medium,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01294,2026-08-13T19:56:00Z,medium,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00521,2026-08-13T20:06:11Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00086,2026-08-13T20:07:51Z,medium,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01379,2026-08-13T20:14:55Z,medium,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00217,2026-08-13T20:16:34Z,low,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00804,2026-08-13T20:18:41Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00333,2026-08-13T20:30:14Z,low,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00985,2026-08-13T20:33:54Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01297,2026-08-13T20:38:32Z,medium,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01254,2026-08-13T20:50:08Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01106,2026-08-13T20:57:35Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00017,2026-08-13T21:00:53Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00924,2026-08-13T21:05:53Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00095,2026-08-13T21:14:39Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00800,2026-08-13T21:16:15Z,low,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00638,2026-08-13T21:19:51Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01314,2026-08-13T21:31:50Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01194,2026-08-13T21:36:42Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00510,2026-08-13T21:37:45Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01211,2026-08-13T21:44:19Z,medium,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00362,2026-08-13T22:03:49Z,low,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00420,2026-08-13T22:23:56Z,low,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00244,2026-08-13T22:24:30Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00635,2026-08-13T22:28:08Z,low,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00905,2026-08-13T22:28:56Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00306,2026-08-13T22:31:48Z,low,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00666,2026-08-13T22:31:48Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01271,2026-08-13T22:32:57Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00083,2026-08-13T22:40:20Z,medium,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00344,2026-08-13T22:53:55Z,medium,New File Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01392,2026-08-13T22:54:30Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01397,2026-08-13T22:58:20Z,low,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00509,2026-08-13T23:01:48Z,medium,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01325,2026-08-13T23:02:30Z,medium,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00658,2026-08-13T23:24:58Z,low,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01122,2026-08-13T23:27:13Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00313,2026-08-13T23:38:20Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00998,2026-08-13T23:45:10Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01435,2026-08-13T23:54:49Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00796,2026-08-13T23:57:19Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00530,2026-08-13T23:58:03Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00918,2026-08-14T00:04:14Z,medium,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01365,2026-08-14T00:05:38Z,medium,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00316,2026-08-14T00:28:23Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00791,2026-08-14T00:29:54Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01035,2026-08-14T00:43:03Z,medium,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01357,2026-08-14T00:48:36Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00470,2026-08-14T00:51:11Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00761,2026-08-14T01:06:32Z,low,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00927,2026-08-14T01:08:15Z,low,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00219,2026-08-14T01:14:28Z,low,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-01011,2026-08-14T01:17:04Z,medium,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00997,2026-08-14T01:20:20Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00105,2026-08-14T01:31:09Z,medium,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00594,2026-08-14T01:42:50Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00581,2026-08-14T01:49:00Z,low,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00174,2026-08-14T01:50:42Z,medium,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01163,2026-08-14T01:56:42Z,low,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01012,2026-08-14T02:02:03Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00674,2026-08-14T02:03:12Z,medium,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00426,2026-08-14T02:09:09Z,medium,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00555,2026-08-14T02:17:41Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01338,2026-08-14T02:19:50Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00957,2026-08-14T02:25:14Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00790,2026-08-14T02:32:32Z,medium,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01214,2026-08-14T02:32:51Z,medium,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00020,2026-08-14T03:01:29Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01218,2026-08-14T03:14:24Z,low,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01155,2026-08-14T03:20:02Z,medium,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00707,2026-08-14T03:40:14Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00886,2026-08-14T03:41:49Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01366,2026-08-14T03:42:30Z,low,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01229,2026-08-14T03:45:10Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00540,2026-08-14T03:48:47Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01161,2026-08-14T03:52:45Z,low,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00676,2026-08-14T03:56:29Z,medium,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00101,2026-08-14T03:57:18Z,low,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01062,2026-08-14T04:04:18Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01040,2026-08-14T04:11:50Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00488,2026-08-14T04:44:20Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01263,2026-08-14T04:54:40Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01031,2026-08-14T05:01:28Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00675,2026-08-14T05:09:12Z,medium,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00990,2026-08-14T05:17:47Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00718,2026-08-14T05:32:25Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01359,2026-08-14T05:37:51Z,low,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00403,2026-08-14T05:38:15Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01487,2026-08-14T05:49:39Z,medium,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00103,2026-08-14T05:56:50Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00933,2026-08-14T06:02:58Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00120,2026-08-14T06:08:25Z,medium,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00035,2026-08-14T06:16:20Z,low,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00645,2026-08-14T06:28:30Z,low,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00148,2026-08-14T06:37:46Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01099,2026-08-14T06:39:24Z,low,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00840,2026-08-14T06:56:47Z,medium,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01145,2026-08-14T07:04:31Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01330,2026-08-14T07:08:44Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01162,2026-08-14T07:09:56Z,low,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00925,2026-08-14T07:11:59Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00368,2026-08-14T07:18:26Z,medium,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00040,2026-08-14T07:24:13Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00695,2026-08-14T07:31:18Z,medium,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00869,2026-08-14T07:34:05Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00877,2026-08-14T07:41:23Z,medium,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01340,2026-08-14T07:56:53Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01341,2026-08-14T08:02:34Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00414,2026-08-14T08:22:37Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00782,2026-08-14T08:30:27Z,medium,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00697,2026-08-14T08:31:10Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00750,2026-08-14T08:40:02Z,low,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00346,2026-08-14T08:44:51Z,medium,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00269,2026-08-14T08:45:48Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01224,2026-08-14T08:49:35Z,medium,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00938,2026-08-14T08:52:48Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00913,2026-08-14T08:53:20Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00596,2026-08-14T08:54:16Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01010,2026-08-14T08:59:47Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00688,2026-08-14T09:14:40Z,low,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00404,2026-08-14T09:27:09Z,medium,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01198,2026-08-14T09:33:35Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00155,2026-08-14T09:47:59Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00325,2026-08-14T10:01:37Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01387,2026-08-14T10:02:41Z,low,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00119,2026-08-14T10:15:16Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01438,2026-08-14T10:16:10Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00942,2026-08-14T10:30:20Z,low,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00543,2026-08-14T10:37:43Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-01174,2026-08-14T10:39:11Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01356,2026-08-14T10:50:45Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01391,2026-08-14T10:51:59Z,medium,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00194,2026-08-14T11:00:38Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00033,2026-08-14T11:20:19Z,low,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00709,2026-08-14T11:23:03Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00759,2026-08-14T11:40:26Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00469,2026-08-14T11:54:16Z,medium,New File Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00255,2026-08-14T12:08:16Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01284,2026-08-14T12:15:12Z,medium,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00959,2026-08-14T12:25:58Z,medium,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00541,2026-08-14T12:30:50Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00447,2026-08-14T12:31:48Z,medium,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-01158,2026-08-14T12:31:51Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00949,2026-08-14T12:34:32Z,low,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01149,2026-08-14T12:43:02Z,low,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00506,2026-08-14T12:52:05Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01431,2026-08-14T13:12:14Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00205,2026-08-14T13:21:13Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00165,2026-08-14T13:21:46Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00910,2026-08-14T13:38:29Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00361,2026-08-14T13:41:38Z,medium,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-01447,2026-08-14T13:45:22Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00921,2026-08-14T13:50:48Z,low,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01428,2026-08-14T13:52:39Z,medium,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00289,2026-08-14T14:01:30Z,medium,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01121,2026-08-14T14:03:14Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01405,2026-08-14T14:03:33Z,low,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00865,2026-08-14T14:04:49Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01424,2026-08-14T14:07:07Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01491,2026-08-14T14:10:21Z,medium,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00051,2026-08-14T14:12:38Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00396,2026-08-14T14:19:24Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00183,2026-08-14T14:32:10Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01139,2026-08-14T14:37:10Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00911,2026-08-14T14:39:51Z,medium,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00106,2026-08-14T14:44:02Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00648,2026-08-14T14:45:43Z,low,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00823,2026-08-14T14:50:00Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00515,2026-08-14T15:06:10Z,medium,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01151,2026-08-14T15:06:38Z,low,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00686,2026-08-14T15:06:43Z,medium,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01456,2026-08-14T15:06:44Z,medium,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01275,2026-08-14T15:06:55Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00546,2026-08-14T15:18:20Z,low,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00309,2026-08-14T15:28:34Z,low,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00584,2026-08-14T15:31:14Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01344,2026-08-14T15:35:59Z,low,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01056,2026-08-14T15:37:23Z,medium,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00853,2026-08-14T15:37:53Z,low,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00497,2026-08-14T15:37:55Z,medium,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00851,2026-08-14T15:42:35Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01460,2026-08-14T15:47:54Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01502,2026-08-14T15:48:33Z,medium,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00708,2026-08-14T15:52:26Z,low,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01126,2026-08-14T15:55:43Z,medium,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00257,2026-08-14T15:58:15Z,medium,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01395,2026-08-14T16:02:00Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00304,2026-08-14T16:04:29Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00100,2026-08-14T16:05:12Z,medium,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00995,2026-08-14T16:11:38Z,low,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00199,2026-08-14T16:15:06Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01352,2026-08-14T16:19:41Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01045,2026-08-14T16:22:11Z,low,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00629,2026-08-14T16:25:20Z,medium,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00201,2026-08-14T16:30:48Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01098,2026-08-14T16:41:03Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00807,2026-08-14T16:45:41Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00802,2026-08-14T16:49:09Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01310,2026-08-14T16:57:22Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00392,2026-08-14T16:59:37Z,medium,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01201,2026-08-14T17:01:12Z,low,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00214,2026-08-14T17:08:30Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01265,2026-08-14T17:39:49Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00180,2026-08-14T17:43:39Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01088,2026-08-14T17:56:09Z,low,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00764,2026-08-14T17:57:45Z,low,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00891,2026-08-14T17:58:48Z,low,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01225,2026-08-14T18:06:00Z,medium,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00621,2026-08-14T18:06:41Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01222,2026-08-14T18:07:30Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01349,2026-08-14T18:09:53Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00643,2026-08-14T18:10:09Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00241,2026-08-14T18:13:10Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00176,2026-08-14T18:17:41Z,medium,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01369,2026-08-14T18:24:44Z,medium,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01243,2026-08-14T18:45:52Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00131,2026-08-14T18:46:14Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01334,2026-08-14T18:48:58Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00319,2026-08-14T18:49:22Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00897,2026-08-14T19:02:29Z,low,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01479,2026-08-14T19:03:08Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00010,2026-08-14T19:04:35Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00788,2026-08-14T19:14:43Z,medium,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00717,2026-08-14T19:16:24Z,medium,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00714,2026-08-14T19:17:00Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00964,2026-08-14T19:21:36Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00239,2026-08-14T19:28:35Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00900,2026-08-14T19:28:35Z,low,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00587,2026-08-14T19:40:30Z,low,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00896,2026-08-14T19:44:00Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00880,2026-08-14T19:51:52Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00116,2026-08-14T19:57:02Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00382,2026-08-14T19:59:22Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01398,2026-08-14T20:01:36Z,low,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01068,2026-08-14T20:02:36Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-01170,2026-08-14T20:12:13Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01451,2026-08-14T20:12:53Z,medium,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00762,2026-08-14T20:15:18Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00290,2026-08-14T20:21:12Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00678,2026-08-14T20:40:21Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01469,2026-08-14T21:06:26Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00188,2026-08-14T21:09:17Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01081,2026-08-14T21:09:17Z,low,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01095,2026-08-14T21:11:31Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00524,2026-08-14T21:28:40Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01466,2026-08-14T21:30:21Z,medium,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01298,2026-08-14T21:30:35Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01260,2026-08-14T21:32:05Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01086,2026-08-14T21:47:16Z,low,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00328,2026-08-14T21:55:31Z,medium,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00128,2026-08-14T21:56:53Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01208,2026-08-14T22:03:04Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00512,2026-08-14T22:15:32Z,medium,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00682,2026-08-14T22:16:06Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01118,2026-08-14T22:22:16Z,medium,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00838,2026-08-14T22:34:18Z,medium,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01063,2026-08-14T22:35:13Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01262,2026-08-14T22:37:19Z,medium,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00324,2026-08-14T22:41:41Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01267,2026-08-14T22:45:09Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01371,2026-08-14T22:46:34Z,medium,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00063,2026-08-14T22:53:28Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01239,2026-08-14T22:54:43Z,medium,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00254,2026-08-14T22:55:31Z,medium,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00850,2026-08-14T22:59:30Z,low,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00875,2026-08-14T23:03:09Z,medium,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00461,2026-08-14T23:03:10Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00731,2026-08-14T23:03:20Z,medium,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00130,2026-08-14T23:11:06Z,low,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01377,2026-08-14T23:12:43Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00049,2026-08-14T23:24:08Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01425,2026-08-14T23:27:45Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01403,2026-08-14T23:29:44Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01043,2026-08-14T23:30:32Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00415,2026-08-14T23:37:16Z,medium,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01289,2026-08-14T23:42:37Z,low,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01169,2026-08-14T23:43:40Z,medium,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00332,2026-08-14T23:53:13Z,medium,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01107,2026-08-15T00:00:55Z,low,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00014,2026-08-15T00:16:04Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00822,2026-08-15T00:32:10Z,medium,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00262,2026-08-15T00:34:56Z,low,New File Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00149,2026-08-15T00:36:24Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01452,2026-08-15T00:38:58Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00351,2026-08-15T00:39:44Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00085,2026-08-15T00:44:15Z,low,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01212,2026-08-15T00:46:39Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00572,2026-08-15T00:47:29Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00363,2026-08-15T01:04:11Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00394,2026-08-15T01:04:20Z,low,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01442,2026-08-15T01:10:52Z,medium,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00074,2026-08-15T01:19:41Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00224,2026-08-15T01:22:49Z,medium,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01141,2026-08-15T01:36:02Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00359,2026-08-15T01:46:04Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00609,2026-08-15T01:48:07Z,medium,New File Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00698,2026-08-15T01:49:32Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00126,2026-08-15T01:56:47Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00684,2026-08-15T02:00:46Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01172,2026-08-15T02:04:27Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01182,2026-08-15T02:10:57Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01206,2026-08-15T02:12:36Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00223,2026-08-15T02:14:39Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01132,2026-08-15T02:16:44Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01128,2026-08-15T02:28:29Z,low,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00161,2026-08-15T02:31:23Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00752,2026-08-15T02:33:40Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01237,2026-08-15T02:35:14Z,medium,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00417,2026-08-15T02:36:54Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01083,2026-08-15T02:39:08Z,medium,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01258,2026-08-15T02:43:20Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00710,2026-08-15T02:47:09Z,medium,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01490,2026-08-15T02:56:05Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01448,2026-08-15T03:05:02Z,low,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00460,2026-08-15T03:10:33Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00145,2026-08-15T03:13:06Z,medium,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00776,2026-08-15T03:13:39Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01092,2026-08-15T03:16:47Z,low,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00812,2026-08-15T03:20:02Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00562,2026-08-15T03:33:24Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00062,2026-08-15T03:33:28Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00736,2026-08-15T03:34:19Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00179,2026-08-15T03:35:03Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00334,2026-08-15T03:36:31Z,low,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01446,2026-08-15T03:53:00Z,low,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00139,2026-08-15T04:06:47Z,medium,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00672,2026-08-15T04:12:36Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00528,2026-08-15T04:15:54Z,medium,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00508,2026-08-15T04:18:05Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00501,2026-08-15T04:20:39Z,low,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00058,2026-08-15T04:52:35Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00950,2026-08-15T04:57:36Z,low,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00848,2026-08-15T04:59:36Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00171,2026-08-15T05:05:25Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01354,2026-08-15T05:07:34Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00445,2026-08-15T05:11:10Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01125,2026-08-15T05:22:37Z,low,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00252,2026-08-15T05:40:59Z,low,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00649,2026-08-15T05:42:31Z,medium,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00953,2026-08-15T05:47:33Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00575,2026-08-15T05:49:34Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01058,2026-08-15T05:50:24Z,medium,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-01493,2026-08-15T05:50:28Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01007,2026-08-15T05:53:10Z,low,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01324,2026-08-15T05:58:54Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00331,2026-08-15T05:59:53Z,medium,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00958,2026-08-15T06:03:38Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01293,2026-08-15T06:18:09Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00041,2026-08-15T06:23:09Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00978,2026-08-15T06:31:06Z,medium,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00153,2026-08-15T06:34:41Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00820,2026-08-15T06:35:52Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00504,2026-08-15T06:40:19Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00079,2026-08-15T06:44:36Z,medium,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00206,2026-08-15T06:45:20Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00692,2026-08-15T06:50:37Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01000,2026-08-15T06:52:18Z,low,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-01480,2026-08-15T06:53:43Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00899,2026-08-15T06:54:05Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00175,2026-08-15T06:56:30Z,low,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00282,2026-08-15T06:56:49Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00579,2026-08-15T06:59:35Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00740,2026-08-15T07:02:43Z,medium,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00118,2026-08-15T07:05:35Z,medium,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00650,2026-08-15T07:10:12Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00845,2026-08-15T07:18:21Z,medium,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00744,2026-08-15T07:32:39Z,medium,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00409,2026-08-15T07:38:48Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00302,2026-08-15T07:49:07Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00093,2026-08-15T07:59:21Z,low,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00215,2026-08-15T08:01:20Z,medium,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01279,2026-08-15T08:05:09Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00833,2026-08-15T08:15:03Z,medium,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01205,2026-08-15T08:30:44Z,medium,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00108,2026-08-15T08:33:23Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00485,2026-08-15T08:36:53Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-01426,2026-08-15T08:36:57Z,low,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00760,2026-08-15T08:37:02Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00839,2026-08-15T08:54:08Z,medium,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00072,2026-08-15T08:57:28Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00874,2026-08-15T09:01:58Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00191,2026-08-15T09:07:31Z,medium,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00523,2026-08-15T09:08:42Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01226,2026-08-15T09:09:48Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00766,2026-08-15T09:29:31Z,low,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01401,2026-08-15T09:30:54Z,low,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01234,2026-08-15T09:37:49Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00533,2026-08-15T09:40:31Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01005,2026-08-15T09:41:49Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00047,2026-08-15T09:44:01Z,medium,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00831,2026-08-15T10:02:21Z,medium,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00347,2026-08-15T10:07:15Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01304,2026-08-15T10:09:45Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01465,2026-08-15T10:11:33Z,medium,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00970,2026-08-15T10:16:10Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00444,2026-08-15T10:17:13Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00559,2026-08-15T10:20:52Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00814,2026-08-15T10:25:54Z,low,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01175,2026-08-15T10:28:03Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00158,2026-08-15T10:33:28Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01346,2026-08-15T10:39:31Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00993,2026-08-15T10:47:08Z,low,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00477,2026-08-15T11:06:10Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00694,2026-08-15T11:16:29Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00463,2026-08-15T11:17:13Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01283,2026-08-15T11:32:07Z,medium,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00278,2026-08-15T11:41:44Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01114,2026-08-15T11:45:20Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01133,2026-08-15T11:45:40Z,low,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00305,2026-08-15T11:49:32Z,medium,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00738,2026-08-15T11:51:48Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00902,2026-08-15T11:52:28Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00473,2026-08-15T11:54:07Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00914,2026-08-15T11:55:15Z,low,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00931,2026-08-15T11:58:32Z,low,Failed Remote Auth Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00185,2026-08-15T11:59:21Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00983,2026-08-15T12:15:21Z,medium,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00468,2026-08-15T12:22:38Z,medium,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00591,2026-08-15T12:25:48Z,low,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00895,2026-08-15T12:33:26Z,medium,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00449,2026-08-15T12:34:42Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00336,2026-08-15T12:38:47Z,low,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00122,2026-08-15T12:40:54Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00343,2026-08-15T12:42:02Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00975,2026-08-15T12:45:46Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00187,2026-08-15T12:46:20Z,medium,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00045,2026-08-15T12:56:52Z,medium,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00569,2026-08-15T13:03:02Z,low,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00024,2026-08-15T13:22:50Z,low,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00496,2026-08-15T13:25:45Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01094,2026-08-15T13:26:21Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01022,2026-08-15T13:32:23Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00076,2026-08-15T13:35:02Z,medium,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-01454,2026-08-15T13:41:56Z,low,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00178,2026-08-15T13:41:58Z,low,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00169,2026-08-15T13:43:17Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00514,2026-08-15T13:48:57Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00972,2026-08-15T13:49:53Z,low,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01219,2026-08-15T13:53:24Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00935,2026-08-15T13:59:20Z,medium,Failed Remote Auth Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00611,2026-08-15T14:02:23Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01014,2026-08-15T14:06:40Z,low,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00433,2026-08-15T14:09:52Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00634,2026-08-15T15:03:02Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00284,2026-08-15T15:10:29Z,medium,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00455,2026-08-15T15:14:26Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01180,2026-08-15T15:24:22Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00315,2026-08-15T15:31:46Z,medium,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00866,2026-08-15T15:31:54Z,medium,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00225,2026-08-15T15:40:20Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01441,2026-08-15T15:44:37Z,medium,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00389,2026-08-15T15:44:47Z,low,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01245,2026-08-15T15:52:56Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01249,2026-08-15T15:53:56Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01399,2026-08-15T15:56:53Z,medium,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00197,2026-08-15T15:58:42Z,low,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00571,2026-08-15T16:15:54Z,medium,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00234,2026-08-15T16:17:03Z,medium,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01259,2026-08-15T16:17:35Z,low,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01202,2026-08-15T16:21:40Z,medium,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00627,2026-08-15T16:32:53Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01489,2026-08-15T16:39:42Z,low,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00249,2026-08-15T16:40:05Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00260,2026-08-15T16:42:08Z,low,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00237,2026-08-15T16:52:51Z,low,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00561,2026-08-15T16:53:27Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01313,2026-08-15T16:54:55Z,medium,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01468,2026-08-15T17:01:09Z,low,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00036,2026-08-15T17:15:28Z,low,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00721,2026-08-15T17:16:54Z,low,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00937,2026-08-15T17:19:08Z,medium,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00894,2026-08-15T17:23:03Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01171,2026-08-15T17:29:02Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01197,2026-08-15T17:29:14Z,medium,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00413,2026-08-15T17:35:21Z,medium,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01120,2026-08-15T17:35:27Z,medium,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00735,2026-08-15T17:36:44Z,low,PowerShell Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00673,2026-08-15T17:40:02Z,low,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01186,2026-08-15T17:41:24Z,medium,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00467,2026-08-15T17:42:05Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01131,2026-08-15T17:49:58Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00250,2026-08-15T17:53:16Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00267,2026-08-15T17:55:17Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00157,2026-08-15T18:02:24Z,low,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01384,2026-08-15T18:05:09Z,low,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00129,2026-08-15T18:06:19Z,medium,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01472,2026-08-15T18:12:46Z,low,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00726,2026-08-15T18:23:15Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00144,2026-08-15T18:26:32Z,low,New File Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01419,2026-08-15T18:27:11Z,medium,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01499,2026-08-15T18:34:17Z,medium,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00435,2026-08-15T18:37:13Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01047,2026-08-15T18:40:28Z,medium,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01123,2026-08-15T18:48:10Z,low,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00140,2026-08-15T18:56:02Z,medium,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00867,2026-08-15T19:03:47Z,low,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00412,2026-08-15T19:04:28Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00748,2026-08-15T19:06:18Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00385,2026-08-15T19:22:37Z,medium,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00390,2026-08-15T19:23:02Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00300,2026-08-15T19:23:40Z,low,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00567,2026-08-15T19:43:31Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00722,2026-08-15T19:49:03Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01190,2026-08-15T20:00:06Z,low,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00644,2026-08-15T20:03:20Z,low,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00229,2026-08-15T20:05:11Z,low,New File Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01250,2026-08-15T20:15:06Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00270,2026-08-15T20:22:47Z,low,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00342,2026-08-15T20:23:54Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00493,2026-08-15T20:27:36Z,low,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01157,2026-08-15T20:29:14Z,low,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01410,2026-08-15T20:32:12Z,medium,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01411,2026-08-15T20:34:58Z,medium,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00651,2026-08-15T20:46:12Z,low,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00582,2026-08-15T20:48:16Z,low,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00481,2026-08-15T20:48:19Z,low,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00741,2026-08-15T21:13:07Z,medium,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00491,2026-08-15T21:16:36Z,low,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01281,2026-08-15T21:17:26Z,low,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-01317,2026-08-15T21:26:05Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00632,2026-08-15T21:32:11Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01500,2026-08-15T21:41:11Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01459,2026-08-15T21:45:01Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00986,2026-08-15T21:46:59Z,low,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00012,2026-08-15T21:49:12Z,low,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00578,2026-08-15T21:53:17Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00360,2026-08-15T22:03:42Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00928,2026-08-15T22:14:29Z,medium,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00531,2026-08-15T22:20:54Z,low,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00406,2026-08-15T22:29:00Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01367,2026-08-15T22:30:12Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01002,2026-08-15T22:35:53Z,medium,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00828,2026-08-15T22:37:19Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00693,2026-08-15T22:38:23Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00443,2026-08-15T22:40:18Z,medium,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00606,2026-08-15T23:08:09Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00078,2026-08-15T23:17:30Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01409,2026-08-15T23:21:08Z,low,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00113,2026-08-15T23:27:08Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00520,2026-08-15T23:32:07Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01235,2026-08-15T23:33:37Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01026,2026-08-15T23:35:09Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00836,2026-08-15T23:37:09Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00283,2026-08-15T23:48:07Z,medium,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00452,2026-08-15T23:54:14Z,medium,New File Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00018,2026-08-16T00:05:06Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00043,2026-08-16T00:05:23Z,low,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01109,2026-08-16T00:06:30Z,medium,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00381,2026-08-16T00:08:04Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00631,2026-08-16T00:14:23Z,low,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00720,2026-08-16T00:17:08Z,low,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00518,2026-08-16T00:24:36Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01178,2026-08-16T00:28:08Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01199,2026-08-16T00:28:15Z,low,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01437,2026-08-16T00:32:15Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01105,2026-08-16T00:41:15Z,low,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00193,2026-08-16T00:46:29Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00263,2026-08-16T00:47:18Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00069,2026-08-16T00:50:31Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00500,2026-08-16T01:01:17Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01450,2026-08-16T01:14:11Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01306,2026-08-16T01:26:21Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01111,2026-08-16T01:33:39Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01443,2026-08-16T01:33:57Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00430,2026-08-16T01:36:47Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01101,2026-08-16T01:43:25Z,low,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01470,2026-08-16T01:44:12Z,low,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00660,2026-08-16T01:51:29Z,low,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00345,2026-08-16T01:51:44Z,medium,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01004,2026-08-16T01:56:24Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01181,2026-08-16T02:02:05Z,low,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00064,2026-08-16T02:02:28Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00054,2026-08-16T02:03:44Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00393,2026-08-16T02:10:11Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00563,2026-08-16T02:10:26Z,medium,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00329,2026-08-16T02:11:37Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01037,2026-08-16T02:22:15Z,low,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00053,2026-08-16T02:22:56Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00809,2026-08-16T02:24:25Z,medium,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00786,2026-08-16T02:25:45Z,medium,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00763,2026-08-16T02:42:37Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01474,2026-08-16T02:49:39Z,low,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00483,2026-08-16T02:50:07Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01003,2026-08-16T02:57:14Z,low,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01057,2026-08-16T02:58:29Z,medium,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00440,2026-08-16T02:59:14Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01433,2026-08-16T02:59:48Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00210,2026-08-16T03:02:16Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01217,2026-08-16T03:03:17Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01430,2026-08-16T03:12:25Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00320,2026-08-16T03:17:17Z,medium,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-01393,2026-08-16T03:27:22Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00163,2026-08-16T03:35:10Z,medium,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01142,2026-08-16T03:40:52Z,medium,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01024,2026-08-16T03:42:20Z,medium,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00371,2026-08-16T03:47:40Z,medium,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01464,2026-08-16T03:48:47Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00932,2026-08-16T03:50:00Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01504,2026-08-16T03:52:44Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00601,2026-08-16T04:12:39Z,low,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00818,2026-08-16T04:12:49Z,medium,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01204,2026-08-16T04:13:30Z,medium,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01138,2026-08-16T04:36:18Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00348,2026-08-16T04:36:39Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01074,2026-08-16T04:46:41Z,low,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00114,2026-08-16T04:55:08Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00442,2026-08-16T05:01:23Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00889,2026-08-16T05:10:04Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00872,2026-08-16T05:10:13Z,low,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00803,2026-08-16T05:14:31Z,medium,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01390,2026-08-16T05:23:45Z,low,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01148,2026-08-16T05:25:58Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00810,2026-08-16T05:27:40Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00427,2026-08-16T05:48:05Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00871,2026-08-16T05:48:07Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00619,2026-08-16T05:54:20Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00400,2026-08-16T06:03:55Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00495,2026-08-16T06:05:13Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00954,2026-08-16T06:12:55Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00799,2026-08-16T06:13:15Z,low,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01286,2026-08-16T06:17:51Z,medium,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-01256,2026-08-16T06:18:03Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00031,2026-08-16T06:20:07Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00462,2026-08-16T06:31:37Z,medium,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00652,2026-08-16T06:37:45Z,medium,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00167,2026-08-16T07:04:56Z,low,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00298,2026-08-16T07:10:28Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00052,2026-08-16T07:11:36Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01302,2026-08-16T07:13:35Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00350,2026-08-16T07:17:48Z,low,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00133,2026-08-16T07:18:12Z,medium,New File Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01080,2026-08-16T07:36:34Z,medium,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00603,2026-08-16T07:42:11Z,medium,Failed Remote Auth Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00098,2026-08-16T07:45:33Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00842,2026-08-16T07:49:05Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00805,2026-08-16T07:54:35Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00773,2026-08-16T07:54:53Z,low,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00826,2026-08-16T08:08:12Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00094,2026-08-16T08:10:06Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01413,2026-08-16T08:11:57Z,low,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00945,2026-08-16T08:15:22Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01388,2026-08-16T08:15:32Z,low,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01312,2026-08-16T08:16:02Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00861,2026-08-16T08:27:24Z,low,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01189,2026-08-16T08:32:28Z,low,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00605,2026-08-16T08:38:51Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00454,2026-08-16T08:40:55Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00989,2026-08-16T08:42:08Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00407,2026-08-16T08:49:42Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01481,2026-08-16T08:59:42Z,low,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00789,2026-08-16T09:20:07Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00471,2026-08-16T09:20:15Z,medium,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00367,2026-08-16T09:21:10Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00327,2026-08-16T09:23:16Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01484,2026-08-16T09:23:27Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00929,2026-08-16T09:31:06Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01061,2026-08-16T09:42:49Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00830,2026-08-16T09:49:35Z,medium,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00716,2026-08-16T10:03:53Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00030,2026-08-16T10:04:11Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00864,2026-08-16T10:11:54Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00573,2026-08-16T10:14:05Z,medium,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00730,2026-08-16T10:17:14Z,medium,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01458,2026-08-16T10:25:26Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01117,2026-08-16T10:32:33Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-01463,2026-08-16T11:11:54Z,low,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00097,2026-08-16T11:13:48Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01494,2026-08-16T11:26:02Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00294,2026-08-16T11:27:22Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00607,2026-08-16T11:44:46Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00597,2026-08-16T11:49:32Z,low,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00946,2026-08-16T12:00:04Z,low,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01230,2026-08-16T12:01:26Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00388,2026-08-16T12:03:58Z,low,PowerShell Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-01319,2026-08-16T12:11:12Z,low,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00274,2026-08-16T12:16:14Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01244,2026-08-16T12:18:25Z,medium,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00353,2026-08-16T12:25:42Z,medium,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01228,2026-08-16T12:28:18Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00887,2026-08-16T12:28:46Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00977,2026-08-16T12:32:12Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01290,2026-08-16T13:01:14Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00616,2026-08-16T13:10:27Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00507,2026-08-16T13:11:51Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00936,2026-08-16T13:14:57Z,low,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00548,2026-08-16T13:16:51Z,medium,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-01475,2026-08-16T13:23:46Z,low,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01020,2026-08-16T13:24:23Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01119,2026-08-16T13:34:01Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00725,2026-08-16T13:43:15Z,low,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01090,2026-08-16T13:45:08Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00102,2026-08-16T13:45:42Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-01089,2026-08-16T13:46:10Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01449,2026-08-16T13:55:26Z,medium,New File Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00966,2026-08-16T14:07:49Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00475,2026-08-16T14:09:33Z,low,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01039,2026-08-16T14:20:11Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01176,2026-08-16T14:27:47Z,low,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01001,2026-08-16T14:33:02Z,medium,New File Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01129,2026-08-16T14:37:48Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00230,2026-08-16T14:41:22Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01069,2026-08-16T14:41:25Z,medium,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00059,2026-08-16T15:06:45Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01370,2026-08-16T15:08:04Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00293,2026-08-16T15:12:29Z,low,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-01440,2026-08-16T15:20:08Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00503,2026-08-16T15:27:35Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00011,2026-08-16T15:27:42Z,low,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00544,2026-08-16T15:34:17Z,low,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01257,2026-08-16T15:34:27Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00844,2026-08-16T15:39:54Z,medium,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00271,2026-08-16T15:50:18Z,medium,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00592,2026-08-16T15:52:33Z,low,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01203,2026-08-16T15:57:26Z,low,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00198,2026-08-16T15:58:41Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01165,2026-08-16T16:02:28Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00138,2026-08-16T16:04:23Z,low,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00641,2026-08-16T16:19:21Z,medium,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00613,2026-08-16T16:21:22Z,low,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00186,2026-08-16T16:23:07Z,medium,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00784,2026-08-16T16:28:25Z,medium,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00401,2026-08-16T16:30:02Z,medium,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00868,2026-08-16T16:36:00Z,medium,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00195,2026-08-16T16:40:31Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01497,2026-08-16T16:42:22Z,low,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01318,2026-08-16T16:47:04Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00082,2026-08-16T16:47:43Z,medium,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00192,2026-08-16T16:59:24Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-01009,2026-08-16T17:05:11Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00204,2026-08-16T17:22:23Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00378,2026-08-16T17:24:56Z,medium,PowerShell Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00668,2026-08-16T17:25:05Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00733,2026-08-16T17:28:16Z,medium,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00537,2026-08-16T17:29:44Z,medium,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01104,2026-08-16T17:35:27Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00297,2026-08-16T17:39:48Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00890,2026-08-16T17:42:04Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01311,2026-08-16T17:43:27Z,low,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01110,2026-08-16T17:50:40Z,medium,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01439,2026-08-16T17:51:36Z,medium,New File Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00560,2026-08-16T17:57:02Z,low,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00057,2026-08-16T18:02:01Z,low,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00728,2026-08-16T18:08:47Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00971,2026-08-16T18:14:00Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00399,2026-08-16T18:20:06Z,low,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00211,2026-08-16T18:29:09Z,low,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00238,2026-08-16T18:32:53Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01023,2026-08-16T18:39:36Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00600,2026-08-16T18:52:35Z,medium,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00662,2026-08-16T18:59:43Z,low,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00377,2026-08-16T19:02:35Z,medium,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-01103,2026-08-16T19:12:24Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01154,2026-08-16T19:17:36Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00411,2026-08-16T19:18:54Z,low,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00859,2026-08-16T19:26:02Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01087,2026-08-16T19:31:03Z,low,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01046,2026-08-16T19:44:06Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00312,2026-08-16T19:48:42Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01467,2026-08-16T19:52:47Z,medium,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00884,2026-08-16T19:54:34Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-01192,2026-08-16T20:05:47Z,medium,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00519,2026-08-16T20:06:34Z,medium,PowerShell Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00182,2026-08-16T20:13:32Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00323,2026-08-16T20:15:57Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00384,2026-08-16T20:36:03Z,medium,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00464,2026-08-16T20:41:15Z,medium,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01160,2026-08-16T20:41:21Z,medium,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00982,2026-08-16T20:41:32Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00023,2026-08-16T20:48:52Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00683,2026-08-16T20:49:27Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00474,2026-08-16T21:31:01Z,medium,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00622,2026-08-16T21:33:42Z,medium,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00374,2026-08-16T21:53:31Z,medium,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00416,2026-08-16T22:13:26Z,low,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01326,2026-08-16T22:14:20Z,low,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01461,2026-08-16T22:19:27Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01347,2026-08-16T22:21:58Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00984,2026-08-16T22:23:19Z,low,Failed Remote Auth Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00372,2026-08-16T22:27:43Z,low,Failed Remote Auth Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-00505,2026-08-16T22:29:26Z,low,New File Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00213,2026-08-16T22:33:30Z,low,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00767,2026-08-16T22:40:07Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01067,2026-08-16T22:44:13Z,medium,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00825,2026-08-16T22:53:14Z,low,PowerShell Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00775,2026-08-16T23:01:14Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00908,2026-08-16T23:04:53Z,low,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00944,2026-08-16T23:10:44Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-01248,2026-08-16T23:17:18Z,medium,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00705,2026-08-16T23:17:50Z,low,PowerShell Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00356,2026-08-16T23:33:19Z,medium,Failed Remote Auth Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00612,2026-08-16T23:38:01Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00669,2026-08-16T23:39:15Z,low,New File Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-00882,2026-08-16T23:50:15Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00745,2026-08-16T23:50:27Z,medium,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00639,2026-08-17T00:05:07Z,medium,New File Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00117,2026-08-17T00:16:34Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00032,2026-08-17T00:21:59Z,low,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00870,2026-08-17T01:10:16Z,low,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01382,2026-08-17T01:16:07Z,medium,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01432,2026-08-17T01:51:07Z,low,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00084,2026-08-17T01:51:34Z,medium,Failed Remote Auth Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00948,2026-08-17T02:14:25Z,medium,PowerShell Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00715,2026-08-17T02:16:35Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-00593,2026-08-17T02:23:06Z,low,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00917,2026-08-17T02:35:31Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00991,2026-08-17T02:37:36Z,medium,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01386,2026-08-17T02:39:59Z,medium,PowerShell Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00777,2026-08-17T02:40:05Z,medium,PowerShell Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-01436,2026-08-17T02:40:19Z,low,Failed Remote Auth Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-00951,2026-08-17T02:44:01Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01242,2026-08-17T02:46:36Z,medium,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01418,2026-08-17T02:50:20Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00863,2026-08-17T03:01:50Z,low,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00170,2026-08-17T03:16:45Z,medium,New File Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00429,2026-08-17T03:22:46Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01266,2026-08-17T03:23:03Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00154,2026-08-17T03:24:34Z,low,New File Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00268,2026-08-17T03:34:35Z,medium,PowerShell Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00614,2026-08-17T03:35:03Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01434,2026-08-17T03:37:53Z,medium,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00231,2026-08-17T03:41:43Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00146,2026-08-17T03:48:03Z,low,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00110,2026-08-17T03:49:41Z,low,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00408,2026-08-17T03:49:51Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01232,2026-08-17T03:49:58Z,low,PowerShell Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-01251,2026-08-17T03:54:35Z,medium,PowerShell Review,FIN-WS-14,ACME\svc_backup,context,background detection
+ATD-006-01044,2026-08-17T03:55:03Z,low,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01033,2026-08-17T03:56:14Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01065,2026-08-17T04:01:36Z,low,Failed Remote Auth Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-006-01355,2026-08-17T04:18:33Z,medium,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00071,2026-08-17T04:22:31Z,medium,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01372,2026-08-17T04:29:29Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00923,2026-08-17T04:44:18Z,low,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00419,2026-08-17T04:51:37Z,low,New File Review,APP-API-03,ACME\jsmith,context,background detection
+ATD-006-00532,2026-08-17T05:07:22Z,low,New File Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00642,2026-08-17T05:08:35Z,medium,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00067,2026-08-17T05:10:55Z,low,Failed Remote Auth Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00535,2026-08-17T05:23:29Z,medium,PowerShell Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-00277,2026-08-17T05:27:49Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00724,2026-08-17T05:34:26Z,medium,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00552,2026-08-17T05:38:59Z,low,PowerShell Review,DEPLOY-01,ACME\svc_deploy,context,background detection
+ATD-006-00713,2026-08-17T05:47:14Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00793,2026-08-17T06:09:28Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00272,2026-08-17T06:14:13Z,medium,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00901,2026-08-17T06:14:37Z,medium,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00222,2026-08-17T06:19:00Z,low,New File Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00857,2026-08-17T06:19:32Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00376,2026-08-17T06:26:22Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01380,2026-08-17T06:27:57Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00448,2026-08-17T06:35:01Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00837,2026-08-17T06:35:10Z,medium,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00418,2026-08-17T06:38:33Z,medium,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00092,2026-08-17T06:48:37Z,low,Failed Remote Auth Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00147,2026-08-17T06:51:41Z,medium,Failed Remote Auth Review,APP-API-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00987,2026-08-17T06:51:56Z,low,Failed Remote Auth Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01360,2026-08-17T06:52:16Z,low,PowerShell Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-01168,2026-08-17T07:00:59Z,low,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00747,2026-08-17T07:04:13Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01342,2026-08-17T07:04:13Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00480,2026-08-17T07:05:02Z,medium,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00405,2026-08-17T07:06:47Z,medium,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00196,2026-08-17T07:14:47Z,low,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01471,2026-08-17T07:17:17Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00534,2026-08-17T07:24:10Z,low,Failed Remote Auth Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00765,2026-08-17T07:30:19Z,medium,PowerShell Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-00783,2026-08-17T07:31:41Z,medium,Failed Remote Auth Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00242,2026-08-17T07:32:48Z,medium,New File Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-01264,2026-08-17T07:41:30Z,low,New File Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-01422,2026-08-17T07:49:01Z,medium,New File Review,FIN-WS-14,ACME\jsmith,context,background detection
+ATD-006-01358,2026-08-17T07:55:41Z,medium,New File Review,FILE-02,ACME\jsmith,context,background detection
+ATD-006-00976,2026-08-17T08:02:29Z,low,New File Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00680,2026-08-17T08:08:37Z,medium,Failed Remote Auth Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00517,2026-08-17T08:10:25Z,medium,New File Review,FIN-WS-14,ACME\svc_deploy,context,background detection
+ATD-006-01240,2026-08-17T08:22:08Z,medium,Failed Remote Auth Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-01108,2026-08-17T08:36:13Z,low,New File Review,APP-API-02,ACME\jsmith,context,background detection
+ATD-006-00341,2026-08-17T08:36:28Z,low,PowerShell Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-01042,2026-08-17T08:44:04Z,low,Failed Remote Auth Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00602,2026-08-17T08:50:25Z,medium,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-01177,2026-08-17T08:54:29Z,medium,PowerShell Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00502,2026-08-17T08:56:09Z,medium,New File Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00422,2026-08-17T09:03:07Z,medium,New File Review,JUMP-01,ACME\mrivera,context,background detection
+ATD-006-01018,2026-08-17T09:39:21Z,medium,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-01135,2026-08-17T09:48:45Z,medium,Failed Remote Auth Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00423,2026-08-17T09:49:02Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00980,2026-08-17T09:51:41Z,low,New File Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00472,2026-08-17T09:53:58Z,medium,New File Review,JUMP-01,ACME\svc_deploy,context,background detection
+ATD-006-00656,2026-08-17T09:56:14Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01076,2026-08-17T09:59:14Z,medium,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-01394,2026-08-17T10:01:33Z,medium,New File Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00121,2026-08-17T10:05:54Z,medium,New File Review,FIN-WS-14,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00168,2026-08-17T10:06:25Z,low,Failed Remote Auth Review,FILE-02,ACME\svc_backup,context,background detection
+ATD-006-01305,2026-08-17T10:07:30Z,low,PowerShell Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-00019,2026-08-17T10:11:21Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00450,2026-08-17T10:16:28Z,medium,PowerShell Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00208,2026-08-17T10:33:12Z,low,PowerShell Review,DEPLOY-01,ACME\svc_backup,context,background detection
+ATD-006-00107,2026-08-17T10:41:16Z,low,New File Review,FIN-WS-14,ACME\mrivera,context,background detection
+ATD-006-00285,2026-08-17T10:43:02Z,low,PowerShell Review,APP-API-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00489,2026-08-17T10:55:26Z,medium,PowerShell Review,APP-API-02,ACME\svc_backup,context,background detection
+ATD-006-00357,2026-08-17T10:57:41Z,low,PowerShell Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00037,2026-08-17T11:11:54Z,low,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-01486,2026-08-17T11:15:37Z,medium,Failed Remote Auth Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00123,2026-08-17T11:18:27Z,medium,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00516,2026-08-17T11:29:13Z,low,PowerShell Review,DEPLOY-01,ACME\mrivera,context,background detection
+ATD-006-00525,2026-08-17T11:50:45Z,medium,PowerShell Review,APP-API-02,ACME\svc_deploy,context,background detection
+ATD-006-00654,2026-08-17T12:01:18Z,medium,Failed Remote Auth Review,APP-API-02,ACME\mrivera,context,background detection
+ATD-006-00608,2026-08-17T12:12:26Z,low,PowerShell Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00056,2026-08-17T12:12:30Z,medium,PowerShell Review,APP-API-03,ACME\svc_deploy,context,background detection
+ATD-006-00620,2026-08-17T12:13:47Z,low,PowerShell Review,DEPLOY-01,ACME\jsmith,context,background detection
+ATD-006-00628,2026-08-17T12:14:47Z,low,PowerShell Review,FILE-02,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00618,2026-08-17T12:18:08Z,low,Failed Remote Auth Review,DEPLOY-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-006-00044,2026-08-17T12:24:35Z,medium,New File Review,APP-API-03,ACME\svc_backup,context,background detection
+ATD-006-00659,2026-08-17T12:24:36Z,medium,Failed Remote Auth Review,JUMP-01,ACME\svc_backup,context,background detection
+ATD-006-01457,2026-08-17T12:30:03Z,low,PowerShell Review,FILE-02,ACME\svc_deploy,context,background detection
+ATD-006-00253,2026-08-17T12:32:34Z,low,New File Review,APP-API-03,ACME\mrivera,context,background detection
+ATD-006-00888,2026-08-17T12:48:42Z,low,Failed Remote Auth Review,FILE-02,ACME\mrivera,context,background detection
+ATD-006-00661,2026-08-17T12:54:34Z,medium,Failed Remote Auth Review,JUMP-01,ACME\jsmith,context,background detection

@@ -1,0 +1,1501 @@
+event_id,_time,host,user,parent_process_name,process_name,process_id,command_line,classification,note
+PROC-00627,2026-08-11T13:03:14Z,APP-API-03,ACME\mrivera,explorer.exe,msiexec.exe,7447,routine process,benign,routine process
+PROC-00390,2026-08-11T13:04:02Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,msiexec.exe,13151,routine process,benign,routine process
+PROC-00634,2026-08-11T13:06:21Z,APP-API-02,ACME\svc_backup,services.exe,w3wp.exe,3609,routine process,benign,routine process
+PROC-01098,2026-08-11T13:12:15Z,FIN-WS-14,ACME\mrivera,services.exe,powershell.exe,12617,routine process,benign,routine process
+PROC-00217,2026-08-11T13:23:10Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,7400,routine process,benign,routine process
+PROC-00372,2026-08-11T13:23:12Z,JUMP-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,11438,routine process,benign,routine process
+PROC-01288,2026-08-11T13:23:12Z,FILE-02,ACME\mrivera,services.exe,w3wp.exe,7410,routine process,benign,routine process
+PROC-00340,2026-08-11T13:40:56Z,APP-API-03,ACME\mrivera,explorer.exe,powershell.exe,3416,routine process,benign,routine process
+PROC-00951,2026-08-11T13:44:38Z,JUMP-01,ACME\jsmith,services.exe,backup-agent.exe,5940,routine process,benign,routine process
+PROC-00744,2026-08-11T13:53:43Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,powershell.exe,12397,routine process,benign,routine process
+PROC-00417,2026-08-11T14:01:50Z,JUMP-01,ACME\mrivera,taskeng.exe,msiexec.exe,12093,routine process,benign,routine process
+PROC-00789,2026-08-11T14:09:49Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,powershell.exe,4232,routine process,benign,routine process
+PROC-00596,2026-08-11T14:22:40Z,FILE-02,ACME\jsmith,taskeng.exe,w3wp.exe,13232,routine process,benign,routine process
+PROC-00818,2026-08-11T14:35:19Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,14517,routine process,benign,routine process
+PROC-00320,2026-08-11T14:35:32Z,FILE-02,ACME\jsmith,wsmprovhost.exe,w3wp.exe,6446,routine process,benign,routine process
+PROC-01370,2026-08-11T14:36:23Z,APP-API-02,ACME\svc_deploy,taskeng.exe,msiexec.exe,9499,routine process,benign,routine process
+PROC-00785,2026-08-11T14:48:37Z,DEPLOY-01,ACME\mrivera,services.exe,w3wp.exe,2728,routine process,benign,routine process
+PROC-INC-001,2026-08-11T15:18:00Z,FIN-WS-14,ACME\mrivera,powershell.exe,rundll32.exe,7712,"rundll32.exe C:\ProgramData\Cache\stage.dll,Start",malicious,known compromised source host
+PROC-00352,2026-08-11T15:24:26Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,8353,routine process,benign,routine process
+PROC-00139,2026-08-11T15:24:54Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,8677,routine process,benign,routine process
+PROC-CTX-001,2026-08-11T15:25:05Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,9140,powershell.exe -File C:\Deploy\Install-Agent.ps1,benign,approved deployment
+PROC-00350,2026-08-11T15:25:51Z,FILE-02,ACME\mrivera,explorer.exe,powershell.exe,5102,routine process,benign,routine process
+PROC-CTX-002,2026-08-11T15:26:00Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,5104,w3wp.exe -ap API3,benign,normal app process
+PROC-CTX-003,2026-08-11T15:27:00Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,5220,backup-agent.exe --inventory,benign,scheduled backup
+PROC-RESP-001,2026-08-11T15:35:30Z,APP-API-02,ACME\jsmith,explorer.exe,cmd.exe,9320,cmd.exe /c whoami && netstat -ano,response,responder triage
+PROC-01249,2026-08-11T15:55:19Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,2737,routine process,benign,routine process
+PROC-01059,2026-08-11T16:01:35Z,APP-API-03,ACME\jsmith,services.exe,msiexec.exe,10921,routine process,benign,routine process
+PROC-00617,2026-08-11T16:06:11Z,FIN-WS-14,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,9666,routine process,benign,routine process
+PROC-00954,2026-08-11T16:15:20Z,FILE-02,ACME\svc_deploy,explorer.exe,msiexec.exe,2676,routine process,benign,routine process
+PROC-01138,2026-08-11T16:20:05Z,JUMP-01,ACME\jsmith,taskeng.exe,powershell.exe,14944,routine process,benign,routine process
+PROC-00172,2026-08-11T16:22:10Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,5459,routine process,benign,routine process
+PROC-00805,2026-08-11T16:27:09Z,FILE-02,ACME\mrivera,wsmprovhost.exe,powershell.exe,8830,routine process,benign,routine process
+PROC-01179,2026-08-11T16:44:56Z,FIN-WS-14,ACME\svc_deploy,services.exe,backup-agent.exe,6819,routine process,benign,routine process
+PROC-01036,2026-08-11T16:48:39Z,APP-API-03,ACME\jsmith,services.exe,msiexec.exe,11376,routine process,benign,routine process
+PROC-00160,2026-08-11T16:53:28Z,JUMP-01,ACME\svc_backup,services.exe,w3wp.exe,3915,routine process,benign,routine process
+PROC-01328,2026-08-11T16:57:09Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,powershell.exe,3344,routine process,benign,routine process
+PROC-00309,2026-08-11T17:01:20Z,FIN-WS-14,ACME\mrivera,taskeng.exe,powershell.exe,5579,routine process,benign,routine process
+PROC-00530,2026-08-11T17:08:50Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,backup-agent.exe,14334,routine process,benign,routine process
+PROC-01257,2026-08-11T17:19:53Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,14481,routine process,benign,routine process
+PROC-01137,2026-08-11T17:20:38Z,JUMP-01,ACME\svc_deploy,services.exe,w3wp.exe,10114,routine process,benign,routine process
+PROC-00693,2026-08-11T17:27:04Z,DEPLOY-01,ACME\svc_backup,explorer.exe,msiexec.exe,12315,routine process,benign,routine process
+PROC-01484,2026-08-11T17:30:15Z,APP-API-02,ACME\mrivera,services.exe,powershell.exe,10801,routine process,benign,routine process
+PROC-00864,2026-08-11T17:30:28Z,FIN-WS-14,ACME\mrivera,taskeng.exe,powershell.exe,7334,routine process,benign,routine process
+PROC-01022,2026-08-11T17:37:53Z,FIN-WS-14,ACME\svc_backup,services.exe,msiexec.exe,8211,routine process,benign,routine process
+PROC-01067,2026-08-11T17:39:51Z,FIN-WS-14,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,5221,routine process,benign,routine process
+PROC-00980,2026-08-11T17:41:08Z,FIN-WS-14,ACME\jsmith,explorer.exe,backup-agent.exe,8870,routine process,benign,routine process
+PROC-00104,2026-08-11T17:58:38Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,3471,routine process,benign,routine process
+PROC-00131,2026-08-11T18:14:20Z,APP-API-02,ACME\jsmith,explorer.exe,msiexec.exe,10713,routine process,benign,routine process
+PROC-01066,2026-08-11T18:19:42Z,JUMP-01,ACME\svc_deploy,taskeng.exe,w3wp.exe,10733,routine process,benign,routine process
+PROC-00337,2026-08-11T18:19:51Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,powershell.exe,14930,routine process,benign,routine process
+PROC-01477,2026-08-11T18:22:29Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,msiexec.exe,11022,routine process,benign,routine process
+PROC-01246,2026-08-11T18:22:45Z,FILE-02,ACME\svc_deploy,taskeng.exe,msiexec.exe,2718,routine process,benign,routine process
+PROC-00466,2026-08-11T18:30:00Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,6133,routine process,benign,routine process
+PROC-01106,2026-08-11T18:32:02Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,7985,routine process,benign,routine process
+PROC-00177,2026-08-11T18:34:25Z,APP-API-02,ACME\svc_deploy,explorer.exe,powershell.exe,9495,routine process,benign,routine process
+PROC-00688,2026-08-11T18:35:16Z,APP-API-02,ACME\jsmith,services.exe,powershell.exe,1314,routine process,benign,routine process
+PROC-00227,2026-08-11T18:42:09Z,JUMP-01,ACME\mrivera,services.exe,msiexec.exe,4342,routine process,benign,routine process
+PROC-00646,2026-08-11T18:42:10Z,APP-API-02,ACME\svc_deploy,explorer.exe,msiexec.exe,6862,routine process,benign,routine process
+PROC-00870,2026-08-11T18:47:47Z,APP-API-03,ACME\jsmith,services.exe,msiexec.exe,3294,routine process,benign,routine process
+PROC-00765,2026-08-11T18:48:24Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,backup-agent.exe,3120,routine process,benign,routine process
+PROC-00140,2026-08-11T18:54:03Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,14226,routine process,benign,routine process
+PROC-00525,2026-08-11T18:58:06Z,JUMP-01,ACME\svc_deploy,taskeng.exe,powershell.exe,3605,routine process,benign,routine process
+PROC-00604,2026-08-11T19:00:33Z,APP-API-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,13645,routine process,benign,routine process
+PROC-00028,2026-08-11T19:14:52Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,7104,routine process,benign,routine process
+PROC-01252,2026-08-11T19:24:47Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,8231,routine process,benign,routine process
+PROC-00469,2026-08-11T19:24:50Z,APP-API-03,ACME\jsmith,explorer.exe,powershell.exe,3330,routine process,benign,routine process
+PROC-00549,2026-08-11T19:26:25Z,JUMP-01,ACME\svc_backup,explorer.exe,w3wp.exe,10567,routine process,benign,routine process
+PROC-00793,2026-08-11T19:33:11Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,powershell.exe,11963,routine process,benign,routine process
+PROC-00224,2026-08-11T19:38:33Z,JUMP-01,ACME\mrivera,wsmprovhost.exe,w3wp.exe,13782,routine process,benign,routine process
+PROC-01344,2026-08-11T19:38:40Z,APP-API-03,ACME\svc_deploy,explorer.exe,w3wp.exe,13127,routine process,benign,routine process
+PROC-01004,2026-08-11T19:47:12Z,FIN-WS-14,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,13985,routine process,benign,routine process
+PROC-00918,2026-08-11T20:06:12Z,DEPLOY-01,ACME\svc_backup,services.exe,msiexec.exe,8718,routine process,benign,routine process
+PROC-00010,2026-08-11T20:25:38Z,FIN-WS-14,ACME\mrivera,services.exe,msiexec.exe,3862,routine process,benign,routine process
+PROC-01367,2026-08-11T20:26:24Z,JUMP-01,ACME\jsmith,services.exe,w3wp.exe,1008,routine process,benign,routine process
+PROC-00394,2026-08-11T20:30:00Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,3983,routine process,benign,routine process
+PROC-00335,2026-08-11T20:30:07Z,JUMP-01,ACME\svc_backup,taskeng.exe,msiexec.exe,1840,routine process,benign,routine process
+PROC-01095,2026-08-11T20:34:10Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,13206,routine process,benign,routine process
+PROC-01163,2026-08-11T20:36:56Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,3203,routine process,benign,routine process
+PROC-00522,2026-08-11T20:37:18Z,DEPLOY-01,ACME\svc_backup,explorer.exe,w3wp.exe,13679,routine process,benign,routine process
+PROC-00616,2026-08-11T20:47:26Z,FILE-02,ACME\svc_backup,services.exe,w3wp.exe,1390,routine process,benign,routine process
+PROC-01222,2026-08-11T20:50:01Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,msiexec.exe,12701,routine process,benign,routine process
+PROC-00006,2026-08-11T20:51:00Z,FIN-WS-14,ACME\jsmith,explorer.exe,msiexec.exe,2462,routine process,benign,routine process
+PROC-00443,2026-08-11T20:59:48Z,APP-API-03,ACME\svc_backup,taskeng.exe,w3wp.exe,4073,routine process,benign,routine process
+PROC-00446,2026-08-11T21:02:50Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,3914,routine process,benign,routine process
+PROC-00777,2026-08-11T21:09:10Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,w3wp.exe,6162,routine process,benign,routine process
+PROC-00458,2026-08-11T21:17:45Z,FIN-WS-14,ACME\jsmith,taskeng.exe,msiexec.exe,6075,routine process,benign,routine process
+PROC-01320,2026-08-11T21:21:25Z,APP-API-02,ACME\svc_backup,explorer.exe,powershell.exe,11910,routine process,benign,routine process
+PROC-01007,2026-08-11T21:21:51Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,11609,routine process,benign,routine process
+PROC-00445,2026-08-11T21:30:17Z,FIN-WS-14,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,9239,routine process,benign,routine process
+PROC-00823,2026-08-11T21:31:05Z,DEPLOY-01,ACME\svc_deploy,explorer.exe,w3wp.exe,6793,routine process,benign,routine process
+PROC-01177,2026-08-11T21:35:28Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,3587,routine process,benign,routine process
+PROC-01198,2026-08-11T21:37:31Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,2379,routine process,benign,routine process
+PROC-00956,2026-08-11T21:46:32Z,APP-API-02,ACME\mrivera,explorer.exe,powershell.exe,6482,routine process,benign,routine process
+PROC-01407,2026-08-11T21:46:42Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,11305,routine process,benign,routine process
+PROC-01306,2026-08-11T21:50:58Z,APP-API-02,ACME\svc_backup,explorer.exe,powershell.exe,9443,routine process,benign,routine process
+PROC-00226,2026-08-11T22:05:32Z,APP-API-02,ACME\svc_backup,taskeng.exe,msiexec.exe,10705,routine process,benign,routine process
+PROC-00873,2026-08-11T22:11:45Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,4420,routine process,benign,routine process
+PROC-00520,2026-08-11T22:12:45Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,w3wp.exe,3519,routine process,benign,routine process
+PROC-00605,2026-08-11T22:14:31Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,msiexec.exe,12813,routine process,benign,routine process
+PROC-01185,2026-08-11T22:16:31Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,7780,routine process,benign,routine process
+PROC-00782,2026-08-11T22:19:53Z,APP-API-03,ACME\mrivera,explorer.exe,msiexec.exe,12323,routine process,benign,routine process
+PROC-01247,2026-08-11T22:22:43Z,APP-API-03,ACME\svc_deploy,taskeng.exe,powershell.exe,5078,routine process,benign,routine process
+PROC-00288,2026-08-11T22:26:47Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,w3wp.exe,13274,routine process,benign,routine process
+PROC-01317,2026-08-11T22:50:55Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,backup-agent.exe,6971,routine process,benign,routine process
+PROC-00249,2026-08-11T22:57:59Z,JUMP-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,13404,routine process,benign,routine process
+PROC-01226,2026-08-11T23:07:14Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,13539,routine process,benign,routine process
+PROC-00294,2026-08-11T23:07:49Z,FIN-WS-14,ACME\svc_backup,services.exe,powershell.exe,2567,routine process,benign,routine process
+PROC-00975,2026-08-11T23:10:48Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,9973,routine process,benign,routine process
+PROC-00736,2026-08-11T23:13:05Z,FILE-02,ACME\mrivera,explorer.exe,w3wp.exe,6706,routine process,benign,routine process
+PROC-00263,2026-08-11T23:16:36Z,FILE-02,ACME\mrivera,services.exe,powershell.exe,6558,routine process,benign,routine process
+PROC-00109,2026-08-11T23:19:04Z,DEPLOY-01,ACME\mrivera,taskeng.exe,w3wp.exe,5327,routine process,benign,routine process
+PROC-01054,2026-08-11T23:20:25Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,6443,routine process,benign,routine process
+PROC-01347,2026-08-11T23:24:37Z,FILE-02,ACME\svc_backup,taskeng.exe,powershell.exe,6158,routine process,benign,routine process
+PROC-00874,2026-08-11T23:28:09Z,APP-API-02,ACME\jsmith,taskeng.exe,w3wp.exe,12340,routine process,benign,routine process
+PROC-00555,2026-08-11T23:38:47Z,APP-API-02,ACME\svc_deploy,explorer.exe,msiexec.exe,13789,routine process,benign,routine process
+PROC-00865,2026-08-11T23:45:57Z,APP-API-03,ACME\jsmith,taskeng.exe,msiexec.exe,13479,routine process,benign,routine process
+PROC-00863,2026-08-11T23:49:15Z,FIN-WS-14,ACME\mrivera,wsmprovhost.exe,msiexec.exe,2854,routine process,benign,routine process
+PROC-01169,2026-08-11T23:50:22Z,FIN-WS-14,ACME\svc_backup,services.exe,powershell.exe,4832,routine process,benign,routine process
+PROC-00516,2026-08-12T00:24:50Z,JUMP-01,ACME\mrivera,explorer.exe,powershell.exe,13202,routine process,benign,routine process
+PROC-01180,2026-08-12T00:25:19Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,10797,routine process,benign,routine process
+PROC-00151,2026-08-12T00:26:29Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,4564,routine process,benign,routine process
+PROC-01109,2026-08-12T00:34:30Z,APP-API-03,ACME\svc_deploy,services.exe,powershell.exe,10840,routine process,benign,routine process
+PROC-00958,2026-08-12T00:42:06Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,4873,routine process,benign,routine process
+PROC-00631,2026-08-12T00:42:42Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,1306,routine process,benign,routine process
+PROC-00312,2026-08-12T00:47:37Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,5889,routine process,benign,routine process
+PROC-01274,2026-08-12T00:48:09Z,APP-API-03,ACME\jsmith,services.exe,msiexec.exe,11766,routine process,benign,routine process
+PROC-00999,2026-08-12T00:49:53Z,APP-API-02,ACME\svc_deploy,services.exe,powershell.exe,13169,routine process,benign,routine process
+PROC-00914,2026-08-12T00:50:44Z,APP-API-03,ACME\mrivera,explorer.exe,backup-agent.exe,4787,routine process,benign,routine process
+PROC-01362,2026-08-12T00:57:26Z,DEPLOY-01,ACME\mrivera,explorer.exe,powershell.exe,8510,routine process,benign,routine process
+PROC-01425,2026-08-12T01:01:33Z,FILE-02,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,3258,routine process,benign,routine process
+PROC-01124,2026-08-12T01:08:49Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,msiexec.exe,13392,routine process,benign,routine process
+PROC-00654,2026-08-12T01:11:50Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,1418,routine process,benign,routine process
+PROC-01127,2026-08-12T01:17:59Z,APP-API-02,ACME\svc_backup,services.exe,backup-agent.exe,6874,routine process,benign,routine process
+PROC-00794,2026-08-12T01:22:18Z,DEPLOY-01,ACME\mrivera,services.exe,powershell.exe,14333,routine process,benign,routine process
+PROC-01485,2026-08-12T01:25:42Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,11578,routine process,benign,routine process
+PROC-00018,2026-08-12T01:28:48Z,APP-API-03,ACME\mrivera,taskeng.exe,powershell.exe,12719,routine process,benign,routine process
+PROC-01402,2026-08-12T01:29:40Z,FILE-02,ACME\jsmith,explorer.exe,msiexec.exe,5559,routine process,benign,routine process
+PROC-00953,2026-08-12T01:35:26Z,DEPLOY-01,ACME\svc_backup,services.exe,powershell.exe,10944,routine process,benign,routine process
+PROC-00491,2026-08-12T01:38:42Z,FIN-WS-14,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,14854,routine process,benign,routine process
+PROC-01091,2026-08-12T01:38:46Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,11657,routine process,benign,routine process
+PROC-01265,2026-08-12T01:45:18Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,6401,routine process,benign,routine process
+PROC-01456,2026-08-12T01:46:32Z,DEPLOY-01,ACME\jsmith,services.exe,powershell.exe,7184,routine process,benign,routine process
+PROC-01217,2026-08-12T02:00:33Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,1859,routine process,benign,routine process
+PROC-00250,2026-08-12T02:02:57Z,DEPLOY-01,ACME\svc_deploy,explorer.exe,msiexec.exe,4175,routine process,benign,routine process
+PROC-00811,2026-08-12T02:08:37Z,JUMP-01,ACME\svc_backup,explorer.exe,w3wp.exe,14965,routine process,benign,routine process
+PROC-01232,2026-08-12T02:28:49Z,APP-API-03,ACME\svc_backup,taskeng.exe,backup-agent.exe,14373,routine process,benign,routine process
+PROC-00296,2026-08-12T02:34:09Z,APP-API-03,ACME\mrivera,services.exe,powershell.exe,1083,routine process,benign,routine process
+PROC-00247,2026-08-12T02:41:13Z,APP-API-03,ACME\jsmith,taskeng.exe,w3wp.exe,12120,routine process,benign,routine process
+PROC-00676,2026-08-12T02:45:26Z,FILE-02,ACME\svc_backup,taskeng.exe,powershell.exe,8745,routine process,benign,routine process
+PROC-00532,2026-08-12T02:45:56Z,DEPLOY-01,ACME\jsmith,explorer.exe,powershell.exe,12328,routine process,benign,routine process
+PROC-00860,2026-08-12T02:46:23Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,msiexec.exe,2581,routine process,benign,routine process
+PROC-00488,2026-08-12T02:49:22Z,JUMP-01,ACME\jsmith,services.exe,w3wp.exe,9260,routine process,benign,routine process
+PROC-00608,2026-08-12T02:50:03Z,DEPLOY-01,ACME\mrivera,taskeng.exe,w3wp.exe,5161,routine process,benign,routine process
+PROC-00437,2026-08-12T02:52:51Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,6806,routine process,benign,routine process
+PROC-00567,2026-08-12T02:53:35Z,APP-API-03,ACME\svc_backup,services.exe,w3wp.exe,4461,routine process,benign,routine process
+PROC-00084,2026-08-12T02:56:58Z,FILE-02,ACME\jsmith,taskeng.exe,msiexec.exe,1556,routine process,benign,routine process
+PROC-00941,2026-08-12T03:01:33Z,FILE-02,ACME\mrivera,services.exe,powershell.exe,4887,routine process,benign,routine process
+PROC-00041,2026-08-12T03:15:22Z,FIN-WS-14,ACME\jsmith,explorer.exe,msiexec.exe,11347,routine process,benign,routine process
+PROC-00566,2026-08-12T03:19:24Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,12164,routine process,benign,routine process
+PROC-00678,2026-08-12T03:22:14Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,9773,routine process,benign,routine process
+PROC-00324,2026-08-12T03:28:40Z,JUMP-01,ACME\jsmith,taskeng.exe,powershell.exe,13754,routine process,benign,routine process
+PROC-00720,2026-08-12T03:32:40Z,FILE-02,ACME\mrivera,wsmprovhost.exe,powershell.exe,11607,routine process,benign,routine process
+PROC-01443,2026-08-12T03:32:51Z,APP-API-02,ACME\svc_deploy,explorer.exe,powershell.exe,8081,routine process,benign,routine process
+PROC-00623,2026-08-12T03:33:09Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,w3wp.exe,13255,routine process,benign,routine process
+PROC-00091,2026-08-12T03:36:32Z,APP-API-03,ACME\mrivera,services.exe,msiexec.exe,4764,routine process,benign,routine process
+PROC-00430,2026-08-12T03:42:05Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,4859,routine process,benign,routine process
+PROC-00704,2026-08-12T03:43:14Z,APP-API-03,ACME\svc_backup,explorer.exe,msiexec.exe,8610,routine process,benign,routine process
+PROC-00110,2026-08-12T03:46:06Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,12749,routine process,benign,routine process
+PROC-00063,2026-08-12T03:52:24Z,APP-API-03,ACME\mrivera,taskeng.exe,backup-agent.exe,6469,routine process,benign,routine process
+PROC-00535,2026-08-12T04:05:58Z,DEPLOY-01,ACME\svc_backup,explorer.exe,msiexec.exe,4832,routine process,benign,routine process
+PROC-00830,2026-08-12T04:20:11Z,APP-API-03,ACME\mrivera,explorer.exe,msiexec.exe,1890,routine process,benign,routine process
+PROC-00747,2026-08-12T04:21:09Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,8966,routine process,benign,routine process
+PROC-00929,2026-08-12T04:23:06Z,APP-API-03,ACME\jsmith,taskeng.exe,powershell.exe,6852,routine process,benign,routine process
+PROC-01150,2026-08-12T04:41:29Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,7932,routine process,benign,routine process
+PROC-01427,2026-08-12T04:42:09Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,7502,routine process,benign,routine process
+PROC-00043,2026-08-12T04:42:20Z,APP-API-02,ACME\jsmith,taskeng.exe,backup-agent.exe,4573,routine process,benign,routine process
+PROC-01285,2026-08-12T04:44:46Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,12631,routine process,benign,routine process
+PROC-00810,2026-08-12T04:46:09Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,7851,routine process,benign,routine process
+PROC-00081,2026-08-12T04:47:20Z,FILE-02,ACME\jsmith,services.exe,w3wp.exe,8130,routine process,benign,routine process
+PROC-01075,2026-08-12T04:51:27Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,powershell.exe,12311,routine process,benign,routine process
+PROC-00879,2026-08-12T04:54:38Z,JUMP-01,ACME\svc_deploy,services.exe,msiexec.exe,14909,routine process,benign,routine process
+PROC-00653,2026-08-12T04:56:53Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,w3wp.exe,5254,routine process,benign,routine process
+PROC-00119,2026-08-12T04:59:20Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,8065,routine process,benign,routine process
+PROC-00423,2026-08-12T05:00:26Z,JUMP-01,ACME\mrivera,services.exe,msiexec.exe,8477,routine process,benign,routine process
+PROC-00741,2026-08-12T05:02:27Z,APP-API-03,ACME\svc_backup,explorer.exe,backup-agent.exe,4063,routine process,benign,routine process
+PROC-00442,2026-08-12T05:08:12Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,msiexec.exe,9648,routine process,benign,routine process
+PROC-01131,2026-08-12T05:10:51Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,11428,routine process,benign,routine process
+PROC-00244,2026-08-12T05:16:25Z,FILE-02,ACME\svc_backup,taskeng.exe,msiexec.exe,13935,routine process,benign,routine process
+PROC-00746,2026-08-12T05:20:02Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,3359,routine process,benign,routine process
+PROC-00543,2026-08-12T05:22:50Z,JUMP-01,ACME\jsmith,services.exe,backup-agent.exe,14585,routine process,benign,routine process
+PROC-01139,2026-08-12T05:29:39Z,APP-API-02,ACME\mrivera,explorer.exe,msiexec.exe,5597,routine process,benign,routine process
+PROC-00590,2026-08-12T05:33:26Z,APP-API-02,ACME\svc_deploy,services.exe,powershell.exe,7310,routine process,benign,routine process
+PROC-01145,2026-08-12T05:43:25Z,FILE-02,ACME\svc_deploy,explorer.exe,w3wp.exe,2314,routine process,benign,routine process
+PROC-01412,2026-08-12T05:44:07Z,JUMP-01,ACME\jsmith,services.exe,powershell.exe,8305,routine process,benign,routine process
+PROC-00619,2026-08-12T05:59:14Z,APP-API-02,ACME\svc_backup,services.exe,backup-agent.exe,9240,routine process,benign,routine process
+PROC-00868,2026-08-12T06:03:35Z,APP-API-03,ACME\jsmith,taskeng.exe,msiexec.exe,4899,routine process,benign,routine process
+PROC-00386,2026-08-12T06:12:39Z,APP-API-03,ACME\svc_deploy,services.exe,powershell.exe,13088,routine process,benign,routine process
+PROC-00170,2026-08-12T06:21:59Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,powershell.exe,1338,routine process,benign,routine process
+PROC-00828,2026-08-12T06:22:08Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,5505,routine process,benign,routine process
+PROC-00205,2026-08-12T06:24:48Z,DEPLOY-01,ACME\svc_deploy,explorer.exe,backup-agent.exe,13762,routine process,benign,routine process
+PROC-00718,2026-08-12T06:27:16Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,14630,routine process,benign,routine process
+PROC-01299,2026-08-12T06:35:11Z,FILE-02,ACME\mrivera,wsmprovhost.exe,w3wp.exe,13913,routine process,benign,routine process
+PROC-01234,2026-08-12T06:41:14Z,DEPLOY-01,ACME\jsmith,explorer.exe,msiexec.exe,14767,routine process,benign,routine process
+PROC-00840,2026-08-12T06:51:30Z,JUMP-01,ACME\svc_backup,services.exe,w3wp.exe,14258,routine process,benign,routine process
+PROC-00500,2026-08-12T06:52:53Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,9210,routine process,benign,routine process
+PROC-00797,2026-08-12T06:58:08Z,DEPLOY-01,ACME\mrivera,taskeng.exe,powershell.exe,2253,routine process,benign,routine process
+PROC-00409,2026-08-12T07:05:31Z,JUMP-01,ACME\svc_deploy,services.exe,backup-agent.exe,7094,routine process,benign,routine process
+PROC-00839,2026-08-12T07:20:13Z,APP-API-03,ACME\jsmith,explorer.exe,msiexec.exe,2680,routine process,benign,routine process
+PROC-01269,2026-08-12T07:41:37Z,FILE-02,ACME\mrivera,taskeng.exe,w3wp.exe,11013,routine process,benign,routine process
+PROC-00910,2026-08-12T07:48:41Z,FILE-02,ACME\svc_backup,taskeng.exe,powershell.exe,11178,routine process,benign,routine process
+PROC-01399,2026-08-12T07:49:25Z,JUMP-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,1328,routine process,benign,routine process
+PROC-00334,2026-08-12T07:50:16Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,7322,routine process,benign,routine process
+PROC-00738,2026-08-12T08:26:24Z,APP-API-03,ACME\svc_deploy,services.exe,w3wp.exe,7019,routine process,benign,routine process
+PROC-00790,2026-08-12T08:28:29Z,APP-API-02,ACME\jsmith,taskeng.exe,powershell.exe,4943,routine process,benign,routine process
+PROC-00195,2026-08-12T08:30:09Z,APP-API-02,ACME\svc_deploy,explorer.exe,w3wp.exe,12377,routine process,benign,routine process
+PROC-01483,2026-08-12T08:40:44Z,APP-API-03,ACME\svc_backup,taskeng.exe,powershell.exe,3531,routine process,benign,routine process
+PROC-00186,2026-08-12T08:50:51Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,msiexec.exe,1201,routine process,benign,routine process
+PROC-00764,2026-08-12T08:55:45Z,APP-API-02,ACME\mrivera,taskeng.exe,msiexec.exe,13538,routine process,benign,routine process
+PROC-01357,2026-08-12T08:56:07Z,JUMP-01,ACME\svc_backup,services.exe,backup-agent.exe,2153,routine process,benign,routine process
+PROC-00493,2026-08-12T08:58:06Z,FILE-02,ACME\mrivera,services.exe,backup-agent.exe,5532,routine process,benign,routine process
+PROC-01235,2026-08-12T08:59:43Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,w3wp.exe,6949,routine process,benign,routine process
+PROC-00574,2026-08-12T09:01:15Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,4239,routine process,benign,routine process
+PROC-01168,2026-08-12T09:11:36Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,3253,routine process,benign,routine process
+PROC-01159,2026-08-12T09:17:55Z,APP-API-03,ACME\svc_deploy,services.exe,w3wp.exe,4402,routine process,benign,routine process
+PROC-00098,2026-08-12T09:20:18Z,JUMP-01,ACME\mrivera,explorer.exe,w3wp.exe,12740,routine process,benign,routine process
+PROC-00328,2026-08-12T09:40:36Z,APP-API-03,ACME\svc_backup,explorer.exe,msiexec.exe,2319,routine process,benign,routine process
+PROC-00610,2026-08-12T09:47:23Z,FILE-02,ACME\mrivera,services.exe,w3wp.exe,14436,routine process,benign,routine process
+PROC-00001,2026-08-12T09:53:26Z,FIN-WS-14,ACME\mrivera,taskeng.exe,backup-agent.exe,4604,routine process,benign,routine process
+PROC-00058,2026-08-12T09:59:32Z,JUMP-01,ACME\svc_backup,services.exe,powershell.exe,6129,routine process,benign,routine process
+PROC-00721,2026-08-12T10:00:49Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,11629,routine process,benign,routine process
+PROC-00901,2026-08-12T10:03:05Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,5495,routine process,benign,routine process
+PROC-01008,2026-08-12T10:03:47Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,backup-agent.exe,13934,routine process,benign,routine process
+PROC-00607,2026-08-12T10:22:46Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,powershell.exe,14531,routine process,benign,routine process
+PROC-00893,2026-08-12T10:29:08Z,JUMP-01,ACME\jsmith,taskeng.exe,w3wp.exe,7273,routine process,benign,routine process
+PROC-01411,2026-08-12T10:35:05Z,APP-API-03,ACME\svc_deploy,services.exe,backup-agent.exe,14958,routine process,benign,routine process
+PROC-00238,2026-08-12T10:54:04Z,FILE-02,ACME\jsmith,services.exe,msiexec.exe,10970,routine process,benign,routine process
+PROC-01408,2026-08-12T10:57:24Z,APP-API-03,ACME\svc_deploy,taskeng.exe,msiexec.exe,11302,routine process,benign,routine process
+PROC-00268,2026-08-12T11:00:34Z,FILE-02,ACME\svc_backup,explorer.exe,w3wp.exe,10081,routine process,benign,routine process
+PROC-01058,2026-08-12T11:04:58Z,JUMP-01,ACME\svc_deploy,explorer.exe,powershell.exe,11432,routine process,benign,routine process
+PROC-01017,2026-08-12T11:18:31Z,APP-API-02,ACME\svc_backup,services.exe,msiexec.exe,6361,routine process,benign,routine process
+PROC-00603,2026-08-12T11:18:46Z,FIN-WS-14,ACME\svc_backup,explorer.exe,msiexec.exe,12811,routine process,benign,routine process
+PROC-01266,2026-08-12T11:19:49Z,FIN-WS-14,ACME\mrivera,explorer.exe,msiexec.exe,3303,routine process,benign,routine process
+PROC-00215,2026-08-12T11:20:32Z,DEPLOY-01,ACME\mrivera,taskeng.exe,backup-agent.exe,12399,routine process,benign,routine process
+PROC-01035,2026-08-12T11:47:23Z,DEPLOY-01,ACME\jsmith,taskeng.exe,w3wp.exe,13780,routine process,benign,routine process
+PROC-01405,2026-08-12T11:50:05Z,FIN-WS-14,ACME\mrivera,wsmprovhost.exe,w3wp.exe,7806,routine process,benign,routine process
+PROC-00723,2026-08-12T12:01:28Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,8780,routine process,benign,routine process
+PROC-00344,2026-08-12T12:06:17Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,backup-agent.exe,13142,routine process,benign,routine process
+PROC-00282,2026-08-12T12:06:56Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,6244,routine process,benign,routine process
+PROC-00792,2026-08-12T12:12:30Z,JUMP-01,ACME\svc_deploy,services.exe,powershell.exe,3152,routine process,benign,routine process
+PROC-00424,2026-08-12T12:19:35Z,DEPLOY-01,ACME\mrivera,explorer.exe,w3wp.exe,11566,routine process,benign,routine process
+PROC-00407,2026-08-12T12:28:45Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,7167,routine process,benign,routine process
+PROC-01128,2026-08-12T12:44:42Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,10590,routine process,benign,routine process
+PROC-00571,2026-08-12T12:47:31Z,JUMP-01,ACME\mrivera,wsmprovhost.exe,msiexec.exe,4705,routine process,benign,routine process
+PROC-00075,2026-08-12T13:08:46Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,10591,routine process,benign,routine process
+PROC-00679,2026-08-12T13:14:51Z,JUMP-01,ACME\jsmith,explorer.exe,w3wp.exe,10379,routine process,benign,routine process
+PROC-01161,2026-08-12T13:15:30Z,APP-API-02,ACME\mrivera,explorer.exe,msiexec.exe,5280,routine process,benign,routine process
+PROC-00706,2026-08-12T13:17:20Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,1041,routine process,benign,routine process
+PROC-00008,2026-08-12T13:26:44Z,APP-API-03,ACME\mrivera,services.exe,backup-agent.exe,14868,routine process,benign,routine process
+PROC-01286,2026-08-12T13:26:55Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,6545,routine process,benign,routine process
+PROC-01005,2026-08-12T13:30:02Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,powershell.exe,4485,routine process,benign,routine process
+PROC-00786,2026-08-12T13:40:31Z,FIN-WS-14,ACME\mrivera,taskeng.exe,backup-agent.exe,10604,routine process,benign,routine process
+PROC-00661,2026-08-12T13:45:26Z,FILE-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,6501,routine process,benign,routine process
+PROC-00709,2026-08-12T13:47:16Z,DEPLOY-01,ACME\jsmith,explorer.exe,w3wp.exe,14281,routine process,benign,routine process
+PROC-00025,2026-08-12T13:54:42Z,APP-API-03,ACME\svc_backup,taskeng.exe,backup-agent.exe,13003,routine process,benign,routine process
+PROC-01102,2026-08-12T13:57:45Z,FIN-WS-14,ACME\jsmith,taskeng.exe,msiexec.exe,2642,routine process,benign,routine process
+PROC-01175,2026-08-12T14:11:16Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,14951,routine process,benign,routine process
+PROC-00821,2026-08-12T14:15:57Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,4340,routine process,benign,routine process
+PROC-01295,2026-08-12T14:22:05Z,APP-API-02,ACME\svc_deploy,taskeng.exe,w3wp.exe,5052,routine process,benign,routine process
+PROC-00583,2026-08-12T14:28:04Z,FILE-02,ACME\jsmith,taskeng.exe,msiexec.exe,13118,routine process,benign,routine process
+PROC-00961,2026-08-12T14:29:20Z,FIN-WS-14,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,6233,routine process,benign,routine process
+PROC-00047,2026-08-12T14:51:19Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,14108,routine process,benign,routine process
+PROC-00297,2026-08-12T15:02:26Z,FIN-WS-14,ACME\mrivera,services.exe,w3wp.exe,5052,routine process,benign,routine process
+PROC-00114,2026-08-12T15:08:15Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,2101,routine process,benign,routine process
+PROC-01156,2026-08-12T15:19:30Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,10917,routine process,benign,routine process
+PROC-00909,2026-08-12T15:23:36Z,APP-API-02,ACME\mrivera,explorer.exe,msiexec.exe,1479,routine process,benign,routine process
+PROC-00856,2026-08-12T15:28:59Z,APP-API-03,ACME\mrivera,explorer.exe,msiexec.exe,9052,routine process,benign,routine process
+PROC-00185,2026-08-12T15:29:58Z,FIN-WS-14,ACME\jsmith,taskeng.exe,powershell.exe,7715,routine process,benign,routine process
+PROC-00647,2026-08-12T15:46:49Z,FIN-WS-14,ACME\svc_deploy,services.exe,msiexec.exe,13059,routine process,benign,routine process
+PROC-00554,2026-08-12T15:50:06Z,JUMP-01,ACME\svc_deploy,taskeng.exe,w3wp.exe,14028,routine process,benign,routine process
+PROC-00141,2026-08-12T16:04:04Z,FIN-WS-14,ACME\jsmith,explorer.exe,powershell.exe,7967,routine process,benign,routine process
+PROC-00470,2026-08-12T16:35:23Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,1685,routine process,benign,routine process
+PROC-00512,2026-08-12T16:41:01Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,10835,routine process,benign,routine process
+PROC-01024,2026-08-12T16:46:32Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,5180,routine process,benign,routine process
+PROC-00551,2026-08-12T16:56:53Z,DEPLOY-01,ACME\mrivera,services.exe,powershell.exe,4990,routine process,benign,routine process
+PROC-00533,2026-08-12T16:58:59Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,w3wp.exe,11426,routine process,benign,routine process
+PROC-00934,2026-08-12T17:02:02Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,3673,routine process,benign,routine process
+PROC-01171,2026-08-12T17:12:59Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,12104,routine process,benign,routine process
+PROC-00097,2026-08-12T17:13:41Z,DEPLOY-01,ACME\mrivera,taskeng.exe,backup-agent.exe,12447,routine process,benign,routine process
+PROC-00453,2026-08-12T17:15:19Z,DEPLOY-01,ACME\jsmith,taskeng.exe,w3wp.exe,3953,routine process,benign,routine process
+PROC-00681,2026-08-12T17:29:05Z,FIN-WS-14,ACME\jsmith,taskeng.exe,powershell.exe,4660,routine process,benign,routine process
+PROC-01064,2026-08-12T17:30:42Z,DEPLOY-01,ACME\mrivera,services.exe,w3wp.exe,5555,routine process,benign,routine process
+PROC-01358,2026-08-12T17:38:06Z,APP-API-02,ACME\svc_deploy,services.exe,backup-agent.exe,13700,routine process,benign,routine process
+PROC-00875,2026-08-12T17:42:00Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,10073,routine process,benign,routine process
+PROC-00327,2026-08-12T17:50:31Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,9331,routine process,benign,routine process
+PROC-00930,2026-08-12T17:54:15Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,msiexec.exe,1412,routine process,benign,routine process
+PROC-00799,2026-08-12T18:01:34Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,6541,routine process,benign,routine process
+PROC-01193,2026-08-12T18:02:40Z,DEPLOY-01,ACME\mrivera,taskeng.exe,powershell.exe,9694,routine process,benign,routine process
+PROC-00595,2026-08-12T18:19:47Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,9864,routine process,benign,routine process
+PROC-00179,2026-08-12T18:24:09Z,JUMP-01,ACME\svc_backup,taskeng.exe,backup-agent.exe,12147,routine process,benign,routine process
+PROC-01302,2026-08-12T18:39:03Z,APP-API-03,ACME\jsmith,taskeng.exe,w3wp.exe,14219,routine process,benign,routine process
+PROC-00403,2026-08-12T18:42:48Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,14189,routine process,benign,routine process
+PROC-00487,2026-08-12T18:51:44Z,DEPLOY-01,ACME\mrivera,services.exe,powershell.exe,1044,routine process,benign,routine process
+PROC-00159,2026-08-12T18:56:57Z,APP-API-03,ACME\svc_deploy,explorer.exe,w3wp.exe,9277,routine process,benign,routine process
+PROC-01227,2026-08-12T19:16:10Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,6393,routine process,benign,routine process
+PROC-00637,2026-08-12T19:20:19Z,FILE-02,ACME\svc_deploy,services.exe,powershell.exe,13372,routine process,benign,routine process
+PROC-00066,2026-08-12T19:26:24Z,FILE-02,ACME\mrivera,wsmprovhost.exe,msiexec.exe,4930,routine process,benign,routine process
+PROC-00861,2026-08-12T19:29:23Z,FILE-02,ACME\svc_deploy,taskeng.exe,powershell.exe,2363,routine process,benign,routine process
+PROC-01303,2026-08-12T19:30:22Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,12150,routine process,benign,routine process
+PROC-00418,2026-08-12T19:37:07Z,FILE-02,ACME\jsmith,taskeng.exe,backup-agent.exe,5276,routine process,benign,routine process
+PROC-00576,2026-08-12T20:00:39Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,powershell.exe,2252,routine process,benign,routine process
+PROC-00432,2026-08-12T20:04:15Z,FILE-02,ACME\jsmith,wsmprovhost.exe,msiexec.exe,11148,routine process,benign,routine process
+PROC-00717,2026-08-12T20:18:24Z,DEPLOY-01,ACME\jsmith,services.exe,w3wp.exe,13351,routine process,benign,routine process
+PROC-00564,2026-08-12T20:26:45Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,3353,routine process,benign,routine process
+PROC-01437,2026-08-12T20:30:40Z,FIN-WS-14,ACME\mrivera,taskeng.exe,w3wp.exe,12175,routine process,benign,routine process
+PROC-00124,2026-08-12T20:39:30Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,w3wp.exe,1000,routine process,benign,routine process
+PROC-01438,2026-08-12T20:41:56Z,DEPLOY-01,ACME\mrivera,taskeng.exe,powershell.exe,5621,routine process,benign,routine process
+PROC-00719,2026-08-12T20:42:06Z,APP-API-03,ACME\jsmith,explorer.exe,powershell.exe,9478,routine process,benign,routine process
+PROC-01118,2026-08-12T20:47:07Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,2213,routine process,benign,routine process
+PROC-01228,2026-08-12T20:52:05Z,DEPLOY-01,ACME\mrivera,explorer.exe,msiexec.exe,10587,routine process,benign,routine process
+PROC-00037,2026-08-12T20:54:44Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,1807,routine process,benign,routine process
+PROC-01382,2026-08-12T21:04:07Z,FILE-02,ACME\svc_backup,explorer.exe,msiexec.exe,6883,routine process,benign,routine process
+PROC-00300,2026-08-12T21:13:27Z,FIN-WS-14,ACME\svc_backup,services.exe,w3wp.exe,6596,routine process,benign,routine process
+PROC-01043,2026-08-12T21:16:06Z,DEPLOY-01,ACME\svc_deploy,explorer.exe,msiexec.exe,5207,routine process,benign,routine process
+PROC-01277,2026-08-12T21:18:19Z,JUMP-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,10996,routine process,benign,routine process
+PROC-00496,2026-08-12T21:20:45Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,5358,routine process,benign,routine process
+PROC-01318,2026-08-12T21:41:49Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,4154,routine process,benign,routine process
+PROC-00338,2026-08-12T21:50:21Z,FIN-WS-14,ACME\jsmith,explorer.exe,backup-agent.exe,4768,routine process,benign,routine process
+PROC-01104,2026-08-12T21:55:59Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,13583,routine process,benign,routine process
+PROC-00477,2026-08-12T21:59:55Z,APP-API-03,ACME\mrivera,taskeng.exe,w3wp.exe,14741,routine process,benign,routine process
+PROC-01146,2026-08-12T22:01:17Z,FILE-02,ACME\svc_deploy,taskeng.exe,w3wp.exe,6329,routine process,benign,routine process
+PROC-00892,2026-08-12T22:02:15Z,DEPLOY-01,ACME\jsmith,explorer.exe,w3wp.exe,13265,routine process,benign,routine process
+PROC-00318,2026-08-12T22:04:07Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,msiexec.exe,12252,routine process,benign,routine process
+PROC-00772,2026-08-12T22:10:27Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,13876,routine process,benign,routine process
+PROC-01360,2026-08-12T22:11:32Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,powershell.exe,7399,routine process,benign,routine process
+PROC-00311,2026-08-12T22:13:03Z,FIN-WS-14,ACME\mrivera,taskeng.exe,msiexec.exe,10099,routine process,benign,routine process
+PROC-00757,2026-08-12T22:17:38Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,powershell.exe,10792,routine process,benign,routine process
+PROC-00336,2026-08-12T22:18:52Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,powershell.exe,6484,routine process,benign,routine process
+PROC-00093,2026-08-12T22:21:07Z,FIN-WS-14,ACME\jsmith,explorer.exe,msiexec.exe,1050,routine process,benign,routine process
+PROC-01466,2026-08-12T22:24:05Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,5899,routine process,benign,routine process
+PROC-00490,2026-08-12T22:24:42Z,DEPLOY-01,ACME\mrivera,services.exe,msiexec.exe,13122,routine process,benign,routine process
+PROC-00187,2026-08-12T22:30:14Z,FIN-WS-14,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,5627,routine process,benign,routine process
+PROC-00354,2026-08-12T22:36:18Z,JUMP-01,ACME\svc_deploy,services.exe,powershell.exe,3942,routine process,benign,routine process
+PROC-00900,2026-08-12T22:38:02Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,2843,routine process,benign,routine process
+PROC-00648,2026-08-12T22:40:02Z,APP-API-02,ACME\jsmith,services.exe,msiexec.exe,7727,routine process,benign,routine process
+PROC-00529,2026-08-12T22:41:12Z,APP-API-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,3873,routine process,benign,routine process
+PROC-01332,2026-08-12T22:46:16Z,FIN-WS-14,ACME\svc_deploy,services.exe,backup-agent.exe,12659,routine process,benign,routine process
+PROC-00983,2026-08-12T22:48:29Z,FILE-02,ACME\svc_deploy,explorer.exe,powershell.exe,6159,routine process,benign,routine process
+PROC-00807,2026-08-12T22:55:20Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,msiexec.exe,10031,routine process,benign,routine process
+PROC-00579,2026-08-12T23:04:38Z,FIN-WS-14,ACME\mrivera,services.exe,powershell.exe,3872,routine process,benign,routine process
+PROC-00928,2026-08-12T23:07:29Z,JUMP-01,ACME\jsmith,explorer.exe,backup-agent.exe,3766,routine process,benign,routine process
+PROC-00450,2026-08-12T23:10:11Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,8935,routine process,benign,routine process
+PROC-00927,2026-08-12T23:19:12Z,JUMP-01,ACME\svc_backup,services.exe,powershell.exe,10994,routine process,benign,routine process
+PROC-01174,2026-08-12T23:19:28Z,APP-API-02,ACME\mrivera,services.exe,msiexec.exe,5550,routine process,benign,routine process
+PROC-00499,2026-08-12T23:20:27Z,APP-API-03,ACME\jsmith,taskeng.exe,msiexec.exe,4705,routine process,benign,routine process
+PROC-00735,2026-08-12T23:27:44Z,FILE-02,ACME\mrivera,taskeng.exe,backup-agent.exe,6566,routine process,benign,routine process
+PROC-00381,2026-08-12T23:55:26Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,5923,routine process,benign,routine process
+PROC-00845,2026-08-12T23:56:30Z,APP-API-02,ACME\svc_backup,taskeng.exe,powershell.exe,11223,routine process,benign,routine process
+PROC-00817,2026-08-12T23:59:32Z,FILE-02,ACME\mrivera,services.exe,powershell.exe,11728,routine process,benign,routine process
+PROC-01417,2026-08-13T00:02:50Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,powershell.exe,10258,routine process,benign,routine process
+PROC-00697,2026-08-13T00:07:05Z,APP-API-03,ACME\mrivera,taskeng.exe,backup-agent.exe,14701,routine process,benign,routine process
+PROC-00101,2026-08-13T00:20:34Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,1010,routine process,benign,routine process
+PROC-00497,2026-08-13T00:21:32Z,APP-API-03,ACME\svc_deploy,explorer.exe,powershell.exe,7806,routine process,benign,routine process
+PROC-00837,2026-08-13T00:38:48Z,FIN-WS-14,ACME\jsmith,services.exe,powershell.exe,5733,routine process,benign,routine process
+PROC-01207,2026-08-13T00:39:27Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,1814,routine process,benign,routine process
+PROC-00498,2026-08-13T00:41:47Z,APP-API-02,ACME\jsmith,taskeng.exe,powershell.exe,11032,routine process,benign,routine process
+PROC-00255,2026-08-13T00:43:54Z,JUMP-01,ACME\jsmith,taskeng.exe,powershell.exe,8476,routine process,benign,routine process
+PROC-00307,2026-08-13T00:48:16Z,FILE-02,ACME\svc_backup,taskeng.exe,backup-agent.exe,12324,routine process,benign,routine process
+PROC-01219,2026-08-13T01:00:13Z,APP-API-03,ACME\svc_deploy,explorer.exe,msiexec.exe,2997,routine process,benign,routine process
+PROC-00700,2026-08-13T01:02:55Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,9546,routine process,benign,routine process
+PROC-00388,2026-08-13T01:19:50Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,3009,routine process,benign,routine process
+PROC-01101,2026-08-13T01:24:37Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,5984,routine process,benign,routine process
+PROC-00573,2026-08-13T01:26:31Z,FIN-WS-14,ACME\svc_deploy,services.exe,msiexec.exe,5737,routine process,benign,routine process
+PROC-00731,2026-08-13T01:27:40Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,w3wp.exe,12548,routine process,benign,routine process
+PROC-01374,2026-08-13T01:58:34Z,DEPLOY-01,ACME\jsmith,taskeng.exe,backup-agent.exe,10440,routine process,benign,routine process
+PROC-01206,2026-08-13T02:02:40Z,FIN-WS-14,ACME\jsmith,taskeng.exe,w3wp.exe,5898,routine process,benign,routine process
+PROC-00707,2026-08-13T02:03:20Z,FILE-02,ACME\svc_deploy,taskeng.exe,w3wp.exe,2809,routine process,benign,routine process
+PROC-00133,2026-08-13T02:03:33Z,FIN-WS-14,ACME\jsmith,taskeng.exe,msiexec.exe,14111,routine process,benign,routine process
+PROC-01465,2026-08-13T02:04:50Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,w3wp.exe,8148,routine process,benign,routine process
+PROC-01123,2026-08-13T02:05:57Z,FILE-02,ACME\mrivera,wsmprovhost.exe,powershell.exe,5025,routine process,benign,routine process
+PROC-00776,2026-08-13T02:12:13Z,JUMP-01,ACME\jsmith,taskeng.exe,msiexec.exe,12978,routine process,benign,routine process
+PROC-00342,2026-08-13T02:16:48Z,DEPLOY-01,ACME\jsmith,taskeng.exe,backup-agent.exe,9472,routine process,benign,routine process
+PROC-00639,2026-08-13T02:29:18Z,FILE-02,ACME\mrivera,taskeng.exe,w3wp.exe,7947,routine process,benign,routine process
+PROC-00056,2026-08-13T02:32:34Z,APP-API-02,ACME\mrivera,taskeng.exe,powershell.exe,10090,routine process,benign,routine process
+PROC-01229,2026-08-13T02:35:08Z,DEPLOY-01,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,11677,routine process,benign,routine process
+PROC-00468,2026-08-13T02:43:45Z,DEPLOY-01,ACME\svc_deploy,explorer.exe,backup-agent.exe,4886,routine process,benign,routine process
+PROC-00052,2026-08-13T02:47:19Z,DEPLOY-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,1360,routine process,benign,routine process
+PROC-00303,2026-08-13T02:47:33Z,JUMP-01,ACME\mrivera,services.exe,powershell.exe,5000,routine process,benign,routine process
+PROC-00696,2026-08-13T02:48:05Z,JUMP-01,ACME\mrivera,services.exe,msiexec.exe,5203,routine process,benign,routine process
+PROC-00849,2026-08-13T02:51:56Z,FILE-02,ACME\jsmith,services.exe,backup-agent.exe,13009,routine process,benign,routine process
+PROC-00844,2026-08-13T02:51:59Z,JUMP-01,ACME\svc_deploy,services.exe,w3wp.exe,2765,routine process,benign,routine process
+PROC-00454,2026-08-13T03:06:54Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,13669,routine process,benign,routine process
+PROC-00363,2026-08-13T03:12:40Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,13083,routine process,benign,routine process
+PROC-00940,2026-08-13T03:16:52Z,JUMP-01,ACME\mrivera,services.exe,backup-agent.exe,12183,routine process,benign,routine process
+PROC-01458,2026-08-13T03:18:05Z,JUMP-01,ACME\svc_deploy,services.exe,w3wp.exe,9534,routine process,benign,routine process
+PROC-00714,2026-08-13T03:20:39Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,6988,routine process,benign,routine process
+PROC-00044,2026-08-13T03:23:55Z,APP-API-02,ACME\svc_backup,services.exe,powershell.exe,12355,routine process,benign,routine process
+PROC-01153,2026-08-13T03:29:00Z,JUMP-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,7355,routine process,benign,routine process
+PROC-01107,2026-08-13T03:38:32Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,7132,routine process,benign,routine process
+PROC-00552,2026-08-13T03:39:05Z,APP-API-02,ACME\svc_deploy,taskeng.exe,msiexec.exe,5471,routine process,benign,routine process
+PROC-00285,2026-08-13T03:50:28Z,JUMP-01,ACME\svc_deploy,services.exe,msiexec.exe,5455,routine process,benign,routine process
+PROC-00357,2026-08-13T04:00:09Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,msiexec.exe,3811,routine process,benign,routine process
+PROC-00181,2026-08-13T04:11:12Z,DEPLOY-01,ACME\jsmith,wsmprovhost.exe,w3wp.exe,7319,routine process,benign,routine process
+PROC-00343,2026-08-13T04:14:42Z,DEPLOY-01,ACME\svc_deploy,explorer.exe,powershell.exe,10771,routine process,benign,routine process
+PROC-00939,2026-08-13T04:20:41Z,APP-API-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,7605,routine process,benign,routine process
+PROC-01428,2026-08-13T04:32:51Z,JUMP-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,11658,routine process,benign,routine process
+PROC-01481,2026-08-13T04:38:13Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,2402,routine process,benign,routine process
+PROC-00737,2026-08-13T04:43:43Z,DEPLOY-01,ACME\mrivera,taskeng.exe,msiexec.exe,10408,routine process,benign,routine process
+PROC-00321,2026-08-13T04:46:00Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,2296,routine process,benign,routine process
+PROC-00713,2026-08-13T04:54:47Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,6018,routine process,benign,routine process
+PROC-00258,2026-08-13T05:01:01Z,FILE-02,ACME\jsmith,explorer.exe,powershell.exe,3673,routine process,benign,routine process
+PROC-01335,2026-08-13T05:01:29Z,FIN-WS-14,ACME\mrivera,services.exe,w3wp.exe,9317,routine process,benign,routine process
+PROC-00251,2026-08-13T05:21:29Z,DEPLOY-01,ACME\mrivera,taskeng.exe,w3wp.exe,9835,routine process,benign,routine process
+PROC-00279,2026-08-13T05:28:03Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,2253,routine process,benign,routine process
+PROC-00379,2026-08-13T05:31:10Z,APP-API-03,ACME\jsmith,services.exe,backup-agent.exe,6608,routine process,benign,routine process
+PROC-01459,2026-08-13T05:33:17Z,DEPLOY-01,ACME\jsmith,services.exe,w3wp.exe,9517,routine process,benign,routine process
+PROC-00232,2026-08-13T05:58:20Z,APP-API-02,ACME\svc_backup,explorer.exe,backup-agent.exe,12733,routine process,benign,routine process
+PROC-00748,2026-08-13T06:04:49Z,APP-API-02,ACME\svc_backup,taskeng.exe,backup-agent.exe,3688,routine process,benign,routine process
+PROC-01420,2026-08-13T06:06:02Z,JUMP-01,ACME\svc_backup,taskeng.exe,msiexec.exe,10800,routine process,benign,routine process
+PROC-00452,2026-08-13T06:09:53Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,14593,routine process,benign,routine process
+PROC-01238,2026-08-13T06:22:59Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,8099,routine process,benign,routine process
+PROC-00615,2026-08-13T06:31:37Z,FIN-WS-14,ACME\mrivera,explorer.exe,powershell.exe,8286,routine process,benign,routine process
+PROC-01051,2026-08-13T06:39:45Z,JUMP-01,ACME\svc_backup,explorer.exe,msiexec.exe,9970,routine process,benign,routine process
+PROC-01029,2026-08-13T06:43:38Z,FIN-WS-14,ACME\jsmith,explorer.exe,powershell.exe,8161,routine process,benign,routine process
+PROC-01057,2026-08-13T06:53:32Z,JUMP-01,ACME\svc_backup,explorer.exe,w3wp.exe,5911,routine process,benign,routine process
+PROC-00040,2026-08-13T06:58:04Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,7839,routine process,benign,routine process
+PROC-00569,2026-08-13T07:01:20Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,9829,routine process,benign,routine process
+PROC-00368,2026-08-13T07:04:26Z,FIN-WS-14,ACME\svc_backup,explorer.exe,w3wp.exe,3329,routine process,benign,routine process
+PROC-00701,2026-08-13T07:32:28Z,DEPLOY-01,ACME\mrivera,taskeng.exe,powershell.exe,1760,routine process,benign,routine process
+PROC-01315,2026-08-13T07:37:05Z,FIN-WS-14,ACME\jsmith,taskeng.exe,w3wp.exe,13851,routine process,benign,routine process
+PROC-00464,2026-08-13T07:40:33Z,JUMP-01,ACME\svc_deploy,explorer.exe,powershell.exe,1601,routine process,benign,routine process
+PROC-00072,2026-08-13T07:46:25Z,APP-API-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,2276,routine process,benign,routine process
+PROC-00502,2026-08-13T08:14:12Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,msiexec.exe,2242,routine process,benign,routine process
+PROC-00882,2026-08-13T08:15:19Z,FIN-WS-14,ACME\svc_deploy,services.exe,w3wp.exe,8195,routine process,benign,routine process
+PROC-01431,2026-08-13T08:17:51Z,APP-API-02,ACME\mrivera,taskeng.exe,msiexec.exe,4207,routine process,benign,routine process
+PROC-00762,2026-08-13T08:25:14Z,FILE-02,ACME\svc_backup,services.exe,backup-agent.exe,13360,routine process,benign,routine process
+PROC-00702,2026-08-13T08:25:56Z,APP-API-03,ACME\svc_deploy,services.exe,backup-agent.exe,14974,routine process,benign,routine process
+PROC-00376,2026-08-13T08:26:01Z,JUMP-01,ACME\svc_backup,services.exe,backup-agent.exe,8312,routine process,benign,routine process
+PROC-01042,2026-08-13T08:26:06Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,6622,routine process,benign,routine process
+PROC-00332,2026-08-13T08:40:40Z,JUMP-01,ACME\svc_backup,services.exe,powershell.exe,7679,routine process,benign,routine process
+PROC-00463,2026-08-13T08:44:02Z,APP-API-03,ACME\svc_backup,services.exe,backup-agent.exe,4569,routine process,benign,routine process
+PROC-00866,2026-08-13T08:45:00Z,DEPLOY-01,ACME\jsmith,explorer.exe,msiexec.exe,6129,routine process,benign,routine process
+PROC-00651,2026-08-13T08:45:46Z,APP-API-02,ACME\svc_deploy,explorer.exe,msiexec.exe,2939,routine process,benign,routine process
+PROC-00128,2026-08-13T08:54:02Z,JUMP-01,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,4192,routine process,benign,routine process
+PROC-00412,2026-08-13T08:55:15Z,APP-API-02,ACME\svc_deploy,taskeng.exe,msiexec.exe,8879,routine process,benign,routine process
+PROC-00859,2026-08-13T08:55:54Z,DEPLOY-01,ACME\jsmith,services.exe,powershell.exe,13600,routine process,benign,routine process
+PROC-00060,2026-08-13T08:57:37Z,APP-API-02,ACME\mrivera,taskeng.exe,w3wp.exe,4299,routine process,benign,routine process
+PROC-00931,2026-08-13T09:06:54Z,FILE-02,ACME\svc_backup,services.exe,msiexec.exe,8906,routine process,benign,routine process
+PROC-01093,2026-08-13T09:14:59Z,FIN-WS-14,ACME\mrivera,wsmprovhost.exe,w3wp.exe,7248,routine process,benign,routine process
+PROC-00373,2026-08-13T09:27:20Z,APP-API-03,ACME\svc_deploy,explorer.exe,w3wp.exe,8441,routine process,benign,routine process
+PROC-00802,2026-08-13T09:29:58Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,12985,routine process,benign,routine process
+PROC-00117,2026-08-13T09:40:31Z,JUMP-01,ACME\svc_backup,explorer.exe,w3wp.exe,4771,routine process,benign,routine process
+PROC-01108,2026-08-13T09:50:56Z,FILE-02,ACME\svc_deploy,explorer.exe,w3wp.exe,12920,routine process,benign,routine process
+PROC-00154,2026-08-13T10:01:43Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,powershell.exe,8672,routine process,benign,routine process
+PROC-00153,2026-08-13T10:02:46Z,FILE-02,ACME\svc_deploy,explorer.exe,powershell.exe,5713,routine process,benign,routine process
+PROC-00050,2026-08-13T10:13:48Z,FILE-02,ACME\jsmith,explorer.exe,powershell.exe,13603,routine process,benign,routine process
+PROC-01142,2026-08-13T10:14:11Z,APP-API-02,ACME\svc_deploy,taskeng.exe,msiexec.exe,2036,routine process,benign,routine process
+PROC-00659,2026-08-13T10:19:45Z,APP-API-03,ACME\mrivera,services.exe,msiexec.exe,9286,routine process,benign,routine process
+PROC-00271,2026-08-13T10:20:48Z,APP-API-03,ACME\svc_backup,services.exe,w3wp.exe,11716,routine process,benign,routine process
+PROC-00809,2026-08-13T10:21:43Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,4631,routine process,benign,routine process
+PROC-00088,2026-08-13T10:37:52Z,DEPLOY-01,ACME\jsmith,explorer.exe,msiexec.exe,3333,routine process,benign,routine process
+PROC-01081,2026-08-13T10:42:35Z,JUMP-01,ACME\svc_deploy,explorer.exe,powershell.exe,6347,routine process,benign,routine process
+PROC-00425,2026-08-13T10:44:30Z,JUMP-01,ACME\mrivera,explorer.exe,backup-agent.exe,6572,routine process,benign,routine process
+PROC-01078,2026-08-13T10:47:49Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,14617,routine process,benign,routine process
+PROC-01120,2026-08-13T10:48:26Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,powershell.exe,5357,routine process,benign,routine process
+PROC-00055,2026-08-13T11:00:57Z,DEPLOY-01,ACME\svc_backup,services.exe,w3wp.exe,8825,routine process,benign,routine process
+PROC-00378,2026-08-13T11:01:40Z,APP-API-02,ACME\jsmith,explorer.exe,msiexec.exe,7818,routine process,benign,routine process
+PROC-01283,2026-08-13T11:04:51Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,5791,routine process,benign,routine process
+PROC-01287,2026-08-13T11:12:10Z,APP-API-03,ACME\svc_backup,explorer.exe,powershell.exe,4953,routine process,benign,routine process
+PROC-01340,2026-08-13T11:16:54Z,FIN-WS-14,ACME\mrivera,services.exe,powershell.exe,7463,routine process,benign,routine process
+PROC-01416,2026-08-13T11:42:15Z,JUMP-01,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,2408,routine process,benign,routine process
+PROC-00829,2026-08-13T11:47:14Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,3943,routine process,benign,routine process
+PROC-00074,2026-08-13T11:53:23Z,FILE-02,ACME\svc_backup,taskeng.exe,msiexec.exe,8471,routine process,benign,routine process
+PROC-00600,2026-08-13T11:55:10Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,11281,routine process,benign,routine process
+PROC-00401,2026-08-13T11:57:38Z,FILE-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,9173,routine process,benign,routine process
+PROC-00852,2026-08-13T12:02:38Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,6241,routine process,benign,routine process
+PROC-01487,2026-08-13T12:07:08Z,DEPLOY-01,ACME\mrivera,taskeng.exe,msiexec.exe,5522,routine process,benign,routine process
+PROC-00099,2026-08-13T12:17:02Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,3720,routine process,benign,routine process
+PROC-00664,2026-08-13T12:21:00Z,DEPLOY-01,ACME\svc_deploy,explorer.exe,backup-agent.exe,9215,routine process,benign,routine process
+PROC-01170,2026-08-13T12:26:29Z,APP-API-03,ACME\jsmith,services.exe,backup-agent.exe,10253,routine process,benign,routine process
+PROC-01333,2026-08-13T12:29:40Z,FILE-02,ACME\mrivera,services.exe,w3wp.exe,11239,routine process,benign,routine process
+PROC-00652,2026-08-13T12:32:51Z,FIN-WS-14,ACME\jsmith,services.exe,msiexec.exe,7618,routine process,benign,routine process
+PROC-01463,2026-08-13T12:41:22Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,w3wp.exe,6864,routine process,benign,routine process
+PROC-00102,2026-08-13T12:49:00Z,FIN-WS-14,ACME\jsmith,services.exe,msiexec.exe,2430,routine process,benign,routine process
+PROC-01440,2026-08-13T12:49:39Z,APP-API-02,ACME\jsmith,explorer.exe,powershell.exe,3909,routine process,benign,routine process
+PROC-01044,2026-08-13T13:17:51Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,w3wp.exe,14387,routine process,benign,routine process
+PROC-01073,2026-08-13T13:17:54Z,FILE-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,6422,routine process,benign,routine process
+PROC-01103,2026-08-13T13:19:24Z,APP-API-02,ACME\jsmith,taskeng.exe,powershell.exe,5586,routine process,benign,routine process
+PROC-01184,2026-08-13T13:23:34Z,JUMP-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,4946,routine process,benign,routine process
+PROC-00575,2026-08-13T13:49:10Z,DEPLOY-01,ACME\svc_backup,services.exe,msiexec.exe,2663,routine process,benign,routine process
+PROC-01195,2026-08-13T14:07:57Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,10336,routine process,benign,routine process
+PROC-00397,2026-08-13T14:18:26Z,FILE-02,ACME\svc_backup,explorer.exe,backup-agent.exe,13655,routine process,benign,routine process
+PROC-01223,2026-08-13T14:22:07Z,APP-API-02,ACME\svc_deploy,explorer.exe,powershell.exe,13675,routine process,benign,routine process
+PROC-00798,2026-08-13T14:24:50Z,JUMP-01,ACME\svc_deploy,explorer.exe,msiexec.exe,12021,routine process,benign,routine process
+PROC-01028,2026-08-13T14:25:40Z,FILE-02,ACME\svc_backup,explorer.exe,msiexec.exe,7806,routine process,benign,routine process
+PROC-00691,2026-08-13T14:35:10Z,DEPLOY-01,ACME\svc_backup,services.exe,backup-agent.exe,5696,routine process,benign,routine process
+PROC-01201,2026-08-13T14:43:10Z,DEPLOY-01,ACME\mrivera,services.exe,msiexec.exe,5328,routine process,benign,routine process
+PROC-00319,2026-08-13T14:45:10Z,FILE-02,ACME\jsmith,services.exe,w3wp.exe,7977,routine process,benign,routine process
+PROC-00524,2026-08-13T14:45:43Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,backup-agent.exe,3602,routine process,benign,routine process
+PROC-00779,2026-08-13T14:59:36Z,DEPLOY-01,ACME\svc_backup,explorer.exe,w3wp.exe,10689,routine process,benign,routine process
+PROC-01474,2026-08-13T15:01:19Z,APP-API-02,ACME\svc_backup,taskeng.exe,w3wp.exe,8806,routine process,benign,routine process
+PROC-00148,2026-08-13T15:29:11Z,FILE-02,ACME\jsmith,taskeng.exe,msiexec.exe,9415,routine process,benign,routine process
+PROC-01363,2026-08-13T15:31:00Z,DEPLOY-01,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,1948,routine process,benign,routine process
+PROC-01424,2026-08-13T15:32:18Z,FILE-02,ACME\mrivera,taskeng.exe,backup-agent.exe,5242,routine process,benign,routine process
+PROC-00005,2026-08-13T15:36:30Z,DEPLOY-01,ACME\mrivera,taskeng.exe,powershell.exe,8414,routine process,benign,routine process
+PROC-01379,2026-08-13T15:41:13Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,14565,routine process,benign,routine process
+PROC-00761,2026-08-13T15:46:35Z,JUMP-01,ACME\svc_backup,taskeng.exe,w3wp.exe,2670,routine process,benign,routine process
+PROC-01293,2026-08-13T15:53:02Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,powershell.exe,11302,routine process,benign,routine process
+PROC-00699,2026-08-13T16:10:02Z,DEPLOY-01,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,2850,routine process,benign,routine process
+PROC-01013,2026-08-13T16:13:31Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,7226,routine process,benign,routine process
+PROC-00399,2026-08-13T16:21:34Z,APP-API-02,ACME\svc_backup,services.exe,msiexec.exe,14063,routine process,benign,routine process
+PROC-00257,2026-08-13T16:28:55Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,14972,routine process,benign,routine process
+PROC-00019,2026-08-13T16:32:39Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,4542,routine process,benign,routine process
+PROC-00565,2026-08-13T16:44:11Z,APP-API-02,ACME\svc_backup,explorer.exe,w3wp.exe,2944,routine process,benign,routine process
+PROC-00766,2026-08-13T16:45:56Z,FILE-02,ACME\jsmith,taskeng.exe,msiexec.exe,7007,routine process,benign,routine process
+PROC-00538,2026-08-13T16:50:38Z,FIN-WS-14,ACME\jsmith,explorer.exe,backup-agent.exe,1680,routine process,benign,routine process
+PROC-00046,2026-08-13T16:51:09Z,DEPLOY-01,ACME\jsmith,services.exe,msiexec.exe,9340,routine process,benign,routine process
+PROC-01047,2026-08-13T16:58:32Z,FILE-02,ACME\jsmith,explorer.exe,powershell.exe,14753,routine process,benign,routine process
+PROC-01371,2026-08-13T17:00:17Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,4877,routine process,benign,routine process
+PROC-00188,2026-08-13T17:07:46Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,msiexec.exe,10571,routine process,benign,routine process
+PROC-01055,2026-08-13T17:12:26Z,FILE-02,ACME\mrivera,taskeng.exe,w3wp.exe,4951,routine process,benign,routine process
+PROC-00419,2026-08-13T17:23:13Z,FIN-WS-14,ACME\mrivera,explorer.exe,msiexec.exe,2514,routine process,benign,routine process
+PROC-01309,2026-08-13T17:24:09Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,w3wp.exe,9337,routine process,benign,routine process
+PROC-00474,2026-08-13T17:32:19Z,JUMP-01,ACME\svc_backup,taskeng.exe,backup-agent.exe,1171,routine process,benign,routine process
+PROC-01040,2026-08-13T17:33:28Z,FIN-WS-14,ACME\jsmith,services.exe,msiexec.exe,9844,routine process,benign,routine process
+PROC-00208,2026-08-13T17:39:59Z,APP-API-03,ACME\svc_backup,services.exe,msiexec.exe,9930,routine process,benign,routine process
+PROC-01401,2026-08-13T17:49:38Z,FILE-02,ACME\svc_deploy,explorer.exe,w3wp.exe,5499,routine process,benign,routine process
+PROC-00749,2026-08-13T17:51:26Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,powershell.exe,2036,routine process,benign,routine process
+PROC-00168,2026-08-13T17:51:27Z,JUMP-01,ACME\svc_backup,explorer.exe,w3wp.exe,3967,routine process,benign,routine process
+PROC-00826,2026-08-13T17:54:50Z,JUMP-01,ACME\jsmith,taskeng.exe,powershell.exe,3820,routine process,benign,routine process
+PROC-01372,2026-08-13T17:56:38Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,w3wp.exe,4218,routine process,benign,routine process
+PROC-00919,2026-08-13T18:04:06Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,msiexec.exe,5285,routine process,benign,routine process
+PROC-00621,2026-08-13T18:10:00Z,FIN-WS-14,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,4953,routine process,benign,routine process
+PROC-01026,2026-08-13T18:15:41Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,2676,routine process,benign,routine process
+PROC-00383,2026-08-13T18:24:50Z,FILE-02,ACME\mrivera,taskeng.exe,backup-agent.exe,1492,routine process,benign,routine process
+PROC-00763,2026-08-13T18:25:16Z,FILE-02,ACME\svc_backup,services.exe,backup-agent.exe,9545,routine process,benign,routine process
+PROC-00536,2026-08-13T18:31:51Z,APP-API-02,ACME\jsmith,taskeng.exe,msiexec.exe,13361,routine process,benign,routine process
+PROC-01316,2026-08-13T18:33:52Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,11814,routine process,benign,routine process
+PROC-00449,2026-08-13T18:35:14Z,FILE-02,ACME\svc_backup,taskeng.exe,msiexec.exe,6206,routine process,benign,routine process
+PROC-01046,2026-08-13T18:35:56Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,3214,routine process,benign,routine process
+PROC-01049,2026-08-13T18:37:39Z,JUMP-01,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,7851,routine process,benign,routine process
+PROC-00246,2026-08-13T18:41:32Z,FIN-WS-14,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,3456,routine process,benign,routine process
+PROC-00850,2026-08-13T18:44:58Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,w3wp.exe,7409,routine process,benign,routine process
+PROC-01414,2026-08-13T18:45:11Z,FILE-02,ACME\mrivera,explorer.exe,backup-agent.exe,13284,routine process,benign,routine process
+PROC-00287,2026-08-13T18:46:06Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,14734,routine process,benign,routine process
+PROC-01079,2026-08-13T18:50:04Z,APP-API-03,ACME\jsmith,explorer.exe,msiexec.exe,8288,routine process,benign,routine process
+PROC-01475,2026-08-13T18:57:54Z,JUMP-01,ACME\mrivera,services.exe,powershell.exe,6262,routine process,benign,routine process
+PROC-01343,2026-08-13T19:08:34Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,1928,routine process,benign,routine process
+PROC-00002,2026-08-13T19:15:57Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,7383,routine process,benign,routine process
+PROC-01076,2026-08-13T19:21:30Z,APP-API-02,ACME\mrivera,taskeng.exe,backup-agent.exe,4616,routine process,benign,routine process
+PROC-00669,2026-08-13T19:22:09Z,FIN-WS-14,ACME\svc_deploy,services.exe,w3wp.exe,13028,routine process,benign,routine process
+PROC-00184,2026-08-13T19:27:32Z,DEPLOY-01,ACME\mrivera,explorer.exe,msiexec.exe,13129,routine process,benign,routine process
+PROC-00448,2026-08-13T19:29:39Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,7093,routine process,benign,routine process
+PROC-00834,2026-08-13T19:33:20Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,8862,routine process,benign,routine process
+PROC-01032,2026-08-13T19:35:46Z,APP-API-02,ACME\jsmith,taskeng.exe,w3wp.exe,10758,routine process,benign,routine process
+PROC-00405,2026-08-13T19:36:26Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,1539,routine process,benign,routine process
+PROC-00054,2026-08-13T19:37:39Z,DEPLOY-01,ACME\svc_backup,explorer.exe,powershell.exe,13081,routine process,benign,routine process
+PROC-00380,2026-08-13T19:42:41Z,JUMP-01,ACME\jsmith,taskeng.exe,powershell.exe,9834,routine process,benign,routine process
+PROC-01210,2026-08-13T19:44:45Z,DEPLOY-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,3293,routine process,benign,routine process
+PROC-00895,2026-08-13T19:55:47Z,FIN-WS-14,ACME\jsmith,services.exe,msiexec.exe,12746,routine process,benign,routine process
+PROC-01045,2026-08-13T20:12:16Z,APP-API-02,ACME\svc_backup,explorer.exe,w3wp.exe,2543,routine process,benign,routine process
+PROC-00191,2026-08-13T20:37:03Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,9197,routine process,benign,routine process
+PROC-00920,2026-08-13T20:44:16Z,FILE-02,ACME\svc_backup,services.exe,msiexec.exe,14383,routine process,benign,routine process
+PROC-00556,2026-08-13T20:48:51Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,w3wp.exe,10220,routine process,benign,routine process
+PROC-00684,2026-08-13T20:49:27Z,DEPLOY-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,8041,routine process,benign,routine process
+PROC-01062,2026-08-13T20:49:30Z,APP-API-02,ACME\mrivera,explorer.exe,w3wp.exe,11911,routine process,benign,routine process
+PROC-00732,2026-08-13T20:57:47Z,APP-API-02,ACME\mrivera,taskeng.exe,powershell.exe,9053,routine process,benign,routine process
+PROC-00130,2026-08-13T21:07:23Z,FIN-WS-14,ACME\svc_deploy,services.exe,backup-agent.exe,11416,routine process,benign,routine process
+PROC-00254,2026-08-13T21:21:47Z,FILE-02,ACME\svc_deploy,services.exe,w3wp.exe,9183,routine process,benign,routine process
+PROC-01189,2026-08-13T21:31:23Z,APP-API-03,ACME\svc_deploy,taskeng.exe,powershell.exe,10814,routine process,benign,routine process
+PROC-01039,2026-08-13T21:39:25Z,DEPLOY-01,ACME\jsmith,taskeng.exe,backup-agent.exe,8850,routine process,benign,routine process
+PROC-00193,2026-08-13T21:48:08Z,FIN-WS-14,ACME\mrivera,explorer.exe,powershell.exe,4678,routine process,benign,routine process
+PROC-00894,2026-08-13T22:05:01Z,JUMP-01,ACME\svc_backup,services.exe,backup-agent.exe,2253,routine process,benign,routine process
+PROC-01196,2026-08-13T22:07:57Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,14911,routine process,benign,routine process
+PROC-00819,2026-08-13T22:08:56Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,2059,routine process,benign,routine process
+PROC-00365,2026-08-13T22:09:04Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,backup-agent.exe,1909,routine process,benign,routine process
+PROC-01023,2026-08-13T22:12:36Z,FIN-WS-14,ACME\mrivera,wsmprovhost.exe,w3wp.exe,14194,routine process,benign,routine process
+PROC-00090,2026-08-13T22:14:37Z,FIN-WS-14,ACME\mrivera,explorer.exe,msiexec.exe,1373,routine process,benign,routine process
+PROC-00685,2026-08-13T22:18:24Z,FILE-02,ACME\svc_deploy,services.exe,powershell.exe,13880,routine process,benign,routine process
+PROC-01383,2026-08-13T22:21:03Z,FIN-WS-14,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,9607,routine process,benign,routine process
+PROC-00391,2026-08-13T22:29:51Z,DEPLOY-01,ACME\mrivera,explorer.exe,msiexec.exe,5061,routine process,benign,routine process
+PROC-00209,2026-08-13T22:30:54Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,13114,routine process,benign,routine process
+PROC-01080,2026-08-13T22:39:14Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,1084,routine process,benign,routine process
+PROC-01209,2026-08-13T22:39:47Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,11258,routine process,benign,routine process
+PROC-01220,2026-08-13T22:40:04Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,backup-agent.exe,8723,routine process,benign,routine process
+PROC-00677,2026-08-13T22:46:48Z,APP-API-02,ACME\mrivera,taskeng.exe,w3wp.exe,7060,routine process,benign,routine process
+PROC-01126,2026-08-13T22:50:03Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,10615,routine process,benign,routine process
+PROC-00157,2026-08-13T22:55:10Z,APP-API-02,ACME\svc_deploy,services.exe,powershell.exe,9686,routine process,benign,routine process
+PROC-00241,2026-08-13T23:04:47Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,9646,routine process,benign,routine process
+PROC-00806,2026-08-13T23:04:47Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,1786,routine process,benign,routine process
+PROC-00223,2026-08-13T23:16:50Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,10164,routine process,benign,routine process
+PROC-01492,2026-08-13T23:17:45Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,powershell.exe,14255,routine process,benign,routine process
+PROC-00199,2026-08-13T23:17:48Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,1803,routine process,benign,routine process
+PROC-00838,2026-08-13T23:20:13Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,3943,routine process,benign,routine process
+PROC-00994,2026-08-13T23:29:13Z,FIN-WS-14,ACME\mrivera,services.exe,backup-agent.exe,3861,routine process,benign,routine process
+PROC-01361,2026-08-13T23:32:16Z,JUMP-01,ACME\svc_backup,taskeng.exe,w3wp.exe,14880,routine process,benign,routine process
+PROC-00339,2026-08-13T23:40:28Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,7930,routine process,benign,routine process
+PROC-01478,2026-08-13T23:42:30Z,APP-API-03,ACME\jsmith,explorer.exe,msiexec.exe,9339,routine process,benign,routine process
+PROC-00503,2026-08-13T23:47:42Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,14953,routine process,benign,routine process
+PROC-01148,2026-08-13T23:53:21Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,9750,routine process,benign,routine process
+PROC-01421,2026-08-13T23:57:34Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,3079,routine process,benign,routine process
+PROC-01460,2026-08-14T00:20:55Z,FILE-02,ACME\jsmith,taskeng.exe,backup-agent.exe,3928,routine process,benign,routine process
+PROC-01494,2026-08-14T00:25:40Z,APP-API-03,ACME\jsmith,taskeng.exe,backup-agent.exe,13836,routine process,benign,routine process
+PROC-00259,2026-08-14T00:39:26Z,FIN-WS-14,ACME\jsmith,services.exe,backup-agent.exe,11067,routine process,benign,routine process
+PROC-00505,2026-08-14T00:43:34Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,11422,routine process,benign,routine process
+PROC-00400,2026-08-14T00:44:12Z,FILE-02,ACME\svc_deploy,services.exe,msiexec.exe,5189,routine process,benign,routine process
+PROC-01359,2026-08-14T00:45:36Z,APP-API-02,ACME\jsmith,services.exe,backup-agent.exe,4966,routine process,benign,routine process
+PROC-00581,2026-08-14T00:56:46Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,7973,routine process,benign,routine process
+PROC-00143,2026-08-14T01:02:12Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,backup-agent.exe,11577,routine process,benign,routine process
+PROC-01191,2026-08-14T01:09:44Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,10539,routine process,benign,routine process
+PROC-00589,2026-08-14T01:12:20Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,msiexec.exe,7782,routine process,benign,routine process
+PROC-00897,2026-08-14T01:32:41Z,APP-API-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,13823,routine process,benign,routine process
+PROC-00347,2026-08-14T01:35:49Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,8866,routine process,benign,routine process
+PROC-00784,2026-08-14T01:43:00Z,FIN-WS-14,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,1704,routine process,benign,routine process
+PROC-01211,2026-08-14T01:43:32Z,APP-API-03,ACME\jsmith,explorer.exe,msiexec.exe,4401,routine process,benign,routine process
+PROC-00680,2026-08-14T01:58:58Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,1307,routine process,benign,routine process
+PROC-00855,2026-08-14T01:59:54Z,APP-API-02,ACME\jsmith,taskeng.exe,powershell.exe,2411,routine process,benign,routine process
+PROC-00118,2026-08-14T02:01:56Z,APP-API-03,ACME\mrivera,services.exe,w3wp.exe,8066,routine process,benign,routine process
+PROC-01369,2026-08-14T02:02:02Z,APP-API-02,ACME\svc_deploy,services.exe,backup-agent.exe,1002,routine process,benign,routine process
+PROC-00705,2026-08-14T02:05:50Z,JUMP-01,ACME\svc_backup,services.exe,w3wp.exe,1077,routine process,benign,routine process
+PROC-00504,2026-08-14T02:08:45Z,JUMP-01,ACME\svc_backup,taskeng.exe,w3wp.exe,5108,routine process,benign,routine process
+PROC-00887,2026-08-14T02:11:28Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,1857,routine process,benign,routine process
+PROC-00984,2026-08-14T02:15:35Z,JUMP-01,ACME\jsmith,taskeng.exe,backup-agent.exe,1475,routine process,benign,routine process
+PROC-01441,2026-08-14T02:29:23Z,APP-API-02,ACME\mrivera,explorer.exe,w3wp.exe,14904,routine process,benign,routine process
+PROC-01136,2026-08-14T02:41:56Z,FILE-02,ACME\mrivera,taskeng.exe,backup-agent.exe,3599,routine process,benign,routine process
+PROC-00545,2026-08-14T02:50:29Z,FIN-WS-14,ACME\mrivera,taskeng.exe,msiexec.exe,1217,routine process,benign,routine process
+PROC-01373,2026-08-14T02:53:35Z,APP-API-02,ACME\svc_deploy,services.exe,backup-agent.exe,7573,routine process,benign,routine process
+PROC-00730,2026-08-14T02:58:12Z,JUMP-01,ACME\mrivera,explorer.exe,w3wp.exe,7485,routine process,benign,routine process
+PROC-00510,2026-08-14T02:58:58Z,FILE-02,ACME\jsmith,explorer.exe,w3wp.exe,5368,routine process,benign,routine process
+PROC-00135,2026-08-14T02:59:30Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,powershell.exe,6626,routine process,benign,routine process
+PROC-01245,2026-08-14T03:00:04Z,FILE-02,ACME\svc_backup,explorer.exe,powershell.exe,7242,routine process,benign,routine process
+PROC-01077,2026-08-14T03:13:26Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,11801,routine process,benign,routine process
+PROC-01455,2026-08-14T03:15:41Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,13144,routine process,benign,routine process
+PROC-00261,2026-08-14T03:16:30Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,powershell.exe,1111,routine process,benign,routine process
+PROC-01406,2026-08-14T03:19:59Z,JUMP-01,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,12778,routine process,benign,routine process
+PROC-00950,2026-08-14T03:21:35Z,JUMP-01,ACME\jsmith,taskeng.exe,powershell.exe,8788,routine process,benign,routine process
+PROC-00827,2026-08-14T03:32:30Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,10354,routine process,benign,routine process
+PROC-00997,2026-08-14T03:35:46Z,APP-API-03,ACME\mrivera,explorer.exe,backup-agent.exe,1202,routine process,benign,routine process
+PROC-00858,2026-08-14T03:37:03Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,backup-agent.exe,13349,routine process,benign,routine process
+PROC-01267,2026-08-14T03:39:53Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,powershell.exe,4671,routine process,benign,routine process
+PROC-00760,2026-08-14T03:40:59Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,6264,routine process,benign,routine process
+PROC-01030,2026-08-14T03:51:46Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,powershell.exe,3532,routine process,benign,routine process
+PROC-00578,2026-08-14T04:00:56Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,11313,routine process,benign,routine process
+PROC-01348,2026-08-14T04:01:58Z,FILE-02,ACME\mrivera,explorer.exe,w3wp.exe,6821,routine process,benign,routine process
+PROC-00408,2026-08-14T04:08:09Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,12045,routine process,benign,routine process
+PROC-00993,2026-08-14T04:10:47Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,8515,routine process,benign,routine process
+PROC-00601,2026-08-14T04:11:07Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,10826,routine process,benign,routine process
+PROC-01339,2026-08-14T04:11:09Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,9966,routine process,benign,routine process
+PROC-00881,2026-08-14T04:17:22Z,FILE-02,ACME\mrivera,explorer.exe,msiexec.exe,13251,routine process,benign,routine process
+PROC-00161,2026-08-14T04:24:12Z,JUMP-01,ACME\mrivera,services.exe,w3wp.exe,14084,routine process,benign,routine process
+PROC-01430,2026-08-14T04:27:05Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,msiexec.exe,10457,routine process,benign,routine process
+PROC-00396,2026-08-14T04:43:15Z,FILE-02,ACME\svc_backup,explorer.exe,msiexec.exe,10501,routine process,benign,routine process
+PROC-00645,2026-08-14T04:44:42Z,FILE-02,ACME\svc_backup,services.exe,powershell.exe,8012,routine process,benign,routine process
+PROC-00299,2026-08-14T04:45:53Z,FIN-WS-14,ACME\jsmith,explorer.exe,backup-agent.exe,13619,routine process,benign,routine process
+PROC-00665,2026-08-14T04:47:28Z,FILE-02,ACME\jsmith,services.exe,powershell.exe,10782,routine process,benign,routine process
+PROC-01215,2026-08-14T04:52:07Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,8827,routine process,benign,routine process
+PROC-00636,2026-08-14T05:00:05Z,APP-API-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,9369,routine process,benign,routine process
+PROC-00515,2026-08-14T05:00:22Z,JUMP-01,ACME\svc_backup,explorer.exe,powershell.exe,1128,routine process,benign,routine process
+PROC-00274,2026-08-14T05:13:17Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,msiexec.exe,11708,routine process,benign,routine process
+PROC-00740,2026-08-14T05:23:11Z,DEPLOY-01,ACME\jsmith,explorer.exe,powershell.exe,8812,routine process,benign,routine process
+PROC-01082,2026-08-14T05:24:07Z,DEPLOY-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,13755,routine process,benign,routine process
+PROC-00323,2026-08-14T05:46:00Z,APP-API-03,ACME\svc_backup,explorer.exe,msiexec.exe,11884,routine process,benign,routine process
+PROC-00727,2026-08-14T05:48:15Z,APP-API-02,ACME\mrivera,taskeng.exe,powershell.exe,2110,routine process,benign,routine process
+PROC-00539,2026-08-14T05:53:37Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,10658,routine process,benign,routine process
+PROC-00626,2026-08-14T05:54:08Z,JUMP-01,ACME\jsmith,taskeng.exe,powershell.exe,10460,routine process,benign,routine process
+PROC-01114,2026-08-14T06:00:35Z,DEPLOY-01,ACME\jsmith,services.exe,backup-agent.exe,8487,routine process,benign,routine process
+PROC-01415,2026-08-14T06:06:43Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,5533,routine process,benign,routine process
+PROC-00068,2026-08-14T06:10:02Z,APP-API-03,ACME\svc_deploy,taskeng.exe,w3wp.exe,12482,routine process,benign,routine process
+PROC-00611,2026-08-14T06:11:03Z,DEPLOY-01,ACME\mrivera,services.exe,powershell.exe,3366,routine process,benign,routine process
+PROC-00820,2026-08-14T06:11:27Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,11861,routine process,benign,routine process
+PROC-00724,2026-08-14T06:13:26Z,JUMP-01,ACME\mrivera,services.exe,powershell.exe,7152,routine process,benign,routine process
+PROC-00970,2026-08-14T06:18:46Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,9619,routine process,benign,routine process
+PROC-00955,2026-08-14T06:22:17Z,FILE-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,6533,routine process,benign,routine process
+PROC-01403,2026-08-14T06:27:15Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,w3wp.exe,5615,routine process,benign,routine process
+PROC-01143,2026-08-14T06:31:05Z,APP-API-03,ACME\svc_deploy,services.exe,w3wp.exe,4294,routine process,benign,routine process
+PROC-01063,2026-08-14T06:34:35Z,FILE-02,ACME\jsmith,taskeng.exe,w3wp.exe,8939,routine process,benign,routine process
+PROC-01194,2026-08-14T06:35:47Z,DEPLOY-01,ACME\svc_backup,explorer.exe,backup-agent.exe,10818,routine process,benign,routine process
+PROC-01052,2026-08-14T06:37:27Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,5939,routine process,benign,routine process
+PROC-00783,2026-08-14T06:41:42Z,JUMP-01,ACME\svc_deploy,services.exe,msiexec.exe,3026,routine process,benign,routine process
+PROC-01218,2026-08-14T06:50:55Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,12303,routine process,benign,routine process
+PROC-00020,2026-08-14T06:56:36Z,JUMP-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,10570,routine process,benign,routine process
+PROC-00201,2026-08-14T07:08:57Z,APP-API-02,ACME\mrivera,taskeng.exe,powershell.exe,4288,routine process,benign,routine process
+PROC-01012,2026-08-14T07:09:37Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,powershell.exe,7760,routine process,benign,routine process
+PROC-01479,2026-08-14T07:23:41Z,APP-API-02,ACME\svc_backup,services.exe,msiexec.exe,8487,routine process,benign,routine process
+PROC-01097,2026-08-14T07:30:50Z,APP-API-03,ACME\mrivera,services.exe,backup-agent.exe,11115,routine process,benign,routine process
+PROC-01366,2026-08-14T07:37:04Z,FILE-02,ACME\jsmith,explorer.exe,powershell.exe,11889,routine process,benign,routine process
+PROC-00966,2026-08-14T07:39:12Z,DEPLOY-01,ACME\svc_backup,services.exe,backup-agent.exe,3446,routine process,benign,routine process
+PROC-00322,2026-08-14T07:47:24Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,8038,routine process,benign,routine process
+PROC-00768,2026-08-14T07:49:37Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,11934,routine process,benign,routine process
+PROC-00070,2026-08-14T07:55:15Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,9812,routine process,benign,routine process
+PROC-00853,2026-08-14T08:05:39Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,11940,routine process,benign,routine process
+PROC-01160,2026-08-14T08:06:08Z,FILE-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,6420,routine process,benign,routine process
+PROC-00289,2026-08-14T08:07:20Z,FIN-WS-14,ACME\mrivera,taskeng.exe,powershell.exe,7897,routine process,benign,routine process
+PROC-00015,2026-08-14T08:12:10Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,msiexec.exe,1222,routine process,benign,routine process
+PROC-01020,2026-08-14T08:14:18Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,12902,routine process,benign,routine process
+PROC-01354,2026-08-14T08:25:58Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,14159,routine process,benign,routine process
+PROC-00013,2026-08-14T08:30:53Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,w3wp.exe,8743,routine process,benign,routine process
+PROC-00531,2026-08-14T08:34:29Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,2908,routine process,benign,routine process
+PROC-00317,2026-08-14T08:42:20Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,6218,routine process,benign,routine process
+PROC-00572,2026-08-14T08:43:07Z,APP-API-02,ACME\jsmith,explorer.exe,w3wp.exe,12863,routine process,benign,routine process
+PROC-00991,2026-08-14T08:45:29Z,FILE-02,ACME\jsmith,taskeng.exe,backup-agent.exe,13203,routine process,benign,routine process
+PROC-01119,2026-08-14T08:52:42Z,APP-API-02,ACME\mrivera,explorer.exe,w3wp.exe,12719,routine process,benign,routine process
+PROC-01113,2026-08-14T09:06:09Z,APP-API-02,ACME\svc_backup,services.exe,backup-agent.exe,8100,routine process,benign,routine process
+PROC-00775,2026-08-14T09:08:22Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,4168,routine process,benign,routine process
+PROC-01446,2026-08-14T09:28:16Z,DEPLOY-01,ACME\jsmith,taskeng.exe,w3wp.exe,11801,routine process,benign,routine process
+PROC-00675,2026-08-14T09:31:58Z,JUMP-01,ACME\jsmith,taskeng.exe,powershell.exe,6477,routine process,benign,routine process
+PROC-01305,2026-08-14T09:35:52Z,DEPLOY-01,ACME\svc_deploy,services.exe,w3wp.exe,10322,routine process,benign,routine process
+PROC-01186,2026-08-14T09:42:11Z,APP-API-03,ACME\svc_deploy,taskeng.exe,backup-agent.exe,9806,routine process,benign,routine process
+PROC-01048,2026-08-14T09:43:03Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,8506,routine process,benign,routine process
+PROC-00472,2026-08-14T09:53:36Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,w3wp.exe,1331,routine process,benign,routine process
+PROC-00415,2026-08-14T09:56:48Z,DEPLOY-01,ACME\svc_deploy,explorer.exe,msiexec.exe,7275,routine process,benign,routine process
+PROC-00942,2026-08-14T10:00:47Z,JUMP-01,ACME\mrivera,services.exe,backup-agent.exe,8592,routine process,benign,routine process
+PROC-00754,2026-08-14T10:04:01Z,APP-API-03,ACME\mrivera,explorer.exe,powershell.exe,9816,routine process,benign,routine process
+PROC-00976,2026-08-14T10:07:03Z,APP-API-02,ACME\svc_backup,explorer.exe,powershell.exe,9540,routine process,benign,routine process
+PROC-00689,2026-08-14T10:07:53Z,FIN-WS-14,ACME\svc_backup,services.exe,msiexec.exe,1735,routine process,benign,routine process
+PROC-01304,2026-08-14T10:19:41Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,3172,routine process,benign,routine process
+PROC-00163,2026-08-14T10:34:39Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,powershell.exe,6200,routine process,benign,routine process
+PROC-00256,2026-08-14T10:35:06Z,APP-API-03,ACME\svc_backup,services.exe,powershell.exe,5600,routine process,benign,routine process
+PROC-00509,2026-08-14T10:44:25Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,3267,routine process,benign,routine process
+PROC-00479,2026-08-14T10:46:07Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,6653,routine process,benign,routine process
+PROC-00239,2026-08-14T10:48:11Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,2361,routine process,benign,routine process
+PROC-00618,2026-08-14T10:50:52Z,FILE-02,ACME\svc_backup,explorer.exe,powershell.exe,5870,routine process,benign,routine process
+PROC-00245,2026-08-14T10:51:29Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,2520,routine process,benign,routine process
+PROC-00907,2026-08-14T10:52:01Z,DEPLOY-01,ACME\svc_backup,explorer.exe,w3wp.exe,1404,routine process,benign,routine process
+PROC-01452,2026-08-14T10:52:36Z,DEPLOY-01,ACME\mrivera,taskeng.exe,backup-agent.exe,4613,routine process,benign,routine process
+PROC-01092,2026-08-14T10:58:41Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,13134,routine process,benign,routine process
+PROC-00725,2026-08-14T11:02:30Z,APP-API-03,ACME\jsmith,services.exe,backup-agent.exe,2642,routine process,benign,routine process
+PROC-01351,2026-08-14T11:05:25Z,FILE-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,10905,routine process,benign,routine process
+PROC-01254,2026-08-14T11:05:59Z,APP-API-02,ACME\svc_backup,taskeng.exe,msiexec.exe,3142,routine process,benign,routine process
+PROC-00599,2026-08-14T11:09:43Z,JUMP-01,ACME\jsmith,taskeng.exe,w3wp.exe,9354,routine process,benign,routine process
+PROC-00270,2026-08-14T11:11:51Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,1579,routine process,benign,routine process
+PROC-00854,2026-08-14T11:12:54Z,JUMP-01,ACME\jsmith,services.exe,msiexec.exe,8997,routine process,benign,routine process
+PROC-00436,2026-08-14T11:15:18Z,JUMP-01,ACME\mrivera,explorer.exe,powershell.exe,9223,routine process,benign,routine process
+PROC-01121,2026-08-14T11:20:08Z,JUMP-01,ACME\mrivera,explorer.exe,powershell.exe,11908,routine process,benign,routine process
+PROC-01241,2026-08-14T11:26:23Z,JUMP-01,ACME\svc_backup,explorer.exe,w3wp.exe,13141,routine process,benign,routine process
+PROC-00003,2026-08-14T11:26:52Z,DEPLOY-01,ACME\svc_backup,services.exe,powershell.exe,12464,routine process,benign,routine process
+PROC-01224,2026-08-14T11:43:52Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,1999,routine process,benign,routine process
+PROC-00277,2026-08-14T11:48:15Z,JUMP-01,ACME\jsmith,services.exe,w3wp.exe,13472,routine process,benign,routine process
+PROC-01140,2026-08-14T11:51:23Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,10435,routine process,benign,routine process
+PROC-01311,2026-08-14T12:05:29Z,APP-API-03,ACME\svc_deploy,services.exe,msiexec.exe,13704,routine process,benign,routine process
+PROC-01436,2026-08-14T12:05:42Z,APP-API-03,ACME\svc_backup,services.exe,backup-agent.exe,7766,routine process,benign,routine process
+PROC-00129,2026-08-14T12:11:20Z,APP-API-02,ACME\jsmith,services.exe,powershell.exe,9598,routine process,benign,routine process
+PROC-00326,2026-08-14T12:17:14Z,JUMP-01,ACME\svc_deploy,explorer.exe,backup-agent.exe,8239,routine process,benign,routine process
+PROC-00079,2026-08-14T12:35:15Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,11853,routine process,benign,routine process
+PROC-00801,2026-08-14T12:38:38Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,7274,routine process,benign,routine process
+PROC-00986,2026-08-14T12:39:02Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,9668,routine process,benign,routine process
+PROC-00841,2026-08-14T12:40:24Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,12884,routine process,benign,routine process
+PROC-01353,2026-08-14T12:43:13Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,1110,routine process,benign,routine process
+PROC-00203,2026-08-14T12:58:44Z,FILE-02,ACME\svc_deploy,explorer.exe,msiexec.exe,14451,routine process,benign,routine process
+PROC-00035,2026-08-14T12:59:04Z,DEPLOY-01,ACME\jsmith,services.exe,msiexec.exe,1820,routine process,benign,routine process
+PROC-00108,2026-08-14T13:04:54Z,DEPLOY-01,ACME\svc_backup,services.exe,powershell.exe,14379,routine process,benign,routine process
+PROC-00753,2026-08-14T13:08:10Z,FILE-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,3155,routine process,benign,routine process
+PROC-00769,2026-08-14T13:08:30Z,APP-API-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,2170,routine process,benign,routine process
+PROC-01002,2026-08-14T13:10:51Z,FILE-02,ACME\svc_deploy,services.exe,powershell.exe,8597,routine process,benign,routine process
+PROC-00507,2026-08-14T13:12:37Z,FIN-WS-14,ACME\jsmith,services.exe,msiexec.exe,9603,routine process,benign,routine process
+PROC-00095,2026-08-14T13:14:10Z,JUMP-01,ACME\mrivera,explorer.exe,backup-agent.exe,2076,routine process,benign,routine process
+PROC-00048,2026-08-14T13:24:56Z,JUMP-01,ACME\jsmith,taskeng.exe,msiexec.exe,1009,routine process,benign,routine process
+PROC-00511,2026-08-14T13:27:14Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,14204,routine process,benign,routine process
+PROC-00146,2026-08-14T13:27:35Z,JUMP-01,ACME\mrivera,wsmprovhost.exe,msiexec.exe,5957,routine process,benign,routine process
+PROC-00722,2026-08-14T13:30:18Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,9364,routine process,benign,routine process
+PROC-01072,2026-08-14T13:38:03Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,w3wp.exe,7043,routine process,benign,routine process
+PROC-00272,2026-08-14T13:49:32Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,10714,routine process,benign,routine process
+PROC-00192,2026-08-14T13:54:12Z,JUMP-01,ACME\mrivera,taskeng.exe,w3wp.exe,6602,routine process,benign,routine process
+PROC-01255,2026-08-14T14:05:26Z,APP-API-03,ACME\mrivera,taskeng.exe,msiexec.exe,1785,routine process,benign,routine process
+PROC-00411,2026-08-14T14:43:21Z,FILE-02,ACME\svc_deploy,explorer.exe,w3wp.exe,11627,routine process,benign,routine process
+PROC-00333,2026-08-14T14:44:46Z,APP-API-02,ACME\svc_deploy,services.exe,msiexec.exe,2027,routine process,benign,routine process
+PROC-00200,2026-08-14T14:56:29Z,FILE-02,ACME\mrivera,wsmprovhost.exe,w3wp.exe,14275,routine process,benign,routine process
+PROC-00049,2026-08-14T15:07:24Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,5433,routine process,benign,routine process
+PROC-00541,2026-08-14T15:09:09Z,JUMP-01,ACME\mrivera,wsmprovhost.exe,powershell.exe,3086,routine process,benign,routine process
+PROC-00848,2026-08-14T15:15:46Z,DEPLOY-01,ACME\jsmith,services.exe,w3wp.exe,11457,routine process,benign,routine process
+PROC-00459,2026-08-14T15:22:39Z,APP-API-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,13711,routine process,benign,routine process
+PROC-01205,2026-08-14T15:25:08Z,FIN-WS-14,ACME\mrivera,wsmprovhost.exe,powershell.exe,14792,routine process,benign,routine process
+PROC-00891,2026-08-14T15:28:52Z,APP-API-03,ACME\svc_deploy,taskeng.exe,powershell.exe,13239,routine process,benign,routine process
+PROC-00523,2026-08-14T15:29:46Z,APP-API-02,ACME\mrivera,services.exe,backup-agent.exe,12054,routine process,benign,routine process
+PROC-00971,2026-08-14T15:32:07Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,6397,routine process,benign,routine process
+PROC-01364,2026-08-14T15:40:56Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,powershell.exe,8991,routine process,benign,routine process
+PROC-00708,2026-08-14T15:50:54Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,14265,routine process,benign,routine process
+PROC-01319,2026-08-14T15:59:57Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,6031,routine process,benign,routine process
+PROC-00926,2026-08-14T16:00:05Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,7760,routine process,benign,routine process
+PROC-00519,2026-08-14T16:02:04Z,JUMP-01,ACME\jsmith,taskeng.exe,w3wp.exe,9323,routine process,benign,routine process
+PROC-00847,2026-08-14T16:11:54Z,APP-API-02,ACME\jsmith,services.exe,w3wp.exe,12346,routine process,benign,routine process
+PROC-00582,2026-08-14T16:13:22Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,10574,routine process,benign,routine process
+PROC-00107,2026-08-14T16:18:07Z,APP-API-02,ACME\jsmith,explorer.exe,msiexec.exe,5278,routine process,benign,routine process
+PROC-00206,2026-08-14T16:20:48Z,JUMP-01,ACME\mrivera,explorer.exe,backup-agent.exe,5229,routine process,benign,routine process
+PROC-00475,2026-08-14T16:28:52Z,APP-API-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,11354,routine process,benign,routine process
+PROC-00896,2026-08-14T16:37:50Z,JUMP-01,ACME\svc_backup,explorer.exe,msiexec.exe,5715,routine process,benign,routine process
+PROC-01250,2026-08-14T16:49:10Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,powershell.exe,5154,routine process,benign,routine process
+PROC-00243,2026-08-14T16:52:26Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,3579,routine process,benign,routine process
+PROC-00716,2026-08-14T16:57:11Z,FIN-WS-14,ACME\svc_deploy,services.exe,powershell.exe,12968,routine process,benign,routine process
+PROC-01251,2026-08-14T17:01:55Z,FILE-02,ACME\mrivera,services.exe,w3wp.exe,3002,routine process,benign,routine process
+PROC-01165,2026-08-14T17:03:32Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,11469,routine process,benign,routine process
+PROC-01253,2026-08-14T17:04:23Z,FILE-02,ACME\svc_backup,explorer.exe,msiexec.exe,14976,routine process,benign,routine process
+PROC-00112,2026-08-14T17:04:43Z,DEPLOY-01,ACME\svc_backup,services.exe,msiexec.exe,8338,routine process,benign,routine process
+PROC-00770,2026-08-14T17:05:55Z,FIN-WS-14,ACME\mrivera,taskeng.exe,powershell.exe,11649,routine process,benign,routine process
+PROC-01152,2026-08-14T17:16:00Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,5359,routine process,benign,routine process
+PROC-00269,2026-08-14T17:19:15Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,14035,routine process,benign,routine process
+PROC-00968,2026-08-14T17:29:46Z,APP-API-03,ACME\mrivera,taskeng.exe,powershell.exe,10688,routine process,benign,routine process
+PROC-01349,2026-08-14T17:34:19Z,JUMP-01,ACME\svc_backup,services.exe,msiexec.exe,12041,routine process,benign,routine process
+PROC-00441,2026-08-14T17:36:01Z,APP-API-03,ACME\mrivera,explorer.exe,powershell.exe,1147,routine process,benign,routine process
+PROC-00960,2026-08-14T17:42:28Z,APP-API-03,ACME\mrivera,explorer.exe,powershell.exe,5195,routine process,benign,routine process
+PROC-00267,2026-08-14T17:45:08Z,APP-API-03,ACME\jsmith,taskeng.exe,w3wp.exe,14255,routine process,benign,routine process
+PROC-00771,2026-08-14T17:53:02Z,JUMP-01,ACME\svc_deploy,taskeng.exe,w3wp.exe,5252,routine process,benign,routine process
+PROC-00683,2026-08-14T17:54:02Z,APP-API-03,ACME\svc_backup,services.exe,backup-agent.exe,9061,routine process,benign,routine process
+PROC-00252,2026-08-14T18:01:55Z,APP-API-03,ACME\mrivera,services.exe,backup-agent.exe,9713,routine process,benign,routine process
+PROC-00542,2026-08-14T18:06:46Z,APP-API-03,ACME\svc_backup,services.exe,powershell.exe,3168,routine process,benign,routine process
+PROC-00969,2026-08-14T18:07:34Z,FILE-02,ACME\jsmith,taskeng.exe,w3wp.exe,4472,routine process,benign,routine process
+PROC-00414,2026-08-14T18:10:05Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,3625,routine process,benign,routine process
+PROC-00061,2026-08-14T18:13:28Z,APP-API-03,ACME\jsmith,taskeng.exe,w3wp.exe,6589,routine process,benign,routine process
+PROC-00979,2026-08-14T18:17:01Z,APP-API-03,ACME\svc_backup,services.exe,backup-agent.exe,7499,routine process,benign,routine process
+PROC-01133,2026-08-14T18:19:20Z,APP-API-03,ACME\svc_backup,explorer.exe,backup-agent.exe,2692,routine process,benign,routine process
+PROC-00281,2026-08-14T18:41:33Z,APP-API-03,ACME\svc_backup,taskeng.exe,backup-agent.exe,11470,routine process,benign,routine process
+PROC-00649,2026-08-14T18:46:01Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,1412,routine process,benign,routine process
+PROC-00857,2026-08-14T18:48:39Z,FILE-02,ACME\svc_backup,explorer.exe,powershell.exe,5801,routine process,benign,routine process
+PROC-00416,2026-08-14T18:49:10Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,powershell.exe,5497,routine process,benign,routine process
+PROC-01294,2026-08-14T18:54:39Z,APP-API-03,ACME\svc_deploy,taskeng.exe,msiexec.exe,2079,routine process,benign,routine process
+PROC-00330,2026-08-14T18:57:13Z,FIN-WS-14,ACME\mrivera,services.exe,msiexec.exe,14973,routine process,benign,routine process
+PROC-01365,2026-08-14T19:03:37Z,JUMP-01,ACME\jsmith,taskeng.exe,w3wp.exe,4320,routine process,benign,routine process
+PROC-00387,2026-08-14T19:13:17Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,2049,routine process,benign,routine process
+PROC-01298,2026-08-14T19:17:55Z,APP-API-03,ACME\svc_backup,services.exe,powershell.exe,10917,routine process,benign,routine process
+PROC-01260,2026-08-14T19:24:44Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,8763,routine process,benign,routine process
+PROC-00501,2026-08-14T19:26:48Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,8689,routine process,benign,routine process
+PROC-01276,2026-08-14T19:36:14Z,FIN-WS-14,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,11481,routine process,benign,routine process
+PROC-00906,2026-08-14T19:36:37Z,APP-API-03,ACME\svc_deploy,taskeng.exe,powershell.exe,7751,routine process,benign,routine process
+PROC-00358,2026-08-14T19:36:49Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,13934,routine process,benign,routine process
+PROC-00657,2026-08-14T19:38:07Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,msiexec.exe,12891,routine process,benign,routine process
+PROC-00473,2026-08-14T19:40:02Z,FIN-WS-14,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,6663,routine process,benign,routine process
+PROC-00211,2026-08-14T19:47:51Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,13479,routine process,benign,routine process
+PROC-00231,2026-08-14T19:50:04Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,2197,routine process,benign,routine process
+PROC-01261,2026-08-14T19:51:29Z,FILE-02,ACME\mrivera,explorer.exe,backup-agent.exe,9582,routine process,benign,routine process
+PROC-00846,2026-08-14T19:53:29Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,w3wp.exe,12854,routine process,benign,routine process
+PROC-01085,2026-08-14T19:57:38Z,FIN-WS-14,ACME\jsmith,services.exe,backup-agent.exe,10418,routine process,benign,routine process
+PROC-00526,2026-08-14T19:59:04Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,powershell.exe,9233,routine process,benign,routine process
+PROC-01473,2026-08-14T20:00:41Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,2147,routine process,benign,routine process
+PROC-00803,2026-08-14T20:00:56Z,DEPLOY-01,ACME\jsmith,services.exe,backup-agent.exe,9299,routine process,benign,routine process
+PROC-01242,2026-08-14T20:12:38Z,FIN-WS-14,ACME\svc_deploy,services.exe,powershell.exe,11755,routine process,benign,routine process
+PROC-00393,2026-08-14T20:13:17Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,4382,routine process,benign,routine process
+PROC-00937,2026-08-14T20:13:49Z,APP-API-02,ACME\jsmith,explorer.exe,powershell.exe,6199,routine process,benign,routine process
+PROC-00988,2026-08-14T20:14:09Z,FILE-02,ACME\svc_deploy,services.exe,backup-agent.exe,4754,routine process,benign,routine process
+PROC-00778,2026-08-14T20:15:57Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,powershell.exe,13326,routine process,benign,routine process
+PROC-00304,2026-08-14T20:21:04Z,FILE-02,ACME\svc_deploy,taskeng.exe,powershell.exe,3271,routine process,benign,routine process
+PROC-00266,2026-08-14T20:23:40Z,APP-API-03,ACME\svc_backup,services.exe,msiexec.exe,1632,routine process,benign,routine process
+PROC-00316,2026-08-14T20:29:21Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,7092,routine process,benign,routine process
+PROC-01380,2026-08-14T20:29:25Z,DEPLOY-01,ACME\mrivera,taskeng.exe,msiexec.exe,9204,routine process,benign,routine process
+PROC-01014,2026-08-14T20:36:42Z,DEPLOY-01,ACME\mrivera,services.exe,powershell.exe,4090,routine process,benign,routine process
+PROC-00455,2026-08-14T20:41:45Z,JUMP-01,ACME\mrivera,explorer.exe,backup-agent.exe,8420,routine process,benign,routine process
+PROC-00962,2026-08-14T20:44:56Z,APP-API-03,ACME\svc_deploy,explorer.exe,msiexec.exe,7877,routine process,benign,routine process
+PROC-00924,2026-08-14T20:55:58Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,6656,routine process,benign,routine process
+PROC-01233,2026-08-14T20:58:08Z,JUMP-01,ACME\mrivera,wsmprovhost.exe,powershell.exe,11982,routine process,benign,routine process
+PROC-00862,2026-08-14T21:01:43Z,JUMP-01,ACME\mrivera,explorer.exe,powershell.exe,9154,routine process,benign,routine process
+PROC-00916,2026-08-14T21:02:33Z,FILE-02,ACME\jsmith,taskeng.exe,w3wp.exe,4081,routine process,benign,routine process
+PROC-00972,2026-08-14T21:14:07Z,APP-API-02,ACME\mrivera,explorer.exe,w3wp.exe,5696,routine process,benign,routine process
+PROC-00888,2026-08-14T21:15:10Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,5050,routine process,benign,routine process
+PROC-00630,2026-08-14T21:26:43Z,FILE-02,ACME\mrivera,explorer.exe,w3wp.exe,5404,routine process,benign,routine process
+PROC-01307,2026-08-14T21:36:01Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,14972,routine process,benign,routine process
+PROC-00985,2026-08-14T21:38:07Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,2010,routine process,benign,routine process
+PROC-01491,2026-08-14T21:40:09Z,JUMP-01,ACME\jsmith,taskeng.exe,w3wp.exe,13482,routine process,benign,routine process
+PROC-00082,2026-08-14T21:45:17Z,APP-API-03,ACME\mrivera,explorer.exe,backup-agent.exe,13216,routine process,benign,routine process
+PROC-01096,2026-08-14T21:54:29Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,11760,routine process,benign,routine process
+PROC-00922,2026-08-14T22:02:57Z,APP-API-03,ACME\svc_deploy,taskeng.exe,w3wp.exe,6462,routine process,benign,routine process
+PROC-00301,2026-08-14T22:10:12Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,9678,routine process,benign,routine process
+PROC-00527,2026-08-14T22:12:02Z,APP-API-03,ACME\jsmith,explorer.exe,powershell.exe,5208,routine process,benign,routine process
+PROC-00276,2026-08-14T22:19:06Z,DEPLOY-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,14870,routine process,benign,routine process
+PROC-00521,2026-08-14T22:21:30Z,JUMP-01,ACME\svc_backup,taskeng.exe,powershell.exe,11518,routine process,benign,routine process
+PROC-00067,2026-08-14T22:29:49Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,5323,routine process,benign,routine process
+PROC-00235,2026-08-14T22:38:02Z,APP-API-03,ACME\svc_backup,taskeng.exe,msiexec.exe,4576,routine process,benign,routine process
+PROC-00440,2026-08-14T23:18:32Z,JUMP-01,ACME\jsmith,explorer.exe,backup-agent.exe,11995,routine process,benign,routine process
+PROC-01486,2026-08-14T23:20:39Z,APP-API-02,ACME\svc_deploy,services.exe,backup-agent.exe,3246,routine process,benign,routine process
+PROC-01158,2026-08-14T23:25:27Z,DEPLOY-01,ACME\mrivera,services.exe,w3wp.exe,5280,routine process,benign,routine process
+PROC-00517,2026-08-14T23:28:26Z,APP-API-03,ACME\mrivera,services.exe,powershell.exe,1963,routine process,benign,routine process
+PROC-00546,2026-08-14T23:46:16Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,powershell.exe,4587,routine process,benign,routine process
+PROC-01271,2026-08-14T23:48:05Z,APP-API-03,ACME\svc_backup,services.exe,w3wp.exe,4691,routine process,benign,routine process
+PROC-01490,2026-08-14T23:50:24Z,APP-API-02,ACME\svc_backup,taskeng.exe,backup-agent.exe,1439,routine process,benign,routine process
+PROC-01355,2026-08-15T00:02:22Z,DEPLOY-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,2928,routine process,benign,routine process
+PROC-01151,2026-08-15T00:05:30Z,FILE-02,ACME\jsmith,taskeng.exe,powershell.exe,10361,routine process,benign,routine process
+PROC-00115,2026-08-15T00:15:15Z,JUMP-01,ACME\mrivera,taskeng.exe,w3wp.exe,9453,routine process,benign,routine process
+PROC-00196,2026-08-15T00:15:39Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,msiexec.exe,6706,routine process,benign,routine process
+PROC-00832,2026-08-15T00:23:03Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,w3wp.exe,10393,routine process,benign,routine process
+PROC-00899,2026-08-15T00:37:35Z,FIN-WS-14,ACME\jsmith,taskeng.exe,msiexec.exe,3700,routine process,benign,routine process
+PROC-00992,2026-08-15T00:38:57Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,8779,routine process,benign,routine process
+PROC-01259,2026-08-15T00:48:36Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,9261,routine process,benign,routine process
+PROC-01065,2026-08-15T01:04:57Z,APP-API-03,ACME\mrivera,services.exe,w3wp.exe,11187,routine process,benign,routine process
+PROC-00602,2026-08-15T01:06:55Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,8949,routine process,benign,routine process
+PROC-00982,2026-08-15T01:08:18Z,DEPLOY-01,ACME\svc_backup,services.exe,powershell.exe,12070,routine process,benign,routine process
+PROC-00629,2026-08-15T01:09:58Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,5600,routine process,benign,routine process
+PROC-01334,2026-08-15T01:11:58Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,3504,routine process,benign,routine process
+PROC-00915,2026-08-15T01:13:45Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,3250,routine process,benign,routine process
+PROC-00138,2026-08-15T01:17:42Z,FILE-02,ACME\jsmith,wsmprovhost.exe,msiexec.exe,1320,routine process,benign,routine process
+PROC-00113,2026-08-15T01:26:01Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,12434,routine process,benign,routine process
+PROC-01084,2026-08-15T01:27:00Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,12538,routine process,benign,routine process
+PROC-01278,2026-08-15T01:31:05Z,FILE-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,5497,routine process,benign,routine process
+PROC-00229,2026-08-15T01:38:52Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,4051,routine process,benign,routine process
+PROC-01018,2026-08-15T01:39:27Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,8063,routine process,benign,routine process
+PROC-00557,2026-08-15T01:44:24Z,FIN-WS-14,ACME\jsmith,explorer.exe,msiexec.exe,8647,routine process,benign,routine process
+PROC-01464,2026-08-15T01:45:56Z,JUMP-01,ACME\jsmith,taskeng.exe,backup-agent.exe,4527,routine process,benign,routine process
+PROC-00822,2026-08-15T01:49:18Z,APP-API-03,ACME\svc_backup,services.exe,msiexec.exe,11950,routine process,benign,routine process
+PROC-01275,2026-08-15T01:52:12Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,2876,routine process,benign,routine process
+PROC-00989,2026-08-15T01:57:09Z,APP-API-02,ACME\mrivera,taskeng.exe,powershell.exe,5484,routine process,benign,routine process
+PROC-00620,2026-08-15T01:58:51Z,DEPLOY-01,ACME\jsmith,taskeng.exe,backup-agent.exe,4413,routine process,benign,routine process
+PROC-00402,2026-08-15T02:00:04Z,APP-API-03,ACME\jsmith,services.exe,msiexec.exe,10502,routine process,benign,routine process
+PROC-01244,2026-08-15T02:02:29Z,APP-API-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,6432,routine process,benign,routine process
+PROC-01392,2026-08-15T02:17:36Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,13895,routine process,benign,routine process
+PROC-00945,2026-08-15T02:26:17Z,FILE-02,ACME\svc_backup,taskeng.exe,powershell.exe,8665,routine process,benign,routine process
+PROC-01391,2026-08-15T02:28:20Z,FILE-02,ACME\mrivera,taskeng.exe,msiexec.exe,13021,routine process,benign,routine process
+PROC-01037,2026-08-15T02:33:27Z,JUMP-01,ACME\mrivera,wsmprovhost.exe,w3wp.exe,4947,routine process,benign,routine process
+PROC-00876,2026-08-15T02:41:02Z,APP-API-02,ACME\jsmith,taskeng.exe,powershell.exe,13286,routine process,benign,routine process
+PROC-00280,2026-08-15T02:55:41Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,msiexec.exe,11904,routine process,benign,routine process
+PROC-00248,2026-08-15T02:59:30Z,DEPLOY-01,ACME\svc_backup,explorer.exe,w3wp.exe,2052,routine process,benign,routine process
+PROC-00936,2026-08-15T03:01:16Z,JUMP-01,ACME\jsmith,explorer.exe,backup-agent.exe,11002,routine process,benign,routine process
+PROC-00273,2026-08-15T03:11:17Z,FILE-02,ACME\svc_backup,services.exe,w3wp.exe,5608,routine process,benign,routine process
+PROC-01384,2026-08-15T03:40:27Z,JUMP-01,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,3788,routine process,benign,routine process
+PROC-00406,2026-08-15T03:47:32Z,FILE-02,ACME\svc_deploy,taskeng.exe,powershell.exe,14010,routine process,benign,routine process
+PROC-01325,2026-08-15T03:48:46Z,DEPLOY-01,ACME\mrivera,explorer.exe,w3wp.exe,4697,routine process,benign,routine process
+PROC-00506,2026-08-15T03:52:17Z,JUMP-01,ACME\svc_backup,explorer.exe,msiexec.exe,8850,routine process,benign,routine process
+PROC-00351,2026-08-15T03:57:54Z,APP-API-03,ACME\jsmith,taskeng.exe,backup-agent.exe,7128,routine process,benign,routine process
+PROC-01290,2026-08-15T03:59:19Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,2672,routine process,benign,routine process
+PROC-00176,2026-08-15T04:02:18Z,FILE-02,ACME\jsmith,wsmprovhost.exe,powershell.exe,14896,routine process,benign,routine process
+PROC-00889,2026-08-15T04:06:28Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,3628,routine process,benign,routine process
+PROC-00869,2026-08-15T04:08:05Z,JUMP-01,ACME\mrivera,taskeng.exe,powershell.exe,13413,routine process,benign,routine process
+PROC-00444,2026-08-15T04:14:23Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,12956,routine process,benign,routine process
+PROC-01284,2026-08-15T04:20:25Z,FIN-WS-14,ACME\svc_backup,services.exe,msiexec.exe,13051,routine process,benign,routine process
+PROC-00812,2026-08-15T04:20:59Z,FIN-WS-14,ACME\svc_backup,services.exe,powershell.exe,2624,routine process,benign,routine process
+PROC-00253,2026-08-15T04:21:18Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,w3wp.exe,11252,routine process,benign,routine process
+PROC-00668,2026-08-15T04:31:09Z,APP-API-02,ACME\svc_deploy,services.exe,backup-agent.exe,10943,routine process,benign,routine process
+PROC-00069,2026-08-15T04:43:03Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,w3wp.exe,8758,routine process,benign,routine process
+PROC-01204,2026-08-15T04:44:19Z,JUMP-01,ACME\mrivera,taskeng.exe,backup-agent.exe,6836,routine process,benign,routine process
+PROC-01471,2026-08-15T04:55:23Z,FILE-02,ACME\jsmith,wsmprovhost.exe,powershell.exe,14637,routine process,benign,routine process
+PROC-01172,2026-08-15T04:59:51Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,7933,routine process,benign,routine process
+PROC-00987,2026-08-15T05:04:42Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,w3wp.exe,7227,routine process,benign,routine process
+PROC-00767,2026-08-15T05:05:35Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,12786,routine process,benign,routine process
+PROC-00375,2026-08-15T05:06:21Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,powershell.exe,2751,routine process,benign,routine process
+PROC-00026,2026-08-15T05:09:09Z,APP-API-02,ACME\mrivera,explorer.exe,w3wp.exe,4832,routine process,benign,routine process
+PROC-00514,2026-08-15T05:11:55Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,13928,routine process,benign,routine process
+PROC-00033,2026-08-15T05:12:03Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,6414,routine process,benign,routine process
+PROC-00562,2026-08-15T05:13:09Z,FIN-WS-14,ACME\svc_backup,wsmprovhost.exe,powershell.exe,1716,routine process,benign,routine process
+PROC-01208,2026-08-15T05:41:23Z,DEPLOY-01,ACME\svc_deploy,services.exe,backup-agent.exe,10756,routine process,benign,routine process
+PROC-00461,2026-08-15T05:43:07Z,APP-API-02,ACME\svc_deploy,explorer.exe,msiexec.exe,6931,routine process,benign,routine process
+PROC-01448,2026-08-15T05:44:17Z,APP-API-02,ACME\svc_backup,services.exe,msiexec.exe,2295,routine process,benign,routine process
+PROC-00291,2026-08-15T05:44:37Z,DEPLOY-01,ACME\jsmith,services.exe,w3wp.exe,13917,routine process,benign,routine process
+PROC-01301,2026-08-15T05:51:39Z,APP-API-03,ACME\jsmith,taskeng.exe,msiexec.exe,11055,routine process,benign,routine process
+PROC-00902,2026-08-15T05:55:04Z,JUMP-01,ACME\mrivera,taskeng.exe,w3wp.exe,13075,routine process,benign,routine process
+PROC-00298,2026-08-15T06:04:37Z,FILE-02,ACME\svc_backup,services.exe,w3wp.exe,14704,routine process,benign,routine process
+PROC-00559,2026-08-15T06:11:39Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,backup-agent.exe,7480,routine process,benign,routine process
+PROC-00540,2026-08-15T06:19:41Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,powershell.exe,10455,routine process,benign,routine process
+PROC-00640,2026-08-15T06:33:35Z,JUMP-01,ACME\mrivera,taskeng.exe,powershell.exe,11377,routine process,benign,routine process
+PROC-00222,2026-08-15T06:34:39Z,APP-API-02,ACME\svc_backup,services.exe,msiexec.exe,10831,routine process,benign,routine process
+PROC-01243,2026-08-15T06:41:11Z,JUMP-01,ACME\jsmith,taskeng.exe,backup-agent.exe,6449,routine process,benign,routine process
+PROC-00908,2026-08-15T06:42:29Z,JUMP-01,ACME\svc_backup,taskeng.exe,powershell.exe,4044,routine process,benign,routine process
+PROC-01273,2026-08-15T06:46:23Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,4194,routine process,benign,routine process
+PROC-00973,2026-08-15T06:50:26Z,FILE-02,ACME\jsmith,taskeng.exe,backup-agent.exe,14698,routine process,benign,routine process
+PROC-00917,2026-08-15T06:58:32Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,4746,routine process,benign,routine process
+PROC-00694,2026-08-15T07:16:37Z,FIN-WS-14,ACME\mrivera,taskeng.exe,msiexec.exe,10320,routine process,benign,routine process
+PROC-00214,2026-08-15T07:22:45Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,backup-agent.exe,10330,routine process,benign,routine process
+PROC-00692,2026-08-15T07:29:51Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,3846,routine process,benign,routine process
+PROC-01467,2026-08-15T07:31:10Z,APP-API-03,ACME\mrivera,services.exe,w3wp.exe,4928,routine process,benign,routine process
+PROC-01449,2026-08-15T07:31:37Z,FILE-02,ACME\mrivera,taskeng.exe,w3wp.exe,1909,routine process,benign,routine process
+PROC-00202,2026-08-15T07:37:49Z,DEPLOY-01,ACME\mrivera,taskeng.exe,backup-agent.exe,12643,routine process,benign,routine process
+PROC-00957,2026-08-15T07:39:34Z,JUMP-01,ACME\svc_backup,taskeng.exe,w3wp.exe,9461,routine process,benign,routine process
+PROC-01212,2026-08-15T07:42:02Z,APP-API-02,ACME\svc_backup,services.exe,msiexec.exe,5147,routine process,benign,routine process
+PROC-00884,2026-08-15T07:42:21Z,APP-API-02,ACME\jsmith,services.exe,backup-agent.exe,2325,routine process,benign,routine process
+PROC-00306,2026-08-15T07:50:56Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,5365,routine process,benign,routine process
+PROC-01314,2026-08-15T07:56:27Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,14811,routine process,benign,routine process
+PROC-01313,2026-08-15T08:02:48Z,JUMP-01,ACME\svc_backup,explorer.exe,w3wp.exe,9328,routine process,benign,routine process
+PROC-00544,2026-08-15T08:04:10Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,powershell.exe,3805,routine process,benign,routine process
+PROC-00364,2026-08-15T08:20:45Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,7607,routine process,benign,routine process
+PROC-01390,2026-08-15T08:27:06Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,3079,routine process,benign,routine process
+PROC-00027,2026-08-15T08:54:21Z,APP-API-03,ACME\svc_backup,services.exe,backup-agent.exe,11644,routine process,benign,routine process
+PROC-01115,2026-08-15T08:59:37Z,JUMP-01,ACME\svc_deploy,taskeng.exe,w3wp.exe,1505,routine process,benign,routine process
+PROC-00230,2026-08-15T09:04:02Z,FILE-02,ACME\svc_backup,explorer.exe,backup-agent.exe,5771,routine process,benign,routine process
+PROC-00711,2026-08-15T09:06:23Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,14398,routine process,benign,routine process
+PROC-00877,2026-08-15T09:12:17Z,JUMP-01,ACME\svc_backup,taskeng.exe,powershell.exe,2716,routine process,benign,routine process
+PROC-01268,2026-08-15T09:16:39Z,JUMP-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,12487,routine process,benign,routine process
+PROC-00377,2026-08-15T09:17:58Z,DEPLOY-01,ACME\jsmith,taskeng.exe,powershell.exe,5275,routine process,benign,routine process
+PROC-00366,2026-08-15T09:18:17Z,APP-API-02,ACME\mrivera,explorer.exe,powershell.exe,9516,routine process,benign,routine process
+PROC-00456,2026-08-15T09:18:32Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,2608,routine process,benign,routine process
+PROC-00155,2026-08-15T09:26:55Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,12060,routine process,benign,routine process
+PROC-00674,2026-08-15T09:33:55Z,JUMP-01,ACME\jsmith,services.exe,powershell.exe,14235,routine process,benign,routine process
+PROC-00132,2026-08-15T09:35:15Z,FILE-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,6289,routine process,benign,routine process
+PROC-00182,2026-08-15T09:44:26Z,APP-API-03,ACME\jsmith,taskeng.exe,powershell.exe,11590,routine process,benign,routine process
+PROC-01396,2026-08-15T09:52:19Z,APP-API-03,ACME\mrivera,explorer.exe,backup-agent.exe,7298,routine process,benign,routine process
+PROC-00613,2026-08-15T10:03:55Z,APP-API-03,ACME\svc_deploy,explorer.exe,w3wp.exe,8143,routine process,benign,routine process
+PROC-01387,2026-08-15T10:21:11Z,FIN-WS-14,ACME\svc_backup,services.exe,backup-agent.exe,5773,routine process,benign,routine process
+PROC-00171,2026-08-15T10:22:51Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,14744,routine process,benign,routine process
+PROC-00290,2026-08-15T10:23:05Z,FILE-02,ACME\svc_deploy,services.exe,powershell.exe,13701,routine process,benign,routine process
+PROC-00548,2026-08-15T10:25:59Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,1235,routine process,benign,routine process
+PROC-00672,2026-08-15T10:47:50Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,w3wp.exe,3040,routine process,benign,routine process
+PROC-00465,2026-08-15T10:49:39Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,w3wp.exe,1071,routine process,benign,routine process
+PROC-00360,2026-08-15T10:51:41Z,FILE-02,ACME\svc_deploy,explorer.exe,msiexec.exe,14909,routine process,benign,routine process
+PROC-00194,2026-08-15T10:53:29Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,11105,routine process,benign,routine process
+PROC-00017,2026-08-15T11:08:51Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,10197,routine process,benign,routine process
+PROC-01280,2026-08-15T11:17:59Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,backup-agent.exe,13939,routine process,benign,routine process
+PROC-00426,2026-08-15T11:24:30Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,3238,routine process,benign,routine process
+PROC-00964,2026-08-15T11:25:22Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,4344,routine process,benign,routine process
+PROC-00236,2026-08-15T11:34:54Z,APP-API-02,ACME\jsmith,explorer.exe,powershell.exe,9769,routine process,benign,routine process
+PROC-00670,2026-08-15T11:39:00Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,3080,routine process,benign,routine process
+PROC-00593,2026-08-15T11:48:46Z,APP-API-02,ACME\svc_deploy,services.exe,msiexec.exe,4951,routine process,benign,routine process
+PROC-00030,2026-08-15T12:07:53Z,FIN-WS-14,ACME\jsmith,explorer.exe,w3wp.exe,3752,routine process,benign,routine process
+PROC-00963,2026-08-15T12:09:31Z,FIN-WS-14,ACME\svc_backup,services.exe,msiexec.exe,5996,routine process,benign,routine process
+PROC-01445,2026-08-15T12:23:11Z,FILE-02,ACME\jsmith,taskeng.exe,w3wp.exe,6989,routine process,benign,routine process
+PROC-00398,2026-08-15T12:27:44Z,FILE-02,ACME\jsmith,taskeng.exe,msiexec.exe,6732,routine process,benign,routine process
+PROC-00092,2026-08-15T12:31:40Z,FILE-02,ACME\mrivera,explorer.exe,backup-agent.exe,7720,routine process,benign,routine process
+PROC-00315,2026-08-15T12:43:52Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,2409,routine process,benign,routine process
+PROC-01166,2026-08-15T12:44:41Z,JUMP-01,ACME\svc_deploy,services.exe,powershell.exe,8735,routine process,benign,routine process
+PROC-00036,2026-08-15T12:57:03Z,FILE-02,ACME\mrivera,explorer.exe,w3wp.exe,4694,routine process,benign,routine process
+PROC-00534,2026-08-15T12:57:44Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,4658,routine process,benign,routine process
+PROC-01434,2026-08-15T13:09:17Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,4091,routine process,benign,routine process
+PROC-00150,2026-08-15T13:13:52Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,w3wp.exe,6993,routine process,benign,routine process
+PROC-00742,2026-08-15T13:30:13Z,APP-API-03,ACME\mrivera,explorer.exe,w3wp.exe,10712,routine process,benign,routine process
+PROC-00712,2026-08-15T13:38:28Z,FIN-WS-14,ACME\jsmith,services.exe,powershell.exe,14459,routine process,benign,routine process
+PROC-00385,2026-08-15T13:40:41Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,w3wp.exe,4383,routine process,benign,routine process
+PROC-00643,2026-08-15T13:42:44Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,powershell.exe,11430,routine process,benign,routine process
+PROC-00451,2026-08-15T13:50:23Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,powershell.exe,12299,routine process,benign,routine process
+PROC-00537,2026-08-15T13:57:41Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,12396,routine process,benign,routine process
+PROC-00137,2026-08-15T13:58:24Z,APP-API-02,ACME\svc_deploy,explorer.exe,powershell.exe,11254,routine process,benign,routine process
+PROC-00349,2026-08-15T14:01:21Z,APP-API-03,ACME\jsmith,taskeng.exe,msiexec.exe,11159,routine process,benign,routine process
+PROC-00007,2026-08-15T14:05:35Z,FILE-02,ACME\jsmith,explorer.exe,w3wp.exe,7142,routine process,benign,routine process
+PROC-00421,2026-08-15T14:06:03Z,FILE-02,ACME\jsmith,services.exe,backup-agent.exe,5641,routine process,benign,routine process
+PROC-00221,2026-08-15T14:11:52Z,APP-API-03,ACME\svc_backup,services.exe,msiexec.exe,7435,routine process,benign,routine process
+PROC-01377,2026-08-15T14:26:25Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,w3wp.exe,4021,routine process,benign,routine process
+PROC-00715,2026-08-15T14:37:39Z,FIN-WS-14,ACME\mrivera,explorer.exe,w3wp.exe,11289,routine process,benign,routine process
+PROC-00431,2026-08-15T14:41:17Z,APP-API-03,ACME\mrivera,services.exe,msiexec.exe,5339,routine process,benign,routine process
+PROC-01000,2026-08-15T14:45:54Z,DEPLOY-01,ACME\svc_backup,explorer.exe,powershell.exe,8681,routine process,benign,routine process
+PROC-01147,2026-08-15T14:50:36Z,DEPLOY-01,ACME\jsmith,taskeng.exe,msiexec.exe,10731,routine process,benign,routine process
+PROC-01105,2026-08-15T15:03:34Z,FIN-WS-14,ACME\mrivera,wsmprovhost.exe,powershell.exe,5500,routine process,benign,routine process
+PROC-00780,2026-08-15T15:04:39Z,FILE-02,ACME\mrivera,wsmprovhost.exe,powershell.exe,1206,routine process,benign,routine process
+PROC-00878,2026-08-15T15:09:39Z,DEPLOY-01,ACME\svc_deploy,services.exe,w3wp.exe,10706,routine process,benign,routine process
+PROC-00212,2026-08-15T15:10:16Z,FILE-02,ACME\svc_backup,taskeng.exe,backup-agent.exe,1859,routine process,benign,routine process
+PROC-00482,2026-08-15T15:14:14Z,JUMP-01,ACME\jsmith,taskeng.exe,backup-agent.exe,9192,routine process,benign,routine process
+PROC-01009,2026-08-15T15:24:59Z,APP-API-02,ACME\mrivera,taskeng.exe,backup-agent.exe,14271,routine process,benign,routine process
+PROC-01435,2026-08-15T15:26:46Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,powershell.exe,13671,routine process,benign,routine process
+PROC-00594,2026-08-15T15:36:36Z,FIN-WS-14,ACME\mrivera,taskeng.exe,powershell.exe,12420,routine process,benign,routine process
+PROC-00885,2026-08-15T15:36:42Z,JUMP-01,ACME\svc_backup,services.exe,backup-agent.exe,14431,routine process,benign,routine process
+PROC-00815,2026-08-15T15:40:23Z,APP-API-03,ACME\svc_backup,taskeng.exe,msiexec.exe,14404,routine process,benign,routine process
+PROC-00606,2026-08-15T15:42:07Z,JUMP-01,ACME\jsmith,services.exe,msiexec.exe,1660,routine process,benign,routine process
+PROC-01190,2026-08-15T15:43:29Z,APP-API-02,ACME\svc_backup,services.exe,w3wp.exe,4997,routine process,benign,routine process
+PROC-01472,2026-08-15T15:50:57Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,11125,routine process,benign,routine process
+PROC-01225,2026-08-15T15:54:01Z,APP-API-02,ACME\svc_backup,taskeng.exe,backup-agent.exe,6635,routine process,benign,routine process
+PROC-00064,2026-08-15T15:59:46Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,14600,routine process,benign,routine process
+PROC-01323,2026-08-15T16:08:21Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,13348,routine process,benign,routine process
+PROC-00577,2026-08-15T16:15:02Z,JUMP-01,ACME\svc_backup,services.exe,w3wp.exe,6854,routine process,benign,routine process
+PROC-00886,2026-08-15T16:16:32Z,JUMP-01,ACME\svc_backup,taskeng.exe,msiexec.exe,11911,routine process,benign,routine process
+PROC-01011,2026-08-15T16:31:35Z,JUMP-01,ACME\svc_deploy,services.exe,backup-agent.exe,6536,routine process,benign,routine process
+PROC-01183,2026-08-15T16:43:57Z,FIN-WS-14,ACME\mrivera,services.exe,backup-agent.exe,13209,routine process,benign,routine process
+PROC-00190,2026-08-15T16:45:29Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,14369,routine process,benign,routine process
+PROC-00089,2026-08-15T16:53:20Z,FIN-WS-14,ACME\svc_backup,services.exe,backup-agent.exe,5430,routine process,benign,routine process
+PROC-00633,2026-08-15T16:58:04Z,APP-API-02,ACME\mrivera,services.exe,powershell.exe,12635,routine process,benign,routine process
+PROC-00946,2026-08-15T16:59:47Z,FIN-WS-14,ACME\svc_backup,services.exe,w3wp.exe,2778,routine process,benign,routine process
+PROC-00369,2026-08-15T17:02:02Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,powershell.exe,5915,routine process,benign,routine process
+PROC-00059,2026-08-15T17:15:30Z,DEPLOY-01,ACME\svc_backup,explorer.exe,msiexec.exe,13386,routine process,benign,routine process
+PROC-00978,2026-08-15T17:22:25Z,APP-API-02,ACME\svc_deploy,explorer.exe,msiexec.exe,2495,routine process,benign,routine process
+PROC-01050,2026-08-15T17:30:31Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,13968,routine process,benign,routine process
+PROC-00165,2026-08-15T17:31:31Z,FILE-02,ACME\svc_backup,explorer.exe,w3wp.exe,14648,routine process,benign,routine process
+PROC-00147,2026-08-15T17:32:57Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,1629,routine process,benign,routine process
+PROC-01010,2026-08-15T17:33:15Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,12623,routine process,benign,routine process
+PROC-00216,2026-08-15T17:33:29Z,APP-API-03,ACME\svc_backup,explorer.exe,w3wp.exe,1926,routine process,benign,routine process
+PROC-00728,2026-08-15T17:50:08Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,msiexec.exe,2618,routine process,benign,routine process
+PROC-01356,2026-08-15T18:01:06Z,FILE-02,ACME\jsmith,explorer.exe,w3wp.exe,8932,routine process,benign,routine process
+PROC-00591,2026-08-15T18:03:16Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,12083,routine process,benign,routine process
+PROC-01457,2026-08-15T18:17:14Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,7360,routine process,benign,routine process
+PROC-00682,2026-08-15T18:25:29Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,1026,routine process,benign,routine process
+PROC-00513,2026-08-15T18:27:08Z,APP-API-02,ACME\svc_deploy,taskeng.exe,msiexec.exe,2053,routine process,benign,routine process
+PROC-00660,2026-08-15T18:27:48Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,6479,routine process,benign,routine process
+PROC-00134,2026-08-15T18:27:58Z,APP-API-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,2319,routine process,benign,routine process
+PROC-01015,2026-08-15T18:29:31Z,JUMP-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,14693,routine process,benign,routine process
+PROC-01231,2026-08-15T18:30:41Z,DEPLOY-01,ACME\svc_backup,services.exe,msiexec.exe,10333,routine process,benign,routine process
+PROC-01197,2026-08-15T18:39:06Z,FILE-02,ACME\svc_backup,services.exe,w3wp.exe,12024,routine process,benign,routine process
+PROC-00558,2026-08-15T18:43:38Z,FIN-WS-14,ACME\svc_backup,explorer.exe,msiexec.exe,3516,routine process,benign,routine process
+PROC-00733,2026-08-15T18:45:02Z,APP-API-03,ACME\mrivera,taskeng.exe,powershell.exe,4774,routine process,benign,routine process
+PROC-00656,2026-08-15T18:45:10Z,FIN-WS-14,ACME\svc_deploy,services.exe,backup-agent.exe,12472,routine process,benign,routine process
+PROC-00167,2026-08-15T18:49:48Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,9952,routine process,benign,routine process
+PROC-01130,2026-08-15T19:05:08Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,12238,routine process,benign,routine process
+PROC-00042,2026-08-15T19:07:58Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,10336,routine process,benign,routine process
+PROC-00158,2026-08-15T19:11:06Z,APP-API-02,ACME\svc_backup,services.exe,msiexec.exe,14157,routine process,benign,routine process
+PROC-00904,2026-08-15T19:13:58Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,2079,routine process,benign,routine process
+PROC-00995,2026-08-15T19:23:24Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,powershell.exe,7670,routine process,benign,routine process
+PROC-00903,2026-08-15T19:24:08Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,1627,routine process,benign,routine process
+PROC-00751,2026-08-15T19:27:16Z,FIN-WS-14,ACME\svc_deploy,services.exe,w3wp.exe,14377,routine process,benign,routine process
+PROC-00174,2026-08-15T19:40:04Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,msiexec.exe,6314,routine process,benign,routine process
+PROC-00242,2026-08-15T19:47:44Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,3396,routine process,benign,routine process
+PROC-00662,2026-08-15T19:59:59Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,5991,routine process,benign,routine process
+PROC-00234,2026-08-15T20:00:25Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,10243,routine process,benign,routine process
+PROC-00489,2026-08-15T20:16:39Z,DEPLOY-01,ACME\jsmith,explorer.exe,msiexec.exe,7107,routine process,benign,routine process
+PROC-00485,2026-08-15T20:18:18Z,APP-API-03,ACME\mrivera,taskeng.exe,msiexec.exe,11496,routine process,benign,routine process
+PROC-00116,2026-08-15T20:22:40Z,FILE-02,ACME\svc_deploy,explorer.exe,powershell.exe,11797,routine process,benign,routine process
+PROC-00361,2026-08-15T20:26:12Z,APP-API-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,5206,routine process,benign,routine process
+PROC-01398,2026-08-15T20:29:05Z,DEPLOY-01,ACME\svc_deploy,services.exe,backup-agent.exe,9529,routine process,benign,routine process
+PROC-01329,2026-08-15T20:31:15Z,FIN-WS-14,ACME\mrivera,explorer.exe,powershell.exe,7982,routine process,benign,routine process
+PROC-00750,2026-08-15T20:33:21Z,FILE-02,ACME\jsmith,wsmprovhost.exe,powershell.exe,7278,routine process,benign,routine process
+PROC-01031,2026-08-15T20:42:55Z,APP-API-02,ACME\svc_backup,explorer.exe,powershell.exe,12549,routine process,benign,routine process
+PROC-01442,2026-08-15T20:56:07Z,FILE-02,ACME\jsmith,taskeng.exe,powershell.exe,9975,routine process,benign,routine process
+PROC-00308,2026-08-15T20:57:28Z,APP-API-02,ACME\svc_backup,explorer.exe,backup-agent.exe,4621,routine process,benign,routine process
+PROC-01173,2026-08-15T20:58:48Z,FILE-02,ACME\svc_deploy,explorer.exe,w3wp.exe,14697,routine process,benign,routine process
+PROC-00077,2026-08-15T21:02:43Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,w3wp.exe,2900,routine process,benign,routine process
+PROC-00788,2026-08-15T21:14:16Z,FILE-02,ACME\jsmith,services.exe,powershell.exe,14142,routine process,benign,routine process
+PROC-00284,2026-08-15T21:17:34Z,FILE-02,ACME\svc_backup,explorer.exe,msiexec.exe,10392,routine process,benign,routine process
+PROC-00843,2026-08-15T21:21:29Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,4686,routine process,benign,routine process
+PROC-00197,2026-08-15T21:21:45Z,FIN-WS-14,ACME\mrivera,wsmprovhost.exe,powershell.exe,6660,routine process,benign,routine process
+PROC-01187,2026-08-15T21:23:16Z,APP-API-02,ACME\svc_backup,services.exe,w3wp.exe,1241,routine process,benign,routine process
+PROC-00302,2026-08-15T21:26:11Z,APP-API-02,ACME\svc_backup,services.exe,w3wp.exe,12243,routine process,benign,routine process
+PROC-00096,2026-08-15T21:33:16Z,JUMP-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,11781,routine process,benign,routine process
+PROC-00435,2026-08-15T21:34:50Z,APP-API-03,ACME\mrivera,taskeng.exe,backup-agent.exe,1515,routine process,benign,routine process
+PROC-00666,2026-08-15T21:59:09Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,msiexec.exe,13785,routine process,benign,routine process
+PROC-00787,2026-08-15T22:06:00Z,JUMP-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,8770,routine process,benign,routine process
+PROC-01144,2026-08-15T22:06:19Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,14341,routine process,benign,routine process
+PROC-01381,2026-08-15T22:09:05Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,4471,routine process,benign,routine process
+PROC-00345,2026-08-15T22:12:59Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,w3wp.exe,2748,routine process,benign,routine process
+PROC-00710,2026-08-15T22:14:23Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,1238,routine process,benign,routine process
+PROC-00703,2026-08-15T22:15:29Z,DEPLOY-01,ACME\mrivera,taskeng.exe,powershell.exe,13259,routine process,benign,routine process
+PROC-01476,2026-08-15T22:23:16Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,9238,routine process,benign,routine process
+PROC-01074,2026-08-15T22:24:42Z,APP-API-02,ACME\svc_deploy,explorer.exe,w3wp.exe,4250,routine process,benign,routine process
+PROC-01272,2026-08-15T22:25:16Z,FILE-02,ACME\jsmith,taskeng.exe,w3wp.exe,4075,routine process,benign,routine process
+PROC-00262,2026-08-15T22:26:26Z,APP-API-02,ACME\svc_deploy,services.exe,powershell.exe,14749,routine process,benign,routine process
+PROC-00166,2026-08-15T22:29:25Z,FIN-WS-14,ACME\jsmith,taskeng.exe,w3wp.exe,1463,routine process,benign,routine process
+PROC-01326,2026-08-15T22:34:51Z,JUMP-01,ACME\jsmith,taskeng.exe,backup-agent.exe,2516,routine process,benign,routine process
+PROC-01409,2026-08-15T22:35:42Z,JUMP-01,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,2058,routine process,benign,routine process
+PROC-01495,2026-08-15T22:36:26Z,DEPLOY-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,3699,routine process,benign,routine process
+PROC-00078,2026-08-15T22:37:44Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,9867,routine process,benign,routine process
+PROC-00476,2026-08-15T22:37:50Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,9193,routine process,benign,routine process
+PROC-01111,2026-08-15T22:38:32Z,FIN-WS-14,ACME\svc_deploy,services.exe,msiexec.exe,8363,routine process,benign,routine process
+PROC-00553,2026-08-15T22:49:06Z,FILE-02,ACME\mrivera,services.exe,powershell.exe,3287,routine process,benign,routine process
+PROC-00080,2026-08-15T22:49:40Z,DEPLOY-01,ACME\svc_deploy,services.exe,backup-agent.exe,14140,routine process,benign,routine process
+PROC-00831,2026-08-15T22:51:18Z,DEPLOY-01,ACME\mrivera,explorer.exe,backup-agent.exe,6730,routine process,benign,routine process
+PROC-00106,2026-08-15T23:11:24Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,8562,routine process,benign,routine process
+PROC-00305,2026-08-15T23:13:33Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,4924,routine process,benign,routine process
+PROC-01038,2026-08-15T23:35:25Z,APP-API-03,ACME\svc_backup,explorer.exe,msiexec.exe,3344,routine process,benign,routine process
+PROC-00348,2026-08-15T23:46:17Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,powershell.exe,1323,routine process,benign,routine process
+PROC-00518,2026-08-15T23:48:16Z,FILE-02,ACME\jsmith,taskeng.exe,msiexec.exe,3387,routine process,benign,routine process
+PROC-00039,2026-08-15T23:57:40Z,JUMP-01,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,7534,routine process,benign,routine process
+PROC-00169,2026-08-16T00:07:59Z,DEPLOY-01,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,6702,routine process,benign,routine process
+PROC-00016,2026-08-16T00:09:03Z,APP-API-02,ACME\svc_backup,taskeng.exe,msiexec.exe,5280,routine process,benign,routine process
+PROC-01345,2026-08-16T00:10:29Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,5579,routine process,benign,routine process
+PROC-01236,2026-08-16T00:11:39Z,APP-API-02,ACME\jsmith,taskeng.exe,powershell.exe,9025,routine process,benign,routine process
+PROC-01433,2026-08-16T00:13:52Z,APP-API-02,ACME\svc_backup,services.exe,powershell.exe,5214,routine process,benign,routine process
+PROC-00009,2026-08-16T00:23:11Z,DEPLOY-01,ACME\jsmith,explorer.exe,powershell.exe,1957,routine process,benign,routine process
+PROC-00560,2026-08-16T00:30:52Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,11216,routine process,benign,routine process
+PROC-01129,2026-08-16T00:33:04Z,JUMP-01,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,3307,routine process,benign,routine process
+PROC-01192,2026-08-16T00:36:23Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,msiexec.exe,6791,routine process,benign,routine process
+PROC-00142,2026-08-16T00:42:41Z,JUMP-01,ACME\mrivera,taskeng.exe,powershell.exe,3872,routine process,benign,routine process
+PROC-00932,2026-08-16T00:47:01Z,FIN-WS-14,ACME\mrivera,explorer.exe,powershell.exe,11465,routine process,benign,routine process
+PROC-00547,2026-08-16T00:47:17Z,APP-API-02,ACME\mrivera,services.exe,w3wp.exe,3192,routine process,benign,routine process
+PROC-01258,2026-08-16T00:49:55Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,13886,routine process,benign,routine process
+PROC-00867,2026-08-16T00:54:03Z,FIN-WS-14,ACME\jsmith,explorer.exe,w3wp.exe,12325,routine process,benign,routine process
+PROC-00389,2026-08-16T00:59:18Z,JUMP-01,ACME\mrivera,explorer.exe,powershell.exe,14283,routine process,benign,routine process
+PROC-00612,2026-08-16T01:12:01Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,6977,routine process,benign,routine process
+PROC-00588,2026-08-16T01:17:39Z,APP-API-02,ACME\mrivera,explorer.exe,backup-agent.exe,13990,routine process,benign,routine process
+PROC-00410,2026-08-16T01:31:22Z,FIN-WS-14,ACME\jsmith,services.exe,w3wp.exe,5905,routine process,benign,routine process
+PROC-00580,2026-08-16T01:35:54Z,JUMP-01,ACME\mrivera,explorer.exe,msiexec.exe,8835,routine process,benign,routine process
+PROC-00367,2026-08-16T01:49:49Z,APP-API-03,ACME\svc_backup,services.exe,w3wp.exe,7054,routine process,benign,routine process
+PROC-00947,2026-08-16T01:50:04Z,APP-API-03,ACME\mrivera,services.exe,w3wp.exe,11293,routine process,benign,routine process
+PROC-01122,2026-08-16T01:50:30Z,JUMP-01,ACME\mrivera,explorer.exe,powershell.exe,2942,routine process,benign,routine process
+PROC-00237,2026-08-16T01:51:32Z,FILE-02,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,12922,routine process,benign,routine process
+PROC-00625,2026-08-16T01:57:45Z,DEPLOY-01,ACME\svc_backup,services.exe,msiexec.exe,8125,routine process,benign,routine process
+PROC-01385,2026-08-16T01:59:09Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,msiexec.exe,3520,routine process,benign,routine process
+PROC-01070,2026-08-16T02:01:02Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,backup-agent.exe,9116,routine process,benign,routine process
+PROC-00331,2026-08-16T02:01:25Z,FILE-02,ACME\svc_deploy,taskeng.exe,powershell.exe,14280,routine process,benign,routine process
+PROC-01199,2026-08-16T02:05:38Z,APP-API-03,ACME\svc_deploy,explorer.exe,powershell.exe,2708,routine process,benign,routine process
+PROC-00687,2026-08-16T02:08:34Z,FILE-02,ACME\svc_deploy,services.exe,backup-agent.exe,13353,routine process,benign,routine process
+PROC-00071,2026-08-16T02:25:01Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,5001,routine process,benign,routine process
+PROC-00871,2026-08-16T02:31:00Z,APP-API-03,ACME\mrivera,services.exe,w3wp.exe,8024,routine process,benign,routine process
+PROC-01221,2026-08-16T02:33:45Z,FILE-02,ACME\jsmith,explorer.exe,powershell.exe,12734,routine process,benign,routine process
+PROC-00561,2026-08-16T02:45:57Z,APP-API-02,ACME\mrivera,explorer.exe,backup-agent.exe,3132,routine process,benign,routine process
+PROC-00773,2026-08-16T02:58:44Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,powershell.exe,9121,routine process,benign,routine process
+PROC-00478,2026-08-16T03:00:21Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,12719,routine process,benign,routine process
+PROC-00584,2026-08-16T03:04:13Z,JUMP-01,ACME\svc_deploy,services.exe,w3wp.exe,14477,routine process,benign,routine process
+PROC-01468,2026-08-16T03:12:34Z,FIN-WS-14,ACME\jsmith,explorer.exe,w3wp.exe,14036,routine process,benign,routine process
+PROC-01450,2026-08-16T03:34:42Z,FIN-WS-14,ACME\svc_deploy,services.exe,backup-agent.exe,6256,routine process,benign,routine process
+PROC-01331,2026-08-16T03:35:34Z,APP-API-02,ACME\mrivera,explorer.exe,w3wp.exe,4927,routine process,benign,routine process
+PROC-01053,2026-08-16T03:36:08Z,APP-API-03,ACME\mrivera,explorer.exe,powershell.exe,7737,routine process,benign,routine process
+PROC-00125,2026-08-16T03:38:04Z,JUMP-01,ACME\svc_backup,taskeng.exe,w3wp.exe,9039,routine process,benign,routine process
+PROC-00480,2026-08-16T03:42:22Z,APP-API-03,ACME\jsmith,explorer.exe,w3wp.exe,8724,routine process,benign,routine process
+PROC-00587,2026-08-16T03:45:32Z,DEPLOY-01,ACME\jsmith,taskeng.exe,backup-agent.exe,1084,routine process,benign,routine process
+PROC-00495,2026-08-16T03:47:25Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,10536,routine process,benign,routine process
+PROC-00635,2026-08-16T03:50:04Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,10747,routine process,benign,routine process
+PROC-01419,2026-08-16T03:52:02Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,13968,routine process,benign,routine process
+PROC-00624,2026-08-16T03:53:19Z,APP-API-03,ACME\svc_deploy,taskeng.exe,msiexec.exe,8105,routine process,benign,routine process
+PROC-01094,2026-08-16T03:54:28Z,JUMP-01,ACME\mrivera,taskeng.exe,msiexec.exe,6665,routine process,benign,routine process
+PROC-00447,2026-08-16T03:57:48Z,FIN-WS-14,ACME\svc_deploy,services.exe,w3wp.exe,9634,routine process,benign,routine process
+PROC-00872,2026-08-16T03:58:30Z,FIN-WS-14,ACME\jsmith,explorer.exe,backup-agent.exe,3361,routine process,benign,routine process
+PROC-00278,2026-08-16T04:04:21Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,6639,routine process,benign,routine process
+PROC-00508,2026-08-16T04:07:04Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,6272,routine process,benign,routine process
+PROC-00120,2026-08-16T04:22:28Z,JUMP-01,ACME\svc_deploy,services.exe,w3wp.exe,11538,routine process,benign,routine process
+PROC-00144,2026-08-16T04:29:41Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,9398,routine process,benign,routine process
+PROC-00808,2026-08-16T04:36:19Z,JUMP-01,ACME\svc_deploy,explorer.exe,msiexec.exe,6930,routine process,benign,routine process
+PROC-01480,2026-08-16T04:43:33Z,FILE-02,ACME\mrivera,wsmprovhost.exe,powershell.exe,8302,routine process,benign,routine process
+PROC-00038,2026-08-16T04:59:03Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,3318,routine process,benign,routine process
+PROC-01308,2026-08-16T05:01:46Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,8712,routine process,benign,routine process
+PROC-00898,2026-08-16T05:05:22Z,JUMP-01,ACME\jsmith,taskeng.exe,backup-agent.exe,14472,routine process,benign,routine process
+PROC-00329,2026-08-16T05:18:52Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,5925,routine process,benign,routine process
+PROC-01019,2026-08-16T05:20:55Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,11924,routine process,benign,routine process
+PROC-00923,2026-08-16T05:22:35Z,APP-API-03,ACME\svc_deploy,explorer.exe,w3wp.exe,5116,routine process,benign,routine process
+PROC-00460,2026-08-16T05:40:32Z,JUMP-01,ACME\mrivera,taskeng.exe,backup-agent.exe,8778,routine process,benign,routine process
+PROC-00219,2026-08-16T05:41:18Z,DEPLOY-01,ACME\jsmith,taskeng.exe,w3wp.exe,2826,routine process,benign,routine process
+PROC-00835,2026-08-16T05:53:20Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,2061,routine process,benign,routine process
+PROC-00392,2026-08-16T05:54:13Z,FILE-02,ACME\jsmith,services.exe,backup-agent.exe,13671,routine process,benign,routine process
+PROC-00034,2026-08-16T05:54:32Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,13071,routine process,benign,routine process
+PROC-00609,2026-08-16T06:26:07Z,DEPLOY-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,3783,routine process,benign,routine process
+PROC-00598,2026-08-16T06:27:46Z,JUMP-01,ACME\mrivera,services.exe,powershell.exe,7337,routine process,benign,routine process
+PROC-00492,2026-08-16T06:28:13Z,JUMP-01,ACME\jsmith,explorer.exe,msiexec.exe,2905,routine process,benign,routine process
+PROC-01125,2026-08-16T06:31:12Z,APP-API-02,ACME\svc_deploy,taskeng.exe,w3wp.exe,6018,routine process,benign,routine process
+PROC-01352,2026-08-16T06:33:17Z,DEPLOY-01,ACME\jsmith,taskeng.exe,powershell.exe,11898,routine process,benign,routine process
+PROC-00935,2026-08-16T06:34:35Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,13035,routine process,benign,routine process
+PROC-00570,2026-08-16T06:50:17Z,APP-API-03,ACME\svc_deploy,explorer.exe,msiexec.exe,13256,routine process,benign,routine process
+PROC-00359,2026-08-16T06:52:55Z,FIN-WS-14,ACME\svc_deploy,services.exe,w3wp.exe,9722,routine process,benign,routine process
+PROC-00031,2026-08-16T07:08:07Z,DEPLOY-01,ACME\jsmith,wsmprovhost.exe,msiexec.exe,1040,routine process,benign,routine process
+PROC-01116,2026-08-16T07:18:24Z,FIN-WS-14,ACME\svc_backup,wsmprovhost.exe,powershell.exe,11013,routine process,benign,routine process
+PROC-00483,2026-08-16T07:45:59Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,7109,routine process,benign,routine process
+PROC-01444,2026-08-16T07:49:13Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,11413,routine process,benign,routine process
+PROC-01157,2026-08-16T07:54:26Z,FILE-02,ACME\svc_backup,explorer.exe,backup-agent.exe,10148,routine process,benign,routine process
+PROC-01213,2026-08-16T08:02:49Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,w3wp.exe,7045,routine process,benign,routine process
+PROC-01041,2026-08-16T08:06:34Z,DEPLOY-01,ACME\svc_backup,explorer.exe,msiexec.exe,9497,routine process,benign,routine process
+PROC-00011,2026-08-16T08:06:57Z,FILE-02,ACME\svc_backup,taskeng.exe,powershell.exe,8687,routine process,benign,routine process
+PROC-01003,2026-08-16T08:11:27Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,msiexec.exe,4214,routine process,benign,routine process
+PROC-01182,2026-08-16T08:12:15Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,1518,routine process,benign,routine process
+PROC-00374,2026-08-16T08:16:11Z,APP-API-02,ACME\svc_deploy,services.exe,w3wp.exe,11937,routine process,benign,routine process
+PROC-00781,2026-08-16T08:26:20Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,13128,routine process,benign,routine process
+PROC-00758,2026-08-16T08:34:27Z,DEPLOY-01,ACME\mrivera,taskeng.exe,w3wp.exe,9895,routine process,benign,routine process
+PROC-00293,2026-08-16T08:36:43Z,APP-API-02,ACME\mrivera,explorer.exe,msiexec.exe,10528,routine process,benign,routine process
+PROC-00382,2026-08-16T08:48:17Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,12086,routine process,benign,routine process
+PROC-01162,2026-08-16T08:48:29Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,w3wp.exe,3778,routine process,benign,routine process
+PROC-01453,2026-08-16T08:48:55Z,JUMP-01,ACME\jsmith,services.exe,msiexec.exe,7033,routine process,benign,routine process
+PROC-01239,2026-08-16T08:56:02Z,FIN-WS-14,ACME\jsmith,services.exe,w3wp.exe,2683,routine process,benign,routine process
+PROC-00105,2026-08-16T08:56:40Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,2690,routine process,benign,routine process
+PROC-00913,2026-08-16T08:57:08Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,7812,routine process,benign,routine process
+PROC-00127,2026-08-16T08:57:24Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,5689,routine process,benign,routine process
+PROC-01214,2026-08-16T09:12:54Z,JUMP-01,ACME\mrivera,services.exe,msiexec.exe,2693,routine process,benign,routine process
+PROC-00745,2026-08-16T09:19:08Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,11441,routine process,benign,routine process
+PROC-01100,2026-08-16T09:29:10Z,DEPLOY-01,ACME\jsmith,services.exe,powershell.exe,4847,routine process,benign,routine process
+PROC-01489,2026-08-16T09:31:15Z,DEPLOY-01,ACME\svc_backup,explorer.exe,backup-agent.exe,10859,routine process,benign,routine process
+PROC-00395,2026-08-16T09:42:47Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,powershell.exe,4485,routine process,benign,routine process
+PROC-00292,2026-08-16T09:52:21Z,APP-API-02,ACME\svc_deploy,taskeng.exe,backup-agent.exe,4806,routine process,benign,routine process
+PROC-00275,2026-08-16T09:59:20Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,7422,routine process,benign,routine process
+PROC-00743,2026-08-16T10:08:19Z,FILE-02,ACME\svc_backup,services.exe,powershell.exe,12623,routine process,benign,routine process
+PROC-00880,2026-08-16T10:19:11Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,7212,routine process,benign,routine process
+PROC-00404,2026-08-16T10:20:22Z,JUMP-01,ACME\svc_backup,explorer.exe,w3wp.exe,10637,routine process,benign,routine process
+PROC-01068,2026-08-16T10:26:58Z,APP-API-02,ACME\svc_backup,explorer.exe,msiexec.exe,12072,routine process,benign,routine process
+PROC-00925,2026-08-16T10:27:52Z,APP-API-02,ACME\mrivera,taskeng.exe,backup-agent.exe,13474,routine process,benign,routine process
+PROC-01493,2026-08-16T10:45:50Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,5569,routine process,benign,routine process
+PROC-00949,2026-08-16T10:57:35Z,DEPLOY-01,ACME\jsmith,services.exe,backup-agent.exe,13299,routine process,benign,routine process
+PROC-00313,2026-08-16T11:01:03Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,powershell.exe,5109,routine process,benign,routine process
+PROC-00814,2026-08-16T11:04:12Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,11449,routine process,benign,routine process
+PROC-00204,2026-08-16T11:04:58Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,10703,routine process,benign,routine process
+PROC-01025,2026-08-16T11:07:47Z,APP-API-02,ACME\mrivera,services.exe,msiexec.exe,11035,routine process,benign,routine process
+PROC-00686,2026-08-16T11:15:07Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,10580,routine process,benign,routine process
+PROC-00912,2026-08-16T11:16:58Z,APP-API-02,ACME\svc_backup,explorer.exe,msiexec.exe,10415,routine process,benign,routine process
+PROC-01248,2026-08-16T11:21:30Z,DEPLOY-01,ACME\jsmith,explorer.exe,powershell.exe,4229,routine process,benign,routine process
+PROC-00198,2026-08-16T11:26:52Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,powershell.exe,10828,routine process,benign,routine process
+PROC-00890,2026-08-16T11:28:19Z,JUMP-01,ACME\svc_backup,taskeng.exe,msiexec.exe,10236,routine process,benign,routine process
+PROC-01181,2026-08-16T11:45:02Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,1711,routine process,benign,routine process
+PROC-00264,2026-08-16T11:46:10Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,7611,routine process,benign,routine process
+PROC-00756,2026-08-16T11:48:12Z,APP-API-02,ACME\mrivera,explorer.exe,w3wp.exe,2060,routine process,benign,routine process
+PROC-01034,2026-08-16T11:53:29Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,2367,routine process,benign,routine process
+PROC-00014,2026-08-16T11:55:10Z,DEPLOY-01,ACME\svc_backup,wsmprovhost.exe,powershell.exe,5241,routine process,benign,routine process
+PROC-00755,2026-08-16T11:55:29Z,DEPLOY-01,ACME\svc_backup,explorer.exe,w3wp.exe,7319,routine process,benign,routine process
+PROC-00012,2026-08-16T12:03:34Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,12895,routine process,benign,routine process
+PROC-01021,2026-08-16T12:03:49Z,APP-API-03,ACME\svc_deploy,services.exe,backup-agent.exe,14543,routine process,benign,routine process
+PROC-01454,2026-08-16T12:16:38Z,FILE-02,ACME\svc_backup,explorer.exe,powershell.exe,1391,routine process,benign,routine process
+PROC-00791,2026-08-16T12:22:45Z,JUMP-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,12397,routine process,benign,routine process
+PROC-01336,2026-08-16T12:32:56Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,10910,routine process,benign,routine process
+PROC-00162,2026-08-16T12:34:20Z,APP-API-03,ACME\svc_backup,explorer.exe,w3wp.exe,10063,routine process,benign,routine process
+PROC-00824,2026-08-16T12:36:45Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,1459,routine process,benign,routine process
+PROC-00228,2026-08-16T12:38:18Z,APP-API-03,ACME\svc_backup,taskeng.exe,powershell.exe,2694,routine process,benign,routine process
+PROC-00213,2026-08-16T12:43:48Z,DEPLOY-01,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,13995,routine process,benign,routine process
+PROC-00628,2026-08-16T12:45:22Z,APP-API-02,ACME\mrivera,services.exe,w3wp.exe,8103,routine process,benign,routine process
+PROC-01167,2026-08-16T12:46:49Z,JUMP-01,ACME\svc_backup,services.exe,backup-agent.exe,5661,routine process,benign,routine process
+PROC-00641,2026-08-16T12:48:27Z,FIN-WS-14,ACME\svc_deploy,services.exe,powershell.exe,5972,routine process,benign,routine process
+PROC-01188,2026-08-16T12:49:41Z,JUMP-01,ACME\mrivera,taskeng.exe,msiexec.exe,14855,routine process,benign,routine process
+PROC-00650,2026-08-16T13:05:49Z,APP-API-03,ACME\svc_deploy,explorer.exe,backup-agent.exe,8885,routine process,benign,routine process
+PROC-00759,2026-08-16T13:11:05Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,10677,routine process,benign,routine process
+PROC-01341,2026-08-16T13:17:29Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,6880,routine process,benign,routine process
+PROC-01413,2026-08-16T13:21:57Z,JUMP-01,ACME\mrivera,taskeng.exe,w3wp.exe,8950,routine process,benign,routine process
+PROC-00370,2026-08-16T13:22:48Z,APP-API-02,ACME\mrivera,explorer.exe,msiexec.exe,4309,routine process,benign,routine process
+PROC-00943,2026-08-16T13:22:51Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,2180,routine process,benign,routine process
+PROC-00698,2026-08-16T13:28:13Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,12986,routine process,benign,routine process
+PROC-00568,2026-08-16T13:38:27Z,FILE-02,ACME\jsmith,services.exe,msiexec.exe,7027,routine process,benign,routine process
+PROC-00051,2026-08-16T13:41:13Z,FIN-WS-14,ACME\jsmith,taskeng.exe,msiexec.exe,3066,routine process,benign,routine process
+PROC-00240,2026-08-16T13:41:45Z,APP-API-02,ACME\mrivera,services.exe,powershell.exe,1777,routine process,benign,routine process
+PROC-01061,2026-08-16T13:42:22Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,6619,routine process,benign,routine process
+PROC-00734,2026-08-16T13:55:27Z,APP-API-02,ACME\svc_backup,explorer.exe,backup-agent.exe,14677,routine process,benign,routine process
+PROC-00136,2026-08-16T13:58:20Z,FIN-WS-14,ACME\svc_backup,services.exe,backup-agent.exe,13221,routine process,benign,routine process
+PROC-01176,2026-08-16T14:10:12Z,JUMP-01,ACME\svc_deploy,explorer.exe,powershell.exe,2907,routine process,benign,routine process
+PROC-01060,2026-08-16T14:36:25Z,JUMP-01,ACME\svc_deploy,services.exe,msiexec.exe,10330,routine process,benign,routine process
+PROC-00126,2026-08-16T14:40:06Z,APP-API-03,ACME\jsmith,taskeng.exe,msiexec.exe,2600,routine process,benign,routine process
+PROC-01264,2026-08-16T15:03:48Z,FILE-02,ACME\mrivera,wsmprovhost.exe,powershell.exe,11322,routine process,benign,routine process
+PROC-00813,2026-08-16T15:07:59Z,JUMP-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,13770,routine process,benign,routine process
+PROC-00644,2026-08-16T15:13:58Z,FIN-WS-14,ACME\mrivera,explorer.exe,powershell.exe,8365,routine process,benign,routine process
+PROC-00053,2026-08-16T15:18:55Z,JUMP-01,ACME\mrivera,taskeng.exe,msiexec.exe,2919,routine process,benign,routine process
+PROC-00752,2026-08-16T15:21:10Z,APP-API-03,ACME\jsmith,explorer.exe,msiexec.exe,9595,routine process,benign,routine process
+PROC-01141,2026-08-16T15:23:42Z,FIN-WS-14,ACME\mrivera,explorer.exe,powershell.exe,4151,routine process,benign,routine process
+PROC-01033,2026-08-16T15:27:40Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,w3wp.exe,14309,routine process,benign,routine process
+PROC-01342,2026-08-16T15:34:57Z,FILE-02,ACME\mrivera,explorer.exe,backup-agent.exe,7457,routine process,benign,routine process
+PROC-01178,2026-08-16T15:39:22Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,10175,routine process,benign,routine process
+PROC-00433,2026-08-16T15:41:19Z,DEPLOY-01,ACME\jsmith,taskeng.exe,backup-agent.exe,6479,routine process,benign,routine process
+PROC-01461,2026-08-16T15:47:49Z,APP-API-03,ACME\mrivera,services.exe,powershell.exe,13770,routine process,benign,routine process
+PROC-01262,2026-08-16T15:59:33Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,13665,routine process,benign,routine process
+PROC-00998,2026-08-16T16:03:52Z,APP-API-03,ACME\svc_backup,services.exe,msiexec.exe,10360,routine process,benign,routine process
+PROC-00981,2026-08-16T16:10:41Z,APP-API-02,ACME\mrivera,services.exe,backup-agent.exe,10831,routine process,benign,routine process
+PROC-01451,2026-08-16T16:15:19Z,FIN-WS-14,ACME\svc_deploy,services.exe,backup-agent.exe,3219,routine process,benign,routine process
+PROC-01099,2026-08-16T16:27:49Z,APP-API-03,NT AUTHORITY\SYSTEM,services.exe,powershell.exe,2402,routine process,benign,routine process
+PROC-00362,2026-08-16T16:31:06Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,6195,routine process,benign,routine process
+PROC-00457,2026-08-16T16:31:39Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,w3wp.exe,11287,routine process,benign,routine process
+PROC-01154,2026-08-16T16:44:48Z,APP-API-03,ACME\mrivera,services.exe,powershell.exe,10696,routine process,benign,routine process
+PROC-00420,2026-08-16T16:47:19Z,FIN-WS-14,ACME\svc_deploy,services.exe,msiexec.exe,2732,routine process,benign,routine process
+PROC-00528,2026-08-16T16:47:37Z,FIN-WS-14,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,12763,routine process,benign,routine process
+PROC-00152,2026-08-16T16:48:18Z,JUMP-01,ACME\svc_backup,explorer.exe,backup-agent.exe,7071,routine process,benign,routine process
+PROC-00356,2026-08-16T16:55:22Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,5755,routine process,benign,routine process
+PROC-00977,2026-08-16T17:02:08Z,FILE-02,ACME\svc_backup,explorer.exe,backup-agent.exe,3788,routine process,benign,routine process
+PROC-01482,2026-08-16T17:06:51Z,APP-API-02,ACME\jsmith,wsmprovhost.exe,w3wp.exe,3226,routine process,benign,routine process
+PROC-00663,2026-08-16T17:17:32Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,11885,routine process,benign,routine process
+PROC-00842,2026-08-16T17:17:35Z,APP-API-02,ACME\mrivera,explorer.exe,msiexec.exe,2609,routine process,benign,routine process
+PROC-01388,2026-08-16T17:22:47Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,1119,routine process,benign,routine process
+PROC-00800,2026-08-16T17:28:03Z,APP-API-03,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,12844,routine process,benign,routine process
+PROC-01400,2026-08-16T17:33:52Z,FIN-WS-14,ACME\svc_backup,explorer.exe,backup-agent.exe,10528,routine process,benign,routine process
+PROC-01117,2026-08-16T17:39:21Z,APP-API-02,ACME\svc_backup,taskeng.exe,powershell.exe,11655,routine process,benign,routine process
+PROC-00087,2026-08-16T17:40:38Z,FIN-WS-14,ACME\mrivera,services.exe,backup-agent.exe,14037,routine process,benign,routine process
+PROC-00921,2026-08-16T17:41:55Z,APP-API-02,ACME\mrivera,explorer.exe,w3wp.exe,3713,routine process,benign,routine process
+PROC-00427,2026-08-16T17:43:20Z,DEPLOY-01,ACME\jsmith,taskeng.exe,msiexec.exe,2494,routine process,benign,routine process
+PROC-00233,2026-08-16T18:02:39Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,13690,routine process,benign,routine process
+PROC-00667,2026-08-16T18:10:33Z,FIN-WS-14,ACME\jsmith,taskeng.exe,msiexec.exe,12520,routine process,benign,routine process
+PROC-00178,2026-08-16T18:20:17Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,5893,routine process,benign,routine process
+PROC-00825,2026-08-16T18:23:37Z,FIN-WS-14,ACME\svc_backup,services.exe,powershell.exe,8855,routine process,benign,routine process
+PROC-01297,2026-08-16T18:26:30Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,12369,routine process,benign,routine process
+PROC-00029,2026-08-16T18:27:26Z,FILE-02,ACME\jsmith,wsmprovhost.exe,msiexec.exe,2365,routine process,benign,routine process
+PROC-00726,2026-08-16T18:33:05Z,FILE-02,ACME\svc_deploy,explorer.exe,backup-agent.exe,13254,routine process,benign,routine process
+PROC-01376,2026-08-16T18:40:20Z,JUMP-01,ACME\svc_deploy,explorer.exe,msiexec.exe,11072,routine process,benign,routine process
+PROC-00341,2026-08-16T18:43:40Z,APP-API-03,ACME\svc_backup,services.exe,w3wp.exe,3311,routine process,benign,routine process
+PROC-01389,2026-08-16T18:51:29Z,FILE-02,ACME\svc_deploy,explorer.exe,powershell.exe,3201,routine process,benign,routine process
+PROC-01164,2026-08-16T19:07:38Z,FILE-02,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,11998,routine process,benign,routine process
+PROC-01432,2026-08-16T19:17:25Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,14791,routine process,benign,routine process
+PROC-01087,2026-08-16T19:19:08Z,APP-API-03,ACME\mrivera,taskeng.exe,backup-agent.exe,6517,routine process,benign,routine process
+PROC-00965,2026-08-16T19:19:23Z,JUMP-01,ACME\svc_backup,explorer.exe,powershell.exe,4642,routine process,benign,routine process
+PROC-00585,2026-08-16T19:20:59Z,FIN-WS-14,ACME\mrivera,explorer.exe,w3wp.exe,11418,routine process,benign,routine process
+PROC-00314,2026-08-16T19:58:24Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,powershell.exe,13897,routine process,benign,routine process
+PROC-00655,2026-08-16T20:02:03Z,FIN-WS-14,NT AUTHORITY\SYSTEM,explorer.exe,powershell.exe,10404,routine process,benign,routine process
+PROC-01321,2026-08-16T20:04:29Z,JUMP-01,ACME\jsmith,services.exe,w3wp.exe,1561,routine process,benign,routine process
+PROC-00220,2026-08-16T20:04:32Z,APP-API-02,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,9764,routine process,benign,routine process
+PROC-00911,2026-08-16T20:30:40Z,FIN-WS-14,ACME\jsmith,services.exe,w3wp.exe,8545,routine process,benign,routine process
+PROC-01203,2026-08-16T20:34:52Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,msiexec.exe,7361,routine process,benign,routine process
+PROC-00023,2026-08-16T20:35:34Z,FIN-WS-14,ACME\svc_backup,services.exe,w3wp.exe,8230,routine process,benign,routine process
+PROC-01135,2026-08-16T20:36:31Z,FILE-02,ACME\mrivera,services.exe,backup-agent.exe,9008,routine process,benign,routine process
+PROC-00073,2026-08-16T20:39:22Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,w3wp.exe,13003,routine process,benign,routine process
+PROC-01337,2026-08-16T20:45:18Z,APP-API-03,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,9070,routine process,benign,routine process
+PROC-00218,2026-08-16T20:46:57Z,FIN-WS-14,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,13133,routine process,benign,routine process
+PROC-00024,2026-08-16T20:55:15Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,w3wp.exe,13957,routine process,benign,routine process
+PROC-00933,2026-08-16T20:57:55Z,JUMP-01,ACME\mrivera,services.exe,msiexec.exe,11953,routine process,benign,routine process
+PROC-01368,2026-08-16T21:00:56Z,APP-API-02,ACME\svc_deploy,explorer.exe,w3wp.exe,4350,routine process,benign,routine process
+PROC-00614,2026-08-16T21:01:07Z,FILE-02,ACME\jsmith,services.exe,backup-agent.exe,14051,routine process,benign,routine process
+PROC-00295,2026-08-16T21:01:33Z,DEPLOY-01,ACME\svc_backup,explorer.exe,w3wp.exe,5410,routine process,benign,routine process
+PROC-01378,2026-08-16T21:28:35Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,13248,routine process,benign,routine process
+PROC-00494,2026-08-16T21:29:27Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,11686,routine process,benign,routine process
+PROC-00310,2026-08-16T21:41:20Z,FILE-02,ACME\svc_deploy,taskeng.exe,w3wp.exe,12601,routine process,benign,routine process
+PROC-00990,2026-08-16T21:50:16Z,APP-API-03,ACME\svc_backup,services.exe,backup-agent.exe,3544,routine process,benign,routine process
+PROC-00597,2026-08-16T22:04:58Z,DEPLOY-01,ACME\jsmith,services.exe,backup-agent.exe,14198,routine process,benign,routine process
+PROC-00563,2026-08-16T22:06:50Z,APP-API-03,ACME\jsmith,services.exe,powershell.exe,12231,routine process,benign,routine process
+PROC-01202,2026-08-16T22:07:06Z,APP-API-02,ACME\mrivera,taskeng.exe,msiexec.exe,1117,routine process,benign,routine process
+PROC-00173,2026-08-16T22:12:04Z,APP-API-02,ACME\jsmith,services.exe,msiexec.exe,9061,routine process,benign,routine process
+PROC-00816,2026-08-16T22:27:00Z,JUMP-01,ACME\svc_deploy,taskeng.exe,w3wp.exe,12200,routine process,benign,routine process
+PROC-00739,2026-08-16T22:29:40Z,FILE-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,14486,routine process,benign,routine process
+PROC-00484,2026-08-16T22:43:18Z,JUMP-01,ACME\svc_backup,services.exe,backup-agent.exe,7425,routine process,benign,routine process
+PROC-00413,2026-08-16T22:45:53Z,DEPLOY-01,ACME\jsmith,explorer.exe,backup-agent.exe,1098,routine process,benign,routine process
+PROC-00944,2026-08-16T23:00:07Z,APP-API-02,ACME\mrivera,explorer.exe,powershell.exe,1876,routine process,benign,routine process
+PROC-01462,2026-08-16T23:09:11Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,5181,routine process,benign,routine process
+PROC-00286,2026-08-16T23:15:10Z,APP-API-02,ACME\mrivera,services.exe,powershell.exe,7476,routine process,benign,routine process
+PROC-00225,2026-08-16T23:31:20Z,FILE-02,ACME\svc_backup,taskeng.exe,msiexec.exe,3733,routine process,benign,routine process
+PROC-00671,2026-08-16T23:31:21Z,APP-API-03,ACME\svc_deploy,taskeng.exe,powershell.exe,13193,routine process,benign,routine process
+PROC-00076,2026-08-16T23:34:03Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,10602,routine process,benign,routine process
+PROC-01393,2026-08-16T23:43:29Z,FILE-02,ACME\svc_backup,explorer.exe,powershell.exe,7112,routine process,benign,routine process
+PROC-00439,2026-08-16T23:44:06Z,FIN-WS-14,ACME\svc_deploy,taskeng.exe,backup-agent.exe,3377,routine process,benign,routine process
+PROC-01071,2026-08-16T23:53:38Z,APP-API-03,ACME\svc_deploy,explorer.exe,backup-agent.exe,6585,routine process,benign,routine process
+PROC-00180,2026-08-16T23:55:53Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,backup-agent.exe,10353,routine process,benign,routine process
+PROC-00467,2026-08-17T00:01:44Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,2808,routine process,benign,routine process
+PROC-00462,2026-08-17T00:06:35Z,APP-API-03,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,13588,routine process,benign,routine process
+PROC-00586,2026-08-17T00:07:21Z,JUMP-01,ACME\mrivera,explorer.exe,backup-agent.exe,9424,routine process,benign,routine process
+PROC-00094,2026-08-17T00:08:56Z,APP-API-02,ACME\mrivera,taskeng.exe,w3wp.exe,10973,routine process,benign,routine process
+PROC-00164,2026-08-17T00:09:57Z,JUMP-01,ACME\svc_deploy,services.exe,w3wp.exe,1523,routine process,benign,routine process
+PROC-01447,2026-08-17T00:17:55Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,backup-agent.exe,6944,routine process,benign,routine process
+PROC-00438,2026-08-17T00:28:04Z,FILE-02,ACME\mrivera,explorer.exe,w3wp.exe,10516,routine process,benign,routine process
+PROC-01027,2026-08-17T00:34:47Z,APP-API-02,ACME\mrivera,services.exe,backup-agent.exe,6736,routine process,benign,routine process
+PROC-00004,2026-08-17T00:35:51Z,JUMP-01,ACME\jsmith,explorer.exe,w3wp.exe,5717,routine process,benign,routine process
+PROC-00422,2026-08-17T00:53:01Z,FILE-02,ACME\jsmith,wsmprovhost.exe,w3wp.exe,4933,routine process,benign,routine process
+PROC-01132,2026-08-17T00:53:06Z,DEPLOY-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,9017,routine process,benign,routine process
+PROC-01397,2026-08-17T01:05:21Z,DEPLOY-01,ACME\jsmith,explorer.exe,w3wp.exe,1318,routine process,benign,routine process
+PROC-00086,2026-08-17T01:07:01Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,9384,routine process,benign,routine process
+PROC-00883,2026-08-17T01:12:49Z,JUMP-01,ACME\svc_backup,taskeng.exe,backup-agent.exe,2728,routine process,benign,routine process
+PROC-00145,2026-08-17T01:24:24Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,11341,routine process,benign,routine process
+PROC-00207,2026-08-17T01:29:21Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,3596,routine process,benign,routine process
+PROC-00156,2026-08-17T01:30:59Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,1151,routine process,benign,routine process
+PROC-01090,2026-08-17T01:38:40Z,DEPLOY-01,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,1065,routine process,benign,routine process
+PROC-01086,2026-08-17T01:44:34Z,FIN-WS-14,ACME\jsmith,explorer.exe,backup-agent.exe,11216,routine process,benign,routine process
+PROC-01112,2026-08-17T01:47:27Z,APP-API-02,ACME\svc_backup,explorer.exe,w3wp.exe,7963,routine process,benign,routine process
+PROC-00210,2026-08-17T01:53:50Z,FILE-02,ACME\mrivera,services.exe,w3wp.exe,1544,routine process,benign,routine process
+PROC-01324,2026-08-17T01:56:04Z,DEPLOY-01,ACME\svc_backup,taskeng.exe,msiexec.exe,12726,routine process,benign,routine process
+PROC-00729,2026-08-17T02:04:06Z,APP-API-03,ACME\jsmith,taskeng.exe,powershell.exe,6860,routine process,benign,routine process
+PROC-01410,2026-08-17T02:36:10Z,JUMP-01,ACME\svc_deploy,services.exe,backup-agent.exe,4272,routine process,benign,routine process
+PROC-00384,2026-08-17T02:41:30Z,DEPLOY-01,ACME\svc_backup,explorer.exe,msiexec.exe,4394,routine process,benign,routine process
+PROC-00959,2026-08-17T02:46:17Z,APP-API-03,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,5178,routine process,benign,routine process
+PROC-00032,2026-08-17T02:53:12Z,JUMP-01,NT AUTHORITY\SYSTEM,services.exe,w3wp.exe,2402,routine process,benign,routine process
+PROC-01418,2026-08-17T03:01:10Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,1278,routine process,benign,routine process
+PROC-00353,2026-08-17T03:08:19Z,APP-API-03,ACME\jsmith,wsmprovhost.exe,powershell.exe,13877,routine process,benign,routine process
+PROC-01006,2026-08-17T03:08:40Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,w3wp.exe,2551,routine process,benign,routine process
+PROC-01312,2026-08-17T03:10:30Z,JUMP-01,ACME\mrivera,explorer.exe,w3wp.exe,2334,routine process,benign,routine process
+PROC-00057,2026-08-17T03:15:18Z,JUMP-01,ACME\mrivera,taskeng.exe,w3wp.exe,1770,routine process,benign,routine process
+PROC-00260,2026-08-17T03:27:18Z,DEPLOY-01,ACME\svc_backup,services.exe,powershell.exe,6896,routine process,benign,routine process
+PROC-01426,2026-08-17T03:36:50Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,8449,routine process,benign,routine process
+PROC-00658,2026-08-17T03:38:34Z,APP-API-03,ACME\jsmith,explorer.exe,powershell.exe,5934,routine process,benign,routine process
+PROC-00100,2026-08-17T03:39:23Z,FIN-WS-14,ACME\svc_deploy,services.exe,msiexec.exe,3299,routine process,benign,routine process
+PROC-00283,2026-08-17T03:49:33Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,2745,routine process,benign,routine process
+PROC-01240,2026-08-17T03:52:41Z,APP-API-03,ACME\jsmith,services.exe,backup-agent.exe,5768,routine process,benign,routine process
+PROC-00996,2026-08-17T03:53:39Z,DEPLOY-01,ACME\svc_backup,services.exe,backup-agent.exe,12587,routine process,benign,routine process
+PROC-00905,2026-08-17T04:06:07Z,APP-API-03,ACME\jsmith,services.exe,w3wp.exe,6703,routine process,benign,routine process
+PROC-01310,2026-08-17T04:06:44Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,msiexec.exe,10239,routine process,benign,routine process
+PROC-00325,2026-08-17T04:14:21Z,FIN-WS-14,ACME\jsmith,taskeng.exe,w3wp.exe,8733,routine process,benign,routine process
+PROC-00429,2026-08-17T04:22:33Z,FIN-WS-14,ACME\jsmith,taskeng.exe,msiexec.exe,11911,routine process,benign,routine process
+PROC-01083,2026-08-17T04:25:25Z,APP-API-02,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,3993,routine process,benign,routine process
+PROC-01469,2026-08-17T04:37:44Z,FILE-02,ACME\mrivera,taskeng.exe,w3wp.exe,11571,routine process,benign,routine process
+PROC-00486,2026-08-17T04:41:54Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,powershell.exe,12743,routine process,benign,routine process
+PROC-01088,2026-08-17T04:49:46Z,FILE-02,ACME\svc_backup,explorer.exe,msiexec.exe,3725,routine process,benign,routine process
+PROC-00111,2026-08-17T04:55:04Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,3457,routine process,benign,routine process
+PROC-01237,2026-08-17T05:07:55Z,JUMP-01,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,13354,routine process,benign,routine process
+PROC-00851,2026-08-17T05:16:14Z,JUMP-01,ACME\mrivera,taskeng.exe,powershell.exe,6742,routine process,benign,routine process
+PROC-00175,2026-08-17T05:17:58Z,FIN-WS-14,ACME\jsmith,taskeng.exe,w3wp.exe,1583,routine process,benign,routine process
+PROC-01016,2026-08-17T05:20:17Z,APP-API-03,ACME\mrivera,wsmprovhost.exe,w3wp.exe,11050,routine process,benign,routine process
+PROC-01338,2026-08-17T05:24:39Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,3190,routine process,benign,routine process
+PROC-01134,2026-08-17T05:27:09Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,w3wp.exe,4517,routine process,benign,routine process
+PROC-01281,2026-08-17T05:32:59Z,FIN-WS-14,ACME\jsmith,taskeng.exe,powershell.exe,10806,routine process,benign,routine process
+PROC-00022,2026-08-17T05:35:00Z,FIN-WS-14,ACME\mrivera,taskeng.exe,msiexec.exe,11042,routine process,benign,routine process
+PROC-01404,2026-08-17T05:36:23Z,APP-API-02,ACME\jsmith,explorer.exe,powershell.exe,2753,routine process,benign,routine process
+PROC-00471,2026-08-17T05:37:26Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,3461,routine process,benign,routine process
+PROC-01069,2026-08-17T05:38:14Z,JUMP-01,ACME\jsmith,explorer.exe,msiexec.exe,4936,routine process,benign,routine process
+PROC-01423,2026-08-17T05:39:09Z,FIN-WS-14,NT AUTHORITY\SYSTEM,wsmprovhost.exe,msiexec.exe,3342,routine process,benign,routine process
+PROC-00065,2026-08-17T05:50:13Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,powershell.exe,11710,routine process,benign,routine process
+PROC-01056,2026-08-17T05:54:02Z,JUMP-01,ACME\svc_deploy,explorer.exe,powershell.exe,4721,routine process,benign,routine process
+PROC-01001,2026-08-17T05:54:20Z,JUMP-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,5307,routine process,benign,routine process
+PROC-01375,2026-08-17T06:05:50Z,JUMP-01,ACME\mrivera,taskeng.exe,backup-agent.exe,6561,routine process,benign,routine process
+PROC-01289,2026-08-17T06:20:51Z,FIN-WS-14,ACME\svc_deploy,explorer.exe,w3wp.exe,10512,routine process,benign,routine process
+PROC-00795,2026-08-17T06:21:27Z,DEPLOY-01,ACME\mrivera,explorer.exe,msiexec.exe,14136,routine process,benign,routine process
+PROC-01270,2026-08-17T06:23:32Z,JUMP-01,ACME\mrivera,services.exe,msiexec.exe,13534,routine process,benign,routine process
+PROC-01256,2026-08-17T06:25:21Z,DEPLOY-01,ACME\mrivera,taskeng.exe,msiexec.exe,10937,routine process,benign,routine process
+PROC-00796,2026-08-17T06:36:38Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,backup-agent.exe,4479,routine process,benign,routine process
+PROC-00021,2026-08-17T06:49:47Z,DEPLOY-01,ACME\svc_deploy,taskeng.exe,powershell.exe,12681,routine process,benign,routine process
+PROC-01263,2026-08-17T06:50:13Z,FIN-WS-14,ACME\svc_backup,services.exe,backup-agent.exe,9287,routine process,benign,routine process
+PROC-00149,2026-08-17T06:53:49Z,DEPLOY-01,ACME\jsmith,explorer.exe,msiexec.exe,10956,routine process,benign,routine process
+PROC-01110,2026-08-17T06:57:42Z,JUMP-01,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,13335,routine process,benign,routine process
+PROC-00673,2026-08-17T06:59:45Z,JUMP-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,2363,routine process,benign,routine process
+PROC-01439,2026-08-17T07:09:01Z,JUMP-01,ACME\svc_backup,wsmprovhost.exe,backup-agent.exe,14069,routine process,benign,routine process
+PROC-00638,2026-08-17T07:24:14Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,powershell.exe,1579,routine process,benign,routine process
+PROC-00083,2026-08-17T07:30:30Z,APP-API-03,ACME\mrivera,taskeng.exe,powershell.exe,12504,routine process,benign,routine process
+PROC-00062,2026-08-17T07:33:41Z,FILE-02,ACME\mrivera,explorer.exe,backup-agent.exe,8271,routine process,benign,routine process
+PROC-00085,2026-08-17T07:33:49Z,APP-API-03,ACME\svc_deploy,taskeng.exe,powershell.exe,7351,routine process,benign,routine process
+PROC-01327,2026-08-17T07:46:06Z,DEPLOY-01,ACME\svc_backup,explorer.exe,powershell.exe,6069,routine process,benign,routine process
+PROC-01296,2026-08-17T07:58:02Z,FILE-02,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,14583,routine process,benign,routine process
+PROC-00346,2026-08-17T08:10:39Z,JUMP-01,ACME\svc_deploy,explorer.exe,msiexec.exe,11143,routine process,benign,routine process
+PROC-01200,2026-08-17T08:14:28Z,APP-API-03,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,7672,routine process,benign,routine process
+PROC-00974,2026-08-17T08:17:15Z,DEPLOY-01,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,9891,routine process,benign,routine process
+PROC-00632,2026-08-17T08:24:17Z,FILE-02,ACME\svc_backup,explorer.exe,powershell.exe,4635,routine process,benign,routine process
+PROC-00355,2026-08-17T08:28:11Z,JUMP-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,powershell.exe,2156,routine process,benign,routine process
+PROC-01386,2026-08-17T08:29:03Z,DEPLOY-01,NT AUTHORITY\SYSTEM,explorer.exe,backup-agent.exe,12580,routine process,benign,routine process
+PROC-00938,2026-08-17T08:47:45Z,FIN-WS-14,NT AUTHORITY\SYSTEM,services.exe,backup-agent.exe,1596,routine process,benign,routine process
+PROC-00045,2026-08-17T08:54:10Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,backup-agent.exe,12059,routine process,benign,routine process
+PROC-01089,2026-08-17T08:55:40Z,FILE-02,ACME\svc_deploy,wsmprovhost.exe,powershell.exe,11551,routine process,benign,routine process
+PROC-00952,2026-08-17T09:06:19Z,APP-API-03,ACME\mrivera,services.exe,powershell.exe,6018,routine process,benign,routine process
+PROC-01470,2026-08-17T09:09:36Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,9006,routine process,benign,routine process
+PROC-01279,2026-08-17T09:11:22Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,w3wp.exe,8267,routine process,benign,routine process
+PROC-01422,2026-08-17T09:13:39Z,APP-API-02,ACME\mrivera,taskeng.exe,w3wp.exe,2412,routine process,benign,routine process
+PROC-00121,2026-08-17T09:18:47Z,FILE-02,NT AUTHORITY\SYSTEM,taskeng.exe,msiexec.exe,8428,routine process,benign,routine process
+PROC-01216,2026-08-17T09:19:59Z,APP-API-02,ACME\svc_backup,services.exe,msiexec.exe,3185,routine process,benign,routine process
+PROC-00265,2026-08-17T09:32:49Z,FIN-WS-14,ACME\svc_backup,wsmprovhost.exe,powershell.exe,12826,routine process,benign,routine process
+PROC-00690,2026-08-17T09:36:01Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,w3wp.exe,14674,routine process,benign,routine process
+PROC-01292,2026-08-17T09:41:08Z,JUMP-01,ACME\svc_deploy,taskeng.exe,msiexec.exe,7412,routine process,benign,routine process
+PROC-01322,2026-08-17T09:47:49Z,JUMP-01,ACME\mrivera,wsmprovhost.exe,backup-agent.exe,13644,routine process,benign,routine process
+PROC-01291,2026-08-17T09:49:22Z,FILE-02,ACME\jsmith,wsmprovhost.exe,powershell.exe,9747,routine process,benign,routine process
+PROC-01394,2026-08-17T09:54:36Z,FIN-WS-14,ACME\svc_backup,taskeng.exe,w3wp.exe,2176,routine process,benign,routine process
+PROC-00836,2026-08-17T09:57:53Z,JUMP-01,ACME\mrivera,wsmprovhost.exe,powershell.exe,10628,routine process,benign,routine process
+PROC-00774,2026-08-17T10:03:10Z,JUMP-01,ACME\svc_backup,taskeng.exe,msiexec.exe,10772,routine process,benign,routine process
+PROC-01149,2026-08-17T10:07:02Z,DEPLOY-01,ACME\mrivera,wsmprovhost.exe,powershell.exe,13194,routine process,benign,routine process
+PROC-00103,2026-08-17T10:08:36Z,DEPLOY-01,ACME\jsmith,explorer.exe,backup-agent.exe,11548,routine process,benign,routine process
+PROC-00371,2026-08-17T10:13:18Z,APP-API-03,ACME\svc_deploy,taskeng.exe,msiexec.exe,13985,routine process,benign,routine process
+PROC-00183,2026-08-17T10:16:07Z,FIN-WS-14,ACME\svc_deploy,wsmprovhost.exe,msiexec.exe,7710,routine process,benign,routine process
+PROC-00622,2026-08-17T10:18:29Z,JUMP-01,ACME\jsmith,wsmprovhost.exe,msiexec.exe,7798,routine process,benign,routine process
+PROC-00592,2026-08-17T10:25:35Z,JUMP-01,NT AUTHORITY\SYSTEM,wsmprovhost.exe,w3wp.exe,2407,routine process,benign,routine process
+PROC-01230,2026-08-17T10:27:17Z,APP-API-02,NT AUTHORITY\SYSTEM,explorer.exe,msiexec.exe,6614,routine process,benign,routine process
+PROC-00122,2026-08-17T10:31:45Z,APP-API-02,NT AUTHORITY\SYSTEM,services.exe,msiexec.exe,6956,routine process,benign,routine process
+PROC-01300,2026-08-17T10:38:35Z,APP-API-02,NT AUTHORITY\SYSTEM,taskeng.exe,w3wp.exe,1108,routine process,benign,routine process
+PROC-01488,2026-08-17T10:44:46Z,APP-API-03,ACME\svc_backup,explorer.exe,backup-agent.exe,2205,routine process,benign,routine process
+PROC-00189,2026-08-17T10:53:50Z,JUMP-01,ACME\mrivera,explorer.exe,msiexec.exe,6577,routine process,benign,routine process
+PROC-01350,2026-08-17T11:01:30Z,FILE-02,ACME\svc_deploy,explorer.exe,powershell.exe,2571,routine process,benign,routine process
+PROC-01395,2026-08-17T11:03:55Z,APP-API-02,NT AUTHORITY\SYSTEM,wsmprovhost.exe,backup-agent.exe,8997,routine process,benign,routine process
+PROC-01330,2026-08-17T11:11:00Z,JUMP-01,ACME\mrivera,wsmprovhost.exe,msiexec.exe,1713,routine process,benign,routine process
+PROC-01346,2026-08-17T11:16:29Z,FIN-WS-14,ACME\mrivera,services.exe,powershell.exe,2291,routine process,benign,routine process
+PROC-00833,2026-08-17T11:35:05Z,DEPLOY-01,ACME\svc_backup,wsmprovhost.exe,w3wp.exe,12444,routine process,benign,routine process
+PROC-00481,2026-08-17T11:36:40Z,FILE-02,ACME\jsmith,taskeng.exe,powershell.exe,1448,routine process,benign,routine process
+PROC-00948,2026-08-17T11:44:41Z,APP-API-03,ACME\svc_backup,explorer.exe,powershell.exe,1143,routine process,benign,routine process
+PROC-00123,2026-08-17T12:15:16Z,APP-API-02,ACME\jsmith,taskeng.exe,msiexec.exe,13092,routine process,benign,routine process
+PROC-00642,2026-08-17T12:15:25Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,powershell.exe,3189,routine process,benign,routine process
+PROC-00967,2026-08-17T12:19:05Z,APP-API-02,ACME\svc_backup,taskeng.exe,w3wp.exe,3673,routine process,benign,routine process
+PROC-01155,2026-08-17T12:29:08Z,DEPLOY-01,ACME\svc_deploy,explorer.exe,msiexec.exe,11837,routine process,benign,routine process
+PROC-01282,2026-08-17T12:31:19Z,FILE-02,ACME\svc_backup,explorer.exe,backup-agent.exe,14449,routine process,benign,routine process
+PROC-00428,2026-08-17T12:42:28Z,APP-API-02,ACME\mrivera,wsmprovhost.exe,w3wp.exe,3660,routine process,benign,routine process
+PROC-00434,2026-08-17T12:42:49Z,FILE-02,ACME\jsmith,explorer.exe,powershell.exe,10554,routine process,benign,routine process
+PROC-01429,2026-08-17T12:43:36Z,FIN-WS-14,ACME\mrivera,services.exe,w3wp.exe,6384,routine process,benign,routine process
+PROC-00550,2026-08-17T12:45:52Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,w3wp.exe,7861,routine process,benign,routine process
+PROC-00695,2026-08-17T12:54:23Z,FIN-WS-14,ACME\jsmith,wsmprovhost.exe,backup-agent.exe,9587,routine process,benign,routine process
+PROC-00804,2026-08-17T12:56:22Z,FILE-02,ACME\svc_deploy,explorer.exe,msiexec.exe,5178,routine process,benign,routine process

@@ -1,0 +1,1501 @@
+event_id,_time,src_host,dest_host,user,protocol,result,source_ip,classification,note
+AUTH-00557,2026-08-11T13:01:59Z,APP-API-03,FILE-02,ACME\mrivera,RDP,success,10.50.36.47,benign,routine authentication
+AUTH-00830,2026-08-11T13:06:19Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.26.162,benign,routine authentication
+AUTH-00277,2026-08-11T13:08:02Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,success,10.50.32.187,benign,routine authentication
+AUTH-01375,2026-08-11T13:28:31Z,APP-API-02,JUMP-01,ACME\mrivera,NTLM,success,10.50.13.3,benign,routine authentication
+AUTH-00157,2026-08-11T13:35:42Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.18.47,benign,routine authentication
+AUTH-00808,2026-08-11T13:40:08Z,APP-API-02,FILE-02,ACME\svc_deploy,WinRM,success,10.50.18.237,benign,routine authentication
+AUTH-00147,2026-08-11T13:45:29Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.23.98,benign,routine authentication
+AUTH-00858,2026-08-11T13:55:39Z,APP-API-02,FIN-WS-14,ACME\mrivera,NTLM,success,10.50.22.35,benign,routine authentication
+AUTH-01193,2026-08-11T14:04:20Z,APP-API-03,FILE-02,ACME\svc_deploy,NTLM,success,10.50.23.75,benign,routine authentication
+AUTH-00697,2026-08-11T14:06:08Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,WinRM,success,10.50.9.26,benign,routine authentication
+AUTH-01380,2026-08-11T14:12:20Z,FIN-WS-14,APP-API-03,ACME\jsmith,NTLM,success,10.50.13.236,benign,routine authentication
+AUTH-01423,2026-08-11T14:13:37Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,RDP,success,10.50.21.33,benign,routine authentication
+AUTH-01140,2026-08-11T14:21:45Z,DEPLOY-01,JUMP-01,ACME\jsmith,NTLM,success,10.50.34.27,benign,routine authentication
+AUTH-00210,2026-08-11T14:36:40Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,Kerberos,failure,10.50.13.153,benign,routine authentication
+AUTH-01152,2026-08-11T14:47:14Z,FILE-02,APP-API-02,ACME\svc_deploy,RDP,failure,10.50.40.97,benign,routine authentication
+AUTH-00339,2026-08-11T15:06:20Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.38.72,benign,routine authentication
+AUTH-01467,2026-08-11T15:22:04Z,FILE-02,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.37.24,benign,routine authentication
+AUTH-INC-001,2026-08-11T15:23:00Z,FIN-WS-14,APP-API-02,ACME\mrivera,WinRM,failure,10.50.20.14,scope,failed movement attempt
+AUTH-INC-002,2026-08-11T15:23:18Z,FIN-WS-14,APP-API-03,ACME\mrivera,WinRM,failure,10.50.20.14,scope,second failed movement attempt
+AUTH-00558,2026-08-11T15:24:10Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,Kerberos,failure,10.50.1.43,benign,routine authentication
+AUTH-00819,2026-08-11T15:24:28Z,FIN-WS-14,JUMP-01,ACME\svc_backup,NTLM,success,10.50.22.82,benign,routine authentication
+AUTH-CTX-001,2026-08-11T15:25:00Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,WinRM,success,10.50.10.25,benign,approved deployment
+AUTH-01131,2026-08-11T15:30:32Z,DEPLOY-01,APP-API-03,ACME\mrivera,RDP,success,10.50.37.152,benign,routine authentication
+AUTH-00915,2026-08-11T15:33:25Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.1.62,benign,routine authentication
+AUTH-RESP-001,2026-08-11T15:35:00Z,JUMP-01,APP-API-02,ACME\jsmith,RDP,success,10.50.10.8,response,authorized responder validation
+AUTH-01334,2026-08-11T15:35:09Z,DEPLOY-01,DEPLOY-01,ACME\svc_backup,NTLM,success,10.50.41.49,benign,routine authentication
+AUTH-00170,2026-08-11T15:37:16Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.6.218,benign,routine authentication
+AUTH-00451,2026-08-11T15:45:27Z,JUMP-01,APP-API-02,ACME\svc_deploy,RDP,success,10.50.16.169,benign,routine authentication
+AUTH-01179,2026-08-11T15:45:28Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,success,10.50.19.183,benign,routine authentication
+AUTH-01432,2026-08-11T15:51:51Z,JUMP-01,APP-API-02,ACME\svc_backup,WinRM,success,10.50.11.209,benign,routine authentication
+AUTH-01185,2026-08-11T15:53:35Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,RDP,failure,10.50.48.222,benign,routine authentication
+AUTH-01333,2026-08-11T15:54:03Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.5.129,benign,routine authentication
+AUTH-00208,2026-08-11T16:09:48Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.34.2,benign,routine authentication
+AUTH-01340,2026-08-11T16:11:38Z,JUMP-01,JUMP-01,ACME\jsmith,Kerberos,success,10.50.7.240,benign,routine authentication
+AUTH-00950,2026-08-11T16:24:46Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.26.218,benign,routine authentication
+AUTH-01429,2026-08-11T16:27:18Z,FILE-02,FILE-02,ACME\mrivera,WinRM,failure,10.50.14.126,benign,routine authentication
+AUTH-00710,2026-08-11T16:47:50Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,Kerberos,success,10.50.26.115,benign,routine authentication
+AUTH-00576,2026-08-11T16:50:09Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.5.147,benign,routine authentication
+AUTH-00653,2026-08-11T16:54:56Z,JUMP-01,APP-API-03,ACME\mrivera,Kerberos,success,10.50.30.221,benign,routine authentication
+AUTH-01040,2026-08-11T17:04:59Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.49.177,benign,routine authentication
+AUTH-00786,2026-08-11T17:05:58Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.16.49,benign,routine authentication
+AUTH-01397,2026-08-11T17:13:57Z,JUMP-01,APP-API-03,ACME\svc_deploy,RDP,failure,10.50.31.12,benign,routine authentication
+AUTH-01338,2026-08-11T17:16:57Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,10.50.23.33,benign,routine authentication
+AUTH-00573,2026-08-11T17:22:53Z,JUMP-01,FILE-02,ACME\svc_deploy,RDP,success,10.50.24.179,benign,routine authentication
+AUTH-00751,2026-08-11T17:32:05Z,JUMP-01,JUMP-01,ACME\jsmith,WinRM,success,10.50.30.85,benign,routine authentication
+AUTH-00187,2026-08-11T17:34:19Z,APP-API-03,APP-API-03,ACME\svc_backup,WinRM,success,10.50.19.79,benign,routine authentication
+AUTH-00814,2026-08-11T17:51:44Z,JUMP-01,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.9.44,benign,routine authentication
+AUTH-00668,2026-08-11T18:05:28Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.44.149,benign,routine authentication
+AUTH-00981,2026-08-11T18:06:17Z,FILE-02,APP-API-03,ACME\jsmith,RDP,success,10.50.17.28,benign,routine authentication
+AUTH-00242,2026-08-11T18:08:19Z,APP-API-03,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.25.41,benign,routine authentication
+AUTH-00672,2026-08-11T18:10:40Z,FILE-02,APP-API-03,ACME\svc_backup,RDP,success,10.50.17.174,benign,routine authentication
+AUTH-01105,2026-08-11T18:15:55Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.12.100,benign,routine authentication
+AUTH-01349,2026-08-11T18:20:37Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,NTLM,success,10.50.23.58,benign,routine authentication
+AUTH-01161,2026-08-11T18:23:09Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.39.141,benign,routine authentication
+AUTH-01246,2026-08-11T18:31:18Z,JUMP-01,APP-API-03,ACME\svc_backup,NTLM,failure,10.50.1.145,benign,routine authentication
+AUTH-01319,2026-08-11T18:42:08Z,APP-API-02,JUMP-01,ACME\jsmith,RDP,success,10.50.11.87,benign,routine authentication
+AUTH-01111,2026-08-11T18:46:08Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,success,10.50.45.124,benign,routine authentication
+AUTH-00079,2026-08-11T19:03:37Z,FILE-02,FILE-02,ACME\mrivera,RDP,failure,10.50.43.72,benign,routine authentication
+AUTH-01177,2026-08-11T19:12:09Z,JUMP-01,FILE-02,ACME\svc_deploy,WinRM,success,10.50.39.98,benign,routine authentication
+AUTH-00734,2026-08-11T19:16:42Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.12.88,benign,routine authentication
+AUTH-00051,2026-08-11T19:19:07Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.22.196,benign,routine authentication
+AUTH-00121,2026-08-11T19:20:19Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,Kerberos,failure,10.50.47.221,benign,routine authentication
+AUTH-00469,2026-08-11T19:20:54Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,WinRM,success,10.50.15.21,benign,routine authentication
+AUTH-00996,2026-08-11T19:24:45Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,10.50.20.133,benign,routine authentication
+AUTH-01005,2026-08-11T19:27:56Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,success,10.50.4.194,benign,routine authentication
+AUTH-01172,2026-08-11T19:29:02Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.33.125,benign,routine authentication
+AUTH-00003,2026-08-11T19:30:54Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.19.2,benign,routine authentication
+AUTH-01133,2026-08-11T19:41:44Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.7.116,benign,routine authentication
+AUTH-00622,2026-08-11T19:47:32Z,DEPLOY-01,APP-API-03,ACME\svc_backup,WinRM,failure,10.50.30.75,benign,routine authentication
+AUTH-00226,2026-08-11T19:49:43Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.12.14,benign,routine authentication
+AUTH-00809,2026-08-11T19:53:37Z,JUMP-01,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.35.172,benign,routine authentication
+AUTH-00322,2026-08-11T20:10:12Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.29.8,benign,routine authentication
+AUTH-00733,2026-08-11T20:14:01Z,APP-API-03,FIN-WS-14,ACME\mrivera,WinRM,success,10.50.1.78,benign,routine authentication
+AUTH-00153,2026-08-11T20:19:13Z,JUMP-01,DEPLOY-01,ACME\svc_backup,NTLM,failure,10.50.6.211,benign,routine authentication
+AUTH-00537,2026-08-11T20:23:12Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.2.96,benign,routine authentication
+AUTH-00448,2026-08-11T20:26:02Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.26.52,benign,routine authentication
+AUTH-00439,2026-08-11T20:26:06Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,success,10.50.49.94,benign,routine authentication
+AUTH-00075,2026-08-11T20:26:16Z,JUMP-01,JUMP-01,ACME\svc_deploy,WinRM,success,10.50.15.145,benign,routine authentication
+AUTH-01150,2026-08-11T20:27:14Z,APP-API-02,APP-API-03,ACME\mrivera,RDP,success,10.50.14.187,benign,routine authentication
+AUTH-01130,2026-08-11T20:27:38Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.8.82,benign,routine authentication
+AUTH-00694,2026-08-11T20:29:01Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.3.14,benign,routine authentication
+AUTH-00071,2026-08-11T20:39:02Z,APP-API-02,FILE-02,ACME\svc_backup,WinRM,success,10.50.19.9,benign,routine authentication
+AUTH-01438,2026-08-11T20:41:24Z,JUMP-01,JUMP-01,ACME\jsmith,NTLM,success,10.50.1.113,benign,routine authentication
+AUTH-01011,2026-08-11T20:48:34Z,DEPLOY-01,APP-API-02,ACME\jsmith,NTLM,success,10.50.4.80,benign,routine authentication
+AUTH-01156,2026-08-11T20:49:15Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.9.192,benign,routine authentication
+AUTH-00903,2026-08-11T20:52:58Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,Kerberos,failure,10.50.40.98,benign,routine authentication
+AUTH-00250,2026-08-11T20:53:04Z,FILE-02,FIN-WS-14,ACME\mrivera,NTLM,success,10.50.49.111,benign,routine authentication
+AUTH-01137,2026-08-11T20:54:33Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.34.109,benign,routine authentication
+AUTH-01123,2026-08-11T20:56:54Z,APP-API-02,JUMP-01,ACME\svc_deploy,RDP,success,10.50.18.179,benign,routine authentication
+AUTH-00663,2026-08-11T20:59:43Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.20.111,benign,routine authentication
+AUTH-01400,2026-08-11T21:01:51Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.19.87,benign,routine authentication
+AUTH-00536,2026-08-11T21:03:05Z,APP-API-02,FIN-WS-14,ACME\mrivera,RDP,success,10.50.33.37,benign,routine authentication
+AUTH-00871,2026-08-11T21:11:39Z,JUMP-01,APP-API-02,ACME\jsmith,NTLM,success,10.50.12.176,benign,routine authentication
+AUTH-01483,2026-08-11T21:22:23Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.48.161,benign,routine authentication
+AUTH-01023,2026-08-11T21:24:56Z,FILE-02,FIN-WS-14,ACME\mrivera,NTLM,success,10.50.1.127,benign,routine authentication
+AUTH-01249,2026-08-11T21:28:56Z,APP-API-03,APP-API-02,ACME\svc_backup,WinRM,success,10.50.31.133,benign,routine authentication
+AUTH-01237,2026-08-11T21:32:32Z,APP-API-02,APP-API-02,ACME\jsmith,WinRM,success,10.50.19.77,benign,routine authentication
+AUTH-00375,2026-08-11T21:34:31Z,FILE-02,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.27.212,benign,routine authentication
+AUTH-00852,2026-08-11T21:42:01Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.6.197,benign,routine authentication
+AUTH-00912,2026-08-11T21:42:01Z,APP-API-02,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.8.238,benign,routine authentication
+AUTH-01143,2026-08-11T21:52:09Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.36.224,benign,routine authentication
+AUTH-00283,2026-08-11T21:55:44Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.7.216,benign,routine authentication
+AUTH-00789,2026-08-11T22:07:26Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,NTLM,failure,10.50.8.46,benign,routine authentication
+AUTH-00523,2026-08-11T22:15:07Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.49.145,benign,routine authentication
+AUTH-01017,2026-08-11T22:16:27Z,FIN-WS-14,FILE-02,ACME\mrivera,NTLM,success,10.50.3.29,benign,routine authentication
+AUTH-00848,2026-08-11T22:18:22Z,JUMP-01,APP-API-02,ACME\jsmith,WinRM,success,10.50.17.176,benign,routine authentication
+AUTH-00948,2026-08-11T22:32:50Z,APP-API-03,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.1.105,benign,routine authentication
+AUTH-00194,2026-08-11T22:42:40Z,FIN-WS-14,FILE-02,ACME\svc_deploy,WinRM,success,10.50.21.130,benign,routine authentication
+AUTH-00286,2026-08-11T22:50:04Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.14.95,benign,routine authentication
+AUTH-01343,2026-08-11T22:52:30Z,APP-API-03,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.31.90,benign,routine authentication
+AUTH-00732,2026-08-11T22:57:31Z,JUMP-01,JUMP-01,ACME\svc_deploy,Kerberos,failure,10.50.39.143,benign,routine authentication
+AUTH-01280,2026-08-11T23:04:59Z,APP-API-03,JUMP-01,ACME\svc_deploy,RDP,failure,10.50.40.53,benign,routine authentication
+AUTH-00782,2026-08-11T23:11:21Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,RDP,failure,10.50.18.102,benign,routine authentication
+AUTH-00692,2026-08-11T23:13:45Z,FILE-02,JUMP-01,ACME\svc_deploy,NTLM,success,10.50.37.92,benign,routine authentication
+AUTH-00463,2026-08-11T23:20:56Z,FILE-02,FILE-02,ACME\svc_deploy,RDP,success,10.50.27.36,benign,routine authentication
+AUTH-01391,2026-08-11T23:22:09Z,DEPLOY-01,JUMP-01,ACME\jsmith,RDP,success,10.50.6.153,benign,routine authentication
+AUTH-00269,2026-08-11T23:49:01Z,APP-API-03,JUMP-01,ACME\mrivera,WinRM,failure,10.50.7.164,benign,routine authentication
+AUTH-00409,2026-08-12T00:09:41Z,APP-API-02,DEPLOY-01,ACME\svc_backup,WinRM,success,10.50.30.196,benign,routine authentication
+AUTH-00271,2026-08-12T00:12:13Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,success,10.50.37.60,benign,routine authentication
+AUTH-00779,2026-08-12T00:13:03Z,APP-API-02,APP-API-03,ACME\svc_backup,RDP,failure,10.50.6.165,benign,routine authentication
+AUTH-00232,2026-08-12T00:15:36Z,APP-API-03,DEPLOY-01,ACME\svc_backup,WinRM,success,10.50.29.54,benign,routine authentication
+AUTH-01283,2026-08-12T00:15:42Z,DEPLOY-01,APP-API-02,ACME\mrivera,NTLM,failure,10.50.17.90,benign,routine authentication
+AUTH-00030,2026-08-12T00:16:53Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.20.55,benign,routine authentication
+AUTH-00527,2026-08-12T00:25:33Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,WinRM,success,10.50.42.48,benign,routine authentication
+AUTH-01119,2026-08-12T00:28:29Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.18.7,benign,routine authentication
+AUTH-00236,2026-08-12T00:39:50Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,RDP,success,10.50.19.164,benign,routine authentication
+AUTH-00462,2026-08-12T00:39:57Z,FILE-02,APP-API-03,ACME\jsmith,RDP,failure,10.50.46.135,benign,routine authentication
+AUTH-00041,2026-08-12T01:04:12Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,10.50.39.44,benign,routine authentication
+AUTH-00568,2026-08-12T01:11:41Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.47.89,benign,routine authentication
+AUTH-00552,2026-08-12T01:12:36Z,DEPLOY-01,APP-API-03,ACME\svc_backup,NTLM,success,10.50.38.174,benign,routine authentication
+AUTH-00509,2026-08-12T01:14:41Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.37.197,benign,routine authentication
+AUTH-01149,2026-08-12T01:15:59Z,FILE-02,APP-API-02,ACME\jsmith,Kerberos,success,10.50.48.83,benign,routine authentication
+AUTH-00177,2026-08-12T01:27:31Z,DEPLOY-01,APP-API-02,ACME\svc_backup,WinRM,success,10.50.46.20,benign,routine authentication
+AUTH-00009,2026-08-12T01:41:54Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,success,10.50.17.43,benign,routine authentication
+AUTH-01383,2026-08-12T01:42:05Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,success,10.50.7.65,benign,routine authentication
+AUTH-01465,2026-08-12T01:49:32Z,APP-API-03,DEPLOY-01,ACME\svc_backup,NTLM,success,10.50.7.49,benign,routine authentication
+AUTH-00851,2026-08-12T01:51:03Z,JUMP-01,APP-API-02,ACME\jsmith,RDP,success,10.50.42.224,benign,routine authentication
+AUTH-01234,2026-08-12T01:51:47Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.43.168,benign,routine authentication
+AUTH-00515,2026-08-12T01:53:26Z,JUMP-01,APP-API-02,ACME\svc_backup,RDP,success,10.50.13.179,benign,routine authentication
+AUTH-00517,2026-08-12T02:06:11Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.16.201,benign,routine authentication
+AUTH-01035,2026-08-12T02:06:26Z,JUMP-01,JUMP-01,ACME\svc_backup,NTLM,success,10.50.38.228,benign,routine authentication
+AUTH-01449,2026-08-12T02:15:07Z,JUMP-01,APP-API-02,ACME\jsmith,Kerberos,success,10.50.37.125,benign,routine authentication
+AUTH-00209,2026-08-12T02:22:52Z,APP-API-03,FIN-WS-14,ACME\mrivera,Kerberos,failure,10.50.28.152,benign,routine authentication
+AUTH-00800,2026-08-12T02:26:06Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.4.72,benign,routine authentication
+AUTH-01403,2026-08-12T02:27:21Z,APP-API-02,APP-API-02,ACME\jsmith,Kerberos,failure,10.50.3.192,benign,routine authentication
+AUTH-01027,2026-08-12T02:29:58Z,JUMP-01,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.16.61,benign,routine authentication
+AUTH-01145,2026-08-12T02:30:24Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.26.189,benign,routine authentication
+AUTH-00980,2026-08-12T02:32:01Z,APP-API-02,DEPLOY-01,ACME\svc_backup,NTLM,success,10.50.3.235,benign,routine authentication
+AUTH-00835,2026-08-12T02:34:31Z,APP-API-02,JUMP-01,ACME\svc_backup,WinRM,failure,10.50.31.67,benign,routine authentication
+AUTH-01127,2026-08-12T02:38:18Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.44.101,benign,routine authentication
+AUTH-00067,2026-08-12T02:59:06Z,JUMP-01,APP-API-03,ACME\mrivera,NTLM,success,10.50.18.8,benign,routine authentication
+AUTH-00529,2026-08-12T02:59:56Z,APP-API-02,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.44.113,benign,routine authentication
+AUTH-00565,2026-08-12T03:12:13Z,FIN-WS-14,APP-API-03,ACME\jsmith,RDP,success,10.50.25.196,benign,routine authentication
+AUTH-00714,2026-08-12T03:16:00Z,DEPLOY-01,FILE-02,ACME\svc_backup,Kerberos,failure,10.50.47.140,benign,routine authentication
+AUTH-00641,2026-08-12T03:16:31Z,FILE-02,APP-API-02,ACME\mrivera,Kerberos,failure,10.50.33.77,benign,routine authentication
+AUTH-00416,2026-08-12T03:21:24Z,APP-API-02,FILE-02,ACME\svc_backup,Kerberos,success,10.50.38.135,benign,routine authentication
+AUTH-00796,2026-08-12T03:29:37Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,10.50.46.206,benign,routine authentication
+AUTH-00780,2026-08-12T03:33:23Z,FILE-02,APP-API-03,ACME\svc_backup,NTLM,success,10.50.46.209,benign,routine authentication
+AUTH-01493,2026-08-12T04:08:27Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.32.45,benign,routine authentication
+AUTH-01376,2026-08-12T04:12:12Z,FILE-02,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.34.113,benign,routine authentication
+AUTH-00482,2026-08-12T04:20:38Z,APP-API-02,APP-API-02,ACME\svc_backup,Kerberos,success,10.50.11.136,benign,routine authentication
+AUTH-00924,2026-08-12T04:22:28Z,FILE-02,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.35.188,benign,routine authentication
+AUTH-00559,2026-08-12T04:26:33Z,APP-API-02,APP-API-02,ACME\jsmith,Kerberos,failure,10.50.20.53,benign,routine authentication
+AUTH-01044,2026-08-12T04:26:53Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.15.201,benign,routine authentication
+AUTH-00292,2026-08-12T04:37:04Z,FILE-02,FIN-WS-14,ACME\svc_backup,Kerberos,failure,10.50.6.22,benign,routine authentication
+AUTH-00670,2026-08-12T04:40:36Z,APP-API-03,JUMP-01,ACME\mrivera,Kerberos,success,10.50.45.220,benign,routine authentication
+AUTH-00430,2026-08-12T04:43:45Z,APP-API-02,JUMP-01,ACME\mrivera,WinRM,success,10.50.35.103,benign,routine authentication
+AUTH-00275,2026-08-12T04:48:20Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,WinRM,success,10.50.15.95,benign,routine authentication
+AUTH-00828,2026-08-12T05:00:37Z,APP-API-02,JUMP-01,ACME\mrivera,RDP,success,10.50.5.229,benign,routine authentication
+AUTH-00882,2026-08-12T05:05:53Z,FIN-WS-14,APP-API-03,ACME\jsmith,NTLM,success,10.50.41.58,benign,routine authentication
+AUTH-00362,2026-08-12T05:10:38Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.19.163,benign,routine authentication
+AUTH-00020,2026-08-12T05:12:19Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.25.58,benign,routine authentication
+AUTH-00207,2026-08-12T05:13:00Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.4.159,benign,routine authentication
+AUTH-01175,2026-08-12T05:31:38Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.30.221,benign,routine authentication
+AUTH-00930,2026-08-12T05:39:26Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,success,10.50.17.136,benign,routine authentication
+AUTH-01384,2026-08-12T05:39:32Z,DEPLOY-01,APP-API-03,ACME\jsmith,RDP,failure,10.50.19.124,benign,routine authentication
+AUTH-00351,2026-08-12T05:49:13Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,RDP,failure,10.50.47.174,benign,routine authentication
+AUTH-01487,2026-08-12T05:59:59Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.12.65,benign,routine authentication
+AUTH-01121,2026-08-12T06:14:51Z,APP-API-03,JUMP-01,ACME\jsmith,Kerberos,failure,10.50.25.28,benign,routine authentication
+AUTH-00327,2026-08-12T06:20:05Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,Kerberos,success,10.50.31.20,benign,routine authentication
+AUTH-00901,2026-08-12T06:20:17Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,Kerberos,success,10.50.33.108,benign,routine authentication
+AUTH-01039,2026-08-12T06:20:21Z,APP-API-03,FILE-02,ACME\svc_deploy,WinRM,success,10.50.13.38,benign,routine authentication
+AUTH-00123,2026-08-12T06:42:31Z,APP-API-03,APP-API-03,ACME\mrivera,RDP,failure,10.50.14.117,benign,routine authentication
+AUTH-01492,2026-08-12T06:51:42Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.32.50,benign,routine authentication
+AUTH-00601,2026-08-12T06:53:05Z,APP-API-03,APP-API-02,ACME\svc_deploy,RDP,success,10.50.40.39,benign,routine authentication
+AUTH-01165,2026-08-12T06:59:00Z,FILE-02,JUMP-01,ACME\svc_backup,Kerberos,success,10.50.49.41,benign,routine authentication
+AUTH-00963,2026-08-12T06:59:58Z,JUMP-01,APP-API-03,ACME\mrivera,RDP,failure,10.50.23.59,benign,routine authentication
+AUTH-00306,2026-08-12T07:06:52Z,FILE-02,FILE-02,ACME\mrivera,WinRM,success,10.50.1.149,benign,routine authentication
+AUTH-00971,2026-08-12T07:07:10Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.45.46,benign,routine authentication
+AUTH-00364,2026-08-12T07:07:38Z,APP-API-03,FIN-WS-14,ACME\svc_backup,RDP,failure,10.50.48.151,benign,routine authentication
+AUTH-00038,2026-08-12T07:07:59Z,APP-API-03,APP-API-02,ACME\svc_deploy,RDP,success,10.50.33.172,benign,routine authentication
+AUTH-01469,2026-08-12T07:21:56Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.32.226,benign,routine authentication
+AUTH-00657,2026-08-12T07:23:36Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.48.50,benign,routine authentication
+AUTH-00152,2026-08-12T07:29:23Z,APP-API-02,DEPLOY-01,ACME\mrivera,WinRM,failure,10.50.25.55,benign,routine authentication
+AUTH-00054,2026-08-12T07:32:58Z,APP-API-03,FILE-02,ACME\mrivera,NTLM,success,10.50.1.188,benign,routine authentication
+AUTH-00241,2026-08-12T07:38:37Z,APP-API-02,APP-API-02,ACME\mrivera,RDP,success,10.50.44.156,benign,routine authentication
+AUTH-00412,2026-08-12T07:41:36Z,JUMP-01,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.34.40,benign,routine authentication
+AUTH-00977,2026-08-12T08:13:17Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,Kerberos,failure,10.50.50.224,benign,routine authentication
+AUTH-00068,2026-08-12T08:16:23Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,RDP,success,10.50.9.189,benign,routine authentication
+AUTH-00478,2026-08-12T08:22:19Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,RDP,failure,10.50.27.239,benign,routine authentication
+AUTH-01080,2026-08-12T08:29:18Z,FILE-02,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.14.229,benign,routine authentication
+AUTH-01396,2026-08-12T08:30:11Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.28.17,benign,routine authentication
+AUTH-00244,2026-08-12T08:30:26Z,APP-API-03,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.15.235,benign,routine authentication
+AUTH-00704,2026-08-12T08:33:04Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.9.127,benign,routine authentication
+AUTH-00387,2026-08-12T08:40:18Z,JUMP-01,JUMP-01,ACME\svc_backup,WinRM,success,10.50.5.79,benign,routine authentication
+AUTH-00399,2026-08-12T08:40:21Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.13.52,benign,routine authentication
+AUTH-00336,2026-08-12T08:44:13Z,APP-API-02,FILE-02,ACME\svc_backup,Kerberos,success,10.50.9.186,benign,routine authentication
+AUTH-01377,2026-08-12T08:45:14Z,APP-API-02,FIN-WS-14,ACME\svc_backup,WinRM,failure,10.50.6.26,benign,routine authentication
+AUTH-00023,2026-08-12T08:51:22Z,JUMP-01,APP-API-03,ACME\jsmith,Kerberos,success,10.50.1.98,benign,routine authentication
+AUTH-00973,2026-08-12T08:53:02Z,APP-API-02,APP-API-03,ACME\jsmith,NTLM,success,10.50.41.96,benign,routine authentication
+AUTH-01219,2026-08-12T08:54:08Z,DEPLOY-01,JUMP-01,ACME\svc_backup,NTLM,success,10.50.2.197,benign,routine authentication
+AUTH-01117,2026-08-12T08:54:57Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.3.147,benign,routine authentication
+AUTH-00914,2026-08-12T08:56:55Z,APP-API-03,JUMP-01,ACME\mrivera,RDP,success,10.50.17.118,benign,routine authentication
+AUTH-00265,2026-08-12T08:59:37Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,WinRM,success,10.50.39.44,benign,routine authentication
+AUTH-00791,2026-08-12T09:04:38Z,FILE-02,APP-API-02,ACME\svc_deploy,NTLM,success,10.50.16.126,benign,routine authentication
+AUTH-01141,2026-08-12T09:04:59Z,APP-API-02,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.3.111,benign,routine authentication
+AUTH-00449,2026-08-12T09:13:37Z,APP-API-03,JUMP-01,ACME\jsmith,WinRM,success,10.50.2.41,benign,routine authentication
+AUTH-00169,2026-08-12T09:18:34Z,APP-API-03,JUMP-01,ACME\mrivera,WinRM,success,10.50.31.68,benign,routine authentication
+AUTH-00022,2026-08-12T09:20:05Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,RDP,success,10.50.34.185,benign,routine authentication
+AUTH-01389,2026-08-12T09:22:50Z,DEPLOY-01,APP-API-02,ACME\svc_backup,WinRM,success,10.50.4.58,benign,routine authentication
+AUTH-01247,2026-08-12T09:35:24Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.21.163,benign,routine authentication
+AUTH-00411,2026-08-12T09:55:04Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,NTLM,failure,10.50.8.122,benign,routine authentication
+AUTH-01442,2026-08-12T10:07:50Z,APP-API-02,APP-API-02,ACME\svc_deploy,RDP,success,10.50.3.210,benign,routine authentication
+AUTH-00562,2026-08-12T10:12:48Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.13.71,benign,routine authentication
+AUTH-00705,2026-08-12T10:12:56Z,APP-API-03,JUMP-01,ACME\jsmith,Kerberos,failure,10.50.42.228,benign,routine authentication
+AUTH-00088,2026-08-12T10:15:43Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.44.209,benign,routine authentication
+AUTH-00947,2026-08-12T10:16:39Z,FIN-WS-14,FILE-02,ACME\svc_deploy,WinRM,failure,10.50.29.137,benign,routine authentication
+AUTH-00040,2026-08-12T10:18:41Z,JUMP-01,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.5.74,benign,routine authentication
+AUTH-00717,2026-08-12T10:19:29Z,FILE-02,APP-API-02,ACME\svc_backup,WinRM,success,10.50.31.156,benign,routine authentication
+AUTH-01470,2026-08-12T10:21:36Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.47.132,benign,routine authentication
+AUTH-00790,2026-08-12T10:23:58Z,FILE-02,APP-API-03,ACME\mrivera,WinRM,success,10.50.22.234,benign,routine authentication
+AUTH-00958,2026-08-12T10:38:40Z,FILE-02,FILE-02,ACME\mrivera,Kerberos,success,10.50.37.67,benign,routine authentication
+AUTH-00721,2026-08-12T10:40:02Z,DEPLOY-01,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.18.150,benign,routine authentication
+AUTH-01174,2026-08-12T10:52:11Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,RDP,success,10.50.34.43,benign,routine authentication
+AUTH-01310,2026-08-12T10:56:48Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,NTLM,success,10.50.14.154,benign,routine authentication
+AUTH-00026,2026-08-12T11:01:18Z,JUMP-01,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.45.235,benign,routine authentication
+AUTH-00985,2026-08-12T11:03:23Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.6.146,benign,routine authentication
+AUTH-00391,2026-08-12T11:07:15Z,APP-API-03,JUMP-01,ACME\jsmith,Kerberos,success,10.50.10.156,benign,routine authentication
+AUTH-01302,2026-08-12T11:22:02Z,APP-API-03,DEPLOY-01,ACME\mrivera,Kerberos,failure,10.50.19.203,benign,routine authentication
+AUTH-01353,2026-08-12T11:29:05Z,FILE-02,APP-API-03,ACME\jsmith,Kerberos,success,10.50.6.203,benign,routine authentication
+AUTH-00443,2026-08-12T11:32:26Z,APP-API-02,DEPLOY-01,ACME\mrivera,WinRM,failure,10.50.43.74,benign,routine authentication
+AUTH-00081,2026-08-12T11:35:11Z,APP-API-02,JUMP-01,ACME\mrivera,RDP,success,10.50.42.46,benign,routine authentication
+AUTH-00052,2026-08-12T11:35:42Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.31.119,benign,routine authentication
+AUTH-01115,2026-08-12T11:44:41Z,FIN-WS-14,APP-API-02,ACME\mrivera,Kerberos,success,10.50.4.88,benign,routine authentication
+AUTH-00231,2026-08-12T11:44:46Z,APP-API-02,FILE-02,ACME\svc_deploy,WinRM,failure,10.50.26.190,benign,routine authentication
+AUTH-01264,2026-08-12T11:45:25Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.9.116,benign,routine authentication
+AUTH-00741,2026-08-12T12:03:36Z,JUMP-01,APP-API-03,ACME\jsmith,Kerberos,failure,10.50.1.59,benign,routine authentication
+AUTH-01392,2026-08-12T12:05:25Z,FILE-02,APP-API-03,ACME\svc_backup,Kerberos,failure,10.50.9.3,benign,routine authentication
+AUTH-01240,2026-08-12T12:09:17Z,FIN-WS-14,APP-API-03,ACME\mrivera,NTLM,failure,10.50.30.200,benign,routine authentication
+AUTH-01190,2026-08-12T12:16:47Z,JUMP-01,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.25.31,benign,routine authentication
+AUTH-00533,2026-08-12T12:19:43Z,JUMP-01,APP-API-03,ACME\jsmith,WinRM,success,10.50.8.102,benign,routine authentication
+AUTH-01200,2026-08-12T12:29:09Z,APP-API-02,APP-API-02,ACME\svc_deploy,RDP,success,10.50.39.126,benign,routine authentication
+AUTH-00917,2026-08-12T12:30:13Z,APP-API-02,FIN-WS-14,ACME\mrivera,NTLM,success,10.50.1.230,benign,routine authentication
+AUTH-01045,2026-08-12T12:37:58Z,APP-API-03,APP-API-02,ACME\jsmith,WinRM,failure,10.50.20.196,benign,routine authentication
+AUTH-00083,2026-08-12T12:42:37Z,FILE-02,FIN-WS-14,ACME\svc_backup,RDP,success,10.50.41.150,benign,routine authentication
+AUTH-00179,2026-08-12T12:54:49Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.40.140,benign,routine authentication
+AUTH-01366,2026-08-12T13:04:21Z,FILE-02,APP-API-03,ACME\mrivera,WinRM,success,10.50.34.60,benign,routine authentication
+AUTH-00168,2026-08-12T13:10:51Z,APP-API-03,FILE-02,ACME\svc_deploy,Kerberos,success,10.50.29.21,benign,routine authentication
+AUTH-00350,2026-08-12T13:14:42Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,RDP,success,10.50.37.42,benign,routine authentication
+AUTH-00015,2026-08-12T13:20:40Z,APP-API-03,APP-API-02,ACME\svc_deploy,WinRM,failure,10.50.8.228,benign,routine authentication
+AUTH-01298,2026-08-12T13:21:26Z,DEPLOY-01,APP-API-02,ACME\svc_backup,NTLM,success,10.50.7.31,benign,routine authentication
+AUTH-01164,2026-08-12T13:39:01Z,JUMP-01,DEPLOY-01,ACME\jsmith,Kerberos,failure,10.50.14.223,benign,routine authentication
+AUTH-00756,2026-08-12T13:50:25Z,APP-API-02,FIN-WS-14,ACME\mrivera,RDP,failure,10.50.25.72,benign,routine authentication
+AUTH-01073,2026-08-12T13:54:01Z,FIN-WS-14,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.13.120,benign,routine authentication
+AUTH-00227,2026-08-12T14:05:46Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,RDP,failure,10.50.49.12,benign,routine authentication
+AUTH-01257,2026-08-12T14:10:23Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.12.65,benign,routine authentication
+AUTH-00722,2026-08-12T14:15:16Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,failure,10.50.23.236,benign,routine authentication
+AUTH-00769,2026-08-12T14:17:32Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.3.195,benign,routine authentication
+AUTH-00360,2026-08-12T14:25:28Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,NTLM,success,10.50.6.42,benign,routine authentication
+AUTH-01439,2026-08-12T14:29:38Z,APP-API-03,APP-API-02,ACME\jsmith,WinRM,success,10.50.48.81,benign,routine authentication
+AUTH-00801,2026-08-12T14:30:31Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.22.92,benign,routine authentication
+AUTH-00496,2026-08-12T14:49:10Z,FILE-02,APP-API-03,ACME\svc_backup,NTLM,success,10.50.42.5,benign,routine authentication
+AUTH-01228,2026-08-12T14:57:34Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.25.165,benign,routine authentication
+AUTH-00689,2026-08-12T14:58:38Z,APP-API-02,FILE-02,ACME\svc_deploy,Kerberos,failure,10.50.33.142,benign,routine authentication
+AUTH-01087,2026-08-12T15:14:25Z,FILE-02,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.26.67,benign,routine authentication
+AUTH-00960,2026-08-12T15:16:58Z,APP-API-02,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.7.226,benign,routine authentication
+AUTH-00165,2026-08-12T15:19:59Z,APP-API-03,FIN-WS-14,ACME\mrivera,NTLM,success,10.50.28.43,benign,routine authentication
+AUTH-00373,2026-08-12T15:25:56Z,FILE-02,FILE-02,ACME\svc_backup,RDP,success,10.50.36.183,benign,routine authentication
+AUTH-01213,2026-08-12T15:29:20Z,APP-API-02,JUMP-01,ACME\mrivera,WinRM,success,10.50.28.64,benign,routine authentication
+AUTH-00122,2026-08-12T15:35:39Z,DEPLOY-01,JUMP-01,ACME\mrivera,Kerberos,success,10.50.36.24,benign,routine authentication
+AUTH-00010,2026-08-12T15:38:37Z,APP-API-03,FILE-02,ACME\mrivera,RDP,failure,10.50.16.52,benign,routine authentication
+AUTH-01112,2026-08-12T15:39:12Z,FILE-02,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.12.125,benign,routine authentication
+AUTH-00160,2026-08-12T15:40:46Z,FILE-02,JUMP-01,ACME\jsmith,NTLM,success,10.50.15.80,benign,routine authentication
+AUTH-00247,2026-08-12T15:46:55Z,FILE-02,JUMP-01,ACME\svc_deploy,Kerberos,success,10.50.50.115,benign,routine authentication
+AUTH-00134,2026-08-12T15:47:02Z,APP-API-02,JUMP-01,ACME\mrivera,WinRM,success,10.50.32.201,benign,routine authentication
+AUTH-01444,2026-08-12T15:53:55Z,FILE-02,JUMP-01,ACME\svc_deploy,NTLM,success,10.50.21.86,benign,routine authentication
+AUTH-01428,2026-08-12T15:57:25Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.39.12,benign,routine authentication
+AUTH-00470,2026-08-12T16:06:50Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.32.133,benign,routine authentication
+AUTH-00164,2026-08-12T16:11:07Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.50.18,benign,routine authentication
+AUTH-00900,2026-08-12T16:16:37Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.49.176,benign,routine authentication
+AUTH-00815,2026-08-12T16:17:08Z,APP-API-03,FILE-02,ACME\mrivera,Kerberos,success,10.50.20.103,benign,routine authentication
+AUTH-01236,2026-08-12T16:28:35Z,APP-API-03,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.13.136,benign,routine authentication
+AUTH-01425,2026-08-12T16:32:50Z,APP-API-02,FIN-WS-14,ACME\jsmith,NTLM,failure,10.50.6.17,benign,routine authentication
+AUTH-00476,2026-08-12T16:41:53Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.42.151,benign,routine authentication
+AUTH-01417,2026-08-12T16:58:04Z,APP-API-02,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.48.106,benign,routine authentication
+AUTH-00251,2026-08-12T16:59:03Z,DEPLOY-01,APP-API-02,ACME\svc_backup,WinRM,success,10.50.48.192,benign,routine authentication
+AUTH-01230,2026-08-12T17:09:19Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,success,10.50.46.57,benign,routine authentication
+AUTH-00384,2026-08-12T17:14:43Z,FILE-02,FILE-02,ACME\mrivera,RDP,success,10.50.45.107,benign,routine authentication
+AUTH-00707,2026-08-12T17:15:34Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,Kerberos,failure,10.50.38.81,benign,routine authentication
+AUTH-00341,2026-08-12T17:20:59Z,FILE-02,JUMP-01,ACME\svc_backup,NTLM,success,10.50.43.185,benign,routine authentication
+AUTH-00715,2026-08-12T17:21:40Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.32.81,benign,routine authentication
+AUTH-01058,2026-08-12T17:30:04Z,FILE-02,JUMP-01,ACME\svc_backup,NTLM,success,10.50.49.17,benign,routine authentication
+AUTH-00237,2026-08-12T17:33:40Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,WinRM,failure,10.50.1.231,benign,routine authentication
+AUTH-00138,2026-08-12T17:35:24Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,RDP,failure,10.50.45.64,benign,routine authentication
+AUTH-00196,2026-08-12T17:36:17Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.3.225,benign,routine authentication
+AUTH-00348,2026-08-12T17:39:25Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.50.50,benign,routine authentication
+AUTH-01452,2026-08-12T17:48:54Z,APP-API-02,APP-API-03,ACME\svc_backup,RDP,success,10.50.22.149,benign,routine authentication
+AUTH-00077,2026-08-12T17:55:11Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,RDP,failure,10.50.29.204,benign,routine authentication
+AUTH-00739,2026-08-12T18:00:14Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.26.106,benign,routine authentication
+AUTH-00442,2026-08-12T18:08:00Z,FILE-02,FILE-02,ACME\svc_deploy,RDP,success,10.50.31.131,benign,routine authentication
+AUTH-01096,2026-08-12T18:18:11Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.31.29,benign,routine authentication
+AUTH-00797,2026-08-12T18:24:09Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.8.10,benign,routine authentication
+AUTH-00220,2026-08-12T18:32:18Z,FILE-02,FILE-02,ACME\svc_deploy,NTLM,failure,10.50.37.203,benign,routine authentication
+AUTH-00833,2026-08-12T18:34:31Z,APP-API-02,APP-API-02,ACME\jsmith,WinRM,success,10.50.27.91,benign,routine authentication
+AUTH-00607,2026-08-12T18:36:53Z,DEPLOY-01,JUMP-01,ACME\svc_backup,WinRM,success,10.50.32.210,benign,routine authentication
+AUTH-01308,2026-08-12T18:37:45Z,FILE-02,JUMP-01,ACME\svc_deploy,NTLM,success,10.50.16.64,benign,routine authentication
+AUTH-00531,2026-08-12T18:46:31Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,Kerberos,failure,10.50.5.236,benign,routine authentication
+AUTH-00217,2026-08-12T18:51:42Z,DEPLOY-01,APP-API-02,ACME\mrivera,RDP,success,10.50.14.22,benign,routine authentication
+AUTH-01482,2026-08-12T18:56:03Z,FILE-02,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.22.7,benign,routine authentication
+AUTH-00666,2026-08-12T18:59:02Z,FIN-WS-14,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.31.84,benign,routine authentication
+AUTH-01136,2026-08-12T19:03:04Z,JUMP-01,APP-API-03,ACME\svc_deploy,RDP,success,10.50.38.208,benign,routine authentication
+AUTH-01028,2026-08-12T19:03:39Z,FILE-02,FIN-WS-14,ACME\svc_deploy,Kerberos,failure,10.50.18.87,benign,routine authentication
+AUTH-01459,2026-08-12T19:05:42Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,WinRM,success,10.50.18.198,benign,routine authentication
+AUTH-00433,2026-08-12T19:09:33Z,JUMP-01,APP-API-02,ACME\svc_backup,WinRM,success,10.50.22.45,benign,routine authentication
+AUTH-01405,2026-08-12T19:16:53Z,FIN-WS-14,JUMP-01,ACME\mrivera,WinRM,success,10.50.8.224,benign,routine authentication
+AUTH-00895,2026-08-12T19:22:26Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,RDP,success,10.50.17.18,benign,routine authentication
+AUTH-01288,2026-08-12T19:32:30Z,JUMP-01,FIN-WS-14,ACME\svc_backup,WinRM,failure,10.50.40.215,benign,routine authentication
+AUTH-00937,2026-08-12T19:35:01Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.14.146,benign,routine authentication
+AUTH-00044,2026-08-12T19:42:22Z,FIN-WS-14,FILE-02,ACME\svc_backup,NTLM,success,10.50.21.235,benign,routine authentication
+AUTH-00338,2026-08-12T20:03:46Z,FIN-WS-14,FILE-02,ACME\svc_backup,RDP,success,10.50.29.192,benign,routine authentication
+AUTH-01047,2026-08-12T20:05:52Z,FILE-02,DEPLOY-01,ACME\jsmith,RDP,failure,10.50.6.134,benign,routine authentication
+AUTH-01331,2026-08-12T20:08:43Z,APP-API-02,FILE-02,ACME\svc_deploy,WinRM,success,10.50.19.56,benign,routine authentication
+AUTH-00631,2026-08-12T20:14:10Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,WinRM,success,10.50.29.100,benign,routine authentication
+AUTH-01197,2026-08-12T20:20:12Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,NTLM,failure,10.50.33.20,benign,routine authentication
+AUTH-00556,2026-08-12T20:22:26Z,FILE-02,APP-API-02,ACME\svc_deploy,RDP,success,10.50.14.80,benign,routine authentication
+AUTH-00495,2026-08-12T20:28:44Z,FIN-WS-14,APP-API-03,ACME\mrivera,WinRM,success,10.50.11.32,benign,routine authentication
+AUTH-00037,2026-08-12T20:34:06Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,RDP,success,10.50.46.170,benign,routine authentication
+AUTH-00510,2026-08-12T20:42:24Z,APP-API-02,APP-API-03,ACME\jsmith,WinRM,failure,10.50.45.14,benign,routine authentication
+AUTH-00861,2026-08-12T20:43:42Z,APP-API-03,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.8.227,benign,routine authentication
+AUTH-01454,2026-08-12T20:44:45Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,WinRM,success,10.50.50.88,benign,routine authentication
+AUTH-00099,2026-08-12T20:45:18Z,FILE-02,DEPLOY-01,ACME\svc_deploy,WinRM,failure,10.50.14.101,benign,routine authentication
+AUTH-00376,2026-08-12T20:55:41Z,APP-API-03,APP-API-03,ACME\mrivera,NTLM,success,10.50.2.183,benign,routine authentication
+AUTH-00652,2026-08-12T21:09:00Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.13.166,benign,routine authentication
+AUTH-01194,2026-08-12T21:10:45Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,NTLM,failure,10.50.34.184,benign,routine authentication
+AUTH-00461,2026-08-12T21:18:57Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,failure,10.50.49.113,benign,routine authentication
+AUTH-01485,2026-08-12T21:20:49Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,Kerberos,failure,10.50.21.2,benign,routine authentication
+AUTH-00855,2026-08-12T21:23:32Z,APP-API-03,APP-API-02,ACME\mrivera,NTLM,success,10.50.37.237,benign,routine authentication
+AUTH-00268,2026-08-12T21:25:00Z,APP-API-02,APP-API-02,ACME\svc_backup,WinRM,success,10.50.14.43,benign,routine authentication
+AUTH-01434,2026-08-12T21:25:25Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,success,10.50.3.60,benign,routine authentication
+AUTH-01009,2026-08-12T21:28:46Z,APP-API-03,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.21.179,benign,routine authentication
+AUTH-00432,2026-08-12T21:37:55Z,DEPLOY-01,APP-API-02,ACME\svc_backup,NTLM,success,10.50.26.154,benign,routine authentication
+AUTH-00506,2026-08-12T21:41:36Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,WinRM,success,10.50.19.219,benign,routine authentication
+AUTH-01026,2026-08-12T21:42:09Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.16.195,benign,routine authentication
+AUTH-00588,2026-08-12T21:44:02Z,APP-API-03,APP-API-03,ACME\svc_deploy,RDP,failure,10.50.9.47,benign,routine authentication
+AUTH-00771,2026-08-12T21:49:11Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.27.215,benign,routine authentication
+AUTH-00959,2026-08-12T21:57:24Z,JUMP-01,FILE-02,ACME\mrivera,Kerberos,failure,10.50.42.112,benign,routine authentication
+AUTH-01178,2026-08-12T22:07:41Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.32.72,benign,routine authentication
+AUTH-01460,2026-08-12T22:24:05Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.12.240,benign,routine authentication
+AUTH-00840,2026-08-12T22:33:20Z,APP-API-02,JUMP-01,ACME\mrivera,RDP,success,10.50.44.169,benign,routine authentication
+AUTH-00104,2026-08-12T22:51:36Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.24.234,benign,routine authentication
+AUTH-00282,2026-08-12T22:56:28Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.41.238,benign,routine authentication
+AUTH-01272,2026-08-12T22:57:42Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.25.22,benign,routine authentication
+AUTH-01146,2026-08-12T22:58:27Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,failure,10.50.47.130,benign,routine authentication
+AUTH-00126,2026-08-12T22:59:30Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,WinRM,success,10.50.17.153,benign,routine authentication
+AUTH-01394,2026-08-12T23:02:23Z,DEPLOY-01,FILE-02,ACME\jsmith,WinRM,success,10.50.5.209,benign,routine authentication
+AUTH-01430,2026-08-12T23:03:43Z,DEPLOY-01,APP-API-02,ACME\jsmith,WinRM,failure,10.50.37.82,benign,routine authentication
+AUTH-00105,2026-08-12T23:13:53Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.46.165,benign,routine authentication
+AUTH-01244,2026-08-12T23:14:26Z,JUMP-01,FIN-WS-14,ACME\jsmith,WinRM,success,10.50.14.228,benign,routine authentication
+AUTH-00381,2026-08-12T23:29:19Z,APP-API-02,APP-API-02,ACME\svc_backup,WinRM,failure,10.50.29.77,benign,routine authentication
+AUTH-00615,2026-08-12T23:37:55Z,DEPLOY-01,JUMP-01,ACME\jsmith,Kerberos,success,10.50.1.140,benign,routine authentication
+AUTH-00925,2026-08-12T23:48:16Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,Kerberos,success,10.50.40.38,benign,routine authentication
+AUTH-01102,2026-08-12T23:50:36Z,APP-API-03,APP-API-02,ACME\svc_deploy,WinRM,success,10.50.30.75,benign,routine authentication
+AUTH-01324,2026-08-12T23:50:56Z,APP-API-03,APP-API-02,ACME\svc_backup,WinRM,success,10.50.4.192,benign,routine authentication
+AUTH-00806,2026-08-12T23:54:20Z,JUMP-01,FILE-02,ACME\svc_backup,RDP,success,10.50.17.85,benign,routine authentication
+AUTH-00794,2026-08-12T23:54:44Z,FILE-02,FIN-WS-14,ACME\jsmith,Kerberos,failure,10.50.46.51,benign,routine authentication
+AUTH-01168,2026-08-12T23:56:56Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.1.70,benign,routine authentication
+AUTH-00726,2026-08-13T00:07:37Z,JUMP-01,APP-API-02,ACME\jsmith,Kerberos,success,10.50.24.76,benign,routine authentication
+AUTH-00577,2026-08-13T00:35:02Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.33.144,benign,routine authentication
+AUTH-00396,2026-08-13T00:36:27Z,JUMP-01,FIN-WS-14,ACME\jsmith,NTLM,success,10.50.15.179,benign,routine authentication
+AUTH-01293,2026-08-13T00:37:52Z,FIN-WS-14,JUMP-01,ACME\jsmith,NTLM,success,10.50.48.185,benign,routine authentication
+AUTH-00057,2026-08-13T00:42:57Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.7.49,benign,routine authentication
+AUTH-00402,2026-08-13T00:43:46Z,JUMP-01,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.34.227,benign,routine authentication
+AUTH-01347,2026-08-13T00:51:45Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.32.20,benign,routine authentication
+AUTH-00468,2026-08-13T00:51:46Z,DEPLOY-01,APP-API-02,ACME\svc_backup,RDP,success,10.50.38.213,benign,routine authentication
+AUTH-00894,2026-08-13T00:54:10Z,APP-API-03,JUMP-01,ACME\svc_deploy,RDP,success,10.50.7.117,benign,routine authentication
+AUTH-00299,2026-08-13T01:03:35Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.43.210,benign,routine authentication
+AUTH-00880,2026-08-13T01:05:40Z,FIN-WS-14,APP-API-03,ACME\jsmith,RDP,success,10.50.30.45,benign,routine authentication
+AUTH-01031,2026-08-13T01:16:48Z,FILE-02,DEPLOY-01,ACME\svc_deploy,WinRM,success,10.50.16.13,benign,routine authentication
+AUTH-01029,2026-08-13T01:31:34Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,success,10.50.34.193,benign,routine authentication
+AUTH-01227,2026-08-13T01:37:00Z,FIN-WS-14,APP-API-03,ACME\svc_backup,Kerberos,failure,10.50.18.121,benign,routine authentication
+AUTH-01290,2026-08-13T01:37:27Z,DEPLOY-01,JUMP-01,ACME\jsmith,NTLM,success,10.50.22.49,benign,routine authentication
+AUTH-01427,2026-08-13T01:42:52Z,APP-API-03,FIN-WS-14,ACME\mrivera,Kerberos,failure,10.50.3.11,benign,routine authentication
+AUTH-00502,2026-08-13T02:32:47Z,APP-API-03,FILE-02,ACME\svc_backup,Kerberos,success,10.50.45.58,benign,routine authentication
+AUTH-01221,2026-08-13T02:33:44Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.3.25,benign,routine authentication
+AUTH-01220,2026-08-13T02:34:19Z,DEPLOY-01,APP-API-03,ACME\svc_backup,RDP,failure,10.50.17.182,benign,routine authentication
+AUTH-00570,2026-08-13T02:37:30Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,success,10.50.18.144,benign,routine authentication
+AUTH-00783,2026-08-13T02:38:11Z,APP-API-03,APP-API-02,ACME\mrivera,Kerberos,success,10.50.17.168,benign,routine authentication
+AUTH-00328,2026-08-13T02:44:48Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,Kerberos,failure,10.50.29.136,benign,routine authentication
+AUTH-00471,2026-08-13T02:50:44Z,JUMP-01,APP-API-03,ACME\jsmith,Kerberos,failure,10.50.35.94,benign,routine authentication
+AUTH-00505,2026-08-13T02:53:07Z,APP-API-03,JUMP-01,ACME\mrivera,NTLM,success,10.50.14.15,benign,routine authentication
+AUTH-00811,2026-08-13T02:54:19Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.39.55,benign,routine authentication
+AUTH-01478,2026-08-13T03:04:31Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,NTLM,failure,10.50.50.77,benign,routine authentication
+AUTH-00421,2026-08-13T03:06:35Z,DEPLOY-01,JUMP-01,ACME\jsmith,NTLM,success,10.50.28.108,benign,routine authentication
+AUTH-00862,2026-08-13T03:17:45Z,FILE-02,JUMP-01,ACME\svc_deploy,NTLM,failure,10.50.21.237,benign,routine authentication
+AUTH-00945,2026-08-13T03:34:42Z,JUMP-01,DEPLOY-01,ACME\svc_backup,NTLM,failure,10.50.45.72,benign,routine authentication
+AUTH-00021,2026-08-13T03:37:54Z,APP-API-02,FILE-02,ACME\svc_deploy,RDP,success,10.50.47.73,benign,routine authentication
+AUTH-00650,2026-08-13T03:38:32Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.17.35,benign,routine authentication
+AUTH-00479,2026-08-13T03:39:58Z,APP-API-03,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.12.133,benign,routine authentication
+AUTH-00118,2026-08-13T03:47:38Z,JUMP-01,DEPLOY-01,ACME\jsmith,WinRM,success,10.50.36.112,benign,routine authentication
+AUTH-01404,2026-08-13T03:49:04Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.21.237,benign,routine authentication
+AUTH-01099,2026-08-13T04:17:58Z,APP-API-02,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.36.186,benign,routine authentication
+AUTH-00625,2026-08-13T04:19:09Z,DEPLOY-01,APP-API-03,ACME\svc_backup,Kerberos,failure,10.50.21.181,benign,routine authentication
+AUTH-01216,2026-08-13T04:27:02Z,DEPLOY-01,APP-API-03,ACME\jsmith,WinRM,success,10.50.16.128,benign,routine authentication
+AUTH-01415,2026-08-13T04:32:16Z,JUMP-01,DEPLOY-01,ACME\mrivera,RDP,failure,10.50.14.52,benign,routine authentication
+AUTH-00189,2026-08-13T04:47:36Z,APP-API-02,JUMP-01,ACME\svc_backup,Kerberos,failure,10.50.41.125,benign,routine authentication
+AUTH-00582,2026-08-13T04:48:11Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.13.133,benign,routine authentication
+AUTH-00842,2026-08-13T04:59:58Z,APP-API-02,FILE-02,ACME\svc_deploy,WinRM,success,10.50.31.134,benign,routine authentication
+AUTH-00483,2026-08-13T05:01:50Z,APP-API-02,DEPLOY-01,ACME\jsmith,RDP,success,10.50.40.209,benign,routine authentication
+AUTH-00428,2026-08-13T05:01:57Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,Kerberos,failure,10.50.11.67,benign,routine authentication
+AUTH-00993,2026-08-13T05:14:54Z,APP-API-02,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.45.30,benign,routine authentication
+AUTH-00239,2026-08-13T05:34:19Z,APP-API-03,DEPLOY-01,ACME\jsmith,WinRM,failure,10.50.50.186,benign,routine authentication
+AUTH-01418,2026-08-13T05:34:26Z,APP-API-02,FIN-WS-14,ACME\jsmith,WinRM,success,10.50.45.171,benign,routine authentication
+AUTH-00699,2026-08-13T05:46:39Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.49.217,benign,routine authentication
+AUTH-01252,2026-08-13T05:47:12Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.27.197,benign,routine authentication
+AUTH-00703,2026-08-13T06:07:38Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.29.193,benign,routine authentication
+AUTH-00096,2026-08-13T06:08:02Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.3.47,benign,routine authentication
+AUTH-00146,2026-08-13T06:09:49Z,FIN-WS-14,FILE-02,ACME\jsmith,WinRM,success,10.50.17.195,benign,routine authentication
+AUTH-01254,2026-08-13T06:14:45Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.6.208,benign,routine authentication
+AUTH-00611,2026-08-13T06:18:46Z,APP-API-02,JUMP-01,ACME\jsmith,Kerberos,failure,10.50.18.8,benign,routine authentication
+AUTH-00627,2026-08-13T06:25:28Z,DEPLOY-01,APP-API-02,ACME\jsmith,NTLM,success,10.50.39.24,benign,routine authentication
+AUTH-00906,2026-08-13T06:28:56Z,DEPLOY-01,JUMP-01,ACME\jsmith,RDP,success,10.50.43.9,benign,routine authentication
+AUTH-00086,2026-08-13T06:30:14Z,FIN-WS-14,APP-API-02,ACME\jsmith,Kerberos,success,10.50.26.93,benign,routine authentication
+AUTH-00688,2026-08-13T06:31:35Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,RDP,success,10.50.47.98,benign,routine authentication
+AUTH-00606,2026-08-13T06:37:05Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,Kerberos,success,10.50.43.53,benign,routine authentication
+AUTH-00254,2026-08-13T06:37:19Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,RDP,failure,10.50.7.213,benign,routine authentication
+AUTH-01001,2026-08-13T06:39:21Z,FILE-02,FIN-WS-14,ACME\svc_deploy,WinRM,success,10.50.9.47,benign,routine authentication
+AUTH-01407,2026-08-13T06:54:35Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,success,10.50.8.160,benign,routine authentication
+AUTH-00095,2026-08-13T06:57:07Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,RDP,success,10.50.27.148,benign,routine authentication
+AUTH-00353,2026-08-13T06:58:56Z,JUMP-01,FILE-02,ACME\jsmith,WinRM,failure,10.50.4.187,benign,routine authentication
+AUTH-00936,2026-08-13T07:05:40Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.26.155,benign,routine authentication
+AUTH-00234,2026-08-13T07:09:01Z,JUMP-01,APP-API-03,ACME\svc_deploy,RDP,failure,10.50.9.122,benign,routine authentication
+AUTH-01238,2026-08-13T07:13:29Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,Kerberos,success,10.50.40.11,benign,routine authentication
+AUTH-00965,2026-08-13T07:14:31Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,Kerberos,success,10.50.6.236,benign,routine authentication
+AUTH-00330,2026-08-13T07:15:01Z,FIN-WS-14,FILE-02,ACME\svc_deploy,NTLM,success,10.50.45.50,benign,routine authentication
+AUTH-00316,2026-08-13T07:18:48Z,DEPLOY-01,APP-API-03,ACME\jsmith,Kerberos,success,10.50.34.16,benign,routine authentication
+AUTH-01412,2026-08-13T07:40:53Z,APP-API-03,JUMP-01,ACME\svc_backup,NTLM,success,10.50.3.217,benign,routine authentication
+AUTH-00205,2026-08-13T07:52:24Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.40.13,benign,routine authentication
+AUTH-00638,2026-08-13T07:52:29Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.15.92,benign,routine authentication
+AUTH-00059,2026-08-13T08:05:16Z,FIN-WS-14,FILE-02,ACME\jsmith,Kerberos,failure,10.50.49.123,benign,routine authentication
+AUTH-01038,2026-08-13T08:12:16Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.46.162,benign,routine authentication
+AUTH-00803,2026-08-13T08:26:09Z,APP-API-03,APP-API-02,ACME\svc_backup,Kerberos,success,10.50.7.77,benign,routine authentication
+AUTH-00618,2026-08-13T08:31:04Z,FILE-02,APP-API-02,ACME\jsmith,WinRM,success,10.50.36.210,benign,routine authentication
+AUTH-01330,2026-08-13T08:35:11Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.7.172,benign,routine authentication
+AUTH-00418,2026-08-13T08:50:28Z,DEPLOY-01,FILE-02,ACME\svc_backup,Kerberos,success,10.50.50.20,benign,routine authentication
+AUTH-01306,2026-08-13T08:59:53Z,APP-API-02,FILE-02,ACME\jsmith,WinRM,success,10.50.28.157,benign,routine authentication
+AUTH-00826,2026-08-13T09:02:51Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.1.233,benign,routine authentication
+AUTH-00132,2026-08-13T09:26:21Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,RDP,failure,10.50.50.63,benign,routine authentication
+AUTH-00661,2026-08-13T10:10:23Z,FILE-02,FILE-02,ACME\mrivera,WinRM,failure,10.50.35.66,benign,routine authentication
+AUTH-00550,2026-08-13T10:10:54Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,NTLM,failure,10.50.44.187,benign,routine authentication
+AUTH-01475,2026-08-13T10:12:20Z,JUMP-01,APP-API-02,ACME\svc_deploy,NTLM,success,10.50.24.180,benign,routine authentication
+AUTH-01088,2026-08-13T10:15:52Z,FILE-02,APP-API-03,ACME\svc_backup,Kerberos,failure,10.50.19.159,benign,routine authentication
+AUTH-00012,2026-08-13T10:28:40Z,APP-API-03,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.48.58,benign,routine authentication
+AUTH-00864,2026-08-13T10:34:53Z,JUMP-01,FIN-WS-14,ACME\mrivera,WinRM,failure,10.50.47.236,benign,routine authentication
+AUTH-01218,2026-08-13T10:42:47Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.49.22,benign,routine authentication
+AUTH-00587,2026-08-13T10:50:59Z,APP-API-02,APP-API-02,ACME\jsmith,RDP,success,10.50.3.66,benign,routine authentication
+AUTH-00729,2026-08-13T10:55:29Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,failure,10.50.30.6,benign,routine authentication
+AUTH-01461,2026-08-13T11:00:38Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.4.185,benign,routine authentication
+AUTH-00678,2026-08-13T11:05:31Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.9.201,benign,routine authentication
+AUTH-00579,2026-08-13T11:07:49Z,FIN-WS-14,JUMP-01,ACME\svc_backup,RDP,success,10.50.39.170,benign,routine authentication
+AUTH-00156,2026-08-13T11:10:06Z,JUMP-01,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.6.131,benign,routine authentication
+AUTH-01171,2026-08-13T11:12:45Z,DEPLOY-01,APP-API-03,ACME\svc_backup,Kerberos,failure,10.50.17.76,benign,routine authentication
+AUTH-01211,2026-08-13T11:13:51Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,success,10.50.29.208,benign,routine authentication
+AUTH-01282,2026-08-13T11:16:07Z,JUMP-01,DEPLOY-01,ACME\svc_backup,Kerberos,success,10.50.10.145,benign,routine authentication
+AUTH-00379,2026-08-13T11:28:01Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.9.62,benign,routine authentication
+AUTH-00986,2026-08-13T11:40:22Z,JUMP-01,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.43.62,benign,routine authentication
+AUTH-01401,2026-08-13T11:44:21Z,FILE-02,APP-API-03,ACME\svc_backup,RDP,success,10.50.47.198,benign,routine authentication
+AUTH-00974,2026-08-13T11:48:18Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,WinRM,success,10.50.20.100,benign,routine authentication
+AUTH-00091,2026-08-13T11:56:10Z,FIN-WS-14,JUMP-01,ACME\jsmith,RDP,success,10.50.28.184,benign,routine authentication
+AUTH-01054,2026-08-13T12:01:51Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,NTLM,success,10.50.34.164,benign,routine authentication
+AUTH-00001,2026-08-13T12:02:02Z,FIN-WS-14,APP-API-03,ACME\mrivera,RDP,success,10.50.37.154,benign,routine authentication
+AUTH-01120,2026-08-13T12:03:40Z,DEPLOY-01,FILE-02,ACME\jsmith,NTLM,success,10.50.46.41,benign,routine authentication
+AUTH-01364,2026-08-13T12:07:30Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,10.50.29.163,benign,routine authentication
+AUTH-00117,2026-08-13T12:11:21Z,FIN-WS-14,APP-API-03,ACME\svc_backup,Kerberos,failure,10.50.42.86,benign,routine authentication
+AUTH-00459,2026-08-13T12:16:10Z,DEPLOY-01,FILE-02,ACME\svc_deploy,Kerberos,failure,10.50.37.155,benign,routine authentication
+AUTH-00195,2026-08-13T12:24:18Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,failure,10.50.36.104,benign,routine authentication
+AUTH-00174,2026-08-13T12:30:32Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.31.180,benign,routine authentication
+AUTH-00185,2026-08-13T12:40:17Z,JUMP-01,APP-API-03,ACME\mrivera,Kerberos,success,10.50.50.122,benign,routine authentication
+AUTH-00926,2026-08-13T12:41:17Z,FILE-02,APP-API-03,ACME\svc_backup,RDP,success,10.50.12.104,benign,routine authentication
+AUTH-01296,2026-08-13T12:46:48Z,APP-API-02,APP-API-03,ACME\svc_backup,RDP,success,10.50.25.52,benign,routine authentication
+AUTH-01050,2026-08-13T12:48:43Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.29.3,benign,routine authentication
+AUTH-00687,2026-08-13T12:50:39Z,APP-API-02,APP-API-03,ACME\svc_deploy,RDP,success,10.50.35.153,benign,routine authentication
+AUTH-00389,2026-08-13T12:53:17Z,FILE-02,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.29.81,benign,routine authentication
+AUTH-00923,2026-08-13T12:56:28Z,FILE-02,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.17.120,benign,routine authentication
+AUTH-01169,2026-08-13T12:58:48Z,FIN-WS-14,JUMP-01,ACME\mrivera,RDP,success,10.50.36.50,benign,routine authentication
+AUTH-00951,2026-08-13T12:58:52Z,APP-API-03,APP-API-02,ACME\jsmith,RDP,success,10.50.47.161,benign,routine authentication
+AUTH-01267,2026-08-13T13:01:06Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.20.29,benign,routine authentication
+AUTH-00142,2026-08-13T13:02:32Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.31.42,benign,routine authentication
+AUTH-00354,2026-08-13T13:16:06Z,APP-API-02,APP-API-03,ACME\svc_deploy,RDP,success,10.50.11.181,benign,routine authentication
+AUTH-00257,2026-08-13T13:18:42Z,FILE-02,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.20.91,benign,routine authentication
+AUTH-01325,2026-08-13T13:23:09Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.8.219,benign,routine authentication
+AUTH-00888,2026-08-13T13:38:14Z,APP-API-03,FIN-WS-14,ACME\mrivera,RDP,success,10.50.45.227,benign,routine authentication
+AUTH-01134,2026-08-13T14:02:06Z,APP-API-03,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.34.221,benign,routine authentication
+AUTH-00042,2026-08-13T14:12:37Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.20.31,benign,routine authentication
+AUTH-01032,2026-08-13T14:18:23Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,Kerberos,failure,10.50.19.103,benign,routine authentication
+AUTH-00514,2026-08-13T14:29:28Z,JUMP-01,FIN-WS-14,ACME\svc_backup,RDP,failure,10.50.28.190,benign,routine authentication
+AUTH-00955,2026-08-13T14:30:02Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.21.22,benign,routine authentication
+AUTH-00033,2026-08-13T14:36:05Z,FIN-WS-14,APP-API-03,ACME\jsmith,NTLM,success,10.50.2.70,benign,routine authentication
+AUTH-01021,2026-08-13T14:37:28Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.8.52,benign,routine authentication
+AUTH-01069,2026-08-13T14:37:58Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,RDP,success,10.50.21.97,benign,routine authentication
+AUTH-00897,2026-08-13T14:42:18Z,DEPLOY-01,APP-API-02,ACME\mrivera,RDP,failure,10.50.31.209,benign,routine authentication
+AUTH-00542,2026-08-13T14:53:48Z,DEPLOY-01,JUMP-01,ACME\svc_backup,WinRM,success,10.50.37.60,benign,routine authentication
+AUTH-01372,2026-08-13T14:59:44Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,Kerberos,success,10.50.7.11,benign,routine authentication
+AUTH-00304,2026-08-13T15:29:07Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.28.32,benign,routine authentication
+AUTH-00111,2026-08-13T15:31:45Z,APP-API-03,APP-API-02,ACME\mrivera,Kerberos,success,10.50.41.152,benign,routine authentication
+AUTH-01317,2026-08-13T15:36:56Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.14.14,benign,routine authentication
+AUTH-00593,2026-08-13T15:39:46Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,RDP,failure,10.50.10.120,benign,routine authentication
+AUTH-00135,2026-08-13T15:51:06Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,RDP,success,10.50.41.115,benign,routine authentication
+AUTH-00645,2026-08-13T15:52:30Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,NTLM,failure,10.50.44.189,benign,routine authentication
+AUTH-00298,2026-08-13T15:54:57Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.50.207,benign,routine authentication
+AUTH-00990,2026-08-13T16:14:14Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.30.193,benign,routine authentication
+AUTH-00225,2026-08-13T16:16:48Z,DEPLOY-01,JUMP-01,ACME\mrivera,WinRM,success,10.50.32.5,benign,routine authentication
+AUTH-00301,2026-08-13T16:19:31Z,APP-API-02,DEPLOY-01,ACME\jsmith,RDP,success,10.50.15.121,benign,routine authentication
+AUTH-00778,2026-08-13T16:34:17Z,FIN-WS-14,APP-API-03,ACME\svc_backup,NTLM,failure,10.50.25.174,benign,routine authentication
+AUTH-00750,2026-08-13T16:34:23Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.32.188,benign,routine authentication
+AUTH-00359,2026-08-13T16:40:21Z,FIN-WS-14,FILE-02,ACME\mrivera,RDP,success,10.50.4.158,benign,routine authentication
+AUTH-00481,2026-08-13T16:41:55Z,APP-API-02,APP-API-03,ACME\svc_backup,WinRM,success,10.50.14.59,benign,routine authentication
+AUTH-00908,2026-08-13T16:42:34Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,failure,10.50.4.128,benign,routine authentication
+AUTH-01089,2026-08-13T17:06:46Z,JUMP-01,APP-API-02,ACME\mrivera,NTLM,failure,10.50.15.131,benign,routine authentication
+AUTH-00561,2026-08-13T17:09:20Z,APP-API-03,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.49.111,benign,routine authentication
+AUTH-01271,2026-08-13T17:16:53Z,APP-API-02,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.36.129,benign,routine authentication
+AUTH-00314,2026-08-13T17:35:48Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,10.50.26.128,benign,routine authentication
+AUTH-01491,2026-08-13T17:41:10Z,APP-API-03,FIN-WS-14,ACME\svc_backup,Kerberos,failure,10.50.36.103,benign,routine authentication
+AUTH-00532,2026-08-13T17:43:37Z,APP-API-03,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.50.137,benign,routine authentication
+AUTH-01072,2026-08-13T17:51:28Z,FILE-02,DEPLOY-01,ACME\svc_backup,WinRM,success,10.50.4.105,benign,routine authentication
+AUTH-00313,2026-08-13T17:58:16Z,APP-API-03,FIN-WS-14,ACME\jsmith,Kerberos,success,10.50.28.50,benign,routine authentication
+AUTH-00272,2026-08-13T18:00:58Z,FILE-02,FILE-02,ACME\mrivera,WinRM,success,10.50.34.27,benign,routine authentication
+AUTH-01382,2026-08-13T18:01:46Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,NTLM,failure,10.50.44.42,benign,routine authentication
+AUTH-01484,2026-08-13T18:02:34Z,FILE-02,JUMP-01,ACME\mrivera,Kerberos,success,10.50.47.183,benign,routine authentication
+AUTH-01463,2026-08-13T18:16:03Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.9.148,benign,routine authentication
+AUTH-00305,2026-08-13T18:22:21Z,FILE-02,FIN-WS-14,ACME\jsmith,WinRM,success,10.50.3.187,benign,routine authentication
+AUTH-00673,2026-08-13T18:32:01Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,RDP,success,10.50.32.138,benign,routine authentication
+AUTH-00564,2026-08-13T18:40:58Z,APP-API-02,APP-API-02,ACME\svc_deploy,Kerberos,success,10.50.7.123,benign,routine authentication
+AUTH-01086,2026-08-13T18:42:01Z,APP-API-03,FILE-02,ACME\jsmith,NTLM,success,10.50.8.223,benign,routine authentication
+AUTH-00252,2026-08-13T18:52:38Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.32.192,benign,routine authentication
+AUTH-00931,2026-08-13T18:53:17Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.20.204,benign,routine authentication
+AUTH-01291,2026-08-13T18:58:57Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.7.107,benign,routine authentication
+AUTH-01357,2026-08-13T19:01:30Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.11.229,benign,routine authentication
+AUTH-00567,2026-08-13T19:07:49Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.11.2,benign,routine authentication
+AUTH-00290,2026-08-13T19:10:39Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.40.134,benign,routine authentication
+AUTH-00647,2026-08-13T19:13:38Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.29.43,benign,routine authentication
+AUTH-01274,2026-08-13T19:19:35Z,APP-API-03,JUMP-01,ACME\svc_backup,WinRM,success,10.50.9.48,benign,routine authentication
+AUTH-00738,2026-08-13T19:25:51Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.43.34,benign,routine authentication
+AUTH-00065,2026-08-13T19:28:04Z,FILE-02,FILE-02,ACME\jsmith,NTLM,success,10.50.12.34,benign,routine authentication
+AUTH-01144,2026-08-13T19:28:45Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.18.10,benign,routine authentication
+AUTH-00651,2026-08-13T19:29:33Z,DEPLOY-01,FILE-02,ACME\jsmith,RDP,success,10.50.38.78,benign,routine authentication
+AUTH-00222,2026-08-13T19:31:40Z,FIN-WS-14,JUMP-01,ACME\jsmith,RDP,failure,10.50.27.21,benign,routine authentication
+AUTH-00939,2026-08-13T19:40:39Z,APP-API-03,JUMP-01,ACME\jsmith,WinRM,success,10.50.45.204,benign,routine authentication
+AUTH-00028,2026-08-13T19:52:13Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.46.159,benign,routine authentication
+AUTH-00008,2026-08-13T20:17:34Z,FIN-WS-14,APP-API-03,ACME\svc_backup,RDP,success,10.50.46.112,benign,routine authentication
+AUTH-00539,2026-08-13T20:18:38Z,FILE-02,DEPLOY-01,ACME\svc_backup,WinRM,success,10.50.37.157,benign,routine authentication
+AUTH-00718,2026-08-13T20:26:56Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.46.73,benign,routine authentication
+AUTH-00605,2026-08-13T20:28:58Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,RDP,success,10.50.12.45,benign,routine authentication
+AUTH-00215,2026-08-13T20:31:45Z,JUMP-01,JUMP-01,ACME\svc_deploy,Kerberos,success,10.50.10.12,benign,routine authentication
+AUTH-01259,2026-08-13T20:43:14Z,APP-API-02,JUMP-01,ACME\svc_backup,RDP,failure,10.50.26.18,benign,routine authentication
+AUTH-00320,2026-08-13T20:43:47Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.42.200,benign,routine authentication
+AUTH-01426,2026-08-13T20:56:12Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.12.171,benign,routine authentication
+AUTH-00374,2026-08-13T20:56:44Z,APP-API-03,FIN-WS-14,ACME\svc_backup,NTLM,success,10.50.4.132,benign,routine authentication
+AUTH-00740,2026-08-13T21:13:17Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.8.160,benign,routine authentication
+AUTH-00302,2026-08-13T21:15:26Z,DEPLOY-01,APP-API-03,ACME\jsmith,Kerberos,failure,10.50.7.94,benign,routine authentication
+AUTH-00609,2026-08-13T21:16:29Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.8.216,benign,routine authentication
+AUTH-01323,2026-08-13T21:18:36Z,APP-API-02,JUMP-01,ACME\mrivera,WinRM,success,10.50.19.117,benign,routine authentication
+AUTH-00441,2026-08-13T21:24:37Z,APP-API-03,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.42.12,benign,routine authentication
+AUTH-00659,2026-08-13T21:33:02Z,FILE-02,APP-API-02,ACME\svc_deploy,NTLM,failure,10.50.36.60,benign,routine authentication
+AUTH-01155,2026-08-13T21:33:20Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.34.210,benign,routine authentication
+AUTH-00805,2026-08-13T21:36:05Z,APP-API-03,FIN-WS-14,ACME\svc_backup,NTLM,failure,10.50.41.106,benign,routine authentication
+AUTH-00849,2026-08-13T21:38:17Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,Kerberos,failure,10.50.45.234,benign,routine authentication
+AUTH-01410,2026-08-13T21:38:41Z,JUMP-01,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.30.191,benign,routine authentication
+AUTH-00578,2026-08-13T21:38:59Z,APP-API-02,APP-API-02,ACME\svc_backup,NTLM,success,10.50.46.216,benign,routine authentication
+AUTH-00024,2026-08-13T21:47:31Z,APP-API-03,FIN-WS-14,ACME\mrivera,RDP,success,10.50.32.80,benign,routine authentication
+AUTH-00911,2026-08-13T21:48:00Z,JUMP-01,APP-API-03,ACME\svc_backup,RDP,success,10.50.36.144,benign,routine authentication
+AUTH-00380,2026-08-13T21:53:06Z,APP-API-03,APP-API-02,ACME\mrivera,WinRM,success,10.50.50.93,benign,routine authentication
+AUTH-00489,2026-08-13T21:56:39Z,JUMP-01,FIN-WS-14,ACME\jsmith,NTLM,success,10.50.10.219,benign,routine authentication
+AUTH-00976,2026-08-13T21:56:46Z,FILE-02,APP-API-03,ACME\svc_backup,RDP,failure,10.50.26.16,benign,routine authentication
+AUTH-00365,2026-08-13T22:02:00Z,FIN-WS-14,APP-API-03,ACME\jsmith,Kerberos,success,10.50.5.147,benign,routine authentication
+AUTH-00634,2026-08-13T22:02:19Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,RDP,failure,10.50.8.28,benign,routine authentication
+AUTH-00047,2026-08-13T22:11:46Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.11.231,benign,routine authentication
+AUTH-00473,2026-08-13T22:34:36Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.46.129,benign,routine authentication
+AUTH-00332,2026-08-13T22:43:52Z,FILE-02,DEPLOY-01,ACME\svc_backup,WinRM,success,10.50.17.204,benign,routine authentication
+AUTH-00504,2026-08-13T22:47:29Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,10.50.29.218,benign,routine authentication
+AUTH-00216,2026-08-13T22:48:27Z,JUMP-01,FILE-02,ACME\jsmith,Kerberos,success,10.50.24.188,benign,routine authentication
+AUTH-01215,2026-08-13T22:56:05Z,APP-API-03,APP-API-02,ACME\svc_deploy,NTLM,failure,10.50.34.26,benign,routine authentication
+AUTH-01356,2026-08-13T22:59:41Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.5.108,benign,routine authentication
+AUTH-00876,2026-08-13T23:00:05Z,DEPLOY-01,APP-API-02,ACME\jsmith,WinRM,failure,10.50.22.25,benign,routine authentication
+AUTH-00725,2026-08-13T23:01:18Z,APP-API-03,APP-API-03,ACME\jsmith,WinRM,success,10.50.39.86,benign,routine authentication
+AUTH-00535,2026-08-13T23:02:48Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.2.98,benign,routine authentication
+AUTH-00089,2026-08-13T23:03:15Z,APP-API-03,APP-API-02,ACME\jsmith,WinRM,success,10.50.3.94,benign,routine authentication
+AUTH-01369,2026-08-13T23:06:41Z,DEPLOY-01,FILE-02,ACME\svc_deploy,WinRM,success,10.50.20.58,benign,routine authentication
+AUTH-00406,2026-08-13T23:16:05Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.22.17,benign,routine authentication
+AUTH-00566,2026-08-13T23:20:35Z,FILE-02,DEPLOY-01,ACME\jsmith,WinRM,success,10.50.21.213,benign,routine authentication
+AUTH-00069,2026-08-13T23:21:49Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.45.75,benign,routine authentication
+AUTH-00749,2026-08-13T23:41:05Z,APP-API-02,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.14.235,benign,routine authentication
+AUTH-00073,2026-08-13T23:48:09Z,APP-API-02,APP-API-02,ACME\jsmith,RDP,success,10.50.33.166,benign,routine authentication
+AUTH-00097,2026-08-13T23:49:48Z,FILE-02,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.5.144,benign,routine authentication
+AUTH-00025,2026-08-14T00:15:20Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.35.147,benign,routine authentication
+AUTH-00949,2026-08-14T00:15:45Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.7.220,benign,routine authentication
+AUTH-01367,2026-08-14T00:21:30Z,JUMP-01,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.41.146,benign,routine authentication
+AUTH-01030,2026-08-14T00:22:38Z,JUMP-01,FIN-WS-14,ACME\mrivera,Kerberos,failure,10.50.49.197,benign,routine authentication
+AUTH-00011,2026-08-14T00:25:30Z,DEPLOY-01,APP-API-02,ACME\mrivera,WinRM,success,10.50.42.37,benign,routine authentication
+AUTH-00784,2026-08-14T00:27:37Z,APP-API-02,FILE-02,ACME\svc_deploy,RDP,failure,10.50.16.161,benign,routine authentication
+AUTH-00312,2026-08-14T00:28:23Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,Kerberos,success,10.50.12.65,benign,routine authentication
+AUTH-00386,2026-08-14T00:30:19Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.16.211,benign,routine authentication
+AUTH-01153,2026-08-14T00:36:38Z,FILE-02,APP-API-03,ACME\svc_deploy,RDP,success,10.50.37.200,benign,routine authentication
+AUTH-00201,2026-08-14T00:38:46Z,DEPLOY-01,APP-API-02,ACME\mrivera,Kerberos,success,10.50.13.72,benign,routine authentication
+AUTH-01266,2026-08-14T00:42:01Z,DEPLOY-01,FILE-02,ACME\jsmith,NTLM,success,10.50.23.85,benign,routine authentication
+AUTH-00591,2026-08-14T00:48:40Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.41.199,benign,routine authentication
+AUTH-00620,2026-08-14T01:10:39Z,APP-API-03,APP-API-02,ACME\jsmith,Kerberos,success,10.50.29.183,benign,routine authentication
+AUTH-00759,2026-08-14T01:20:28Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.30.218,benign,routine authentication
+AUTH-00113,2026-08-14T01:24:13Z,JUMP-01,FIN-WS-14,ACME\svc_backup,RDP,failure,10.50.41.61,benign,routine authentication
+AUTH-01268,2026-08-14T01:35:17Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.41.14,benign,routine authentication
+AUTH-00838,2026-08-14T01:36:54Z,JUMP-01,FIN-WS-14,ACME\mrivera,Kerberos,failure,10.50.28.49,benign,routine authentication
+AUTH-01320,2026-08-14T01:47:33Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.38.99,benign,routine authentication
+AUTH-01453,2026-08-14T01:59:26Z,JUMP-01,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.34.178,benign,routine authentication
+AUTH-00382,2026-08-14T02:17:57Z,APP-API-03,APP-API-02,ACME\svc_backup,RDP,success,10.50.6.19,benign,routine authentication
+AUTH-00002,2026-08-14T02:19:57Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,Kerberos,failure,10.50.18.204,benign,routine authentication
+AUTH-00318,2026-08-14T02:22:19Z,DEPLOY-01,APP-API-03,ACME\svc_backup,WinRM,success,10.50.2.235,benign,routine authentication
+AUTH-01138,2026-08-14T02:29:10Z,FILE-02,APP-API-02,ACME\svc_backup,WinRM,success,10.50.4.147,benign,routine authentication
+AUTH-00896,2026-08-14T02:29:17Z,JUMP-01,FILE-02,ACME\svc_deploy,NTLM,success,10.50.29.10,benign,routine authentication
+AUTH-00522,2026-08-14T02:34:26Z,APP-API-03,FILE-02,ACME\jsmith,WinRM,success,10.50.30.178,benign,routine authentication
+AUTH-01344,2026-08-14T02:45:41Z,FIN-WS-14,FILE-02,ACME\svc_backup,RDP,success,10.50.14.107,benign,routine authentication
+AUTH-00066,2026-08-14T02:46:04Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,success,10.50.2.71,benign,routine authentication
+AUTH-01393,2026-08-14T03:04:33Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.29.72,benign,routine authentication
+AUTH-00680,2026-08-14T03:13:00Z,JUMP-01,FIN-WS-14,ACME\svc_backup,Kerberos,failure,10.50.13.128,benign,routine authentication
+AUTH-01406,2026-08-14T03:17:42Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,WinRM,failure,10.50.23.102,benign,routine authentication
+AUTH-00643,2026-08-14T03:17:51Z,JUMP-01,JUMP-01,ACME\svc_deploy,RDP,success,10.50.33.227,benign,routine authentication
+AUTH-00343,2026-08-14T03:23:04Z,FILE-02,DEPLOY-01,ACME\svc_deploy,Kerberos,success,10.50.39.38,benign,routine authentication
+AUTH-00617,2026-08-14T03:28:20Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.2.214,benign,routine authentication
+AUTH-01232,2026-08-14T03:37:16Z,DEPLOY-01,JUMP-01,ACME\mrivera,NTLM,success,10.50.41.110,benign,routine authentication
+AUTH-01163,2026-08-14T03:41:47Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,WinRM,success,10.50.7.82,benign,routine authentication
+AUTH-00795,2026-08-14T03:50:27Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.32.50,benign,routine authentication
+AUTH-01077,2026-08-14T04:03:26Z,JUMP-01,DEPLOY-01,ACME\jsmith,Kerberos,failure,10.50.11.151,benign,routine authentication
+AUTH-00693,2026-08-14T04:11:10Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.37.2,benign,routine authentication
+AUTH-01286,2026-08-14T04:17:25Z,FIN-WS-14,JUMP-01,ACME\svc_backup,WinRM,success,10.50.20.12,benign,routine authentication
+AUTH-01129,2026-08-14T04:18:12Z,FILE-02,FILE-02,ACME\svc_backup,WinRM,success,10.50.10.196,benign,routine authentication
+AUTH-00655,2026-08-14T04:41:48Z,FILE-02,JUMP-01,ACME\svc_deploy,NTLM,success,10.50.2.176,benign,routine authentication
+AUTH-00781,2026-08-14T04:47:41Z,APP-API-03,FIN-WS-14,ACME\jsmith,NTLM,success,10.50.3.232,benign,routine authentication
+AUTH-00321,2026-08-14T04:56:46Z,JUMP-01,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.37.98,benign,routine authentication
+AUTH-00345,2026-08-14T05:15:04Z,DEPLOY-01,FILE-02,ACME\jsmith,RDP,success,10.50.19.35,benign,routine authentication
+AUTH-00768,2026-08-14T05:18:21Z,APP-API-03,APP-API-03,ACME\jsmith,WinRM,success,10.50.9.206,benign,routine authentication
+AUTH-01255,2026-08-14T05:23:30Z,DEPLOY-01,APP-API-03,ACME\mrivera,WinRM,success,10.50.12.23,benign,routine authentication
+AUTH-00563,2026-08-14T05:32:09Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,RDP,success,10.50.32.80,benign,routine authentication
+AUTH-01348,2026-08-14T05:37:05Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.22.119,benign,routine authentication
+AUTH-01024,2026-08-14T05:41:04Z,FILE-02,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.24.181,benign,routine authentication
+AUTH-00490,2026-08-14T05:43:33Z,FILE-02,APP-API-03,ACME\mrivera,Kerberos,success,10.50.33.97,benign,routine authentication
+AUTH-00060,2026-08-14T05:44:08Z,FIN-WS-14,JUMP-01,ACME\jsmith,RDP,success,10.50.12.100,benign,routine authentication
+AUTH-01294,2026-08-14T05:45:23Z,APP-API-02,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.33.184,benign,routine authentication
+AUTH-00466,2026-08-14T05:47:26Z,FILE-02,FILE-02,ACME\jsmith,Kerberos,success,10.50.41.6,benign,routine authentication
+AUTH-01020,2026-08-14T05:55:32Z,FILE-02,FILE-02,ACME\svc_deploy,WinRM,success,10.50.35.218,benign,routine authentication
+AUTH-00326,2026-08-14T05:58:47Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.10.86,benign,routine authentication
+AUTH-00475,2026-08-14T06:14:56Z,DEPLOY-01,JUMP-01,ACME\mrivera,RDP,success,10.50.47.191,benign,routine authentication
+AUTH-00307,2026-08-14T06:24:22Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.32.73,benign,routine authentication
+AUTH-01124,2026-08-14T06:50:12Z,APP-API-03,FILE-02,ACME\svc_deploy,Kerberos,success,10.50.25.82,benign,routine authentication
+AUTH-01059,2026-08-14T06:51:26Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,Kerberos,failure,10.50.42.236,benign,routine authentication
+AUTH-00883,2026-08-14T07:09:04Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,Kerberos,success,10.50.4.139,benign,routine authentication
+AUTH-00092,2026-08-14T07:14:01Z,APP-API-02,APP-API-03,ACME\jsmith,Kerberos,success,10.50.15.66,benign,routine authentication
+AUTH-01170,2026-08-14T07:14:26Z,DEPLOY-01,JUMP-01,ACME\jsmith,WinRM,failure,10.50.35.145,benign,routine authentication
+AUTH-00499,2026-08-14T07:22:48Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.24.178,benign,routine authentication
+AUTH-01285,2026-08-14T07:26:38Z,JUMP-01,APP-API-02,ACME\svc_backup,WinRM,success,10.50.17.169,benign,routine authentication
+AUTH-00970,2026-08-14T07:27:09Z,DEPLOY-01,APP-API-03,ACME\mrivera,Kerberos,success,10.50.6.161,benign,routine authentication
+AUTH-00235,2026-08-14T07:28:15Z,DEPLOY-01,FILE-02,ACME\jsmith,WinRM,failure,10.50.13.206,benign,routine authentication
+AUTH-01201,2026-08-14T07:39:45Z,DEPLOY-01,APP-API-02,ACME\svc_backup,RDP,success,10.50.11.238,benign,routine authentication
+AUTH-00943,2026-08-14T07:45:28Z,DEPLOY-01,APP-API-03,ACME\svc_backup,WinRM,success,10.50.20.160,benign,routine authentication
+AUTH-01187,2026-08-14T07:46:03Z,APP-API-03,APP-API-03,ACME\jsmith,Kerberos,success,10.50.27.216,benign,routine authentication
+AUTH-01408,2026-08-14T07:50:16Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.16.90,benign,routine authentication
+AUTH-00202,2026-08-14T07:52:13Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.8.206,benign,routine authentication
+AUTH-00173,2026-08-14T07:54:34Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.12.164,benign,routine authentication
+AUTH-01416,2026-08-14T08:06:19Z,DEPLOY-01,DEPLOY-01,ACME\svc_backup,NTLM,failure,10.50.32.29,benign,routine authentication
+AUTH-00281,2026-08-14T08:10:51Z,FIN-WS-14,FILE-02,ACME\jsmith,Kerberos,success,10.50.40.121,benign,routine authentication
+AUTH-00213,2026-08-14T08:14:38Z,APP-API-02,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.2.75,benign,routine authentication
+AUTH-01455,2026-08-14T08:22:14Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.14.88,benign,routine authentication
+AUTH-00913,2026-08-14T08:23:16Z,APP-API-03,JUMP-01,ACME\mrivera,NTLM,success,10.50.40.112,benign,routine authentication
+AUTH-00884,2026-08-14T08:29:21Z,APP-API-03,FIN-WS-14,ACME\jsmith,NTLM,failure,10.50.17.21,benign,routine authentication
+AUTH-00029,2026-08-14T08:36:05Z,APP-API-02,DEPLOY-01,ACME\jsmith,WinRM,failure,10.50.11.239,benign,routine authentication
+AUTH-01003,2026-08-14T08:42:25Z,DEPLOY-01,FILE-02,ACME\svc_deploy,RDP,success,10.50.10.104,benign,routine authentication
+AUTH-00166,2026-08-14T08:50:31Z,JUMP-01,APP-API-02,ACME\mrivera,RDP,success,10.50.24.234,benign,routine authentication
+AUTH-01464,2026-08-14T08:55:47Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,success,10.50.33.81,benign,routine authentication
+AUTH-01142,2026-08-14T08:57:46Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.45.155,benign,routine authentication
+AUTH-01346,2026-08-14T09:02:32Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.50.11,benign,routine authentication
+AUTH-00746,2026-08-14T09:02:55Z,APP-API-03,APP-API-02,ACME\svc_deploy,WinRM,success,10.50.11.147,benign,routine authentication
+AUTH-00735,2026-08-14T09:03:10Z,FILE-02,APP-API-02,ACME\mrivera,RDP,success,10.50.50.173,benign,routine authentication
+AUTH-00487,2026-08-14T09:04:26Z,FILE-02,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.42.202,benign,routine authentication
+AUTH-00621,2026-08-14T09:06:55Z,FIN-WS-14,JUMP-01,ACME\mrivera,Kerberos,failure,10.50.18.7,benign,routine authentication
+AUTH-01239,2026-08-14T09:11:44Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,Kerberos,failure,10.50.49.144,benign,routine authentication
+AUTH-00843,2026-08-14T09:12:12Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.46.230,benign,routine authentication
+AUTH-00541,2026-08-14T09:29:44Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,NTLM,success,10.50.1.142,benign,routine authentication
+AUTH-00967,2026-08-14T09:42:54Z,APP-API-03,FILE-02,ACME\svc_backup,RDP,success,10.50.49.94,benign,routine authentication
+AUTH-01368,2026-08-14T09:47:56Z,APP-API-03,JUMP-01,ACME\mrivera,Kerberos,success,10.50.31.125,benign,routine authentication
+AUTH-00437,2026-08-14T09:48:10Z,DEPLOY-01,APP-API-03,ACME\svc_backup,NTLM,failure,10.50.25.152,benign,routine authentication
+AUTH-00171,2026-08-14T09:50:34Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.20.158,benign,routine authentication
+AUTH-00403,2026-08-14T09:57:08Z,FILE-02,FIN-WS-14,ACME\mrivera,NTLM,failure,10.50.7.171,benign,routine authentication
+AUTH-00076,2026-08-14T09:58:23Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.24.194,benign,routine authentication
+AUTH-00968,2026-08-14T10:00:41Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,RDP,failure,10.50.11.65,benign,routine authentication
+AUTH-01084,2026-08-14T10:04:27Z,JUMP-01,JUMP-01,ACME\mrivera,Kerberos,success,10.50.20.204,benign,routine authentication
+AUTH-00683,2026-08-14T10:07:40Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.14.199,benign,routine authentication
+AUTH-00274,2026-08-14T10:07:49Z,APP-API-02,FILE-02,ACME\svc_backup,WinRM,success,10.50.5.152,benign,routine authentication
+AUTH-00624,2026-08-14T10:09:18Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.22.169,benign,routine authentication
+AUTH-00892,2026-08-14T10:11:39Z,APP-API-02,APP-API-02,ACME\svc_backup,RDP,success,10.50.48.238,benign,routine authentication
+AUTH-01062,2026-08-14T10:13:31Z,APP-API-02,APP-API-02,ACME\mrivera,WinRM,success,10.50.19.197,benign,routine authentication
+AUTH-01345,2026-08-14T10:22:42Z,APP-API-03,FIN-WS-14,ACME\svc_backup,NTLM,success,10.50.14.95,benign,routine authentication
+AUTH-01422,2026-08-14T10:28:35Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,success,10.50.42.73,benign,routine authentication
+AUTH-01229,2026-08-14T10:32:23Z,APP-API-03,JUMP-01,ACME\svc_backup,NTLM,success,10.50.36.118,benign,routine authentication
+AUTH-00420,2026-08-14T10:38:53Z,JUMP-01,APP-API-03,ACME\mrivera,RDP,success,10.50.20.118,benign,routine authentication
+AUTH-00644,2026-08-14T10:42:25Z,JUMP-01,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.41.171,benign,routine authentication
+AUTH-01060,2026-08-14T10:45:56Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.25.218,benign,routine authentication
+AUTH-00366,2026-08-14T10:47:59Z,APP-API-03,FIN-WS-14,ACME\jsmith,WinRM,failure,10.50.11.138,benign,routine authentication
+AUTH-00296,2026-08-14T10:48:36Z,APP-API-03,FILE-02,ACME\svc_backup,RDP,success,10.50.40.61,benign,routine authentication
+AUTH-01388,2026-08-14T10:51:32Z,DEPLOY-01,FILE-02,ACME\mrivera,Kerberos,success,10.50.20.189,benign,routine authentication
+AUTH-00709,2026-08-14T10:53:38Z,APP-API-03,FILE-02,ACME\svc_backup,NTLM,success,10.50.21.186,benign,routine authentication
+AUTH-00108,2026-08-14T10:53:57Z,FILE-02,APP-API-02,ACME\svc_backup,RDP,failure,10.50.15.216,benign,routine authentication
+AUTH-01281,2026-08-14T11:01:21Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.7.108,benign,routine authentication
+AUTH-00798,2026-08-14T11:07:28Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.17.70,benign,routine authentication
+AUTH-00691,2026-08-14T11:12:55Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,failure,10.50.26.143,benign,routine authentication
+AUTH-00669,2026-08-14T11:14:10Z,DEPLOY-01,FILE-02,ACME\svc_deploy,Kerberos,success,10.50.19.200,benign,routine authentication
+AUTH-00665,2026-08-14T11:26:06Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.26.223,benign,routine authentication
+AUTH-00857,2026-08-14T11:36:08Z,APP-API-02,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.34.221,benign,routine authentication
+AUTH-01148,2026-08-14T11:43:33Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,10.50.23.83,benign,routine authentication
+AUTH-00197,2026-08-14T11:59:53Z,JUMP-01,DEPLOY-01,ACME\svc_backup,WinRM,success,10.50.26.61,benign,routine authentication
+AUTH-00048,2026-08-14T12:11:11Z,DEPLOY-01,FILE-02,ACME\mrivera,NTLM,success,10.50.37.109,benign,routine authentication
+AUTH-00720,2026-08-14T12:11:50Z,DEPLOY-01,JUMP-01,ACME\svc_backup,WinRM,success,10.50.9.181,benign,routine authentication
+AUTH-01361,2026-08-14T12:20:47Z,APP-API-03,APP-API-02,ACME\jsmith,NTLM,failure,10.50.26.20,benign,routine authentication
+AUTH-01016,2026-08-14T12:37:37Z,APP-API-03,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.5.168,benign,routine authentication
+AUTH-00623,2026-08-14T12:41:33Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,RDP,success,10.50.40.23,benign,routine authentication
+AUTH-01358,2026-08-14T12:43:49Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,success,10.50.15.18,benign,routine authentication
+AUTH-01387,2026-08-14T12:59:21Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.3.177,benign,routine authentication
+AUTH-00889,2026-08-14T13:01:26Z,APP-API-03,FIN-WS-14,ACME\mrivera,WinRM,success,10.50.7.9,benign,routine authentication
+AUTH-00613,2026-08-14T13:05:58Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.9.46,benign,routine authentication
+AUTH-01402,2026-08-14T13:15:16Z,APP-API-03,FILE-02,ACME\mrivera,WinRM,success,10.50.28.12,benign,routine authentication
+AUTH-00346,2026-08-14T13:15:36Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.12.71,benign,routine authentication
+AUTH-00500,2026-08-14T13:24:04Z,APP-API-02,APP-API-03,ACME\svc_backup,NTLM,success,10.50.33.57,benign,routine authentication
+AUTH-01182,2026-08-14T13:26:25Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.8.179,benign,routine authentication
+AUTH-00676,2026-08-14T13:27:14Z,JUMP-01,APP-API-03,ACME\jsmith,RDP,success,10.50.48.135,benign,routine authentication
+AUTH-00214,2026-08-14T13:31:14Z,JUMP-01,FILE-02,ACME\jsmith,Kerberos,failure,10.50.11.21,benign,routine authentication
+AUTH-00995,2026-08-14T13:33:08Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,NTLM,failure,10.50.12.213,benign,routine authentication
+AUTH-00295,2026-08-14T13:38:38Z,JUMP-01,FILE-02,ACME\svc_deploy,NTLM,success,10.50.24.16,benign,routine authentication
+AUTH-00098,2026-08-14T13:38:59Z,DEPLOY-01,APP-API-03,ACME\jsmith,RDP,success,10.50.15.230,benign,routine authentication
+AUTH-00276,2026-08-14T13:40:30Z,APP-API-03,APP-API-02,ACME\svc_deploy,WinRM,failure,10.50.39.117,benign,routine authentication
+AUTH-00103,2026-08-14T13:47:41Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.47.30,benign,routine authentication
+AUTH-00031,2026-08-14T13:50:21Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,success,10.50.23.226,benign,routine authentication
+AUTH-00921,2026-08-14T13:52:13Z,FILE-02,APP-API-03,ACME\svc_backup,RDP,failure,10.50.48.134,benign,routine authentication
+AUTH-01279,2026-08-14T14:08:46Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.48.21,benign,routine authentication
+AUTH-01107,2026-08-14T14:13:26Z,APP-API-03,APP-API-03,ACME\svc_backup,RDP,failure,10.50.5.139,benign,routine authentication
+AUTH-00315,2026-08-14T14:16:03Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.13.148,benign,routine authentication
+AUTH-00682,2026-08-14T14:17:49Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.22.38,benign,routine authentication
+AUTH-00109,2026-08-14T14:21:24Z,FIN-WS-14,APP-API-03,ACME\svc_backup,NTLM,success,10.50.18.236,benign,routine authentication
+AUTH-00944,2026-08-14T14:23:48Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,WinRM,success,10.50.38.169,benign,routine authentication
+AUTH-01226,2026-08-14T14:38:37Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,success,10.50.48.152,benign,routine authentication
+AUTH-00701,2026-08-14T14:47:27Z,APP-API-02,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.24.212,benign,routine authentication
+AUTH-00219,2026-08-14T14:47:28Z,APP-API-02,APP-API-02,ACME\mrivera,WinRM,success,10.50.21.240,benign,routine authentication
+AUTH-00455,2026-08-14T14:49:31Z,FIN-WS-14,FILE-02,ACME\jsmith,WinRM,success,10.50.48.29,benign,routine authentication
+AUTH-00764,2026-08-14T15:01:03Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.23.122,benign,routine authentication
+AUTH-00357,2026-08-14T15:02:02Z,FIN-WS-14,FILE-02,ACME\svc_deploy,Kerberos,success,10.50.45.36,benign,routine authentication
+AUTH-00175,2026-08-14T15:04:49Z,FILE-02,DEPLOY-01,ACME\jsmith,RDP,failure,10.50.30.54,benign,routine authentication
+AUTH-00162,2026-08-14T15:12:02Z,APP-API-03,APP-API-03,ACME\mrivera,WinRM,success,10.50.32.149,benign,routine authentication
+AUTH-00407,2026-08-14T15:13:48Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.41.120,benign,routine authentication
+AUTH-00872,2026-08-14T15:19:45Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.38.37,benign,routine authentication
+AUTH-00551,2026-08-14T15:40:31Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.3.133,benign,routine authentication
+AUTH-01006,2026-08-14T15:40:42Z,APP-API-03,FILE-02,ACME\mrivera,NTLM,success,10.50.38.176,benign,routine authentication
+AUTH-00761,2026-08-14T15:52:31Z,DEPLOY-01,JUMP-01,ACME\svc_backup,RDP,success,10.50.17.187,benign,routine authentication
+AUTH-00765,2026-08-14T15:53:31Z,FIN-WS-14,APP-API-03,ACME\mrivera,RDP,success,10.50.21.199,benign,routine authentication
+AUTH-00159,2026-08-14T16:00:30Z,FIN-WS-14,DEPLOY-01,ACME\jsmith,NTLM,success,10.50.35.192,benign,routine authentication
+AUTH-00080,2026-08-14T16:02:44Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.10.69,benign,routine authentication
+AUTH-00270,2026-08-14T16:09:47Z,FILE-02,JUMP-01,ACME\jsmith,RDP,success,10.50.33.155,benign,routine authentication
+AUTH-01210,2026-08-14T16:13:05Z,FIN-WS-14,FILE-02,ACME\svc_backup,Kerberos,success,10.50.47.44,benign,routine authentication
+AUTH-01159,2026-08-14T16:22:11Z,DEPLOY-01,APP-API-03,ACME\mrivera,RDP,success,10.50.33.112,benign,routine authentication
+AUTH-00492,2026-08-14T16:25:36Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,NTLM,success,10.50.19.137,benign,routine authentication
+AUTH-00429,2026-08-14T16:27:39Z,JUMP-01,DEPLOY-01,ACME\svc_backup,Kerberos,success,10.50.49.164,benign,routine authentication
+AUTH-01160,2026-08-14T16:36:41Z,APP-API-03,APP-API-03,ACME\mrivera,WinRM,success,10.50.39.173,benign,routine authentication
+AUTH-00743,2026-08-14T16:42:55Z,FILE-02,JUMP-01,ACME\svc_deploy,RDP,success,10.50.23.45,benign,routine authentication
+AUTH-00180,2026-08-14T16:43:07Z,JUMP-01,FIN-WS-14,ACME\svc_backup,RDP,success,10.50.31.136,benign,routine authentication
+AUTH-01437,2026-08-14T16:43:37Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.48.239,benign,routine authentication
+AUTH-00248,2026-08-14T16:46:25Z,FILE-02,APP-API-03,ACME\mrivera,NTLM,success,10.50.9.230,benign,routine authentication
+AUTH-00933,2026-08-14T16:46:25Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,Kerberos,failure,10.50.8.64,benign,routine authentication
+AUTH-00488,2026-08-14T16:49:09Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.21.38,benign,routine authentication
+AUTH-00991,2026-08-14T16:49:10Z,APP-API-02,JUMP-01,ACME\svc_backup,WinRM,success,10.50.44.45,benign,routine authentication
+AUTH-01019,2026-08-14T16:56:42Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.36.49,benign,routine authentication
+AUTH-00549,2026-08-14T16:59:37Z,JUMP-01,FIN-WS-14,ACME\mrivera,WinRM,success,10.50.7.138,benign,routine authentication
+AUTH-00807,2026-08-14T16:59:48Z,FILE-02,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.11.163,benign,routine authentication
+AUTH-00513,2026-08-14T17:03:11Z,FIN-WS-14,FILE-02,ACME\mrivera,WinRM,success,10.50.2.176,benign,routine authentication
+AUTH-01326,2026-08-14T17:12:11Z,APP-API-03,JUMP-01,ACME\jsmith,RDP,failure,10.50.12.129,benign,routine authentication
+AUTH-01256,2026-08-14T17:12:16Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,success,10.50.46.222,benign,routine authentication
+AUTH-00866,2026-08-14T17:14:06Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,RDP,failure,10.50.28.135,benign,routine authentication
+AUTH-01013,2026-08-14T17:14:36Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,RDP,success,10.50.8.230,benign,routine authentication
+AUTH-00695,2026-08-14T17:17:44Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,success,10.50.32.221,benign,routine authentication
+AUTH-00946,2026-08-14T17:23:35Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.5.82,benign,routine authentication
+AUTH-00005,2026-08-14T17:26:10Z,FIN-WS-14,FILE-02,ACME\svc_deploy,WinRM,success,10.50.50.3,benign,routine authentication
+AUTH-00150,2026-08-14T17:27:41Z,JUMP-01,APP-API-03,ACME\svc_backup,WinRM,failure,10.50.3.195,benign,routine authentication
+AUTH-00772,2026-08-14T17:40:05Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.18.48,benign,routine authentication
+AUTH-01076,2026-08-14T17:45:43Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.37.184,benign,routine authentication
+AUTH-00293,2026-08-14T17:51:35Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.31.51,benign,routine authentication
+AUTH-00493,2026-08-14T17:52:09Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.3.217,benign,routine authentication
+AUTH-00137,2026-08-14T17:53:03Z,APP-API-03,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.25.108,benign,routine authentication
+AUTH-01103,2026-08-14T18:03:29Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.12.93,benign,routine authentication
+AUTH-00656,2026-08-14T18:06:29Z,APP-API-02,JUMP-01,ACME\jsmith,RDP,success,10.50.8.58,benign,routine authentication
+AUTH-01000,2026-08-14T18:12:19Z,FIN-WS-14,APP-API-03,ACME\jsmith,RDP,success,10.50.44.3,benign,routine authentication
+AUTH-01042,2026-08-14T18:16:34Z,JUMP-01,FILE-02,ACME\svc_deploy,Kerberos,success,10.50.13.230,benign,routine authentication
+AUTH-00221,2026-08-14T18:31:55Z,DEPLOY-01,APP-API-02,ACME\jsmith,RDP,failure,10.50.9.205,benign,routine authentication
+AUTH-00055,2026-08-14T18:41:21Z,DEPLOY-01,JUMP-01,ACME\jsmith,NTLM,success,10.50.5.238,benign,routine authentication
+AUTH-00598,2026-08-14T18:44:24Z,FIN-WS-14,APP-API-02,ACME\svc_backup,WinRM,success,10.50.47.14,benign,routine authentication
+AUTH-00199,2026-08-14T18:45:06Z,JUMP-01,JUMP-01,ACME\svc_backup,NTLM,failure,10.50.28.25,benign,routine authentication
+AUTH-01104,2026-08-14T18:57:12Z,JUMP-01,APP-API-02,ACME\svc_deploy,NTLM,failure,10.50.28.72,benign,routine authentication
+AUTH-01116,2026-08-14T18:58:03Z,FILE-02,JUMP-01,ACME\mrivera,NTLM,failure,10.50.41.78,benign,routine authentication
+AUTH-00979,2026-08-14T19:01:44Z,JUMP-01,APP-API-03,ACME\mrivera,NTLM,failure,10.50.18.121,benign,routine authentication
+AUTH-00844,2026-08-14T19:02:23Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.25.167,benign,routine authentication
+AUTH-01494,2026-08-14T19:08:05Z,APP-API-03,FILE-02,ACME\mrivera,Kerberos,success,10.50.1.71,benign,routine authentication
+AUTH-01466,2026-08-14T19:09:04Z,DEPLOY-01,FILE-02,ACME\mrivera,WinRM,success,10.50.13.15,benign,routine authentication
+AUTH-01214,2026-08-14T19:18:07Z,FIN-WS-14,FILE-02,ACME\jsmith,Kerberos,success,10.50.37.48,benign,routine authentication
+AUTH-00586,2026-08-14T19:28:19Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.14.45,benign,routine authentication
+AUTH-00491,2026-08-14T19:32:46Z,FILE-02,DEPLOY-01,ACME\svc_backup,NTLM,success,10.50.20.199,benign,routine authentication
+AUTH-01253,2026-08-14T19:36:10Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.45.165,benign,routine authentication
+AUTH-01154,2026-08-14T19:55:28Z,FILE-02,APP-API-03,ACME\svc_backup,NTLM,success,10.50.5.151,benign,routine authentication
+AUTH-00036,2026-08-14T19:56:26Z,APP-API-03,FIN-WS-14,ACME\svc_backup,Kerberos,failure,10.50.34.137,benign,routine authentication
+AUTH-01488,2026-08-14T20:01:42Z,APP-API-02,DEPLOY-01,ACME\svc_backup,WinRM,success,10.50.31.54,benign,routine authentication
+AUTH-01100,2026-08-14T20:16:32Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.42.75,benign,routine authentication
+AUTH-00879,2026-08-14T20:20:42Z,APP-API-02,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.5.131,benign,routine authentication
+AUTH-00685,2026-08-14T20:27:16Z,FIN-WS-14,APP-API-02,ACME\jsmith,Kerberos,success,10.50.24.124,benign,routine authentication
+AUTH-01495,2026-08-14T20:29:05Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.1.237,benign,routine authentication
+AUTH-00193,2026-08-14T20:32:26Z,APP-API-03,FILE-02,ACME\mrivera,RDP,failure,10.50.20.84,benign,routine authentication
+AUTH-01091,2026-08-14T20:34:21Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,10.50.25.131,benign,routine authentication
+AUTH-01351,2026-08-14T20:36:05Z,DEPLOY-01,FILE-02,ACME\mrivera,RDP,success,10.50.25.212,benign,routine authentication
+AUTH-00434,2026-08-14T20:43:21Z,APP-API-02,APP-API-02,ACME\svc_backup,RDP,success,10.50.15.153,benign,routine authentication
+AUTH-01342,2026-08-14T20:44:10Z,FILE-02,JUMP-01,ACME\jsmith,RDP,success,10.50.5.165,benign,routine authentication
+AUTH-01263,2026-08-14T20:45:58Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.9.54,benign,routine authentication
+AUTH-00978,2026-08-14T20:55:23Z,DEPLOY-01,APP-API-02,ACME\svc_backup,NTLM,failure,10.50.34.76,benign,routine authentication
+AUTH-00737,2026-08-14T20:58:27Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,NTLM,failure,10.50.50.77,benign,routine authentication
+AUTH-00635,2026-08-14T21:07:09Z,DEPLOY-01,JUMP-01,ACME\jsmith,WinRM,success,10.50.49.214,benign,routine authentication
+AUTH-01036,2026-08-14T21:08:45Z,FILE-02,JUMP-01,ACME\mrivera,RDP,failure,10.50.14.122,benign,routine authentication
+AUTH-00093,2026-08-14T21:23:08Z,JUMP-01,APP-API-03,ACME\jsmith,WinRM,failure,10.50.2.167,benign,routine authentication
+AUTH-00230,2026-08-14T21:24:00Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,NTLM,success,10.50.12.165,benign,routine authentication
+AUTH-00090,2026-08-14T21:28:58Z,JUMP-01,APP-API-03,ACME\mrivera,RDP,success,10.50.33.56,benign,routine authentication
+AUTH-01278,2026-08-14T21:33:40Z,APP-API-02,FIN-WS-14,ACME\svc_backup,RDP,success,10.50.23.157,benign,routine authentication
+AUTH-00731,2026-08-14T21:34:57Z,APP-API-03,JUMP-01,ACME\svc_backup,WinRM,failure,10.50.21.182,benign,routine authentication
+AUTH-00812,2026-08-14T21:36:32Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.27.23,benign,routine authentication
+AUTH-00787,2026-08-14T21:39:13Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.25.116,benign,routine authentication
+AUTH-00393,2026-08-14T21:41:09Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.34.190,benign,routine authentication
+AUTH-00788,2026-08-14T21:44:19Z,DEPLOY-01,JUMP-01,ACME\jsmith,NTLM,success,10.50.47.145,benign,routine authentication
+AUTH-01071,2026-08-14T21:48:46Z,DEPLOY-01,JUMP-01,ACME\jsmith,Kerberos,success,10.50.31.3,benign,routine authentication
+AUTH-01411,2026-08-14T21:57:02Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.32.154,benign,routine authentication
+AUTH-01409,2026-08-14T22:03:30Z,JUMP-01,FIN-WS-14,ACME\mrivera,WinRM,success,10.50.50.233,benign,routine authentication
+AUTH-00143,2026-08-14T22:06:51Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.29.90,benign,routine authentication
+AUTH-00190,2026-08-14T22:09:23Z,JUMP-01,JUMP-01,ACME\svc_backup,Kerberos,success,10.50.49.76,benign,routine authentication
+AUTH-00140,2026-08-14T22:15:48Z,APP-API-02,APP-API-02,ACME\jsmith,Kerberos,success,10.50.18.13,benign,routine authentication
+AUTH-00259,2026-08-14T22:29:43Z,APP-API-03,JUMP-01,ACME\jsmith,WinRM,failure,10.50.44.231,benign,routine authentication
+AUTH-00859,2026-08-14T22:33:23Z,JUMP-01,DEPLOY-01,ACME\mrivera,RDP,success,10.50.40.92,benign,routine authentication
+AUTH-01199,2026-08-14T22:35:31Z,JUMP-01,APP-API-02,ACME\svc_backup,RDP,failure,10.50.19.226,benign,routine authentication
+AUTH-01311,2026-08-14T22:36:57Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,success,10.50.25.230,benign,routine authentication
+AUTH-00192,2026-08-14T22:42:21Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.7.159,benign,routine authentication
+AUTH-00706,2026-08-14T22:46:29Z,JUMP-01,APP-API-02,ACME\svc_deploy,Kerberos,failure,10.50.35.92,benign,routine authentication
+AUTH-01186,2026-08-14T22:53:22Z,APP-API-02,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.45.137,benign,routine authentication
+AUTH-01363,2026-08-14T22:58:03Z,JUMP-01,APP-API-02,ACME\svc_deploy,WinRM,failure,10.50.19.90,benign,routine authentication
+AUTH-00592,2026-08-14T23:03:05Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,NTLM,failure,10.50.45.81,benign,routine authentication
+AUTH-00825,2026-08-14T23:09:39Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.40.221,benign,routine authentication
+AUTH-00458,2026-08-14T23:16:09Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.38.154,benign,routine authentication
+AUTH-00869,2026-08-14T23:30:32Z,DEPLOY-01,JUMP-01,ACME\mrivera,RDP,success,10.50.12.167,benign,routine authentication
+AUTH-00674,2026-08-14T23:31:00Z,APP-API-02,FILE-02,ACME\svc_backup,NTLM,success,10.50.33.164,benign,routine authentication
+AUTH-00865,2026-08-14T23:50:52Z,DEPLOY-01,APP-API-02,ACME\jsmith,NTLM,success,10.50.8.16,benign,routine authentication
+AUTH-01381,2026-08-14T23:52:28Z,APP-API-02,JUMP-01,ACME\jsmith,WinRM,success,10.50.14.125,benign,routine authentication
+AUTH-01015,2026-08-14T23:55:55Z,APP-API-02,JUMP-01,ACME\mrivera,WinRM,success,10.50.36.236,benign,routine authentication
+AUTH-00614,2026-08-14T23:59:19Z,DEPLOY-01,APP-API-03,ACME\svc_backup,RDP,failure,10.50.13.115,benign,routine authentication
+AUTH-01413,2026-08-15T00:08:34Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.16.29,benign,routine authentication
+AUTH-00007,2026-08-15T00:15:35Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.16.173,benign,routine authentication
+AUTH-00646,2026-08-15T00:19:13Z,APP-API-03,JUMP-01,ACME\jsmith,RDP,success,10.50.7.227,benign,routine authentication
+AUTH-01420,2026-08-15T00:21:10Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.49.96,benign,routine authentication
+AUTH-00027,2026-08-15T00:43:31Z,DEPLOY-01,APP-API-03,ACME\svc_backup,NTLM,success,10.50.25.189,benign,routine authentication
+AUTH-01476,2026-08-15T00:49:23Z,APP-API-03,FILE-02,ACME\jsmith,RDP,failure,10.50.12.146,benign,routine authentication
+AUTH-00658,2026-08-15T00:53:14Z,FIN-WS-14,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.36.175,benign,routine authentication
+AUTH-01053,2026-08-15T00:55:04Z,FILE-02,APP-API-02,ACME\jsmith,RDP,success,10.50.3.149,benign,routine authentication
+AUTH-01093,2026-08-15T00:57:28Z,APP-API-02,FILE-02,ACME\jsmith,WinRM,failure,10.50.32.221,benign,routine authentication
+AUTH-00860,2026-08-15T01:01:12Z,APP-API-03,FILE-02,ACME\mrivera,RDP,success,10.50.7.132,benign,routine authentication
+AUTH-00628,2026-08-15T01:11:27Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.17.176,benign,routine authentication
+AUTH-00056,2026-08-15T01:28:19Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.16.193,benign,routine authentication
+AUTH-00744,2026-08-15T01:38:37Z,DEPLOY-01,FILE-02,ACME\svc_deploy,RDP,failure,10.50.36.59,benign,routine authentication
+AUTH-01327,2026-08-15T01:41:34Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,WinRM,failure,10.50.49.170,benign,routine authentication
+AUTH-00200,2026-08-15T01:41:52Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,RDP,success,10.50.36.165,benign,routine authentication
+AUTH-01471,2026-08-15T02:02:19Z,APP-API-03,FILE-02,ACME\svc_deploy,Kerberos,failure,10.50.36.3,benign,routine authentication
+AUTH-01176,2026-08-15T02:03:14Z,APP-API-03,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.4.61,benign,routine authentication
+AUTH-00058,2026-08-15T02:06:23Z,APP-API-02,DEPLOY-01,ACME\mrivera,NTLM,success,10.50.24.221,benign,routine authentication
+AUTH-01191,2026-08-15T02:09:19Z,JUMP-01,APP-API-02,ACME\svc_deploy,NTLM,success,10.50.30.135,benign,routine authentication
+AUTH-00440,2026-08-15T02:15:53Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,Kerberos,failure,10.50.41.114,benign,routine authentication
+AUTH-00423,2026-08-15T02:19:49Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.50.81,benign,routine authentication
+AUTH-00072,2026-08-15T02:21:17Z,JUMP-01,APP-API-02,ACME\svc_deploy,RDP,success,10.50.21.139,benign,routine authentication
+AUTH-00266,2026-08-15T02:23:39Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.32.214,benign,routine authentication
+AUTH-01398,2026-08-15T02:28:26Z,DEPLOY-01,FILE-02,ACME\svc_backup,NTLM,failure,10.50.39.62,benign,routine authentication
+AUTH-00404,2026-08-15T02:29:36Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,success,10.50.42.11,benign,routine authentication
+AUTH-01322,2026-08-15T02:44:13Z,FIN-WS-14,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.31.202,benign,routine authentication
+AUTH-00632,2026-08-15T02:48:49Z,APP-API-02,FIN-WS-14,ACME\mrivera,NTLM,failure,10.50.17.155,benign,routine authentication
+AUTH-00910,2026-08-15T03:10:27Z,FIN-WS-14,APP-API-03,ACME\mrivera,RDP,failure,10.50.12.20,benign,routine authentication
+AUTH-00972,2026-08-15T03:10:48Z,FILE-02,FIN-WS-14,ACME\mrivera,WinRM,failure,10.50.10.190,benign,routine authentication
+AUTH-00748,2026-08-15T03:13:33Z,APP-API-03,JUMP-01,ACME\svc_deploy,NTLM,success,10.50.9.102,benign,routine authentication
+AUTH-01209,2026-08-15T03:14:07Z,DEPLOY-01,JUMP-01,ACME\jsmith,RDP,failure,10.50.5.50,benign,routine authentication
+AUTH-00642,2026-08-15T03:17:33Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,RDP,success,10.50.34.221,benign,routine authentication
+AUTH-00839,2026-08-15T03:28:29Z,FILE-02,APP-API-02,ACME\jsmith,WinRM,success,10.50.18.203,benign,routine authentication
+AUTH-00596,2026-08-15T03:30:57Z,FIN-WS-14,APP-API-03,ACME\mrivera,Kerberos,success,10.50.37.228,benign,routine authentication
+AUTH-00186,2026-08-15T03:37:11Z,APP-API-03,FILE-02,ACME\svc_deploy,WinRM,success,10.50.24.207,benign,routine authentication
+AUTH-00431,2026-08-15T03:54:58Z,FILE-02,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.12.182,benign,routine authentication
+AUTH-00526,2026-08-15T04:10:46Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.45.183,benign,routine authentication
+AUTH-00525,2026-08-15T04:19:48Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,Kerberos,failure,10.50.10.178,benign,routine authentication
+AUTH-01292,2026-08-15T04:22:27Z,DEPLOY-01,APP-API-02,ACME\mrivera,Kerberos,success,10.50.26.102,benign,routine authentication
+AUTH-01251,2026-08-15T04:33:01Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,NTLM,success,10.50.43.136,benign,routine authentication
+AUTH-01037,2026-08-15T04:38:15Z,APP-API-02,FILE-02,ACME\svc_deploy,RDP,success,10.50.36.234,benign,routine authentication
+AUTH-00358,2026-08-15T04:42:43Z,APP-API-03,APP-API-03,ACME\jsmith,WinRM,success,10.50.46.43,benign,routine authentication
+AUTH-00696,2026-08-15T04:48:30Z,APP-API-02,APP-API-02,ACME\svc_backup,NTLM,success,10.50.2.71,benign,routine authentication
+AUTH-00934,2026-08-15T04:49:16Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.50.206,benign,routine authentication
+AUTH-00183,2026-08-15T04:56:54Z,JUMP-01,APP-API-03,ACME\svc_backup,NTLM,success,10.50.18.153,benign,routine authentication
+AUTH-01354,2026-08-15T05:12:37Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.31.205,benign,routine authentication
+AUTH-00856,2026-08-15T05:15:16Z,JUMP-01,DEPLOY-01,ACME\svc_backup,Kerberos,success,10.50.35.29,benign,routine authentication
+AUTH-00942,2026-08-15T05:21:29Z,APP-API-03,JUMP-01,ACME\svc_backup,WinRM,success,10.50.41.7,benign,routine authentication
+AUTH-00893,2026-08-15T05:22:26Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,RDP,success,10.50.11.192,benign,routine authentication
+AUTH-01207,2026-08-15T05:23:14Z,FILE-02,JUMP-01,ACME\svc_backup,NTLM,success,10.50.26.106,benign,routine authentication
+AUTH-00571,2026-08-15T05:35:55Z,DEPLOY-01,JUMP-01,ACME\jsmith,WinRM,failure,10.50.11.48,benign,routine authentication
+AUTH-01046,2026-08-15T05:52:24Z,JUMP-01,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.12.132,benign,routine authentication
+AUTH-00753,2026-08-15T05:57:36Z,APP-API-03,FILE-02,ACME\svc_deploy,WinRM,failure,10.50.41.32,benign,routine authentication
+AUTH-00206,2026-08-15T06:10:16Z,DEPLOY-01,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.30.143,benign,routine authentication
+AUTH-00074,2026-08-15T06:18:41Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.46.213,benign,routine authentication
+AUTH-00426,2026-08-15T06:19:34Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,RDP,failure,10.50.32.186,benign,routine authentication
+AUTH-00120,2026-08-15T06:31:10Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,Kerberos,success,10.50.46.111,benign,routine authentication
+AUTH-00546,2026-08-15T06:43:09Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.16.189,benign,routine authentication
+AUTH-01479,2026-08-15T06:54:05Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,success,10.50.23.37,benign,routine authentication
+AUTH-00519,2026-08-15T06:54:11Z,APP-API-02,APP-API-03,ACME\jsmith,WinRM,success,10.50.15.76,benign,routine authentication
+AUTH-00616,2026-08-15T06:54:47Z,JUMP-01,APP-API-03,ACME\mrivera,RDP,success,10.50.35.36,benign,routine authentication
+AUTH-00444,2026-08-15T06:56:28Z,APP-API-03,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.38.195,benign,routine authentication
+AUTH-00486,2026-08-15T07:01:44Z,APP-API-02,FILE-02,ACME\svc_deploy,NTLM,failure,10.50.3.13,benign,routine authentication
+AUTH-00608,2026-08-15T07:02:19Z,APP-API-02,FIN-WS-14,ACME\jsmith,NTLM,success,10.50.49.16,benign,routine authentication
+AUTH-00969,2026-08-15T07:25:29Z,FIN-WS-14,JUMP-01,ACME\svc_backup,Kerberos,success,10.50.50.45,benign,routine authentication
+AUTH-00294,2026-08-15T07:29:26Z,FIN-WS-14,APP-API-03,ACME\jsmith,RDP,success,10.50.31.175,benign,routine authentication
+AUTH-01048,2026-08-15T07:30:54Z,JUMP-01,FIN-WS-14,ACME\svc_backup,RDP,success,10.50.30.83,benign,routine authentication
+AUTH-00521,2026-08-15T07:34:13Z,APP-API-02,JUMP-01,ACME\mrivera,WinRM,failure,10.50.14.79,benign,routine authentication
+AUTH-00708,2026-08-15T07:34:42Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,WinRM,failure,10.50.16.212,benign,routine authentication
+AUTH-00309,2026-08-15T07:44:56Z,FILE-02,JUMP-01,ACME\jsmith,Kerberos,success,10.50.29.68,benign,routine authentication
+AUTH-00724,2026-08-15T07:51:08Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.10.187,benign,routine authentication
+AUTH-00583,2026-08-15T08:00:40Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,failure,10.50.20.166,benign,routine authentication
+AUTH-00863,2026-08-15T08:12:07Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,10.50.24.117,benign,routine authentication
+AUTH-01034,2026-08-15T08:13:12Z,JUMP-01,DEPLOY-01,ACME\svc_backup,Kerberos,success,10.50.32.173,benign,routine authentication
+AUTH-00436,2026-08-15T08:14:29Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.19.39,benign,routine authentication
+AUTH-00728,2026-08-15T08:22:50Z,APP-API-02,APP-API-02,ACME\mrivera,WinRM,success,10.50.2.40,benign,routine authentication
+AUTH-01049,2026-08-15T08:30:10Z,FIN-WS-14,JUMP-01,ACME\svc_backup,Kerberos,success,10.50.40.43,benign,routine authentication
+AUTH-01373,2026-08-15T08:32:59Z,APP-API-03,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.44.101,benign,routine authentication
+AUTH-00278,2026-08-15T08:34:53Z,DEPLOY-01,JUMP-01,ACME\jsmith,WinRM,success,10.50.48.100,benign,routine authentication
+AUTH-00300,2026-08-15T08:42:57Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.28.4,benign,routine authentication
+AUTH-00438,2026-08-15T08:48:14Z,FILE-02,FIN-WS-14,ACME\mrivera,RDP,failure,10.50.34.129,benign,routine authentication
+AUTH-00397,2026-08-15T08:56:03Z,APP-API-03,APP-API-02,ACME\jsmith,WinRM,success,10.50.10.20,benign,routine authentication
+AUTH-00736,2026-08-15T09:08:09Z,FILE-02,FILE-02,ACME\svc_backup,RDP,success,10.50.10.155,benign,routine authentication
+AUTH-00698,2026-08-15T09:16:55Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,RDP,failure,10.50.16.42,benign,routine authentication
+AUTH-00868,2026-08-15T09:19:56Z,FILE-02,FILE-02,ACME\svc_deploy,NTLM,success,10.50.8.164,benign,routine authentication
+AUTH-00390,2026-08-15T09:20:32Z,APP-API-02,DEPLOY-01,ACME\jsmith,RDP,success,10.50.44.58,benign,routine authentication
+AUTH-00501,2026-08-15T09:23:09Z,FILE-02,FILE-02,ACME\mrivera,Kerberos,failure,10.50.13.191,benign,routine authentication
+AUTH-00279,2026-08-15T09:38:57Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.28.16,benign,routine authentication
+AUTH-01440,2026-08-15T09:50:24Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.29.171,benign,routine authentication
+AUTH-01447,2026-08-15T09:52:14Z,APP-API-03,APP-API-02,ACME\jsmith,NTLM,success,10.50.5.197,benign,routine authentication
+AUTH-00280,2026-08-15T09:52:24Z,JUMP-01,APP-API-02,ACME\svc_deploy,NTLM,success,10.50.19.78,benign,routine authentication
+AUTH-00262,2026-08-15T09:56:40Z,JUMP-01,APP-API-02,ACME\jsmith,WinRM,success,10.50.19.79,benign,routine authentication
+AUTH-01386,2026-08-15T09:57:30Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.13.99,benign,routine authentication
+AUTH-00043,2026-08-15T10:01:25Z,APP-API-02,JUMP-01,ACME\svc_backup,NTLM,success,10.50.40.47,benign,routine authentication
+AUTH-00131,2026-08-15T10:17:35Z,FIN-WS-14,FILE-02,ACME\svc_deploy,NTLM,success,10.50.21.29,benign,routine authentication
+AUTH-00626,2026-08-15T10:21:27Z,DEPLOY-01,JUMP-01,ACME\jsmith,RDP,success,10.50.17.106,benign,routine authentication
+AUTH-00334,2026-08-15T10:22:52Z,JUMP-01,APP-API-02,ACME\mrivera,WinRM,success,10.50.4.102,benign,routine authentication
+AUTH-01457,2026-08-15T10:53:48Z,APP-API-02,APP-API-02,ACME\svc_deploy,RDP,success,10.50.25.191,benign,routine authentication
+AUTH-00485,2026-08-15T10:54:16Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,10.50.34.57,benign,routine authentication
+AUTH-00997,2026-08-15T10:54:24Z,FILE-02,JUMP-01,ACME\mrivera,WinRM,failure,10.50.16.54,benign,routine authentication
+AUTH-00594,2026-08-15T10:55:11Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,failure,10.50.32.238,benign,routine authentication
+AUTH-00258,2026-08-15T11:05:02Z,DEPLOY-01,FILE-02,ACME\svc_deploy,WinRM,failure,10.50.39.127,benign,routine authentication
+AUTH-01329,2026-08-15T11:08:14Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,RDP,failure,10.50.3.194,benign,routine authentication
+AUTH-00154,2026-08-15T11:10:33Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,RDP,failure,10.50.17.7,benign,routine authentication
+AUTH-01315,2026-08-15T11:17:35Z,FIN-WS-14,JUMP-01,ACME\jsmith,WinRM,failure,10.50.9.161,benign,routine authentication
+AUTH-01245,2026-08-15T11:22:54Z,JUMP-01,APP-API-02,ACME\svc_backup,RDP,failure,10.50.40.111,benign,routine authentication
+AUTH-01212,2026-08-15T11:23:22Z,FIN-WS-14,APP-API-02,ACME\mrivera,RDP,success,10.50.11.132,benign,routine authentication
+AUTH-00182,2026-08-15T11:26:26Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,success,10.50.19.19,benign,routine authentication
+AUTH-00450,2026-08-15T11:27:27Z,APP-API-02,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.8.111,benign,routine authentication
+AUTH-00954,2026-08-15T11:31:39Z,FILE-02,FIN-WS-14,ACME\svc_deploy,WinRM,success,10.50.45.48,benign,routine authentication
+AUTH-01043,2026-08-15T11:32:01Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.2.125,benign,routine authentication
+AUTH-01273,2026-08-15T11:32:44Z,JUMP-01,FIN-WS-14,ACME\svc_backup,Kerberos,failure,10.50.7.118,benign,routine authentication
+AUTH-01189,2026-08-15T11:38:38Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,NTLM,success,10.50.33.199,benign,routine authentication
+AUTH-00410,2026-08-15T11:42:10Z,APP-API-02,FILE-02,ACME\svc_deploy,Kerberos,success,10.50.11.196,benign,routine authentication
+AUTH-00032,2026-08-15T11:49:14Z,JUMP-01,APP-API-02,ACME\svc_backup,RDP,success,10.50.39.104,benign,routine authentication
+AUTH-00246,2026-08-15T12:01:03Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,success,10.50.14.179,benign,routine authentication
+AUTH-00964,2026-08-15T12:03:24Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,success,10.50.16.133,benign,routine authentication
+AUTH-01108,2026-08-15T12:12:55Z,APP-API-03,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.13.217,benign,routine authentication
+AUTH-01010,2026-08-15T12:13:48Z,APP-API-02,FIN-WS-14,ACME\jsmith,NTLM,success,10.50.22.99,benign,routine authentication
+AUTH-00457,2026-08-15T12:27:36Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.37.17,benign,routine authentication
+AUTH-00518,2026-08-15T12:42:14Z,APP-API-02,FIN-WS-14,ACME\svc_backup,RDP,success,10.50.41.83,benign,routine authentication
+AUTH-01489,2026-08-15T12:47:03Z,FIN-WS-14,APP-API-02,ACME\jsmith,Kerberos,success,10.50.3.192,benign,routine authentication
+AUTH-00540,2026-08-15T12:47:24Z,FIN-WS-14,JUMP-01,ACME\jsmith,RDP,success,10.50.18.73,benign,routine authentication
+AUTH-01480,2026-08-15T12:55:06Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.18.168,benign,routine authentication
+AUTH-00831,2026-08-15T13:07:00Z,JUMP-01,FILE-02,ACME\mrivera,Kerberos,success,10.50.27.78,benign,routine authentication
+AUTH-00874,2026-08-15T13:07:24Z,APP-API-03,APP-API-02,ACME\jsmith,NTLM,success,10.50.43.67,benign,routine authentication
+AUTH-00827,2026-08-15T13:12:57Z,APP-API-03,APP-API-03,ACME\jsmith,WinRM,success,10.50.38.227,benign,routine authentication
+AUTH-00377,2026-08-15T13:26:12Z,FIN-WS-14,APP-API-03,ACME\svc_backup,WinRM,failure,10.50.4.149,benign,routine authentication
+AUTH-00679,2026-08-15T13:33:13Z,APP-API-02,JUMP-01,ACME\mrivera,RDP,success,10.50.34.63,benign,routine authentication
+AUTH-01109,2026-08-15T13:35:49Z,DEPLOY-01,FILE-02,ACME\jsmith,NTLM,success,10.50.28.11,benign,routine authentication
+AUTH-00975,2026-08-15T13:37:52Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,WinRM,failure,10.50.30.172,benign,routine authentication
+AUTH-01265,2026-08-15T13:46:45Z,JUMP-01,APP-API-03,ACME\svc_backup,RDP,failure,10.50.16.238,benign,routine authentication
+AUTH-00836,2026-08-15T13:52:45Z,APP-API-02,JUMP-01,ACME\jsmith,WinRM,success,10.50.37.73,benign,routine authentication
+AUTH-01078,2026-08-15T14:01:53Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.41.164,benign,routine authentication
+AUTH-00323,2026-08-15T14:07:25Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.37.219,benign,routine authentication
+AUTH-01057,2026-08-15T14:15:19Z,DEPLOY-01,APP-API-03,ACME\jsmith,RDP,success,10.50.22.56,benign,routine authentication
+AUTH-00253,2026-08-15T14:15:59Z,APP-API-02,FIN-WS-14,ACME\jsmith,Kerberos,failure,10.50.26.32,benign,routine authentication
+AUTH-00716,2026-08-15T14:17:03Z,FILE-02,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.27.45,benign,routine authentication
+AUTH-00245,2026-08-15T14:20:04Z,APP-API-03,DEPLOY-01,ACME\svc_backup,NTLM,success,10.50.11.114,benign,routine authentication
+AUTH-00388,2026-08-15T14:55:21Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.42.107,benign,routine authentication
+AUTH-01242,2026-08-15T15:01:17Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,failure,10.50.3.43,benign,routine authentication
+AUTH-01095,2026-08-15T15:05:38Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.40.173,benign,routine authentication
+AUTH-00590,2026-08-15T15:06:54Z,FIN-WS-14,JUMP-01,ACME\jsmith,RDP,success,10.50.11.4,benign,routine authentication
+AUTH-00767,2026-08-15T15:13:58Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.23.110,benign,routine authentication
+AUTH-00119,2026-08-15T15:14:02Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,RDP,failure,10.50.2.110,benign,routine authentication
+AUTH-00045,2026-08-15T15:21:33Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.20.176,benign,routine authentication
+AUTH-01379,2026-08-15T15:22:48Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.25.111,benign,routine authentication
+AUTH-00524,2026-08-15T15:29:11Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.50.40,benign,routine authentication
+AUTH-00224,2026-08-15T15:31:11Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.11.182,benign,routine authentication
+AUTH-01135,2026-08-15T15:35:21Z,JUMP-01,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.4.79,benign,routine authentication
+AUTH-00581,2026-08-15T15:38:02Z,APP-API-02,APP-API-02,ACME\jsmith,WinRM,success,10.50.15.20,benign,routine authentication
+AUTH-00064,2026-08-15T15:40:55Z,DEPLOY-01,APP-API-03,ACME\svc_backup,NTLM,success,10.50.23.151,benign,routine authentication
+AUTH-00335,2026-08-15T15:53:36Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.19.182,benign,routine authentication
+AUTH-01065,2026-08-15T15:54:40Z,APP-API-03,APP-API-03,ACME\svc_backup,RDP,success,10.50.14.61,benign,routine authentication
+AUTH-00766,2026-08-15T16:04:55Z,APP-API-03,APP-API-03,ACME\jsmith,RDP,success,10.50.45.218,benign,routine authentication
+AUTH-00763,2026-08-15T16:07:34Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.27.4,benign,routine authentication
+AUTH-01303,2026-08-15T16:11:14Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.6.123,benign,routine authentication
+AUTH-00260,2026-08-15T16:12:02Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,success,10.50.45.236,benign,routine authentication
+AUTH-00229,2026-08-15T16:17:43Z,JUMP-01,JUMP-01,ACME\jsmith,RDP,success,10.50.38.174,benign,routine authentication
+AUTH-00905,2026-08-15T16:22:56Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,WinRM,success,10.50.4.181,benign,routine authentication
+AUTH-01097,2026-08-15T16:25:15Z,FILE-02,FILE-02,ACME\svc_deploy,Kerberos,failure,10.50.22.50,benign,routine authentication
+AUTH-01092,2026-08-15T16:39:08Z,JUMP-01,JUMP-01,ACME\svc_backup,RDP,failure,10.50.14.55,benign,routine authentication
+AUTH-01258,2026-08-15T16:41:47Z,JUMP-01,JUMP-01,ACME\mrivera,RDP,success,10.50.41.36,benign,routine authentication
+AUTH-00094,2026-08-15T16:48:25Z,FIN-WS-14,FILE-02,ACME\mrivera,RDP,success,10.50.21.226,benign,routine authentication
+AUTH-01313,2026-08-15T16:51:13Z,APP-API-03,JUMP-01,ACME\mrivera,RDP,success,10.50.43.141,benign,routine authentication
+AUTH-01328,2026-08-15T16:59:01Z,FILE-02,APP-API-03,ACME\jsmith,Kerberos,success,10.50.41.218,benign,routine authentication
+AUTH-00854,2026-08-15T17:08:45Z,DEPLOY-01,FILE-02,ACME\svc_deploy,Kerberos,failure,10.50.35.215,benign,routine authentication
+AUTH-00303,2026-08-15T17:15:08Z,JUMP-01,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.39.127,benign,routine authentication
+AUTH-00340,2026-08-15T17:29:24Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.5.75,benign,routine authentication
+AUTH-01390,2026-08-15T17:42:14Z,FIN-WS-14,APP-API-02,ACME\jsmith,Kerberos,success,10.50.42.223,benign,routine authentication
+AUTH-00834,2026-08-15T17:55:55Z,APP-API-02,APP-API-02,ACME\svc_backup,WinRM,failure,10.50.13.89,benign,routine authentication
+AUTH-00291,2026-08-15T18:04:36Z,JUMP-01,APP-API-02,ACME\jsmith,WinRM,success,10.50.31.83,benign,routine authentication
+AUTH-01445,2026-08-15T18:15:49Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,success,10.50.19.100,benign,routine authentication
+AUTH-00331,2026-08-15T18:16:17Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.16.19,benign,routine authentication
+AUTH-01359,2026-08-15T18:32:24Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.6.190,benign,routine authentication
+AUTH-01241,2026-08-15T18:32:59Z,DEPLOY-01,APP-API-03,ACME\jsmith,NTLM,success,10.50.12.22,benign,routine authentication
+AUTH-00050,2026-08-15T18:36:35Z,JUMP-01,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.13.76,benign,routine authentication
+AUTH-00885,2026-08-15T18:37:43Z,APP-API-03,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.15.192,benign,routine authentication
+AUTH-01070,2026-08-15T18:48:08Z,APP-API-02,APP-API-03,ACME\jsmith,Kerberos,failure,10.50.48.128,benign,routine authentication
+AUTH-00288,2026-08-15T18:48:39Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,10.50.38.196,benign,routine authentication
+AUTH-00369,2026-08-15T18:49:33Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,10.50.10.136,benign,routine authentication
+AUTH-01113,2026-08-15T18:57:05Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.21.23,benign,routine authentication
+AUTH-00530,2026-08-15T18:57:32Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.4.64,benign,routine authentication
+AUTH-00082,2026-08-15T19:04:06Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,success,10.50.27.75,benign,routine authentication
+AUTH-00361,2026-08-15T19:08:00Z,JUMP-01,FILE-02,ACME\svc_backup,WinRM,failure,10.50.44.143,benign,routine authentication
+AUTH-00453,2026-08-15T19:16:42Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.26.39,benign,routine authentication
+AUTH-00543,2026-08-15T19:24:21Z,APP-API-02,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.43.176,benign,routine authentication
+AUTH-01208,2026-08-15T19:40:48Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.15.149,benign,routine authentication
+AUTH-01110,2026-08-15T19:41:11Z,DEPLOY-01,JUMP-01,ACME\jsmith,RDP,success,10.50.14.236,benign,routine authentication
+AUTH-00472,2026-08-15T19:43:26Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,RDP,success,10.50.33.42,benign,routine authentication
+AUTH-01260,2026-08-15T19:52:15Z,APP-API-02,DEPLOY-01,ACME\mrivera,NTLM,failure,10.50.49.147,benign,routine authentication
+AUTH-00886,2026-08-15T19:57:30Z,DEPLOY-01,FILE-02,ACME\svc_deploy,NTLM,success,10.50.14.83,benign,routine authentication
+AUTH-00700,2026-08-15T20:03:33Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,NTLM,success,10.50.10.59,benign,routine authentication
+AUTH-00909,2026-08-15T20:04:14Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.44.138,benign,routine authentication
+AUTH-00898,2026-08-15T20:04:23Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.44.240,benign,routine authentication
+AUTH-00723,2026-08-15T20:05:47Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,RDP,success,10.50.18.150,benign,routine authentication
+AUTH-01297,2026-08-15T20:11:21Z,APP-API-03,DEPLOY-01,ACME\jsmith,WinRM,success,10.50.1.116,benign,routine authentication
+AUTH-01066,2026-08-15T20:23:11Z,DEPLOY-01,JUMP-01,ACME\svc_backup,Kerberos,success,10.50.26.114,benign,routine authentication
+AUTH-00378,2026-08-15T20:23:25Z,DEPLOY-01,APP-API-03,ACME\svc_backup,Kerberos,failure,10.50.32.157,benign,routine authentication
+AUTH-00223,2026-08-15T20:26:22Z,FIN-WS-14,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.44.180,benign,routine authentication
+AUTH-00640,2026-08-15T20:38:03Z,JUMP-01,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.40.13,benign,routine authentication
+AUTH-00367,2026-08-15T20:38:33Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,WinRM,success,10.50.24.63,benign,routine authentication
+AUTH-01075,2026-08-15T20:43:07Z,JUMP-01,APP-API-02,ACME\svc_deploy,WinRM,failure,10.50.37.122,benign,routine authentication
+AUTH-01162,2026-08-15T20:43:51Z,JUMP-01,FILE-02,ACME\svc_deploy,WinRM,success,10.50.45.45,benign,routine authentication
+AUTH-01472,2026-08-15T20:53:38Z,APP-API-02,DEPLOY-01,ACME\mrivera,RDP,success,10.50.46.168,benign,routine authentication
+AUTH-00161,2026-08-15T21:00:42Z,APP-API-02,FILE-02,ACME\mrivera,WinRM,failure,10.50.45.181,benign,routine authentication
+AUTH-00961,2026-08-15T21:14:55Z,APP-API-02,FIN-WS-14,ACME\mrivera,Kerberos,failure,10.50.35.225,benign,routine authentication
+AUTH-00520,2026-08-15T21:17:52Z,FILE-02,FILE-02,ACME\jsmith,NTLM,success,10.50.47.143,benign,routine authentication
+AUTH-00084,2026-08-15T21:20:24Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,NTLM,success,10.50.40.133,benign,routine authentication
+AUTH-00445,2026-08-15T21:22:05Z,APP-API-03,FILE-02,ACME\jsmith,NTLM,success,10.50.44.233,benign,routine authentication
+AUTH-00637,2026-08-15T22:19:59Z,APP-API-02,APP-API-02,ACME\svc_backup,NTLM,success,10.50.11.10,benign,routine authentication
+AUTH-00528,2026-08-15T22:21:27Z,FILE-02,FILE-02,ACME\svc_deploy,RDP,success,10.50.13.45,benign,routine authentication
+AUTH-00774,2026-08-15T22:25:48Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,RDP,success,10.50.17.133,benign,routine authentication
+AUTH-00941,2026-08-15T22:41:09Z,JUMP-01,FIN-WS-14,ACME\svc_backup,NTLM,success,10.50.12.172,benign,routine authentication
+AUTH-01204,2026-08-15T22:46:49Z,APP-API-02,FIN-WS-14,ACME\mrivera,NTLM,failure,10.50.16.170,benign,routine authentication
+AUTH-00352,2026-08-15T22:47:49Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.29.94,benign,routine authentication
+AUTH-01446,2026-08-15T22:53:29Z,APP-API-03,FILE-02,ACME\svc_backup,Kerberos,success,10.50.6.50,benign,routine authentication
+AUTH-00308,2026-08-15T23:11:38Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.9.88,benign,routine authentication
+AUTH-00758,2026-08-15T23:11:53Z,APP-API-02,FIN-WS-14,ACME\mrivera,RDP,success,10.50.39.232,benign,routine authentication
+AUTH-00816,2026-08-15T23:36:20Z,FILE-02,JUMP-01,ACME\mrivera,RDP,success,10.50.38.205,benign,routine authentication
+AUTH-00648,2026-08-15T23:37:45Z,JUMP-01,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.2.94,benign,routine authentication
+AUTH-01441,2026-08-15T23:37:48Z,APP-API-02,FILE-02,ACME\svc_backup,WinRM,success,10.50.10.211,benign,routine authentication
+AUTH-00846,2026-08-15T23:39:20Z,APP-API-03,APP-API-03,ACME\svc_backup,RDP,success,10.50.33.198,benign,routine authentication
+AUTH-00198,2026-08-15T23:45:52Z,APP-API-02,APP-API-03,ACME\jsmith,WinRM,success,10.50.26.153,benign,routine authentication
+AUTH-01270,2026-08-16T00:02:26Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,RDP,success,10.50.12.66,benign,routine authentication
+AUTH-00184,2026-08-16T00:04:59Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.2.223,benign,routine authentication
+AUTH-00480,2026-08-16T00:12:48Z,DEPLOY-01,APP-API-03,ACME\mrivera,NTLM,success,10.50.26.107,benign,routine authentication
+AUTH-00572,2026-08-16T00:13:53Z,FIN-WS-14,JUMP-01,ACME\mrivera,WinRM,failure,10.50.2.228,benign,routine authentication
+AUTH-01233,2026-08-16T00:14:42Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.37.210,benign,routine authentication
+AUTH-01385,2026-08-16T00:15:26Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.13.212,benign,routine authentication
+AUTH-00355,2026-08-16T00:17:12Z,JUMP-01,FILE-02,ACME\jsmith,WinRM,success,10.50.14.237,benign,routine authentication
+AUTH-01371,2026-08-16T00:26:53Z,JUMP-01,DEPLOY-01,ACME\mrivera,RDP,success,10.50.15.208,benign,routine authentication
+AUTH-00061,2026-08-16T00:28:06Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.18.95,benign,routine authentication
+AUTH-00125,2026-08-16T00:29:05Z,FIN-WS-14,APP-API-02,ACME\jsmith,Kerberos,failure,10.50.19.65,benign,routine authentication
+AUTH-00417,2026-08-16T00:30:12Z,FILE-02,APP-API-02,ACME\svc_backup,WinRM,success,10.50.27.135,benign,routine authentication
+AUTH-00988,2026-08-16T00:31:58Z,FILE-02,DEPLOY-01,ACME\svc_deploy,Kerberos,success,10.50.8.232,benign,routine authentication
+AUTH-00600,2026-08-16T00:32:47Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.37.215,benign,routine authentication
+AUTH-00419,2026-08-16T00:45:43Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.23.20,benign,routine authentication
+AUTH-01419,2026-08-16T00:54:17Z,FILE-02,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.22.130,benign,routine authentication
+AUTH-01337,2026-08-16T01:07:24Z,APP-API-03,APP-API-02,ACME\svc_backup,RDP,success,10.50.21.224,benign,routine authentication
+AUTH-01433,2026-08-16T01:09:15Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.18.94,benign,routine authentication
+AUTH-01448,2026-08-16T01:11:27Z,JUMP-01,APP-API-02,ACME\jsmith,Kerberos,failure,10.50.32.73,benign,routine authentication
+AUTH-00363,2026-08-16T01:19:29Z,APP-API-03,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.32.76,benign,routine authentication
+AUTH-00966,2026-08-16T01:23:21Z,JUMP-01,DEPLOY-01,ACME\jsmith,WinRM,success,10.50.23.105,benign,routine authentication
+AUTH-00817,2026-08-16T01:38:25Z,DEPLOY-01,JUMP-01,ACME\mrivera,NTLM,success,10.50.25.101,benign,routine authentication
+AUTH-00112,2026-08-16T01:47:42Z,FILE-02,APP-API-03,ACME\svc_backup,Kerberos,success,10.50.14.219,benign,routine authentication
+AUTH-00141,2026-08-16T01:55:46Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,RDP,failure,10.50.50.139,benign,routine authentication
+AUTH-01173,2026-08-16T02:06:18Z,DEPLOY-01,DEPLOY-01,ACME\svc_backup,Kerberos,failure,10.50.43.37,benign,routine authentication
+AUTH-00813,2026-08-16T02:09:54Z,APP-API-03,APP-API-02,ACME\jsmith,WinRM,success,10.50.10.96,benign,routine authentication
+AUTH-01002,2026-08-16T02:31:45Z,DEPLOY-01,JUMP-01,ACME\mrivera,Kerberos,success,10.50.41.166,benign,routine authentication
+AUTH-00497,2026-08-16T02:45:07Z,APP-API-02,APP-API-02,ACME\svc_deploy,Kerberos,failure,10.50.2.78,benign,routine authentication
+AUTH-00935,2026-08-16T02:47:13Z,DEPLOY-01,JUMP-01,ACME\mrivera,Kerberos,success,10.50.19.181,benign,routine authentication
+AUTH-00267,2026-08-16T02:49:33Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.20.17,benign,routine authentication
+AUTH-00474,2026-08-16T02:50:58Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,WinRM,success,10.50.45.91,benign,routine authentication
+AUTH-00820,2026-08-16T02:51:01Z,APP-API-02,APP-API-03,ACME\svc_backup,RDP,failure,10.50.32.82,benign,routine authentication
+AUTH-00078,2026-08-16T03:03:00Z,FILE-02,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.49.233,benign,routine authentication
+AUTH-01435,2026-08-16T03:03:19Z,APP-API-02,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.35.40,benign,routine authentication
+AUTH-00956,2026-08-16T03:05:44Z,APP-API-03,JUMP-01,ACME\svc_backup,NTLM,success,10.50.30.133,benign,routine authentication
+AUTH-00690,2026-08-16T03:15:32Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.20.153,benign,routine authentication
+AUTH-01318,2026-08-16T03:19:03Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.49.96,benign,routine authentication
+AUTH-01316,2026-08-16T03:24:57Z,FILE-02,JUMP-01,ACME\svc_backup,Kerberos,success,10.50.46.150,benign,routine authentication
+AUTH-00289,2026-08-16T03:29:13Z,FIN-WS-14,JUMP-01,ACME\mrivera,Kerberos,success,10.50.30.200,benign,routine authentication
+AUTH-00494,2026-08-16T03:33:32Z,DEPLOY-01,APP-API-03,ACME\jsmith,Kerberos,success,10.50.29.237,benign,routine authentication
+AUTH-01355,2026-08-16T03:43:02Z,JUMP-01,APP-API-03,ACME\svc_deploy,RDP,success,10.50.35.217,benign,routine authentication
+AUTH-00636,2026-08-16T03:43:26Z,APP-API-02,FIN-WS-14,ACME\mrivera,WinRM,failure,10.50.18.71,benign,routine authentication
+AUTH-01362,2026-08-16T03:45:01Z,APP-API-02,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.31.239,benign,routine authentication
+AUTH-00580,2026-08-16T03:53:44Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.48.202,benign,routine authentication
+AUTH-01305,2026-08-16T03:57:47Z,JUMP-01,FILE-02,ACME\svc_backup,RDP,success,10.50.33.159,benign,routine authentication
+AUTH-00762,2026-08-16T04:03:45Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.12.30,benign,routine authentication
+AUTH-00984,2026-08-16T04:18:49Z,APP-API-03,FILE-02,ACME\svc_deploy,RDP,success,10.50.31.65,benign,routine authentication
+AUTH-01051,2026-08-16T04:20:31Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,success,10.50.23.83,benign,routine authentication
+AUTH-00149,2026-08-16T04:26:25Z,APP-API-03,FILE-02,ACME\mrivera,Kerberos,success,10.50.34.101,benign,routine authentication
+AUTH-00049,2026-08-16T04:43:51Z,APP-API-02,JUMP-01,ACME\svc_deploy,Kerberos,success,10.50.8.60,benign,routine authentication
+AUTH-00773,2026-08-16T04:53:45Z,DEPLOY-01,APP-API-03,ACME\mrivera,WinRM,success,10.50.46.24,benign,routine authentication
+AUTH-01490,2026-08-16T04:59:31Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.25.39,benign,routine authentication
+AUTH-01223,2026-08-16T05:02:15Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,WinRM,success,10.50.13.31,benign,routine authentication
+AUTH-00394,2026-08-16T05:05:06Z,APP-API-02,FILE-02,ACME\mrivera,WinRM,success,10.50.48.180,benign,routine authentication
+AUTH-00667,2026-08-16T05:12:13Z,APP-API-03,DEPLOY-01,ACME\jsmith,Kerberos,success,10.50.17.110,benign,routine authentication
+AUTH-01203,2026-08-16T05:14:36Z,FILE-02,APP-API-02,ACME\svc_deploy,Kerberos,success,10.50.1.39,benign,routine authentication
+AUTH-01008,2026-08-16T05:19:37Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,RDP,success,10.50.22.173,benign,routine authentication
+AUTH-00818,2026-08-16T05:20:05Z,FILE-02,APP-API-02,ACME\svc_deploy,Kerberos,failure,10.50.34.72,benign,routine authentication
+AUTH-00124,2026-08-16T05:31:18Z,FIN-WS-14,APP-API-02,ACME\svc_backup,Kerberos,success,10.50.11.122,benign,routine authentication
+AUTH-00319,2026-08-16T05:32:20Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,failure,10.50.37.152,benign,routine authentication
+AUTH-00424,2026-08-16T05:34:52Z,JUMP-01,DEPLOY-01,ACME\jsmith,Kerberos,failure,10.50.28.128,benign,routine authentication
+AUTH-01018,2026-08-16T05:37:32Z,FILE-02,JUMP-01,ACME\mrivera,WinRM,success,10.50.34.197,benign,routine authentication
+AUTH-01114,2026-08-16T05:44:23Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.44.3,benign,routine authentication
+AUTH-00498,2026-08-16T05:49:19Z,APP-API-03,APP-API-02,ACME\svc_backup,Kerberos,success,10.50.8.174,benign,routine authentication
+AUTH-00684,2026-08-16T05:49:46Z,DEPLOY-01,FILE-02,ACME\svc_backup,RDP,success,10.50.34.20,benign,routine authentication
+AUTH-00018,2026-08-16T05:50:04Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,success,10.50.34.18,benign,routine authentication
+AUTH-00575,2026-08-16T05:52:28Z,FILE-02,DEPLOY-01,ACME\svc_deploy,Kerberos,success,10.50.41.167,benign,routine authentication
+AUTH-01276,2026-08-16T05:54:05Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.44.133,benign,routine authentication
+AUTH-00595,2026-08-16T06:03:02Z,FILE-02,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.46.162,benign,routine authentication
+AUTH-01395,2026-08-16T06:07:40Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,Kerberos,success,10.50.50.18,benign,routine authentication
+AUTH-00240,2026-08-16T06:09:14Z,FILE-02,APP-API-02,ACME\svc_deploy,WinRM,success,10.50.3.55,benign,routine authentication
+AUTH-00129,2026-08-16T06:23:13Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,WinRM,success,10.50.48.129,benign,routine authentication
+AUTH-01081,2026-08-16T06:38:44Z,FIN-WS-14,APP-API-03,ACME\mrivera,NTLM,success,10.50.4.22,benign,routine authentication
+AUTH-00114,2026-08-16T06:40:13Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.3.42,benign,routine authentication
+AUTH-01068,2026-08-16T06:45:12Z,APP-API-03,DEPLOY-01,ACME\jsmith,NTLM,failure,10.50.50.162,benign,routine authentication
+AUTH-01301,2026-08-16T06:45:16Z,FIN-WS-14,JUMP-01,ACME\jsmith,NTLM,success,10.50.9.16,benign,routine authentication
+AUTH-00890,2026-08-16T07:06:18Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,WinRM,success,10.50.44.45,benign,routine authentication
+AUTH-00752,2026-08-16T07:10:30Z,APP-API-03,FILE-02,ACME\jsmith,NTLM,success,10.50.13.216,benign,routine authentication
+AUTH-00285,2026-08-16T07:22:18Z,DEPLOY-01,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.45.169,benign,routine authentication
+AUTH-00512,2026-08-16T07:45:37Z,APP-API-02,APP-API-03,ACME\mrivera,RDP,success,10.50.6.99,benign,routine authentication
+AUTH-01195,2026-08-16T07:47:30Z,DEPLOY-01,FILE-02,ACME\svc_deploy,RDP,success,10.50.7.237,benign,routine authentication
+AUTH-01198,2026-08-16T07:50:45Z,FILE-02,APP-API-02,ACME\mrivera,NTLM,success,10.50.33.206,benign,routine authentication
+AUTH-01352,2026-08-16T07:52:00Z,APP-API-02,FILE-02,ACME\svc_backup,NTLM,success,10.50.16.107,benign,routine authentication
+AUTH-00422,2026-08-16T08:21:14Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,NTLM,success,10.50.3.88,benign,routine authentication
+AUTH-01098,2026-08-16T08:33:34Z,JUMP-01,FILE-02,ACME\svc_deploy,Kerberos,success,10.50.8.98,benign,routine authentication
+AUTH-00460,2026-08-16T08:41:34Z,APP-API-02,FIN-WS-14,ACME\jsmith,WinRM,failure,10.50.40.34,benign,routine authentication
+AUTH-00107,2026-08-16T08:42:12Z,JUMP-01,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.15.161,benign,routine authentication
+AUTH-00035,2026-08-16T08:53:47Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,failure,10.50.35.92,benign,routine authentication
+AUTH-00145,2026-08-16T09:04:20Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,NTLM,success,10.50.1.130,benign,routine authentication
+AUTH-01336,2026-08-16T09:04:43Z,APP-API-02,APP-API-02,ACME\jsmith,RDP,success,10.50.28.186,benign,routine authentication
+AUTH-00454,2026-08-16T09:07:56Z,FIN-WS-14,FILE-02,ACME\svc_deploy,Kerberos,failure,10.50.26.83,benign,routine authentication
+AUTH-00356,2026-08-16T09:10:21Z,APP-API-02,APP-API-02,ACME\mrivera,WinRM,failure,10.50.5.4,benign,routine authentication
+AUTH-00727,2026-08-16T09:12:42Z,FIN-WS-14,FILE-02,ACME\svc_deploy,WinRM,success,10.50.8.123,benign,routine authentication
+AUTH-01289,2026-08-16T09:13:57Z,APP-API-03,APP-API-02,ACME\svc_deploy,WinRM,success,10.50.15.9,benign,routine authentication
+AUTH-01055,2026-08-16T09:16:22Z,JUMP-01,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.35.104,benign,routine authentication
+AUTH-00191,2026-08-16T09:17:00Z,APP-API-03,JUMP-01,ACME\svc_deploy,RDP,success,10.50.5.156,benign,routine authentication
+AUTH-00675,2026-08-16T09:18:53Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,WinRM,success,10.50.33.13,benign,routine authentication
+AUTH-01424,2026-08-16T09:31:58Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.7.156,benign,routine authentication
+AUTH-00891,2026-08-16T09:39:10Z,FILE-02,APP-API-02,ACME\svc_deploy,Kerberos,success,10.50.47.4,benign,routine authentication
+AUTH-00832,2026-08-16T09:46:34Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,NTLM,success,10.50.2.231,benign,routine authentication
+AUTH-00383,2026-08-16T09:51:00Z,FILE-02,APP-API-03,ACME\mrivera,WinRM,failure,10.50.36.23,benign,routine authentication
+AUTH-01451,2026-08-16T09:54:07Z,JUMP-01,FIN-WS-14,ACME\mrivera,RDP,success,10.50.19.203,benign,routine authentication
+AUTH-00155,2026-08-16T10:08:19Z,APP-API-03,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.24.213,benign,routine authentication
+AUTH-01122,2026-08-16T10:12:48Z,FILE-02,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.22.68,benign,routine authentication
+AUTH-00477,2026-08-16T10:13:35Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,WinRM,failure,10.50.36.152,benign,routine authentication
+AUTH-01166,2026-08-16T10:14:05Z,DEPLOY-01,APP-API-02,ACME\mrivera,RDP,success,10.50.17.128,benign,routine authentication
+AUTH-01421,2026-08-16T10:27:08Z,FILE-02,APP-API-03,ACME\mrivera,NTLM,success,10.50.18.185,benign,routine authentication
+AUTH-00922,2026-08-16T10:34:38Z,FILE-02,APP-API-03,ACME\mrivera,WinRM,success,10.50.48.132,benign,routine authentication
+AUTH-01486,2026-08-16T10:38:46Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,10.50.37.239,benign,routine authentication
+AUTH-00867,2026-08-16T10:47:43Z,FILE-02,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.25.133,benign,routine authentication
+AUTH-00349,2026-08-16T10:57:28Z,FIN-WS-14,FILE-02,ACME\svc_deploy,RDP,failure,10.50.16.222,benign,routine authentication
+AUTH-01443,2026-08-16T10:57:59Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.1.225,benign,routine authentication
+AUTH-00204,2026-08-16T11:15:53Z,FIN-WS-14,JUMP-01,ACME\svc_backup,WinRM,success,10.50.41.71,benign,routine authentication
+AUTH-01335,2026-08-16T11:16:19Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,success,10.50.40.95,benign,routine authentication
+AUTH-00554,2026-08-16T11:21:18Z,FIN-WS-14,APP-API-02,ACME\mrivera,WinRM,success,10.50.9.217,benign,routine authentication
+AUTH-00887,2026-08-16T11:26:01Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,failure,10.50.30.133,benign,routine authentication
+AUTH-01261,2026-08-16T11:31:24Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,RDP,failure,10.50.12.153,benign,routine authentication
+AUTH-01079,2026-08-16T11:40:38Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.6.103,benign,routine authentication
+AUTH-00881,2026-08-16T11:42:20Z,JUMP-01,FIN-WS-14,ACME\mrivera,Kerberos,failure,10.50.47.78,benign,routine authentication
+AUTH-00401,2026-08-16T11:44:15Z,FIN-WS-14,APP-API-03,ACME\jsmith,WinRM,success,10.50.18.99,benign,routine authentication
+AUTH-00398,2026-08-16T11:49:32Z,APP-API-03,APP-API-03,ACME\mrivera,NTLM,success,10.50.17.171,benign,routine authentication
+AUTH-00538,2026-08-16T11:50:09Z,APP-API-02,FIN-WS-14,ACME\svc_backup,RDP,success,10.50.42.143,benign,routine authentication
+AUTH-01205,2026-08-16T11:59:01Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.31.108,benign,routine authentication
+AUTH-00873,2026-08-16T12:03:06Z,JUMP-01,APP-API-03,ACME\svc_deploy,NTLM,failure,10.50.2.183,benign,routine authentication
+AUTH-00757,2026-08-16T12:10:39Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.45.180,benign,routine authentication
+AUTH-01225,2026-08-16T12:10:45Z,DEPLOY-01,JUMP-01,ACME\mrivera,WinRM,success,10.50.47.142,benign,routine authentication
+AUTH-00046,2026-08-16T12:10:52Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,success,10.50.1.165,benign,routine authentication
+AUTH-00989,2026-08-16T12:18:36Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.20.237,benign,routine authentication
+AUTH-00754,2026-08-16T12:19:54Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.42.199,benign,routine authentication
+AUTH-01262,2026-08-16T12:34:39Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,success,10.50.15.208,benign,routine authentication
+AUTH-00548,2026-08-16T12:37:47Z,FILE-02,APP-API-02,ACME\mrivera,NTLM,success,10.50.19.196,benign,routine authentication
+AUTH-00713,2026-08-16T12:46:19Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,Kerberos,failure,10.50.44.147,benign,routine authentication
+AUTH-00511,2026-08-16T12:55:44Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,NTLM,success,10.50.45.160,benign,routine authentication
+AUTH-00929,2026-08-16T12:59:45Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.11.5,benign,routine authentication
+AUTH-00681,2026-08-16T13:03:00Z,FIN-WS-14,JUMP-01,ACME\svc_backup,NTLM,failure,10.50.13.195,benign,routine authentication
+AUTH-00115,2026-08-16T13:03:04Z,APP-API-03,APP-API-03,ACME\jsmith,Kerberos,success,10.50.5.65,benign,routine authentication
+AUTH-01436,2026-08-16T13:13:35Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,RDP,success,10.50.42.127,benign,routine authentication
+AUTH-01181,2026-08-16T13:18:54Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.4.217,benign,routine authentication
+AUTH-01399,2026-08-16T13:20:35Z,FILE-02,FIN-WS-14,ACME\mrivera,RDP,failure,10.50.19.77,benign,routine authentication
+AUTH-00333,2026-08-16T13:33:48Z,JUMP-01,JUMP-01,ACME\jsmith,RDP,success,10.50.29.114,benign,routine authentication
+AUTH-01188,2026-08-16T13:38:52Z,FIN-WS-14,JUMP-01,ACME\svc_backup,RDP,success,10.50.18.56,benign,routine authentication
+AUTH-01126,2026-08-16T13:39:27Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,RDP,success,10.50.49.2,benign,routine authentication
+AUTH-01061,2026-08-16T13:44:53Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,RDP,success,10.50.44.10,benign,routine authentication
+AUTH-00745,2026-08-16T13:47:12Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,Kerberos,success,10.50.9.186,benign,routine authentication
+AUTH-01269,2026-08-16T14:02:01Z,DEPLOY-01,JUMP-01,ACME\svc_backup,RDP,success,10.50.37.228,benign,routine authentication
+AUTH-01431,2026-08-16T14:18:42Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,RDP,failure,10.50.28.75,benign,routine authentication
+AUTH-00178,2026-08-16T14:25:05Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,Kerberos,success,10.50.15.10,benign,routine authentication
+AUTH-00110,2026-08-16T14:25:38Z,DEPLOY-01,APP-API-03,ACME\svc_backup,NTLM,success,10.50.20.48,benign,routine authentication
+AUTH-00371,2026-08-16T14:32:39Z,APP-API-02,FIN-WS-14,ACME\jsmith,WinRM,failure,10.50.37.213,benign,routine authentication
+AUTH-00106,2026-08-16T14:40:41Z,DEPLOY-01,FILE-02,ACME\jsmith,Kerberos,success,10.50.29.159,benign,routine authentication
+AUTH-00904,2026-08-16T14:42:42Z,APP-API-03,APP-API-02,ACME\mrivera,NTLM,success,10.50.17.106,benign,routine authentication
+AUTH-00878,2026-08-16T14:43:14Z,JUMP-01,APP-API-03,ACME\jsmith,RDP,failure,10.50.13.186,benign,routine authentication
+AUTH-00261,2026-08-16T14:49:51Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.12.140,benign,routine authentication
+AUTH-00464,2026-08-16T14:58:40Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,success,10.50.47.87,benign,routine authentication
+AUTH-01022,2026-08-16T15:03:05Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,NTLM,failure,10.50.21.220,benign,routine authentication
+AUTH-00992,2026-08-16T15:04:46Z,FIN-WS-14,FILE-02,ACME\jsmith,Kerberos,failure,10.50.31.124,benign,routine authentication
+AUTH-00534,2026-08-16T15:08:43Z,APP-API-03,APP-API-03,ACME\jsmith,RDP,success,10.50.3.2,benign,routine authentication
+AUTH-00994,2026-08-16T15:10:35Z,DEPLOY-01,JUMP-01,ACME\mrivera,WinRM,success,10.50.37.236,benign,routine authentication
+AUTH-00427,2026-08-16T15:13:24Z,FIN-WS-14,APP-API-03,ACME\jsmith,RDP,success,10.50.27.21,benign,routine authentication
+AUTH-01277,2026-08-16T15:23:29Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.49.233,benign,routine authentication
+AUTH-00508,2026-08-16T15:26:05Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,NTLM,failure,10.50.42.70,benign,routine authentication
+AUTH-00847,2026-08-16T15:29:44Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.50.196,benign,routine authentication
+AUTH-00370,2026-08-16T15:31:15Z,FILE-02,FIN-WS-14,ACME\mrivera,WinRM,failure,10.50.10.12,benign,routine authentication
+AUTH-00101,2026-08-16T15:31:27Z,APP-API-02,APP-API-02,ACME\jsmith,RDP,success,10.50.5.116,benign,routine authentication
+AUTH-00405,2026-08-16T15:34:35Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.38.29,benign,routine authentication
+AUTH-00297,2026-08-16T15:47:56Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.44.101,benign,routine authentication
+AUTH-00639,2026-08-16T15:55:25Z,JUMP-01,FIN-WS-14,ACME\jsmith,RDP,failure,10.50.41.193,benign,routine authentication
+AUTH-00629,2026-08-16T15:58:36Z,APP-API-02,APP-API-03,ACME\svc_backup,NTLM,failure,10.50.29.130,benign,routine authentication
+AUTH-00853,2026-08-16T16:21:24Z,JUMP-01,APP-API-02,ACME\mrivera,NTLM,failure,10.50.1.184,benign,routine authentication
+AUTH-00264,2026-08-16T16:21:36Z,FILE-02,APP-API-03,ACME\mrivera,WinRM,success,10.50.29.76,benign,routine authentication
+AUTH-00602,2026-08-16T16:22:54Z,FILE-02,FILE-02,ACME\jsmith,RDP,failure,10.50.7.229,benign,routine authentication
+AUTH-01167,2026-08-16T16:29:44Z,FIN-WS-14,APP-API-03,ACME\svc_backup,WinRM,failure,10.50.19.45,benign,routine authentication
+AUTH-00053,2026-08-16T16:37:05Z,APP-API-03,FIN-WS-14,ACME\svc_backup,WinRM,success,10.50.23.93,benign,routine authentication
+AUTH-00775,2026-08-16T16:38:01Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.19.102,benign,routine authentication
+AUTH-00136,2026-08-16T16:38:22Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.44.15,benign,routine authentication
+AUTH-00962,2026-08-16T16:54:37Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,RDP,success,10.50.39.159,benign,routine authentication
+AUTH-01067,2026-08-16T16:57:02Z,JUMP-01,JUMP-01,ACME\svc_backup,RDP,success,10.50.5.90,benign,routine authentication
+AUTH-00920,2026-08-16T17:03:03Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,10.50.31.121,benign,routine authentication
+AUTH-00952,2026-08-16T17:07:01Z,FILE-02,DEPLOY-01,ACME\svc_backup,RDP,failure,10.50.23.234,benign,routine authentication
+AUTH-01074,2026-08-16T17:07:55Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.49.46,benign,routine authentication
+AUTH-01235,2026-08-16T17:23:27Z,FILE-02,APP-API-02,ACME\jsmith,Kerberos,success,10.50.36.143,benign,routine authentication
+AUTH-01125,2026-08-16T17:32:39Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,WinRM,success,10.50.9.240,benign,routine authentication
+AUTH-01341,2026-08-16T17:38:18Z,DEPLOY-01,FILE-02,ACME\svc_backup,RDP,success,10.50.10.165,benign,routine authentication
+AUTH-00560,2026-08-16T17:47:51Z,APP-API-02,FILE-02,ACME\svc_backup,WinRM,success,10.50.6.139,benign,routine authentication
+AUTH-00760,2026-08-16T17:50:13Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.35.85,benign,routine authentication
+AUTH-00584,2026-08-16T18:15:11Z,JUMP-01,FIN-WS-14,ACME\mrivera,WinRM,success,10.50.49.173,benign,routine authentication
+AUTH-00467,2026-08-16T18:17:15Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.40.31,benign,routine authentication
+AUTH-01365,2026-08-16T18:17:57Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,NTLM,failure,10.50.22.140,benign,routine authentication
+AUTH-00916,2026-08-16T18:21:07Z,FIN-WS-14,FILE-02,ACME\svc_backup,NTLM,failure,10.50.45.99,benign,routine authentication
+AUTH-00747,2026-08-16T18:28:14Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.35.182,benign,routine authentication
+AUTH-00144,2026-08-16T18:36:39Z,JUMP-01,APP-API-03,ACME\jsmith,NTLM,success,10.50.8.198,benign,routine authentication
+AUTH-01374,2026-08-16T18:39:39Z,DEPLOY-01,JUMP-01,ACME\svc_backup,NTLM,failure,10.50.8.16,benign,routine authentication
+AUTH-00987,2026-08-16T18:45:19Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.26.146,benign,routine authentication
+AUTH-01477,2026-08-16T18:45:26Z,FILE-02,APP-API-02,ACME\jsmith,Kerberos,success,10.50.42.211,benign,routine authentication
+AUTH-00484,2026-08-16T18:47:29Z,FILE-02,APP-API-02,ACME\mrivera,NTLM,failure,10.50.23.84,benign,routine authentication
+AUTH-00347,2026-08-16T18:48:36Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,RDP,success,10.50.48.86,benign,routine authentication
+AUTH-00870,2026-08-16T18:48:36Z,APP-API-02,JUMP-01,ACME\jsmith,WinRM,success,10.50.22.88,benign,routine authentication
+AUTH-01496,2026-08-16T18:57:10Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.17.66,benign,routine authentication
+AUTH-00804,2026-08-16T18:58:32Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,NTLM,success,10.50.28.103,benign,routine authentication
+AUTH-01339,2026-08-16T18:58:49Z,JUMP-01,JUMP-01,ACME\mrivera,RDP,success,10.50.50.212,benign,routine authentication
+AUTH-00585,2026-08-16T18:59:14Z,FIN-WS-14,JUMP-01,ACME\svc_backup,RDP,success,10.50.6.116,benign,routine authentication
+AUTH-00928,2026-08-16T18:59:48Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,10.50.32.107,benign,routine authentication
+AUTH-00311,2026-08-16T19:03:33Z,DEPLOY-01,FILE-02,ACME\svc_backup,Kerberos,success,10.50.9.104,benign,routine authentication
+AUTH-00824,2026-08-16T19:11:44Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,WinRM,success,10.50.25.56,benign,routine authentication
+AUTH-01206,2026-08-16T19:13:21Z,JUMP-01,JUMP-01,ACME\mrivera,WinRM,success,10.50.7.57,benign,routine authentication
+AUTH-00777,2026-08-16T19:14:40Z,DEPLOY-01,FILE-02,ACME\svc_deploy,WinRM,success,10.50.21.191,benign,routine authentication
+AUTH-00938,2026-08-16T19:16:35Z,APP-API-02,JUMP-01,ACME\mrivera,WinRM,success,10.50.14.161,benign,routine authentication
+AUTH-00039,2026-08-16T19:21:33Z,DEPLOY-01,APP-API-03,ACME\svc_backup,NTLM,success,10.50.19.157,benign,routine authentication
+AUTH-00574,2026-08-16T19:21:57Z,DEPLOY-01,APP-API-03,ACME\mrivera,NTLM,success,10.50.46.38,benign,routine authentication
+AUTH-01106,2026-08-16T19:33:57Z,APP-API-02,APP-API-02,ACME\svc_backup,WinRM,success,10.50.41.115,benign,routine authentication
+AUTH-00776,2026-08-16T19:35:59Z,APP-API-03,APP-API-02,ACME\jsmith,RDP,success,10.50.27.107,benign,routine authentication
+AUTH-00686,2026-08-16T19:37:24Z,JUMP-01,APP-API-02,ACME\jsmith,NTLM,failure,10.50.12.69,benign,routine authentication
+AUTH-00425,2026-08-16T19:43:04Z,DEPLOY-01,JUMP-01,ACME\jsmith,WinRM,success,10.50.33.158,benign,routine authentication
+AUTH-01192,2026-08-16T19:45:16Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,success,10.50.33.213,benign,routine authentication
+AUTH-00730,2026-08-16T19:45:58Z,JUMP-01,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.16.93,benign,routine authentication
+AUTH-00284,2026-08-16T19:47:46Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,RDP,success,10.50.42.102,benign,routine authentication
+AUTH-01158,2026-08-16T19:52:36Z,APP-API-02,APP-API-02,ACME\jsmith,Kerberos,success,10.50.50.135,benign,routine authentication
+AUTH-00139,2026-08-16T19:53:12Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.24.16,benign,routine authentication
+AUTH-00130,2026-08-16T19:53:18Z,DEPLOY-01,APP-API-02,ACME\jsmith,RDP,success,10.50.23.82,benign,routine authentication
+AUTH-00324,2026-08-16T19:59:32Z,APP-API-02,APP-API-03,ACME\jsmith,WinRM,failure,10.50.22.19,benign,routine authentication
+AUTH-00664,2026-08-16T20:07:56Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,WinRM,success,10.50.3.214,benign,routine authentication
+AUTH-00128,2026-08-16T20:15:35Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.12.209,benign,routine authentication
+AUTH-00385,2026-08-16T20:24:44Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.7.112,benign,routine authentication
+AUTH-01414,2026-08-16T20:25:22Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,Kerberos,success,10.50.1.240,benign,routine authentication
+AUTH-00612,2026-08-16T20:27:56Z,FILE-02,APP-API-02,ACME\jsmith,RDP,failure,10.50.33.89,benign,routine authentication
+AUTH-00006,2026-08-16T20:31:48Z,FILE-02,APP-API-03,ACME\jsmith,WinRM,success,10.50.25.34,benign,routine authentication
+AUTH-00158,2026-08-16T20:34:03Z,APP-API-02,JUMP-01,ACME\jsmith,RDP,success,10.50.5.148,benign,routine authentication
+AUTH-01275,2026-08-16T20:44:38Z,FILE-02,FIN-WS-14,ACME\jsmith,RDP,failure,10.50.28.17,benign,routine authentication
+AUTH-00102,2026-08-16T20:45:02Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.15.114,benign,routine authentication
+AUTH-01304,2026-08-16T21:04:30Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.41.134,benign,routine authentication
+AUTH-01481,2026-08-16T21:06:27Z,FILE-02,APP-API-03,ACME\svc_deploy,RDP,success,10.50.11.178,benign,routine authentication
+AUTH-00902,2026-08-16T21:08:18Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.20.86,benign,routine authentication
+AUTH-00544,2026-08-16T21:14:53Z,JUMP-01,DEPLOY-01,ACME\jsmith,WinRM,success,10.50.15.232,benign,routine authentication
+AUTH-01052,2026-08-16T21:16:09Z,JUMP-01,APP-API-03,ACME\mrivera,NTLM,success,10.50.30.97,benign,routine authentication
+AUTH-00212,2026-08-16T21:26:52Z,JUMP-01,DEPLOY-01,ACME\jsmith,WinRM,failure,10.50.34.183,benign,routine authentication
+AUTH-00243,2026-08-16T21:28:17Z,JUMP-01,FILE-02,ACME\svc_deploy,Kerberos,failure,10.50.10.227,benign,routine authentication
+AUTH-00172,2026-08-16T21:29:08Z,FILE-02,JUMP-01,ACME\svc_backup,RDP,success,10.50.29.183,benign,routine authentication
+AUTH-00456,2026-08-16T21:30:45Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,WinRM,failure,10.50.16.56,benign,routine authentication
+AUTH-01332,2026-08-16T21:35:12Z,DEPLOY-01,APP-API-03,ACME\mrivera,RDP,success,10.50.32.108,benign,routine authentication
+AUTH-01250,2026-08-16T21:42:18Z,FILE-02,FIN-WS-14,ACME\svc_backup,RDP,success,10.50.29.132,benign,routine authentication
+AUTH-01360,2026-08-16T21:50:53Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.1.221,benign,routine authentication
+AUTH-00325,2026-08-16T21:59:37Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.28.169,benign,routine authentication
+AUTH-00569,2026-08-16T22:10:07Z,FILE-02,DEPLOY-01,ACME\jsmith,WinRM,success,10.50.49.174,benign,routine authentication
+AUTH-00255,2026-08-16T22:18:21Z,APP-API-02,APP-API-02,ACME\svc_deploy,Kerberos,success,10.50.10.94,benign,routine authentication
+AUTH-00163,2026-08-16T22:23:44Z,FILE-02,DEPLOY-01,ACME\jsmith,WinRM,success,10.50.10.9,benign,routine authentication
+AUTH-00127,2026-08-16T22:26:46Z,FILE-02,FILE-02,ACME\svc_deploy,WinRM,success,10.50.4.137,benign,routine authentication
+AUTH-00822,2026-08-16T22:29:18Z,DEPLOY-01,JUMP-01,ACME\mrivera,RDP,success,10.50.14.100,benign,routine authentication
+AUTH-00176,2026-08-16T22:29:54Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.48.70,benign,routine authentication
+AUTH-00983,2026-08-16T22:42:37Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.47.146,benign,routine authentication
+AUTH-00599,2026-08-16T22:43:01Z,DEPLOY-01,FILE-02,ACME\svc_backup,RDP,success,10.50.5.113,benign,routine authentication
+AUTH-01180,2026-08-16T23:02:25Z,FILE-02,APP-API-03,ACME\mrivera,Kerberos,success,10.50.16.66,benign,routine authentication
+AUTH-00372,2026-08-16T23:02:32Z,APP-API-03,JUMP-01,ACME\mrivera,NTLM,success,10.50.8.182,benign,routine authentication
+AUTH-01450,2026-08-16T23:11:19Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,Kerberos,failure,10.50.27.217,benign,routine authentication
+AUTH-00447,2026-08-16T23:27:27Z,DEPLOY-01,JUMP-01,ACME\svc_backup,NTLM,failure,10.50.5.179,benign,routine authentication
+AUTH-01157,2026-08-16T23:40:46Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.25.66,benign,routine authentication
+AUTH-00337,2026-08-16T23:42:26Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.16.237,benign,routine authentication
+AUTH-00932,2026-08-16T23:43:08Z,FIN-WS-14,FILE-02,ACME\mrivera,Kerberos,success,10.50.30.103,benign,routine authentication
+AUTH-00712,2026-08-16T23:45:12Z,FILE-02,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.3.193,benign,routine authentication
+AUTH-01474,2026-08-16T23:47:49Z,DEPLOY-01,FILE-02,ACME\svc_deploy,WinRM,failure,10.50.13.99,benign,routine authentication
+AUTH-01083,2026-08-16T23:48:00Z,DEPLOY-01,APP-API-02,ACME\jsmith,WinRM,success,10.50.36.55,benign,routine authentication
+AUTH-00148,2026-08-16T23:48:50Z,JUMP-01,DEPLOY-01,ACME\jsmith,RDP,success,10.50.41.183,benign,routine authentication
+AUTH-01314,2026-08-16T23:48:54Z,FILE-02,FILE-02,ACME\jsmith,WinRM,success,10.50.48.23,benign,routine authentication
+AUTH-00907,2026-08-16T23:50:01Z,FILE-02,JUMP-01,ACME\svc_backup,NTLM,success,10.50.26.126,benign,routine authentication
+AUTH-00392,2026-08-16T23:55:07Z,APP-API-02,JUMP-01,ACME\jsmith,RDP,success,10.50.16.197,benign,routine authentication
+AUTH-00633,2026-08-16T23:59:41Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,RDP,success,10.50.19.143,benign,routine authentication
+AUTH-01307,2026-08-17T00:17:47Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.41.2,benign,routine authentication
+AUTH-00785,2026-08-17T00:25:06Z,APP-API-02,DEPLOY-01,ACME\mrivera,WinRM,success,10.50.26.154,benign,routine authentication
+AUTH-01350,2026-08-17T00:39:47Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.45.108,benign,routine authentication
+AUTH-00014,2026-08-17T00:39:49Z,JUMP-01,JUMP-01,ACME\jsmith,WinRM,success,10.50.29.127,benign,routine authentication
+AUTH-00998,2026-08-17T00:44:52Z,JUMP-01,APP-API-03,ACME\jsmith,WinRM,success,10.50.30.184,benign,routine authentication
+AUTH-00273,2026-08-17T00:50:31Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,RDP,success,10.50.41.211,benign,routine authentication
+AUTH-00742,2026-08-17T00:52:45Z,FIN-WS-14,APP-API-02,ACME\jsmith,RDP,failure,10.50.41.48,benign,routine authentication
+AUTH-00342,2026-08-17T01:07:20Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.5.86,benign,routine authentication
+AUTH-01025,2026-08-17T01:20:59Z,DEPLOY-01,APP-API-03,ACME\svc_backup,Kerberos,failure,10.50.47.143,benign,routine authentication
+AUTH-00982,2026-08-17T01:24:09Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.17.199,benign,routine authentication
+AUTH-00677,2026-08-17T01:32:08Z,APP-API-03,FIN-WS-14,ACME\jsmith,NTLM,success,10.50.30.104,benign,routine authentication
+AUTH-00408,2026-08-17T01:35:58Z,DEPLOY-01,APP-API-02,ACME\mrivera,NTLM,success,10.50.43.185,benign,routine authentication
+AUTH-01012,2026-08-17T01:38:19Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,NTLM,success,10.50.10.102,benign,routine authentication
+AUTH-01231,2026-08-17T01:45:06Z,APP-API-02,APP-API-03,ACME\mrivera,NTLM,success,10.50.25.50,benign,routine authentication
+AUTH-01196,2026-08-17T01:46:50Z,APP-API-03,DEPLOY-01,ACME\mrivera,WinRM,failure,10.50.5.71,benign,routine authentication
+AUTH-01300,2026-08-17T01:52:13Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.21.183,benign,routine authentication
+AUTH-00151,2026-08-17T02:04:48Z,DEPLOY-01,APP-API-03,ACME\svc_backup,WinRM,success,10.50.39.78,benign,routine authentication
+AUTH-01248,2026-08-17T02:08:40Z,APP-API-02,APP-API-02,ACME\svc_backup,Kerberos,success,10.50.27.139,benign,routine authentication
+AUTH-01295,2026-08-17T02:15:03Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,failure,10.50.4.224,benign,routine authentication
+AUTH-01224,2026-08-17T02:30:01Z,APP-API-02,APP-API-03,ACME\svc_backup,WinRM,success,10.50.30.57,benign,routine authentication
+AUTH-00719,2026-08-17T02:30:43Z,FIN-WS-14,FILE-02,ACME\svc_backup,RDP,failure,10.50.44.95,benign,routine authentication
+AUTH-00181,2026-08-17T02:36:48Z,FIN-WS-14,APP-API-03,ACME\svc_backup,WinRM,failure,10.50.27.105,benign,routine authentication
+AUTH-00610,2026-08-17T02:37:50Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,RDP,success,10.50.22.105,benign,routine authentication
+AUTH-01287,2026-08-17T02:43:08Z,APP-API-02,FIN-WS-14,ACME\jsmith,RDP,failure,10.50.50.149,benign,routine authentication
+AUTH-00446,2026-08-17T02:48:12Z,APP-API-03,APP-API-03,ACME\jsmith,WinRM,success,10.50.20.22,benign,routine authentication
+AUTH-00821,2026-08-17T03:09:02Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,success,10.50.48.80,benign,routine authentication
+AUTH-00133,2026-08-17T03:30:09Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,WinRM,failure,10.50.28.235,benign,routine authentication
+AUTH-00802,2026-08-17T03:31:39Z,FIN-WS-14,APP-API-02,ACME\svc_backup,Kerberos,success,10.50.17.208,benign,routine authentication
+AUTH-00465,2026-08-17T03:35:56Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.5.102,benign,routine authentication
+AUTH-01309,2026-08-17T03:43:28Z,FILE-02,JUMP-01,ACME\mrivera,Kerberos,success,10.50.37.83,benign,routine authentication
+AUTH-01085,2026-08-17T04:00:33Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.11.3,benign,routine authentication
+AUTH-00228,2026-08-17T04:02:43Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,RDP,success,10.50.50.152,benign,routine authentication
+AUTH-01118,2026-08-17T04:03:24Z,JUMP-01,JUMP-01,ACME\mrivera,Kerberos,success,10.50.14.209,benign,routine authentication
+AUTH-01456,2026-08-17T04:05:25Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,WinRM,failure,10.50.14.122,benign,routine authentication
+AUTH-00004,2026-08-17T04:12:32Z,APP-API-03,APP-API-02,ACME\jsmith,WinRM,failure,10.50.35.240,benign,routine authentication
+AUTH-00188,2026-08-17T04:15:40Z,APP-API-03,JUMP-01,ACME\svc_deploy,Kerberos,failure,10.50.18.231,benign,routine authentication
+AUTH-01217,2026-08-17T04:19:23Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,RDP,failure,10.50.10.129,benign,routine authentication
+AUTH-00850,2026-08-17T04:21:35Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,WinRM,success,10.50.50.168,benign,routine authentication
+AUTH-00256,2026-08-17T04:26:40Z,FILE-02,FIN-WS-14,ACME\jsmith,RDP,success,10.50.37.128,benign,routine authentication
+AUTH-00062,2026-08-17T04:27:16Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,success,10.50.49.207,benign,routine authentication
+AUTH-01462,2026-08-17T04:30:26Z,APP-API-02,DEPLOY-01,ACME\jsmith,NTLM,failure,10.50.36.123,benign,routine authentication
+AUTH-01299,2026-08-17T04:33:55Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,success,10.50.23.153,benign,routine authentication
+AUTH-00545,2026-08-17T04:44:39Z,FILE-02,APP-API-02,ACME\svc_deploy,WinRM,success,10.50.10.131,benign,routine authentication
+AUTH-00400,2026-08-17T04:48:55Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,NTLM,success,10.50.43.58,benign,routine authentication
+AUTH-00823,2026-08-17T04:49:35Z,APP-API-02,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.13.184,benign,routine authentication
+AUTH-01033,2026-08-17T04:49:55Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.42.100,benign,routine authentication
+AUTH-00845,2026-08-17T04:52:14Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,WinRM,success,10.50.22.2,benign,routine authentication
+AUTH-00414,2026-08-17T04:55:14Z,JUMP-01,JUMP-01,ACME\svc_backup,WinRM,success,10.50.12.70,benign,routine authentication
+AUTH-00507,2026-08-17T04:55:39Z,DEPLOY-01,APP-API-03,ACME\jsmith,RDP,success,10.50.3.169,benign,routine authentication
+AUTH-00016,2026-08-17T05:04:29Z,JUMP-01,JUMP-01,ACME\svc_backup,NTLM,success,10.50.9.31,benign,routine authentication
+AUTH-00957,2026-08-17T05:13:41Z,APP-API-02,APP-API-03,ACME\jsmith,WinRM,success,10.50.2.234,benign,routine authentication
+AUTH-00167,2026-08-17T05:15:06Z,FILE-02,FIN-WS-14,ACME\jsmith,NTLM,success,10.50.16.228,benign,routine authentication
+AUTH-00918,2026-08-17T05:17:57Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,10.50.9.15,benign,routine authentication
+AUTH-01056,2026-08-17T05:18:28Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.1.99,benign,routine authentication
+AUTH-00287,2026-08-17T05:26:01Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.21.180,benign,routine authentication
+AUTH-01284,2026-08-17T05:26:04Z,FILE-02,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.22.161,benign,routine authentication
+AUTH-00899,2026-08-17T05:26:46Z,APP-API-03,FILE-02,ACME\svc_deploy,Kerberos,success,10.50.6.171,benign,routine authentication
+AUTH-01090,2026-08-17T05:32:55Z,APP-API-03,APP-API-03,ACME\svc_deploy,RDP,success,10.50.10.169,benign,routine authentication
+AUTH-00770,2026-08-17T05:40:48Z,APP-API-03,JUMP-01,ACME\svc_deploy,WinRM,success,10.50.42.93,benign,routine authentication
+AUTH-00070,2026-08-17T05:42:04Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,RDP,success,10.50.25.141,benign,routine authentication
+AUTH-01151,2026-08-17T05:43:05Z,FILE-02,APP-API-03,ACME\svc_backup,WinRM,success,10.50.45.186,benign,routine authentication
+AUTH-00927,2026-08-17T05:53:39Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.17.147,benign,routine authentication
+AUTH-00034,2026-08-17T05:54:47Z,APP-API-02,FILE-02,ACME\jsmith,RDP,success,10.50.40.56,benign,routine authentication
+AUTH-01139,2026-08-17T06:05:50Z,APP-API-03,JUMP-01,ACME\svc_backup,WinRM,success,10.50.4.50,benign,routine authentication
+AUTH-01312,2026-08-17T06:06:22Z,FILE-02,APP-API-02,ACME\jsmith,Kerberos,success,10.50.1.183,benign,routine authentication
+AUTH-00999,2026-08-17T06:06:48Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,WinRM,failure,10.50.19.33,benign,routine authentication
+AUTH-00413,2026-08-17T06:15:20Z,APP-API-03,APP-API-02,ACME\mrivera,RDP,failure,10.50.29.117,benign,routine authentication
+AUTH-01222,2026-08-17T06:23:56Z,FILE-02,APP-API-03,ACME\svc_backup,Kerberos,failure,10.50.20.180,benign,routine authentication
+AUTH-00837,2026-08-17T06:24:33Z,FILE-02,APP-API-02,ACME\mrivera,WinRM,success,10.50.6.40,benign,routine authentication
+AUTH-00604,2026-08-17T06:28:30Z,JUMP-01,FILE-02,ACME\svc_backup,RDP,failure,10.50.33.8,benign,routine authentication
+AUTH-00085,2026-08-17T06:41:28Z,APP-API-03,JUMP-01,ACME\svc_deploy,WinRM,success,10.50.41.210,benign,routine authentication
+AUTH-00516,2026-08-17T06:44:50Z,APP-API-03,APP-API-03,ACME\mrivera,NTLM,success,10.50.12.59,benign,routine authentication
+AUTH-00344,2026-08-17T06:47:36Z,JUMP-01,DEPLOY-01,ACME\mrivera,NTLM,success,10.50.42.119,benign,routine authentication
+AUTH-01184,2026-08-17T07:03:54Z,FILE-02,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.20.159,benign,routine authentication
+AUTH-00547,2026-08-17T07:05:17Z,FILE-02,FIN-WS-14,ACME\svc_deploy,WinRM,success,10.50.14.160,benign,routine authentication
+AUTH-00940,2026-08-17T07:13:15Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,NTLM,success,10.50.48.114,benign,routine authentication
+AUTH-00263,2026-08-17T07:13:40Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.4.85,benign,routine authentication
+AUTH-00841,2026-08-17T07:17:57Z,FIN-WS-14,APP-API-02,ACME\mrivera,NTLM,success,10.50.26.31,benign,routine authentication
+AUTH-00603,2026-08-17T07:26:16Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,NTLM,success,10.50.10.199,benign,routine authentication
+AUTH-00233,2026-08-17T07:27:22Z,APP-API-02,APP-API-03,ACME\jsmith,RDP,success,10.50.41.106,benign,routine authentication
+AUTH-00238,2026-08-17T07:30:55Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,RDP,success,10.50.11.4,benign,routine authentication
+AUTH-00203,2026-08-17T07:31:22Z,APP-API-02,APP-API-03,ACME\jsmith,Kerberos,failure,10.50.19.224,benign,routine authentication
+AUTH-00875,2026-08-17T07:37:20Z,APP-API-03,JUMP-01,ACME\mrivera,NTLM,failure,10.50.21.40,benign,routine authentication
+AUTH-00799,2026-08-17T07:38:43Z,FILE-02,FILE-02,ACME\svc_deploy,WinRM,success,10.50.44.150,benign,routine authentication
+AUTH-00415,2026-08-17T07:50:54Z,JUMP-01,JUMP-01,ACME\svc_deploy,WinRM,success,10.50.10.156,benign,routine authentication
+AUTH-00953,2026-08-17T07:50:57Z,APP-API-02,APP-API-03,ACME\jsmith,RDP,success,10.50.28.112,benign,routine authentication
+AUTH-00877,2026-08-17T07:53:56Z,APP-API-03,DEPLOY-01,ACME\mrivera,RDP,success,10.50.42.57,benign,routine authentication
+AUTH-01063,2026-08-17T08:20:05Z,FIN-WS-14,FILE-02,ACME\svc_backup,WinRM,success,10.50.30.60,benign,routine authentication
+AUTH-00711,2026-08-17T08:22:19Z,JUMP-01,APP-API-03,ACME\svc_backup,NTLM,failure,10.50.27.25,benign,routine authentication
+AUTH-01094,2026-08-17T08:23:49Z,FIN-WS-14,APP-API-02,ACME\mrivera,Kerberos,success,10.50.30.184,benign,routine authentication
+AUTH-00755,2026-08-17T08:23:53Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,NTLM,failure,10.50.34.152,benign,routine authentication
+AUTH-00218,2026-08-17T08:30:06Z,FIN-WS-14,FILE-02,ACME\jsmith,NTLM,success,10.50.24.49,benign,routine authentication
+AUTH-01064,2026-08-17T08:33:37Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,RDP,failure,10.50.31.89,benign,routine authentication
+AUTH-01202,2026-08-17T08:34:22Z,FILE-02,FILE-02,ACME\svc_deploy,WinRM,success,10.50.29.31,benign,routine authentication
+AUTH-00597,2026-08-17T08:34:57Z,FILE-02,FIN-WS-14,ACME\jsmith,Kerberos,success,10.50.49.27,benign,routine authentication
+AUTH-00100,2026-08-17T08:39:17Z,FILE-02,APP-API-02,ACME\svc_deploy,NTLM,failure,10.50.36.7,benign,routine authentication
+AUTH-00317,2026-08-17T08:43:53Z,JUMP-01,FILE-02,ACME\mrivera,WinRM,success,10.50.36.89,benign,routine authentication
+AUTH-00589,2026-08-17T08:56:22Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,success,10.50.31.50,benign,routine authentication
+AUTH-00435,2026-08-17T08:58:07Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,NTLM,failure,10.50.37.138,benign,routine authentication
+AUTH-01243,2026-08-17T09:01:12Z,FILE-02,FIN-WS-14,ACME\svc_backup,Kerberos,success,10.50.2.125,benign,routine authentication
+AUTH-00829,2026-08-17T09:05:52Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.22.61,benign,routine authentication
+AUTH-01128,2026-08-17T09:07:48Z,FIN-WS-14,JUMP-01,ACME\svc_backup,RDP,success,10.50.27.207,benign,routine authentication
+AUTH-00619,2026-08-17T09:23:05Z,DEPLOY-01,APP-API-03,ACME\jsmith,WinRM,success,10.50.27.3,benign,routine authentication
+AUTH-00702,2026-08-17T09:23:27Z,APP-API-02,FIN-WS-14,ACME\svc_backup,WinRM,failure,10.50.8.84,benign,routine authentication
+AUTH-00329,2026-08-17T09:24:30Z,APP-API-02,DEPLOY-01,ACME\svc_backup,Kerberos,failure,10.50.26.130,benign,routine authentication
+AUTH-01183,2026-08-17T09:30:47Z,FILE-02,FIN-WS-14,ACME\jsmith,RDP,success,10.50.7.199,benign,routine authentication
+AUTH-00211,2026-08-17T09:31:16Z,FIN-WS-14,FILE-02,ACME\jsmith,Kerberos,success,10.50.47.53,benign,routine authentication
+AUTH-01468,2026-08-17T09:37:04Z,APP-API-02,APP-API-02,ACME\svc_backup,Kerberos,success,10.50.22.41,benign,routine authentication
+AUTH-00662,2026-08-17T09:41:12Z,FILE-02,FILE-02,ACME\mrivera,WinRM,success,10.50.23.38,benign,routine authentication
+AUTH-01378,2026-08-17T09:41:58Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,WinRM,success,10.50.26.107,benign,routine authentication
+AUTH-00649,2026-08-17T09:44:39Z,APP-API-03,JUMP-01,ACME\svc_deploy,Kerberos,failure,10.50.46.205,benign,routine authentication
+AUTH-00553,2026-08-17T09:45:59Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,NTLM,success,10.50.26.73,benign,routine authentication
+AUTH-00792,2026-08-17T09:47:14Z,APP-API-02,FILE-02,ACME\svc_deploy,Kerberos,success,10.50.8.199,benign,routine authentication
+AUTH-01132,2026-08-17T09:57:37Z,JUMP-01,FIN-WS-14,ACME\mrivera,RDP,failure,10.50.35.214,benign,routine authentication
+AUTH-01101,2026-08-17T10:12:24Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,failure,10.50.40.134,benign,routine authentication
+AUTH-01004,2026-08-17T10:13:28Z,APP-API-02,JUMP-01,ACME\svc_backup,NTLM,success,10.50.22.216,benign,routine authentication
+AUTH-01041,2026-08-17T10:14:11Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,RDP,success,10.50.7.185,benign,routine authentication
+AUTH-01458,2026-08-17T10:21:11Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,Kerberos,success,10.50.1.60,benign,routine authentication
+AUTH-01082,2026-08-17T10:22:06Z,FIN-WS-14,FILE-02,ACME\mrivera,WinRM,failure,10.50.15.117,benign,routine authentication
+AUTH-00087,2026-08-17T10:39:25Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,RDP,success,10.50.17.41,benign,routine authentication
+AUTH-01147,2026-08-17T10:44:58Z,DEPLOY-01,JUMP-01,ACME\jsmith,RDP,success,10.50.9.168,benign,routine authentication
+AUTH-01473,2026-08-17T10:57:16Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.22.132,benign,routine authentication
+AUTH-00630,2026-08-17T11:03:34Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,failure,10.50.31.97,benign,routine authentication
+AUTH-00810,2026-08-17T11:06:30Z,APP-API-03,FILE-02,ACME\jsmith,RDP,success,10.50.25.173,benign,routine authentication
+AUTH-00452,2026-08-17T11:08:00Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.27.140,benign,routine authentication
+AUTH-00555,2026-08-17T11:11:27Z,FILE-02,APP-API-02,ACME\svc_deploy,RDP,failure,10.50.6.202,benign,routine authentication
+AUTH-00013,2026-08-17T11:14:51Z,APP-API-02,FILE-02,ACME\svc_deploy,WinRM,failure,10.50.43.23,benign,routine authentication
+AUTH-01321,2026-08-17T11:16:17Z,FIN-WS-14,FILE-02,ACME\svc_deploy,NTLM,success,10.50.41.165,benign,routine authentication
+AUTH-01014,2026-08-17T11:20:57Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,WinRM,success,10.50.1.76,benign,routine authentication
+AUTH-00671,2026-08-17T11:32:59Z,DEPLOY-01,JUMP-01,ACME\mrivera,WinRM,success,10.50.29.138,benign,routine authentication
+AUTH-01370,2026-08-17T11:35:23Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.4.157,benign,routine authentication
+AUTH-00063,2026-08-17T11:46:12Z,APP-API-02,APP-API-03,ACME\mrivera,RDP,success,10.50.41.163,benign,routine authentication
+AUTH-00019,2026-08-17T11:48:07Z,JUMP-01,APP-API-02,ACME\svc_deploy,Kerberos,success,10.50.28.115,benign,routine authentication
+AUTH-00249,2026-08-17T11:57:45Z,APP-API-02,DEPLOY-01,ACME\jsmith,WinRM,failure,10.50.13.103,benign,routine authentication
+AUTH-00503,2026-08-17T12:02:54Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,success,10.50.38.78,benign,routine authentication
+AUTH-00660,2026-08-17T12:05:34Z,FILE-02,DEPLOY-01,ACME\svc_deploy,RDP,success,10.50.9.177,benign,routine authentication
+AUTH-00116,2026-08-17T12:12:06Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,10.50.48.52,benign,routine authentication
+AUTH-00368,2026-08-17T12:13:44Z,APP-API-02,APP-API-03,ACME\svc_deploy,Kerberos,success,10.50.23.3,benign,routine authentication
+AUTH-00395,2026-08-17T12:28:03Z,APP-API-02,FIN-WS-14,ACME\mrivera,RDP,failure,10.50.50.17,benign,routine authentication
+AUTH-00793,2026-08-17T12:30:46Z,JUMP-01,DEPLOY-01,ACME\mrivera,Kerberos,success,10.50.48.202,benign,routine authentication
+AUTH-01007,2026-08-17T12:45:31Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,Kerberos,success,10.50.12.127,benign,routine authentication
+AUTH-00017,2026-08-17T12:46:58Z,FILE-02,APP-API-03,ACME\jsmith,WinRM,success,10.50.30.122,benign,routine authentication
+AUTH-00654,2026-08-17T12:50:06Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,10.50.45.20,benign,routine authentication
+AUTH-00310,2026-08-17T12:51:31Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,RDP,success,10.50.18.101,benign,routine authentication
+AUTH-00919,2026-08-17T12:58:16Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,WinRM,success,10.50.36.62,benign,routine authentication

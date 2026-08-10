@@ -1,0 +1,1501 @@
+event_id,_time,src_host,dest_host,user,process_name,dest_port,action,bytes_out,classification,note
+NET-00742,2026-08-11T13:00:56Z,APP-API-02,FILE-02,ACME\jsmith,powershell.exe,5985,allowed,61333,benign,routine network
+NET-00273,2026-08-11T13:06:29Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,44165,benign,routine network
+NET-00865,2026-08-11T13:11:00Z,APP-API-02,APP-API-02,ACME\jsmith,powershell.exe,443,allowed,43825,benign,routine network
+NET-00176,2026-08-11T13:11:33Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,65361,benign,routine network
+NET-00342,2026-08-11T13:13:56Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,69715,benign,routine network
+NET-00620,2026-08-11T13:17:42Z,DEPLOY-01,JUMP-01,ACME\jsmith,backup-agent.exe,443,allowed,22092,benign,routine network
+NET-01106,2026-08-11T13:18:01Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,28026,benign,routine network
+NET-01312,2026-08-11T13:18:30Z,FILE-02,FILE-02,ACME\svc_backup,w3wp.exe,5985,allowed,47927,benign,routine network
+NET-01243,2026-08-11T13:19:43Z,FILE-02,JUMP-01,ACME\jsmith,w3wp.exe,443,allowed,65431,benign,routine network
+NET-00944,2026-08-11T13:24:56Z,DEPLOY-01,JUMP-01,ACME\mrivera,backup-agent.exe,443,allowed,59271,benign,routine network
+NET-01484,2026-08-11T13:29:16Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,powershell.exe,445,allowed,68736,benign,routine network
+NET-00692,2026-08-11T13:29:42Z,APP-API-03,JUMP-01,ACME\mrivera,w3wp.exe,445,allowed,64011,benign,routine network
+NET-00469,2026-08-11T13:37:01Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,20208,benign,routine network
+NET-00328,2026-08-11T13:39:28Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,64507,benign,routine network
+NET-00136,2026-08-11T13:44:10Z,APP-API-02,FIN-WS-14,ACME\jsmith,powershell.exe,445,allowed,19195,benign,routine network
+NET-00158,2026-08-11T13:45:08Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,backup-agent.exe,5985,allowed,2120,benign,routine network
+NET-00591,2026-08-11T13:53:34Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,w3wp.exe,443,allowed,87485,benign,routine network
+NET-00931,2026-08-11T13:57:43Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,49517,benign,routine network
+NET-00905,2026-08-11T14:03:56Z,APP-API-02,JUMP-01,ACME\jsmith,powershell.exe,5985,allowed,55400,benign,routine network
+NET-00292,2026-08-11T14:04:25Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,38198,benign,routine network
+NET-00318,2026-08-11T14:13:52Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,85577,benign,routine network
+NET-01049,2026-08-11T14:16:15Z,DEPLOY-01,FILE-02,ACME\mrivera,w3wp.exe,445,allowed,77812,benign,routine network
+NET-00116,2026-08-11T14:23:26Z,APP-API-03,FILE-02,ACME\mrivera,powershell.exe,5985,allowed,26092,benign,routine network
+NET-01473,2026-08-11T14:25:57Z,APP-API-03,APP-API-02,ACME\mrivera,w3wp.exe,445,allowed,36851,benign,routine network
+NET-00113,2026-08-11T14:26:49Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,75997,benign,routine network
+NET-00675,2026-08-11T14:31:25Z,APP-API-02,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,48003,benign,routine network
+NET-00982,2026-08-11T14:37:00Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,66026,benign,routine network
+NET-01237,2026-08-11T14:44:09Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,77686,benign,routine network
+NET-00043,2026-08-11T14:45:38Z,JUMP-01,APP-API-02,ACME\svc_backup,powershell.exe,445,allowed,28542,benign,routine network
+NET-00689,2026-08-11T14:55:56Z,APP-API-02,APP-API-03,ACME\mrivera,w3wp.exe,5985,allowed,53137,benign,routine network
+NET-00335,2026-08-11T15:08:26Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,64019,benign,routine network
+NET-01045,2026-08-11T15:08:27Z,APP-API-02,FILE-02,ACME\mrivera,powershell.exe,5985,allowed,70066,benign,routine network
+NET-01385,2026-08-11T15:10:00Z,FILE-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,33865,benign,routine network
+NET-00841,2026-08-11T15:15:27Z,APP-API-02,FIN-WS-14,ACME\svc_backup,powershell.exe,5985,allowed,22245,benign,routine network
+NET-01433,2026-08-11T15:15:53Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,20447,benign,routine network
+NET-00454,2026-08-11T15:16:28Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,w3wp.exe,445,allowed,87693,benign,routine network
+NET-00162,2026-08-11T15:21:58Z,FIN-WS-14,APP-API-03,ACME\svc_backup,backup-agent.exe,445,allowed,86736,benign,routine network
+NET-INC-001,2026-08-11T15:23:00Z,FIN-WS-14,APP-API-02,ACME\mrivera,powershell.exe,5985,blocked,812,scope,matches failed WinRM
+NET-INC-002,2026-08-11T15:23:18Z,FIN-WS-14,APP-API-03,ACME\mrivera,powershell.exe,5985,blocked,790,scope,matches failed WinRM
+NET-CTX-001,2026-08-11T15:25:00Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,powershell.exe,5985,allowed,12022,benign,approved deployment
+NET-01141,2026-08-11T15:34:57Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,backup-agent.exe,443,allowed,50061,benign,routine network
+NET-00548,2026-08-11T15:57:11Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,88626,benign,routine network
+NET-00815,2026-08-11T15:57:56Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,65549,benign,routine network
+NET-00836,2026-08-11T16:00:52Z,APP-API-03,DEPLOY-01,ACME\svc_backup,w3wp.exe,443,allowed,32406,benign,routine network
+NET-00455,2026-08-11T16:05:22Z,APP-API-02,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,67747,benign,routine network
+NET-00681,2026-08-11T16:07:52Z,APP-API-02,FIN-WS-14,ACME\mrivera,powershell.exe,445,allowed,35762,benign,routine network
+NET-00608,2026-08-11T16:11:28Z,FIN-WS-14,JUMP-01,ACME\jsmith,w3wp.exe,445,allowed,15164,benign,routine network
+NET-01055,2026-08-11T16:14:08Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,29722,benign,routine network
+NET-00466,2026-08-11T16:35:43Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,71563,benign,routine network
+NET-01098,2026-08-11T16:44:08Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,w3wp.exe,443,allowed,17713,benign,routine network
+NET-00004,2026-08-11T17:04:46Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,50464,benign,routine network
+NET-00204,2026-08-11T17:08:42Z,JUMP-01,APP-API-03,ACME\svc_backup,w3wp.exe,443,allowed,29161,benign,routine network
+NET-01030,2026-08-11T17:08:44Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,powershell.exe,5985,allowed,56281,benign,routine network
+NET-01142,2026-08-11T17:18:22Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,74711,benign,routine network
+NET-00285,2026-08-11T17:25:02Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,85571,benign,routine network
+NET-01398,2026-08-11T17:25:28Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,89357,benign,routine network
+NET-00262,2026-08-11T17:28:44Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,60414,benign,routine network
+NET-00760,2026-08-11T17:34:11Z,JUMP-01,JUMP-01,ACME\svc_backup,w3wp.exe,5985,allowed,9409,benign,routine network
+NET-00774,2026-08-11T17:37:36Z,APP-API-03,APP-API-03,ACME\mrivera,powershell.exe,445,allowed,1895,benign,routine network
+NET-01082,2026-08-11T17:38:27Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,36986,benign,routine network
+NET-00782,2026-08-11T17:39:51Z,JUMP-01,FILE-02,ACME\svc_backup,powershell.exe,445,allowed,72097,benign,routine network
+NET-01171,2026-08-11T17:43:31Z,FIN-WS-14,FILE-02,ACME\svc_backup,powershell.exe,445,allowed,84472,benign,routine network
+NET-00871,2026-08-11T17:44:30Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,powershell.exe,445,allowed,77612,benign,routine network
+NET-00313,2026-08-11T17:44:51Z,APP-API-03,FIN-WS-14,ACME\mrivera,w3wp.exe,5985,allowed,59327,benign,routine network
+NET-01287,2026-08-11T17:54:18Z,APP-API-03,FILE-02,ACME\svc_deploy,w3wp.exe,445,allowed,72853,benign,routine network
+NET-00550,2026-08-11T18:10:43Z,DEPLOY-01,JUMP-01,ACME\jsmith,backup-agent.exe,445,allowed,83849,benign,routine network
+NET-00894,2026-08-11T18:15:57Z,FIN-WS-14,APP-API-03,ACME\svc_backup,w3wp.exe,445,allowed,48916,benign,routine network
+NET-00387,2026-08-11T18:17:14Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,84199,benign,routine network
+NET-01238,2026-08-11T18:23:17Z,DEPLOY-01,APP-API-02,ACME\svc_backup,powershell.exe,445,allowed,47131,benign,routine network
+NET-00971,2026-08-11T18:26:56Z,APP-API-02,FILE-02,ACME\svc_backup,backup-agent.exe,5985,allowed,88238,benign,routine network
+NET-00759,2026-08-11T18:40:59Z,APP-API-02,DEPLOY-01,ACME\svc_backup,w3wp.exe,5985,allowed,66637,benign,routine network
+NET-00349,2026-08-11T19:07:48Z,FILE-02,APP-API-02,ACME\jsmith,backup-agent.exe,5985,allowed,64513,benign,routine network
+NET-00571,2026-08-11T19:09:46Z,APP-API-03,FIN-WS-14,ACME\jsmith,backup-agent.exe,5985,allowed,63018,benign,routine network
+NET-01133,2026-08-11T19:09:47Z,JUMP-01,DEPLOY-01,ACME\svc_backup,powershell.exe,5985,allowed,64605,benign,routine network
+NET-00801,2026-08-11T19:16:55Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,powershell.exe,443,allowed,11653,benign,routine network
+NET-01100,2026-08-11T19:28:04Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,56934,benign,routine network
+NET-00199,2026-08-11T19:39:57Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,38785,benign,routine network
+NET-00646,2026-08-11T19:40:24Z,APP-API-02,FIN-WS-14,ACME\svc_backup,powershell.exe,5985,allowed,72149,benign,routine network
+NET-01276,2026-08-11T19:40:38Z,APP-API-03,FIN-WS-14,ACME\svc_backup,powershell.exe,445,allowed,17404,benign,routine network
+NET-01361,2026-08-11T19:44:02Z,APP-API-03,APP-API-02,ACME\jsmith,w3wp.exe,445,allowed,37515,benign,routine network
+NET-00879,2026-08-11T19:46:57Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,445,allowed,57136,benign,routine network
+NET-00400,2026-08-11T19:53:43Z,APP-API-02,APP-API-03,ACME\mrivera,backup-agent.exe,443,allowed,87187,benign,routine network
+NET-01044,2026-08-11T20:06:32Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,8458,benign,routine network
+NET-00422,2026-08-11T20:07:13Z,FILE-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,54746,benign,routine network
+NET-00495,2026-08-11T20:08:29Z,APP-API-03,DEPLOY-01,ACME\svc_backup,w3wp.exe,443,allowed,77221,benign,routine network
+NET-01298,2026-08-11T20:18:04Z,DEPLOY-01,JUMP-01,ACME\mrivera,powershell.exe,445,allowed,40873,benign,routine network
+NET-00741,2026-08-11T20:21:46Z,APP-API-02,FILE-02,ACME\jsmith,w3wp.exe,445,allowed,77030,benign,routine network
+NET-00100,2026-08-11T20:23:24Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,5603,benign,routine network
+NET-01413,2026-08-11T20:31:05Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,w3wp.exe,5985,allowed,68274,benign,routine network
+NET-00493,2026-08-11T20:31:31Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,51040,benign,routine network
+NET-01457,2026-08-11T20:34:21Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,powershell.exe,445,allowed,76109,benign,routine network
+NET-01390,2026-08-11T20:42:26Z,JUMP-01,FIN-WS-14,ACME\jsmith,powershell.exe,5985,allowed,65207,benign,routine network
+NET-00492,2026-08-11T20:48:28Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,65369,benign,routine network
+NET-01094,2026-08-11T20:54:16Z,FILE-02,FILE-02,ACME\mrivera,w3wp.exe,445,allowed,47080,benign,routine network
+NET-00152,2026-08-11T20:57:25Z,FILE-02,APP-API-03,ACME\svc_deploy,powershell.exe,443,allowed,79654,benign,routine network
+NET-01083,2026-08-11T21:03:26Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,powershell.exe,5985,allowed,18642,benign,routine network
+NET-01477,2026-08-11T21:15:39Z,APP-API-03,JUMP-01,ACME\svc_backup,powershell.exe,443,allowed,40414,benign,routine network
+NET-00104,2026-08-11T21:15:48Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,12182,benign,routine network
+NET-01333,2026-08-11T21:19:46Z,APP-API-03,FIN-WS-14,ACME\mrivera,backup-agent.exe,445,allowed,78698,benign,routine network
+NET-00395,2026-08-11T21:23:32Z,FIN-WS-14,JUMP-01,ACME\jsmith,powershell.exe,443,allowed,82896,benign,routine network
+NET-00705,2026-08-11T21:24:28Z,FILE-02,FIN-WS-14,ACME\svc_backup,backup-agent.exe,445,allowed,2076,benign,routine network
+NET-00347,2026-08-11T21:25:23Z,FIN-WS-14,APP-API-03,ACME\jsmith,backup-agent.exe,5985,allowed,22105,benign,routine network
+NET-00648,2026-08-11T21:40:10Z,FILE-02,FIN-WS-14,ACME\svc_deploy,w3wp.exe,443,allowed,58162,benign,routine network
+NET-00909,2026-08-11T21:43:02Z,APP-API-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,67819,benign,routine network
+NET-01264,2026-08-11T21:53:02Z,APP-API-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,5985,allowed,7265,benign,routine network
+NET-01128,2026-08-11T21:55:16Z,FIN-WS-14,DEPLOY-01,ACME\jsmith,powershell.exe,5985,allowed,56132,benign,routine network
+NET-00299,2026-08-11T22:04:27Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,backup-agent.exe,5985,allowed,88222,benign,routine network
+NET-01118,2026-08-11T22:06:05Z,FILE-02,FILE-02,ACME\svc_backup,powershell.exe,443,allowed,8456,benign,routine network
+NET-01173,2026-08-11T22:07:55Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,7840,benign,routine network
+NET-00256,2026-08-11T22:14:04Z,FIN-WS-14,FILE-02,ACME\mrivera,powershell.exe,5985,allowed,4830,benign,routine network
+NET-00137,2026-08-11T22:18:28Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,82077,benign,routine network
+NET-01389,2026-08-11T22:25:01Z,FIN-WS-14,FILE-02,ACME\jsmith,w3wp.exe,5985,allowed,10465,benign,routine network
+NET-01022,2026-08-11T22:27:35Z,APP-API-02,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,58787,benign,routine network
+NET-00408,2026-08-11T22:32:09Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,86014,benign,routine network
+NET-01386,2026-08-11T22:35:13Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,53243,benign,routine network
+NET-00441,2026-08-11T22:54:48Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,84965,benign,routine network
+NET-01257,2026-08-11T22:59:38Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,12513,benign,routine network
+NET-00991,2026-08-11T23:05:31Z,FIN-WS-14,APP-API-02,ACME\svc_backup,backup-agent.exe,443,allowed,31901,benign,routine network
+NET-00323,2026-08-11T23:11:46Z,JUMP-01,DEPLOY-01,ACME\mrivera,w3wp.exe,445,allowed,52956,benign,routine network
+NET-00302,2026-08-11T23:39:45Z,JUMP-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,443,allowed,40702,benign,routine network
+NET-00835,2026-08-11T23:43:26Z,FILE-02,FILE-02,ACME\mrivera,w3wp.exe,443,allowed,44206,benign,routine network
+NET-01469,2026-08-11T23:44:05Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,20184,benign,routine network
+NET-00596,2026-08-12T00:00:10Z,JUMP-01,APP-API-02,ACME\svc_backup,backup-agent.exe,445,allowed,56126,benign,routine network
+NET-00519,2026-08-12T00:00:38Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,backup-agent.exe,445,allowed,35356,benign,routine network
+NET-01294,2026-08-12T00:02:38Z,FILE-02,APP-API-02,ACME\svc_backup,backup-agent.exe,445,allowed,68211,benign,routine network
+NET-00140,2026-08-12T00:15:09Z,FILE-02,FILE-02,ACME\mrivera,powershell.exe,445,allowed,71148,benign,routine network
+NET-00536,2026-08-12T00:16:09Z,FIN-WS-14,JUMP-01,ACME\jsmith,powershell.exe,443,allowed,65187,benign,routine network
+NET-00545,2026-08-12T00:16:24Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,26800,benign,routine network
+NET-01371,2026-08-12T00:21:20Z,JUMP-01,FILE-02,ACME\mrivera,w3wp.exe,5985,allowed,38877,benign,routine network
+NET-01363,2026-08-12T00:22:26Z,DEPLOY-01,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,88765,benign,routine network
+NET-01370,2026-08-12T00:26:32Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,69697,benign,routine network
+NET-01245,2026-08-12T00:40:17Z,DEPLOY-01,FILE-02,ACME\mrivera,w3wp.exe,5985,allowed,7434,benign,routine network
+NET-00253,2026-08-12T00:47:44Z,JUMP-01,DEPLOY-01,ACME\mrivera,backup-agent.exe,5985,allowed,32893,benign,routine network
+NET-01450,2026-08-12T00:55:27Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,powershell.exe,443,allowed,8395,benign,routine network
+NET-00617,2026-08-12T01:01:57Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,38343,benign,routine network
+NET-00315,2026-08-12T01:03:39Z,APP-API-03,APP-API-02,ACME\mrivera,w3wp.exe,5985,allowed,31041,benign,routine network
+NET-00923,2026-08-12T01:07:44Z,FIN-WS-14,APP-API-02,ACME\jsmith,backup-agent.exe,445,allowed,20383,benign,routine network
+NET-00124,2026-08-12T01:09:58Z,JUMP-01,APP-API-02,ACME\mrivera,w3wp.exe,445,allowed,38059,benign,routine network
+NET-00652,2026-08-12T01:12:52Z,APP-API-03,APP-API-02,ACME\jsmith,w3wp.exe,5985,allowed,31512,benign,routine network
+NET-00083,2026-08-12T01:17:06Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,55061,benign,routine network
+NET-01199,2026-08-12T01:37:31Z,JUMP-01,APP-API-03,ACME\jsmith,w3wp.exe,445,allowed,21188,benign,routine network
+NET-00582,2026-08-12T01:38:53Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,9952,benign,routine network
+NET-00757,2026-08-12T01:39:37Z,JUMP-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,41452,benign,routine network
+NET-00474,2026-08-12T01:47:05Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,15329,benign,routine network
+NET-01384,2026-08-12T01:51:20Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,207,benign,routine network
+NET-01240,2026-08-12T01:55:09Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,powershell.exe,5985,allowed,4719,benign,routine network
+NET-01184,2026-08-12T01:59:55Z,JUMP-01,DEPLOY-01,ACME\svc_backup,w3wp.exe,443,allowed,80282,benign,routine network
+NET-00491,2026-08-12T02:07:20Z,APP-API-02,JUMP-01,ACME\jsmith,backup-agent.exe,443,allowed,404,benign,routine network
+NET-00855,2026-08-12T02:15:53Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,63822,benign,routine network
+NET-00778,2026-08-12T02:18:28Z,FILE-02,APP-API-02,ACME\mrivera,backup-agent.exe,5985,allowed,32621,benign,routine network
+NET-01472,2026-08-12T02:30:28Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,445,allowed,49409,benign,routine network
+NET-01075,2026-08-12T02:31:23Z,FILE-02,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,61783,benign,routine network
+NET-00494,2026-08-12T02:40:47Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,powershell.exe,445,allowed,75080,benign,routine network
+NET-01004,2026-08-12T02:54:20Z,APP-API-02,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,57949,benign,routine network
+NET-00222,2026-08-12T02:54:39Z,FIN-WS-14,JUMP-01,ACME\jsmith,powershell.exe,5985,allowed,41024,benign,routine network
+NET-00431,2026-08-12T03:07:27Z,APP-API-02,FIN-WS-14,ACME\jsmith,w3wp.exe,443,allowed,51758,benign,routine network
+NET-00574,2026-08-12T03:09:57Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,powershell.exe,443,allowed,76020,benign,routine network
+NET-01491,2026-08-12T03:13:52Z,DEPLOY-01,FILE-02,ACME\mrivera,powershell.exe,445,allowed,21088,benign,routine network
+NET-00284,2026-08-12T03:21:28Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,63525,benign,routine network
+NET-00386,2026-08-12T03:22:33Z,DEPLOY-01,APP-API-02,ACME\mrivera,backup-agent.exe,443,allowed,8091,benign,routine network
+NET-01054,2026-08-12T03:31:08Z,APP-API-03,APP-API-03,ACME\svc_backup,w3wp.exe,443,allowed,40992,benign,routine network
+NET-00623,2026-08-12T03:31:35Z,DEPLOY-01,APP-API-03,ACME\svc_backup,w3wp.exe,445,allowed,50588,benign,routine network
+NET-00840,2026-08-12T03:36:44Z,JUMP-01,JUMP-01,ACME\jsmith,w3wp.exe,445,allowed,26785,benign,routine network
+NET-01204,2026-08-12T03:38:43Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,18376,benign,routine network
+NET-00796,2026-08-12T03:42:42Z,APP-API-02,FILE-02,ACME\mrivera,w3wp.exe,5985,allowed,78578,benign,routine network
+NET-00468,2026-08-12T03:53:09Z,DEPLOY-01,APP-API-03,ACME\mrivera,backup-agent.exe,5985,allowed,72407,benign,routine network
+NET-01271,2026-08-12T04:03:55Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,powershell.exe,5985,allowed,37064,benign,routine network
+NET-00826,2026-08-12T04:09:27Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,52761,benign,routine network
+NET-00277,2026-08-12T04:12:48Z,FILE-02,APP-API-02,ACME\svc_deploy,powershell.exe,5985,allowed,16067,benign,routine network
+NET-00922,2026-08-12T04:23:05Z,FIN-WS-14,APP-API-03,ACME\jsmith,powershell.exe,443,allowed,56248,benign,routine network
+NET-00529,2026-08-12T04:26:23Z,APP-API-02,JUMP-01,ACME\svc_backup,w3wp.exe,445,allowed,25249,benign,routine network
+NET-01258,2026-08-12T04:29:25Z,APP-API-03,APP-API-02,ACME\jsmith,backup-agent.exe,5985,allowed,80932,benign,routine network
+NET-01451,2026-08-12T04:33:05Z,FILE-02,APP-API-03,ACME\jsmith,w3wp.exe,445,allowed,61545,benign,routine network
+NET-00946,2026-08-12T04:38:02Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,80023,benign,routine network
+NET-01195,2026-08-12T04:44:13Z,APP-API-03,APP-API-03,ACME\svc_deploy,powershell.exe,445,allowed,46258,benign,routine network
+NET-00261,2026-08-12T05:02:16Z,APP-API-03,APP-API-02,ACME\svc_backup,w3wp.exe,445,allowed,87419,benign,routine network
+NET-00600,2026-08-12T05:02:58Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,1647,benign,routine network
+NET-00810,2026-08-12T05:11:02Z,APP-API-02,JUMP-01,ACME\jsmith,powershell.exe,5985,allowed,87582,benign,routine network
+NET-01079,2026-08-12T05:12:04Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,85970,benign,routine network
+NET-00526,2026-08-12T05:14:39Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,83316,benign,routine network
+NET-01053,2026-08-12T05:26:35Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,backup-agent.exe,445,allowed,23728,benign,routine network
+NET-01126,2026-08-12T05:29:27Z,FIN-WS-14,APP-API-03,ACME\jsmith,w3wp.exe,445,allowed,67920,benign,routine network
+NET-01475,2026-08-12T05:29:47Z,APP-API-02,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,69247,benign,routine network
+NET-01166,2026-08-12T05:32:00Z,APP-API-02,FIN-WS-14,ACME\mrivera,powershell.exe,5985,allowed,48277,benign,routine network
+NET-01072,2026-08-12T05:38:04Z,JUMP-01,DEPLOY-01,ACME\jsmith,powershell.exe,445,allowed,49917,benign,routine network
+NET-01392,2026-08-12T05:41:17Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,47888,benign,routine network
+NET-00194,2026-08-12T05:43:46Z,DEPLOY-01,APP-API-02,ACME\mrivera,w3wp.exe,443,allowed,43751,benign,routine network
+NET-00389,2026-08-12T05:46:10Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,7643,benign,routine network
+NET-01421,2026-08-12T05:47:36Z,APP-API-02,FILE-02,ACME\jsmith,w3wp.exe,445,allowed,68953,benign,routine network
+NET-00094,2026-08-12T05:47:47Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,43362,benign,routine network
+NET-01470,2026-08-12T05:49:06Z,APP-API-03,JUMP-01,ACME\svc_backup,powershell.exe,5985,allowed,48645,benign,routine network
+NET-01348,2026-08-12T06:14:58Z,APP-API-02,APP-API-03,ACME\mrivera,w3wp.exe,443,allowed,52934,benign,routine network
+NET-00068,2026-08-12T06:17:14Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,15937,benign,routine network
+NET-01019,2026-08-12T06:25:08Z,FIN-WS-14,APP-API-02,ACME\svc_backup,backup-agent.exe,443,allowed,29848,benign,routine network
+NET-01021,2026-08-12T06:29:10Z,FIN-WS-14,FILE-02,ACME\svc_deploy,backup-agent.exe,445,allowed,7514,benign,routine network
+NET-00096,2026-08-12T06:34:30Z,JUMP-01,FIN-WS-14,ACME\svc_backup,powershell.exe,445,allowed,81167,benign,routine network
+NET-01300,2026-08-12T06:42:54Z,APP-API-03,JUMP-01,ACME\mrivera,w3wp.exe,445,allowed,45304,benign,routine network
+NET-00410,2026-08-12T06:44:41Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,445,allowed,18464,benign,routine network
+NET-00412,2026-08-12T07:00:04Z,FIN-WS-14,JUMP-01,ACME\jsmith,powershell.exe,443,allowed,35478,benign,routine network
+NET-00404,2026-08-12T07:04:55Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,powershell.exe,5985,allowed,28906,benign,routine network
+NET-00914,2026-08-12T07:06:06Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,24247,benign,routine network
+NET-00784,2026-08-12T07:11:47Z,DEPLOY-01,APP-API-02,ACME\mrivera,w3wp.exe,443,allowed,108,benign,routine network
+NET-00929,2026-08-12T07:23:41Z,FILE-02,APP-API-03,ACME\svc_backup,backup-agent.exe,5985,allowed,20024,benign,routine network
+NET-01120,2026-08-12T07:32:06Z,APP-API-02,FILE-02,ACME\mrivera,powershell.exe,5985,allowed,16166,benign,routine network
+NET-01460,2026-08-12T07:36:53Z,JUMP-01,FILE-02,ACME\svc_backup,backup-agent.exe,445,allowed,71873,benign,routine network
+NET-00708,2026-08-12T07:44:36Z,FIN-WS-14,FILE-02,ACME\mrivera,powershell.exe,5985,allowed,40257,benign,routine network
+NET-00598,2026-08-12T08:01:35Z,DEPLOY-01,JUMP-01,ACME\mrivera,powershell.exe,443,allowed,80259,benign,routine network
+NET-00572,2026-08-12T08:03:30Z,FIN-WS-14,APP-API-02,ACME\jsmith,w3wp.exe,445,allowed,36566,benign,routine network
+NET-00361,2026-08-12T08:05:06Z,FILE-02,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,74327,benign,routine network
+NET-00605,2026-08-12T08:19:08Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,66091,benign,routine network
+NET-00326,2026-08-12T08:20:13Z,APP-API-03,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,85392,benign,routine network
+NET-00539,2026-08-12T08:26:19Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,7359,benign,routine network
+NET-00149,2026-08-12T08:26:25Z,APP-API-02,APP-API-02,ACME\svc_backup,powershell.exe,445,allowed,51156,benign,routine network
+NET-00579,2026-08-12T08:36:33Z,APP-API-02,JUMP-01,ACME\jsmith,w3wp.exe,443,allowed,22901,benign,routine network
+NET-00478,2026-08-12T08:37:01Z,APP-API-02,FILE-02,ACME\mrivera,backup-agent.exe,443,allowed,73578,benign,routine network
+NET-01029,2026-08-12T08:47:36Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,87943,benign,routine network
+NET-00147,2026-08-12T08:51:04Z,JUMP-01,FIN-WS-14,ACME\svc_backup,backup-agent.exe,5985,allowed,32033,benign,routine network
+NET-00799,2026-08-12T08:51:30Z,FIN-WS-14,DEPLOY-01,ACME\jsmith,backup-agent.exe,445,allowed,85639,benign,routine network
+NET-00677,2026-08-12T08:52:18Z,APP-API-03,FILE-02,ACME\jsmith,backup-agent.exe,445,allowed,65723,benign,routine network
+NET-00062,2026-08-12T08:53:58Z,JUMP-01,JUMP-01,ACME\svc_backup,powershell.exe,5985,allowed,23380,benign,routine network
+NET-01328,2026-08-12T09:01:46Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,43485,benign,routine network
+NET-00637,2026-08-12T09:07:57Z,APP-API-02,FIN-WS-14,ACME\svc_backup,w3wp.exe,5985,allowed,78842,benign,routine network
+NET-00975,2026-08-12T09:10:30Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,8062,benign,routine network
+NET-01143,2026-08-12T09:16:18Z,JUMP-01,FILE-02,ACME\svc_deploy,powershell.exe,5985,allowed,8573,benign,routine network
+NET-00578,2026-08-12T09:19:20Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,86707,benign,routine network
+NET-00009,2026-08-12T09:30:30Z,FILE-02,FIN-WS-14,ACME\svc_backup,powershell.exe,445,allowed,5396,benign,routine network
+NET-01201,2026-08-12T09:41:05Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,41754,benign,routine network
+NET-01214,2026-08-12T09:46:43Z,DEPLOY-01,JUMP-01,ACME\mrivera,powershell.exe,445,allowed,79171,benign,routine network
+NET-01187,2026-08-12T09:48:26Z,APP-API-03,JUMP-01,ACME\jsmith,backup-agent.exe,5985,allowed,71121,benign,routine network
+NET-00049,2026-08-12T09:49:20Z,FIN-WS-14,JUMP-01,ACME\mrivera,powershell.exe,5985,allowed,60683,benign,routine network
+NET-00862,2026-08-12T10:06:14Z,JUMP-01,DEPLOY-01,ACME\mrivera,powershell.exe,445,allowed,59983,benign,routine network
+NET-01255,2026-08-12T10:14:48Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,w3wp.exe,5985,allowed,60901,benign,routine network
+NET-00338,2026-08-12T10:22:08Z,FILE-02,DEPLOY-01,ACME\mrivera,w3wp.exe,5985,allowed,3285,benign,routine network
+NET-00671,2026-08-12T10:31:11Z,APP-API-02,FILE-02,ACME\mrivera,w3wp.exe,443,allowed,77655,benign,routine network
+NET-00564,2026-08-12T10:34:04Z,APP-API-02,JUMP-01,ACME\svc_deploy,powershell.exe,445,allowed,33157,benign,routine network
+NET-01217,2026-08-12T10:35:06Z,FILE-02,FILE-02,ACME\svc_backup,w3wp.exe,443,allowed,10553,benign,routine network
+NET-01005,2026-08-12T10:36:02Z,APP-API-03,FILE-02,ACME\svc_deploy,backup-agent.exe,443,allowed,46796,benign,routine network
+NET-00753,2026-08-12T10:40:10Z,JUMP-01,APP-API-02,ACME\svc_backup,backup-agent.exe,443,allowed,11362,benign,routine network
+NET-01091,2026-08-12T10:44:39Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,30392,benign,routine network
+NET-00407,2026-08-12T10:57:20Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,21651,benign,routine network
+NET-00913,2026-08-12T11:07:56Z,APP-API-03,APP-API-02,ACME\mrivera,backup-agent.exe,443,allowed,7528,benign,routine network
+NET-01474,2026-08-12T11:14:02Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,71275,benign,routine network
+NET-01047,2026-08-12T11:15:18Z,APP-API-03,APP-API-03,ACME\svc_backup,w3wp.exe,445,allowed,74298,benign,routine network
+NET-00085,2026-08-12T11:26:17Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,24259,benign,routine network
+NET-01066,2026-08-12T11:33:41Z,APP-API-03,FIN-WS-14,ACME\svc_backup,backup-agent.exe,445,allowed,63969,benign,routine network
+NET-00696,2026-08-12T11:33:56Z,FILE-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,5985,allowed,85630,benign,routine network
+NET-00963,2026-08-12T11:35:28Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,89497,benign,routine network
+NET-01436,2026-08-12T11:39:45Z,JUMP-01,FIN-WS-14,ACME\svc_backup,w3wp.exe,443,allowed,86465,benign,routine network
+NET-01427,2026-08-12T11:41:09Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,88449,benign,routine network
+NET-01013,2026-08-12T11:41:36Z,JUMP-01,APP-API-03,ACME\svc_deploy,w3wp.exe,443,allowed,3613,benign,routine network
+NET-00198,2026-08-12T11:48:35Z,APP-API-03,FILE-02,ACME\svc_backup,powershell.exe,445,allowed,75236,benign,routine network
+NET-00568,2026-08-12T11:51:46Z,APP-API-03,JUMP-01,ACME\jsmith,w3wp.exe,445,allowed,70006,benign,routine network
+NET-00486,2026-08-12T11:55:36Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,43925,benign,routine network
+NET-01224,2026-08-12T11:57:37Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,70606,benign,routine network
+NET-00339,2026-08-12T12:06:29Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,powershell.exe,443,allowed,48726,benign,routine network
+NET-00479,2026-08-12T12:16:55Z,DEPLOY-01,FILE-02,ACME\svc_backup,backup-agent.exe,5985,allowed,39261,benign,routine network
+NET-00718,2026-08-12T12:30:04Z,FILE-02,APP-API-03,ACME\jsmith,powershell.exe,443,allowed,31247,benign,routine network
+NET-00748,2026-08-12T12:39:27Z,JUMP-01,APP-API-02,ACME\svc_deploy,powershell.exe,5985,allowed,27246,benign,routine network
+NET-00863,2026-08-12T12:41:34Z,FIN-WS-14,FILE-02,ACME\jsmith,w3wp.exe,5985,allowed,54476,benign,routine network
+NET-00002,2026-08-12T12:50:41Z,APP-API-02,DEPLOY-01,ACME\svc_backup,w3wp.exe,445,allowed,86069,benign,routine network
+NET-00171,2026-08-12T12:52:02Z,FIN-WS-14,APP-API-02,ACME\mrivera,backup-agent.exe,445,allowed,300,benign,routine network
+NET-01242,2026-08-12T12:56:38Z,APP-API-03,FIN-WS-14,ACME\svc_backup,w3wp.exe,445,allowed,25281,benign,routine network
+NET-01299,2026-08-12T13:25:58Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,6406,benign,routine network
+NET-00897,2026-08-12T13:32:33Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,45890,benign,routine network
+NET-01401,2026-08-12T13:34:10Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,w3wp.exe,443,allowed,48797,benign,routine network
+NET-00542,2026-08-12T13:56:17Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,powershell.exe,443,allowed,36186,benign,routine network
+NET-00123,2026-08-12T14:06:34Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,w3wp.exe,443,allowed,70382,benign,routine network
+NET-00354,2026-08-12T14:15:35Z,DEPLOY-01,APP-API-02,ACME\jsmith,w3wp.exe,5985,allowed,27669,benign,routine network
+NET-00791,2026-08-12T14:16:22Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,w3wp.exe,443,allowed,15653,benign,routine network
+NET-01178,2026-08-12T14:16:45Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,55131,benign,routine network
+NET-01357,2026-08-12T14:17:18Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,63711,benign,routine network
+NET-00050,2026-08-12T14:23:54Z,FILE-02,FILE-02,ACME\jsmith,backup-agent.exe,443,allowed,68171,benign,routine network
+NET-00337,2026-08-12T14:42:24Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,6290,benign,routine network
+NET-01031,2026-08-12T14:43:09Z,APP-API-03,APP-API-03,ACME\svc_backup,backup-agent.exe,445,allowed,39193,benign,routine network
+NET-01391,2026-08-12T14:44:22Z,APP-API-03,JUMP-01,ACME\svc_deploy,w3wp.exe,5985,allowed,17005,benign,routine network
+NET-01463,2026-08-12T14:56:43Z,JUMP-01,DEPLOY-01,ACME\mrivera,powershell.exe,445,allowed,22551,benign,routine network
+NET-01284,2026-08-12T15:13:16Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,w3wp.exe,5985,allowed,59478,benign,routine network
+NET-01270,2026-08-12T15:16:43Z,APP-API-02,DEPLOY-01,ACME\jsmith,powershell.exe,443,allowed,10163,benign,routine network
+NET-00622,2026-08-12T15:16:52Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,38701,benign,routine network
+NET-01295,2026-08-12T15:25:46Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,12638,benign,routine network
+NET-01362,2026-08-12T15:27:57Z,FIN-WS-14,APP-API-03,ACME\svc_backup,w3wp.exe,443,allowed,73219,benign,routine network
+NET-00364,2026-08-12T15:35:09Z,APP-API-03,FIN-WS-14,ACME\jsmith,w3wp.exe,443,allowed,70652,benign,routine network
+NET-00001,2026-08-12T15:36:33Z,APP-API-02,DEPLOY-01,ACME\svc_backup,backup-agent.exe,443,allowed,83609,benign,routine network
+NET-01188,2026-08-12T15:36:34Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,powershell.exe,5985,allowed,2890,benign,routine network
+NET-01087,2026-08-12T15:38:57Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,powershell.exe,5985,allowed,52656,benign,routine network
+NET-00016,2026-08-12T15:40:52Z,APP-API-02,JUMP-01,ACME\mrivera,w3wp.exe,445,allowed,57428,benign,routine network
+NET-01412,2026-08-12T15:42:46Z,APP-API-03,FILE-02,ACME\svc_deploy,w3wp.exe,445,allowed,246,benign,routine network
+NET-00992,2026-08-12T15:48:51Z,FIN-WS-14,FILE-02,ACME\jsmith,powershell.exe,443,allowed,86547,benign,routine network
+NET-00098,2026-08-12T15:50:27Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,60520,benign,routine network
+NET-00436,2026-08-12T16:00:35Z,DEPLOY-01,JUMP-01,ACME\mrivera,backup-agent.exe,443,allowed,6301,benign,routine network
+NET-00376,2026-08-12T16:07:14Z,JUMP-01,JUMP-01,ACME\svc_backup,backup-agent.exe,5985,allowed,61312,benign,routine network
+NET-00398,2026-08-12T16:20:05Z,FILE-02,FIN-WS-14,ACME\svc_backup,powershell.exe,443,allowed,65360,benign,routine network
+NET-00518,2026-08-12T16:25:44Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,41818,benign,routine network
+NET-01179,2026-08-12T16:26:13Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,445,allowed,9787,benign,routine network
+NET-00804,2026-08-12T16:42:59Z,JUMP-01,APP-API-02,ACME\jsmith,backup-agent.exe,443,allowed,60504,benign,routine network
+NET-01416,2026-08-12T16:45:35Z,APP-API-02,FIN-WS-14,ACME\jsmith,w3wp.exe,445,allowed,281,benign,routine network
+NET-00629,2026-08-12T16:45:50Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,70063,benign,routine network
+NET-00497,2026-08-12T16:55:28Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,35531,benign,routine network
+NET-00167,2026-08-12T16:56:07Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,w3wp.exe,443,allowed,37338,benign,routine network
+NET-00300,2026-08-12T16:58:02Z,APP-API-03,FIN-WS-14,ACME\svc_backup,backup-agent.exe,445,allowed,73782,benign,routine network
+NET-00480,2026-08-12T17:05:51Z,FILE-02,APP-API-03,ACME\svc_deploy,backup-agent.exe,445,allowed,20602,benign,routine network
+NET-00573,2026-08-12T17:13:42Z,APP-API-03,FILE-02,ACME\svc_deploy,powershell.exe,5985,allowed,56086,benign,routine network
+NET-00298,2026-08-12T17:13:53Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,backup-agent.exe,445,allowed,27712,benign,routine network
+NET-01165,2026-08-12T17:34:26Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,w3wp.exe,443,allowed,14012,benign,routine network
+NET-00301,2026-08-12T17:36:08Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,13189,benign,routine network
+NET-00290,2026-08-12T17:39:21Z,APP-API-03,DEPLOY-01,ACME\jsmith,backup-agent.exe,445,allowed,74296,benign,routine network
+NET-00875,2026-08-12T17:44:11Z,JUMP-01,FIN-WS-14,ACME\svc_backup,backup-agent.exe,5985,allowed,33860,benign,routine network
+NET-00119,2026-08-12T17:46:00Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,w3wp.exe,5985,allowed,57627,benign,routine network
+NET-00487,2026-08-12T17:51:39Z,APP-API-03,FILE-02,ACME\jsmith,powershell.exe,5985,allowed,83764,benign,routine network
+NET-01160,2026-08-12T17:54:48Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,25660,benign,routine network
+NET-01176,2026-08-12T17:56:50Z,APP-API-03,JUMP-01,ACME\svc_deploy,w3wp.exe,5985,allowed,54752,benign,routine network
+NET-01337,2026-08-12T18:18:07Z,FILE-02,APP-API-02,ACME\svc_deploy,backup-agent.exe,445,allowed,4501,benign,routine network
+NET-01482,2026-08-12T18:22:18Z,JUMP-01,APP-API-02,ACME\mrivera,backup-agent.exe,443,allowed,33153,benign,routine network
+NET-00631,2026-08-12T18:28:12Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,25866,benign,routine network
+NET-00958,2026-08-12T18:32:18Z,JUMP-01,FILE-02,ACME\jsmith,backup-agent.exe,445,allowed,83628,benign,routine network
+NET-00960,2026-08-12T18:49:54Z,JUMP-01,APP-API-03,ACME\svc_backup,powershell.exe,443,allowed,77597,benign,routine network
+NET-00724,2026-08-12T19:00:12Z,FILE-02,FILE-02,ACME\svc_deploy,w3wp.exe,443,allowed,23853,benign,routine network
+NET-01434,2026-08-12T19:06:59Z,FIN-WS-14,FILE-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,64511,benign,routine network
+NET-01431,2026-08-12T19:08:16Z,APP-API-02,DEPLOY-01,ACME\mrivera,backup-agent.exe,445,allowed,73917,benign,routine network
+NET-01381,2026-08-12T19:15:17Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,w3wp.exe,443,allowed,14036,benign,routine network
+NET-00821,2026-08-12T19:15:23Z,APP-API-03,APP-API-03,ACME\svc_backup,powershell.exe,443,allowed,10431,benign,routine network
+NET-00986,2026-08-12T19:18:03Z,APP-API-03,JUMP-01,ACME\jsmith,w3wp.exe,443,allowed,15736,benign,routine network
+NET-00925,2026-08-12T19:20:18Z,JUMP-01,APP-API-03,ACME\jsmith,w3wp.exe,445,allowed,17991,benign,routine network
+NET-01289,2026-08-12T19:34:04Z,APP-API-02,FIN-WS-14,ACME\mrivera,w3wp.exe,5985,allowed,83718,benign,routine network
+NET-00287,2026-08-12T19:47:29Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,49045,benign,routine network
+NET-01301,2026-08-12T20:01:08Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,13743,benign,routine network
+NET-01341,2026-08-12T20:01:53Z,FIN-WS-14,FILE-02,ACME\mrivera,w3wp.exe,5985,allowed,73566,benign,routine network
+NET-01471,2026-08-12T20:11:51Z,JUMP-01,JUMP-01,ACME\jsmith,powershell.exe,443,allowed,84465,benign,routine network
+NET-00834,2026-08-12T20:16:50Z,DEPLOY-01,DEPLOY-01,ACME\svc_backup,backup-agent.exe,443,allowed,49428,benign,routine network
+NET-01215,2026-08-12T20:20:28Z,FILE-02,FIN-WS-14,ACME\svc_deploy,powershell.exe,445,allowed,6382,benign,routine network
+NET-01073,2026-08-12T20:25:02Z,DEPLOY-01,JUMP-01,ACME\jsmith,backup-agent.exe,443,allowed,79143,benign,routine network
+NET-00589,2026-08-12T20:30:17Z,APP-API-03,APP-API-02,ACME\mrivera,backup-agent.exe,445,allowed,9465,benign,routine network
+NET-00846,2026-08-12T20:31:49Z,FILE-02,FILE-02,ACME\mrivera,powershell.exe,443,allowed,48709,benign,routine network
+NET-01467,2026-08-12T20:34:57Z,FILE-02,APP-API-03,ACME\jsmith,backup-agent.exe,5985,allowed,68304,benign,routine network
+NET-00789,2026-08-12T20:48:02Z,JUMP-01,JUMP-01,ACME\svc_backup,powershell.exe,443,allowed,920,benign,routine network
+NET-01247,2026-08-12T20:48:26Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,w3wp.exe,443,allowed,33273,benign,routine network
+NET-00755,2026-08-12T21:02:48Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,35491,benign,routine network
+NET-01157,2026-08-12T21:10:46Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,w3wp.exe,445,allowed,44678,benign,routine network
+NET-00069,2026-08-12T21:13:59Z,JUMP-01,DEPLOY-01,ACME\mrivera,backup-agent.exe,443,allowed,66024,benign,routine network
+NET-00618,2026-08-12T21:23:16Z,APP-API-02,FILE-02,ACME\svc_backup,powershell.exe,443,allowed,37352,benign,routine network
+NET-00322,2026-08-12T21:41:12Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,24911,benign,routine network
+NET-00143,2026-08-12T21:42:38Z,FILE-02,APP-API-02,ACME\mrivera,w3wp.exe,443,allowed,86984,benign,routine network
+NET-01383,2026-08-12T21:48:29Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,17698,benign,routine network
+NET-00590,2026-08-12T21:50:44Z,APP-API-02,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,42759,benign,routine network
+NET-00964,2026-08-12T21:59:43Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,powershell.exe,443,allowed,76912,benign,routine network
+NET-00396,2026-08-12T22:03:40Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,w3wp.exe,5985,allowed,26472,benign,routine network
+NET-00504,2026-08-12T22:08:15Z,FIN-WS-14,JUMP-01,ACME\mrivera,powershell.exe,445,allowed,27377,benign,routine network
+NET-00807,2026-08-12T22:14:17Z,FILE-02,FIN-WS-14,ACME\mrivera,w3wp.exe,5985,allowed,68558,benign,routine network
+NET-00984,2026-08-12T22:20:31Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,powershell.exe,443,allowed,42644,benign,routine network
+NET-00822,2026-08-12T22:24:01Z,FILE-02,APP-API-02,ACME\svc_backup,w3wp.exe,443,allowed,36498,benign,routine network
+NET-00489,2026-08-12T22:29:00Z,APP-API-02,DEPLOY-01,ACME\mrivera,backup-agent.exe,443,allowed,69099,benign,routine network
+NET-00595,2026-08-12T22:36:49Z,APP-API-03,APP-API-02,ACME\mrivera,backup-agent.exe,445,allowed,9305,benign,routine network
+NET-00089,2026-08-12T22:40:10Z,APP-API-03,DEPLOY-01,ACME\jsmith,w3wp.exe,445,allowed,86895,benign,routine network
+NET-00481,2026-08-12T22:40:32Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,20784,benign,routine network
+NET-00602,2026-08-12T22:40:45Z,APP-API-02,APP-API-03,ACME\mrivera,w3wp.exe,5985,allowed,40010,benign,routine network
+NET-00157,2026-08-12T23:03:59Z,FILE-02,JUMP-01,ACME\svc_backup,backup-agent.exe,5985,allowed,30141,benign,routine network
+NET-00233,2026-08-12T23:09:08Z,FILE-02,FILE-02,ACME\jsmith,powershell.exe,443,allowed,5991,benign,routine network
+NET-00420,2026-08-12T23:17:49Z,APP-API-03,JUMP-01,ACME\svc_deploy,w3wp.exe,443,allowed,81861,benign,routine network
+NET-00833,2026-08-12T23:29:43Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,85114,benign,routine network
+NET-01387,2026-08-12T23:31:02Z,FILE-02,APP-API-02,ACME\svc_deploy,backup-agent.exe,445,allowed,45908,benign,routine network
+NET-00732,2026-08-12T23:41:54Z,FILE-02,FIN-WS-14,ACME\jsmith,powershell.exe,445,allowed,35189,benign,routine network
+NET-01208,2026-08-12T23:43:07Z,DEPLOY-01,FILE-02,ACME\jsmith,backup-agent.exe,443,allowed,3174,benign,routine network
+NET-00295,2026-08-12T23:50:41Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,43483,benign,routine network
+NET-01343,2026-08-12T23:53:13Z,DEPLOY-01,APP-API-03,ACME\svc_backup,backup-agent.exe,5985,allowed,88419,benign,routine network
+NET-00275,2026-08-13T00:03:04Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,w3wp.exe,445,allowed,24363,benign,routine network
+NET-01495,2026-08-13T00:06:15Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,24442,benign,routine network
+NET-01186,2026-08-13T00:07:42Z,APP-API-02,APP-API-02,ACME\svc_deploy,powershell.exe,443,allowed,7606,benign,routine network
+NET-00566,2026-08-13T00:19:47Z,APP-API-03,APP-API-03,ACME\svc_backup,w3wp.exe,5985,allowed,8540,benign,routine network
+NET-00270,2026-08-13T00:20:19Z,APP-API-03,APP-API-03,ACME\jsmith,w3wp.exe,5985,allowed,18299,benign,routine network
+NET-01065,2026-08-13T00:24:19Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,backup-agent.exe,5985,allowed,20820,benign,routine network
+NET-00981,2026-08-13T00:28:32Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,10987,benign,routine network
+NET-00584,2026-08-13T00:35:05Z,FILE-02,APP-API-03,ACME\mrivera,powershell.exe,5985,allowed,75535,benign,routine network
+NET-00820,2026-08-13T00:35:54Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,445,allowed,43394,benign,routine network
+NET-00830,2026-08-13T00:41:20Z,FIN-WS-14,APP-API-03,ACME\svc_backup,powershell.exe,443,allowed,72474,benign,routine network
+NET-00955,2026-08-13T00:42:06Z,APP-API-03,DEPLOY-01,ACME\svc_backup,backup-agent.exe,445,allowed,49614,benign,routine network
+NET-01326,2026-08-13T00:43:30Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,22288,benign,routine network
+NET-00983,2026-08-13T00:46:54Z,FIN-WS-14,JUMP-01,ACME\svc_backup,w3wp.exe,445,allowed,88078,benign,routine network
+NET-01272,2026-08-13T00:55:31Z,FIN-WS-14,JUMP-01,ACME\jsmith,backup-agent.exe,5985,allowed,76739,benign,routine network
+NET-00259,2026-08-13T01:03:55Z,APP-API-02,FIN-WS-14,ACME\mrivera,w3wp.exe,445,allowed,76788,benign,routine network
+NET-00057,2026-08-13T01:04:02Z,APP-API-02,APP-API-03,ACME\svc_backup,backup-agent.exe,445,allowed,21784,benign,routine network
+NET-01454,2026-08-13T01:05:06Z,FILE-02,FILE-02,ACME\svc_backup,backup-agent.exe,443,allowed,57177,benign,routine network
+NET-01490,2026-08-13T01:22:18Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,32565,benign,routine network
+NET-00217,2026-08-13T01:38:46Z,DEPLOY-01,JUMP-01,ACME\svc_backup,w3wp.exe,445,allowed,65643,benign,routine network
+NET-00680,2026-08-13T01:39:19Z,APP-API-02,FIN-WS-14,ACME\jsmith,powershell.exe,5985,allowed,26541,benign,routine network
+NET-01251,2026-08-13T01:40:15Z,APP-API-03,FILE-02,ACME\mrivera,powershell.exe,5985,allowed,37196,benign,routine network
+NET-00849,2026-08-13T01:41:23Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,16472,benign,routine network
+NET-00307,2026-08-13T01:43:42Z,APP-API-02,APP-API-02,ACME\svc_backup,backup-agent.exe,443,allowed,4534,benign,routine network
+NET-00649,2026-08-13T01:47:40Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,39075,benign,routine network
+NET-00644,2026-08-13T01:49:19Z,APP-API-02,DEPLOY-01,ACME\svc_backup,powershell.exe,445,allowed,58328,benign,routine network
+NET-00185,2026-08-13T01:55:25Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,85980,benign,routine network
+NET-00850,2026-08-13T02:04:50Z,APP-API-02,FIN-WS-14,ACME\mrivera,powershell.exe,443,allowed,38686,benign,routine network
+NET-00490,2026-08-13T02:05:32Z,APP-API-03,APP-API-02,ACME\svc_backup,backup-agent.exe,445,allowed,23036,benign,routine network
+NET-00906,2026-08-13T02:08:52Z,FILE-02,JUMP-01,ACME\svc_backup,powershell.exe,445,allowed,8390,benign,routine network
+NET-01211,2026-08-13T02:10:53Z,APP-API-02,JUMP-01,ACME\mrivera,w3wp.exe,443,allowed,18092,benign,routine network
+NET-00790,2026-08-13T02:13:07Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,69988,benign,routine network
+NET-00053,2026-08-13T02:13:29Z,APP-API-03,DEPLOY-01,ACME\mrivera,powershell.exe,445,allowed,3664,benign,routine network
+NET-00995,2026-08-13T02:17:08Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,977,benign,routine network
+NET-00832,2026-08-13T02:20:54Z,APP-API-03,APP-API-03,ACME\svc_deploy,w3wp.exe,443,allowed,41135,benign,routine network
+NET-00191,2026-08-13T02:25:48Z,FIN-WS-14,JUMP-01,ACME\mrivera,w3wp.exe,445,allowed,32499,benign,routine network
+NET-00310,2026-08-13T02:30:11Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,443,allowed,80868,benign,routine network
+NET-00283,2026-08-13T02:31:01Z,DEPLOY-01,FILE-02,ACME\svc_backup,backup-agent.exe,5985,allowed,70469,benign,routine network
+NET-01090,2026-08-13T02:37:24Z,APP-API-02,JUMP-01,ACME\mrivera,backup-agent.exe,5985,allowed,46591,benign,routine network
+NET-00031,2026-08-13T02:42:18Z,JUMP-01,APP-API-02,ACME\svc_deploy,w3wp.exe,445,allowed,70991,benign,routine network
+NET-00603,2026-08-13T03:14:39Z,DEPLOY-01,FILE-02,ACME\mrivera,w3wp.exe,5985,allowed,32815,benign,routine network
+NET-01487,2026-08-13T03:15:52Z,JUMP-01,FILE-02,ACME\mrivera,backup-agent.exe,443,allowed,74875,benign,routine network
+NET-00107,2026-08-13T03:19:10Z,FILE-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,5985,allowed,73487,benign,routine network
+NET-01464,2026-08-13T03:23:40Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,65918,benign,routine network
+NET-00449,2026-08-13T03:24:06Z,JUMP-01,FILE-02,ACME\jsmith,powershell.exe,445,allowed,78374,benign,routine network
+NET-00052,2026-08-13T03:29:15Z,JUMP-01,JUMP-01,ACME\svc_backup,powershell.exe,443,allowed,38504,benign,routine network
+NET-00038,2026-08-13T03:31:01Z,APP-API-03,FILE-02,ACME\svc_deploy,w3wp.exe,445,allowed,12654,benign,routine network
+NET-00312,2026-08-13T03:31:31Z,JUMP-01,APP-API-03,ACME\jsmith,backup-agent.exe,445,allowed,61150,benign,routine network
+NET-01379,2026-08-13T03:34:30Z,DEPLOY-01,JUMP-01,ACME\jsmith,w3wp.exe,5985,allowed,78449,benign,routine network
+NET-00063,2026-08-13T03:34:38Z,DEPLOY-01,JUMP-01,ACME\mrivera,backup-agent.exe,445,allowed,1040,benign,routine network
+NET-00664,2026-08-13T03:36:37Z,FILE-02,FILE-02,ACME\jsmith,backup-agent.exe,443,allowed,89647,benign,routine network
+NET-00857,2026-08-13T03:41:33Z,APP-API-02,FIN-WS-14,ACME\mrivera,powershell.exe,443,allowed,16478,benign,routine network
+NET-01147,2026-08-13T03:48:47Z,DEPLOY-01,FILE-02,ACME\jsmith,powershell.exe,443,allowed,50555,benign,routine network
+NET-00706,2026-08-13T03:56:03Z,APP-API-03,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,46824,benign,routine network
+NET-00433,2026-08-13T04:12:15Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,10398,benign,routine network
+NET-00496,2026-08-13T04:13:15Z,JUMP-01,JUMP-01,ACME\svc_backup,backup-agent.exe,445,allowed,36640,benign,routine network
+NET-01191,2026-08-13T04:13:29Z,FILE-02,APP-API-03,ACME\svc_backup,powershell.exe,445,allowed,51256,benign,routine network
+NET-01414,2026-08-13T04:20:28Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,powershell.exe,443,allowed,41322,benign,routine network
+NET-01311,2026-08-13T04:22:42Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,17277,benign,routine network
+NET-00276,2026-08-13T04:27:08Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,77032,benign,routine network
+NET-01018,2026-08-13T04:30:30Z,APP-API-02,APP-API-03,ACME\jsmith,backup-agent.exe,443,allowed,59844,benign,routine network
+NET-00245,2026-08-13T04:34:01Z,JUMP-01,FILE-02,ACME\jsmith,w3wp.exe,5985,allowed,75092,benign,routine network
+NET-00594,2026-08-13T04:40:36Z,APP-API-03,DEPLOY-01,ACME\mrivera,backup-agent.exe,445,allowed,49672,benign,routine network
+NET-01041,2026-08-13T05:01:54Z,FILE-02,DEPLOY-01,ACME\jsmith,w3wp.exe,445,allowed,30104,benign,routine network
+NET-00710,2026-08-13T05:09:11Z,APP-API-03,JUMP-01,ACME\svc_backup,powershell.exe,445,allowed,26726,benign,routine network
+NET-00847,2026-08-13T05:10:19Z,FIN-WS-14,APP-API-02,ACME\jsmith,backup-agent.exe,445,allowed,81279,benign,routine network
+NET-00371,2026-08-13T05:16:47Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,78645,benign,routine network
+NET-00949,2026-08-13T05:19:15Z,FILE-02,APP-API-02,ACME\mrivera,powershell.exe,5985,allowed,44245,benign,routine network
+NET-00977,2026-08-13T05:19:34Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,85645,benign,routine network
+NET-00734,2026-08-13T05:31:40Z,APP-API-03,FIN-WS-14,ACME\mrivera,backup-agent.exe,445,allowed,9287,benign,routine network
+NET-00428,2026-08-13T05:50:44Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,69887,benign,routine network
+NET-01181,2026-08-13T05:52:37Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,76450,benign,routine network
+NET-00282,2026-08-13T05:55:30Z,DEPLOY-01,APP-API-02,ACME\svc_backup,powershell.exe,5985,allowed,69268,benign,routine network
+NET-01331,2026-08-13T06:02:29Z,FILE-02,FILE-02,ACME\jsmith,w3wp.exe,443,allowed,69954,benign,routine network
+NET-01038,2026-08-13T06:06:38Z,FILE-02,DEPLOY-01,ACME\svc_deploy,powershell.exe,443,allowed,78989,benign,routine network
+NET-01210,2026-08-13T06:12:39Z,JUMP-01,DEPLOY-01,ACME\svc_backup,backup-agent.exe,5985,allowed,23418,benign,routine network
+NET-01456,2026-08-13T06:15:38Z,APP-API-02,APP-API-02,ACME\jsmith,backup-agent.exe,445,allowed,673,benign,routine network
+NET-00723,2026-08-13T06:32:25Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,47588,benign,routine network
+NET-00228,2026-08-13T06:40:27Z,JUMP-01,JUMP-01,ACME\mrivera,backup-agent.exe,443,allowed,37949,benign,routine network
+NET-00109,2026-08-13T06:40:53Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,59989,benign,routine network
+NET-01417,2026-08-13T06:48:58Z,FILE-02,JUMP-01,ACME\mrivera,powershell.exe,445,allowed,71099,benign,routine network
+NET-00437,2026-08-13T06:57:35Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,powershell.exe,445,allowed,14171,benign,routine network
+NET-01182,2026-08-13T06:58:38Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,18737,benign,routine network
+NET-00271,2026-08-13T07:17:14Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,18534,benign,routine network
+NET-01239,2026-08-13T07:18:22Z,JUMP-01,DEPLOY-01,ACME\svc_backup,backup-agent.exe,443,allowed,2352,benign,routine network
+NET-01441,2026-08-13T07:26:23Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,28649,benign,routine network
+NET-00355,2026-08-13T07:37:53Z,FIN-WS-14,DEPLOY-01,ACME\jsmith,powershell.exe,443,allowed,27693,benign,routine network
+NET-00033,2026-08-13T07:44:07Z,JUMP-01,FILE-02,ACME\svc_backup,backup-agent.exe,445,allowed,51644,benign,routine network
+NET-00272,2026-08-13T07:51:06Z,FILE-02,JUMP-01,ACME\jsmith,w3wp.exe,445,allowed,11261,benign,routine network
+NET-00895,2026-08-13T07:55:46Z,FILE-02,APP-API-03,ACME\svc_backup,backup-agent.exe,445,allowed,8916,benign,routine network
+NET-01324,2026-08-13T08:04:08Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,30824,benign,routine network
+NET-00645,2026-08-13T08:09:19Z,APP-API-03,APP-API-03,ACME\svc_deploy,backup-agent.exe,443,allowed,69322,benign,routine network
+NET-01329,2026-08-13T08:12:36Z,APP-API-03,JUMP-01,ACME\svc_deploy,backup-agent.exe,5985,allowed,43888,benign,routine network
+NET-00837,2026-08-13T08:17:51Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,15149,benign,routine network
+NET-01020,2026-08-13T08:35:12Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,15285,benign,routine network
+NET-01323,2026-08-13T08:36:14Z,APP-API-03,DEPLOY-01,ACME\jsmith,backup-agent.exe,5985,allowed,72457,benign,routine network
+NET-00192,2026-08-13T08:38:35Z,JUMP-01,DEPLOY-01,ACME\mrivera,powershell.exe,443,allowed,17035,benign,routine network
+NET-00150,2026-08-13T09:00:02Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,w3wp.exe,445,allowed,60704,benign,routine network
+NET-00304,2026-08-13T09:06:00Z,FILE-02,APP-API-02,ACME\jsmith,powershell.exe,445,allowed,59172,benign,routine network
+NET-00939,2026-08-13T09:25:57Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,w3wp.exe,5985,allowed,71419,benign,routine network
+NET-01039,2026-08-13T09:26:14Z,APP-API-02,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,43170,benign,routine network
+NET-00614,2026-08-13T09:26:18Z,JUMP-01,FIN-WS-14,ACME\jsmith,w3wp.exe,443,allowed,28073,benign,routine network
+NET-01303,2026-08-13T09:27:55Z,APP-API-02,APP-API-03,ACME\svc_backup,backup-agent.exe,445,allowed,63311,benign,routine network
+NET-01340,2026-08-13T09:28:21Z,JUMP-01,FILE-02,ACME\mrivera,powershell.exe,445,allowed,36995,benign,routine network
+NET-00377,2026-08-13T09:31:30Z,DEPLOY-01,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,80591,benign,routine network
+NET-00160,2026-08-13T09:35:48Z,APP-API-02,APP-API-03,ACME\svc_backup,w3wp.exe,445,allowed,62362,benign,routine network
+NET-00453,2026-08-13T09:42:51Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,backup-agent.exe,443,allowed,57216,benign,routine network
+NET-01400,2026-08-13T09:44:34Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,443,allowed,1278,benign,routine network
+NET-00401,2026-08-13T09:45:42Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,84371,benign,routine network
+NET-00383,2026-08-13T09:55:42Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,76617,benign,routine network
+NET-01415,2026-08-13T09:56:41Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,55280,benign,routine network
+NET-00146,2026-08-13T10:03:49Z,FIN-WS-14,APP-API-02,ACME\svc_backup,w3wp.exe,5985,allowed,47780,benign,routine network
+NET-01275,2026-08-13T10:05:46Z,APP-API-03,JUMP-01,ACME\mrivera,powershell.exe,443,allowed,56685,benign,routine network
+NET-00798,2026-08-13T10:16:24Z,FILE-02,FILE-02,ACME\svc_backup,backup-agent.exe,5985,allowed,82255,benign,routine network
+NET-00226,2026-08-13T10:18:54Z,JUMP-01,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,70138,benign,routine network
+NET-00388,2026-08-13T10:38:45Z,JUMP-01,JUMP-01,ACME\svc_deploy,backup-agent.exe,445,allowed,16582,benign,routine network
+NET-00562,2026-08-13T10:39:58Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,w3wp.exe,443,allowed,68016,benign,routine network
+NET-01050,2026-08-13T10:43:12Z,APP-API-02,FIN-WS-14,ACME\jsmith,w3wp.exe,5985,allowed,31148,benign,routine network
+NET-00725,2026-08-13T10:43:40Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,87144,benign,routine network
+NET-00075,2026-08-13T10:56:57Z,APP-API-02,DEPLOY-01,ACME\jsmith,powershell.exe,445,allowed,21062,benign,routine network
+NET-00970,2026-08-13T10:59:14Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,w3wp.exe,443,allowed,10104,benign,routine network
+NET-00728,2026-08-13T11:04:05Z,FILE-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,5985,allowed,35309,benign,routine network
+NET-01354,2026-08-13T11:06:50Z,APP-API-03,DEPLOY-01,ACME\mrivera,powershell.exe,5985,allowed,60594,benign,routine network
+NET-00686,2026-08-13T11:12:36Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,89096,benign,routine network
+NET-00668,2026-08-13T11:12:46Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,powershell.exe,5985,allowed,52215,benign,routine network
+NET-01150,2026-08-13T11:14:49Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,w3wp.exe,5985,allowed,32044,benign,routine network
+NET-00597,2026-08-13T11:18:51Z,DEPLOY-01,FILE-02,ACME\mrivera,w3wp.exe,443,allowed,954,benign,routine network
+NET-00553,2026-08-13T11:24:47Z,FIN-WS-14,APP-API-02,ACME\mrivera,w3wp.exe,443,allowed,31727,benign,routine network
+NET-00541,2026-08-13T11:29:02Z,JUMP-01,FILE-02,ACME\svc_deploy,w3wp.exe,445,allowed,86198,benign,routine network
+NET-00697,2026-08-13T11:30:08Z,APP-API-02,APP-API-02,ACME\jsmith,w3wp.exe,5985,allowed,19469,benign,routine network
+NET-00126,2026-08-13T11:30:48Z,DEPLOY-01,FILE-02,ACME\svc_backup,powershell.exe,443,allowed,45531,benign,routine network
+NET-00359,2026-08-13T11:34:37Z,JUMP-01,JUMP-01,ACME\mrivera,w3wp.exe,445,allowed,84134,benign,routine network
+NET-00476,2026-08-13T11:38:27Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,66560,benign,routine network
+NET-00234,2026-08-13T11:40:54Z,FIN-WS-14,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,67211,benign,routine network
+NET-00775,2026-08-13T11:41:34Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,80089,benign,routine network
+NET-01327,2026-08-13T11:50:48Z,JUMP-01,APP-API-03,ACME\mrivera,powershell.exe,5985,allowed,25628,benign,routine network
+NET-01291,2026-08-13T11:55:46Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,56337,benign,routine network
+NET-00501,2026-08-13T12:03:25Z,APP-API-03,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,73139,benign,routine network
+NET-00625,2026-08-13T12:05:16Z,DEPLOY-01,FILE-02,ACME\svc_deploy,w3wp.exe,445,allowed,44092,benign,routine network
+NET-00086,2026-08-13T12:09:21Z,DEPLOY-01,APP-API-03,ACME\mrivera,powershell.exe,5985,allowed,86220,benign,routine network
+NET-00390,2026-08-13T12:16:07Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,35824,benign,routine network
+NET-00752,2026-08-13T12:24:16Z,APP-API-02,JUMP-01,ACME\mrivera,backup-agent.exe,5985,allowed,54968,benign,routine network
+NET-01099,2026-08-13T12:28:10Z,FIN-WS-14,APP-API-02,ACME\svc_backup,powershell.exe,443,allowed,28171,benign,routine network
+NET-00611,2026-08-13T12:33:34Z,JUMP-01,JUMP-01,ACME\mrivera,backup-agent.exe,5985,allowed,35897,benign,routine network
+NET-00039,2026-08-13T12:34:29Z,APP-API-02,FILE-02,ACME\jsmith,w3wp.exe,445,allowed,41462,benign,routine network
+NET-00500,2026-08-13T12:36:22Z,FILE-02,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,443,allowed,47273,benign,routine network
+NET-00106,2026-08-13T12:39:21Z,APP-API-02,JUMP-01,ACME\svc_deploy,w3wp.exe,445,allowed,37228,benign,routine network
+NET-00577,2026-08-13T12:45:02Z,FIN-WS-14,APP-API-03,ACME\svc_backup,powershell.exe,445,allowed,38007,benign,routine network
+NET-01268,2026-08-13T12:51:07Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,64612,benign,routine network
+NET-00853,2026-08-13T12:52:57Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,w3wp.exe,443,allowed,12377,benign,routine network
+NET-01200,2026-08-13T12:57:48Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,backup-agent.exe,445,allowed,89517,benign,routine network
+NET-01492,2026-08-13T13:00:02Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,w3wp.exe,5985,allowed,18061,benign,routine network
+NET-01175,2026-08-13T13:00:15Z,APP-API-02,FIN-WS-14,ACME\mrivera,w3wp.exe,445,allowed,61695,benign,routine network
+NET-00827,2026-08-13T13:09:21Z,APP-API-02,JUMP-01,ACME\svc_deploy,backup-agent.exe,5985,allowed,30324,benign,routine network
+NET-00667,2026-08-13T13:11:12Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,76151,benign,routine network
+NET-01152,2026-08-13T13:13:42Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,48421,benign,routine network
+NET-00092,2026-08-13T13:16:00Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,443,allowed,88969,benign,routine network
+NET-01234,2026-08-13T13:20:38Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,66352,benign,routine network
+NET-00034,2026-08-13T13:24:17Z,JUMP-01,JUMP-01,ACME\mrivera,backup-agent.exe,5985,allowed,12246,benign,routine network
+NET-01306,2026-08-13T13:30:51Z,FILE-02,APP-API-02,ACME\svc_backup,w3wp.exe,445,allowed,21165,benign,routine network
+NET-00808,2026-08-13T13:46:34Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,55463,benign,routine network
+NET-01074,2026-08-13T13:49:54Z,FILE-02,DEPLOY-01,ACME\jsmith,backup-agent.exe,445,allowed,1292,benign,routine network
+NET-00088,2026-08-13T14:02:36Z,JUMP-01,FILE-02,ACME\mrivera,w3wp.exe,5985,allowed,82725,benign,routine network
+NET-00530,2026-08-13T14:12:55Z,APP-API-02,APP-API-03,ACME\svc_deploy,powershell.exe,5985,allowed,70144,benign,routine network
+NET-00220,2026-08-13T14:27:58Z,DEPLOY-01,FILE-02,ACME\svc_backup,backup-agent.exe,5985,allowed,2517,benign,routine network
+NET-01325,2026-08-13T14:32:09Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,63290,benign,routine network
+NET-01001,2026-08-13T14:38:02Z,FILE-02,FILE-02,ACME\mrivera,backup-agent.exe,443,allowed,14508,benign,routine network
+NET-00858,2026-08-13T15:06:28Z,JUMP-01,APP-API-03,ACME\svc_deploy,backup-agent.exe,5985,allowed,14062,benign,routine network
+NET-00365,2026-08-13T15:07:24Z,APP-API-03,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,33305,benign,routine network
+NET-01462,2026-08-13T15:09:42Z,FILE-02,DEPLOY-01,ACME\jsmith,w3wp.exe,445,allowed,39204,benign,routine network
+NET-00898,2026-08-13T15:13:57Z,FILE-02,APP-API-03,ACME\svc_backup,w3wp.exe,443,allowed,12801,benign,routine network
+NET-00655,2026-08-13T15:15:25Z,APP-API-02,JUMP-01,ACME\mrivera,powershell.exe,5985,allowed,7887,benign,routine network
+NET-00811,2026-08-13T15:16:19Z,FILE-02,APP-API-02,ACME\jsmith,powershell.exe,5985,allowed,1678,benign,routine network
+NET-00902,2026-08-13T15:18:44Z,JUMP-01,JUMP-01,ACME\jsmith,backup-agent.exe,5985,allowed,7321,benign,routine network
+NET-01402,2026-08-13T15:23:53Z,JUMP-01,JUMP-01,ACME\jsmith,powershell.exe,5985,allowed,17913,benign,routine network
+NET-00346,2026-08-13T15:31:44Z,JUMP-01,DEPLOY-01,ACME\mrivera,w3wp.exe,445,allowed,20877,benign,routine network
+NET-01346,2026-08-13T15:32:46Z,FILE-02,DEPLOY-01,ACME\mrivera,powershell.exe,445,allowed,55176,benign,routine network
+NET-01086,2026-08-13T15:33:09Z,APP-API-02,APP-API-03,ACME\jsmith,backup-agent.exe,5985,allowed,3824,benign,routine network
+NET-00209,2026-08-13T15:33:44Z,JUMP-01,APP-API-02,ACME\svc_backup,powershell.exe,445,allowed,29678,benign,routine network
+NET-01154,2026-08-13T15:48:27Z,FILE-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,5985,allowed,24851,benign,routine network
+NET-01253,2026-08-13T15:57:18Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,445,allowed,43575,benign,routine network
+NET-01135,2026-08-13T16:00:45Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,37245,benign,routine network
+NET-00610,2026-08-13T16:11:26Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,22010,benign,routine network
+NET-01089,2026-08-13T16:12:02Z,APP-API-02,DEPLOY-01,ACME\svc_backup,powershell.exe,443,allowed,76622,benign,routine network
+NET-00251,2026-08-13T16:29:00Z,APP-API-03,APP-API-03,ACME\svc_deploy,backup-agent.exe,445,allowed,5788,benign,routine network
+NET-00373,2026-08-13T16:32:45Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,5985,allowed,40910,benign,routine network
+NET-00008,2026-08-13T16:33:46Z,JUMP-01,DEPLOY-01,ACME\mrivera,powershell.exe,5985,allowed,34400,benign,routine network
+NET-00856,2026-08-13T16:35:35Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,powershell.exe,445,allowed,51780,benign,routine network
+NET-01212,2026-08-13T16:39:04Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,21514,benign,routine network
+NET-01322,2026-08-13T16:43:03Z,FILE-02,JUMP-01,ACME\svc_backup,powershell.exe,5985,allowed,77309,benign,routine network
+NET-00293,2026-08-13T16:59:34Z,FILE-02,JUMP-01,ACME\mrivera,w3wp.exe,443,allowed,41676,benign,routine network
+NET-00243,2026-08-13T16:59:40Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,50583,benign,routine network
+NET-00580,2026-08-13T17:10:29Z,JUMP-01,FILE-02,ACME\mrivera,w3wp.exe,443,allowed,43138,benign,routine network
+NET-01151,2026-08-13T17:11:34Z,DEPLOY-01,APP-API-02,ACME\jsmith,powershell.exe,443,allowed,56136,benign,routine network
+NET-01423,2026-08-13T17:12:00Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,83114,benign,routine network
+NET-00794,2026-08-13T17:17:39Z,FILE-02,DEPLOY-01,ACME\jsmith,powershell.exe,445,allowed,20741,benign,routine network
+NET-01067,2026-08-13T17:20:47Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,60359,benign,routine network
+NET-01219,2026-08-13T17:28:50Z,APP-API-02,FILE-02,ACME\jsmith,backup-agent.exe,443,allowed,41168,benign,routine network
+NET-00394,2026-08-13T17:49:34Z,FIN-WS-14,JUMP-01,ACME\jsmith,powershell.exe,443,allowed,4221,benign,routine network
+NET-00749,2026-08-13T17:51:35Z,FIN-WS-14,JUMP-01,ACME\svc_backup,backup-agent.exe,443,allowed,73682,benign,routine network
+NET-00076,2026-08-13T17:52:54Z,APP-API-02,FILE-02,ACME\svc_deploy,powershell.exe,5985,allowed,87516,benign,routine network
+NET-01122,2026-08-13T17:53:06Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,38793,benign,routine network
+NET-00972,2026-08-13T17:55:44Z,DEPLOY-01,FILE-02,ACME\svc_backup,w3wp.exe,443,allowed,47018,benign,routine network
+NET-00367,2026-08-13T18:02:12Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,w3wp.exe,445,allowed,37149,benign,routine network
+NET-01052,2026-08-13T18:03:17Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,powershell.exe,5985,allowed,54564,benign,routine network
+NET-00218,2026-08-13T18:12:34Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,powershell.exe,443,allowed,41937,benign,routine network
+NET-00772,2026-08-13T18:17:15Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,6336,benign,routine network
+NET-00027,2026-08-13T18:20:19Z,JUMP-01,APP-API-03,ACME\svc_deploy,powershell.exe,5985,allowed,67774,benign,routine network
+NET-00040,2026-08-13T18:23:23Z,FIN-WS-14,FILE-02,ACME\jsmith,powershell.exe,445,allowed,42552,benign,routine network
+NET-00129,2026-08-13T18:29:16Z,APP-API-02,APP-API-03,ACME\svc_backup,backup-agent.exe,445,allowed,18140,benign,routine network
+NET-01302,2026-08-13T18:31:04Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,80524,benign,routine network
+NET-01279,2026-08-13T18:34:17Z,APP-API-02,DEPLOY-01,ACME\jsmith,powershell.exe,5985,allowed,21434,benign,routine network
+NET-00651,2026-08-13T18:43:52Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,powershell.exe,445,allowed,21896,benign,routine network
+NET-00687,2026-08-13T18:44:36Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,14779,benign,routine network
+NET-01396,2026-08-13T19:06:24Z,JUMP-01,FILE-02,ACME\mrivera,powershell.exe,445,allowed,87718,benign,routine network
+NET-00533,2026-08-13T19:09:08Z,APP-API-02,APP-API-02,ACME\jsmith,backup-agent.exe,5985,allowed,74224,benign,routine network
+NET-01459,2026-08-13T19:17:51Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,62724,benign,routine network
+NET-00397,2026-08-13T19:26:30Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,5985,allowed,4415,benign,routine network
+NET-00135,2026-08-13T19:33:45Z,JUMP-01,APP-API-03,ACME\mrivera,powershell.exe,445,allowed,52884,benign,routine network
+NET-01149,2026-08-13T19:34:43Z,JUMP-01,DEPLOY-01,ACME\svc_backup,w3wp.exe,5985,allowed,73083,benign,routine network
+NET-00274,2026-08-13T19:34:57Z,FIN-WS-14,APP-API-02,ACME\svc_backup,backup-agent.exe,5985,allowed,85417,benign,routine network
+NET-00207,2026-08-13T19:35:38Z,JUMP-01,FILE-02,ACME\jsmith,w3wp.exe,443,allowed,40316,benign,routine network
+NET-00951,2026-08-13T19:38:13Z,APP-API-02,JUMP-01,ACME\mrivera,backup-agent.exe,443,allowed,57991,benign,routine network
+NET-00012,2026-08-13T19:42:49Z,FILE-02,FIN-WS-14,ACME\svc_backup,w3wp.exe,443,allowed,64840,benign,routine network
+NET-00114,2026-08-13T19:44:37Z,FILE-02,FILE-02,ACME\jsmith,backup-agent.exe,445,allowed,81954,benign,routine network
+NET-00707,2026-08-13T19:49:08Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,24199,benign,routine network
+NET-01034,2026-08-13T19:57:24Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,5251,benign,routine network
+NET-00866,2026-08-13T20:02:33Z,FILE-02,APP-API-02,ACME\mrivera,powershell.exe,5985,allowed,87617,benign,routine network
+NET-00780,2026-08-13T20:05:10Z,APP-API-03,DEPLOY-01,ACME\svc_backup,backup-agent.exe,5985,allowed,81276,benign,routine network
+NET-00099,2026-08-13T20:10:56Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,62613,benign,routine network
+NET-01496,2026-08-13T20:11:49Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,11156,benign,routine network
+NET-01156,2026-08-13T20:20:20Z,APP-API-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,443,allowed,67668,benign,routine network
+NET-01308,2026-08-13T20:33:50Z,DEPLOY-01,FILE-02,ACME\svc_backup,powershell.exe,445,allowed,1622,benign,routine network
+NET-00432,2026-08-13T20:34:36Z,FIN-WS-14,DEPLOY-01,ACME\jsmith,w3wp.exe,5985,allowed,89901,benign,routine network
+NET-00540,2026-08-13T20:42:06Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,powershell.exe,443,allowed,48319,benign,routine network
+NET-00345,2026-08-13T20:43:20Z,FILE-02,FILE-02,ACME\mrivera,powershell.exe,443,allowed,10055,benign,routine network
+NET-00046,2026-08-13T20:43:51Z,JUMP-01,FILE-02,ACME\svc_backup,w3wp.exe,445,allowed,85049,benign,routine network
+NET-00447,2026-08-13T20:51:43Z,APP-API-03,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,51885,benign,routine network
+NET-01168,2026-08-13T21:03:28Z,FILE-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,443,allowed,12711,benign,routine network
+NET-00108,2026-08-13T21:05:03Z,JUMP-01,JUMP-01,ACME\jsmith,w3wp.exe,445,allowed,40384,benign,routine network
+NET-01292,2026-08-13T21:18:19Z,FILE-02,APP-API-03,ACME\jsmith,backup-agent.exe,443,allowed,59511,benign,routine network
+NET-01003,2026-08-13T21:26:39Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,backup-agent.exe,443,allowed,86308,benign,routine network
+NET-01163,2026-08-13T21:27:33Z,APP-API-03,APP-API-03,ACME\svc_backup,w3wp.exe,5985,allowed,33312,benign,routine network
+NET-00658,2026-08-13T21:37:02Z,FILE-02,APP-API-03,ACME\mrivera,powershell.exe,445,allowed,12923,benign,routine network
+NET-01116,2026-08-13T21:52:19Z,FILE-02,APP-API-02,ACME\jsmith,backup-agent.exe,443,allowed,3680,benign,routine network
+NET-00739,2026-08-13T21:52:51Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,59824,benign,routine network
+NET-01161,2026-08-13T22:03:39Z,FIN-WS-14,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,51662,benign,routine network
+NET-00336,2026-08-13T22:10:24Z,JUMP-01,DEPLOY-01,ACME\mrivera,backup-agent.exe,445,allowed,86422,benign,routine network
+NET-00615,2026-08-13T22:10:42Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,79960,benign,routine network
+NET-00674,2026-08-13T22:12:50Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,87782,benign,routine network
+NET-00561,2026-08-13T22:19:17Z,FIN-WS-14,APP-API-02,ACME\mrivera,w3wp.exe,443,allowed,58800,benign,routine network
+NET-00237,2026-08-13T22:26:38Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,17940,benign,routine network
+NET-00438,2026-08-13T22:27:00Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,53859,benign,routine network
+NET-01006,2026-08-13T22:29:58Z,FIN-WS-14,APP-API-02,ACME\jsmith,powershell.exe,443,allowed,86146,benign,routine network
+NET-00319,2026-08-13T22:42:22Z,APP-API-02,JUMP-01,ACME\mrivera,backup-agent.exe,443,allowed,49575,benign,routine network
+NET-00316,2026-08-13T22:47:13Z,FILE-02,FILE-02,ACME\mrivera,backup-agent.exe,443,allowed,71825,benign,routine network
+NET-00711,2026-08-13T22:48:03Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,83286,benign,routine network
+NET-00786,2026-08-13T23:10:13Z,JUMP-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,443,allowed,2595,benign,routine network
+NET-00766,2026-08-13T23:22:03Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,59727,benign,routine network
+NET-00013,2026-08-13T23:22:59Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,12091,benign,routine network
+NET-01068,2026-08-13T23:23:27Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,68220,benign,routine network
+NET-00090,2026-08-13T23:24:46Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,36753,benign,routine network
+NET-00465,2026-08-13T23:42:56Z,APP-API-03,FIN-WS-14,ACME\mrivera,powershell.exe,5985,allowed,55747,benign,routine network
+NET-01373,2026-08-13T23:43:36Z,DEPLOY-01,JUMP-01,ACME\svc_backup,powershell.exe,443,allowed,39618,benign,routine network
+NET-00130,2026-08-13T23:51:41Z,APP-API-03,FIN-WS-14,ACME\svc_backup,w3wp.exe,443,allowed,89811,benign,routine network
+NET-01159,2026-08-13T23:57:59Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,89147,benign,routine network
+NET-00673,2026-08-13T23:58:19Z,APP-API-02,APP-API-02,ACME\svc_backup,backup-agent.exe,443,allowed,79329,benign,routine network
+NET-00640,2026-08-13T23:58:51Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,53553,benign,routine network
+NET-00231,2026-08-14T00:01:38Z,DEPLOY-01,FILE-02,ACME\mrivera,powershell.exe,5985,allowed,64924,benign,routine network
+NET-01112,2026-08-14T00:05:50Z,FILE-02,APP-API-02,ACME\svc_backup,backup-agent.exe,445,allowed,57219,benign,routine network
+NET-00657,2026-08-14T00:06:18Z,FILE-02,JUMP-01,ACME\mrivera,backup-agent.exe,445,allowed,15627,benign,routine network
+NET-01444,2026-08-14T00:06:37Z,FILE-02,DEPLOY-01,ACME\jsmith,backup-agent.exe,445,allowed,68716,benign,routine network
+NET-00823,2026-08-14T00:08:32Z,FILE-02,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,41148,benign,routine network
+NET-01097,2026-08-14T00:13:52Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,5985,allowed,28745,benign,routine network
+NET-00868,2026-08-14T00:18:57Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,83285,benign,routine network
+NET-00145,2026-08-14T00:20:36Z,JUMP-01,DEPLOY-01,ACME\mrivera,backup-agent.exe,5985,allowed,60377,benign,routine network
+NET-01010,2026-08-14T00:29:35Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,35869,benign,routine network
+NET-01310,2026-08-14T00:31:36Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,w3wp.exe,443,allowed,54944,benign,routine network
+NET-01190,2026-08-14T00:32:33Z,FILE-02,FILE-02,ACME\svc_deploy,powershell.exe,5985,allowed,62909,benign,routine network
+NET-00809,2026-08-14T00:34:00Z,APP-API-02,APP-API-02,ACME\svc_backup,w3wp.exe,5985,allowed,5261,benign,routine network
+NET-00121,2026-08-14T00:41:17Z,JUMP-01,DEPLOY-01,ACME\jsmith,w3wp.exe,445,allowed,16121,benign,routine network
+NET-00512,2026-08-14T00:46:06Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,20932,benign,routine network
+NET-00941,2026-08-14T00:51:29Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,78523,benign,routine network
+NET-01032,2026-08-14T00:53:29Z,FIN-WS-14,APP-API-03,ACME\svc_backup,w3wp.exe,5985,allowed,74419,benign,routine network
+NET-01297,2026-08-14T01:06:23Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,86466,benign,routine network
+NET-01485,2026-08-14T01:11:07Z,FIN-WS-14,FILE-02,ACME\svc_deploy,powershell.exe,5985,allowed,43302,benign,routine network
+NET-00498,2026-08-14T01:15:39Z,FILE-02,APP-API-03,ACME\mrivera,w3wp.exe,443,allowed,65575,benign,routine network
+NET-00181,2026-08-14T01:21:43Z,APP-API-03,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,57664,benign,routine network
+NET-01088,2026-08-14T01:25:05Z,APP-API-02,APP-API-02,ACME\mrivera,w3wp.exe,445,allowed,35302,benign,routine network
+NET-01228,2026-08-14T01:29:28Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,23357,benign,routine network
+NET-00133,2026-08-14T01:33:56Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,powershell.exe,443,allowed,68133,benign,routine network
+NET-00278,2026-08-14T01:37:48Z,DEPLOY-01,FILE-02,ACME\svc_backup,w3wp.exe,443,allowed,16613,benign,routine network
+NET-01382,2026-08-14T01:38:04Z,JUMP-01,APP-API-02,ACME\mrivera,powershell.exe,5985,allowed,78361,benign,routine network
+NET-00560,2026-08-14T01:39:09Z,APP-API-03,DEPLOY-01,ACME\jsmith,w3wp.exe,443,allowed,30592,benign,routine network
+NET-00118,2026-08-14T01:47:04Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,backup-agent.exe,445,allowed,63688,benign,routine network
+NET-01430,2026-08-14T01:52:12Z,DEPLOY-01,APP-API-03,ACME\mrivera,backup-agent.exe,445,allowed,8378,benign,routine network
+NET-01428,2026-08-14T01:56:27Z,FILE-02,JUMP-01,ACME\jsmith,w3wp.exe,443,allowed,20055,benign,routine network
+NET-00058,2026-08-14T02:00:20Z,DEPLOY-01,APP-API-02,ACME\svc_backup,w3wp.exe,445,allowed,79699,benign,routine network
+NET-00399,2026-08-14T02:01:14Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,89461,benign,routine network
+NET-00684,2026-08-14T02:19:25Z,APP-API-03,APP-API-02,ACME\jsmith,backup-agent.exe,445,allowed,29796,benign,routine network
+NET-00029,2026-08-14T02:23:13Z,FIN-WS-14,APP-API-02,ACME\jsmith,powershell.exe,5985,allowed,74777,benign,routine network
+NET-01315,2026-08-14T02:28:48Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,79583,benign,routine network
+NET-01249,2026-08-14T02:29:48Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,powershell.exe,443,allowed,24210,benign,routine network
+NET-01446,2026-08-14T02:31:56Z,FIN-WS-14,FILE-02,ACME\svc_backup,backup-agent.exe,5985,allowed,18640,benign,routine network
+NET-00521,2026-08-14T02:32:02Z,FILE-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,445,allowed,76448,benign,routine network
+NET-01419,2026-08-14T02:45:40Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,backup-agent.exe,443,allowed,67917,benign,routine network
+NET-00900,2026-08-14T02:50:22Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,445,allowed,7425,benign,routine network
+NET-00758,2026-08-14T02:54:17Z,APP-API-03,DEPLOY-01,ACME\jsmith,w3wp.exe,445,allowed,46328,benign,routine network
+NET-00763,2026-08-14T02:54:43Z,APP-API-02,JUMP-01,ACME\svc_backup,backup-agent.exe,5985,allowed,84273,benign,routine network
+NET-00719,2026-08-14T02:57:10Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,48713,benign,routine network
+NET-00352,2026-08-14T02:57:40Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,backup-agent.exe,5985,allowed,46668,benign,routine network
+NET-00378,2026-08-14T03:00:17Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,445,allowed,58241,benign,routine network
+NET-01225,2026-08-14T03:02:44Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,32673,benign,routine network
+NET-01221,2026-08-14T03:03:38Z,APP-API-03,JUMP-01,ACME\svc_backup,w3wp.exe,5985,allowed,10030,benign,routine network
+NET-00747,2026-08-14T03:04:32Z,APP-API-02,JUMP-01,ACME\jsmith,powershell.exe,5985,allowed,7257,benign,routine network
+NET-00403,2026-08-14T03:06:21Z,FILE-02,FILE-02,ACME\jsmith,powershell.exe,5985,allowed,44981,benign,routine network
+NET-00372,2026-08-14T03:10:50Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,87916,benign,routine network
+NET-01309,2026-08-14T03:13:14Z,APP-API-03,APP-API-02,ACME\svc_deploy,powershell.exe,443,allowed,892,benign,routine network
+NET-00482,2026-08-14T03:13:30Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,71212,benign,routine network
+NET-00616,2026-08-14T03:13:50Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,72155,benign,routine network
+NET-00424,2026-08-14T03:21:23Z,JUMP-01,JUMP-01,ACME\svc_backup,backup-agent.exe,5985,allowed,62106,benign,routine network
+NET-00186,2026-08-14T03:28:51Z,JUMP-01,APP-API-02,ACME\jsmith,w3wp.exe,445,allowed,42660,benign,routine network
+NET-01358,2026-08-14T03:30:15Z,FILE-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,5985,allowed,51488,benign,routine network
+NET-00735,2026-08-14T03:35:37Z,APP-API-02,APP-API-03,ACME\svc_deploy,powershell.exe,5985,allowed,32786,benign,routine network
+NET-01256,2026-08-14T03:36:37Z,FILE-02,APP-API-02,ACME\svc_deploy,backup-agent.exe,443,allowed,64930,benign,routine network
+NET-00916,2026-08-14T03:40:46Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,82326,benign,routine network
+NET-00581,2026-08-14T03:58:34Z,JUMP-01,APP-API-02,ACME\svc_backup,powershell.exe,443,allowed,71209,benign,routine network
+NET-00368,2026-08-14T04:06:46Z,APP-API-03,APP-API-03,ACME\svc_backup,backup-agent.exe,445,allowed,42562,benign,routine network
+NET-00889,2026-08-14T04:08:24Z,JUMP-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,443,allowed,34130,benign,routine network
+NET-00221,2026-08-14T04:29:47Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,w3wp.exe,445,allowed,22031,benign,routine network
+NET-01016,2026-08-14T04:40:24Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,w3wp.exe,5985,allowed,84444,benign,routine network
+NET-01481,2026-08-14T04:40:50Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,71194,benign,routine network
+NET-01479,2026-08-14T04:41:09Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,w3wp.exe,5985,allowed,60617,benign,routine network
+NET-01336,2026-08-14T04:42:25Z,JUMP-01,FILE-02,ACME\mrivera,backup-agent.exe,5985,allowed,72844,benign,routine network
+NET-00320,2026-08-14T04:45:10Z,FILE-02,FIN-WS-14,ACME\svc_backup,powershell.exe,5985,allowed,9492,benign,routine network
+NET-01153,2026-08-14T05:00:36Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,20929,benign,routine network
+NET-00110,2026-08-14T05:22:46Z,FILE-02,APP-API-03,ACME\svc_deploy,powershell.exe,443,allowed,39388,benign,routine network
+NET-00014,2026-08-14T05:33:11Z,FILE-02,FILE-02,ACME\svc_backup,backup-agent.exe,445,allowed,64139,benign,routine network
+NET-01043,2026-08-14T05:39:23Z,JUMP-01,JUMP-01,ACME\svc_deploy,w3wp.exe,5985,allowed,30548,benign,routine network
+NET-01024,2026-08-14T05:50:53Z,JUMP-01,APP-API-03,ACME\svc_backup,powershell.exe,443,allowed,38793,benign,routine network
+NET-00797,2026-08-14T05:57:44Z,FILE-02,APP-API-03,ACME\svc_backup,backup-agent.exe,5985,allowed,27610,benign,routine network
+NET-00892,2026-08-14T05:59:57Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,backup-agent.exe,445,allowed,81518,benign,routine network
+NET-00473,2026-08-14T06:06:54Z,APP-API-03,JUMP-01,ACME\mrivera,powershell.exe,5985,allowed,88535,benign,routine network
+NET-01183,2026-08-14T06:13:24Z,DEPLOY-01,FILE-02,ACME\mrivera,w3wp.exe,5985,allowed,88894,benign,routine network
+NET-00761,2026-08-14T06:20:20Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,w3wp.exe,443,allowed,51423,benign,routine network
+NET-00513,2026-08-14T06:25:05Z,FILE-02,APP-API-03,ACME\svc_backup,w3wp.exe,5985,allowed,38271,benign,routine network
+NET-00912,2026-08-14T06:39:17Z,FILE-02,APP-API-03,ACME\svc_backup,backup-agent.exe,443,allowed,23139,benign,routine network
+NET-01230,2026-08-14T06:46:55Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,w3wp.exe,5985,allowed,72835,benign,routine network
+NET-01206,2026-08-14T07:00:27Z,APP-API-03,DEPLOY-01,ACME\jsmith,powershell.exe,445,allowed,62082,benign,routine network
+NET-00358,2026-08-14T07:03:34Z,APP-API-03,APP-API-03,ACME\svc_deploy,backup-agent.exe,445,allowed,20678,benign,routine network
+NET-00244,2026-08-14T07:11:56Z,DEPLOY-01,APP-API-03,ACME\svc_backup,backup-agent.exe,445,allowed,67458,benign,routine network
+NET-01330,2026-08-14T07:25:38Z,APP-API-02,APP-API-03,ACME\svc_backup,w3wp.exe,443,allowed,56850,benign,routine network
+NET-00733,2026-08-14T07:34:43Z,JUMP-01,DEPLOY-01,ACME\mrivera,backup-agent.exe,445,allowed,36726,benign,routine network
+NET-00685,2026-08-14T07:39:51Z,APP-API-03,APP-API-03,ACME\svc_backup,powershell.exe,445,allowed,88120,benign,routine network
+NET-01447,2026-08-14T07:45:47Z,APP-API-03,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,51860,benign,routine network
+NET-00864,2026-08-14T07:48:53Z,APP-API-02,DEPLOY-01,ACME\svc_backup,powershell.exe,443,allowed,31716,benign,routine network
+NET-01174,2026-08-14T07:49:02Z,APP-API-03,JUMP-01,ACME\svc_deploy,powershell.exe,5985,allowed,12078,benign,routine network
+NET-01040,2026-08-14T08:13:04Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,36272,benign,routine network
+NET-00999,2026-08-14T08:24:20Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,w3wp.exe,445,allowed,8388,benign,routine network
+NET-00935,2026-08-14T08:29:53Z,FIN-WS-14,APP-API-02,ACME\svc_backup,w3wp.exe,5985,allowed,15203,benign,routine network
+NET-00178,2026-08-14T08:34:33Z,APP-API-03,FILE-02,ACME\jsmith,backup-agent.exe,5985,allowed,41515,benign,routine network
+NET-00576,2026-08-14T08:37:50Z,APP-API-03,FILE-02,ACME\svc_deploy,powershell.exe,5985,allowed,18932,benign,routine network
+NET-00344,2026-08-14T08:40:51Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,backup-agent.exe,5985,allowed,58578,benign,routine network
+NET-01349,2026-08-14T08:41:21Z,DEPLOY-01,APP-API-03,ACME\jsmith,powershell.exe,443,allowed,65600,benign,routine network
+NET-01155,2026-08-14T08:42:00Z,JUMP-01,FIN-WS-14,ACME\jsmith,backup-agent.exe,5985,allowed,27645,benign,routine network
+NET-00306,2026-08-14T08:46:02Z,FIN-WS-14,APP-API-02,ACME\mrivera,powershell.exe,5985,allowed,39309,benign,routine network
+NET-00738,2026-08-14T08:46:40Z,JUMP-01,FIN-WS-14,ACME\jsmith,powershell.exe,5985,allowed,7995,benign,routine network
+NET-00829,2026-08-14T08:47:24Z,FIN-WS-14,FILE-02,ACME\mrivera,backup-agent.exe,5985,allowed,38887,benign,routine network
+NET-00756,2026-08-14T08:58:43Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,9780,benign,routine network
+NET-00269,2026-08-14T09:04:47Z,APP-API-03,FIN-WS-14,ACME\mrivera,backup-agent.exe,5985,allowed,33519,benign,routine network
+NET-00860,2026-08-14T09:09:19Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,83342,benign,routine network
+NET-00805,2026-08-14T09:20:53Z,DEPLOY-01,APP-API-03,ACME\svc_backup,w3wp.exe,445,allowed,34461,benign,routine network
+NET-01092,2026-08-14T09:23:21Z,APP-API-03,APP-API-03,ACME\mrivera,powershell.exe,5985,allowed,71706,benign,routine network
+NET-00411,2026-08-14T09:27:42Z,JUMP-01,FIN-WS-14,ACME\jsmith,w3wp.exe,445,allowed,23361,benign,routine network
+NET-00880,2026-08-14T09:28:00Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,w3wp.exe,5985,allowed,63136,benign,routine network
+NET-01420,2026-08-14T09:30:48Z,APP-API-03,APP-API-02,ACME\mrivera,backup-agent.exe,5985,allowed,3811,benign,routine network
+NET-01078,2026-08-14T09:33:02Z,JUMP-01,APP-API-03,ACME\jsmith,backup-agent.exe,5985,allowed,86785,benign,routine network
+NET-01429,2026-08-14T09:33:09Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,21677,benign,routine network
+NET-00216,2026-08-14T09:34:45Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,powershell.exe,443,allowed,30314,benign,routine network
+NET-00690,2026-08-14T09:37:31Z,DEPLOY-01,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,39307,benign,routine network
+NET-00715,2026-08-14T09:43:47Z,FILE-02,APP-API-02,ACME\svc_deploy,backup-agent.exe,445,allowed,21833,benign,routine network
+NET-01102,2026-08-14T09:48:03Z,DEPLOY-01,DEPLOY-01,ACME\svc_backup,powershell.exe,445,allowed,66178,benign,routine network
+NET-00416,2026-08-14T09:53:58Z,JUMP-01,FILE-02,ACME\jsmith,backup-agent.exe,5985,allowed,33776,benign,routine network
+NET-01466,2026-08-14T09:59:02Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,7617,benign,routine network
+NET-00731,2026-08-14T10:04:57Z,APP-API-02,DEPLOY-01,ACME\svc_backup,backup-agent.exe,443,allowed,59010,benign,routine network
+NET-00020,2026-08-14T10:06:50Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,powershell.exe,443,allowed,74153,benign,routine network
+NET-00450,2026-08-14T10:07:08Z,FILE-02,APP-API-03,ACME\svc_deploy,powershell.exe,443,allowed,17366,benign,routine network
+NET-01012,2026-08-14T10:12:12Z,JUMP-01,APP-API-03,ACME\svc_backup,w3wp.exe,5985,allowed,17770,benign,routine network
+NET-00683,2026-08-14T10:16:40Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,75928,benign,routine network
+NET-00291,2026-08-14T10:25:34Z,APP-API-02,JUMP-01,ACME\jsmith,w3wp.exe,445,allowed,32599,benign,routine network
+NET-01369,2026-08-14T10:29:42Z,DEPLOY-01,FILE-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,64528,benign,routine network
+NET-00709,2026-08-14T11:12:18Z,FILE-02,APP-API-02,ACME\svc_deploy,w3wp.exe,445,allowed,9438,benign,routine network
+NET-01393,2026-08-14T11:12:54Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,37051,benign,routine network
+NET-00997,2026-08-14T11:19:04Z,FILE-02,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,69555,benign,routine network
+NET-00921,2026-08-14T11:20:02Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,w3wp.exe,443,allowed,5413,benign,routine network
+NET-00952,2026-08-14T11:28:56Z,FILE-02,APP-API-03,ACME\svc_deploy,powershell.exe,445,allowed,27984,benign,routine network
+NET-00770,2026-08-14T11:42:05Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,77403,benign,routine network
+NET-00079,2026-08-14T11:43:33Z,APP-API-03,FILE-02,ACME\jsmith,powershell.exe,445,allowed,38891,benign,routine network
+NET-00593,2026-08-14T12:09:22Z,APP-API-02,APP-API-02,ACME\mrivera,powershell.exe,443,allowed,67437,benign,routine network
+NET-00180,2026-08-14T12:18:05Z,JUMP-01,DEPLOY-01,ACME\mrivera,backup-agent.exe,443,allowed,19563,benign,routine network
+NET-00612,2026-08-14T12:22:06Z,FIN-WS-14,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,40586,benign,routine network
+NET-00115,2026-08-14T12:26:51Z,FILE-02,FIN-WS-14,ACME\svc_backup,backup-agent.exe,5985,allowed,7047,benign,routine network
+NET-00044,2026-08-14T12:33:14Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,85110,benign,routine network
+NET-00800,2026-08-14T12:35:31Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,w3wp.exe,5985,allowed,78838,benign,routine network
+NET-00414,2026-08-14T12:45:07Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,24712,benign,routine network
+NET-01198,2026-08-14T12:46:06Z,FILE-02,APP-API-03,ACME\svc_deploy,powershell.exe,445,allowed,83901,benign,routine network
+NET-00417,2026-08-14T12:50:03Z,FILE-02,APP-API-03,ACME\svc_deploy,powershell.exe,443,allowed,80489,benign,routine network
+NET-00393,2026-08-14T12:51:46Z,FILE-02,FILE-02,ACME\jsmith,powershell.exe,5985,allowed,76214,benign,routine network
+NET-00679,2026-08-14T12:54:02Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,w3wp.exe,445,allowed,72735,benign,routine network
+NET-00095,2026-08-14T12:55:58Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,71214,benign,routine network
+NET-00628,2026-08-14T13:11:00Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,50214,benign,routine network
+NET-00722,2026-08-14T13:15:47Z,FIN-WS-14,APP-API-02,ACME\mrivera,powershell.exe,445,allowed,69630,benign,routine network
+NET-01070,2026-08-14T13:17:16Z,APP-API-03,APP-API-03,ACME\jsmith,backup-agent.exe,443,allowed,17397,benign,routine network
+NET-00026,2026-08-14T13:24:36Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,443,allowed,60440,benign,routine network
+NET-00248,2026-08-14T13:24:42Z,APP-API-03,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,87002,benign,routine network
+NET-00726,2026-08-14T13:25:14Z,DEPLOY-01,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,51200,benign,routine network
+NET-01109,2026-08-14T13:29:56Z,JUMP-01,FILE-02,ACME\svc_deploy,backup-agent.exe,445,allowed,16577,benign,routine network
+NET-00630,2026-08-14T13:36:58Z,FILE-02,DEPLOY-01,ACME\jsmith,backup-agent.exe,443,allowed,39248,benign,routine network
+NET-01377,2026-08-14T13:41:24Z,APP-API-02,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,47185,benign,routine network
+NET-01307,2026-08-14T13:41:58Z,JUMP-01,JUMP-01,ACME\jsmith,w3wp.exe,443,allowed,38732,benign,routine network
+NET-00626,2026-08-14T13:43:46Z,APP-API-03,APP-API-03,ACME\svc_deploy,w3wp.exe,5985,allowed,57042,benign,routine network
+NET-00451,2026-08-14T13:48:48Z,APP-API-02,JUMP-01,ACME\jsmith,backup-agent.exe,5985,allowed,88486,benign,routine network
+NET-01445,2026-08-14T13:51:47Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,14854,benign,routine network
+NET-00967,2026-08-14T13:54:09Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,w3wp.exe,443,allowed,15457,benign,routine network
+NET-00839,2026-08-14T14:14:10Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,26758,benign,routine network
+NET-01140,2026-08-14T14:14:34Z,FILE-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,5985,allowed,70466,benign,routine network
+NET-00514,2026-08-14T14:19:15Z,APP-API-02,APP-API-02,ACME\mrivera,w3wp.exe,5985,allowed,9021,benign,routine network
+NET-00175,2026-08-14T14:23:59Z,FILE-02,FILE-02,ACME\svc_deploy,w3wp.exe,445,allowed,59493,benign,routine network
+NET-00543,2026-08-14T14:24:11Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,64773,benign,routine network
+NET-01265,2026-08-14T14:24:40Z,FILE-02,JUMP-01,ACME\mrivera,powershell.exe,445,allowed,18816,benign,routine network
+NET-01114,2026-08-14T14:39:46Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,66558,benign,routine network
+NET-01493,2026-08-14T14:49:12Z,FILE-02,FIN-WS-14,ACME\svc_deploy,powershell.exe,443,allowed,23070,benign,routine network
+NET-01131,2026-08-14T14:56:23Z,APP-API-03,FILE-02,ACME\svc_backup,w3wp.exe,443,allowed,87312,benign,routine network
+NET-00928,2026-08-14T14:59:34Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,55202,benign,routine network
+NET-00874,2026-08-14T15:00:41Z,FILE-02,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,86900,benign,routine network
+NET-00993,2026-08-14T15:11:23Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,6236,benign,routine network
+NET-01235,2026-08-14T15:45:30Z,APP-API-02,FILE-02,ACME\svc_deploy,backup-agent.exe,445,allowed,62522,benign,routine network
+NET-00379,2026-08-14T15:56:17Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,33045,benign,routine network
+NET-00503,2026-08-14T15:57:08Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,56770,benign,routine network
+NET-00552,2026-08-14T16:03:38Z,DEPLOY-01,APP-API-03,ACME\jsmith,w3wp.exe,443,allowed,37686,benign,routine network
+NET-00803,2026-08-14T16:05:19Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,backup-agent.exe,445,allowed,50744,benign,routine network
+NET-00886,2026-08-14T16:09:39Z,JUMP-01,JUMP-01,ACME\svc_backup,backup-agent.exe,445,allowed,82696,benign,routine network
+NET-01304,2026-08-14T16:24:16Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,55779,benign,routine network
+NET-01061,2026-08-14T16:29:31Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,powershell.exe,445,allowed,77550,benign,routine network
+NET-00017,2026-08-14T16:35:49Z,APP-API-02,JUMP-01,ACME\svc_backup,w3wp.exe,5985,allowed,32805,benign,routine network
+NET-00920,2026-08-14T16:41:45Z,APP-API-02,FILE-02,ACME\svc_deploy,w3wp.exe,445,allowed,46570,benign,routine network
+NET-01028,2026-08-14T16:44:36Z,FILE-02,APP-API-03,ACME\svc_deploy,w3wp.exe,443,allowed,78509,benign,routine network
+NET-01313,2026-08-14T16:44:47Z,FILE-02,JUMP-01,ACME\jsmith,w3wp.exe,443,allowed,72635,benign,routine network
+NET-01081,2026-08-14T16:51:59Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,1644,benign,routine network
+NET-00077,2026-08-14T16:53:21Z,APP-API-02,JUMP-01,ACME\svc_backup,powershell.exe,445,allowed,47381,benign,routine network
+NET-00554,2026-08-14T16:53:22Z,DEPLOY-01,APP-API-03,ACME\jsmith,backup-agent.exe,443,allowed,31988,benign,routine network
+NET-00249,2026-08-14T16:54:57Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,45647,benign,routine network
+NET-00859,2026-08-14T16:56:08Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,23357,benign,routine network
+NET-01305,2026-08-14T17:00:55Z,FIN-WS-14,APP-API-02,ACME\jsmith,w3wp.exe,445,allowed,41805,benign,routine network
+NET-00138,2026-08-14T17:01:11Z,APP-API-02,FILE-02,ACME\mrivera,powershell.exe,445,allowed,60909,benign,routine network
+NET-00072,2026-08-14T17:05:30Z,FILE-02,FILE-02,ACME\jsmith,backup-agent.exe,445,allowed,24334,benign,routine network
+NET-01077,2026-08-14T17:06:46Z,JUMP-01,DEPLOY-01,ACME\svc_backup,backup-agent.exe,445,allowed,82913,benign,routine network
+NET-01252,2026-08-14T17:08:08Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,powershell.exe,445,allowed,78178,benign,routine network
+NET-00848,2026-08-14T17:13:38Z,FILE-02,FIN-WS-14,ACME\svc_backup,backup-agent.exe,5985,allowed,486,benign,routine network
+NET-01489,2026-08-14T17:24:34Z,APP-API-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,443,allowed,56047,benign,routine network
+NET-00236,2026-08-14T17:28:46Z,JUMP-01,APP-API-03,ACME\svc_backup,backup-agent.exe,445,allowed,6799,benign,routine network
+NET-00153,2026-08-14T17:35:10Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,39111,benign,routine network
+NET-00877,2026-08-14T17:48:03Z,DEPLOY-01,APP-API-03,ACME\jsmith,w3wp.exe,5985,allowed,66977,benign,routine network
+NET-01095,2026-08-14T17:49:13Z,DEPLOY-01,JUMP-01,ACME\mrivera,powershell.exe,5985,allowed,24286,benign,routine network
+NET-00703,2026-08-14T17:49:32Z,JUMP-01,FILE-02,ACME\svc_deploy,powershell.exe,445,allowed,14012,benign,routine network
+NET-00462,2026-08-14T17:52:09Z,APP-API-03,FIN-WS-14,ACME\mrivera,powershell.exe,445,allowed,62365,benign,routine network
+NET-00831,2026-08-14T17:53:04Z,FILE-02,DEPLOY-01,ACME\jsmith,powershell.exe,445,allowed,83605,benign,routine network
+NET-00818,2026-08-14T18:03:13Z,APP-API-03,FILE-02,ACME\jsmith,powershell.exe,445,allowed,34512,benign,routine network
+NET-01207,2026-08-14T18:10:36Z,APP-API-03,APP-API-03,ACME\jsmith,w3wp.exe,5985,allowed,14823,benign,routine network
+NET-00202,2026-08-14T18:14:32Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,backup-agent.exe,443,allowed,46266,benign,routine network
+NET-00599,2026-08-14T18:25:16Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,powershell.exe,443,allowed,29017,benign,routine network
+NET-00074,2026-08-14T18:29:37Z,FILE-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,445,allowed,41198,benign,routine network
+NET-00744,2026-08-14T18:31:28Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,75349,benign,routine network
+NET-00924,2026-08-14T18:51:57Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,backup-agent.exe,443,allowed,61122,benign,routine network
+NET-00308,2026-08-14T18:53:52Z,JUMP-01,DEPLOY-01,ACME\svc_backup,w3wp.exe,5985,allowed,66712,benign,routine network
+NET-01478,2026-08-14T18:54:24Z,APP-API-02,FIN-WS-14,ACME\mrivera,w3wp.exe,443,allowed,17223,benign,routine network
+NET-01057,2026-08-14T19:10:56Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,16027,benign,routine network
+NET-01164,2026-08-14T19:12:29Z,APP-API-02,JUMP-01,ACME\jsmith,powershell.exe,5985,allowed,21016,benign,routine network
+NET-01335,2026-08-14T19:14:34Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,14621,benign,routine network
+NET-00586,2026-08-14T19:15:03Z,JUMP-01,FILE-02,ACME\jsmith,backup-agent.exe,445,allowed,47829,benign,routine network
+NET-01347,2026-08-14T19:15:44Z,FIN-WS-14,FILE-02,ACME\svc_backup,w3wp.exe,445,allowed,64190,benign,routine network
+NET-00730,2026-08-14T19:17:37Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,24738,benign,routine network
+NET-00998,2026-08-14T19:20:32Z,JUMP-01,FILE-02,ACME\svc_deploy,w3wp.exe,5985,allowed,66060,benign,routine network
+NET-00771,2026-08-14T19:25:22Z,APP-API-03,JUMP-01,ACME\svc_backup,powershell.exe,445,allowed,53212,benign,routine network
+NET-01172,2026-08-14T19:28:20Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,26404,benign,routine network
+NET-01273,2026-08-14T19:41:33Z,JUMP-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,443,allowed,100,benign,routine network
+NET-01035,2026-08-14T19:42:25Z,FIN-WS-14,JUMP-01,ACME\svc_backup,backup-agent.exe,445,allowed,10726,benign,routine network
+NET-00093,2026-08-14T19:45:28Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,55885,benign,routine network
+NET-00265,2026-08-14T20:06:37Z,JUMP-01,JUMP-01,ACME\jsmith,powershell.exe,443,allowed,82075,benign,routine network
+NET-00239,2026-08-14T20:09:41Z,DEPLOY-01,FILE-02,ACME\mrivera,w3wp.exe,443,allowed,28870,benign,routine network
+NET-00567,2026-08-14T20:32:46Z,FILE-02,APP-API-03,ACME\jsmith,backup-agent.exe,5985,allowed,77682,benign,routine network
+NET-00070,2026-08-14T20:48:16Z,FIN-WS-14,APP-API-02,ACME\svc_backup,backup-agent.exe,5985,allowed,59911,benign,routine network
+NET-00987,2026-08-14T20:53:37Z,DEPLOY-01,APP-API-02,ACME\mrivera,powershell.exe,5985,allowed,19707,benign,routine network
+NET-00948,2026-08-14T20:59:11Z,APP-API-02,APP-API-03,ACME\mrivera,powershell.exe,445,allowed,72289,benign,routine network
+NET-00435,2026-08-14T21:02:46Z,APP-API-02,APP-API-02,ACME\svc_backup,w3wp.exe,445,allowed,44641,benign,routine network
+NET-01426,2026-08-14T21:03:45Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,powershell.exe,5985,allowed,73647,benign,routine network
+NET-00286,2026-08-14T21:09:44Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,75364,benign,routine network
+NET-00019,2026-08-14T21:09:59Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,5985,allowed,86803,benign,routine network
+NET-01180,2026-08-14T21:14:25Z,APP-API-02,FILE-02,ACME\svc_deploy,backup-agent.exe,445,allowed,28520,benign,routine network
+NET-00415,2026-08-14T21:17:34Z,FILE-02,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,45186,benign,routine network
+NET-01236,2026-08-14T21:23:05Z,JUMP-01,FIN-WS-14,ACME\mrivera,w3wp.exe,5985,allowed,11416,benign,routine network
+NET-00201,2026-08-14T21:39:40Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,51747,benign,routine network
+NET-01104,2026-08-14T21:43:21Z,JUMP-01,APP-API-03,ACME\svc_deploy,powershell.exe,5985,allowed,31357,benign,routine network
+NET-00779,2026-08-14T21:43:23Z,FILE-02,APP-API-02,ACME\jsmith,powershell.exe,443,allowed,89962,benign,routine network
+NET-00051,2026-08-14T21:43:31Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,5985,allowed,76553,benign,routine network
+NET-00509,2026-08-14T21:44:49Z,JUMP-01,APP-API-02,ACME\jsmith,powershell.exe,5985,allowed,38553,benign,routine network
+NET-01374,2026-08-14T21:45:56Z,APP-API-03,APP-API-03,ACME\svc_deploy,backup-agent.exe,443,allowed,80662,benign,routine network
+NET-00351,2026-08-14T21:56:09Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,backup-agent.exe,5985,allowed,21961,benign,routine network
+NET-00887,2026-08-14T22:09:08Z,FILE-02,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,70971,benign,routine network
+NET-00604,2026-08-14T22:31:12Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,62364,benign,routine network
+NET-01338,2026-08-14T22:31:17Z,APP-API-02,DEPLOY-01,ACME\svc_backup,backup-agent.exe,5985,allowed,5974,benign,routine network
+NET-00156,2026-08-14T22:34:53Z,JUMP-01,JUMP-01,ACME\svc_deploy,w3wp.exe,443,allowed,63741,benign,routine network
+NET-00852,2026-08-14T22:54:55Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,61975,benign,routine network
+NET-01233,2026-08-14T23:17:47Z,FIN-WS-14,JUMP-01,ACME\mrivera,w3wp.exe,443,allowed,67018,benign,routine network
+NET-00694,2026-08-14T23:25:21Z,APP-API-03,DEPLOY-01,ACME\svc_backup,powershell.exe,5985,allowed,2693,benign,routine network
+NET-01218,2026-08-14T23:26:26Z,FILE-02,APP-API-02,ACME\mrivera,backup-agent.exe,445,allowed,21369,benign,routine network
+NET-00078,2026-08-14T23:27:36Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,82323,benign,routine network
+NET-01113,2026-08-14T23:32:51Z,APP-API-03,FILE-02,ACME\mrivera,backup-agent.exe,443,allowed,31584,benign,routine network
+NET-00472,2026-08-14T23:40:20Z,FIN-WS-14,APP-API-02,ACME\mrivera,powershell.exe,443,allowed,7860,benign,routine network
+NET-00297,2026-08-14T23:41:22Z,APP-API-02,APP-API-02,ACME\svc_backup,w3wp.exe,445,allowed,66844,benign,routine network
+NET-00524,2026-08-14T23:56:32Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,powershell.exe,445,allowed,59070,benign,routine network
+NET-00281,2026-08-14T23:59:37Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,52591,benign,routine network
+NET-00950,2026-08-15T00:05:58Z,APP-API-03,APP-API-02,ACME\mrivera,backup-agent.exe,445,allowed,65730,benign,routine network
+NET-00978,2026-08-15T00:07:00Z,DEPLOY-01,FILE-02,ACME\mrivera,backup-agent.exe,443,allowed,10827,benign,routine network
+NET-00773,2026-08-15T00:18:13Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,19283,benign,routine network
+NET-00506,2026-08-15T00:21:12Z,APP-API-02,APP-API-02,ACME\svc_backup,powershell.exe,445,allowed,17939,benign,routine network
+NET-01494,2026-08-15T00:23:28Z,FILE-02,FIN-WS-14,ACME\mrivera,w3wp.exe,5985,allowed,78003,benign,routine network
+NET-00632,2026-08-15T00:26:50Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,22524,benign,routine network
+NET-00968,2026-08-15T00:29:58Z,FILE-02,JUMP-01,ACME\mrivera,powershell.exe,5985,allowed,27967,benign,routine network
+NET-00206,2026-08-15T00:36:45Z,DEPLOY-01,FILE-02,ACME\svc_backup,powershell.exe,5985,allowed,19895,benign,routine network
+NET-00463,2026-08-15T00:42:30Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,84312,benign,routine network
+NET-01145,2026-08-15T00:49:55Z,FILE-02,APP-API-02,ACME\svc_deploy,backup-agent.exe,445,allowed,81275,benign,routine network
+NET-00917,2026-08-15T00:51:10Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,18135,benign,routine network
+NET-00402,2026-08-15T00:53:05Z,FILE-02,JUMP-01,ACME\jsmith,w3wp.exe,5985,allowed,57471,benign,routine network
+NET-00309,2026-08-15T00:56:55Z,FILE-02,DEPLOY-01,ACME\svc_deploy,powershell.exe,5985,allowed,69553,benign,routine network
+NET-01290,2026-08-15T00:57:04Z,FIN-WS-14,FILE-02,ACME\mrivera,powershell.exe,443,allowed,45751,benign,routine network
+NET-00642,2026-08-15T00:58:46Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,443,allowed,43607,benign,routine network
+NET-00223,2026-08-15T01:01:28Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,69991,benign,routine network
+NET-00257,2026-08-15T01:04:20Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,powershell.exe,445,allowed,66791,benign,routine network
+NET-00824,2026-08-15T01:05:57Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,64476,benign,routine network
+NET-00330,2026-08-15T01:11:16Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,11397,benign,routine network
+NET-00060,2026-08-15T01:24:41Z,FILE-02,APP-API-02,ACME\mrivera,w3wp.exe,445,allowed,67418,benign,routine network
+NET-00926,2026-08-15T01:41:59Z,JUMP-01,FILE-02,ACME\svc_deploy,w3wp.exe,443,allowed,79352,benign,routine network
+NET-00409,2026-08-15T01:46:35Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,powershell.exe,443,allowed,29132,benign,routine network
+NET-01111,2026-08-15T01:48:53Z,FILE-02,JUMP-01,ACME\jsmith,powershell.exe,445,allowed,68105,benign,routine network
+NET-01209,2026-08-15T01:59:16Z,FIN-WS-14,FILE-02,ACME\svc_backup,w3wp.exe,445,allowed,31029,benign,routine network
+NET-00125,2026-08-15T02:10:15Z,APP-API-02,FILE-02,ACME\mrivera,powershell.exe,445,allowed,56637,benign,routine network
+NET-00639,2026-08-15T02:19:58Z,APP-API-02,APP-API-02,ACME\svc_deploy,w3wp.exe,445,allowed,7288,benign,routine network
+NET-01267,2026-08-15T02:21:31Z,APP-API-02,APP-API-03,ACME\svc_backup,w3wp.exe,443,allowed,25000,benign,routine network
+NET-00851,2026-08-15T02:32:22Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,powershell.exe,443,allowed,54768,benign,routine network
+NET-00996,2026-08-15T02:33:17Z,DEPLOY-01,FILE-02,ACME\svc_backup,powershell.exe,445,allowed,33871,benign,routine network
+NET-00375,2026-08-15T02:36:37Z,FILE-02,FIN-WS-14,ACME\svc_backup,powershell.exe,443,allowed,84447,benign,routine network
+NET-01231,2026-08-15T02:42:27Z,FILE-02,FILE-02,ACME\jsmith,backup-agent.exe,5985,allowed,54939,benign,routine network
+NET-01193,2026-08-15T02:42:35Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,53304,benign,routine network
+NET-01144,2026-08-15T02:50:04Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,w3wp.exe,445,allowed,41766,benign,routine network
+NET-01449,2026-08-15T02:50:29Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,powershell.exe,5985,allowed,84080,benign,routine network
+NET-00563,2026-08-15T02:53:26Z,JUMP-01,FILE-02,ACME\jsmith,backup-agent.exe,5985,allowed,27616,benign,routine network
+NET-01368,2026-08-15T02:55:18Z,FIN-WS-14,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,88846,benign,routine network
+NET-01027,2026-08-15T02:56:54Z,APP-API-02,APP-API-03,ACME\svc_deploy,w3wp.exe,443,allowed,14186,benign,routine network
+NET-00413,2026-08-15T02:59:15Z,FIN-WS-14,JUMP-01,ACME\svc_backup,powershell.exe,443,allowed,68122,benign,routine network
+NET-01452,2026-08-15T02:59:34Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,backup-agent.exe,443,allowed,3828,benign,routine network
+NET-00740,2026-08-15T03:05:43Z,FILE-02,FIN-WS-14,ACME\svc_deploy,powershell.exe,5985,allowed,85563,benign,routine network
+NET-01033,2026-08-15T03:07:45Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,66558,benign,routine network
+NET-00117,2026-08-15T03:08:55Z,JUMP-01,APP-API-03,ACME\mrivera,backup-agent.exe,445,allowed,49640,benign,routine network
+NET-01285,2026-08-15T03:12:01Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,445,allowed,1620,benign,routine network
+NET-00959,2026-08-15T03:19:32Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,33265,benign,routine network
+NET-00134,2026-08-15T03:20:16Z,FILE-02,FILE-02,ACME\svc_backup,powershell.exe,445,allowed,67087,benign,routine network
+NET-00066,2026-08-15T03:31:08Z,APP-API-02,APP-API-02,ACME\mrivera,w3wp.exe,445,allowed,63494,benign,routine network
+NET-00976,2026-08-15T03:33:11Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,42957,benign,routine network
+NET-00672,2026-08-15T03:35:01Z,JUMP-01,APP-API-03,ACME\mrivera,powershell.exe,5985,allowed,23042,benign,routine network
+NET-00793,2026-08-15T03:45:37Z,FIN-WS-14,FILE-02,ACME\svc_backup,backup-agent.exe,5985,allowed,53622,benign,routine network
+NET-00381,2026-08-15T03:46:50Z,DEPLOY-01,FILE-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,8704,benign,routine network
+NET-00510,2026-08-15T03:50:34Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,50927,benign,routine network
+NET-00120,2026-08-15T03:58:34Z,FILE-02,JUMP-01,ACME\mrivera,powershell.exe,445,allowed,6001,benign,routine network
+NET-00819,2026-08-15T03:59:43Z,FILE-02,APP-API-02,ACME\mrivera,powershell.exe,445,allowed,83421,benign,routine network
+NET-01410,2026-08-15T04:03:34Z,FILE-02,JUMP-01,ACME\svc_deploy,w3wp.exe,443,allowed,17400,benign,routine network
+NET-00303,2026-08-15T04:14:17Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,powershell.exe,445,allowed,6483,benign,routine network
+NET-00776,2026-08-15T04:19:21Z,DEPLOY-01,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,88050,benign,routine network
+NET-01296,2026-08-15T04:23:06Z,JUMP-01,FIN-WS-14,ACME\mrivera,powershell.exe,445,allowed,85025,benign,routine network
+NET-00881,2026-08-15T04:24:52Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,39659,benign,routine network
+NET-00111,2026-08-15T04:26:00Z,FILE-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,443,allowed,49434,benign,routine network
+NET-00934,2026-08-15T04:26:03Z,JUMP-01,DEPLOY-01,ACME\mrivera,powershell.exe,445,allowed,57776,benign,routine network
+NET-01261,2026-08-15T04:27:33Z,JUMP-01,APP-API-03,ACME\svc_backup,w3wp.exe,5985,allowed,58321,benign,routine network
+NET-01342,2026-08-15T04:34:43Z,APP-API-03,APP-API-02,ACME\svc_deploy,w3wp.exe,443,allowed,29666,benign,routine network
+NET-00842,2026-08-15T04:35:57Z,APP-API-03,FILE-02,ACME\jsmith,w3wp.exe,445,allowed,5684,benign,routine network
+NET-01365,2026-08-15T04:46:23Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,w3wp.exe,443,allowed,71185,benign,routine network
+NET-00037,2026-08-15T04:47:20Z,APP-API-02,APP-API-03,ACME\jsmith,backup-agent.exe,5985,allowed,19169,benign,routine network
+NET-00294,2026-08-15T04:57:16Z,JUMP-01,FILE-02,ACME\svc_backup,backup-agent.exe,445,allowed,78465,benign,routine network
+NET-00224,2026-08-15T05:08:32Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,powershell.exe,443,allowed,77666,benign,routine network
+NET-00647,2026-08-15T05:15:05Z,JUMP-01,JUMP-01,ACME\svc_deploy,backup-agent.exe,5985,allowed,35964,benign,routine network
+NET-00103,2026-08-15T05:15:27Z,APP-API-03,FIN-WS-14,ACME\jsmith,w3wp.exe,445,allowed,12171,benign,routine network
+NET-00064,2026-08-15T05:15:42Z,FILE-02,DEPLOY-01,ACME\svc_backup,powershell.exe,5985,allowed,57661,benign,routine network
+NET-01277,2026-08-15T05:33:58Z,APP-API-03,APP-API-02,ACME\svc_backup,w3wp.exe,5985,allowed,64049,benign,routine network
+NET-00663,2026-08-15T05:45:37Z,APP-API-02,FILE-02,ACME\svc_backup,w3wp.exe,5985,allowed,68339,benign,routine network
+NET-00762,2026-08-15T06:19:07Z,JUMP-01,APP-API-02,ACME\svc_backup,backup-agent.exe,443,allowed,57156,benign,routine network
+NET-00588,2026-08-15T06:24:44Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,w3wp.exe,445,allowed,6675,benign,routine network
+NET-01197,2026-08-15T06:36:03Z,FIN-WS-14,APP-API-03,ACME\jsmith,w3wp.exe,443,allowed,46905,benign,routine network
+NET-00764,2026-08-15T06:40:47Z,DEPLOY-01,JUMP-01,ACME\mrivera,powershell.exe,5985,allowed,35771,benign,routine network
+NET-00713,2026-08-15T07:00:28Z,JUMP-01,APP-API-02,ACME\mrivera,backup-agent.exe,445,allowed,10037,benign,routine network
+NET-01250,2026-08-15T07:05:19Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,85540,benign,routine network
+NET-01282,2026-08-15T07:24:59Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,w3wp.exe,5985,allowed,17919,benign,routine network
+NET-00311,2026-08-15T07:33:57Z,DEPLOY-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,5985,allowed,29192,benign,routine network
+NET-01355,2026-08-15T07:36:39Z,APP-API-02,APP-API-03,ACME\mrivera,backup-agent.exe,443,allowed,49296,benign,routine network
+NET-00423,2026-08-15T07:40:25Z,JUMP-01,JUMP-01,ACME\mrivera,powershell.exe,445,allowed,22318,benign,routine network
+NET-00168,2026-08-15T07:45:35Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,powershell.exe,443,allowed,75188,benign,routine network
+NET-00258,2026-08-15T07:46:03Z,FIN-WS-14,JUMP-01,ACME\jsmith,powershell.exe,443,allowed,48765,benign,routine network
+NET-01216,2026-08-15T07:48:12Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,powershell.exe,5985,allowed,34461,benign,routine network
+NET-01351,2026-08-15T07:52:04Z,APP-API-03,FIN-WS-14,ACME\svc_backup,powershell.exe,443,allowed,27793,benign,routine network
+NET-01432,2026-08-15T07:53:59Z,FIN-WS-14,JUMP-01,ACME\jsmith,powershell.exe,445,allowed,65407,benign,routine network
+NET-00444,2026-08-15T08:01:26Z,APP-API-02,JUMP-01,ACME\svc_deploy,w3wp.exe,445,allowed,34434,benign,routine network
+NET-01278,2026-08-15T08:12:35Z,DEPLOY-01,FILE-02,ACME\mrivera,backup-agent.exe,5985,allowed,71000,benign,routine network
+NET-00551,2026-08-15T08:43:12Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,46571,benign,routine network
+NET-00907,2026-08-15T08:47:19Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,443,allowed,20220,benign,routine network
+NET-01406,2026-08-15T09:24:52Z,APP-API-03,DEPLOY-01,ACME\svc_backup,backup-agent.exe,5985,allowed,60827,benign,routine network
+NET-00802,2026-08-15T09:38:45Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,43889,benign,routine network
+NET-00425,2026-08-15T09:40:10Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,30101,benign,routine network
+NET-00128,2026-08-15T09:41:03Z,APP-API-03,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,55279,benign,routine network
+NET-01105,2026-08-15T09:42:39Z,JUMP-01,APP-API-02,ACME\jsmith,w3wp.exe,445,allowed,82851,benign,routine network
+NET-01248,2026-08-15T09:51:46Z,APP-API-02,APP-API-02,ACME\svc_backup,backup-agent.exe,5985,allowed,81817,benign,routine network
+NET-01129,2026-08-15T09:54:30Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,34230,benign,routine network
+NET-00565,2026-08-15T09:56:36Z,FIN-WS-14,FILE-02,ACME\mrivera,backup-agent.exe,445,allowed,622,benign,routine network
+NET-01283,2026-08-15T09:56:38Z,APP-API-02,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,4070,benign,routine network
+NET-00141,2026-08-15T09:57:56Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,80182,benign,routine network
+NET-01332,2026-08-15T10:07:36Z,APP-API-03,FIN-WS-14,ACME\svc_backup,w3wp.exe,443,allowed,47053,benign,routine network
+NET-00460,2026-08-15T10:20:19Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,35354,benign,routine network
+NET-00666,2026-08-15T10:22:02Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,1169,benign,routine network
+NET-01476,2026-08-15T10:23:00Z,FIN-WS-14,FIN-WS-14,ACME\jsmith,powershell.exe,443,allowed,58490,benign,routine network
+NET-00225,2026-08-15T10:45:41Z,DEPLOY-01,JUMP-01,ACME\svc_backup,powershell.exe,445,allowed,33150,benign,routine network
+NET-00660,2026-08-15T10:48:18Z,APP-API-02,APP-API-02,ACME\svc_backup,backup-agent.exe,443,allowed,15823,benign,routine network
+NET-01007,2026-08-15T10:49:34Z,APP-API-03,APP-API-02,ACME\svc_backup,backup-agent.exe,443,allowed,33010,benign,routine network
+NET-00792,2026-08-15T10:56:02Z,JUMP-01,APP-API-02,ACME\svc_deploy,w3wp.exe,5985,allowed,70876,benign,routine network
+NET-00746,2026-08-15T11:14:33Z,APP-API-03,APP-API-02,ACME\svc_deploy,powershell.exe,5985,allowed,44732,benign,routine network
+NET-00214,2026-08-15T11:15:20Z,APP-API-02,DEPLOY-01,ACME\svc_backup,backup-agent.exe,443,allowed,48581,benign,routine network
+NET-01461,2026-08-15T11:16:45Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,51436,benign,routine network
+NET-00532,2026-08-15T11:26:42Z,FILE-02,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,5985,allowed,74713,benign,routine network
+NET-00477,2026-08-15T11:38:13Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,backup-agent.exe,5985,allowed,25659,benign,routine network
+NET-00888,2026-08-15T11:50:54Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,44123,benign,routine network
+NET-00266,2026-08-15T12:02:01Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,43524,benign,routine network
+NET-00324,2026-08-15T12:04:34Z,JUMP-01,JUMP-01,ACME\svc_deploy,powershell.exe,5985,allowed,19378,benign,routine network
+NET-00151,2026-08-15T12:06:27Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,30906,benign,routine network
+NET-01136,2026-08-15T12:09:57Z,DEPLOY-01,APP-API-03,ACME\jsmith,powershell.exe,443,allowed,28915,benign,routine network
+NET-00032,2026-08-15T12:21:20Z,JUMP-01,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,9772,benign,routine network
+NET-00443,2026-08-15T12:25:20Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,6028,benign,routine network
+NET-00329,2026-08-15T12:31:45Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,51109,benign,routine network
+NET-00973,2026-08-15T12:45:49Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,backup-agent.exe,445,allowed,29389,benign,routine network
+NET-01167,2026-08-15T12:59:22Z,FIN-WS-14,APP-API-03,ACME\jsmith,backup-agent.exe,445,allowed,25163,benign,routine network
+NET-01189,2026-08-15T13:08:31Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,2136,benign,routine network
+NET-00601,2026-08-15T13:19:17Z,FILE-02,DEPLOY-01,ACME\svc_backup,w3wp.exe,443,allowed,88811,benign,routine network
+NET-00535,2026-08-15T13:37:56Z,APP-API-02,JUMP-01,ACME\jsmith,backup-agent.exe,443,allowed,71583,benign,routine network
+NET-01405,2026-08-15T13:38:55Z,APP-API-02,APP-API-03,ACME\mrivera,powershell.exe,445,allowed,84835,benign,routine network
+NET-00314,2026-08-15T13:39:50Z,FILE-02,JUMP-01,ACME\mrivera,backup-agent.exe,445,allowed,6974,benign,routine network
+NET-00380,2026-08-15T13:51:05Z,FIN-WS-14,JUMP-01,ACME\mrivera,w3wp.exe,5985,allowed,42454,benign,routine network
+NET-00132,2026-08-15T14:04:06Z,FIN-WS-14,APP-API-02,ACME\svc_backup,w3wp.exe,5985,allowed,48110,benign,routine network
+NET-01388,2026-08-15T14:16:29Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,841,benign,routine network
+NET-00073,2026-08-15T14:31:43Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,24725,benign,routine network
+NET-00360,2026-08-15T14:40:54Z,APP-API-03,FILE-02,ACME\jsmith,w3wp.exe,443,allowed,30796,benign,routine network
+NET-00546,2026-08-15T14:41:53Z,FILE-02,FILE-02,ACME\svc_backup,powershell.exe,443,allowed,59024,benign,routine network
+NET-00023,2026-08-15T14:42:22Z,FILE-02,FIN-WS-14,ACME\mrivera,w3wp.exe,445,allowed,31603,benign,routine network
+NET-00461,2026-08-15T14:44:51Z,FIN-WS-14,DEPLOY-01,ACME\svc_backup,w3wp.exe,443,allowed,63877,benign,routine network
+NET-01069,2026-08-15T14:51:34Z,JUMP-01,FIN-WS-14,ACME\jsmith,w3wp.exe,5985,allowed,1601,benign,routine network
+NET-00502,2026-08-15T14:53:27Z,APP-API-03,FILE-02,ACME\jsmith,w3wp.exe,5985,allowed,70918,benign,routine network
+NET-00969,2026-08-15T15:02:43Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,10654,benign,routine network
+NET-00768,2026-08-15T15:07:09Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,3039,benign,routine network
+NET-00154,2026-08-15T15:13:44Z,APP-API-02,DEPLOY-01,ACME\mrivera,powershell.exe,445,allowed,38756,benign,routine network
+NET-00097,2026-08-15T15:34:04Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,53541,benign,routine network
+NET-00457,2026-08-15T15:36:05Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,5953,benign,routine network
+NET-00745,2026-08-15T15:40:44Z,JUMP-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,445,allowed,59574,benign,routine network
+NET-00471,2026-08-15T15:49:00Z,JUMP-01,APP-API-02,ACME\jsmith,backup-agent.exe,443,allowed,18194,benign,routine network
+NET-00458,2026-08-15T15:55:42Z,FIN-WS-14,APP-API-02,ACME\mrivera,backup-agent.exe,5985,allowed,45733,benign,routine network
+NET-01367,2026-08-15T15:57:05Z,JUMP-01,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,27704,benign,routine network
+NET-01017,2026-08-15T16:08:47Z,FILE-02,APP-API-03,ACME\mrivera,backup-agent.exe,445,allowed,6665,benign,routine network
+NET-01274,2026-08-15T16:09:40Z,APP-API-02,DEPLOY-01,ACME\mrivera,backup-agent.exe,445,allowed,76474,benign,routine network
+NET-00659,2026-08-15T16:26:52Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,powershell.exe,445,allowed,29716,benign,routine network
+NET-01319,2026-08-15T16:29:02Z,JUMP-01,FILE-02,ACME\mrivera,powershell.exe,445,allowed,15023,benign,routine network
+NET-00439,2026-08-15T16:32:38Z,APP-API-02,DEPLOY-01,ACME\mrivera,w3wp.exe,445,allowed,77535,benign,routine network
+NET-00587,2026-08-15T16:32:45Z,DEPLOY-01,APP-API-02,ACME\svc_backup,powershell.exe,443,allowed,61157,benign,routine network
+NET-01404,2026-08-15T16:34:26Z,FILE-02,FILE-02,ACME\mrivera,powershell.exe,5985,allowed,28060,benign,routine network
+NET-00896,2026-08-15T16:50:22Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,54071,benign,routine network
+NET-00353,2026-08-15T16:51:57Z,APP-API-02,FILE-02,ACME\svc_deploy,powershell.exe,443,allowed,58982,benign,routine network
+NET-01227,2026-08-15T16:54:00Z,APP-API-03,JUMP-01,ACME\mrivera,w3wp.exe,5985,allowed,25559,benign,routine network
+NET-00448,2026-08-15T16:57:02Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,powershell.exe,5985,allowed,65705,benign,routine network
+NET-00421,2026-08-15T17:14:02Z,FILE-02,DEPLOY-01,ACME\mrivera,w3wp.exe,445,allowed,28192,benign,routine network
+NET-01366,2026-08-15T17:19:56Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,6697,benign,routine network
+NET-00356,2026-08-15T17:23:15Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,445,allowed,29327,benign,routine network
+NET-00321,2026-08-15T17:30:39Z,JUMP-01,DEPLOY-01,ACME\jsmith,w3wp.exe,443,allowed,11077,benign,routine network
+NET-00638,2026-08-15T17:50:06Z,FILE-02,JUMP-01,ACME\svc_backup,backup-agent.exe,443,allowed,55166,benign,routine network
+NET-00522,2026-08-15T17:57:54Z,APP-API-03,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,31859,benign,routine network
+NET-00885,2026-08-15T17:59:30Z,FILE-02,FIN-WS-14,ACME\svc_backup,powershell.exe,5985,allowed,2065,benign,routine network
+NET-00751,2026-08-15T18:00:58Z,APP-API-03,JUMP-01,ACME\jsmith,backup-agent.exe,445,allowed,60879,benign,routine network
+NET-00179,2026-08-15T18:01:38Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,1422,benign,routine network
+NET-01062,2026-08-15T18:02:36Z,FIN-WS-14,JUMP-01,ACME\mrivera,w3wp.exe,5985,allowed,75261,benign,routine network
+NET-00102,2026-08-15T18:05:27Z,DEPLOY-01,APP-API-03,ACME\jsmith,backup-agent.exe,5985,allowed,32413,benign,routine network
+NET-01222,2026-08-15T18:05:31Z,APP-API-02,APP-API-03,ACME\mrivera,backup-agent.exe,443,allowed,44045,benign,routine network
+NET-00592,2026-08-15T18:09:30Z,APP-API-03,JUMP-01,ACME\svc_backup,backup-agent.exe,445,allowed,67618,benign,routine network
+NET-00048,2026-08-15T18:19:14Z,JUMP-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,443,allowed,51833,benign,routine network
+NET-00915,2026-08-15T18:19:39Z,FILE-02,JUMP-01,ACME\mrivera,w3wp.exe,445,allowed,71703,benign,routine network
+NET-00054,2026-08-15T18:21:15Z,APP-API-02,FIN-WS-14,ACME\mrivera,powershell.exe,445,allowed,43075,benign,routine network
+NET-00419,2026-08-15T18:27:18Z,JUMP-01,JUMP-01,ACME\svc_deploy,backup-agent.exe,443,allowed,4555,benign,routine network
+NET-00701,2026-08-15T18:31:47Z,FIN-WS-14,JUMP-01,ACME\svc_backup,powershell.exe,443,allowed,10464,benign,routine network
+NET-01318,2026-08-15T18:39:50Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,powershell.exe,445,allowed,65544,benign,routine network
+NET-00636,2026-08-15T18:42:00Z,FILE-02,JUMP-01,ACME\svc_deploy,backup-agent.exe,443,allowed,55579,benign,routine network
+NET-00166,2026-08-15T18:42:16Z,JUMP-01,DEPLOY-01,ACME\jsmith,w3wp.exe,443,allowed,19101,benign,routine network
+NET-01162,2026-08-15T18:45:09Z,JUMP-01,JUMP-01,ACME\svc_backup,powershell.exe,5985,allowed,11435,benign,routine network
+NET-01085,2026-08-15T18:46:53Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,445,allowed,87927,benign,routine network
+NET-01443,2026-08-15T18:47:02Z,DEPLOY-01,FIN-WS-14,ACME\jsmith,w3wp.exe,445,allowed,62523,benign,routine network
+NET-00142,2026-08-15T18:54:43Z,FILE-02,FILE-02,ACME\jsmith,backup-agent.exe,5985,allowed,74107,benign,routine network
+NET-00736,2026-08-15T19:06:19Z,DEPLOY-01,FILE-02,ACME\svc_deploy,powershell.exe,443,allowed,32638,benign,routine network
+NET-00619,2026-08-15T19:10:38Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,443,allowed,89154,benign,routine network
+NET-01435,2026-08-15T19:18:38Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,powershell.exe,5985,allowed,76095,benign,routine network
+NET-00936,2026-08-15T19:22:49Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,21865,benign,routine network
+NET-01169,2026-08-15T19:23:53Z,JUMP-01,DEPLOY-01,ACME\svc_backup,backup-agent.exe,445,allowed,37968,benign,routine network
+NET-01026,2026-08-15T19:30:47Z,FIN-WS-14,JUMP-01,ACME\svc_backup,powershell.exe,445,allowed,6936,benign,routine network
+NET-00452,2026-08-15T19:51:08Z,DEPLOY-01,JUMP-01,ACME\mrivera,w3wp.exe,445,allowed,17758,benign,routine network
+NET-00918,2026-08-15T19:57:45Z,FIN-WS-14,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,36376,benign,routine network
+NET-00729,2026-08-15T20:00:42Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,powershell.exe,445,allowed,75992,benign,routine network
+NET-00028,2026-08-15T20:06:08Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,47953,benign,routine network
+NET-00695,2026-08-15T20:07:20Z,JUMP-01,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,75910,benign,routine network
+NET-00456,2026-08-15T20:09:15Z,DEPLOY-01,JUMP-01,ACME\mrivera,powershell.exe,5985,allowed,29787,benign,routine network
+NET-00015,2026-08-15T20:12:38Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,w3wp.exe,445,allowed,58013,benign,routine network
+NET-00828,2026-08-15T20:13:36Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,36585,benign,routine network
+NET-00534,2026-08-15T20:16:04Z,FILE-02,APP-API-03,ACME\jsmith,powershell.exe,445,allowed,58524,benign,routine network
+NET-00870,2026-08-15T20:20:51Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,3728,benign,routine network
+NET-00825,2026-08-15T20:24:32Z,FILE-02,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,5985,allowed,8527,benign,routine network
+NET-00884,2026-08-15T20:29:42Z,APP-API-03,APP-API-03,ACME\mrivera,backup-agent.exe,5985,allowed,87574,benign,routine network
+NET-01468,2026-08-15T20:32:59Z,DEPLOY-01,DEPLOY-01,ACME\svc_backup,powershell.exe,5985,allowed,16831,benign,routine network
+NET-01408,2026-08-15T20:42:35Z,JUMP-01,JUMP-01,ACME\svc_deploy,w3wp.exe,5985,allowed,31755,benign,routine network
+NET-00247,2026-08-15T20:53:40Z,JUMP-01,APP-API-02,ACME\svc_deploy,w3wp.exe,443,allowed,72049,benign,routine network
+NET-00656,2026-08-15T20:57:37Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,20429,benign,routine network
+NET-00962,2026-08-15T21:05:23Z,JUMP-01,FIN-WS-14,ACME\mrivera,w3wp.exe,445,allowed,75498,benign,routine network
+NET-00485,2026-08-15T21:11:38Z,APP-API-03,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,69424,benign,routine network
+NET-00943,2026-08-15T21:31:33Z,FIN-WS-14,APP-API-02,ACME\mrivera,backup-agent.exe,5985,allowed,74701,benign,routine network
+NET-01048,2026-08-15T21:37:44Z,FILE-02,FIN-WS-14,ACME\mrivera,w3wp.exe,443,allowed,82064,benign,routine network
+NET-00430,2026-08-15T21:53:32Z,APP-API-02,FILE-02,ACME\jsmith,backup-agent.exe,445,allowed,44328,benign,routine network
+NET-00242,2026-08-15T22:02:35Z,APP-API-02,DEPLOY-01,ACME\jsmith,w3wp.exe,443,allowed,77379,benign,routine network
+NET-00081,2026-08-15T22:04:46Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,4435,benign,routine network
+NET-00131,2026-08-15T22:05:59Z,APP-API-02,APP-API-02,ACME\svc_backup,powershell.exe,5985,allowed,13680,benign,routine network
+NET-00170,2026-08-15T22:07:45Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,backup-agent.exe,5985,allowed,56596,benign,routine network
+NET-00901,2026-08-15T22:19:31Z,APP-API-03,APP-API-02,ACME\svc_deploy,powershell.exe,443,allowed,12284,benign,routine network
+NET-01084,2026-08-15T22:26:15Z,APP-API-03,FILE-02,ACME\jsmith,w3wp.exe,5985,allowed,85949,benign,routine network
+NET-01051,2026-08-15T22:26:22Z,FIN-WS-14,APP-API-03,ACME\mrivera,powershell.exe,445,allowed,16368,benign,routine network
+NET-01262,2026-08-15T22:27:20Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,33917,benign,routine network
+NET-00945,2026-08-15T22:38:12Z,APP-API-03,JUMP-01,ACME\svc_backup,powershell.exe,5985,allowed,77722,benign,routine network
+NET-00517,2026-08-15T22:38:35Z,FIN-WS-14,APP-API-02,ACME\mrivera,w3wp.exe,443,allowed,50803,benign,routine network
+NET-00429,2026-08-15T22:40:51Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,66096,benign,routine network
+NET-01194,2026-08-15T22:43:24Z,DEPLOY-01,FILE-02,ACME\svc_deploy,powershell.exe,443,allowed,58351,benign,routine network
+NET-00957,2026-08-15T22:43:39Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,w3wp.exe,443,allowed,72679,benign,routine network
+NET-00366,2026-08-15T22:44:40Z,APP-API-02,FIN-WS-14,ACME\svc_backup,backup-agent.exe,443,allowed,62815,benign,routine network
+NET-00813,2026-08-15T22:45:51Z,JUMP-01,FILE-02,ACME\jsmith,w3wp.exe,445,allowed,82849,benign,routine network
+NET-00927,2026-08-15T22:58:34Z,JUMP-01,APP-API-02,ACME\jsmith,powershell.exe,443,allowed,34247,benign,routine network
+NET-00442,2026-08-15T23:02:26Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,powershell.exe,5985,allowed,52740,benign,routine network
+NET-00229,2026-08-15T23:06:21Z,DEPLOY-01,APP-API-02,ACME\jsmith,w3wp.exe,445,allowed,82859,benign,routine network
+NET-00334,2026-08-15T23:13:56Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,84111,benign,routine network
+NET-00144,2026-08-15T23:14:04Z,DEPLOY-01,FILE-02,ACME\jsmith,powershell.exe,5985,allowed,39269,benign,routine network
+NET-01213,2026-08-15T23:14:54Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,24219,benign,routine network
+NET-00211,2026-08-15T23:24:50Z,DEPLOY-01,APP-API-03,ACME\mrivera,powershell.exe,445,allowed,77774,benign,routine network
+NET-01042,2026-08-15T23:30:41Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,62629,benign,routine network
+NET-00385,2026-08-15T23:53:42Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,65463,benign,routine network
+NET-00537,2026-08-16T00:01:37Z,FIN-WS-14,APP-API-03,ACME\mrivera,w3wp.exe,5985,allowed,6190,benign,routine network
+NET-00919,2026-08-16T00:23:40Z,FIN-WS-14,APP-API-02,ACME\mrivera,w3wp.exe,445,allowed,61134,benign,routine network
+NET-01076,2026-08-16T00:28:06Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,powershell.exe,5985,allowed,38986,benign,routine network
+NET-00197,2026-08-16T00:33:19Z,APP-API-02,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,49825,benign,routine network
+NET-01314,2026-08-16T00:35:45Z,JUMP-01,JUMP-01,ACME\jsmith,powershell.exe,5985,allowed,6024,benign,routine network
+NET-00930,2026-08-16T00:36:05Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,w3wp.exe,445,allowed,26787,benign,routine network
+NET-00555,2026-08-16T00:37:38Z,JUMP-01,FILE-02,ACME\svc_backup,backup-agent.exe,443,allowed,4759,benign,routine network
+NET-00511,2026-08-16T00:40:14Z,FILE-02,APP-API-02,ACME\svc_deploy,w3wp.exe,445,allowed,48294,benign,routine network
+NET-00325,2026-08-16T00:43:33Z,DEPLOY-01,FILE-02,ACME\jsmith,powershell.exe,5985,allowed,62607,benign,routine network
+NET-00570,2026-08-16T00:44:55Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,powershell.exe,443,allowed,55114,benign,routine network
+NET-00055,2026-08-16T00:58:17Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,w3wp.exe,445,allowed,13190,benign,routine network
+NET-00238,2026-08-16T01:24:45Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,54794,benign,routine network
+NET-00908,2026-08-16T01:32:19Z,JUMP-01,APP-API-02,ACME\jsmith,w3wp.exe,443,allowed,69984,benign,routine network
+NET-01458,2026-08-16T01:45:24Z,APP-API-03,FIN-WS-14,ACME\mrivera,w3wp.exe,443,allowed,32337,benign,routine network
+NET-00781,2026-08-16T01:47:49Z,DEPLOY-01,APP-API-03,ACME\jsmith,w3wp.exe,443,allowed,68148,benign,routine network
+NET-00621,2026-08-16T01:51:15Z,DEPLOY-01,FILE-02,ACME\jsmith,w3wp.exe,5985,allowed,21381,benign,routine network
+NET-01465,2026-08-16T02:07:06Z,APP-API-02,FIN-WS-14,ACME\svc_backup,powershell.exe,445,allowed,73742,benign,routine network
+NET-00520,2026-08-16T02:28:34Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,backup-agent.exe,443,allowed,53657,benign,routine network
+NET-00806,2026-08-16T02:29:40Z,JUMP-01,FIN-WS-14,ACME\jsmith,w3wp.exe,443,allowed,28923,benign,routine network
+NET-01350,2026-08-16T02:33:14Z,APP-API-02,JUMP-01,ACME\svc_deploy,w3wp.exe,445,allowed,52949,benign,routine network
+NET-00446,2026-08-16T02:34:31Z,DEPLOY-01,APP-API-02,ACME\mrivera,powershell.exe,443,allowed,38245,benign,routine network
+NET-00956,2026-08-16T02:35:08Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,11326,benign,routine network
+NET-00475,2026-08-16T02:35:30Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,19050,benign,routine network
+NET-00547,2026-08-16T02:35:30Z,FILE-02,APP-API-02,ACME\jsmith,powershell.exe,443,allowed,29893,benign,routine network
+NET-00940,2026-08-16T02:51:34Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,75364,benign,routine network
+NET-01254,2026-08-16T02:51:40Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,26779,benign,routine network
+NET-00406,2026-08-16T02:51:42Z,DEPLOY-01,FILE-02,ACME\svc_backup,powershell.exe,445,allowed,41266,benign,routine network
+NET-00650,2026-08-16T02:58:42Z,DEPLOY-01,DEPLOY-01,ACME\svc_backup,w3wp.exe,443,allowed,15691,benign,routine network
+NET-00765,2026-08-16T03:06:17Z,FIN-WS-14,FILE-02,ACME\mrivera,w3wp.exe,445,allowed,68085,benign,routine network
+NET-00635,2026-08-16T03:07:57Z,APP-API-03,JUMP-01,ACME\svc_deploy,powershell.exe,445,allowed,34800,benign,routine network
+NET-01134,2026-08-16T03:09:48Z,APP-API-02,APP-API-02,ACME\jsmith,w3wp.exe,5985,allowed,54342,benign,routine network
+NET-01009,2026-08-16T03:17:15Z,DEPLOY-01,JUMP-01,ACME\svc_backup,powershell.exe,445,allowed,24710,benign,routine network
+NET-00633,2026-08-16T03:18:19Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,53443,benign,routine network
+NET-00067,2026-08-16T03:20:05Z,FIN-WS-14,APP-API-03,ACME\svc_backup,backup-agent.exe,443,allowed,60149,benign,routine network
+NET-00184,2026-08-16T03:22:49Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,32362,benign,routine network
+NET-00112,2026-08-16T03:24:37Z,JUMP-01,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,18705,benign,routine network
+NET-00883,2026-08-16T03:24:38Z,APP-API-03,FILE-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,70770,benign,routine network
+NET-01139,2026-08-16T03:25:45Z,FILE-02,DEPLOY-01,ACME\svc_backup,powershell.exe,443,allowed,61045,benign,routine network
+NET-00974,2026-08-16T03:28:31Z,FILE-02,DEPLOY-01,ACME\jsmith,backup-agent.exe,5985,allowed,22120,benign,routine network
+NET-01071,2026-08-16T03:29:36Z,APP-API-03,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,46859,benign,routine network
+NET-00087,2026-08-16T03:31:02Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,33533,benign,routine network
+NET-01008,2026-08-16T03:32:55Z,FILE-02,FILE-02,ACME\mrivera,backup-agent.exe,443,allowed,49208,benign,routine network
+NET-00327,2026-08-16T03:47:10Z,FIN-WS-14,FILE-02,ACME\jsmith,backup-agent.exe,443,allowed,1403,benign,routine network
+NET-00059,2026-08-16T03:59:05Z,DEPLOY-01,JUMP-01,ACME\mrivera,backup-agent.exe,5985,allowed,15155,benign,routine network
+NET-00161,2026-08-16T04:05:40Z,APP-API-03,JUMP-01,ACME\mrivera,backup-agent.exe,445,allowed,18090,benign,routine network
+NET-01259,2026-08-16T04:17:26Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,81875,benign,routine network
+NET-00783,2026-08-16T04:19:28Z,FILE-02,APP-API-03,ACME\jsmith,backup-agent.exe,443,allowed,61652,benign,routine network
+NET-00795,2026-08-16T04:31:10Z,FILE-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,65642,benign,routine network
+NET-00036,2026-08-16T04:41:56Z,FIN-WS-14,JUMP-01,ACME\mrivera,backup-agent.exe,445,allowed,85184,benign,routine network
+NET-01364,2026-08-16T04:45:46Z,JUMP-01,FILE-02,ACME\svc_backup,backup-agent.exe,445,allowed,42825,benign,routine network
+NET-00177,2026-08-16T04:47:24Z,APP-API-02,FILE-02,ACME\svc_deploy,backup-agent.exe,445,allowed,42649,benign,routine network
+NET-00988,2026-08-16T04:53:31Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,63410,benign,routine network
+NET-00047,2026-08-16T04:55:09Z,APP-API-03,APP-API-03,ACME\svc_backup,backup-agent.exe,5985,allowed,2440,benign,routine network
+NET-00844,2026-08-16T04:56:40Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,56599,benign,routine network
+NET-00200,2026-08-16T05:05:05Z,APP-API-03,APP-API-02,ACME\svc_backup,w3wp.exe,443,allowed,1807,benign,routine network
+NET-00515,2026-08-16T05:07:56Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,31133,benign,routine network
+NET-00583,2026-08-16T05:26:40Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,18081,benign,routine network
+NET-00691,2026-08-16T05:30:24Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,1075,benign,routine network
+NET-01125,2026-08-16T05:40:09Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,53057,benign,routine network
+NET-00678,2026-08-16T05:43:30Z,FIN-WS-14,JUMP-01,ACME\jsmith,w3wp.exe,445,allowed,15917,benign,routine network
+NET-00343,2026-08-16T05:56:38Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,52293,benign,routine network
+NET-01316,2026-08-16T05:56:57Z,JUMP-01,FIN-WS-14,ACME\svc_backup,backup-agent.exe,443,allowed,8224,benign,routine network
+NET-00903,2026-08-16T06:00:29Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,72989,benign,routine network
+NET-01497,2026-08-16T06:01:47Z,JUMP-01,FILE-02,ACME\svc_backup,powershell.exe,445,allowed,76160,benign,routine network
+NET-00165,2026-08-16T06:12:48Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,43026,benign,routine network
+NET-01137,2026-08-16T06:14:05Z,FILE-02,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,54482,benign,routine network
+NET-00061,2026-08-16T06:15:06Z,APP-API-03,APP-API-02,ACME\mrivera,backup-agent.exe,5985,allowed,34466,benign,routine network
+NET-01376,2026-08-16T06:32:38Z,FILE-02,APP-API-02,ACME\svc_backup,w3wp.exe,445,allowed,82199,benign,routine network
+NET-01058,2026-08-16T06:41:00Z,JUMP-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,443,allowed,30276,benign,routine network
+NET-01438,2026-08-16T06:41:13Z,APP-API-02,JUMP-01,ACME\svc_deploy,powershell.exe,445,allowed,42648,benign,routine network
+NET-01317,2026-08-16T06:42:23Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,w3wp.exe,5985,allowed,82848,benign,routine network
+NET-01015,2026-08-16T06:42:56Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,86757,benign,routine network
+NET-00557,2026-08-16T06:48:17Z,APP-API-02,APP-API-03,ACME\mrivera,w3wp.exe,445,allowed,63318,benign,routine network
+NET-00525,2026-08-16T06:53:43Z,APP-API-02,FILE-02,ACME\svc_backup,powershell.exe,5985,allowed,54996,benign,routine network
+NET-00250,2026-08-16T06:58:53Z,JUMP-01,APP-API-03,ACME\svc_backup,powershell.exe,445,allowed,74018,benign,routine network
+NET-00712,2026-08-16T07:08:50Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,67368,benign,routine network
+NET-00418,2026-08-16T07:10:19Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,w3wp.exe,445,allowed,6297,benign,routine network
+NET-00499,2026-08-16T07:11:36Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,37897,benign,routine network
+NET-00071,2026-08-16T07:17:29Z,FIN-WS-14,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,74213,benign,routine network
+NET-01397,2026-08-16T07:17:50Z,FILE-02,JUMP-01,ACME\svc_backup,backup-agent.exe,445,allowed,16874,benign,routine network
+NET-00122,2026-08-16T07:19:16Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,54372,benign,routine network
+NET-01407,2026-08-16T07:26:29Z,FIN-WS-14,JUMP-01,ACME\svc_backup,backup-agent.exe,5985,allowed,82039,benign,routine network
+NET-00845,2026-08-16T07:28:50Z,FILE-02,FILE-02,ACME\mrivera,powershell.exe,443,allowed,78709,benign,routine network
+NET-00965,2026-08-16T07:32:24Z,FILE-02,FILE-02,ACME\svc_deploy,w3wp.exe,5985,allowed,62039,benign,routine network
+NET-00643,2026-08-16T07:43:17Z,APP-API-03,FILE-02,ACME\svc_deploy,w3wp.exe,443,allowed,48580,benign,routine network
+NET-01037,2026-08-16T07:57:13Z,APP-API-02,FIN-WS-14,ACME\jsmith,w3wp.exe,443,allowed,22749,benign,routine network
+NET-00994,2026-08-16T07:59:39Z,APP-API-02,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,79470,benign,routine network
+NET-01380,2026-08-16T08:09:23Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,8431,benign,routine network
+NET-00609,2026-08-16T08:16:05Z,JUMP-01,FILE-02,ACME\svc_backup,w3wp.exe,445,allowed,32912,benign,routine network
+NET-00434,2026-08-16T08:22:35Z,APP-API-02,FILE-02,ACME\svc_backup,backup-agent.exe,445,allowed,60530,benign,routine network
+NET-01223,2026-08-16T08:29:56Z,APP-API-02,APP-API-03,ACME\svc_backup,powershell.exe,445,allowed,73114,benign,routine network
+NET-00230,2026-08-16T08:30:39Z,APP-API-02,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,73027,benign,routine network
+NET-01127,2026-08-16T08:32:06Z,JUMP-01,APP-API-03,ACME\svc_deploy,backup-agent.exe,445,allowed,60547,benign,routine network
+NET-00980,2026-08-16T08:32:20Z,FILE-02,FILE-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,48252,benign,routine network
+NET-00947,2026-08-16T08:37:31Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,w3wp.exe,445,allowed,77610,benign,routine network
+NET-00213,2026-08-16T09:01:11Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,31604,benign,routine network
+NET-01486,2026-08-16T09:02:05Z,FIN-WS-14,DEPLOY-01,ACME\jsmith,backup-agent.exe,443,allowed,81095,benign,routine network
+NET-01241,2026-08-16T09:03:49Z,DEPLOY-01,APP-API-02,ACME\jsmith,backup-agent.exe,443,allowed,70028,benign,routine network
+NET-00558,2026-08-16T09:04:43Z,APP-API-02,JUMP-01,ACME\jsmith,w3wp.exe,443,allowed,89452,benign,routine network
+NET-01286,2026-08-16T09:13:34Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,47910,benign,routine network
+NET-00693,2026-08-16T09:14:37Z,FILE-02,APP-API-02,ACME\jsmith,backup-agent.exe,445,allowed,9394,benign,routine network
+NET-00872,2026-08-16T09:26:22Z,FILE-02,FIN-WS-14,ACME\jsmith,w3wp.exe,445,allowed,77837,benign,routine network
+NET-01488,2026-08-16T09:26:36Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,88011,benign,routine network
+NET-00838,2026-08-16T09:27:03Z,FIN-WS-14,JUMP-01,ACME\jsmith,w3wp.exe,445,allowed,65243,benign,routine network
+NET-00910,2026-08-16T09:36:28Z,APP-API-02,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,22619,benign,routine network
+NET-00208,2026-08-16T09:39:51Z,JUMP-01,APP-API-02,ACME\mrivera,w3wp.exe,443,allowed,8207,benign,routine network
+NET-01132,2026-08-16T09:48:53Z,DEPLOY-01,APP-API-02,ACME\jsmith,backup-agent.exe,443,allowed,88823,benign,routine network
+NET-01339,2026-08-16T09:52:11Z,JUMP-01,FIN-WS-14,ACME\svc_deploy,w3wp.exe,445,allowed,69340,benign,routine network
+NET-00350,2026-08-16T09:58:02Z,APP-API-02,FILE-02,ACME\svc_backup,w3wp.exe,5985,allowed,31119,benign,routine network
+NET-00010,2026-08-16T09:59:22Z,FILE-02,FIN-WS-14,ACME\svc_deploy,powershell.exe,5985,allowed,58411,benign,routine network
+NET-01269,2026-08-16T10:11:10Z,APP-API-02,FILE-02,ACME\mrivera,w3wp.exe,5985,allowed,20048,benign,routine network
+NET-00173,2026-08-16T10:11:14Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,45316,benign,routine network
+NET-00670,2026-08-16T10:11:39Z,APP-API-02,APP-API-02,ACME\mrivera,w3wp.exe,5985,allowed,15207,benign,routine network
+NET-00279,2026-08-16T10:28:35Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,powershell.exe,445,allowed,5724,benign,routine network
+NET-01220,2026-08-16T10:28:37Z,APP-API-02,APP-API-02,ACME\svc_backup,powershell.exe,443,allowed,85552,benign,routine network
+NET-00065,2026-08-16T10:40:41Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,20795,benign,routine network
+NET-01059,2026-08-16T10:42:11Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,38100,benign,routine network
+NET-00382,2026-08-16T10:50:19Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,888,benign,routine network
+NET-00227,2026-08-16T11:01:57Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,88717,benign,routine network
+NET-00769,2026-08-16T11:07:53Z,FILE-02,APP-API-02,ACME\svc_deploy,backup-agent.exe,445,allowed,28659,benign,routine network
+NET-00148,2026-08-16T11:08:40Z,APP-API-02,APP-API-02,ACME\svc_backup,powershell.exe,5985,allowed,987,benign,routine network
+NET-00440,2026-08-16T11:16:33Z,FIN-WS-14,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,36783,benign,routine network
+NET-00507,2026-08-16T11:19:59Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,backup-agent.exe,443,allowed,78387,benign,routine network
+NET-00003,2026-08-16T11:28:59Z,APP-API-03,FILE-02,ACME\jsmith,backup-agent.exe,445,allowed,75293,benign,routine network
+NET-01353,2026-08-16T11:31:15Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,42864,benign,routine network
+NET-00717,2026-08-16T11:33:02Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,1243,benign,routine network
+NET-01352,2026-08-16T11:44:50Z,FIN-WS-14,FILE-02,ACME\jsmith,powershell.exe,445,allowed,59552,benign,routine network
+NET-01375,2026-08-16T11:45:14Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,12426,benign,routine network
+NET-00985,2026-08-16T11:54:50Z,APP-API-03,APP-API-03,ACME\svc_deploy,w3wp.exe,443,allowed,60368,benign,routine network
+NET-01345,2026-08-16T11:58:01Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,15106,benign,routine network
+NET-00727,2026-08-16T12:01:34Z,JUMP-01,JUMP-01,ACME\svc_backup,backup-agent.exe,5985,allowed,85051,benign,routine network
+NET-00172,2026-08-16T12:11:01Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,backup-agent.exe,445,allowed,1798,benign,routine network
+NET-00867,2026-08-16T12:14:47Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,217,benign,routine network
+NET-00254,2026-08-16T12:19:59Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,75338,benign,routine network
+NET-01203,2026-08-16T12:26:41Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,80883,benign,routine network
+NET-00080,2026-08-16T12:32:53Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,w3wp.exe,445,allowed,67321,benign,routine network
+NET-01288,2026-08-16T12:42:38Z,JUMP-01,FILE-02,ACME\jsmith,w3wp.exe,443,allowed,82659,benign,routine network
+NET-00932,2026-08-16T12:47:05Z,APP-API-03,JUMP-01,ACME\svc_deploy,w3wp.exe,445,allowed,34272,benign,routine network
+NET-00627,2026-08-16T12:47:46Z,APP-API-02,APP-API-02,ACME\svc_deploy,backup-agent.exe,443,allowed,32562,benign,routine network
+NET-00203,2026-08-16T12:52:49Z,JUMP-01,APP-API-03,ACME\svc_deploy,backup-agent.exe,443,allowed,28013,benign,routine network
+NET-00041,2026-08-16T12:54:47Z,DEPLOY-01,APP-API-03,ACME\jsmith,backup-agent.exe,443,allowed,77885,benign,routine network
+NET-00018,2026-08-16T13:00:12Z,APP-API-02,APP-API-02,ACME\svc_deploy,w3wp.exe,5985,allowed,78630,benign,routine network
+NET-00954,2026-08-16T13:01:55Z,FILE-02,APP-API-02,ACME\svc_deploy,backup-agent.exe,445,allowed,32043,benign,routine network
+NET-00816,2026-08-16T13:05:56Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,68550,benign,routine network
+NET-00716,2026-08-16T13:25:28Z,FILE-02,FILE-02,ACME\jsmith,w3wp.exe,5985,allowed,23205,benign,routine network
+NET-00189,2026-08-16T13:29:03Z,DEPLOY-01,FILE-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,43469,benign,routine network
+NET-00205,2026-08-16T13:32:27Z,APP-API-02,APP-API-03,ACME\jsmith,powershell.exe,445,allowed,13634,benign,routine network
+NET-00212,2026-08-16T14:19:21Z,FILE-02,DEPLOY-01,ACME\svc_deploy,w3wp.exe,443,allowed,26056,benign,routine network
+NET-01411,2026-08-16T14:20:44Z,APP-API-02,APP-API-02,ACME\svc_backup,powershell.exe,445,allowed,24882,benign,routine network
+NET-00084,2026-08-16T14:22:39Z,APP-API-02,FILE-02,ACME\svc_deploy,powershell.exe,445,allowed,80187,benign,routine network
+NET-01063,2026-08-16T14:23:00Z,APP-API-03,DEPLOY-01,ACME\svc_backup,w3wp.exe,5985,allowed,3591,benign,routine network
+NET-00288,2026-08-16T14:23:20Z,DEPLOY-01,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,445,allowed,69268,benign,routine network
+NET-01334,2026-08-16T14:27:44Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,63958,benign,routine network
+NET-00607,2026-08-16T14:45:15Z,FILE-02,FIN-WS-14,ACME\svc_deploy,w3wp.exe,445,allowed,71673,benign,routine network
+NET-00700,2026-08-16T14:48:03Z,FILE-02,APP-API-03,ACME\mrivera,w3wp.exe,5985,allowed,50776,benign,routine network
+NET-00569,2026-08-16T14:52:10Z,FILE-02,FIN-WS-14,ACME\svc_deploy,powershell.exe,5985,allowed,4847,benign,routine network
+NET-00193,2026-08-16T14:52:38Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,53905,benign,routine network
+NET-00159,2026-08-16T15:05:12Z,JUMP-01,FILE-02,ACME\svc_deploy,w3wp.exe,5985,allowed,45411,benign,routine network
+NET-00714,2026-08-16T15:08:27Z,APP-API-03,APP-API-02,ACME\svc_backup,w3wp.exe,445,allowed,11741,benign,routine network
+NET-00005,2026-08-16T15:12:02Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,79663,benign,routine network
+NET-00260,2026-08-16T15:19:39Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,70825,benign,routine network
+NET-00252,2026-08-16T15:25:08Z,DEPLOY-01,APP-API-03,ACME\jsmith,powershell.exe,445,allowed,63933,benign,routine network
+NET-00891,2026-08-16T15:40:21Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,25513,benign,routine network
+NET-00702,2026-08-16T15:52:46Z,FILE-02,FIN-WS-14,ACME\svc_deploy,w3wp.exe,443,allowed,7447,benign,routine network
+NET-00232,2026-08-16T15:59:43Z,FILE-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,86837,benign,routine network
+NET-01266,2026-08-16T16:01:54Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,powershell.exe,5985,allowed,32529,benign,routine network
+NET-00869,2026-08-16T16:03:14Z,APP-API-03,FILE-02,ACME\svc_backup,powershell.exe,445,allowed,28437,benign,routine network
+NET-00187,2026-08-16T16:09:03Z,APP-API-03,JUMP-01,ACME\jsmith,powershell.exe,445,allowed,67502,benign,routine network
+NET-00613,2026-08-16T16:11:01Z,JUMP-01,APP-API-03,ACME\svc_deploy,w3wp.exe,5985,allowed,7055,benign,routine network
+NET-00363,2026-08-16T16:13:01Z,DEPLOY-01,APP-API-02,ACME\jsmith,w3wp.exe,445,allowed,22096,benign,routine network
+NET-01293,2026-08-16T16:15:36Z,APP-API-03,JUMP-01,ACME\jsmith,w3wp.exe,443,allowed,7376,benign,routine network
+NET-01124,2026-08-16T16:17:55Z,FILE-02,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,70332,benign,routine network
+NET-01483,2026-08-16T16:21:26Z,APP-API-03,FILE-02,ACME\svc_deploy,backup-agent.exe,443,allowed,72383,benign,routine network
+NET-00682,2026-08-16T16:28:21Z,APP-API-03,FILE-02,ACME\mrivera,w3wp.exe,445,allowed,31034,benign,routine network
+NET-00527,2026-08-16T16:44:31Z,APP-API-03,APP-API-02,ACME\svc_backup,powershell.exe,443,allowed,63952,benign,routine network
+NET-00661,2026-08-16T16:46:39Z,FILE-02,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,8257,benign,routine network
+NET-01359,2026-08-16T16:49:44Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,443,allowed,47529,benign,routine network
+NET-01056,2026-08-16T17:00:49Z,APP-API-03,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,17927,benign,routine network
+NET-00101,2026-08-16T17:07:21Z,APP-API-02,JUMP-01,ACME\mrivera,backup-agent.exe,443,allowed,84626,benign,routine network
+NET-00754,2026-08-16T17:08:23Z,APP-API-02,APP-API-03,ACME\jsmith,powershell.exe,443,allowed,30572,benign,routine network
+NET-01192,2026-08-16T17:09:23Z,JUMP-01,DEPLOY-01,ACME\svc_backup,w3wp.exe,445,allowed,34817,benign,routine network
+NET-00183,2026-08-16T17:14:19Z,FILE-02,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,81942,benign,routine network
+NET-00391,2026-08-16T17:16:18Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,w3wp.exe,443,allowed,53759,benign,routine network
+NET-00938,2026-08-16T17:21:35Z,DEPLOY-01,FIN-WS-14,ACME\svc_backup,powershell.exe,445,allowed,33932,benign,routine network
+NET-00190,2026-08-16T17:22:13Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,34491,benign,routine network
+NET-00878,2026-08-16T17:33:35Z,DEPLOY-01,APP-API-03,ACME\svc_backup,powershell.exe,5985,allowed,1764,benign,routine network
+NET-00653,2026-08-16T17:36:51Z,DEPLOY-01,JUMP-01,ACME\jsmith,w3wp.exe,445,allowed,67482,benign,routine network
+NET-00953,2026-08-16T17:39:45Z,APP-API-02,FILE-02,ACME\mrivera,backup-agent.exe,5985,allowed,19929,benign,routine network
+NET-00169,2026-08-16T17:41:09Z,APP-API-02,APP-API-02,ACME\jsmith,w3wp.exe,445,allowed,30823,benign,routine network
+NET-01110,2026-08-16T17:43:51Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,62467,benign,routine network
+NET-00333,2026-08-16T17:45:12Z,JUMP-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,5985,allowed,26610,benign,routine network
+NET-01480,2026-08-16T17:57:30Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,powershell.exe,445,allowed,23190,benign,routine network
+NET-01229,2026-08-16T18:08:09Z,APP-API-02,APP-API-02,ACME\svc_deploy,w3wp.exe,443,allowed,68253,benign,routine network
+NET-01158,2026-08-16T18:13:06Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,54906,benign,routine network
+NET-00767,2026-08-16T18:24:08Z,APP-API-02,APP-API-03,ACME\svc_deploy,powershell.exe,445,allowed,50545,benign,routine network
+NET-00484,2026-08-16T18:31:08Z,DEPLOY-01,APP-API-02,ACME\jsmith,powershell.exe,443,allowed,67492,benign,routine network
+NET-00006,2026-08-16T18:32:54Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,56776,benign,routine network
+NET-01409,2026-08-16T18:43:22Z,JUMP-01,APP-API-02,ACME\jsmith,w3wp.exe,5985,allowed,9751,benign,routine network
+NET-00370,2026-08-16T18:44:42Z,DEPLOY-01,APP-API-02,ACME\mrivera,powershell.exe,445,allowed,59158,benign,routine network
+NET-00750,2026-08-16T18:46:15Z,FIN-WS-14,APP-API-02,ACME\jsmith,w3wp.exe,5985,allowed,58013,benign,routine network
+NET-00549,2026-08-16T18:46:35Z,APP-API-02,DEPLOY-01,ACME\svc_backup,powershell.exe,5985,allowed,67453,benign,routine network
+NET-01418,2026-08-16T19:12:31Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,443,allowed,39495,benign,routine network
+NET-00899,2026-08-16T19:18:31Z,JUMP-01,APP-API-03,ACME\svc_deploy,backup-agent.exe,443,allowed,20792,benign,routine network
+NET-00937,2026-08-16T19:27:54Z,JUMP-01,APP-API-03,ACME\mrivera,w3wp.exe,443,allowed,37705,benign,routine network
+NET-01344,2026-08-16T19:38:04Z,DEPLOY-01,JUMP-01,ACME\jsmith,powershell.exe,443,allowed,7018,benign,routine network
+NET-00854,2026-08-16T19:38:19Z,APP-API-02,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,34765,benign,routine network
+NET-00341,2026-08-16T19:39:55Z,APP-API-03,FILE-02,ACME\svc_backup,w3wp.exe,443,allowed,78464,benign,routine network
+NET-00933,2026-08-16T19:40:52Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,58558,benign,routine network
+NET-00268,2026-08-16T19:42:13Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,backup-agent.exe,443,allowed,77413,benign,routine network
+NET-00235,2026-08-16T19:47:15Z,FILE-02,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,445,allowed,82671,benign,routine network
+NET-01093,2026-08-16T19:53:11Z,FIN-WS-14,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,30375,benign,routine network
+NET-01205,2026-08-16T19:53:32Z,JUMP-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,443,allowed,89652,benign,routine network
+NET-00528,2026-08-16T19:59:17Z,APP-API-03,FIN-WS-14,ACME\svc_deploy,w3wp.exe,445,allowed,12076,benign,routine network
+NET-00405,2026-08-16T20:05:54Z,FIN-WS-14,JUMP-01,ACME\svc_backup,powershell.exe,443,allowed,82386,benign,routine network
+NET-01185,2026-08-16T20:09:01Z,FIN-WS-14,APP-API-02,ACME\jsmith,powershell.exe,445,allowed,7176,benign,routine network
+NET-01263,2026-08-16T20:09:50Z,FIN-WS-14,FILE-02,ACME\mrivera,powershell.exe,5985,allowed,61460,benign,routine network
+NET-00788,2026-08-16T20:13:45Z,FIN-WS-14,DEPLOY-01,ACME\svc_deploy,powershell.exe,445,allowed,44531,benign,routine network
+NET-00056,2026-08-16T20:18:52Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,64590,benign,routine network
+NET-00241,2026-08-16T20:19:59Z,APP-API-03,APP-API-03,ACME\mrivera,backup-agent.exe,445,allowed,4806,benign,routine network
+NET-00698,2026-08-16T20:23:58Z,APP-API-03,APP-API-03,ACME\jsmith,backup-agent.exe,5985,allowed,73151,benign,routine network
+NET-00280,2026-08-16T20:29:04Z,APP-API-02,FIN-WS-14,ACME\svc_backup,backup-agent.exe,443,allowed,72835,benign,routine network
+NET-01372,2026-08-16T20:30:15Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,3681,benign,routine network
+NET-01440,2026-08-16T20:53:10Z,FILE-02,JUMP-01,ACME\svc_backup,w3wp.exe,445,allowed,61751,benign,routine network
+NET-01356,2026-08-16T20:55:38Z,FILE-02,APP-API-03,ACME\svc_deploy,powershell.exe,443,allowed,19663,benign,routine network
+NET-00942,2026-08-16T20:56:33Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,30027,benign,routine network
+NET-00641,2026-08-16T21:16:41Z,APP-API-03,APP-API-02,ACME\jsmith,backup-agent.exe,445,allowed,84921,benign,routine network
+NET-00488,2026-08-16T21:21:15Z,FILE-02,APP-API-03,ACME\mrivera,w3wp.exe,443,allowed,4086,benign,routine network
+NET-00369,2026-08-16T21:22:36Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,11076,benign,routine network
+NET-00720,2026-08-16T21:32:12Z,APP-API-02,FIN-WS-14,ACME\svc_backup,w3wp.exe,5985,allowed,15308,benign,routine network
+NET-00305,2026-08-16T21:39:17Z,FILE-02,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,18536,benign,routine network
+NET-01202,2026-08-16T21:42:28Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,86406,benign,routine network
+NET-00531,2026-08-16T21:47:41Z,FIN-WS-14,FILE-02,ACME\svc_deploy,w3wp.exe,445,allowed,24990,benign,routine network
+NET-01036,2026-08-16T21:51:34Z,FILE-02,APP-API-03,ACME\mrivera,backup-agent.exe,443,allowed,89507,benign,routine network
+NET-01394,2026-08-16T21:56:55Z,APP-API-02,FILE-02,ACME\mrivera,backup-agent.exe,443,allowed,53916,benign,routine network
+NET-00182,2026-08-16T22:01:36Z,FILE-02,JUMP-01,ACME\svc_deploy,w3wp.exe,445,allowed,12920,benign,routine network
+NET-00195,2026-08-16T22:24:07Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,445,allowed,88298,benign,routine network
+NET-00704,2026-08-16T22:38:23Z,DEPLOY-01,APP-API-02,ACME\svc_backup,backup-agent.exe,5985,allowed,59087,benign,routine network
+NET-00215,2026-08-16T22:40:01Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,powershell.exe,5985,allowed,9398,benign,routine network
+NET-00127,2026-08-16T22:41:20Z,APP-API-02,JUMP-01,ACME\jsmith,powershell.exe,443,allowed,84436,benign,routine network
+NET-01121,2026-08-16T22:42:47Z,APP-API-03,APP-API-03,ACME\jsmith,backup-agent.exe,445,allowed,88403,benign,routine network
+NET-00911,2026-08-16T22:43:26Z,FIN-WS-14,APP-API-02,ACME\jsmith,backup-agent.exe,445,allowed,48941,benign,routine network
+NET-01320,2026-08-16T22:48:55Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,4511,benign,routine network
+NET-00812,2026-08-16T22:51:09Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,69491,benign,routine network
+NET-01280,2026-08-16T22:56:05Z,APP-API-02,APP-API-02,ACME\svc_backup,w3wp.exe,5985,allowed,6253,benign,routine network
+NET-01000,2026-08-16T22:59:02Z,FIN-WS-14,JUMP-01,ACME\svc_backup,powershell.exe,443,allowed,2425,benign,routine network
+NET-00164,2026-08-16T23:09:18Z,FILE-02,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,445,allowed,74311,benign,routine network
+NET-00556,2026-08-16T23:37:10Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,51752,benign,routine network
+NET-01422,2026-08-16T23:43:08Z,DEPLOY-01,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,22041,benign,routine network
+NET-00082,2026-08-16T23:45:37Z,APP-API-02,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,25198,benign,routine network
+NET-00464,2026-08-16T23:45:38Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,36558,benign,routine network
+NET-00890,2026-08-16T23:49:22Z,APP-API-02,FIN-WS-14,ACME\svc_backup,w3wp.exe,445,allowed,60670,benign,routine network
+NET-01115,2026-08-16T23:51:48Z,FIN-WS-14,JUMP-01,ACME\svc_deploy,powershell.exe,5985,allowed,36252,benign,routine network
+NET-00296,2026-08-17T00:01:29Z,JUMP-01,APP-API-02,ACME\jsmith,backup-agent.exe,5985,allowed,81552,benign,routine network
+NET-00777,2026-08-17T00:15:33Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,30003,benign,routine network
+NET-00155,2026-08-17T00:16:20Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,powershell.exe,445,allowed,13682,benign,routine network
+NET-00606,2026-08-17T00:19:27Z,JUMP-01,FIN-WS-14,ACME\svc_backup,w3wp.exe,443,allowed,36203,benign,routine network
+NET-00523,2026-08-17T00:20:00Z,FILE-02,FIN-WS-14,ACME\svc_backup,backup-agent.exe,445,allowed,27567,benign,routine network
+NET-00022,2026-08-17T00:24:24Z,JUMP-01,FIN-WS-14,ACME\svc_backup,backup-agent.exe,5985,allowed,59577,benign,routine network
+NET-00979,2026-08-17T00:32:33Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,powershell.exe,443,allowed,62163,benign,routine network
+NET-00467,2026-08-17T00:38:47Z,FIN-WS-14,DEPLOY-01,ACME\mrivera,backup-agent.exe,443,allowed,26736,benign,routine network
+NET-00843,2026-08-17T01:01:19Z,APP-API-03,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,76768,benign,routine network
+NET-00011,2026-08-17T01:01:20Z,APP-API-02,FIN-WS-14,ACME\mrivera,backup-agent.exe,443,allowed,22471,benign,routine network
+NET-00516,2026-08-17T01:17:43Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,88613,benign,routine network
+NET-00362,2026-08-17T01:18:38Z,DEPLOY-01,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,74299,benign,routine network
+NET-00575,2026-08-17T01:26:07Z,JUMP-01,JUMP-01,ACME\svc_deploy,w3wp.exe,445,allowed,2208,benign,routine network
+NET-00743,2026-08-17T01:28:14Z,FIN-WS-14,APP-API-02,ACME\jsmith,w3wp.exe,445,allowed,22890,benign,routine network
+NET-00483,2026-08-17T01:52:52Z,DEPLOY-01,APP-API-03,ACME\svc_backup,w3wp.exe,443,allowed,10505,benign,routine network
+NET-00624,2026-08-17T02:06:31Z,JUMP-01,DEPLOY-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,40016,benign,routine network
+NET-01025,2026-08-17T02:07:27Z,APP-API-03,JUMP-01,ACME\svc_backup,w3wp.exe,445,allowed,67015,benign,routine network
+NET-01321,2026-08-17T02:07:39Z,APP-API-02,FILE-02,ACME\svc_deploy,powershell.exe,445,allowed,85560,benign,routine network
+NET-01108,2026-08-17T02:09:15Z,APP-API-03,APP-API-03,ACME\mrivera,w3wp.exe,443,allowed,65270,benign,routine network
+NET-00025,2026-08-17T02:27:55Z,FILE-02,APP-API-02,ACME\svc_deploy,w3wp.exe,443,allowed,54447,benign,routine network
+NET-00317,2026-08-17T02:29:12Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,3206,benign,routine network
+NET-00470,2026-08-17T02:36:02Z,APP-API-03,DEPLOY-01,ACME\svc_deploy,w3wp.exe,445,allowed,7458,benign,routine network
+NET-00163,2026-08-17T02:39:09Z,APP-API-03,FIN-WS-14,ACME\mrivera,w3wp.exe,445,allowed,39515,benign,routine network
+NET-00263,2026-08-17T02:44:26Z,DEPLOY-01,DEPLOY-01,ACME\mrivera,powershell.exe,445,allowed,63142,benign,routine network
+NET-01146,2026-08-17T02:48:40Z,APP-API-03,FILE-02,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,74265,benign,routine network
+NET-00139,2026-08-17T02:51:57Z,APP-API-03,DEPLOY-01,ACME\mrivera,powershell.exe,5985,allowed,54501,benign,routine network
+NET-00669,2026-08-17T02:53:50Z,APP-API-02,APP-API-02,ACME\svc_backup,powershell.exe,445,allowed,37702,benign,routine network
+NET-00105,2026-08-17T02:53:54Z,JUMP-01,JUMP-01,ACME\jsmith,w3wp.exe,5985,allowed,79080,benign,routine network
+NET-01403,2026-08-17T02:55:28Z,FILE-02,APP-API-02,ACME\jsmith,w3wp.exe,5985,allowed,84471,benign,routine network
+NET-00021,2026-08-17T02:57:32Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,67160,benign,routine network
+NET-00196,2026-08-17T03:03:50Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,w3wp.exe,445,allowed,19709,benign,routine network
+NET-00340,2026-08-17T03:09:57Z,FIN-WS-14,FIN-WS-14,ACME\mrivera,powershell.exe,443,allowed,26958,benign,routine network
+NET-01442,2026-08-17T03:13:29Z,APP-API-03,FILE-02,ACME\jsmith,backup-agent.exe,5985,allowed,70394,benign,routine network
+NET-00873,2026-08-17T03:18:35Z,FIN-WS-14,APP-API-02,ACME\svc_backup,backup-agent.exe,445,allowed,7282,benign,routine network
+NET-00861,2026-08-17T03:36:03Z,APP-API-03,APP-API-02,ACME\svc_backup,w3wp.exe,445,allowed,86105,benign,routine network
+NET-00688,2026-08-17T03:39:05Z,FILE-02,FILE-02,ACME\mrivera,powershell.exe,443,allowed,42248,benign,routine network
+NET-00045,2026-08-17T03:52:56Z,APP-API-03,FIN-WS-14,ACME\svc_backup,w3wp.exe,5985,allowed,24208,benign,routine network
+NET-00042,2026-08-17T03:56:30Z,FILE-02,JUMP-01,ACME\svc_backup,powershell.exe,445,allowed,77337,benign,routine network
+NET-00654,2026-08-17T04:10:09Z,FILE-02,FIN-WS-14,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,12494,benign,routine network
+NET-00893,2026-08-17T04:10:10Z,APP-API-03,APP-API-03,ACME\mrivera,powershell.exe,443,allowed,72529,benign,routine network
+NET-01196,2026-08-17T04:12:46Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,63897,benign,routine network
+NET-00264,2026-08-17T04:12:50Z,DEPLOY-01,JUMP-01,ACME\mrivera,w3wp.exe,5985,allowed,50238,benign,routine network
+NET-00188,2026-08-17T04:27:00Z,FILE-02,FIN-WS-14,ACME\svc_deploy,backup-agent.exe,445,allowed,172,benign,routine network
+NET-01177,2026-08-17T04:36:11Z,APP-API-02,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,38159,benign,routine network
+NET-00665,2026-08-17T04:37:26Z,JUMP-01,APP-API-03,ACME\mrivera,backup-agent.exe,443,allowed,86800,benign,routine network
+NET-00961,2026-08-17T04:41:47Z,JUMP-01,DEPLOY-01,ACME\svc_deploy,backup-agent.exe,5985,allowed,8983,benign,routine network
+NET-00255,2026-08-17T04:42:46Z,APP-API-02,APP-API-03,ACME\svc_deploy,backup-agent.exe,445,allowed,60882,benign,routine network
+NET-00989,2026-08-17T04:52:00Z,JUMP-01,APP-API-03,ACME\svc_backup,powershell.exe,445,allowed,53552,benign,routine network
+NET-01014,2026-08-17T04:57:04Z,JUMP-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,443,allowed,1371,benign,routine network
+NET-00544,2026-08-17T05:03:55Z,APP-API-02,JUMP-01,ACME\svc_deploy,powershell.exe,443,allowed,24262,benign,routine network
+NET-01395,2026-08-17T05:04:28Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,49715,benign,routine network
+NET-01425,2026-08-17T05:04:29Z,DEPLOY-01,APP-API-02,ACME\svc_backup,powershell.exe,445,allowed,3468,benign,routine network
+NET-00331,2026-08-17T05:08:47Z,FILE-02,FILE-02,ACME\jsmith,backup-agent.exe,5985,allowed,69798,benign,routine network
+NET-01096,2026-08-17T05:12:24Z,APP-API-02,FIN-WS-14,ACME\mrivera,w3wp.exe,445,allowed,45963,benign,routine network
+NET-00505,2026-08-17T05:12:34Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,powershell.exe,443,allowed,57687,benign,routine network
+NET-01101,2026-08-17T05:32:09Z,FILE-02,JUMP-01,ACME\svc_backup,w3wp.exe,5985,allowed,53127,benign,routine network
+NET-00538,2026-08-17T05:33:45Z,DEPLOY-01,DEPLOY-01,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,15172,benign,routine network
+NET-01453,2026-08-17T05:35:55Z,DEPLOY-01,DEPLOY-01,ACME\svc_deploy,w3wp.exe,445,allowed,45752,benign,routine network
+NET-00634,2026-08-17T05:37:06Z,JUMP-01,APP-API-02,ACME\svc_deploy,powershell.exe,443,allowed,5559,benign,routine network
+NET-01064,2026-08-17T05:38:40Z,APP-API-02,JUMP-01,ACME\jsmith,backup-agent.exe,5985,allowed,89543,benign,routine network
+NET-00508,2026-08-17T05:44:05Z,JUMP-01,APP-API-03,ACME\jsmith,w3wp.exe,445,allowed,3768,benign,routine network
+NET-01360,2026-08-17T05:53:58Z,FILE-02,JUMP-01,ACME\mrivera,w3wp.exe,5985,allowed,39243,benign,routine network
+NET-01244,2026-08-17T06:12:00Z,FIN-WS-14,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,30256,benign,routine network
+NET-00459,2026-08-17T06:13:39Z,FIN-WS-14,FILE-02,ACME\svc_deploy,w3wp.exe,443,allowed,3255,benign,routine network
+NET-01260,2026-08-17T06:22:54Z,FILE-02,FILE-02,ACME\svc_deploy,powershell.exe,445,allowed,56650,benign,routine network
+NET-01226,2026-08-17T06:24:04Z,JUMP-01,FIN-WS-14,ACME\svc_backup,backup-agent.exe,443,allowed,66336,benign,routine network
+NET-00676,2026-08-17T06:27:37Z,APP-API-03,FIN-WS-14,NT AUTHORITY\SYSTEM,backup-agent.exe,443,allowed,86065,benign,routine network
+NET-00332,2026-08-17T06:27:54Z,APP-API-03,DEPLOY-01,ACME\mrivera,w3wp.exe,445,allowed,29932,benign,routine network
+NET-01424,2026-08-17T06:40:05Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,28191,benign,routine network
+NET-00662,2026-08-17T06:42:27Z,DEPLOY-01,APP-API-03,ACME\svc_deploy,backup-agent.exe,445,allowed,63945,benign,routine network
+NET-01119,2026-08-17T06:49:23Z,APP-API-03,APP-API-02,ACME\svc_backup,powershell.exe,5985,allowed,13924,benign,routine network
+NET-00348,2026-08-17T06:56:35Z,APP-API-03,JUMP-01,ACME\jsmith,powershell.exe,445,allowed,49493,benign,routine network
+NET-01399,2026-08-17T07:00:14Z,JUMP-01,FIN-WS-14,ACME\svc_backup,backup-agent.exe,5985,allowed,82320,benign,routine network
+NET-00007,2026-08-17T07:05:41Z,JUMP-01,FIN-WS-14,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,6512,benign,routine network
+NET-00246,2026-08-17T07:15:59Z,FIN-WS-14,FIN-WS-14,ACME\svc_backup,powershell.exe,443,allowed,27955,benign,routine network
+NET-00904,2026-08-17T07:17:03Z,FILE-02,DEPLOY-01,ACME\svc_deploy,w3wp.exe,445,allowed,54954,benign,routine network
+NET-01246,2026-08-17T07:25:41Z,FILE-02,FILE-02,ACME\svc_deploy,w3wp.exe,5985,allowed,46574,benign,routine network
+NET-00817,2026-08-17T07:36:04Z,DEPLOY-01,JUMP-01,ACME\jsmith,backup-agent.exe,5985,allowed,28969,benign,routine network
+NET-00030,2026-08-17T07:41:49Z,APP-API-02,FIN-WS-14,ACME\jsmith,backup-agent.exe,443,allowed,77769,benign,routine network
+NET-00787,2026-08-17T07:49:55Z,FILE-02,APP-API-03,ACME\jsmith,powershell.exe,443,allowed,18712,benign,routine network
+NET-01170,2026-08-17T08:00:19Z,DEPLOY-01,APP-API-03,ACME\mrivera,backup-agent.exe,5985,allowed,37890,benign,routine network
+NET-00024,2026-08-17T08:05:14Z,FIN-WS-14,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,77688,benign,routine network
+NET-01378,2026-08-17T08:19:15Z,JUMP-01,APP-API-02,ACME\svc_deploy,backup-agent.exe,5985,allowed,83759,benign,routine network
+NET-01011,2026-08-17T08:20:06Z,JUMP-01,APP-API-02,ACME\svc_backup,w3wp.exe,5985,allowed,8614,benign,routine network
+NET-00357,2026-08-17T08:21:13Z,JUMP-01,DEPLOY-01,ACME\jsmith,powershell.exe,445,allowed,54731,benign,routine network
+NET-00882,2026-08-17T08:28:07Z,APP-API-02,APP-API-03,ACME\jsmith,w3wp.exe,443,allowed,86558,benign,routine network
+NET-00210,2026-08-17T08:36:26Z,FILE-02,FIN-WS-14,ACME\mrivera,powershell.exe,445,allowed,63131,benign,routine network
+NET-00785,2026-08-17T08:40:35Z,APP-API-03,JUMP-01,ACME\mrivera,backup-agent.exe,445,allowed,55546,benign,routine network
+NET-00289,2026-08-17T08:55:01Z,FILE-02,APP-API-02,ACME\svc_backup,backup-agent.exe,445,allowed,2060,benign,routine network
+NET-01046,2026-08-17T08:55:14Z,APP-API-02,DEPLOY-01,ACME\jsmith,backup-agent.exe,5985,allowed,47048,benign,routine network
+NET-00427,2026-08-17T08:58:18Z,JUMP-01,JUMP-01,ACME\svc_deploy,powershell.exe,5985,allowed,26893,benign,routine network
+NET-00737,2026-08-17T09:06:04Z,FIN-WS-14,APP-API-02,ACME\jsmith,backup-agent.exe,443,allowed,34620,benign,routine network
+NET-01117,2026-08-17T09:10:49Z,APP-API-03,JUMP-01,ACME\svc_backup,powershell.exe,445,allowed,17511,benign,routine network
+NET-01448,2026-08-17T09:11:33Z,APP-API-03,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,55253,benign,routine network
+NET-00445,2026-08-17T09:15:33Z,FIN-WS-14,FILE-02,ACME\jsmith,powershell.exe,445,allowed,18017,benign,routine network
+NET-01439,2026-08-17T09:30:11Z,APP-API-03,APP-API-02,NT AUTHORITY\SYSTEM,w3wp.exe,443,allowed,41733,benign,routine network
+NET-01107,2026-08-17T09:32:31Z,DEPLOY-01,APP-API-03,ACME\jsmith,powershell.exe,5985,allowed,61269,benign,routine network
+NET-01123,2026-08-17T09:42:48Z,FIN-WS-14,APP-API-03,ACME\svc_deploy,w3wp.exe,443,allowed,1217,benign,routine network
+NET-00384,2026-08-17T09:43:08Z,FILE-02,APP-API-03,ACME\svc_backup,w3wp.exe,5985,allowed,78626,benign,routine network
+NET-01103,2026-08-17T09:43:10Z,FIN-WS-14,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,42993,benign,routine network
+NET-00814,2026-08-17T09:48:46Z,JUMP-01,JUMP-01,ACME\svc_deploy,w3wp.exe,443,allowed,36946,benign,routine network
+NET-01002,2026-08-17T09:51:34Z,JUMP-01,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,66744,benign,routine network
+NET-01281,2026-08-17T09:51:58Z,APP-API-03,APP-API-03,ACME\jsmith,w3wp.exe,443,allowed,45496,benign,routine network
+NET-01437,2026-08-17T09:52:43Z,APP-API-03,APP-API-02,ACME\jsmith,powershell.exe,5985,allowed,67275,benign,routine network
+NET-00374,2026-08-17T10:09:24Z,DEPLOY-01,APP-API-02,NT AUTHORITY\SYSTEM,backup-agent.exe,5985,allowed,77594,benign,routine network
+NET-01060,2026-08-17T10:13:09Z,JUMP-01,JUMP-01,ACME\mrivera,w3wp.exe,445,allowed,65337,benign,routine network
+NET-01130,2026-08-17T10:31:06Z,FIN-WS-14,APP-API-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,35609,benign,routine network
+NET-00035,2026-08-17T10:32:28Z,DEPLOY-01,APP-API-02,ACME\svc_deploy,powershell.exe,445,allowed,60537,benign,routine network
+NET-00966,2026-08-17T10:33:38Z,APP-API-03,FILE-02,ACME\jsmith,w3wp.exe,443,allowed,53129,benign,routine network
+NET-00174,2026-08-17T10:36:57Z,APP-API-02,APP-API-03,ACME\mrivera,backup-agent.exe,5985,allowed,30524,benign,routine network
+NET-00426,2026-08-17T10:42:25Z,DEPLOY-01,FIN-WS-14,ACME\mrivera,w3wp.exe,5985,allowed,43817,benign,routine network
+NET-00585,2026-08-17T10:46:42Z,JUMP-01,APP-API-02,ACME\jsmith,w3wp.exe,5985,allowed,9134,benign,routine network
+NET-00240,2026-08-17T10:47:00Z,FIN-WS-14,DEPLOY-01,NT AUTHORITY\SYSTEM,w3wp.exe,5985,allowed,33153,benign,routine network
+NET-01023,2026-08-17T10:47:51Z,FILE-02,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,19036,benign,routine network
+NET-00392,2026-08-17T10:47:55Z,DEPLOY-01,FILE-02,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,77623,benign,routine network
+NET-00721,2026-08-17T11:19:04Z,DEPLOY-01,JUMP-01,ACME\svc_deploy,backup-agent.exe,445,allowed,64069,benign,routine network
+NET-00267,2026-08-17T11:43:32Z,APP-API-03,FIN-WS-14,ACME\svc_backup,powershell.exe,445,allowed,60831,benign,routine network
+NET-00876,2026-08-17T11:53:56Z,FILE-02,APP-API-02,ACME\svc_backup,powershell.exe,445,allowed,85956,benign,routine network
+NET-01080,2026-08-17T11:54:19Z,APP-API-02,DEPLOY-01,ACME\svc_deploy,w3wp.exe,445,allowed,968,benign,routine network
+NET-01232,2026-08-17T11:57:52Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,powershell.exe,5985,allowed,3036,benign,routine network
+NET-01148,2026-08-17T12:13:21Z,APP-API-03,APP-API-03,ACME\jsmith,backup-agent.exe,5985,allowed,32252,benign,routine network
+NET-00990,2026-08-17T12:22:35Z,FILE-02,APP-API-02,ACME\mrivera,backup-agent.exe,5985,allowed,58055,benign,routine network
+NET-00091,2026-08-17T12:25:55Z,FIN-WS-14,APP-API-02,ACME\svc_backup,powershell.exe,5985,allowed,27507,benign,routine network
+NET-00699,2026-08-17T12:51:47Z,DEPLOY-01,JUMP-01,NT AUTHORITY\SYSTEM,w3wp.exe,445,allowed,73502,benign,routine network
+NET-00219,2026-08-17T12:52:06Z,JUMP-01,DEPLOY-01,ACME\svc_backup,w3wp.exe,445,allowed,84897,benign,routine network
+NET-01455,2026-08-17T12:56:06Z,JUMP-01,DEPLOY-01,ACME\jsmith,backup-agent.exe,445,allowed,81688,benign,routine network
+NET-01138,2026-08-17T12:57:56Z,APP-API-02,FIN-WS-14,ACME\svc_deploy,w3wp.exe,5985,allowed,35495,benign,routine network
+NET-00559,2026-08-17T12:59:00Z,JUMP-01,FILE-02,ACME\mrivera,w3wp.exe,443,allowed,48575,benign,routine network
