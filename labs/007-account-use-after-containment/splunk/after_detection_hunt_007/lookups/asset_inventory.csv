@@ -1,0 +1,1801 @@
+event_id,_time,host,user,detail,classification,note
+ASSET-00000,2026-08-22T20:31:39Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00001,2026-08-21T10:11:19Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00002,2026-08-23T02:26:50Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00003,2026-08-19T03:42:33Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00004,2026-08-18T12:33:42Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00005,2026-08-20T10:49:31Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00006,2026-08-21T01:38:41Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00007,2026-08-21T07:15:15Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00008,2026-08-18T12:03:00Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00009,2026-08-19T22:29:47Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00010,2026-08-21T04:17:35Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00011,2026-08-19T03:19:20Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00012,2026-08-19T04:51:24Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00013,2026-08-19T13:36:28Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00014,2026-08-20T22:46:04Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00015,2026-08-19T05:02:20Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00016,2026-08-20T07:36:26Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00017,2026-08-21T04:01:40Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00018,2026-08-19T23:42:58Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00019,2026-08-20T09:57:04Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00020,2026-08-19T14:41:59Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00021,2026-08-20T22:05:50Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00022,2026-08-19T00:55:19Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00023,2026-08-23T11:09:59Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00024,2026-08-23T02:38:46Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00025,2026-08-18T13:21:42Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00026,2026-08-21T23:23:12Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00027,2026-08-22T23:48:08Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00028,2026-08-18T23:08:25Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00029,2026-08-20T20:48:48Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00030,2026-08-23T08:53:21Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00031,2026-08-20T14:34:44Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00032,2026-08-20T07:24:45Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00033,2026-08-20T05:31:12Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00034,2026-08-20T00:09:51Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00035,2026-08-20T10:37:02Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00036,2026-08-21T18:22:04Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00037,2026-08-23T06:01:27Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00038,2026-08-20T14:02:33Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00039,2026-08-20T09:39:22Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00040,2026-08-19T14:58:45Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00041,2026-08-23T03:16:22Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00042,2026-08-21T22:13:37Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00043,2026-08-22T10:04:59Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00044,2026-08-19T05:56:58Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00045,2026-08-20T10:10:18Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00046,2026-08-21T04:41:20Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00047,2026-08-22T20:45:05Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00048,2026-08-22T11:20:40Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00049,2026-08-18T18:26:54Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00050,2026-08-22T15:29:33Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00051,2026-08-20T11:12:37Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00052,2026-08-19T02:51:41Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00053,2026-08-20T08:34:01Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00054,2026-08-20T01:49:57Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00055,2026-08-19T15:10:45Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00056,2026-08-20T18:14:35Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00057,2026-08-18T13:30:28Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00058,2026-08-22T23:36:34Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00059,2026-08-22T11:11:23Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00060,2026-08-20T22:27:34Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00061,2026-08-20T14:06:19Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00062,2026-08-21T11:53:11Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00063,2026-08-19T23:22:58Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00064,2026-08-22T12:11:58Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00065,2026-08-21T06:34:39Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00066,2026-08-19T05:33:15Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00067,2026-08-19T06:06:39Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00068,2026-08-22T09:03:41Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00069,2026-08-23T09:50:11Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00070,2026-08-18T19:45:10Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00071,2026-08-20T04:25:45Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00072,2026-08-20T11:37:08Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00073,2026-08-19T22:58:53Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00074,2026-08-22T17:29:40Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00075,2026-08-19T11:04:09Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00076,2026-08-20T09:07:22Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00077,2026-08-21T00:30:05Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00078,2026-08-21T07:22:05Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00079,2026-08-20T04:06:19Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00080,2026-08-19T21:25:52Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00081,2026-08-20T13:38:06Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00082,2026-08-23T03:55:26Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00083,2026-08-22T02:06:33Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00084,2026-08-19T18:23:56Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00085,2026-08-18T14:57:02Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00086,2026-08-19T00:59:18Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00087,2026-08-20T02:55:20Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00088,2026-08-23T06:58:59Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00089,2026-08-19T17:59:54Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00090,2026-08-22T17:27:53Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00091,2026-08-20T05:06:47Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00092,2026-08-19T12:37:01Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00093,2026-08-22T14:46:07Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00094,2026-08-19T17:24:41Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00095,2026-08-20T09:19:12Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00096,2026-08-19T17:37:14Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00097,2026-08-22T07:56:51Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00098,2026-08-22T22:36:18Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00099,2026-08-23T05:43:05Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00100,2026-08-19T13:58:55Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00101,2026-08-22T13:43:50Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00102,2026-08-23T06:01:46Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00103,2026-08-23T05:23:58Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00104,2026-08-18T19:41:35Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00105,2026-08-20T09:01:09Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00106,2026-08-18T21:26:28Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00107,2026-08-21T09:24:02Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00108,2026-08-21T15:03:34Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00109,2026-08-21T11:41:22Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00110,2026-08-21T16:36:11Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00111,2026-08-22T04:43:27Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00112,2026-08-18T21:38:12Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00113,2026-08-21T17:44:07Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00114,2026-08-19T05:13:35Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00115,2026-08-22T08:48:15Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00116,2026-08-20T09:40:46Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00117,2026-08-21T14:54:20Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00118,2026-08-22T17:14:17Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00119,2026-08-18T18:40:53Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00120,2026-08-21T05:31:19Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00121,2026-08-20T23:50:28Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00122,2026-08-19T04:14:07Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00123,2026-08-21T21:33:56Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00124,2026-08-21T07:13:25Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00125,2026-08-22T16:31:13Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00126,2026-08-19T16:09:12Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00127,2026-08-21T20:22:11Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00128,2026-08-21T21:02:18Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00129,2026-08-21T17:10:28Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00130,2026-08-22T03:33:58Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00131,2026-08-21T20:21:09Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00132,2026-08-18T12:00:57Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00133,2026-08-20T12:49:11Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00134,2026-08-21T08:22:49Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00135,2026-08-21T03:33:13Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00136,2026-08-23T03:09:17Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00137,2026-08-22T23:32:21Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00138,2026-08-19T22:46:09Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00139,2026-08-19T20:37:12Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00140,2026-08-20T06:22:09Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00141,2026-08-21T06:10:42Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00142,2026-08-21T05:09:07Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00143,2026-08-18T21:37:55Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00144,2026-08-23T01:57:30Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00145,2026-08-20T14:56:13Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00146,2026-08-20T14:55:15Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00147,2026-08-23T03:14:36Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00148,2026-08-18T16:48:42Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00149,2026-08-21T21:38:13Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00150,2026-08-20T21:27:23Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00151,2026-08-20T14:02:41Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00152,2026-08-22T17:17:48Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00153,2026-08-18T16:19:21Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00154,2026-08-19T06:56:55Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00155,2026-08-21T02:19:35Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00156,2026-08-19T16:48:40Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00157,2026-08-21T02:30:09Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00158,2026-08-22T02:18:00Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00159,2026-08-22T00:53:28Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00160,2026-08-18T20:28:44Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00161,2026-08-19T01:00:21Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00162,2026-08-21T14:20:34Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00163,2026-08-19T21:35:58Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00164,2026-08-18T14:14:34Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00165,2026-08-23T07:44:50Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00166,2026-08-20T07:52:26Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00167,2026-08-22T20:00:35Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00168,2026-08-19T13:43:13Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00169,2026-08-19T17:51:56Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00170,2026-08-22T01:13:32Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00171,2026-08-19T15:05:38Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00172,2026-08-21T06:15:29Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00173,2026-08-19T09:37:51Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00174,2026-08-19T21:29:07Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00175,2026-08-22T15:37:21Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00176,2026-08-19T08:50:39Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00177,2026-08-18T15:09:31Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00178,2026-08-20T06:25:12Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00179,2026-08-21T11:55:44Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00180,2026-08-23T04:32:50Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00181,2026-08-23T11:47:56Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00182,2026-08-19T21:38:22Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00183,2026-08-18T13:23:21Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00184,2026-08-21T03:36:19Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00185,2026-08-18T19:42:25Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00186,2026-08-21T23:52:44Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00187,2026-08-18T15:33:35Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00188,2026-08-20T20:09:32Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00189,2026-08-19T22:41:47Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00190,2026-08-20T22:20:08Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00191,2026-08-21T16:28:41Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00192,2026-08-22T08:44:13Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00193,2026-08-20T14:34:59Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00194,2026-08-22T05:09:53Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00195,2026-08-18T13:36:18Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00196,2026-08-21T00:32:52Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00197,2026-08-19T17:44:25Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00198,2026-08-19T00:49:31Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00199,2026-08-19T17:51:13Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00200,2026-08-22T18:04:01Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00201,2026-08-20T08:11:24Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00202,2026-08-19T09:32:51Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00203,2026-08-21T19:05:26Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00204,2026-08-19T04:20:48Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00205,2026-08-20T07:12:28Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00206,2026-08-19T02:57:25Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00207,2026-08-21T07:33:39Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00208,2026-08-22T05:37:02Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00209,2026-08-21T04:16:21Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00210,2026-08-19T23:47:24Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00211,2026-08-22T22:55:16Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00212,2026-08-19T09:01:32Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00213,2026-08-19T19:28:57Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00214,2026-08-20T03:32:08Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00215,2026-08-19T04:35:31Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00216,2026-08-18T13:05:01Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00217,2026-08-22T06:55:42Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00218,2026-08-19T06:59:41Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00219,2026-08-20T10:31:11Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00220,2026-08-23T09:56:36Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00221,2026-08-19T13:18:20Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00222,2026-08-22T18:46:46Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00223,2026-08-21T08:15:54Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00224,2026-08-22T00:33:23Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00225,2026-08-20T01:46:27Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00226,2026-08-22T16:36:47Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00227,2026-08-23T06:09:35Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00228,2026-08-21T02:10:28Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00229,2026-08-19T17:45:04Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00230,2026-08-23T10:31:56Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00231,2026-08-23T09:06:23Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00232,2026-08-22T19:08:29Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00233,2026-08-20T12:26:45Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00234,2026-08-22T12:48:06Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00235,2026-08-23T00:59:01Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00236,2026-08-20T04:08:47Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00237,2026-08-20T15:15:11Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00238,2026-08-20T18:05:39Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00239,2026-08-20T02:41:46Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00240,2026-08-21T07:33:14Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00241,2026-08-20T00:51:05Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00242,2026-08-22T01:33:36Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00243,2026-08-21T19:43:38Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00244,2026-08-22T15:20:21Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00245,2026-08-19T10:21:29Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00246,2026-08-23T07:38:34Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00247,2026-08-19T10:03:18Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00248,2026-08-19T01:01:04Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00249,2026-08-22T18:36:23Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00250,2026-08-22T15:19:14Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00251,2026-08-20T06:06:25Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00252,2026-08-19T14:50:22Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00253,2026-08-22T15:30:24Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00254,2026-08-19T09:53:29Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00255,2026-08-21T18:49:27Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00256,2026-08-22T10:16:31Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00257,2026-08-19T12:07:19Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00258,2026-08-22T15:17:10Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00259,2026-08-21T04:05:19Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00260,2026-08-22T00:01:01Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00261,2026-08-18T19:17:11Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00262,2026-08-21T08:07:28Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00263,2026-08-18T14:10:35Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00264,2026-08-22T10:46:39Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00265,2026-08-18T23:18:50Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00266,2026-08-21T06:12:33Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00267,2026-08-18T14:33:53Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00268,2026-08-22T09:21:46Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00269,2026-08-18T19:24:01Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00270,2026-08-22T11:24:32Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00271,2026-08-18T16:26:45Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00272,2026-08-21T18:52:34Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00273,2026-08-19T16:44:23Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00274,2026-08-19T22:51:14Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00275,2026-08-21T07:37:39Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00276,2026-08-22T14:34:48Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00277,2026-08-22T12:51:27Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00278,2026-08-19T15:50:25Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00279,2026-08-19T04:14:52Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00280,2026-08-21T07:20:37Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00281,2026-08-22T04:52:03Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00282,2026-08-22T21:42:53Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00283,2026-08-22T14:26:50Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00284,2026-08-19T23:46:20Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00285,2026-08-18T20:30:31Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00286,2026-08-22T12:22:23Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00287,2026-08-21T04:57:29Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00288,2026-08-21T02:19:38Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00289,2026-08-20T11:38:36Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00290,2026-08-19T12:06:00Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00291,2026-08-19T10:37:32Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00292,2026-08-22T08:33:13Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00293,2026-08-18T23:45:30Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00294,2026-08-23T08:45:11Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00295,2026-08-21T10:35:42Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00296,2026-08-22T17:37:22Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00297,2026-08-22T00:46:14Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00298,2026-08-19T08:35:17Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00299,2026-08-21T19:31:31Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00300,2026-08-19T02:00:19Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00301,2026-08-18T22:05:58Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00302,2026-08-18T21:29:48Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00303,2026-08-22T01:49:53Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00304,2026-08-19T18:55:28Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00305,2026-08-19T04:08:40Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00306,2026-08-22T20:29:36Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00307,2026-08-21T14:18:23Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00308,2026-08-21T01:00:13Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00309,2026-08-20T21:38:34Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00310,2026-08-20T08:21:56Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00311,2026-08-22T02:04:04Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00312,2026-08-19T01:34:39Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00313,2026-08-19T05:40:59Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00314,2026-08-22T20:31:27Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00315,2026-08-22T03:10:51Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00316,2026-08-19T13:56:11Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00317,2026-08-20T09:14:54Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00318,2026-08-22T23:28:15Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00319,2026-08-19T08:57:03Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00320,2026-08-20T13:40:34Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00321,2026-08-21T02:30:29Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00322,2026-08-18T19:16:03Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00323,2026-08-22T10:12:30Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00324,2026-08-20T21:15:08Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00325,2026-08-18T15:41:04Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00326,2026-08-20T02:46:45Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00327,2026-08-19T10:36:47Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00328,2026-08-21T09:31:04Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00329,2026-08-19T10:51:46Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00330,2026-08-20T01:40:56Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00331,2026-08-20T02:07:12Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00332,2026-08-23T07:44:06Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00333,2026-08-21T01:39:00Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00334,2026-08-23T08:46:37Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00335,2026-08-23T07:12:57Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00336,2026-08-19T05:00:37Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00337,2026-08-19T02:44:41Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00338,2026-08-19T09:30:13Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00339,2026-08-20T17:29:31Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00340,2026-08-22T16:11:58Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00341,2026-08-22T05:51:37Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00342,2026-08-19T05:49:49Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00343,2026-08-23T09:18:58Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00344,2026-08-22T10:32:56Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00345,2026-08-22T23:37:07Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00346,2026-08-21T22:29:44Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00347,2026-08-20T05:42:00Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00348,2026-08-22T02:02:54Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00349,2026-08-22T04:17:36Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00350,2026-08-19T14:20:23Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00351,2026-08-19T21:28:15Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00352,2026-08-22T20:04:28Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00353,2026-08-18T19:01:11Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00354,2026-08-20T01:28:15Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00355,2026-08-22T05:57:26Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00356,2026-08-21T13:01:50Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00357,2026-08-18T16:55:58Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00358,2026-08-20T19:12:08Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00359,2026-08-22T05:45:32Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00360,2026-08-23T04:11:14Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00361,2026-08-20T01:19:42Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00362,2026-08-22T11:17:09Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00363,2026-08-22T14:20:46Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00364,2026-08-21T14:12:53Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00365,2026-08-20T07:44:39Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00366,2026-08-21T03:22:03Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00367,2026-08-22T23:36:34Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00368,2026-08-22T08:06:16Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00369,2026-08-19T01:37:08Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00370,2026-08-19T20:16:16Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00371,2026-08-21T08:49:11Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00372,2026-08-20T00:07:01Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00373,2026-08-23T00:49:21Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00374,2026-08-19T05:20:32Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00375,2026-08-21T16:02:54Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00376,2026-08-22T17:36:22Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00377,2026-08-22T00:11:27Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00378,2026-08-20T09:13:31Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00379,2026-08-21T12:19:01Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00380,2026-08-21T07:18:17Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00381,2026-08-19T01:53:16Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00382,2026-08-20T01:18:26Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00383,2026-08-19T23:19:53Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00384,2026-08-21T19:27:58Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00385,2026-08-21T23:42:41Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00386,2026-08-20T17:56:52Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00387,2026-08-19T20:15:21Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00388,2026-08-22T22:24:20Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00389,2026-08-22T09:22:23Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00390,2026-08-22T17:03:36Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00391,2026-08-21T14:12:34Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00392,2026-08-19T06:04:26Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00393,2026-08-22T23:40:14Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00394,2026-08-21T07:57:51Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00395,2026-08-21T07:36:27Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00396,2026-08-21T01:00:09Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00397,2026-08-21T19:01:43Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00398,2026-08-23T04:55:58Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00399,2026-08-20T10:27:15Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00400,2026-08-22T21:31:59Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00401,2026-08-23T01:33:20Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00402,2026-08-21T17:57:37Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00403,2026-08-21T16:25:01Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00404,2026-08-20T04:43:15Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00405,2026-08-21T00:08:11Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00406,2026-08-18T20:08:26Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00407,2026-08-18T23:03:22Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00408,2026-08-22T20:47:58Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00409,2026-08-22T17:28:39Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00410,2026-08-20T18:03:55Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00411,2026-08-23T00:26:14Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00412,2026-08-23T04:30:32Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00413,2026-08-20T13:56:04Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00414,2026-08-22T06:24:04Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00415,2026-08-21T10:57:49Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00416,2026-08-19T22:34:42Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00417,2026-08-19T00:30:40Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00418,2026-08-18T13:39:02Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00419,2026-08-18T12:35:26Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00420,2026-08-19T02:50:07Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00421,2026-08-19T08:15:44Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00422,2026-08-22T06:56:57Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00423,2026-08-22T07:35:42Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00424,2026-08-20T19:51:24Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00425,2026-08-21T14:13:56Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00426,2026-08-18T19:15:15Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00427,2026-08-19T10:08:20Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00428,2026-08-19T07:41:32Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00429,2026-08-19T14:28:28Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00430,2026-08-22T16:19:26Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00431,2026-08-21T21:35:35Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00432,2026-08-23T09:49:00Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00433,2026-08-19T01:05:52Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00434,2026-08-22T18:01:09Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00435,2026-08-18T13:10:52Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00436,2026-08-20T20:40:24Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00437,2026-08-21T08:04:21Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00438,2026-08-20T13:43:50Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00439,2026-08-21T17:49:10Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00440,2026-08-21T06:48:38Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00441,2026-08-18T21:27:45Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00442,2026-08-18T20:06:46Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00443,2026-08-21T17:51:13Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00444,2026-08-21T09:57:06Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00445,2026-08-20T11:47:05Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00446,2026-08-22T09:52:23Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00447,2026-08-23T02:52:41Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00448,2026-08-22T04:48:20Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00449,2026-08-18T13:22:41Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00450,2026-08-21T04:01:37Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00451,2026-08-22T03:13:05Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00452,2026-08-20T05:05:57Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00453,2026-08-20T22:50:24Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00454,2026-08-19T22:39:51Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00455,2026-08-21T15:11:53Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00456,2026-08-21T05:48:59Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00457,2026-08-20T13:04:48Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00458,2026-08-22T00:39:40Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00459,2026-08-20T12:57:26Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00460,2026-08-21T16:17:48Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00461,2026-08-20T19:09:06Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00462,2026-08-23T09:42:15Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00463,2026-08-18T20:16:20Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00464,2026-08-20T15:09:18Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00465,2026-08-20T04:32:57Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00466,2026-08-19T18:05:12Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00467,2026-08-23T03:04:47Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00468,2026-08-22T20:54:59Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00469,2026-08-20T07:20:19Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00470,2026-08-18T13:45:01Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00471,2026-08-20T07:38:33Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00472,2026-08-19T11:04:42Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00473,2026-08-20T22:13:01Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00474,2026-08-20T13:21:44Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00475,2026-08-22T22:25:42Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00476,2026-08-18T19:27:08Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00477,2026-08-20T13:43:08Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00478,2026-08-19T06:08:36Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00479,2026-08-20T12:17:53Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00480,2026-08-22T13:48:53Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00481,2026-08-22T06:00:34Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00482,2026-08-22T04:40:23Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00483,2026-08-19T20:59:55Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00484,2026-08-18T20:57:37Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00485,2026-08-21T11:02:05Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00486,2026-08-22T15:15:38Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00487,2026-08-21T08:13:33Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00488,2026-08-20T20:38:05Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00489,2026-08-22T12:58:55Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00490,2026-08-18T14:14:32Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00491,2026-08-21T20:12:49Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00492,2026-08-21T18:12:24Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00493,2026-08-22T08:14:11Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00494,2026-08-21T04:50:41Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00495,2026-08-20T04:20:15Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00496,2026-08-23T03:58:33Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00497,2026-08-21T01:43:57Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00498,2026-08-20T11:41:39Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00499,2026-08-21T13:15:57Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00500,2026-08-19T21:14:11Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00501,2026-08-19T08:07:41Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00502,2026-08-22T13:14:28Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00503,2026-08-19T10:44:34Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00504,2026-08-18T15:15:21Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00505,2026-08-22T07:54:22Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00506,2026-08-20T11:41:00Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00507,2026-08-22T08:44:07Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00508,2026-08-23T09:45:53Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00509,2026-08-22T19:39:56Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00510,2026-08-20T10:10:32Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00511,2026-08-22T12:19:54Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00512,2026-08-20T08:12:36Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00513,2026-08-22T16:22:10Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00514,2026-08-20T01:03:36Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00515,2026-08-19T13:34:31Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00516,2026-08-21T10:53:30Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00517,2026-08-21T05:44:23Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00518,2026-08-22T03:16:56Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00519,2026-08-21T04:58:46Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00520,2026-08-21T18:53:27Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00521,2026-08-20T02:39:47Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00522,2026-08-20T10:59:37Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00523,2026-08-20T09:13:40Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00524,2026-08-22T15:03:06Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00525,2026-08-18T19:52:40Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00526,2026-08-20T05:24:26Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00527,2026-08-20T08:34:05Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00528,2026-08-20T16:31:37Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00529,2026-08-19T00:04:22Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00530,2026-08-19T15:31:02Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00531,2026-08-21T16:20:53Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00532,2026-08-23T04:56:33Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00533,2026-08-21T07:28:00Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00534,2026-08-19T09:29:07Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00535,2026-08-21T03:32:32Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00536,2026-08-19T19:50:55Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00537,2026-08-23T07:46:03Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00538,2026-08-21T17:17:49Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00539,2026-08-22T04:45:36Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00540,2026-08-22T23:32:29Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00541,2026-08-19T10:41:45Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00542,2026-08-21T19:08:17Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00543,2026-08-21T01:54:41Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00544,2026-08-18T12:48:58Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00545,2026-08-20T07:44:19Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00546,2026-08-20T21:56:46Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00547,2026-08-19T18:51:37Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00548,2026-08-20T14:39:52Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00549,2026-08-22T15:33:34Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00550,2026-08-20T10:50:48Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00551,2026-08-20T21:59:09Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00552,2026-08-20T23:49:14Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00553,2026-08-20T21:48:17Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00554,2026-08-20T22:01:23Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00555,2026-08-22T09:10:19Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00556,2026-08-22T22:05:12Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00557,2026-08-19T16:36:15Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00558,2026-08-22T11:02:39Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00559,2026-08-20T12:00:51Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00560,2026-08-22T07:37:41Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00561,2026-08-22T21:55:56Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00562,2026-08-18T19:39:08Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00563,2026-08-18T17:08:14Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00564,2026-08-21T10:55:33Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00565,2026-08-22T11:42:42Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00566,2026-08-21T14:51:08Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00567,2026-08-20T10:47:56Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00568,2026-08-20T09:01:50Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00569,2026-08-19T12:23:07Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00570,2026-08-22T06:13:45Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00571,2026-08-20T00:01:03Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00572,2026-08-18T21:34:54Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00573,2026-08-21T23:23:23Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00574,2026-08-22T04:10:46Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00575,2026-08-21T23:52:22Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00576,2026-08-20T20:35:08Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00577,2026-08-23T03:13:40Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00578,2026-08-20T03:12:18Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00579,2026-08-20T08:28:43Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00580,2026-08-20T18:39:07Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00581,2026-08-21T02:57:42Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00582,2026-08-18T15:00:42Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00583,2026-08-22T18:09:51Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00584,2026-08-20T03:53:49Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00585,2026-08-22T04:18:21Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00586,2026-08-23T01:11:04Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00587,2026-08-21T07:21:13Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00588,2026-08-23T07:32:25Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00589,2026-08-22T07:05:31Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00590,2026-08-20T05:39:31Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00591,2026-08-22T05:23:59Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00592,2026-08-21T13:00:15Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00593,2026-08-22T12:16:55Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00594,2026-08-18T21:24:10Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00595,2026-08-21T15:28:15Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00596,2026-08-22T01:35:47Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00597,2026-08-21T06:24:11Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00598,2026-08-21T06:29:28Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00599,2026-08-22T00:25:33Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00600,2026-08-20T10:36:37Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00601,2026-08-23T07:24:02Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00602,2026-08-20T00:54:19Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00603,2026-08-18T12:04:40Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00604,2026-08-22T13:20:07Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00605,2026-08-19T20:06:57Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00606,2026-08-18T18:42:14Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00607,2026-08-20T04:26:42Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00608,2026-08-21T20:12:55Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00609,2026-08-22T20:23:43Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00610,2026-08-21T23:19:39Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00611,2026-08-20T15:11:53Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00612,2026-08-18T23:34:05Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00613,2026-08-22T15:52:36Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00614,2026-08-22T12:21:23Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00615,2026-08-22T14:42:02Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00616,2026-08-20T07:19:25Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00617,2026-08-23T03:50:47Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00618,2026-08-20T15:22:44Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00619,2026-08-22T01:15:19Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00620,2026-08-21T21:48:06Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00621,2026-08-20T17:10:23Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00622,2026-08-19T01:51:34Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00623,2026-08-19T10:56:41Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00624,2026-08-21T13:01:14Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00625,2026-08-19T23:05:57Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00626,2026-08-19T11:22:07Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00627,2026-08-20T18:26:38Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00628,2026-08-20T05:43:56Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00629,2026-08-23T06:00:51Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00630,2026-08-20T10:07:48Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00631,2026-08-20T22:01:30Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00632,2026-08-20T18:45:40Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00633,2026-08-19T06:19:45Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00634,2026-08-20T05:35:46Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00635,2026-08-20T23:31:50Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00636,2026-08-22T12:10:47Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00637,2026-08-18T19:24:42Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00638,2026-08-21T09:55:31Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00639,2026-08-21T07:22:49Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00640,2026-08-21T05:56:07Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00641,2026-08-23T09:29:17Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00642,2026-08-19T13:55:38Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00643,2026-08-19T21:45:46Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00644,2026-08-21T08:17:53Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00645,2026-08-20T06:48:31Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00646,2026-08-20T19:54:12Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00647,2026-08-21T21:53:11Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00648,2026-08-22T20:51:16Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00649,2026-08-21T03:07:54Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00650,2026-08-19T21:19:07Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00651,2026-08-20T09:56:45Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00652,2026-08-22T07:13:24Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00653,2026-08-19T11:45:17Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00654,2026-08-18T12:08:32Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00655,2026-08-18T23:20:43Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00656,2026-08-20T01:09:12Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00657,2026-08-20T02:26:21Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00658,2026-08-22T07:39:50Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00659,2026-08-20T07:53:26Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00660,2026-08-19T22:30:42Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00661,2026-08-22T08:34:41Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00662,2026-08-22T19:22:26Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00663,2026-08-22T04:29:45Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00664,2026-08-23T04:03:31Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00665,2026-08-19T19:49:58Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00666,2026-08-21T12:44:44Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00667,2026-08-22T05:25:45Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00668,2026-08-23T07:50:15Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00669,2026-08-22T22:25:03Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00670,2026-08-20T20:23:47Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00671,2026-08-20T08:07:31Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00672,2026-08-18T12:43:00Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00673,2026-08-20T15:45:45Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00674,2026-08-21T14:25:01Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00675,2026-08-21T23:27:07Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00676,2026-08-23T05:48:49Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00677,2026-08-21T19:53:37Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00678,2026-08-20T04:28:57Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00679,2026-08-21T11:30:32Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00680,2026-08-20T04:57:37Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00681,2026-08-19T20:20:26Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00682,2026-08-21T02:30:50Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00683,2026-08-21T13:31:11Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00684,2026-08-18T16:14:48Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00685,2026-08-19T00:58:31Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00686,2026-08-22T05:34:24Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00687,2026-08-19T14:56:27Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00688,2026-08-21T23:39:16Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00689,2026-08-22T15:38:24Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00690,2026-08-19T22:05:53Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00691,2026-08-21T18:05:10Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00692,2026-08-19T04:35:23Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00693,2026-08-21T12:51:54Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00694,2026-08-22T08:20:02Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00695,2026-08-22T13:28:35Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00696,2026-08-22T18:29:11Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00697,2026-08-22T10:09:47Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00698,2026-08-23T07:39:54Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00699,2026-08-19T15:18:15Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00700,2026-08-18T21:23:06Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00701,2026-08-21T09:31:18Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00702,2026-08-22T06:40:15Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00703,2026-08-18T16:44:56Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00704,2026-08-21T17:33:52Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00705,2026-08-19T00:48:05Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00706,2026-08-21T08:36:41Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00707,2026-08-19T18:01:39Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00708,2026-08-20T19:56:56Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00709,2026-08-21T05:53:36Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00710,2026-08-21T15:51:15Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00711,2026-08-23T07:10:51Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00712,2026-08-20T08:42:22Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00713,2026-08-22T03:34:18Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00714,2026-08-18T16:33:10Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00715,2026-08-21T05:45:19Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00716,2026-08-20T05:53:04Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00717,2026-08-22T11:04:47Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00718,2026-08-19T01:09:36Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00719,2026-08-18T16:34:34Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00720,2026-08-22T08:46:08Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00721,2026-08-19T13:18:49Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00722,2026-08-22T23:20:00Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00723,2026-08-19T20:22:47Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00724,2026-08-22T11:05:20Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00725,2026-08-22T10:33:06Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00726,2026-08-22T04:15:31Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00727,2026-08-20T03:51:56Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00728,2026-08-22T14:19:32Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00729,2026-08-19T14:39:52Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00730,2026-08-20T11:38:20Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00731,2026-08-19T15:58:04Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00732,2026-08-18T22:45:18Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00733,2026-08-19T03:12:04Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00734,2026-08-19T01:01:40Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00735,2026-08-22T07:16:53Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00736,2026-08-19T06:30:22Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00737,2026-08-19T02:26:32Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00738,2026-08-22T17:23:25Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00739,2026-08-18T13:26:40Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00740,2026-08-23T04:32:44Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00741,2026-08-23T06:04:53Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00742,2026-08-19T23:54:47Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00743,2026-08-22T16:25:46Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00744,2026-08-20T05:16:40Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00745,2026-08-20T21:19:57Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00746,2026-08-19T23:55:40Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00747,2026-08-19T13:49:02Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00748,2026-08-22T12:56:30Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00749,2026-08-21T08:09:02Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00750,2026-08-22T13:40:43Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00751,2026-08-19T02:05:15Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00752,2026-08-22T00:31:06Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00753,2026-08-22T08:07:49Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00754,2026-08-22T00:56:59Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00755,2026-08-18T17:20:38Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00756,2026-08-18T19:55:45Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00757,2026-08-19T20:13:56Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00758,2026-08-18T19:08:42Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00759,2026-08-18T17:24:40Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00760,2026-08-21T08:26:41Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00761,2026-08-21T11:45:24Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00762,2026-08-19T11:08:50Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00763,2026-08-23T01:40:34Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00764,2026-08-22T15:37:02Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00765,2026-08-23T09:57:45Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00766,2026-08-21T22:08:02Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00767,2026-08-19T08:18:39Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00768,2026-08-18T23:41:34Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00769,2026-08-21T21:44:21Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00770,2026-08-21T13:15:32Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00771,2026-08-20T04:11:13Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00772,2026-08-21T07:33:48Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00773,2026-08-18T14:25:10Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00774,2026-08-21T20:05:40Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00775,2026-08-20T17:03:54Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00776,2026-08-19T19:54:30Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00777,2026-08-19T03:10:29Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00778,2026-08-23T09:24:53Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00779,2026-08-21T16:32:33Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00780,2026-08-18T22:07:36Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00781,2026-08-22T13:47:43Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00782,2026-08-18T23:18:46Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00783,2026-08-20T22:35:50Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00784,2026-08-20T14:44:42Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00785,2026-08-23T11:24:12Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00786,2026-08-20T07:46:05Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00787,2026-08-20T17:35:30Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00788,2026-08-22T15:15:29Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00789,2026-08-19T00:24:57Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00790,2026-08-22T20:04:05Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00791,2026-08-20T20:11:42Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00792,2026-08-21T03:38:49Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00793,2026-08-19T02:18:56Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00794,2026-08-18T14:10:28Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00795,2026-08-21T08:29:18Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00796,2026-08-18T16:51:18Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00797,2026-08-21T14:50:22Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00798,2026-08-20T04:10:40Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00799,2026-08-19T21:46:50Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00800,2026-08-20T16:05:54Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00801,2026-08-21T07:17:41Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00802,2026-08-20T01:15:06Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00803,2026-08-22T11:42:11Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00804,2026-08-21T23:20:58Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00805,2026-08-20T04:06:16Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00806,2026-08-22T11:47:13Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00807,2026-08-20T23:15:49Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00808,2026-08-23T00:39:17Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00809,2026-08-22T04:08:16Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00810,2026-08-22T10:46:21Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00811,2026-08-22T16:07:35Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00812,2026-08-21T07:11:33Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00813,2026-08-22T09:57:45Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00814,2026-08-20T02:37:22Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00815,2026-08-19T18:01:42Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00816,2026-08-22T09:32:55Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00817,2026-08-20T04:13:27Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00818,2026-08-22T20:22:51Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00819,2026-08-19T19:38:26Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00820,2026-08-18T17:48:06Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00821,2026-08-18T22:43:44Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00822,2026-08-18T13:20:59Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00823,2026-08-20T09:19:36Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00824,2026-08-22T21:20:41Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00825,2026-08-19T18:32:53Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00826,2026-08-18T13:01:56Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00827,2026-08-20T09:10:48Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00828,2026-08-21T17:34:30Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00829,2026-08-21T22:55:03Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00830,2026-08-20T14:51:37Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00831,2026-08-19T02:04:39Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00832,2026-08-21T12:25:54Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00833,2026-08-22T08:10:52Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00834,2026-08-20T10:40:09Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00835,2026-08-22T18:58:12Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00836,2026-08-20T19:15:44Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00837,2026-08-23T06:55:53Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00838,2026-08-18T14:48:04Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00839,2026-08-19T21:00:25Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00840,2026-08-22T05:07:25Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00841,2026-08-18T16:59:53Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00842,2026-08-23T00:33:39Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00843,2026-08-20T23:16:57Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00844,2026-08-18T19:02:45Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00845,2026-08-19T07:59:28Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00846,2026-08-22T14:40:01Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00847,2026-08-21T09:49:05Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00848,2026-08-18T14:43:46Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00849,2026-08-22T03:19:44Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00850,2026-08-21T00:47:25Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00851,2026-08-21T08:06:46Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00852,2026-08-21T13:57:28Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00853,2026-08-20T17:15:25Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00854,2026-08-21T08:47:47Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00855,2026-08-19T21:16:03Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00856,2026-08-22T09:43:21Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00857,2026-08-21T07:23:44Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00858,2026-08-22T21:25:41Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00859,2026-08-18T13:39:27Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00860,2026-08-23T00:20:27Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00861,2026-08-19T23:55:21Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00862,2026-08-22T02:45:17Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00863,2026-08-19T23:57:13Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00864,2026-08-20T19:11:12Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00865,2026-08-22T10:03:33Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00866,2026-08-19T08:46:20Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00867,2026-08-19T06:02:06Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00868,2026-08-22T20:12:20Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00869,2026-08-21T06:52:45Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00870,2026-08-21T19:32:31Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00871,2026-08-19T03:38:11Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00872,2026-08-19T05:53:07Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00873,2026-08-21T16:26:12Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00874,2026-08-22T15:47:55Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00875,2026-08-19T06:57:59Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00876,2026-08-18T18:48:30Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00877,2026-08-23T02:02:04Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00878,2026-08-21T14:59:12Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00879,2026-08-21T14:39:06Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00880,2026-08-20T14:11:48Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00881,2026-08-19T21:41:06Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00882,2026-08-23T01:07:29Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00883,2026-08-23T06:08:47Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00884,2026-08-20T11:37:07Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00885,2026-08-19T14:03:54Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00886,2026-08-19T14:22:32Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00887,2026-08-18T19:42:23Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00888,2026-08-20T17:04:14Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00889,2026-08-20T06:04:04Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00890,2026-08-20T16:04:04Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00891,2026-08-19T13:22:23Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00892,2026-08-21T00:54:47Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00893,2026-08-19T09:55:56Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00894,2026-08-21T12:29:15Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00895,2026-08-20T02:19:15Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00896,2026-08-18T13:05:44Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00897,2026-08-21T20:39:45Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00898,2026-08-20T01:38:03Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00899,2026-08-22T18:52:42Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00900,2026-08-22T08:43:17Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00901,2026-08-22T22:11:21Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00902,2026-08-21T18:50:16Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00903,2026-08-23T09:07:40Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00904,2026-08-23T03:02:46Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00905,2026-08-21T01:41:14Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00906,2026-08-23T11:58:40Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00907,2026-08-19T16:18:27Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00908,2026-08-21T04:31:45Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00909,2026-08-22T10:24:22Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00910,2026-08-22T14:04:17Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00911,2026-08-22T17:13:18Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00912,2026-08-22T05:49:31Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00913,2026-08-20T22:50:22Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00914,2026-08-22T01:02:25Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00915,2026-08-21T17:39:24Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00916,2026-08-22T12:49:54Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00917,2026-08-23T11:13:50Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00918,2026-08-22T07:02:36Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00919,2026-08-18T20:33:00Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00920,2026-08-21T05:09:31Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00921,2026-08-19T23:32:03Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00922,2026-08-21T23:27:12Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00923,2026-08-22T03:47:02Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00924,2026-08-20T02:36:57Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00925,2026-08-21T16:25:08Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00926,2026-08-23T11:21:06Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00927,2026-08-20T03:47:48Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00928,2026-08-20T11:46:53Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00929,2026-08-18T14:32:31Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00930,2026-08-20T00:13:21Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00931,2026-08-20T01:41:08Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00932,2026-08-20T23:41:57Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00933,2026-08-20T02:55:31Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00934,2026-08-19T17:40:53Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00935,2026-08-21T08:24:51Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00936,2026-08-18T14:33:56Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00937,2026-08-21T22:33:23Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00938,2026-08-20T03:16:48Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00939,2026-08-23T06:18:09Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00940,2026-08-23T02:32:59Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00941,2026-08-18T19:24:28Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00942,2026-08-22T14:06:06Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00943,2026-08-18T19:37:11Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00944,2026-08-20T19:06:43Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00945,2026-08-23T09:11:05Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00946,2026-08-18T20:45:18Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00947,2026-08-21T07:12:40Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00948,2026-08-21T02:11:53Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00949,2026-08-19T23:23:45Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00950,2026-08-19T19:08:31Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00951,2026-08-19T06:07:42Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00952,2026-08-22T09:32:34Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00953,2026-08-19T22:43:58Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00954,2026-08-18T14:35:47Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00955,2026-08-18T13:29:04Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00956,2026-08-20T21:04:56Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00957,2026-08-21T03:49:30Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00958,2026-08-20T19:50:38Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00959,2026-08-23T09:45:31Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00960,2026-08-20T16:11:41Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00961,2026-08-18T19:36:32Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00962,2026-08-22T02:08:53Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00963,2026-08-19T03:53:06Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00964,2026-08-23T05:34:31Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00965,2026-08-21T08:44:04Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00966,2026-08-21T21:31:48Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00967,2026-08-18T17:37:31Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00968,2026-08-22T18:03:32Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00969,2026-08-22T20:22:11Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00970,2026-08-19T18:00:48Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00971,2026-08-20T00:32:49Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00972,2026-08-21T02:40:28Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00973,2026-08-22T13:51:06Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00974,2026-08-21T02:28:12Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00975,2026-08-21T21:39:01Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00976,2026-08-21T06:15:40Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00977,2026-08-22T21:21:51Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00978,2026-08-23T07:24:02Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00979,2026-08-22T21:52:58Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00980,2026-08-22T20:13:43Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00981,2026-08-20T12:41:01Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00982,2026-08-19T18:25:26Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00983,2026-08-19T19:42:48Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00984,2026-08-18T17:41:32Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00985,2026-08-23T04:30:59Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00986,2026-08-20T05:24:47Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00987,2026-08-22T03:45:19Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00988,2026-08-21T19:10:56Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00989,2026-08-21T11:18:21Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00990,2026-08-19T08:30:00Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00991,2026-08-20T18:04:01Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-00992,2026-08-21T07:16:36Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-00993,2026-08-23T02:42:21Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00994,2026-08-21T10:22:39Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00995,2026-08-23T11:56:11Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00996,2026-08-20T08:38:39Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-00997,2026-08-21T10:21:51Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-00998,2026-08-18T23:57:39Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-00999,2026-08-18T12:13:38Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01000,2026-08-22T14:08:17Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01001,2026-08-23T08:23:53Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01002,2026-08-19T08:22:52Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01003,2026-08-18T23:25:45Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01004,2026-08-19T21:02:06Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01005,2026-08-18T16:48:28Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01006,2026-08-19T18:36:25Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01007,2026-08-20T08:34:13Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01008,2026-08-19T23:16:13Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01009,2026-08-23T01:07:18Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01010,2026-08-20T20:28:23Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01011,2026-08-21T06:56:53Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01012,2026-08-23T04:09:55Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01013,2026-08-19T17:11:41Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01014,2026-08-19T18:05:55Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01015,2026-08-20T12:57:34Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01016,2026-08-19T01:18:27Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01017,2026-08-20T20:03:38Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01018,2026-08-20T04:13:41Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01019,2026-08-20T01:14:15Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01020,2026-08-22T05:55:29Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01021,2026-08-19T02:25:16Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01022,2026-08-19T13:16:08Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01023,2026-08-23T08:58:46Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01024,2026-08-21T08:28:43Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01025,2026-08-22T10:43:26Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01026,2026-08-23T06:42:57Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01027,2026-08-22T22:19:03Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01028,2026-08-20T13:04:14Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01029,2026-08-22T03:10:02Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01030,2026-08-23T03:44:06Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01031,2026-08-21T04:56:35Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01032,2026-08-22T20:46:59Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01033,2026-08-18T17:06:57Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01034,2026-08-22T17:48:42Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01035,2026-08-22T06:16:14Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01036,2026-08-23T07:55:17Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01037,2026-08-23T00:07:06Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01038,2026-08-19T02:32:16Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01039,2026-08-20T09:55:35Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01040,2026-08-22T03:48:44Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01041,2026-08-22T07:34:57Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01042,2026-08-20T18:51:23Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01043,2026-08-21T17:26:30Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01044,2026-08-20T06:37:57Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01045,2026-08-22T22:35:27Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01046,2026-08-23T01:08:04Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01047,2026-08-20T17:24:49Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01048,2026-08-21T23:14:01Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01049,2026-08-23T02:23:30Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01050,2026-08-19T10:48:48Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01051,2026-08-22T20:02:55Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01052,2026-08-19T21:30:23Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01053,2026-08-19T12:31:07Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01054,2026-08-21T12:56:52Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01055,2026-08-22T06:23:18Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01056,2026-08-21T06:02:13Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01057,2026-08-21T20:55:46Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01058,2026-08-21T10:53:17Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01059,2026-08-20T19:14:44Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01060,2026-08-22T22:05:33Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01061,2026-08-21T05:47:10Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01062,2026-08-23T06:14:07Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01063,2026-08-22T11:38:23Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01064,2026-08-20T21:15:10Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01065,2026-08-20T13:54:21Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01066,2026-08-20T05:29:52Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01067,2026-08-23T06:21:36Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01068,2026-08-20T13:55:07Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01069,2026-08-22T15:58:28Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01070,2026-08-20T19:06:36Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01071,2026-08-23T03:10:31Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01072,2026-08-19T15:08:48Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01073,2026-08-22T17:10:32Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01074,2026-08-20T10:02:56Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01075,2026-08-21T16:42:42Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01076,2026-08-18T20:39:08Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01077,2026-08-21T22:17:35Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01078,2026-08-18T20:41:36Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01079,2026-08-20T03:31:29Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01080,2026-08-20T14:34:46Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01081,2026-08-19T02:09:31Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01082,2026-08-21T16:11:05Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01083,2026-08-20T05:26:35Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01084,2026-08-20T08:58:00Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01085,2026-08-21T09:00:58Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01086,2026-08-22T03:15:18Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01087,2026-08-21T18:14:43Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01088,2026-08-19T19:06:25Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01089,2026-08-23T01:30:09Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01090,2026-08-20T19:36:32Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01091,2026-08-22T18:37:37Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01092,2026-08-20T22:31:21Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01093,2026-08-19T06:36:47Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01094,2026-08-19T22:16:46Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01095,2026-08-20T19:52:14Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01096,2026-08-20T10:50:01Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01097,2026-08-22T11:51:02Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01098,2026-08-19T16:34:47Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01099,2026-08-22T20:40:51Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01100,2026-08-21T21:45:57Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01101,2026-08-21T07:03:01Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01102,2026-08-20T09:33:56Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01103,2026-08-19T00:42:33Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01104,2026-08-19T02:06:45Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01105,2026-08-19T19:18:42Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01106,2026-08-20T01:42:39Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01107,2026-08-22T05:04:27Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01108,2026-08-22T16:46:05Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01109,2026-08-18T12:58:00Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01110,2026-08-22T22:26:25Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01111,2026-08-19T07:10:23Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01112,2026-08-18T12:00:21Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01113,2026-08-19T22:33:26Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01114,2026-08-22T19:27:59Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01115,2026-08-21T03:26:05Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01116,2026-08-21T10:22:49Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01117,2026-08-20T17:07:04Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01118,2026-08-22T04:42:41Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01119,2026-08-20T22:37:39Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01120,2026-08-20T14:36:07Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01121,2026-08-23T02:13:20Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01122,2026-08-22T12:45:44Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01123,2026-08-20T16:06:15Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01124,2026-08-21T21:49:29Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01125,2026-08-19T19:04:16Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01126,2026-08-22T21:05:22Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01127,2026-08-18T20:19:17Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01128,2026-08-20T16:20:56Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01129,2026-08-23T07:35:41Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01130,2026-08-22T08:48:50Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01131,2026-08-21T06:26:42Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01132,2026-08-21T09:13:34Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01133,2026-08-21T03:17:27Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01134,2026-08-23T11:01:23Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01135,2026-08-23T03:32:54Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01136,2026-08-23T05:49:22Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01137,2026-08-22T18:18:22Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01138,2026-08-18T18:23:56Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01139,2026-08-20T07:05:57Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01140,2026-08-21T10:21:37Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01141,2026-08-21T05:58:23Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01142,2026-08-19T08:05:56Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01143,2026-08-22T12:35:34Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01144,2026-08-21T01:55:13Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01145,2026-08-23T04:14:15Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01146,2026-08-20T13:26:02Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01147,2026-08-19T16:23:22Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01148,2026-08-20T03:48:36Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01149,2026-08-19T00:55:23Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01150,2026-08-18T20:02:26Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01151,2026-08-21T02:21:17Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01152,2026-08-18T17:28:38Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01153,2026-08-22T20:51:02Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01154,2026-08-19T14:02:32Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01155,2026-08-21T08:50:18Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01156,2026-08-19T02:49:43Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01157,2026-08-20T04:57:44Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01158,2026-08-22T22:14:14Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01159,2026-08-23T03:00:06Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01160,2026-08-21T17:47:27Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01161,2026-08-22T05:19:48Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01162,2026-08-19T06:54:37Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01163,2026-08-21T19:09:55Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01164,2026-08-19T05:18:17Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01165,2026-08-22T14:11:39Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01166,2026-08-19T21:31:29Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01167,2026-08-20T06:33:45Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01168,2026-08-20T00:53:44Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01169,2026-08-21T23:17:14Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01170,2026-08-21T00:28:43Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01171,2026-08-23T02:18:32Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01172,2026-08-22T20:42:46Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01173,2026-08-20T06:11:07Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01174,2026-08-18T21:37:00Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01175,2026-08-21T14:30:13Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01176,2026-08-23T05:53:43Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01177,2026-08-20T00:46:28Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01178,2026-08-23T07:59:47Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01179,2026-08-20T03:59:33Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01180,2026-08-22T22:26:56Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01181,2026-08-21T03:47:39Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01182,2026-08-21T21:45:01Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01183,2026-08-19T04:04:31Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01184,2026-08-22T04:32:42Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01185,2026-08-19T15:34:51Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01186,2026-08-19T00:59:38Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01187,2026-08-19T07:01:46Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01188,2026-08-22T20:09:10Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01189,2026-08-21T10:31:11Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01190,2026-08-20T03:36:48Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01191,2026-08-22T00:47:19Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01192,2026-08-20T21:41:23Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01193,2026-08-23T01:51:20Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01194,2026-08-22T06:54:32Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01195,2026-08-21T20:07:21Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01196,2026-08-21T13:38:35Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01197,2026-08-20T03:55:59Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01198,2026-08-22T23:28:58Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01199,2026-08-19T00:14:38Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01200,2026-08-19T19:19:59Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01201,2026-08-21T15:04:31Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01202,2026-08-19T13:06:48Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01203,2026-08-22T14:56:20Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01204,2026-08-22T06:13:46Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01205,2026-08-20T11:28:22Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01206,2026-08-19T11:39:10Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01207,2026-08-23T03:10:14Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01208,2026-08-19T22:31:49Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01209,2026-08-19T19:50:33Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01210,2026-08-20T01:57:03Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01211,2026-08-21T07:56:39Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01212,2026-08-20T05:49:08Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01213,2026-08-20T23:47:24Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01214,2026-08-20T19:02:58Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01215,2026-08-19T12:50:42Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01216,2026-08-23T10:21:53Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01217,2026-08-21T04:38:45Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01218,2026-08-19T08:08:17Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01219,2026-08-23T10:47:23Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01220,2026-08-18T14:39:29Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01221,2026-08-22T14:39:43Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01222,2026-08-22T13:31:52Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01223,2026-08-18T20:00:58Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01224,2026-08-22T09:38:50Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01225,2026-08-21T15:23:08Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01226,2026-08-23T09:17:41Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01227,2026-08-20T14:47:57Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01228,2026-08-18T14:08:50Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01229,2026-08-19T23:34:37Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01230,2026-08-18T21:01:08Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01231,2026-08-21T01:40:03Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01232,2026-08-20T20:28:39Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01233,2026-08-19T11:47:18Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01234,2026-08-21T00:24:47Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01235,2026-08-19T00:13:22Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01236,2026-08-21T20:58:12Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01237,2026-08-21T18:33:14Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01238,2026-08-21T13:03:45Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01239,2026-08-23T05:20:34Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01240,2026-08-19T22:02:58Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01241,2026-08-20T16:14:35Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01242,2026-08-20T06:12:41Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01243,2026-08-21T15:30:42Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01244,2026-08-19T18:44:28Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01245,2026-08-18T19:35:18Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01246,2026-08-21T21:49:17Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01247,2026-08-18T23:59:35Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01248,2026-08-19T03:47:59Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01249,2026-08-19T13:49:37Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01250,2026-08-23T02:47:38Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01251,2026-08-22T15:48:58Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01252,2026-08-21T19:36:00Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01253,2026-08-22T06:55:22Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01254,2026-08-23T01:42:31Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01255,2026-08-21T16:35:15Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01256,2026-08-20T22:43:23Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01257,2026-08-20T06:18:17Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01258,2026-08-19T09:55:11Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01259,2026-08-22T17:51:35Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01260,2026-08-21T08:54:49Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01261,2026-08-21T16:37:10Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01262,2026-08-20T08:09:13Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01263,2026-08-21T04:42:36Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01264,2026-08-23T07:55:16Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01265,2026-08-18T12:41:42Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01266,2026-08-19T19:51:06Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01267,2026-08-20T02:41:56Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01268,2026-08-19T04:11:41Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01269,2026-08-21T21:16:33Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01270,2026-08-22T18:46:09Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01271,2026-08-22T06:52:33Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01272,2026-08-22T08:46:24Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01273,2026-08-19T01:58:24Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01274,2026-08-21T16:04:36Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01275,2026-08-18T20:35:15Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01276,2026-08-22T06:02:21Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01277,2026-08-19T03:11:27Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01278,2026-08-18T20:22:26Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01279,2026-08-19T09:14:39Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01280,2026-08-18T21:50:25Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01281,2026-08-20T12:19:13Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01282,2026-08-23T06:58:02Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01283,2026-08-23T09:45:39Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01284,2026-08-21T03:51:40Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01285,2026-08-20T16:00:05Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01286,2026-08-22T09:20:50Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01287,2026-08-18T15:09:51Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01288,2026-08-23T05:34:38Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01289,2026-08-20T20:47:51Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01290,2026-08-21T18:27:54Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01291,2026-08-19T08:47:14Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01292,2026-08-20T17:47:16Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01293,2026-08-21T10:51:42Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01294,2026-08-18T22:03:30Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01295,2026-08-21T06:05:23Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01296,2026-08-21T13:11:01Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01297,2026-08-19T15:53:36Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01298,2026-08-19T14:20:38Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01299,2026-08-21T21:38:51Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01300,2026-08-19T10:44:59Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01301,2026-08-20T12:18:31Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01302,2026-08-21T19:18:12Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01303,2026-08-23T05:43:39Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01304,2026-08-20T00:18:38Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01305,2026-08-22T10:56:51Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01306,2026-08-19T10:40:44Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01307,2026-08-20T03:20:17Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01308,2026-08-21T18:06:34Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01309,2026-08-19T00:45:57Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01310,2026-08-23T03:23:54Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01311,2026-08-19T17:18:14Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01312,2026-08-20T13:08:24Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01313,2026-08-22T08:48:29Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01314,2026-08-21T17:34:12Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01315,2026-08-19T04:12:07Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01316,2026-08-19T02:04:10Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01317,2026-08-19T02:56:24Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01318,2026-08-20T02:09:01Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01319,2026-08-22T21:26:55Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01320,2026-08-22T05:48:59Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01321,2026-08-21T21:31:32Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01322,2026-08-23T06:32:35Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01323,2026-08-19T22:44:55Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01324,2026-08-19T07:56:42Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01325,2026-08-22T04:42:13Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01326,2026-08-20T22:02:29Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01327,2026-08-23T08:23:45Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01328,2026-08-23T09:07:50Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01329,2026-08-22T11:14:23Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01330,2026-08-19T01:24:09Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01331,2026-08-23T11:39:14Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01332,2026-08-22T04:46:05Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01333,2026-08-23T08:02:50Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01334,2026-08-19T14:03:38Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01335,2026-08-21T10:24:56Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01336,2026-08-19T19:22:19Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01337,2026-08-19T06:05:52Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01338,2026-08-19T01:03:08Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01339,2026-08-22T06:08:14Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01340,2026-08-19T13:18:47Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01341,2026-08-20T17:36:50Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01342,2026-08-22T22:32:57Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01343,2026-08-21T15:02:10Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01344,2026-08-22T17:36:37Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01345,2026-08-20T21:47:59Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01346,2026-08-21T22:34:11Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01347,2026-08-22T20:49:54Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01348,2026-08-21T20:46:15Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01349,2026-08-23T02:41:06Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01350,2026-08-19T23:40:03Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01351,2026-08-21T15:18:54Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01352,2026-08-18T19:21:49Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01353,2026-08-22T22:15:56Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01354,2026-08-23T11:07:19Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01355,2026-08-21T11:21:39Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01356,2026-08-23T03:07:14Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01357,2026-08-22T06:32:11Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01358,2026-08-21T00:36:29Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01359,2026-08-20T03:31:59Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01360,2026-08-22T02:44:23Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01361,2026-08-21T08:01:35Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01362,2026-08-21T20:40:46Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01363,2026-08-21T02:05:30Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01364,2026-08-18T19:41:36Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01365,2026-08-23T05:53:20Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01366,2026-08-22T17:47:03Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01367,2026-08-19T10:26:12Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01368,2026-08-19T07:59:24Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01369,2026-08-21T21:45:59Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01370,2026-08-21T14:53:31Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01371,2026-08-19T22:28:00Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01372,2026-08-21T02:02:01Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01373,2026-08-21T13:05:48Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01374,2026-08-22T03:31:01Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01375,2026-08-22T10:25:05Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01376,2026-08-20T22:50:29Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01377,2026-08-22T04:18:43Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01378,2026-08-23T09:57:12Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01379,2026-08-23T00:35:41Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01380,2026-08-21T21:29:20Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01381,2026-08-22T09:48:52Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01382,2026-08-20T14:37:00Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01383,2026-08-19T09:48:47Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01384,2026-08-19T15:36:16Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01385,2026-08-23T05:15:08Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01386,2026-08-20T02:22:53Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01387,2026-08-19T23:49:31Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01388,2026-08-22T21:48:35Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01389,2026-08-23T10:24:02Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01390,2026-08-22T17:25:15Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01391,2026-08-18T18:44:03Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01392,2026-08-23T11:28:14Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01393,2026-08-22T10:16:40Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01394,2026-08-19T17:20:54Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01395,2026-08-19T09:19:11Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01396,2026-08-23T04:16:30Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01397,2026-08-21T20:11:23Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01398,2026-08-18T18:10:29Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01399,2026-08-23T02:02:33Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01400,2026-08-21T21:50:15Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01401,2026-08-18T20:58:36Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01402,2026-08-23T11:15:27Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01403,2026-08-21T11:04:29Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01404,2026-08-22T18:14:50Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01405,2026-08-20T06:17:15Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01406,2026-08-21T09:52:15Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01407,2026-08-19T00:03:38Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01408,2026-08-22T17:40:37Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01409,2026-08-22T05:59:01Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01410,2026-08-20T22:14:26Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01411,2026-08-20T20:06:27Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01412,2026-08-22T00:37:30Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01413,2026-08-18T18:37:57Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01414,2026-08-23T08:21:38Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01415,2026-08-22T19:23:25Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01416,2026-08-21T20:29:17Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01417,2026-08-19T21:51:59Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01418,2026-08-20T08:48:54Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01419,2026-08-19T11:45:36Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01420,2026-08-18T23:46:15Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01421,2026-08-19T19:21:06Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01422,2026-08-22T21:42:13Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01423,2026-08-21T02:49:50Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01424,2026-08-19T00:38:39Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01425,2026-08-19T08:36:43Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01426,2026-08-22T01:30:33Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01427,2026-08-21T06:10:15Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01428,2026-08-19T20:31:38Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01429,2026-08-23T05:05:34Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01430,2026-08-20T15:05:10Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01431,2026-08-20T22:58:08Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01432,2026-08-21T05:51:00Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01433,2026-08-23T10:50:03Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01434,2026-08-19T00:09:00Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01435,2026-08-18T12:13:05Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01436,2026-08-18T21:17:01Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01437,2026-08-21T12:04:33Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01438,2026-08-19T16:57:19Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01439,2026-08-23T11:00:48Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01440,2026-08-18T19:57:33Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01441,2026-08-22T06:42:43Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01442,2026-08-21T11:07:28Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01443,2026-08-19T15:00:31Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01444,2026-08-23T00:10:06Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01445,2026-08-21T02:17:53Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01446,2026-08-19T11:20:39Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01447,2026-08-23T02:38:34Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01448,2026-08-21T03:56:00Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01449,2026-08-19T01:12:53Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01450,2026-08-21T01:46:03Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01451,2026-08-21T03:53:55Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01452,2026-08-21T19:23:19Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01453,2026-08-19T08:41:57Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01454,2026-08-21T20:49:54Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01455,2026-08-21T03:53:46Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01456,2026-08-23T10:23:24Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01457,2026-08-19T14:16:11Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01458,2026-08-19T22:59:47Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01459,2026-08-21T13:31:44Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01460,2026-08-19T08:59:37Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01461,2026-08-19T04:54:28Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01462,2026-08-22T02:14:25Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01463,2026-08-20T19:36:04Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01464,2026-08-22T20:02:42Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01465,2026-08-18T18:08:57Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01466,2026-08-19T23:00:08Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01467,2026-08-21T15:47:04Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01468,2026-08-19T20:19:57Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01469,2026-08-18T22:13:06Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01470,2026-08-22T08:56:09Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01471,2026-08-19T21:33:45Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01472,2026-08-22T03:40:56Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01473,2026-08-22T19:53:40Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01474,2026-08-22T18:41:11Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01475,2026-08-19T22:04:28Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01476,2026-08-20T02:57:53Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01477,2026-08-19T13:50:25Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01478,2026-08-22T07:18:43Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01479,2026-08-22T20:29:54Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01480,2026-08-20T23:32:11Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01481,2026-08-21T23:29:50Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01482,2026-08-21T08:55:48Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01483,2026-08-19T12:54:53Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01484,2026-08-22T07:38:53Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01485,2026-08-21T22:17:55Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01486,2026-08-19T02:11:30Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01487,2026-08-18T19:50:28Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01488,2026-08-21T11:14:23Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01489,2026-08-20T05:39:35Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01490,2026-08-21T17:15:04Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01491,2026-08-23T05:45:02Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01492,2026-08-22T20:55:22Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01493,2026-08-19T22:00:02Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01494,2026-08-22T14:50:42Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01495,2026-08-23T02:09:49Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01496,2026-08-19T19:44:51Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01497,2026-08-23T07:42:50Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01498,2026-08-22T12:10:56Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01499,2026-08-21T01:51:16Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01500,2026-08-18T18:41:51Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01501,2026-08-22T12:35:25Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01502,2026-08-19T04:48:03Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01503,2026-08-21T14:34:50Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01504,2026-08-22T17:54:07Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01505,2026-08-20T15:21:24Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01506,2026-08-22T08:43:40Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01507,2026-08-18T15:49:13Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01508,2026-08-21T16:17:05Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01509,2026-08-21T00:54:10Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01510,2026-08-23T05:41:28Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01511,2026-08-21T21:34:59Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01512,2026-08-19T07:40:29Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01513,2026-08-23T02:29:27Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01514,2026-08-22T01:38:51Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01515,2026-08-23T07:55:58Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01516,2026-08-19T04:25:05Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01517,2026-08-20T13:12:38Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01518,2026-08-21T13:53:22Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01519,2026-08-21T09:23:00Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01520,2026-08-18T21:55:11Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01521,2026-08-21T10:45:29Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01522,2026-08-18T17:15:36Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01523,2026-08-22T05:36:07Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01524,2026-08-22T21:22:05Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01525,2026-08-21T07:19:33Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01526,2026-08-23T03:50:18Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01527,2026-08-18T15:07:25Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01528,2026-08-20T22:49:43Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01529,2026-08-19T16:16:53Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01530,2026-08-23T09:02:52Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01531,2026-08-21T13:17:16Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01532,2026-08-19T01:59:56Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01533,2026-08-23T08:56:55Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01534,2026-08-19T06:11:54Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01535,2026-08-23T08:56:02Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01536,2026-08-23T00:04:25Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01537,2026-08-21T08:49:22Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01538,2026-08-21T06:13:08Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01539,2026-08-23T09:31:27Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01540,2026-08-20T00:22:12Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01541,2026-08-19T16:34:46Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01542,2026-08-19T23:42:11Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01543,2026-08-18T23:23:31Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01544,2026-08-20T15:07:17Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01545,2026-08-19T11:57:03Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01546,2026-08-18T12:04:07Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01547,2026-08-19T03:48:56Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01548,2026-08-19T22:23:09Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01549,2026-08-21T07:49:34Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01550,2026-08-22T00:32:19Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01551,2026-08-22T13:58:49Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01552,2026-08-22T23:49:40Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01553,2026-08-20T10:28:26Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01554,2026-08-23T10:23:23Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01555,2026-08-22T12:30:50Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01556,2026-08-21T06:25:34Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01557,2026-08-22T20:32:09Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01558,2026-08-19T01:37:05Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01559,2026-08-23T08:30:18Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01560,2026-08-20T05:06:12Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01561,2026-08-21T07:11:25Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01562,2026-08-23T04:06:21Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01563,2026-08-21T18:24:10Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01564,2026-08-20T21:33:50Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01565,2026-08-23T08:40:53Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01566,2026-08-21T22:39:26Z,BACKUP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01567,2026-08-20T05:40:54Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01568,2026-08-20T20:40:44Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01569,2026-08-20T01:35:42Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01570,2026-08-19T19:23:48Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01571,2026-08-21T15:52:00Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01572,2026-08-20T07:11:35Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01573,2026-08-22T19:07:18Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01574,2026-08-22T01:13:51Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01575,2026-08-21T19:44:52Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01576,2026-08-21T04:01:58Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01577,2026-08-21T05:25:19Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01578,2026-08-20T03:42:32Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01579,2026-08-20T23:38:49Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01580,2026-08-20T05:02:06Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01581,2026-08-20T02:39:54Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01582,2026-08-21T04:44:05Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01583,2026-08-22T17:07:59Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01584,2026-08-21T15:55:36Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01585,2026-08-21T15:40:13Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01586,2026-08-18T20:50:25Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01587,2026-08-21T14:09:05Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01588,2026-08-22T04:09:32Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01589,2026-08-21T07:39:59Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01590,2026-08-20T12:10:53Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01591,2026-08-19T15:25:24Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01592,2026-08-23T04:09:26Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01593,2026-08-21T22:01:02Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01594,2026-08-20T10:12:50Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01595,2026-08-18T23:05:21Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01596,2026-08-19T19:24:59Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01597,2026-08-22T07:44:14Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01598,2026-08-18T22:53:10Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01599,2026-08-19T07:27:44Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01600,2026-08-21T14:53:41Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01601,2026-08-18T14:06:02Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01602,2026-08-22T11:31:33Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01603,2026-08-19T17:27:09Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01604,2026-08-23T10:18:16Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01605,2026-08-21T22:11:22Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01606,2026-08-23T07:40:55Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01607,2026-08-21T04:47:26Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01608,2026-08-18T17:35:29Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01609,2026-08-21T05:53:38Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01610,2026-08-19T03:49:24Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01611,2026-08-21T00:47:14Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01612,2026-08-20T12:35:43Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01613,2026-08-19T18:08:13Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01614,2026-08-20T04:02:13Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01615,2026-08-19T08:57:03Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01616,2026-08-20T18:37:51Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01617,2026-08-19T03:36:59Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01618,2026-08-21T18:46:52Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01619,2026-08-23T02:47:37Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01620,2026-08-19T18:54:00Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01621,2026-08-20T02:48:38Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01622,2026-08-18T13:25:56Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01623,2026-08-21T14:58:33Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01624,2026-08-18T22:06:49Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01625,2026-08-18T15:38:30Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01626,2026-08-20T11:27:30Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01627,2026-08-20T15:49:39Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01628,2026-08-21T11:00:27Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01629,2026-08-22T02:38:43Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01630,2026-08-20T10:29:20Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01631,2026-08-23T03:31:38Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01632,2026-08-20T17:07:52Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01633,2026-08-21T00:57:30Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01634,2026-08-20T13:34:23Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01635,2026-08-22T04:33:54Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01636,2026-08-20T01:35:58Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01637,2026-08-19T09:07:09Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01638,2026-08-19T13:56:47Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01639,2026-08-20T04:28:41Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01640,2026-08-20T22:07:48Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01641,2026-08-19T04:56:02Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01642,2026-08-21T23:00:44Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01643,2026-08-21T12:49:41Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01644,2026-08-23T00:14:31Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01645,2026-08-21T16:09:22Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01646,2026-08-19T07:55:49Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01647,2026-08-20T14:42:51Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01648,2026-08-19T23:08:21Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01649,2026-08-21T15:05:22Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01650,2026-08-19T14:33:48Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01651,2026-08-22T00:53:22Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01652,2026-08-23T07:42:57Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01653,2026-08-18T14:40:07Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01654,2026-08-22T04:05:42Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01655,2026-08-20T16:28:47Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01656,2026-08-20T03:13:57Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01657,2026-08-22T17:37:43Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01658,2026-08-20T22:09:27Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01659,2026-08-22T12:40:55Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01660,2026-08-18T14:32:57Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01661,2026-08-22T00:24:36Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01662,2026-08-19T01:43:32Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01663,2026-08-20T20:29:47Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01664,2026-08-20T07:39:02Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01665,2026-08-20T09:32:07Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01666,2026-08-20T02:44:21Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01667,2026-08-23T02:21:09Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01668,2026-08-22T17:06:47Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01669,2026-08-21T17:10:40Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01670,2026-08-21T16:27:38Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01671,2026-08-21T22:37:03Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01672,2026-08-19T19:17:39Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01673,2026-08-18T15:48:14Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01674,2026-08-20T09:57:43Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01675,2026-08-19T08:22:08Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01676,2026-08-21T12:30:43Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01677,2026-08-22T10:52:31Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01678,2026-08-22T00:17:45Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01679,2026-08-21T13:55:38Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01680,2026-08-20T21:40:34Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01681,2026-08-19T02:23:22Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01682,2026-08-21T12:04:49Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01683,2026-08-19T13:46:02Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01684,2026-08-23T02:09:10Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01685,2026-08-21T18:27:31Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01686,2026-08-21T17:51:23Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01687,2026-08-23T10:16:41Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01688,2026-08-19T04:54:44Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01689,2026-08-19T02:13:54Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01690,2026-08-20T12:28:14Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01691,2026-08-20T02:29:11Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01692,2026-08-22T21:56:55Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01693,2026-08-22T15:31:07Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01694,2026-08-21T07:49:57Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01695,2026-08-18T20:09:56Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01696,2026-08-20T17:44:05Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01697,2026-08-19T12:12:35Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01698,2026-08-22T16:21:37Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01699,2026-08-18T12:01:08Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01700,2026-08-20T01:04:41Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01701,2026-08-21T04:02:15Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01702,2026-08-19T08:50:20Z,FILE-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01703,2026-08-21T02:23:12Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01704,2026-08-19T02:37:39Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01705,2026-08-20T18:03:54Z,APP-API-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01706,2026-08-19T03:44:40Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01707,2026-08-19T21:32:40Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01708,2026-08-21T03:28:00Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01709,2026-08-20T17:52:29Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01710,2026-08-21T20:46:03Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01711,2026-08-19T03:54:13Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01712,2026-08-20T19:28:31Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01713,2026-08-18T13:32:49Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01714,2026-08-21T06:03:59Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01715,2026-08-21T09:10:19Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01716,2026-08-23T09:31:56Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01717,2026-08-19T12:40:55Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01718,2026-08-20T19:37:43Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01719,2026-08-20T04:55:59Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01720,2026-08-21T18:41:45Z,DC-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01721,2026-08-22T01:57:45Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01722,2026-08-21T01:12:03Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01723,2026-08-20T09:02:15Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01724,2026-08-23T03:37:21Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01725,2026-08-22T08:31:32Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01726,2026-08-19T17:42:03Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01727,2026-08-22T01:38:00Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01728,2026-08-22T16:09:27Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01729,2026-08-19T15:32:42Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01730,2026-08-22T07:34:37Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01731,2026-08-22T23:26:56Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01732,2026-08-21T15:49:02Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01733,2026-08-19T04:37:55Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01734,2026-08-23T04:45:44Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01735,2026-08-21T18:15:50Z,FIN-WS-14,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01736,2026-08-19T19:09:19Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01737,2026-08-22T08:24:37Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01738,2026-08-22T11:19:33Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01739,2026-08-23T11:15:00Z,FIN-WS-14,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01740,2026-08-20T21:43:36Z,DC-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01741,2026-08-19T02:33:17Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01742,2026-08-21T16:02:16Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01743,2026-08-20T14:04:24Z,APP-API-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01744,2026-08-20T00:58:34Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01745,2026-08-22T01:57:53Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01746,2026-08-20T17:16:23Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01747,2026-08-21T09:06:04Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01748,2026-08-23T05:21:57Z,PRINT-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01749,2026-08-23T07:52:58Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01750,2026-08-20T20:12:11Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01751,2026-08-19T06:51:09Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01752,2026-08-23T00:45:29Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01753,2026-08-22T20:01:19Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01754,2026-08-23T01:48:47Z,JUMP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01755,2026-08-20T06:30:33Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01756,2026-08-21T06:57:53Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01757,2026-08-21T23:30:53Z,FILE-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01758,2026-08-21T20:05:18Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01759,2026-08-20T09:04:02Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01760,2026-08-19T04:32:38Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01761,2026-08-21T02:40:58Z,PRINT-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01762,2026-08-19T12:21:47Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01763,2026-08-21T12:28:25Z,FIN-WS-14,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01764,2026-08-22T22:20:16Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01765,2026-08-18T18:02:33Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01766,2026-08-20T03:05:02Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01767,2026-08-23T06:26:08Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01768,2026-08-20T10:09:36Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01769,2026-08-22T20:35:03Z,APP-API-02,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01770,2026-08-22T15:47:37Z,FILE-02,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01771,2026-08-22T09:17:38Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01772,2026-08-21T01:41:45Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01773,2026-08-19T07:19:25Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01774,2026-08-19T11:28:46Z,BACKUP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01775,2026-08-22T03:42:18Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01776,2026-08-18T12:15:24Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01777,2026-08-22T07:11:32Z,FIN-WS-14,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01778,2026-08-20T12:01:57Z,FIN-WS-14,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01779,2026-08-22T03:35:29Z,BACKUP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01780,2026-08-19T08:32:54Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01781,2026-08-20T18:37:47Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01782,2026-08-20T21:09:13Z,PRINT-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01783,2026-08-18T13:57:00Z,APP-API-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01784,2026-08-19T18:53:06Z,JUMP-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01785,2026-08-22T08:48:53Z,FILE-02,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01786,2026-08-22T01:48:38Z,APP-API-02,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01787,2026-08-21T23:55:01Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01788,2026-08-21T15:40:22Z,DC-01,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01789,2026-08-19T18:16:33Z,FILE-02,ACME\svc_backup,purposeful background context,benign,synthetic noise
+ASSET-01790,2026-08-22T09:55:34Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01791,2026-08-20T01:47:42Z,BACKUP-01,NT AUTHORITY\SYSTEM,purposeful background context,benign,synthetic noise
+ASSET-01792,2026-08-22T18:15:59Z,DC-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01793,2026-08-22T08:44:47Z,JUMP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01794,2026-08-20T04:29:45Z,JUMP-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01795,2026-08-18T17:54:58Z,DC-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01796,2026-08-20T19:44:45Z,PRINT-01,ACME\mrivera,purposeful background context,benign,synthetic noise
+ASSET-01797,2026-08-19T06:06:05Z,BACKUP-01,ACME\svc_print,purposeful background context,benign,synthetic noise
+ASSET-01798,2026-08-22T13:03:21Z,PRINT-01,ACME\jsmith,purposeful background context,benign,synthetic noise
+ASSET-01799,2026-08-21T09:57:04Z,JUMP-01,ACME\svc_backup,purposeful background context,benign,synthetic noise

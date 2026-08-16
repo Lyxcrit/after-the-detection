@@ -1,0 +1,1801 @@
+event_id,_time,src_host,dest_host,user,protocol,result,classification,note
+AUTH-00726,2026-08-18T12:04:21Z,JUMP-01,DC-01,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01650,2026-08-18T12:08:57Z,FILE-02,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01612,2026-08-18T12:11:06Z,DC-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01774,2026-08-18T12:19:39Z,BACKUP-01,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01045,2026-08-18T12:25:11Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01189,2026-08-18T12:31:01Z,FIN-WS-14,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00733,2026-08-18T12:33:00Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01689,2026-08-18T12:33:33Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01550,2026-08-18T12:33:45Z,FILE-02,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01589,2026-08-18T12:34:05Z,BACKUP-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01723,2026-08-18T12:36:48Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01368,2026-08-18T12:37:02Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00736,2026-08-18T12:37:47Z,FIN-WS-14,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00212,2026-08-18T12:42:16Z,FIN-WS-14,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01042,2026-08-18T12:44:13Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00727,2026-08-18T12:44:49Z,JUMP-01,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00440,2026-08-18T12:51:08Z,FILE-02,DC-01,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01558,2026-08-18T12:52:09Z,BACKUP-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01126,2026-08-18T12:52:22Z,PRINT-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00814,2026-08-18T13:01:27Z,PRINT-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00935,2026-08-18T13:09:55Z,FILE-02,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01047,2026-08-18T13:12:49Z,DC-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01569,2026-08-18T13:13:02Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01623,2026-08-18T13:14:27Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01199,2026-08-18T13:20:33Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-01138,2026-08-18T13:25:09Z,DC-01,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00573,2026-08-18T13:25:26Z,APP-API-02,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00765,2026-08-18T13:25:28Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00954,2026-08-18T13:33:49Z,APP-API-02,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01055,2026-08-18T13:37:10Z,DC-01,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00997,2026-08-18T13:43:53Z,DC-01,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01132,2026-08-18T13:44:17Z,DC-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01136,2026-08-18T13:46:13Z,DC-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01783,2026-08-18T13:50:57Z,FILE-02,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01034,2026-08-18T13:53:02Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00638,2026-08-18T13:55:09Z,JUMP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00940,2026-08-18T14:10:48Z,FILE-02,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00468,2026-08-18T14:17:52Z,PRINT-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01485,2026-08-18T14:21:41Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00466,2026-08-18T14:26:13Z,JUMP-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00904,2026-08-18T14:27:35Z,APP-API-02,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01401,2026-08-18T14:30:20Z,APP-API-02,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01097,2026-08-18T14:33:35Z,APP-API-02,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01078,2026-08-18T14:35:02Z,FIN-WS-14,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-INC-001,2026-08-18T14:41:00Z,FIN-WS-14,DC-01,ACME\mrivera,Kerberos,failure,contained,credential use after password reset from isolated host
+AUTH-01246,2026-08-18T14:43:05Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-INC-002,2026-08-18T14:44:00Z,FILE-02,DC-01,ACME\mrivera,Kerberos,success,investigate,same user succeeds from different host after reset
+AUTH-INC-003,2026-08-18T14:44:04Z,FILE-02,FILE-02,ACME\mrivera,SMB,success,investigate,finance share session
+AUTH-BEN-001,2026-08-18T14:45:00Z,BACKUP-01,FILE-02,ACME\svc_backup,SMB,success,benign,scheduled backup
+AUTH-00792,2026-08-18T14:50:34Z,PRINT-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-RESP-001,2026-08-18T14:52:00Z,JUMP-01,FILE-02,ACME\jsmith,RDP,success,response,authorized responder
+AUTH-01355,2026-08-18T14:55:37Z,FILE-02,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00616,2026-08-18T14:56:36Z,APP-API-02,FILE-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-01096,2026-08-18T14:58:44Z,JUMP-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01443,2026-08-18T15:01:38Z,JUMP-01,DC-01,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00231,2026-08-18T15:11:53Z,PRINT-01,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01259,2026-08-18T15:16:18Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-01563,2026-08-18T15:18:01Z,APP-API-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01522,2026-08-18T15:20:08Z,PRINT-01,APP-API-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00763,2026-08-18T15:20:22Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01775,2026-08-18T15:21:56Z,DC-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00839,2026-08-18T15:29:04Z,FILE-02,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01200,2026-08-18T15:29:33Z,PRINT-01,FILE-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-01491,2026-08-18T15:31:40Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01361,2026-08-18T15:35:55Z,BACKUP-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01571,2026-08-18T15:41:01Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01791,2026-08-18T15:42:25Z,JUMP-01,DC-01,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01763,2026-08-18T15:43:22Z,APP-API-02,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01128,2026-08-18T15:50:37Z,FILE-02,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00548,2026-08-18T15:52:50Z,FILE-02,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01321,2026-08-18T15:59:39Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01701,2026-08-18T16:07:27Z,BACKUP-01,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00684,2026-08-18T16:09:17Z,FILE-02,FILE-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01630,2026-08-18T16:22:10Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00928,2026-08-18T16:25:53Z,PRINT-01,APP-API-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01057,2026-08-18T16:29:23Z,DC-01,APP-API-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00357,2026-08-18T16:31:16Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00762,2026-08-18T16:34:03Z,FILE-02,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00916,2026-08-18T16:38:43Z,FILE-02,FILE-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00739,2026-08-18T16:43:26Z,JUMP-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00426,2026-08-18T16:44:33Z,PRINT-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00377,2026-08-18T16:57:37Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01597,2026-08-18T17:14:39Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01269,2026-08-18T17:25:18Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-00046,2026-08-18T17:26:30Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00007,2026-08-18T17:45:44Z,DC-01,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01225,2026-08-18T17:47:11Z,FIN-WS-14,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01679,2026-08-18T17:55:46Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00409,2026-08-18T18:09:41Z,FIN-WS-14,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01632,2026-08-18T18:11:25Z,PRINT-01,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00130,2026-08-18T18:19:11Z,DC-01,APP-API-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01163,2026-08-18T18:19:13Z,DC-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00057,2026-08-18T18:19:20Z,BACKUP-01,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00020,2026-08-18T18:28:34Z,JUMP-01,FILE-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00970,2026-08-18T18:29:17Z,JUMP-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00450,2026-08-18T18:29:54Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00696,2026-08-18T18:39:19Z,DC-01,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00790,2026-08-18T18:40:21Z,PRINT-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01439,2026-08-18T18:42:21Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00908,2026-08-18T18:50:01Z,FIN-WS-14,APP-API-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00631,2026-08-18T18:50:28Z,BACKUP-01,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00656,2026-08-18T18:52:56Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00401,2026-08-18T18:55:38Z,DC-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00243,2026-08-18T18:56:59Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00705,2026-08-18T19:00:43Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-01786,2026-08-18T19:02:10Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00427,2026-08-18T19:07:32Z,JUMP-01,APP-API-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-01245,2026-08-18T19:12:34Z,APP-API-02,APP-API-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00942,2026-08-18T19:13:22Z,FIN-WS-14,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01374,2026-08-18T19:21:31Z,DC-01,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00374,2026-08-18T19:24:07Z,FIN-WS-14,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01069,2026-08-18T19:26:02Z,JUMP-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00867,2026-08-18T19:27:25Z,BACKUP-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00982,2026-08-18T19:28:00Z,DC-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01402,2026-08-18T19:28:32Z,JUMP-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01166,2026-08-18T19:33:12Z,PRINT-01,DC-01,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-00623,2026-08-18T19:34:36Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00861,2026-08-18T19:35:32Z,FILE-02,DC-01,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-01422,2026-08-18T19:36:05Z,BACKUP-01,FILE-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01360,2026-08-18T19:41:44Z,JUMP-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01601,2026-08-18T19:49:08Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00715,2026-08-18T19:49:26Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00758,2026-08-18T19:56:10Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00152,2026-08-18T19:57:41Z,DC-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01505,2026-08-18T19:58:50Z,FIN-WS-14,FILE-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01637,2026-08-18T20:02:25Z,DC-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00304,2026-08-18T20:23:08Z,FIN-WS-14,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00030,2026-08-18T20:26:24Z,BACKUP-01,FILE-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00089,2026-08-18T20:26:56Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00742,2026-08-18T20:27:21Z,BACKUP-01,DC-01,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00624,2026-08-18T20:31:34Z,FILE-02,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00317,2026-08-18T20:32:07Z,DC-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01244,2026-08-18T20:32:37Z,FIN-WS-14,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01297,2026-08-18T20:38:34Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-00777,2026-08-18T20:46:14Z,PRINT-01,FILE-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00319,2026-08-18T20:52:14Z,DC-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00674,2026-08-18T20:53:04Z,DC-01,FILE-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00156,2026-08-18T20:53:24Z,FIN-WS-14,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01003,2026-08-18T20:56:16Z,APP-API-02,APP-API-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-01292,2026-08-18T20:56:43Z,JUMP-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00900,2026-08-18T21:09:12Z,APP-API-02,APP-API-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00456,2026-08-18T21:10:45Z,APP-API-02,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00083,2026-08-18T21:10:46Z,FIN-WS-14,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00805,2026-08-18T21:20:15Z,APP-API-02,DC-01,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00659,2026-08-18T21:22:30Z,APP-API-02,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00157,2026-08-18T21:22:37Z,BACKUP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01295,2026-08-18T21:25:28Z,FIN-WS-14,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01327,2026-08-18T21:26:02Z,JUMP-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00014,2026-08-18T21:26:24Z,FILE-02,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00835,2026-08-18T21:32:58Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01318,2026-08-18T21:43:39Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00524,2026-08-18T21:45:41Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00381,2026-08-18T21:49:13Z,FIN-WS-14,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00036,2026-08-18T21:51:35Z,FILE-02,APP-API-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01534,2026-08-18T21:52:37Z,DC-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00370,2026-08-18T22:04:09Z,APP-API-02,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01738,2026-08-18T22:16:01Z,JUMP-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00064,2026-08-18T22:16:20Z,JUMP-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01238,2026-08-18T22:27:28Z,FILE-02,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00917,2026-08-18T22:29:07Z,BACKUP-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00245,2026-08-18T22:31:08Z,FIN-WS-14,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00513,2026-08-18T22:33:42Z,BACKUP-01,APP-API-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00958,2026-08-18T22:36:06Z,FILE-02,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00457,2026-08-18T22:44:07Z,FILE-02,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00658,2026-08-18T22:44:51Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01335,2026-08-18T22:48:23Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00614,2026-08-18T22:49:53Z,PRINT-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00209,2026-08-18T22:51:09Z,JUMP-01,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00459,2026-08-18T22:54:31Z,BACKUP-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01115,2026-08-18T22:58:13Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-00757,2026-08-18T23:00:22Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00759,2026-08-18T23:00:30Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00003,2026-08-18T23:18:40Z,BACKUP-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01576,2026-08-18T23:28:42Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00593,2026-08-18T23:30:11Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00113,2026-08-18T23:31:31Z,FILE-02,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01607,2026-08-18T23:34:38Z,FILE-02,FILE-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00670,2026-08-18T23:35:31Z,FILE-02,APP-API-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01460,2026-08-18T23:36:07Z,BACKUP-01,APP-API-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01611,2026-08-18T23:39:39Z,BACKUP-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01548,2026-08-18T23:48:13Z,DC-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00738,2026-08-18T23:50:10Z,BACKUP-01,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00690,2026-08-19T00:01:04Z,APP-API-02,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01346,2026-08-19T00:01:04Z,BACKUP-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00079,2026-08-19T00:01:36Z,JUMP-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00728,2026-08-19T00:14:34Z,FIN-WS-14,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00378,2026-08-19T00:14:51Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01745,2026-08-19T00:16:51Z,JUMP-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00416,2026-08-19T00:18:15Z,BACKUP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00221,2026-08-19T00:18:44Z,FIN-WS-14,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00824,2026-08-19T00:23:48Z,DC-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00646,2026-08-19T00:25:08Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00342,2026-08-19T00:30:41Z,PRINT-01,DC-01,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01538,2026-08-19T00:35:14Z,FIN-WS-14,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01367,2026-08-19T00:40:41Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00508,2026-08-19T00:45:30Z,FILE-02,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-01000,2026-08-19T00:46:02Z,APP-API-02,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01508,2026-08-19T00:53:57Z,BACKUP-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01267,2026-08-19T00:54:12Z,PRINT-01,FILE-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00811,2026-08-19T00:58:01Z,BACKUP-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01272,2026-08-19T01:00:52Z,DC-01,DC-01,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00480,2026-08-19T01:01:20Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01379,2026-08-19T01:01:49Z,JUMP-01,FILE-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00266,2026-08-19T01:07:07Z,BACKUP-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00872,2026-08-19T01:07:14Z,PRINT-01,DC-01,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-01552,2026-08-19T01:12:00Z,BACKUP-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00202,2026-08-19T01:12:54Z,DC-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00237,2026-08-19T01:13:52Z,PRINT-01,FILE-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01560,2026-08-19T01:16:40Z,DC-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00389,2026-08-19T01:25:25Z,JUMP-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01416,2026-08-19T01:27:31Z,JUMP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01390,2026-08-19T01:30:15Z,DC-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00756,2026-08-19T01:37:25Z,FILE-02,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00580,2026-08-19T01:41:14Z,FILE-02,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00438,2026-08-19T01:50:06Z,FIN-WS-14,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01470,2026-08-19T01:54:51Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00661,2026-08-19T02:01:28Z,FIN-WS-14,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01648,2026-08-19T02:11:03Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01616,2026-08-19T02:13:33Z,FILE-02,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01674,2026-08-19T02:19:17Z,APP-API-02,DC-01,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-00953,2026-08-19T02:21:05Z,PRINT-01,FILE-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00463,2026-08-19T02:21:21Z,PRINT-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00094,2026-08-19T02:23:17Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00836,2026-08-19T02:24:16Z,DC-01,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00248,2026-08-19T02:31:23Z,APP-API-02,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00295,2026-08-19T02:33:52Z,PRINT-01,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01610,2026-08-19T02:34:35Z,JUMP-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01275,2026-08-19T02:35:21Z,APP-API-02,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00158,2026-08-19T02:37:15Z,FIN-WS-14,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01164,2026-08-19T02:37:52Z,PRINT-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00004,2026-08-19T02:39:22Z,DC-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01148,2026-08-19T02:43:48Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00474,2026-08-19T02:49:09Z,JUMP-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00414,2026-08-19T02:56:32Z,BACKUP-01,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01713,2026-08-19T03:04:01Z,APP-API-02,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00665,2026-08-19T03:05:54Z,PRINT-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01264,2026-08-19T03:22:04Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00256,2026-08-19T03:26:52Z,PRINT-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01764,2026-08-19T03:29:52Z,APP-API-02,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01646,2026-08-19T03:30:12Z,APP-API-02,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01101,2026-08-19T03:34:50Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01349,2026-08-19T03:35:00Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01207,2026-08-19T03:42:49Z,PRINT-01,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00920,2026-08-19T03:43:14Z,APP-API-02,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00725,2026-08-19T03:45:47Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00909,2026-08-19T03:48:32Z,FILE-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00472,2026-08-19T03:50:24Z,PRINT-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00428,2026-08-19T03:51:34Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00545,2026-08-19T04:00:38Z,APP-API-02,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01120,2026-08-19T04:08:08Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00579,2026-08-19T04:22:12Z,FILE-02,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00528,2026-08-19T04:23:44Z,PRINT-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00519,2026-08-19T04:28:01Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01193,2026-08-19T04:42:17Z,BACKUP-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01565,2026-08-19T04:52:05Z,JUMP-01,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00042,2026-08-19T05:01:23Z,PRINT-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01121,2026-08-19T05:03:46Z,PRINT-01,APP-API-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00225,2026-08-19T05:19:23Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00927,2026-08-19T05:21:35Z,DC-01,DC-01,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01211,2026-08-19T05:25:31Z,FIN-WS-14,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00896,2026-08-19T05:29:18Z,APP-API-02,FILE-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01578,2026-08-19T05:38:20Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00097,2026-08-19T05:39:58Z,APP-API-02,DC-01,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00654,2026-08-19T05:52:53Z,BACKUP-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01681,2026-08-19T05:58:27Z,DC-01,DC-01,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00653,2026-08-19T06:08:51Z,FIN-WS-14,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00359,2026-08-19T06:16:37Z,FIN-WS-14,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01489,2026-08-19T06:18:50Z,APP-API-02,DC-01,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00430,2026-08-19T06:23:24Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00591,2026-08-19T06:24:45Z,PRINT-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01288,2026-08-19T06:31:46Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01234,2026-08-19T06:33:48Z,FILE-02,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01778,2026-08-19T06:36:59Z,FILE-02,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00556,2026-08-19T06:37:27Z,BACKUP-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01266,2026-08-19T06:41:28Z,PRINT-01,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01593,2026-08-19T06:45:07Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01202,2026-08-19T06:57:06Z,APP-API-02,FILE-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00741,2026-08-19T06:59:09Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00475,2026-08-19T07:01:39Z,FILE-02,DC-01,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-01328,2026-08-19T07:04:03Z,JUMP-01,FILE-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00693,2026-08-19T07:09:27Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00297,2026-08-19T07:10:24Z,PRINT-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00744,2026-08-19T07:20:45Z,BACKUP-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00140,2026-08-19T07:24:40Z,PRINT-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00972,2026-08-19T07:26:05Z,PRINT-01,FILE-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00932,2026-08-19T07:27:12Z,JUMP-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01036,2026-08-19T07:28:08Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01365,2026-08-19T07:36:29Z,PRINT-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01066,2026-08-19T07:39:58Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00132,2026-08-19T07:42:20Z,BACKUP-01,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00955,2026-08-19T07:42:36Z,PRINT-01,DC-01,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00075,2026-08-19T07:43:52Z,FILE-02,APP-API-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01339,2026-08-19T07:59:52Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01629,2026-08-19T08:00:20Z,DC-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01206,2026-08-19T08:02:07Z,PRINT-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01319,2026-08-19T08:03:37Z,JUMP-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01777,2026-08-19T08:04:28Z,APP-API-02,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01627,2026-08-19T08:05:06Z,FIN-WS-14,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00170,2026-08-19T08:07:11Z,BACKUP-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00533,2026-08-19T08:13:04Z,DC-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01001,2026-08-19T08:15:54Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-01208,2026-08-19T08:21:24Z,PRINT-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00098,2026-08-19T08:24:40Z,PRINT-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01237,2026-08-19T08:30:28Z,FIN-WS-14,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00350,2026-08-19T08:31:27Z,DC-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01625,2026-08-19T08:34:39Z,FILE-02,FILE-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-00512,2026-08-19T08:40:30Z,FIN-WS-14,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01111,2026-08-19T08:41:06Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01434,2026-08-19T08:43:06Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01107,2026-08-19T08:51:50Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00006,2026-08-19T09:03:18Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00135,2026-08-19T09:05:08Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01012,2026-08-19T09:09:45Z,BACKUP-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01729,2026-08-19T09:10:13Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00999,2026-08-19T09:18:26Z,DC-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01026,2026-08-19T09:19:16Z,FILE-02,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00931,2026-08-19T09:21:26Z,FILE-02,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00424,2026-08-19T09:27:58Z,FIN-WS-14,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00462,2026-08-19T09:35:32Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01061,2026-08-19T09:35:37Z,JUMP-01,FILE-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00913,2026-08-19T09:39:57Z,APP-API-02,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00373,2026-08-19T09:41:46Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01064,2026-08-19T09:43:39Z,BACKUP-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00749,2026-08-19T09:46:49Z,FILE-02,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01752,2026-08-19T09:47:02Z,FILE-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00092,2026-08-19T09:53:11Z,FILE-02,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01145,2026-08-19T09:56:13Z,APP-API-02,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00620,2026-08-19T09:57:59Z,BACKUP-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00612,2026-08-19T10:00:54Z,FILE-02,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00095,2026-08-19T10:04:36Z,FILE-02,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00497,2026-08-19T10:04:43Z,BACKUP-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00956,2026-08-19T10:06:42Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00131,2026-08-19T10:16:23Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00301,2026-08-19T10:16:45Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00570,2026-08-19T10:19:00Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-01253,2026-08-19T10:19:51Z,APP-API-02,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01306,2026-08-19T10:22:01Z,PRINT-01,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00445,2026-08-19T10:24:05Z,DC-01,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00898,2026-08-19T10:36:27Z,JUMP-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00015,2026-08-19T10:38:49Z,APP-API-02,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00822,2026-08-19T10:39:04Z,DC-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01605,2026-08-19T10:43:33Z,BACKUP-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01606,2026-08-19T10:47:53Z,PRINT-01,FILE-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-01482,2026-08-19T10:52:52Z,BACKUP-01,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00391,2026-08-19T10:54:40Z,FIN-WS-14,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00637,2026-08-19T11:01:39Z,APP-API-02,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00778,2026-08-19T11:02:03Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01356,2026-08-19T11:04:15Z,BACKUP-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00434,2026-08-19T11:17:29Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01557,2026-08-19T11:23:40Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01756,2026-08-19T11:25:42Z,FILE-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00809,2026-08-19T11:27:01Z,PRINT-01,FILE-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00567,2026-08-19T11:27:08Z,APP-API-02,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00829,2026-08-19T11:33:36Z,BACKUP-01,APP-API-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00126,2026-08-19T11:34:37Z,DC-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01014,2026-08-19T11:34:57Z,PRINT-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00719,2026-08-19T11:38:27Z,BACKUP-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00365,2026-08-19T11:39:28Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01613,2026-08-19T11:42:54Z,FILE-02,APP-API-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00636,2026-08-19T11:48:56Z,JUMP-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00169,2026-08-19T11:49:07Z,APP-API-02,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00002,2026-08-19T11:53:05Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00194,2026-08-19T12:00:21Z,JUMP-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00302,2026-08-19T12:15:06Z,JUMP-01,DC-01,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01546,2026-08-19T12:15:57Z,APP-API-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01642,2026-08-19T12:16:43Z,DC-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00957,2026-08-19T12:19:22Z,DC-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00437,2026-08-19T12:21:41Z,FIN-WS-14,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00607,2026-08-19T12:25:40Z,FIN-WS-14,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00188,2026-08-19T12:31:40Z,APP-API-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00285,2026-08-19T12:31:54Z,APP-API-02,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01509,2026-08-19T12:37:08Z,JUMP-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01537,2026-08-19T12:40:46Z,FIN-WS-14,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00153,2026-08-19T12:45:21Z,JUMP-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01301,2026-08-19T12:47:04Z,PRINT-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00333,2026-08-19T12:49:17Z,DC-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00641,2026-08-19T12:51:56Z,APP-API-02,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01520,2026-08-19T12:53:26Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00688,2026-08-19T12:54:23Z,FILE-02,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00213,2026-08-19T12:54:41Z,FIN-WS-14,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01567,2026-08-19T12:56:03Z,FILE-02,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00717,2026-08-19T13:06:22Z,APP-API-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00265,2026-08-19T13:11:57Z,APP-API-02,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-00337,2026-08-19T13:20:36Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-00668,2026-08-19T13:21:45Z,FIN-WS-14,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01733,2026-08-19T13:24:17Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00107,2026-08-19T13:28:48Z,APP-API-02,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00039,2026-08-19T13:31:41Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00041,2026-08-19T13:32:32Z,APP-API-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01574,2026-08-19T13:33:45Z,FILE-02,FILE-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01506,2026-08-19T13:35:28Z,APP-API-02,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01519,2026-08-19T13:35:42Z,APP-API-02,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00702,2026-08-19T13:38:08Z,JUMP-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00385,2026-08-19T13:40:05Z,FIN-WS-14,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00032,2026-08-19T13:41:28Z,FILE-02,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00023,2026-08-19T13:42:07Z,FIN-WS-14,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00482,2026-08-19T13:45:57Z,FIN-WS-14,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01204,2026-08-19T13:48:53Z,FIN-WS-14,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01114,2026-08-19T13:56:47Z,BACKUP-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01673,2026-08-19T13:57:34Z,APP-API-02,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01113,2026-08-19T13:59:17Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00884,2026-08-19T13:59:18Z,PRINT-01,APP-API-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01324,2026-08-19T14:16:01Z,FILE-02,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00847,2026-08-19T14:18:51Z,FILE-02,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01640,2026-08-19T14:19:01Z,FILE-02,APP-API-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-01316,2026-08-19T14:19:28Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00407,2026-08-19T14:33:06Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01385,2026-08-19T14:33:35Z,PRINT-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00938,2026-08-19T14:40:35Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01130,2026-08-19T14:41:40Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01749,2026-08-19T14:44:16Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01362,2026-08-19T14:44:46Z,FILE-02,FILE-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01789,2026-08-19T14:51:51Z,FIN-WS-14,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00106,2026-08-19T14:54:59Z,APP-API-02,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00189,2026-08-19T15:00:36Z,FIN-WS-14,APP-API-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01298,2026-08-19T15:12:06Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00640,2026-08-19T15:16:20Z,JUMP-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01748,2026-08-19T15:22:55Z,JUMP-01,APP-API-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01424,2026-08-19T15:23:49Z,PRINT-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01382,2026-08-19T15:24:59Z,APP-API-02,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00604,2026-08-19T15:26:24Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00467,2026-08-19T15:30:29Z,BACKUP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01528,2026-08-19T15:32:39Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00488,2026-08-19T15:33:29Z,PRINT-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00700,2026-08-19T15:36:09Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00608,2026-08-19T15:37:37Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00857,2026-08-19T15:38:28Z,FILE-02,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01340,2026-08-19T15:38:31Z,FILE-02,FILE-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00751,2026-08-19T15:38:59Z,DC-01,DC-01,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-01626,2026-08-19T15:39:03Z,PRINT-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00349,2026-08-19T15:45:59Z,JUMP-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01302,2026-08-19T15:47:58Z,FILE-02,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00832,2026-08-19T15:49:26Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00689,2026-08-19T16:04:47Z,DC-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01366,2026-08-19T16:08:24Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01670,2026-08-19T16:17:39Z,BACKUP-01,APP-API-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00609,2026-08-19T16:18:34Z,BACKUP-01,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00634,2026-08-19T16:22:06Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00207,2026-08-19T16:27:00Z,FILE-02,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01459,2026-08-19T16:33:02Z,FILE-02,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01695,2026-08-19T16:33:03Z,APP-API-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00115,2026-08-19T16:34:33Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00191,2026-08-19T16:45:52Z,BACKUP-01,APP-API-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01072,2026-08-19T16:47:51Z,DC-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00227,2026-08-19T16:50:25Z,PRINT-01,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00249,2026-08-19T16:50:40Z,FIN-WS-14,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00714,2026-08-19T16:52:56Z,FILE-02,APP-API-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00577,2026-08-19T16:54:59Z,FILE-02,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00628,2026-08-19T16:58:22Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01099,2026-08-19T17:03:05Z,DC-01,APP-API-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00964,2026-08-19T17:18:55Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-01109,2026-08-19T17:21:40Z,BACKUP-01,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01653,2026-08-19T17:24:52Z,BACKUP-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00141,2026-08-19T17:25:49Z,BACKUP-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00992,2026-08-19T17:26:24Z,JUMP-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00214,2026-08-19T17:41:51Z,PRINT-01,APP-API-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-01137,2026-08-19T17:47:02Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00085,2026-08-19T17:50:15Z,JUMP-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01033,2026-08-19T17:51:16Z,APP-API-02,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00145,2026-08-19T17:55:36Z,JUMP-01,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01087,2026-08-19T18:02:28Z,APP-API-02,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01180,2026-08-19T18:02:53Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00771,2026-08-19T18:16:40Z,BACKUP-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00453,2026-08-19T18:22:35Z,FIN-WS-14,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00821,2026-08-19T18:36:52Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00660,2026-08-19T18:41:59Z,FIN-WS-14,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00585,2026-08-19T18:45:40Z,APP-API-02,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01021,2026-08-19T18:47:10Z,DC-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00312,2026-08-19T18:55:15Z,JUMP-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01085,2026-08-19T18:57:21Z,DC-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00681,2026-08-19T18:57:25Z,PRINT-01,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00223,2026-08-19T19:03:50Z,FIN-WS-14,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00783,2026-08-19T19:05:34Z,BACKUP-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00305,2026-08-19T19:07:07Z,FILE-02,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00387,2026-08-19T19:14:30Z,BACKUP-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01313,2026-08-19T19:17:45Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00224,2026-08-19T19:31:18Z,APP-API-02,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01603,2026-08-19T19:31:33Z,PRINT-01,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-01420,2026-08-19T19:35:01Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01289,2026-08-19T19:39:25Z,BACKUP-01,DC-01,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01331,2026-08-19T19:46:00Z,FILE-02,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00560,2026-08-19T19:46:16Z,FILE-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01155,2026-08-19T19:50:35Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01158,2026-08-19T20:00:57Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00270,2026-08-19T20:01:18Z,FILE-02,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00118,2026-08-19T20:02:24Z,PRINT-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01697,2026-08-19T20:03:29Z,BACKUP-01,FILE-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-01352,2026-08-19T20:22:32Z,APP-API-02,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00292,2026-08-19T20:27:03Z,BACKUP-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00874,2026-08-19T20:29:59Z,JUMP-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00186,2026-08-19T20:30:30Z,PRINT-01,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01504,2026-08-19T20:30:48Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01711,2026-08-19T20:33:05Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00770,2026-08-19T20:34:06Z,FILE-02,FILE-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-01010,2026-08-19T20:36:18Z,FIN-WS-14,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01581,2026-08-19T20:37:14Z,PRINT-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01403,2026-08-19T20:44:45Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00172,2026-08-19T20:55:03Z,BACKUP-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01721,2026-08-19T21:04:53Z,DC-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01281,2026-08-19T21:06:03Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01706,2026-08-19T21:17:46Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01477,2026-08-19T21:20:04Z,APP-API-02,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-00148,2026-08-19T21:27:24Z,DC-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01370,2026-08-19T21:33:50Z,BACKUP-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01320,2026-08-19T21:34:01Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00471,2026-08-19T21:40:03Z,BACKUP-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01392,2026-08-19T21:47:23Z,DC-01,FILE-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01278,2026-08-19T21:48:41Z,FILE-02,DC-01,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00557,2026-08-19T21:51:24Z,DC-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00264,2026-08-19T21:52:30Z,APP-API-02,DC-01,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-00975,2026-08-19T22:01:22Z,BACKUP-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00294,2026-08-19T22:15:12Z,FIN-WS-14,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01665,2026-08-19T22:16:28Z,JUMP-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00933,2026-08-19T22:20:27Z,DC-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01461,2026-08-19T22:20:28Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01659,2026-08-19T22:21:11Z,FILE-02,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01075,2026-08-19T22:22:34Z,PRINT-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00813,2026-08-19T22:35:06Z,FIN-WS-14,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00360,2026-08-19T22:37:33Z,DC-01,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01634,2026-08-19T22:37:37Z,FIN-WS-14,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01176,2026-08-19T22:39:35Z,FILE-02,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00816,2026-08-19T22:40:50Z,FIN-WS-14,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00206,2026-08-19T22:42:32Z,FIN-WS-14,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01080,2026-08-19T22:43:17Z,JUMP-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00602,2026-08-19T22:44:16Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-01108,2026-08-19T22:49:41Z,APP-API-02,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01699,2026-08-19T22:50:11Z,PRINT-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00667,2026-08-19T22:53:04Z,FIN-WS-14,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01793,2026-08-19T22:54:00Z,DC-01,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00815,2026-08-19T22:59:37Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01065,2026-08-19T23:00:00Z,DC-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00049,2026-08-19T23:06:21Z,FILE-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00443,2026-08-19T23:08:41Z,PRINT-01,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01702,2026-08-19T23:10:18Z,FIN-WS-14,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01633,2026-08-19T23:15:03Z,FIN-WS-14,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00326,2026-08-19T23:15:11Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00789,2026-08-19T23:26:24Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00627,2026-08-19T23:41:00Z,DC-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00713,2026-08-19T23:41:55Z,PRINT-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00551,2026-08-19T23:42:08Z,BACKUP-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01600,2026-08-19T23:43:28Z,PRINT-01,FILE-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00529,2026-08-19T23:45:19Z,FIN-WS-14,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00393,2026-08-19T23:50:30Z,FIN-WS-14,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00549,2026-08-19T23:52:15Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00028,2026-08-19T23:52:22Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-01445,2026-08-19T23:59:37Z,APP-API-02,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00154,2026-08-20T00:00:03Z,APP-API-02,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00291,2026-08-20T00:05:39Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01661,2026-08-20T00:09:58Z,FILE-02,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00737,2026-08-20T00:11:13Z,JUMP-01,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01095,2026-08-20T00:11:49Z,FIN-WS-14,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-00277,2026-08-20T00:12:25Z,BACKUP-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00697,2026-08-20T00:12:48Z,BACKUP-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00045,2026-08-20T00:16:17Z,BACKUP-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01118,2026-08-20T00:16:30Z,APP-API-02,APP-API-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-00807,2026-08-20T00:17:15Z,DC-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00979,2026-08-20T00:17:21Z,DC-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01353,2026-08-20T00:19:04Z,JUMP-01,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01556,2026-08-20T00:23:27Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01205,2026-08-20T00:25:30Z,FIN-WS-14,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01154,2026-08-20T00:32:27Z,JUMP-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00911,2026-08-20T00:38:27Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01644,2026-08-20T00:41:49Z,PRINT-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00352,2026-08-20T00:42:10Z,FILE-02,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00208,2026-08-20T00:43:03Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01325,2026-08-20T00:52:26Z,JUMP-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00279,2026-08-20T00:59:39Z,FILE-02,APP-API-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00978,2026-08-20T01:14:42Z,FILE-02,DC-01,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00642,2026-08-20T01:23:36Z,PRINT-01,APP-API-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00159,2026-08-20T01:24:59Z,PRINT-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00962,2026-08-20T01:26:30Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01131,2026-08-20T01:27:22Z,PRINT-01,DC-01,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01530,2026-08-20T01:28:16Z,FIN-WS-14,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01196,2026-08-20T01:41:46Z,FILE-02,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00250,2026-08-20T01:42:07Z,FILE-02,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01536,2026-08-20T01:43:36Z,PRINT-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00779,2026-08-20T01:46:18Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00382,2026-08-20T01:51:55Z,APP-API-02,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00491,2026-08-20T02:03:08Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00578,2026-08-20T02:03:30Z,APP-API-02,DC-01,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01260,2026-08-20T02:05:10Z,FIN-WS-14,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01523,2026-08-20T02:15:53Z,PRINT-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01073,2026-08-20T02:22:52Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-00888,2026-08-20T02:23:50Z,DC-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01615,2026-08-20T02:26:38Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01730,2026-08-20T02:26:56Z,APP-API-02,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00451,2026-08-20T02:29:14Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01583,2026-08-20T02:38:17Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-01144,2026-08-20T02:40:02Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00709,2026-08-20T02:51:20Z,FILE-02,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00247,2026-08-20T02:53:39Z,BACKUP-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01412,2026-08-20T03:04:28Z,PRINT-01,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00504,2026-08-20T03:05:58Z,BACKUP-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01377,2026-08-20T03:07:27Z,DC-01,DC-01,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-00241,2026-08-20T03:09:47Z,PRINT-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01250,2026-08-20T03:16:42Z,FIN-WS-14,APP-API-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-00413,2026-08-20T03:17:01Z,FIN-WS-14,APP-API-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-01184,2026-08-20T03:21:43Z,FILE-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01543,2026-08-20T03:24:59Z,APP-API-02,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00760,2026-08-20T03:27:25Z,BACKUP-01,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00276,2026-08-20T03:27:43Z,APP-API-02,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00669,2026-08-20T03:35:06Z,FILE-02,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01029,2026-08-20T03:55:33Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01006,2026-08-20T04:04:12Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01585,2026-08-20T04:10:21Z,FILE-02,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00663,2026-08-20T04:11:08Z,BACKUP-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00994,2026-08-20T04:14:00Z,FIN-WS-14,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01561,2026-08-20T04:17:13Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00910,2026-08-20T04:17:23Z,PRINT-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00897,2026-08-20T04:17:46Z,BACKUP-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01478,2026-08-20T04:18:13Z,APP-API-02,FILE-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00687,2026-08-20T04:19:57Z,BACKUP-01,DC-01,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00893,2026-08-20T04:26:25Z,FILE-02,DC-01,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-01619,2026-08-20T04:27:34Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01675,2026-08-20T04:32:59Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00501,2026-08-20T04:35:40Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00031,2026-08-20T04:38:43Z,FILE-02,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01071,2026-08-20T04:43:14Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00831,2026-08-20T04:54:11Z,FIN-WS-14,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01463,2026-08-20T05:00:07Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01784,2026-08-20T05:03:35Z,PRINT-01,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00817,2026-08-20T05:05:27Z,FILE-02,DC-01,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-00303,2026-08-20T05:22:30Z,BACKUP-01,APP-API-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-01643,2026-08-20T05:27:09Z,DC-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00100,2026-08-20T05:29:48Z,FILE-02,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01062,2026-08-20T05:34:20Z,FILE-02,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00259,2026-08-20T05:34:29Z,FILE-02,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01336,2026-08-20T05:36:20Z,FIN-WS-14,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00885,2026-08-20T05:37:36Z,JUMP-01,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00198,2026-08-20T05:39:03Z,JUMP-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01740,2026-08-20T05:42:24Z,DC-01,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00594,2026-08-20T05:43:44Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01728,2026-08-20T05:50:28Z,JUMP-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01483,2026-08-20T05:56:27Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01507,2026-08-20T05:59:42Z,FIN-WS-14,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01046,2026-08-20T06:07:45Z,PRINT-01,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01282,2026-08-20T06:19:40Z,FILE-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00124,2026-08-20T06:24:16Z,BACKUP-01,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01441,2026-08-20T06:24:39Z,PRINT-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00666,2026-08-20T06:25:17Z,JUMP-01,FILE-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-00161,2026-08-20T06:33:30Z,PRINT-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00220,2026-08-20T06:35:22Z,PRINT-01,APP-API-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01450,2026-08-20T06:36:21Z,DC-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00022,2026-08-20T06:36:25Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01127,2026-08-20T06:45:15Z,APP-API-02,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01516,2026-08-20T06:45:18Z,BACKUP-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00795,2026-08-20T06:47:05Z,PRINT-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01494,2026-08-20T06:50:01Z,DC-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01083,2026-08-20T06:50:58Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00155,2026-08-20T06:52:45Z,APP-API-02,APP-API-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00449,2026-08-20T07:02:14Z,JUMP-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00944,2026-08-20T07:09:58Z,APP-API-02,DC-01,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-01031,2026-08-20T07:11:53Z,BACKUP-01,APP-API-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00173,2026-08-20T07:20:47Z,PRINT-01,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01354,2026-08-20T07:21:08Z,JUMP-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01317,2026-08-20T07:21:26Z,PRINT-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00716,2026-08-20T07:27:34Z,FILE-02,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01406,2026-08-20T07:35:19Z,DC-01,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00086,2026-08-20T07:37:14Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01735,2026-08-20T07:38:40Z,FILE-02,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01651,2026-08-20T07:41:15Z,BACKUP-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01186,2026-08-20T07:51:13Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01343,2026-08-20T07:52:43Z,JUMP-01,FILE-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01518,2026-08-20T07:54:10Z,JUMP-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00672,2026-08-20T07:56:43Z,APP-API-02,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00190,2026-08-20T07:57:41Z,FIN-WS-14,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01755,2026-08-20T08:04:19Z,FILE-02,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00099,2026-08-20T08:07:30Z,PRINT-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-00343,2026-08-20T08:10:39Z,FILE-02,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00582,2026-08-20T08:14:37Z,DC-01,DC-01,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-00823,2026-08-20T08:15:01Z,PRINT-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00371,2026-08-20T08:22:51Z,DC-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00622,2026-08-20T08:29:54Z,FIN-WS-14,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-00054,2026-08-20T08:31:11Z,FIN-WS-14,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01380,2026-08-20T08:31:46Z,JUMP-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00102,2026-08-20T08:32:10Z,JUMP-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00808,2026-08-20T08:33:36Z,DC-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00800,2026-08-20T08:38:23Z,FILE-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00104,2026-08-20T08:39:11Z,BACKUP-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00109,2026-08-20T08:59:08Z,JUMP-01,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00029,2026-08-20T09:00:44Z,JUMP-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01364,2026-08-20T09:03:59Z,FIN-WS-14,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00489,2026-08-20T09:13:03Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00761,2026-08-20T09:18:24Z,APP-API-02,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00446,2026-08-20T09:23:06Z,APP-API-02,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00929,2026-08-20T09:29:25Z,PRINT-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01092,2026-08-20T09:36:36Z,PRINT-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00080,2026-08-20T09:37:51Z,PRINT-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01782,2026-08-20T09:40:17Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00976,2026-08-20T09:46:43Z,FILE-02,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00963,2026-08-20T09:51:25Z,JUMP-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00298,2026-08-20T09:54:13Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00926,2026-08-20T10:09:30Z,DC-01,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01150,2026-08-20T10:10:47Z,FIN-WS-14,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01263,2026-08-20T10:13:21Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00869,2026-08-20T10:15:11Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00290,2026-08-20T10:25:19Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00576,2026-08-20T10:25:47Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00420,2026-08-20T10:26:03Z,FIN-WS-14,DC-01,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01496,2026-08-20T10:27:56Z,DC-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00144,2026-08-20T10:28:06Z,APP-API-02,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01654,2026-08-20T10:28:51Z,FIN-WS-14,FILE-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-01007,2026-08-20T10:30:37Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01490,2026-08-20T10:30:45Z,FIN-WS-14,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01609,2026-08-20T10:47:11Z,APP-API-02,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01188,2026-08-20T10:55:11Z,PRINT-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00673,2026-08-20T11:03:16Z,PRINT-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00820,2026-08-20T11:07:15Z,JUMP-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00718,2026-08-20T11:09:24Z,BACKUP-01,FILE-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01768,2026-08-20T11:09:50Z,DC-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00299,2026-08-20T11:21:33Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00192,2026-08-20T11:30:53Z,FIN-WS-14,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00563,2026-08-20T11:34:05Z,BACKUP-01,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01761,2026-08-20T11:36:34Z,DC-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01656,2026-08-20T11:37:53Z,BACKUP-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01395,2026-08-20T11:39:13Z,PRINT-01,APP-API-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-01381,2026-08-20T11:39:58Z,PRINT-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01212,2026-08-20T11:41:10Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-01700,2026-08-20T11:43:18Z,JUMP-01,APP-API-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00647,2026-08-20T12:02:10Z,DC-01,FILE-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00930,2026-08-20T12:03:48Z,PRINT-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01232,2026-08-20T12:04:50Z,FILE-02,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00199,2026-08-20T12:07:03Z,PRINT-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01277,2026-08-20T12:08:56Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00358,2026-08-20T12:09:29Z,JUMP-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00498,2026-08-20T12:15:22Z,BACKUP-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00918,2026-08-20T12:15:22Z,FILE-02,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00211,2026-08-20T12:17:54Z,BACKUP-01,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01599,2026-08-20T12:22:09Z,APP-API-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01389,2026-08-20T12:27:02Z,FIN-WS-14,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00010,2026-08-20T12:31:24Z,PRINT-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01310,2026-08-20T12:36:35Z,DC-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00217,2026-08-20T12:39:34Z,BACKUP-01,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00842,2026-08-20T12:46:46Z,FILE-02,FILE-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-01431,2026-08-20T12:50:19Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00340,2026-08-20T12:53:40Z,APP-API-02,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01566,2026-08-20T12:55:05Z,JUMP-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00058,2026-08-20T12:57:06Z,JUMP-01,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00215,2026-08-20T13:07:49Z,FIN-WS-14,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01511,2026-08-20T13:09:05Z,DC-01,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00060,2026-08-20T13:13:09Z,DC-01,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01315,2026-08-20T13:14:33Z,PRINT-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00070,2026-08-20T13:19:32Z,APP-API-02,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01139,2026-08-20T13:25:39Z,APP-API-02,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01753,2026-08-20T13:28:08Z,FIN-WS-14,FILE-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-01535,2026-08-20T13:32:02Z,FIN-WS-14,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00486,2026-08-20T13:36:46Z,DC-01,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00263,2026-08-20T13:38:37Z,BACKUP-01,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00764,2026-08-20T13:39:50Z,PRINT-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00447,2026-08-20T13:48:29Z,APP-API-02,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01417,2026-08-20T13:48:32Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00068,2026-08-20T13:49:27Z,BACKUP-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00583,2026-08-20T13:53:48Z,JUMP-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01779,2026-08-20T13:57:12Z,JUMP-01,FILE-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00998,2026-08-20T13:57:25Z,PRINT-01,DC-01,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01025,2026-08-20T13:58:17Z,PRINT-01,DC-01,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-01002,2026-08-20T14:01:34Z,BACKUP-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01239,2026-08-20T14:02:43Z,DC-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01004,2026-08-20T14:04:30Z,DC-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01641,2026-08-20T14:06:02Z,DC-01,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01305,2026-08-20T14:06:17Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01732,2026-08-20T14:09:21Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01229,2026-08-20T14:11:38Z,DC-01,DC-01,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00229,2026-08-20T14:12:14Z,FILE-02,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01241,2026-08-20T14:14:12Z,FILE-02,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01555,2026-08-20T14:21:20Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00040,2026-08-20T14:22:10Z,FILE-02,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00984,2026-08-20T14:24:50Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01602,2026-08-20T14:27:42Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01070,2026-08-20T14:27:56Z,APP-API-02,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00175,2026-08-20T14:30:50Z,FIN-WS-14,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01788,2026-08-20T14:31:28Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00418,2026-08-20T14:33:46Z,FIN-WS-14,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00922,2026-08-20T14:49:02Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00892,2026-08-20T14:59:43Z,DC-01,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00367,2026-08-20T15:00:44Z,DC-01,APP-API-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00952,2026-08-20T15:01:36Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00318,2026-08-20T15:03:07Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00959,2026-08-20T15:09:59Z,FIN-WS-14,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01658,2026-08-20T15:11:56Z,DC-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01153,2026-08-20T15:13:07Z,FILE-02,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00828,2026-08-20T15:14:47Z,FILE-02,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01631,2026-08-20T15:19:31Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-01447,2026-08-20T15:24:57Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01596,2026-08-20T15:29:25Z,JUMP-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00090,2026-08-20T15:31:04Z,PRINT-01,APP-API-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00611,2026-08-20T15:34:18Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01091,2026-08-20T15:43:42Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00275,2026-08-20T15:44:24Z,BACKUP-01,DC-01,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-00598,2026-08-20T15:45:32Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01388,2026-08-20T15:49:17Z,PRINT-01,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00044,2026-08-20T15:49:56Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-00552,2026-08-20T15:50:50Z,BACKUP-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01363,2026-08-20T15:51:31Z,DC-01,FILE-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00281,2026-08-20T16:07:11Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00855,2026-08-20T16:10:59Z,APP-API-02,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01594,2026-08-20T16:19:24Z,DC-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01657,2026-08-20T16:31:14Z,DC-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01024,2026-08-20T16:35:47Z,DC-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01413,2026-08-20T16:36:44Z,FILE-02,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00703,2026-08-20T16:37:42Z,PRINT-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00894,2026-08-20T16:38:13Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01135,2026-08-20T16:42:35Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01407,2026-08-20T16:44:29Z,FIN-WS-14,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00065,2026-08-20T16:44:33Z,FIN-WS-14,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01760,2026-08-20T16:47:37Z,JUMP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01173,2026-08-20T16:51:40Z,BACKUP-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01720,2026-08-20T16:53:23Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01261,2026-08-20T16:53:24Z,FIN-WS-14,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01715,2026-08-20T17:05:15Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00383,2026-08-20T17:07:10Z,BACKUP-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01739,2026-08-20T17:08:45Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00139,2026-08-20T17:11:49Z,FILE-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00679,2026-08-20T17:12:20Z,FIN-WS-14,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01386,2026-08-20T17:23:29Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01276,2026-08-20T17:26:42Z,PRINT-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00439,2026-08-20T17:27:02Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00965,2026-08-20T17:32:17Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00055,2026-08-20T17:32:18Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01018,2026-08-20T17:44:24Z,DC-01,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01102,2026-08-20T17:50:44Z,JUMP-01,FILE-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00505,2026-08-20T17:54:19Z,FIN-WS-14,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01399,2026-08-20T17:56:40Z,FIN-WS-14,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00784,2026-08-20T17:58:39Z,PRINT-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00704,2026-08-20T17:59:35Z,DC-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01765,2026-08-20T18:07:24Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01183,2026-08-20T18:10:04Z,PRINT-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00873,2026-08-20T18:24:28Z,JUMP-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01741,2026-08-20T18:32:44Z,JUMP-01,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00262,2026-08-20T18:33:49Z,FIN-WS-14,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00138,2026-08-20T18:37:52Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00724,2026-08-20T18:46:15Z,FILE-02,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01255,2026-08-20T18:51:45Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00296,2026-08-20T18:53:15Z,FILE-02,APP-API-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-00860,2026-08-20T18:55:07Z,FIN-WS-14,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01314,2026-08-20T18:56:39Z,JUMP-01,APP-API-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00133,2026-08-20T18:59:40Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00103,2026-08-20T19:00:24Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00101,2026-08-20T19:04:24Z,FIN-WS-14,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00364,2026-08-20T19:06:34Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00651,2026-08-20T19:07:20Z,DC-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01426,2026-08-20T19:08:41Z,PRINT-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00793,2026-08-20T19:16:51Z,PRINT-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01698,2026-08-20T19:21:03Z,FILE-02,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01059,2026-08-20T19:23:39Z,BACKUP-01,FILE-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01467,2026-08-20T19:27:45Z,APP-API-02,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01383,2026-08-20T19:29:58Z,JUMP-01,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00699,2026-08-20T19:31:12Z,FILE-02,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01669,2026-08-20T19:42:48Z,PRINT-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00520,2026-08-20T19:49:18Z,PRINT-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01529,2026-08-20T19:50:41Z,FIN-WS-14,APP-API-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00379,2026-08-20T19:51:33Z,FILE-02,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00527,2026-08-20T19:56:05Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00625,2026-08-20T20:16:39Z,DC-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01168,2026-08-20T20:18:11Z,PRINT-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00774,2026-08-20T20:21:01Z,DC-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00110,2026-08-20T20:21:42Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00366,2026-08-20T20:22:57Z,JUMP-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00683,2026-08-20T20:29:08Z,JUMP-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01226,2026-08-20T20:35:25Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01332,2026-08-20T20:36:07Z,DC-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00066,2026-08-20T20:36:14Z,APP-API-02,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00509,2026-08-20T20:38:48Z,FIN-WS-14,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00987,2026-08-20T20:42:07Z,PRINT-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01454,2026-08-20T20:44:31Z,DC-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01152,2026-08-20T20:53:25Z,PRINT-01,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01322,2026-08-20T20:55:07Z,DC-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01495,2026-08-20T20:55:44Z,DC-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01040,2026-08-20T20:56:40Z,APP-API-02,APP-API-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00288,2026-08-20T20:56:41Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01652,2026-08-20T20:57:20Z,FIN-WS-14,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00906,2026-08-20T20:58:13Z,FIN-WS-14,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01758,2026-08-20T21:00:01Z,PRINT-01,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00072,2026-08-20T21:02:24Z,PRINT-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00630,2026-08-20T21:06:23Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00260,2026-08-20T21:16:20Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00536,2026-08-20T21:17:37Z,FILE-02,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01222,2026-08-20T21:18:55Z,BACKUP-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01303,2026-08-20T21:26:31Z,FIN-WS-14,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00067,2026-08-20T21:47:11Z,FILE-02,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00027,2026-08-20T21:50:41Z,DC-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00786,2026-08-20T21:52:25Z,FIN-WS-14,DC-01,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-00203,2026-08-20T21:59:05Z,FIN-WS-14,APP-API-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-01227,2026-08-20T22:00:08Z,PRINT-01,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01309,2026-08-20T22:01:15Z,FILE-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01373,2026-08-20T22:01:27Z,APP-API-02,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01718,2026-08-20T22:06:11Z,BACKUP-01,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-01369,2026-08-20T22:07:11Z,JUMP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01400,2026-08-20T22:17:46Z,FILE-02,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00008,2026-08-20T22:25:27Z,FILE-02,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01076,2026-08-20T22:26:21Z,APP-API-02,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01171,2026-08-20T22:29:56Z,FIN-WS-14,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00768,2026-08-20T22:33:59Z,BACKUP-01,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01501,2026-08-20T22:40:06Z,FIN-WS-14,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00698,2026-08-20T22:40:11Z,BACKUP-01,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00283,2026-08-20T22:46:59Z,PRINT-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00569,2026-08-20T22:54:17Z,FILE-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00833,2026-08-20T22:59:56Z,FIN-WS-14,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00345,2026-08-20T23:01:36Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01448,2026-08-20T23:16:10Z,BACKUP-01,FILE-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01378,2026-08-20T23:17:35Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00320,2026-08-20T23:20:33Z,FILE-02,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00936,2026-08-20T23:26:28Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01691,2026-08-20T23:28:38Z,APP-API-02,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00147,2026-08-20T23:29:06Z,PRINT-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01423,2026-08-20T23:32:10Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01773,2026-08-20T23:36:58Z,PRINT-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00769,2026-08-20T23:37:22Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01772,2026-08-20T23:39:52Z,PRINT-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01464,2026-08-20T23:39:55Z,FILE-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00351,2026-08-20T23:43:47Z,APP-API-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00477,2026-08-20T23:53:12Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01122,2026-08-20T23:56:53Z,APP-API-02,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00905,2026-08-21T00:00:24Z,BACKUP-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00644,2026-08-21T00:10:16Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01754,2026-08-21T00:10:39Z,BACKUP-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00129,2026-08-21T00:13:15Z,BACKUP-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01708,2026-08-21T00:18:57Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00062,2026-08-21T00:26:14Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01256,2026-08-21T00:26:39Z,FILE-02,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01185,2026-08-21T00:28:24Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00452,2026-08-21T00:37:13Z,DC-01,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00921,2026-08-21T00:44:53Z,DC-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00731,2026-08-21T00:47:30Z,DC-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01032,2026-08-21T00:47:34Z,JUMP-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00618,2026-08-21T00:56:39Z,FILE-02,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01687,2026-08-21T00:59:17Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00272,2026-08-21T00:59:25Z,FIN-WS-14,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00996,2026-08-21T01:08:30Z,DC-01,APP-API-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01666,2026-08-21T01:17:04Z,JUMP-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01213,2026-08-21T01:25:28Z,PRINT-01,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00514,2026-08-21T01:34:37Z,FIN-WS-14,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00183,2026-08-21T01:35:33Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00435,2026-08-21T01:37:09Z,FILE-02,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01714,2026-08-21T01:38:20Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01013,2026-08-21T01:40:14Z,BACKUP-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01041,2026-08-21T01:40:45Z,FIN-WS-14,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00562,2026-08-21T01:40:46Z,JUMP-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01486,2026-08-21T01:49:35Z,DC-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00252,2026-08-21T01:49:43Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00554,2026-08-21T01:54:32Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00025,2026-08-21T01:54:42Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00517,2026-08-21T02:03:49Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01680,2026-08-21T02:06:13Z,PRINT-01,FILE-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00334,2026-08-21T02:10:31Z,BACKUP-01,FILE-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00881,2026-08-21T02:10:41Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00204,2026-08-21T02:15:58Z,JUMP-01,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01693,2026-08-21T02:17:25Z,BACKUP-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00745,2026-08-21T02:20:44Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00117,2026-08-21T02:25:00Z,JUMP-01,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01471,2026-08-21T02:26:28Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00196,2026-08-21T02:27:47Z,JUMP-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01350,2026-08-21T02:31:26Z,FIN-WS-14,DC-01,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00496,2026-08-21T02:38:14Z,BACKUP-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01084,2026-08-21T02:44:27Z,FIN-WS-14,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01415,2026-08-21T02:46:34Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01228,2026-08-21T02:47:15Z,DC-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00532,2026-08-21T02:49:09Z,JUMP-01,APP-API-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01449,2026-08-21T02:52:21Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01531,2026-08-21T03:04:09Z,FIN-WS-14,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00895,2026-08-21T03:07:58Z,FILE-02,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01636,2026-08-21T03:10:43Z,APP-API-02,APP-API-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00181,2026-08-21T03:10:58Z,JUMP-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00034,2026-08-21T03:13:01Z,DC-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00084,2026-08-21T03:14:53Z,FIN-WS-14,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00362,2026-08-21T03:15:23Z,APP-API-02,FILE-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01030,2026-08-21T03:23:26Z,BACKUP-01,APP-API-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-01230,2026-08-21T03:29:40Z,FIN-WS-14,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01312,2026-08-21T03:31:44Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00941,2026-08-21T03:32:43Z,APP-API-02,APP-API-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-01348,2026-08-21T03:46:11Z,FIN-WS-14,FILE-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01345,2026-08-21T03:48:33Z,FILE-02,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00643,2026-08-21T03:51:30Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-01280,2026-08-21T03:52:35Z,BACKUP-01,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00530,2026-08-21T03:57:55Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00363,2026-08-21T03:58:33Z,FIN-WS-14,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00012,2026-08-21T04:03:12Z,APP-API-02,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01159,2026-08-21T04:04:09Z,APP-API-02,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00329,2026-08-21T04:05:21Z,FIN-WS-14,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00444,2026-08-21T04:12:35Z,FILE-02,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00406,2026-08-21T04:14:52Z,FIN-WS-14,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01372,2026-08-21T04:20:57Z,JUMP-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00919,2026-08-21T04:23:58Z,DC-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00205,2026-08-21T04:24:24Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00664,2026-08-21T04:27:24Z,JUMP-01,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00038,2026-08-21T04:45:32Z,APP-API-02,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00692,2026-08-21T04:48:16Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00787,2026-08-21T04:48:34Z,FIN-WS-14,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00613,2026-08-21T04:49:24Z,PRINT-01,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00981,2026-08-21T04:50:35Z,BACKUP-01,FILE-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01473,2026-08-21T04:53:38Z,PRINT-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00542,2026-08-21T04:53:46Z,PRINT-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00476,2026-08-21T04:53:57Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-01717,2026-08-21T05:03:39Z,APP-API-02,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00650,2026-08-21T05:06:43Z,BACKUP-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00242,2026-08-21T05:17:18Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00708,2026-08-21T05:19:20Z,JUMP-01,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00473,2026-08-21T05:20:33Z,PRINT-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00951,2026-08-21T05:25:37Z,JUMP-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01662,2026-08-21T05:27:27Z,APP-API-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01664,2026-08-21T05:30:06Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01068,2026-08-21T05:32:25Z,FIN-WS-14,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00732,2026-08-21T05:32:52Z,PRINT-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00865,2026-08-21T05:38:04Z,BACKUP-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00210,2026-08-21T05:50:15Z,PRINT-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00862,2026-08-21T05:51:14Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00877,2026-08-21T05:52:22Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-00184,2026-08-21T05:54:56Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01116,2026-08-21T06:00:48Z,JUMP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01409,2026-08-21T06:08:48Z,APP-API-02,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00844,2026-08-21T06:18:00Z,BACKUP-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00581,2026-08-21T06:22:44Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00988,2026-08-21T06:26:10Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00949,2026-08-21T06:27:13Z,FILE-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01219,2026-08-21T06:27:15Z,DC-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01242,2026-08-21T06:33:11Z,JUMP-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00136,2026-08-21T06:37:41Z,PRINT-01,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00848,2026-08-21T06:54:07Z,FILE-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01287,2026-08-21T06:55:39Z,DC-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00610,2026-08-21T06:56:56Z,PRINT-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00484,2026-08-21T06:57:09Z,FIN-WS-14,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01333,2026-08-21T07:00:08Z,FIN-WS-14,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01197,2026-08-21T07:04:16Z,APP-API-02,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00794,2026-08-21T07:09:15Z,FILE-02,FILE-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-00286,2026-08-21T07:12:07Z,BACKUP-01,DC-01,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00701,2026-08-21T07:28:11Z,BACKUP-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00518,2026-08-21T07:30:19Z,BACKUP-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01683,2026-08-21T07:37:23Z,FILE-02,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01104,2026-08-21T07:38:49Z,DC-01,APP-API-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00785,2026-08-21T07:41:10Z,FILE-02,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01622,2026-08-21T07:44:08Z,PRINT-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00011,2026-08-21T07:47:16Z,DC-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01093,2026-08-21T07:47:20Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00694,2026-08-21T07:49:06Z,JUMP-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00750,2026-08-21T07:52:01Z,APP-API-02,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00284,2026-08-21T07:53:21Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00912,2026-08-21T07:56:51Z,PRINT-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00280,2026-08-21T07:58:28Z,JUMP-01,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00368,2026-08-21T08:04:40Z,PRINT-01,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00316,2026-08-21T08:06:59Z,BACKUP-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01262,2026-08-21T08:07:52Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00967,2026-08-21T08:08:06Z,FIN-WS-14,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00868,2026-08-21T08:11:46Z,FIN-WS-14,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01525,2026-08-21T08:13:56Z,APP-API-02,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00891,2026-08-21T08:17:52Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00059,2026-08-21T08:23:14Z,DC-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01588,2026-08-21T08:29:00Z,APP-API-02,APP-API-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01190,2026-08-21T08:42:00Z,FIN-WS-14,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00595,2026-08-21T08:45:12Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01098,2026-08-21T08:49:37Z,FILE-02,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01106,2026-08-21T08:53:09Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01545,2026-08-21T09:03:40Z,BACKUP-01,APP-API-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00791,2026-08-21T09:15:16Z,APP-API-02,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01736,2026-08-21T09:16:47Z,FILE-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01458,2026-08-21T09:27:22Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01671,2026-08-21T09:27:36Z,DC-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01590,2026-08-21T09:39:08Z,FILE-02,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00977,2026-08-21T09:45:14Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00105,2026-08-21T09:45:53Z,BACKUP-01,FILE-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00380,2026-08-21T09:52:27Z,PRINT-01,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00495,2026-08-21T09:53:44Z,FILE-02,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00096,2026-08-21T09:54:59Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01105,2026-08-21T10:01:00Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00924,2026-08-21T10:08:26Z,FIN-WS-14,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01436,2026-08-21T10:11:25Z,FIN-WS-14,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00185,2026-08-21T10:15:35Z,APP-API-02,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00834,2026-08-21T10:28:50Z,PRINT-01,DC-01,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01688,2026-08-21T10:30:05Z,FIN-WS-14,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00707,2026-08-21T10:32:22Z,BACKUP-01,APP-API-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00773,2026-08-21T10:34:17Z,FILE-02,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00228,2026-08-21T10:36:13Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00483,2026-08-21T10:43:04Z,FIN-WS-14,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00289,2026-08-21T10:43:14Z,FILE-02,DC-01,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00182,2026-08-21T10:48:21Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01685,2026-08-21T10:51:26Z,FILE-02,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01249,2026-08-21T10:51:42Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00162,2026-08-21T10:51:44Z,DC-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01342,2026-08-21T10:52:38Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00826,2026-08-21T11:02:59Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00584,2026-08-21T11:05:54Z,FIN-WS-14,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00685,2026-08-21T11:09:08Z,APP-API-02,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00802,2026-08-21T11:09:36Z,JUMP-01,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00149,2026-08-21T11:09:56Z,FIN-WS-14,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00516,2026-08-21T11:12:01Z,APP-API-02,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01251,2026-08-21T11:12:40Z,APP-API-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00255,2026-08-21T11:13:55Z,JUMP-01,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00837,2026-08-21T11:14:45Z,APP-API-02,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00460,2026-08-21T11:18:04Z,PRINT-01,APP-API-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00801,2026-08-21T11:27:19Z,FIN-WS-14,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00271,2026-08-21T11:38:18Z,DC-01,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01129,2026-08-21T11:40:54Z,PRINT-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00168,2026-08-21T11:43:07Z,DC-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01767,2026-08-21T11:43:19Z,PRINT-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00539,2026-08-21T11:44:46Z,FIN-WS-14,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00615,2026-08-21T12:00:29Z,APP-API-02,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00142,2026-08-21T12:04:53Z,FILE-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00678,2026-08-21T12:07:52Z,DC-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00116,2026-08-21T12:18:29Z,APP-API-02,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01604,2026-08-21T12:20:57Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01236,2026-08-21T12:26:14Z,FIN-WS-14,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00246,2026-08-21T12:30:51Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00074,2026-08-21T12:30:52Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00332,2026-08-21T12:35:48Z,FIN-WS-14,DC-01,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00009,2026-08-21T12:41:24Z,DC-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01579,2026-08-21T12:41:24Z,FILE-02,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00315,2026-08-21T12:42:35Z,PRINT-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00274,2026-08-21T12:42:56Z,PRINT-01,FILE-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00464,2026-08-21T12:47:44Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00164,2026-08-21T12:49:39Z,FILE-02,FILE-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00411,2026-08-21T13:00:48Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00515,2026-08-21T13:04:08Z,APP-API-02,APP-API-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00306,2026-08-21T13:05:10Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00487,2026-08-21T13:07:03Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01240,2026-08-21T13:07:38Z,FIN-WS-14,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00261,2026-08-21T13:07:39Z,DC-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01016,2026-08-21T13:10:37Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00621,2026-08-21T13:15:03Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01672,2026-08-21T13:17:29Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01009,2026-08-21T13:22:00Z,FILE-02,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01165,2026-08-21T13:29:52Z,JUMP-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00405,2026-08-21T13:38:39Z,APP-API-02,FILE-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00797,2026-08-21T13:41:52Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00775,2026-08-21T13:48:47Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00458,2026-08-21T13:59:02Z,FIN-WS-14,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01635,2026-08-21T14:04:27Z,APP-API-02,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00511,2026-08-21T14:09:07Z,FILE-02,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00945,2026-08-21T14:09:07Z,FIN-WS-14,APP-API-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-01257,2026-08-21T14:14:08Z,PRINT-01,FILE-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01628,2026-08-21T14:15:56Z,FIN-WS-14,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01215,2026-08-21T14:17:21Z,JUMP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01414,2026-08-21T14:27:08Z,PRINT-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00433,2026-08-21T14:32:50Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00001,2026-08-21T14:34:04Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01283,2026-08-21T14:35:31Z,DC-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00525,2026-08-21T14:35:42Z,APP-API-02,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01533,2026-08-21T14:43:52Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00127,2026-08-21T14:44:25Z,JUMP-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00555,2026-08-21T14:46:04Z,BACKUP-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00677,2026-08-21T14:50:09Z,DC-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01398,2026-08-21T14:55:06Z,FIN-WS-14,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00063,2026-08-21T15:01:19Z,PRINT-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01502,2026-08-21T15:05:07Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00879,2026-08-21T15:06:50Z,PRINT-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00866,2026-08-21T15:15:24Z,DC-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00574,2026-08-21T15:16:23Z,BACKUP-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00233,2026-08-21T15:18:25Z,PRINT-01,APP-API-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00177,2026-08-21T15:21:58Z,PRINT-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01553,2026-08-21T15:22:05Z,BACKUP-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01182,2026-08-21T15:24:33Z,APP-API-02,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01063,2026-08-21T15:29:20Z,PRINT-01,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01178,2026-08-21T15:29:57Z,JUMP-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00493,2026-08-21T15:33:11Z,FILE-02,APP-API-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-01174,2026-08-21T15:33:26Z,JUMP-01,FILE-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00680,2026-08-21T15:35:21Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00321,2026-08-21T15:36:07Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00436,2026-08-21T15:40:25Z,PRINT-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01584,2026-08-21T15:41:06Z,DC-01,DC-01,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00966,2026-08-21T15:42:34Z,BACKUP-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01769,2026-08-21T15:43:18Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-01008,2026-08-21T15:44:08Z,APP-API-02,APP-API-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01712,2026-08-21T15:45:45Z,BACKUP-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01442,2026-08-21T15:50:53Z,DC-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00356,2026-08-21T15:52:18Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00541,2026-08-21T16:01:14Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00507,2026-08-21T16:03:03Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01455,2026-08-21T16:03:38Z,APP-API-02,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00534,2026-08-21T16:07:19Z,FILE-02,APP-API-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00838,2026-08-21T16:07:33Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00151,2026-08-21T16:08:59Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00586,2026-08-21T16:10:00Z,FILE-02,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00948,2026-08-21T16:12:47Z,APP-API-02,DC-01,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-01052,2026-08-21T16:13:49Z,JUMP-01,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00061,2026-08-21T16:15:37Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00267,2026-08-21T16:19:38Z,JUMP-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00354,2026-08-21T16:21:33Z,FIN-WS-14,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00961,2026-08-21T16:33:00Z,FIN-WS-14,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00766,2026-08-21T16:35:07Z,DC-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00327,2026-08-21T16:37:57Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00626,2026-08-21T16:42:21Z,APP-API-02,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00543,2026-08-21T16:47:19Z,BACKUP-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00547,2026-08-21T16:47:51Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01119,2026-08-21T16:57:43Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00934,2026-08-21T17:00:15Z,BACKUP-01,DC-01,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-00178,2026-08-21T17:09:47Z,APP-API-02,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00485,2026-08-21T17:15:34Z,PRINT-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00755,2026-08-21T17:24:04Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00946,2026-08-21T17:24:11Z,JUMP-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01112,2026-08-21T17:42:41Z,JUMP-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00589,2026-08-21T17:48:20Z,DC-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01210,2026-08-21T17:49:03Z,FIN-WS-14,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01686,2026-08-21T17:51:21Z,BACKUP-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00617,2026-08-21T17:53:02Z,FILE-02,APP-API-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01694,2026-08-21T18:01:13Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01770,2026-08-21T18:05:03Z,JUMP-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00720,2026-08-21T18:05:54Z,FIN-WS-14,APP-API-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00502,2026-08-21T18:14:17Z,BACKUP-01,FILE-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-01620,2026-08-21T18:14:29Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01198,2026-08-21T18:17:22Z,JUMP-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00729,2026-08-21T18:21:58Z,DC-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00655,2026-08-21T18:29:44Z,PRINT-01,FILE-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00013,2026-08-21T18:31:17Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01586,2026-08-21T18:33:09Z,APP-API-02,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00258,2026-08-21T18:35:40Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00691,2026-08-21T18:39:33Z,PRINT-01,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01300,2026-08-21T18:41:58Z,JUMP-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01435,2026-08-21T18:46:38Z,APP-API-02,APP-API-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00114,2026-08-21T18:47:49Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00788,2026-08-21T18:48:35Z,BACKUP-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00043,2026-08-21T18:52:34Z,APP-API-02,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01499,2026-08-21T18:53:17Z,PRINT-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00016,2026-08-21T18:59:19Z,APP-API-02,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00018,2026-08-21T19:00:35Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00251,2026-08-21T19:07:14Z,BACKUP-01,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01125,2026-08-21T19:12:52Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01468,2026-08-21T19:13:45Z,FIN-WS-14,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01710,2026-08-21T19:15:36Z,DC-01,APP-API-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00395,2026-08-21T19:18:49Z,APP-API-02,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00657,2026-08-21T19:20:24Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-01195,2026-08-21T19:22:34Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00425,2026-08-21T19:28:23Z,PRINT-01,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00863,2026-08-21T19:29:54Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-01512,2026-08-21T19:41:38Z,APP-API-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00235,2026-08-21T19:44:08Z,PRINT-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01742,2026-08-21T19:52:51Z,APP-API-02,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00052,2026-08-21T19:58:08Z,DC-01,DC-01,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01307,2026-08-21T20:01:24Z,APP-API-02,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00119,2026-08-21T20:10:53Z,PRINT-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01209,2026-08-21T20:12:32Z,FIN-WS-14,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00268,2026-08-21T20:18:47Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00269,2026-08-21T20:18:54Z,FILE-02,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00571,2026-08-21T20:23:26Z,FIN-WS-14,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00923,2026-08-21T20:23:54Z,FIN-WS-14,FILE-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00415,2026-08-21T20:26:15Z,FIN-WS-14,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00843,2026-08-21T20:34:24Z,PRINT-01,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00047,2026-08-21T20:39:21Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00889,2026-08-21T20:40:17Z,BACKUP-01,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00344,2026-08-21T20:44:02Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00558,2026-08-21T20:44:36Z,APP-API-02,FILE-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-01081,2026-08-21T20:54:29Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01451,2026-08-21T20:56:52Z,JUMP-01,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00538,2026-08-21T21:02:46Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01015,2026-08-21T21:02:57Z,FILE-02,DC-01,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00706,2026-08-21T21:04:46Z,BACKUP-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01175,2026-08-21T21:06:42Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00254,2026-08-21T21:08:27Z,FILE-02,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01376,2026-08-21T21:32:22Z,PRINT-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00490,2026-08-21T21:33:57Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00804,2026-08-21T21:38:01Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-01124,2026-08-21T21:43:52Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00470,2026-08-21T21:44:21Z,BACKUP-01,FILE-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01358,2026-08-21T21:48:51Z,PRINT-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01151,2026-08-21T21:57:21Z,FILE-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01405,2026-08-21T22:12:53Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00134,2026-08-21T22:25:59Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-01243,2026-08-21T22:28:54Z,BACKUP-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00753,2026-08-21T22:31:52Z,JUMP-01,APP-API-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00748,2026-08-21T22:31:56Z,FILE-02,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01123,2026-08-21T22:34:58Z,BACKUP-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00730,2026-08-21T22:35:08Z,FILE-02,DC-01,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00782,2026-08-21T22:37:59Z,BACKUP-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00402,2026-08-21T22:38:14Z,DC-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01254,2026-08-21T22:41:28Z,BACKUP-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01286,2026-08-21T22:41:40Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01058,2026-08-21T22:41:57Z,FILE-02,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01577,2026-08-21T22:44:44Z,JUMP-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01037,2026-08-21T22:47:55Z,FILE-02,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00849,2026-08-21T22:48:48Z,DC-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01488,2026-08-21T22:58:00Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00540,2026-08-21T22:58:01Z,FIN-WS-14,DC-01,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00506,2026-08-21T23:02:42Z,APP-API-02,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00776,2026-08-21T23:07:59Z,DC-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00478,2026-08-21T23:24:08Z,FIN-WS-14,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01744,2026-08-21T23:27:21Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00336,2026-08-21T23:28:10Z,BACKUP-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01351,2026-08-21T23:39:30Z,JUMP-01,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00239,2026-08-21T23:40:55Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00810,2026-08-21T23:55:26Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01510,2026-08-22T00:03:45Z,JUMP-01,APP-API-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01575,2026-08-22T00:07:15Z,BACKUP-01,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01513,2026-08-22T00:14:21Z,FILE-02,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01079,2026-08-22T00:16:57Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01359,2026-08-22T00:17:39Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01526,2026-08-22T00:18:10Z,APP-API-02,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01457,2026-08-22T00:19:03Z,FIN-WS-14,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00990,2026-08-22T00:19:52Z,BACKUP-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00522,2026-08-22T00:20:03Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01005,2026-08-22T00:29:51Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01411,2026-08-22T00:29:55Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00600,2026-08-22T00:40:51Z,APP-API-02,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01446,2026-08-22T00:40:58Z,BACKUP-01,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00526,2026-08-22T00:48:22Z,BACKUP-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01743,2026-08-22T00:53:34Z,JUMP-01,FILE-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-01564,2026-08-22T00:55:52Z,APP-API-02,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00995,2026-08-22T01:04:05Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00652,2026-08-22T01:04:43Z,FILE-02,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00901,2026-08-22T01:06:23Z,JUMP-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01562,2026-08-22T01:07:54Z,BACKUP-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00179,2026-08-22T01:15:18Z,JUMP-01,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00871,2026-08-22T01:15:51Z,BACKUP-01,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00559,2026-08-22T01:18:45Z,DC-01,DC-01,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01428,2026-08-22T01:20:39Z,BACKUP-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00331,2026-08-22T01:24:00Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01475,2026-08-22T01:25:31Z,JUMP-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00537,2026-08-22T01:25:51Z,APP-API-02,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00081,2026-08-22T01:25:59Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01474,2026-08-22T01:26:23Z,FIN-WS-14,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00500,2026-08-22T01:27:15Z,BACKUP-01,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01724,2026-08-22T01:35:51Z,JUMP-01,DC-01,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01048,2026-08-22T01:44:55Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01437,2026-08-22T01:51:30Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01570,2026-08-22T02:00:19Z,PRINT-01,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00561,2026-08-22T02:06:35Z,JUMP-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00293,2026-08-22T02:07:09Z,APP-API-02,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01514,2026-08-22T02:14:19Z,FIN-WS-14,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01638,2026-08-22T02:16:38Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01357,2026-08-22T02:21:53Z,DC-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00455,2026-08-22T02:23:21Z,APP-API-02,DC-01,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01375,2026-08-22T02:27:48Z,BACKUP-01,APP-API-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-01039,2026-08-22T02:28:42Z,BACKUP-01,DC-01,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00632,2026-08-22T02:30:01Z,DC-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00093,2026-08-22T02:31:22Z,FILE-02,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01719,2026-08-22T02:34:26Z,FILE-02,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01056,2026-08-22T02:39:06Z,APP-API-02,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01334,2026-08-22T02:48:42Z,JUMP-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00216,2026-08-22T02:52:03Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01035,2026-08-22T02:56:32Z,FILE-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00388,2026-08-22T02:56:46Z,APP-API-02,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00633,2026-08-22T03:00:43Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-00037,2026-08-22T03:18:51Z,JUMP-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00590,2026-08-22T03:37:08Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00187,2026-08-22T03:42:01Z,BACKUP-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01191,2026-08-22T03:42:14Z,DC-01,DC-01,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-01660,2026-08-22T03:43:04Z,FIN-WS-14,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01170,2026-08-22T03:50:56Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01582,2026-08-22T03:58:50Z,JUMP-01,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01408,2026-08-22T04:01:14Z,BACKUP-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01074,2026-08-22T04:09:34Z,APP-API-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00915,2026-08-22T04:11:13Z,BACKUP-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01484,2026-08-22T04:13:05Z,JUMP-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01418,2026-08-22T04:15:41Z,FILE-02,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01235,2026-08-22T04:25:37Z,FILE-02,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01233,2026-08-22T04:26:23Z,BACKUP-01,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00544,2026-08-22T04:26:27Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00442,2026-08-22T04:26:54Z,APP-API-02,DC-01,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00876,2026-08-22T04:27:33Z,APP-API-02,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00597,2026-08-22T04:28:44Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01780,2026-08-22T04:40:53Z,DC-01,APP-API-02,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-01787,2026-08-22T04:42:23Z,JUMP-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00339,2026-08-22T04:47:02Z,PRINT-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00675,2026-08-22T04:48:43Z,DC-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00419,2026-08-22T04:52:12Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00601,2026-08-22T04:56:29Z,FIN-WS-14,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01181,2026-08-22T05:09:26Z,BACKUP-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00300,2026-08-22T05:09:31Z,FIN-WS-14,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01304,2026-08-22T05:09:51Z,FILE-02,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01649,2026-08-22T05:11:05Z,FILE-02,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00461,2026-08-22T05:15:07Z,PRINT-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00812,2026-08-22T05:17:32Z,JUMP-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00841,2026-08-22T05:21:08Z,JUMP-01,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01750,2026-08-22T05:24:55Z,JUMP-01,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-00974,2026-08-22T05:32:32Z,FIN-WS-14,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00088,2026-08-22T05:46:35Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-01090,2026-08-22T05:58:40Z,FILE-02,APP-API-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00937,2026-08-22T06:02:57Z,PRINT-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01268,2026-08-22T06:11:30Z,JUMP-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00989,2026-08-22T06:11:42Z,DC-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01049,2026-08-22T06:18:24Z,DC-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01311,2026-08-22T06:19:32Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01639,2026-08-22T06:20:51Z,JUMP-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00903,2026-08-22T06:22:48Z,FILE-02,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01541,2026-08-22T06:27:37Z,DC-01,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00454,2026-08-22T06:35:25Z,FIN-WS-14,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00856,2026-08-22T06:36:51Z,BACKUP-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00219,2026-08-22T06:39:42Z,DC-01,APP-API-02,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-01038,2026-08-22T06:43:34Z,PRINT-01,DC-01,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00780,2026-08-22T06:48:17Z,JUMP-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01645,2026-08-22T06:52:18Z,JUMP-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00993,2026-08-22T06:54:14Z,BACKUP-01,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01568,2026-08-22T06:57:26Z,FIN-WS-14,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-01559,2026-08-22T07:04:00Z,APP-API-02,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00596,2026-08-22T07:07:27Z,FILE-02,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01725,2026-08-22T07:07:55Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00396,2026-08-22T07:08:32Z,BACKUP-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00328,2026-08-22T07:11:15Z,PRINT-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00723,2026-08-22T07:12:49Z,BACKUP-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00852,2026-08-22T07:15:47Z,FILE-02,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00390,2026-08-22T07:26:16Z,BACKUP-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01330,2026-08-22T07:27:53Z,DC-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01476,2026-08-22T07:29:50Z,FILE-02,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00120,2026-08-22T07:40:19Z,DC-01,DC-01,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-00167,2026-08-22T07:50:30Z,DC-01,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01077,2026-08-22T07:52:30Z,FILE-02,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01218,2026-08-22T07:52:47Z,APP-API-02,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00121,2026-08-22T07:55:23Z,FILE-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00772,2026-08-22T08:08:10Z,FILE-02,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00859,2026-08-22T08:20:44Z,PRINT-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01273,2026-08-22T08:26:06Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00128,2026-08-22T08:28:38Z,BACKUP-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00372,2026-08-22T08:30:17Z,BACKUP-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01248,2026-08-22T08:33:06Z,APP-API-02,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01542,2026-08-22T08:34:16Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00091,2026-08-22T08:39:18Z,PRINT-01,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00422,2026-08-22T08:40:08Z,APP-API-02,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00310,2026-08-22T08:40:30Z,PRINT-01,DC-01,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00907,2026-08-22T08:41:35Z,PRINT-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00282,2026-08-22T08:43:33Z,PRINT-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01663,2026-08-22T08:46:31Z,BACKUP-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00287,2026-08-22T08:54:31Z,FILE-02,FILE-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00465,2026-08-22T08:56:59Z,APP-API-02,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01341,2026-08-22T09:02:58Z,FILE-02,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01067,2026-08-22T09:08:38Z,FIN-WS-14,FILE-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01279,2026-08-22T09:10:09Z,DC-01,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00330,2026-08-22T09:23:37Z,JUMP-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00914,2026-08-22T09:24:29Z,DC-01,APP-API-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-01221,2026-08-22T09:25:51Z,JUMP-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01479,2026-08-22T09:35:21Z,JUMP-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00432,2026-08-22T09:39:53Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00403,2026-08-22T09:44:14Z,PRINT-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00575,2026-08-22T09:50:59Z,FIN-WS-14,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01053,2026-08-22T09:54:18Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00983,2026-08-22T09:54:37Z,BACKUP-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00076,2026-08-22T09:58:38Z,PRINT-01,DC-01,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-00053,2026-08-22T09:59:28Z,JUMP-01,APP-API-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-01731,2026-08-22T10:02:46Z,DC-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00682,2026-08-22T10:04:36Z,JUMP-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00137,2026-08-22T10:10:01Z,FIN-WS-14,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01503,2026-08-22T10:12:32Z,FILE-02,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01391,2026-08-22T10:13:48Z,DC-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01498,2026-08-22T10:20:50Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00195,2026-08-22T10:29:10Z,FIN-WS-14,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01572,2026-08-22T10:29:48Z,APP-API-02,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00386,2026-08-22T10:33:28Z,PRINT-01,DC-01,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00846,2026-08-22T10:35:25Z,APP-API-02,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01707,2026-08-22T10:38:27Z,FIN-WS-14,DC-01,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00629,2026-08-22T10:39:40Z,DC-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00566,2026-08-22T10:54:37Z,JUMP-01,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01492,2026-08-22T11:00:03Z,FIN-WS-14,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00193,2026-08-22T11:03:51Z,FIN-WS-14,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00587,2026-08-22T11:05:37Z,APP-API-02,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00986,2026-08-22T11:18:51Z,PRINT-01,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00662,2026-08-22T11:22:12Z,JUMP-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01100,2026-08-22T11:23:03Z,FIN-WS-14,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00722,2026-08-22T11:28:33Z,APP-API-02,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01549,2026-08-22T11:30:19Z,FILE-02,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00798,2026-08-22T11:33:46Z,JUMP-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01500,2026-08-22T11:40:40Z,FIN-WS-14,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01595,2026-08-22T11:54:56Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00711,2026-08-22T11:59:07Z,JUMP-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00481,2026-08-22T12:00:44Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01404,2026-08-22T12:02:44Z,DC-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01690,2026-08-22T12:04:15Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00232,2026-08-22T12:09:14Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00408,2026-08-22T12:25:34Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00818,2026-08-22T12:26:14Z,FILE-02,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00902,2026-08-22T12:30:09Z,JUMP-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00606,2026-08-22T12:34:47Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00112,2026-08-22T12:46:25Z,PRINT-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00423,2026-08-22T12:56:26Z,JUMP-01,FILE-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00400,2026-08-22T12:56:41Z,JUMP-01,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01344,2026-08-22T12:57:43Z,PRINT-01,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-00735,2026-08-22T13:01:50Z,DC-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00056,2026-08-22T13:04:28Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00311,2026-08-22T13:06:16Z,FILE-02,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01284,2026-08-22T13:06:57Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01554,2026-08-22T13:20:38Z,FILE-02,DC-01,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01521,2026-08-22T13:25:00Z,DC-01,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00671,2026-08-22T13:28:37Z,FILE-02,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00645,2026-08-22T13:29:08Z,APP-API-02,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01547,2026-08-22T13:47:16Z,PRINT-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01591,2026-08-22T13:47:17Z,DC-01,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01187,2026-08-22T13:48:54Z,BACKUP-01,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00752,2026-08-22T13:53:40Z,JUMP-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00404,2026-08-22T14:00:08Z,BACKUP-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00819,2026-08-22T14:02:13Z,APP-API-02,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00568,2026-08-22T14:04:20Z,DC-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-01696,2026-08-22T14:07:40Z,FILE-02,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01421,2026-08-22T14:13:09Z,BACKUP-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00160,2026-08-22T14:14:39Z,APP-API-02,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01050,2026-08-22T14:15:58Z,FIN-WS-14,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01217,2026-08-22T14:17:52Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01156,2026-08-22T14:21:25Z,FIN-WS-14,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00523,2026-08-22T14:26:42Z,JUMP-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01285,2026-08-22T14:32:43Z,FIN-WS-14,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00338,2026-08-22T14:33:21Z,PRINT-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01194,2026-08-22T14:36:48Z,APP-API-02,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01456,2026-08-22T14:42:39Z,DC-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00592,2026-08-22T14:43:21Z,FILE-02,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00355,2026-08-22T14:47:25Z,PRINT-01,APP-API-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01271,2026-08-22T14:47:58Z,JUMP-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00564,2026-08-22T14:49:14Z,FIN-WS-14,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00348,2026-08-22T14:51:38Z,JUMP-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01524,2026-08-22T15:08:11Z,PRINT-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00619,2026-08-22T15:09:39Z,DC-01,DC-01,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01544,2026-08-22T15:14:00Z,DC-01,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00546,2026-08-22T15:15:04Z,BACKUP-01,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01790,2026-08-22T15:18:58Z,PRINT-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01668,2026-08-22T15:20:33Z,FIN-WS-14,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01425,2026-08-22T15:20:45Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00201,2026-08-22T15:23:22Z,BACKUP-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00635,2026-08-22T15:23:38Z,FILE-02,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00469,2026-08-22T15:23:54Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01592,2026-08-22T15:29:49Z,FIN-WS-14,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01432,2026-08-22T15:30:46Z,JUMP-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00676,2026-08-22T15:33:12Z,FILE-02,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01216,2026-08-22T15:38:23Z,PRINT-01,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01134,2026-08-22T15:42:40Z,JUMP-01,DC-01,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00163,2026-08-22T15:53:50Z,FILE-02,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01017,2026-08-22T15:56:38Z,DC-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01294,2026-08-22T16:09:39Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01539,2026-08-22T16:10:52Z,BACKUP-01,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01794,2026-08-22T16:13:13Z,DC-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00925,2026-08-22T16:14:24Z,DC-01,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01624,2026-08-22T16:20:12Z,FILE-02,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00150,2026-08-22T16:28:34Z,JUMP-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01676,2026-08-22T16:29:01Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00346,2026-08-22T16:32:37Z,FIN-WS-14,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01265,2026-08-22T16:33:51Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00322,2026-08-22T16:37:41Z,APP-API-02,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01177,2026-08-22T16:41:15Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00314,2026-08-22T16:48:09Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-00851,2026-08-22T16:53:18Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01497,2026-08-22T17:09:51Z,PRINT-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00421,2026-08-22T17:09:52Z,BACKUP-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01231,2026-08-22T17:10:55Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00375,2026-08-22T17:13:36Z,FIN-WS-14,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00071,2026-08-22T17:14:04Z,DC-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01347,2026-08-22T17:14:06Z,FIN-WS-14,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00431,2026-08-22T17:23:21Z,FIN-WS-14,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01481,2026-08-22T17:24:06Z,BACKUP-01,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00830,2026-08-22T17:27:15Z,DC-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01270,2026-08-22T17:35:52Z,FILE-02,APP-API-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00017,2026-08-22T17:36:28Z,BACKUP-01,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00747,2026-08-22T17:38:15Z,JUMP-01,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00712,2026-08-22T17:41:36Z,BACKUP-01,APP-API-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-01618,2026-08-22T17:57:35Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01290,2026-08-22T18:01:05Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00686,2026-08-22T18:04:13Z,BACKUP-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00005,2026-08-22T18:04:31Z,FIN-WS-14,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01203,2026-08-22T18:11:46Z,DC-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01169,2026-08-22T18:12:59Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-01247,2026-08-22T18:15:05Z,APP-API-02,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00035,2026-08-22T18:16:25Z,DC-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00218,2026-08-22T18:19:30Z,JUMP-01,DC-01,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01517,2026-08-22T18:24:41Z,FIN-WS-14,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00238,2026-08-22T18:25:31Z,FILE-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01580,2026-08-22T18:29:27Z,BACKUP-01,FILE-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00200,2026-08-22T18:29:30Z,BACKUP-01,FILE-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01022,2026-08-22T18:30:13Z,BACKUP-01,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00740,2026-08-22T18:33:33Z,FILE-02,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00550,2026-08-22T18:35:47Z,PRINT-01,APP-API-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-00176,2026-08-22T18:38:36Z,JUMP-01,DC-01,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00880,2026-08-22T18:38:57Z,FILE-02,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01141,2026-08-22T18:47:15Z,BACKUP-01,APP-API-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00531,2026-08-22T18:51:18Z,BACKUP-01,APP-API-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01299,2026-08-22T18:51:48Z,FILE-02,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00236,2026-08-22T18:52:16Z,DC-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01172,2026-08-22T18:53:20Z,JUMP-01,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01540,2026-08-22T19:00:47Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01438,2026-08-22T19:13:47Z,BACKUP-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01716,2026-08-22T19:15:08Z,APP-API-02,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00024,2026-08-22T19:17:47Z,BACKUP-01,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00781,2026-08-22T19:19:44Z,APP-API-02,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01291,2026-08-22T19:20:26Z,DC-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00845,2026-08-22T19:24:17Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01598,2026-08-22T19:28:27Z,APP-API-02,FILE-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00853,2026-08-22T19:30:53Z,DC-01,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01785,2026-08-22T19:35:12Z,FIN-WS-14,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00021,2026-08-22T19:54:26Z,BACKUP-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01371,2026-08-22T20:01:09Z,FIN-WS-14,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00166,2026-08-22T20:03:47Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00796,2026-08-22T20:08:54Z,BACKUP-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00123,2026-08-22T20:09:09Z,BACKUP-01,FILE-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00648,2026-08-22T20:13:20Z,DC-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01587,2026-08-22T20:13:27Z,DC-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00695,2026-08-22T20:13:33Z,JUMP-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00111,2026-08-22T20:20:15Z,JUMP-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00353,2026-08-22T20:21:19Z,FILE-02,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01453,2026-08-22T20:30:24Z,PRINT-01,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01757,2026-08-22T20:31:15Z,FIN-WS-14,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01727,2026-08-22T20:34:54Z,BACKUP-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00492,2026-08-22T20:41:34Z,DC-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00417,2026-08-22T20:46:42Z,DC-01,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01143,2026-08-22T20:53:24Z,APP-API-02,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01224,2026-08-22T20:58:17Z,FIN-WS-14,DC-01,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00398,2026-08-22T21:07:21Z,PRINT-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01573,2026-08-22T21:07:42Z,FIN-WS-14,APP-API-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00077,2026-08-22T21:15:57Z,BACKUP-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00882,2026-08-22T21:21:39Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00886,2026-08-22T21:25:54Z,FILE-02,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00171,2026-08-22T21:26:26Z,FILE-02,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01082,2026-08-22T21:28:26Z,JUMP-01,FILE-02,ACME\svc_print,SMB,failure,benign,routine authentication
+AUTH-01140,2026-08-22T21:29:38Z,FIN-WS-14,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00257,2026-08-22T21:51:23Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01771,2026-08-22T21:58:17Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01252,2026-08-22T22:01:12Z,PRINT-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00050,2026-08-22T22:09:08Z,FIN-WS-14,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01043,2026-08-22T22:10:25Z,JUMP-01,APP-API-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00639,2026-08-22T22:11:17Z,DC-01,APP-API-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00864,2026-08-22T22:13:54Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00973,2026-08-22T22:18:18Z,APP-API-02,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01147,2026-08-22T22:19:47Z,BACKUP-01,APP-API-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-01737,2026-08-22T22:21:38Z,PRINT-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01677,2026-08-22T22:22:18Z,JUMP-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00947,2026-08-22T22:34:17Z,FILE-02,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01734,2026-08-22T22:41:53Z,FIN-WS-14,APP-API-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-01465,2026-08-22T22:42:43Z,DC-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00870,2026-08-22T22:47:34Z,PRINT-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01028,2026-08-22T22:51:08Z,FIN-WS-14,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00019,2026-08-22T22:51:27Z,FILE-02,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01397,2026-08-22T22:53:09Z,FILE-02,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01089,2026-08-22T22:56:50Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-01608,2026-08-22T22:58:00Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00503,2026-08-22T23:02:03Z,JUMP-01,DC-01,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00033,2026-08-22T23:04:45Z,BACKUP-01,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00899,2026-08-22T23:06:35Z,APP-API-02,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01705,2026-08-22T23:07:29Z,APP-API-02,FILE-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-01157,2026-08-22T23:13:27Z,PRINT-01,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-01682,2026-08-22T23:16:46Z,APP-API-02,FILE-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01617,2026-08-22T23:23:13Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-00960,2026-08-22T23:24:59Z,PRINT-01,FILE-02,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-00799,2026-08-22T23:27:29Z,PRINT-01,DC-01,ACME\mrivera,RDP,failure,benign,routine authentication
+AUTH-01133,2026-08-22T23:32:25Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01766,2026-08-22T23:32:50Z,APP-API-02,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00122,2026-08-22T23:47:10Z,APP-API-02,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00073,2026-08-22T23:49:27Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,failure,benign,routine authentication
+AUTH-00565,2026-08-22T23:55:40Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00806,2026-08-22T23:57:36Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00397,2026-08-22T23:58:53Z,APP-API-02,APP-API-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-00710,2026-08-23T00:02:27Z,JUMP-01,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01762,2026-08-23T00:08:07Z,FILE-02,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00376,2026-08-23T00:08:17Z,PRINT-01,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01551,2026-08-23T00:11:57Z,PRINT-01,FILE-02,ACME\mrivera,Kerberos,failure,benign,routine authentication
+AUTH-01338,2026-08-23T00:13:26Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00273,2026-08-23T00:19:14Z,DC-01,FILE-02,ACME\mrivera,NTLM,failure,benign,routine authentication
+AUTH-00165,2026-08-23T00:48:22Z,PRINT-01,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00854,2026-08-23T00:54:43Z,BACKUP-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01429,2026-08-23T00:54:57Z,FILE-02,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01019,2026-08-23T01:00:25Z,JUMP-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00226,2026-08-23T01:01:30Z,FIN-WS-14,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01142,2026-08-23T01:05:05Z,BACKUP-01,FILE-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00323,2026-08-23T01:12:00Z,JUMP-01,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00649,2026-08-23T01:12:39Z,FILE-02,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00971,2026-08-23T01:15:12Z,DC-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01667,2026-08-23T01:16:44Z,PRINT-01,DC-01,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00605,2026-08-23T01:24:04Z,DC-01,FILE-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01684,2026-08-23T01:25:04Z,JUMP-01,APP-API-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-00572,2026-08-23T01:28:21Z,APP-API-02,FILE-02,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00307,2026-08-23T01:29:26Z,PRINT-01,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01781,2026-08-23T01:36:43Z,APP-API-02,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00278,2026-08-23T01:37:04Z,PRINT-01,DC-01,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00721,2026-08-23T01:54:47Z,DC-01,FILE-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01746,2026-08-23T01:55:54Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00827,2026-08-23T02:02:49Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00939,2026-08-23T02:03:54Z,DC-01,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00991,2026-08-23T02:07:16Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01394,2026-08-23T02:07:37Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00535,2026-08-23T02:26:18Z,DC-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01427,2026-08-23T02:32:47Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01337,2026-08-23T02:37:21Z,DC-01,APP-API-02,ACME\svc_backup,RDP,failure,benign,routine authentication
+AUTH-00143,2026-08-23T02:37:54Z,PRINT-01,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01149,2026-08-23T02:38:15Z,JUMP-01,APP-API-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-01323,2026-08-23T02:45:11Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01466,2026-08-23T02:48:50Z,FILE-02,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01088,2026-08-23T02:49:12Z,BACKUP-01,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00746,2026-08-23T02:51:27Z,PRINT-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01452,2026-08-23T02:54:57Z,PRINT-01,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00180,2026-08-23T03:12:45Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00244,2026-08-23T03:14:39Z,JUMP-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00553,2026-08-23T03:21:53Z,APP-API-02,APP-API-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00048,2026-08-23T03:24:43Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-00146,2026-08-23T03:28:14Z,PRINT-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00890,2026-08-23T03:34:37Z,JUMP-01,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01167,2026-08-23T03:42:54Z,APP-API-02,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01493,2026-08-23T03:43:46Z,FIN-WS-14,FILE-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01419,2026-08-23T03:45:22Z,PRINT-01,FILE-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01094,2026-08-23T03:50:56Z,FILE-02,APP-API-02,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00499,2026-08-23T03:59:28Z,DC-01,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01201,2026-08-23T04:02:35Z,APP-API-02,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01747,2026-08-23T04:04:30Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,SMB,failure,benign,routine authentication
+AUTH-01678,2026-08-23T04:07:37Z,PRINT-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-00222,2026-08-23T04:07:41Z,JUMP-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01274,2026-08-23T04:12:10Z,BACKUP-01,DC-01,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01647,2026-08-23T04:13:54Z,APP-API-02,FILE-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00309,2026-08-23T04:22:06Z,PRINT-01,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-01326,2026-08-23T04:22:16Z,PRINT-01,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01440,2026-08-23T04:24:00Z,BACKUP-01,APP-API-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00412,2026-08-23T04:26:42Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01692,2026-08-23T04:36:41Z,FIN-WS-14,APP-API-02,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-01621,2026-08-23T04:41:58Z,APP-API-02,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00308,2026-08-23T04:42:53Z,BACKUP-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01722,2026-08-23T04:44:14Z,PRINT-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00026,2026-08-23T04:44:36Z,APP-API-02,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01020,2026-08-23T04:47:17Z,FIN-WS-14,APP-API-02,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-01214,2026-08-23T04:48:37Z,JUMP-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-00968,2026-08-23T04:49:00Z,BACKUP-01,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01384,2026-08-23T04:49:38Z,JUMP-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00448,2026-08-23T04:55:48Z,BACKUP-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00108,2026-08-23T05:05:52Z,FILE-02,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01430,2026-08-23T05:06:26Z,FILE-02,DC-01,ACME\mrivera,NTLM,success,benign,routine authentication
+AUTH-00000,2026-08-23T05:07:27Z,BACKUP-01,DC-01,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00521,2026-08-23T05:09:43Z,APP-API-02,APP-API-02,ACME\svc_print,Kerberos,failure,benign,routine authentication
+AUTH-00980,2026-08-23T05:11:04Z,PRINT-01,DC-01,ACME\svc_backup,SMB,failure,benign,routine authentication
+AUTH-00878,2026-08-23T05:20:54Z,APP-API-02,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01433,2026-08-23T05:21:34Z,PRINT-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00324,2026-08-23T05:24:57Z,FIN-WS-14,DC-01,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00174,2026-08-23T05:25:25Z,JUMP-01,DC-01,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01060,2026-08-23T05:30:02Z,PRINT-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00197,2026-08-23T05:37:34Z,PRINT-01,DC-01,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-01162,2026-08-23T05:51:54Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01462,2026-08-23T05:55:51Z,APP-API-02,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-00985,2026-08-23T05:56:56Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01472,2026-08-23T05:57:37Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-00230,2026-08-23T05:58:31Z,FIN-WS-14,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00883,2026-08-23T05:58:36Z,APP-API-02,DC-01,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01027,2026-08-23T06:07:50Z,APP-API-02,DC-01,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00125,2026-08-23T06:09:36Z,FILE-02,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01223,2026-08-23T06:10:45Z,FILE-02,APP-API-02,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00325,2026-08-23T06:14:35Z,APP-API-02,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01110,2026-08-23T06:23:46Z,PRINT-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00069,2026-08-23T06:27:33Z,FILE-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01023,2026-08-23T06:28:23Z,APP-API-02,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00051,2026-08-23T06:34:55Z,DC-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01709,2026-08-23T06:38:24Z,APP-API-02,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00234,2026-08-23T06:41:53Z,BACKUP-01,APP-API-02,ACME\jsmith,Kerberos,success,benign,routine authentication
+AUTH-01759,2026-08-23T06:42:33Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-00441,2026-08-23T06:43:37Z,FILE-02,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01329,2026-08-23T06:46:21Z,APP-API-02,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01515,2026-08-23T06:48:27Z,DC-01,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01792,2026-08-23T06:51:31Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01776,2026-08-23T06:53:21Z,FIN-WS-14,APP-API-02,ACME\svc_print,NTLM,failure,benign,routine authentication
+AUTH-00313,2026-08-23T06:59:43Z,FILE-02,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01308,2026-08-23T07:00:36Z,APP-API-02,DC-01,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01726,2026-08-23T07:03:05Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00767,2026-08-23T07:07:35Z,PRINT-01,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-01117,2026-08-23T07:11:04Z,BACKUP-01,DC-01,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01258,2026-08-23T07:11:35Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,failure,benign,routine authentication
+AUTH-00394,2026-08-23T07:12:41Z,DC-01,FILE-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00078,2026-08-23T07:16:50Z,JUMP-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00369,2026-08-23T07:17:40Z,FILE-02,DC-01,ACME\mrivera,Kerberos,success,benign,routine authentication
+AUTH-00858,2026-08-23T07:19:03Z,FIN-WS-14,FILE-02,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-01751,2026-08-23T07:22:35Z,PRINT-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00850,2026-08-23T07:34:59Z,BACKUP-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00494,2026-08-23T07:41:38Z,PRINT-01,APP-API-02,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-01086,2026-08-23T07:41:47Z,PRINT-01,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00479,2026-08-23T07:46:33Z,JUMP-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00734,2026-08-23T07:47:39Z,DC-01,APP-API-02,ACME\svc_backup,SMB,success,benign,routine authentication
+AUTH-01614,2026-08-23T07:54:00Z,BACKUP-01,DC-01,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01103,2026-08-23T07:54:40Z,JUMP-01,APP-API-02,ACME\jsmith,Kerberos,failure,benign,routine authentication
+AUTH-00087,2026-08-23T07:55:49Z,BACKUP-01,DC-01,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01469,2026-08-23T07:57:23Z,APP-API-02,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01704,2026-08-23T08:08:01Z,FILE-02,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01192,2026-08-23T08:16:00Z,APP-API-02,FILE-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-01393,2026-08-23T08:23:42Z,BACKUP-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01011,2026-08-23T08:27:02Z,FILE-02,FILE-02,ACME\svc_backup,NTLM,failure,benign,routine authentication
+AUTH-00825,2026-08-23T08:29:56Z,FILE-02,FILE-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00429,2026-08-23T08:36:30Z,DC-01,APP-API-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-01480,2026-08-23T08:36:34Z,APP-API-02,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-00510,2026-08-23T08:42:08Z,PRINT-01,DC-01,ACME\jsmith,SMB,failure,benign,routine authentication
+AUTH-01160,2026-08-23T08:42:34Z,DC-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-01293,2026-08-23T08:42:39Z,JUMP-01,FILE-02,ACME\svc_backup,Kerberos,success,benign,routine authentication
+AUTH-00361,2026-08-23T08:53:31Z,FIN-WS-14,FILE-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-01179,2026-08-23T09:02:40Z,APP-API-02,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-01703,2026-08-23T09:04:34Z,APP-API-02,DC-01,ACME\svc_print,RDP,success,benign,routine authentication
+AUTH-00335,2026-08-23T09:08:41Z,FIN-WS-14,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00743,2026-08-23T09:18:26Z,JUMP-01,APP-API-02,ACME\svc_print,SMB,success,benign,routine authentication
+AUTH-00384,2026-08-23T09:26:25Z,BACKUP-01,DC-01,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-00943,2026-08-23T09:29:10Z,FIN-WS-14,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00887,2026-08-23T09:31:53Z,DC-01,FILE-02,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-01220,2026-08-23T09:36:35Z,BACKUP-01,DC-01,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01655,2026-08-23T09:38:59Z,FIN-WS-14,DC-01,ACME\jsmith,RDP,failure,benign,routine authentication
+AUTH-00840,2026-08-23T09:39:23Z,FIN-WS-14,FILE-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01444,2026-08-23T09:39:28Z,BACKUP-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01410,2026-08-23T09:52:58Z,FILE-02,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00875,2026-08-23T09:58:15Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01146,2026-08-23T09:59:31Z,PRINT-01,APP-API-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-00399,2026-08-23T10:10:01Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,SMB,success,benign,routine authentication
+AUTH-01532,2026-08-23T10:13:21Z,JUMP-01,FILE-02,ACME\svc_print,Kerberos,success,benign,routine authentication
+AUTH-00588,2026-08-23T10:14:05Z,PRINT-01,APP-API-02,NT AUTHORITY\SYSTEM,Kerberos,success,benign,routine authentication
+AUTH-01296,2026-08-23T10:23:53Z,DC-01,APP-API-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01487,2026-08-23T10:27:46Z,FILE-02,FILE-02,ACME\mrivera,RDP,success,benign,routine authentication
+AUTH-01051,2026-08-23T10:39:31Z,DC-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,failure,benign,routine authentication
+AUTH-00754,2026-08-23T10:52:26Z,APP-API-02,APP-API-02,ACME\jsmith,SMB,success,benign,routine authentication
+AUTH-00253,2026-08-23T10:57:33Z,JUMP-01,APP-API-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-00341,2026-08-23T11:02:24Z,PRINT-01,FILE-02,ACME\svc_backup,Kerberos,failure,benign,routine authentication
+AUTH-01161,2026-08-23T11:06:33Z,PRINT-01,FILE-02,ACME\svc_backup,RDP,success,benign,routine authentication
+AUTH-00599,2026-08-23T11:10:44Z,DC-01,FILE-02,ACME\jsmith,NTLM,failure,benign,routine authentication
+AUTH-01044,2026-08-23T11:10:53Z,DC-01,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00603,2026-08-23T11:12:26Z,DC-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00240,2026-08-23T11:18:30Z,DC-01,FILE-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00803,2026-08-23T11:21:11Z,JUMP-01,FILE-02,NT AUTHORITY\SYSTEM,RDP,success,benign,routine authentication
+AUTH-01054,2026-08-23T11:24:40Z,DC-01,DC-01,ACME\svc_print,NTLM,success,benign,routine authentication
+AUTH-01527,2026-08-23T11:25:05Z,FIN-WS-14,DC-01,ACME\jsmith,RDP,success,benign,routine authentication
+AUTH-00347,2026-08-23T11:28:14Z,FIN-WS-14,APP-API-02,ACME\jsmith,NTLM,success,benign,routine authentication
+AUTH-00410,2026-08-23T11:29:28Z,BACKUP-01,DC-01,ACME\svc_backup,NTLM,success,benign,routine authentication
+AUTH-00950,2026-08-23T11:32:24Z,BACKUP-01,FILE-02,NT AUTHORITY\SYSTEM,NTLM,success,benign,routine authentication
+AUTH-01396,2026-08-23T11:34:18Z,PRINT-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00969,2026-08-23T11:40:52Z,JUMP-01,APP-API-02,ACME\svc_print,RDP,failure,benign,routine authentication
+AUTH-01387,2026-08-23T11:54:47Z,APP-API-02,DC-01,ACME\mrivera,SMB,failure,benign,routine authentication
+AUTH-00392,2026-08-23T11:57:36Z,DC-01,APP-API-02,ACME\mrivera,SMB,success,benign,routine authentication
+AUTH-00082,2026-08-23T11:58:31Z,DC-01,DC-01,ACME\jsmith,RDP,success,benign,routine authentication

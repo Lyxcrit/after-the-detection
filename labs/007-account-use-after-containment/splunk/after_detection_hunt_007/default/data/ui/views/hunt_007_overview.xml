@@ -1,0 +1,1 @@
+<form version="1.1" theme="dark"><label>Hunt 007 — Account Use After Containment</label><row><panel><table><search><query>| inputlookup detection_results.csv | search detection_id="ATD-007-*" | table _time severity title host user expected_decision note</query></search></table></panel></row></form>

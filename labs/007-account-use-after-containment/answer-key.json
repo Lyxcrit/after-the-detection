@@ -1,0 +1,13 @@
+{
+  "seed": 20260817,
+  "lookups": 9,
+  "rows_per_lookup": 1800,
+  "total_records": 16200,
+  "new_scope_host": "FILE-02",
+  "decision": "add FILE-02 to incident scope with high confidence",
+  "not_proven": [
+    "initial access",
+    "persistence",
+    "exfiltration"
+  ]
+}
