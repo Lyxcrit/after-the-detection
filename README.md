@@ -44,6 +44,7 @@ Start here:
 - [Hunt 004: July 2026 Edge Exploitation Monthly Capstone](labs/004-july-2026-edge-exploitation-capstone/README.md)
 - [Hunt 005: The Work Is in the Pivots](labs/005-investigation-work-alert-to-evidence/README.md)
 - [Hunt 006: Scope After Failed Lateral Movement](labs/006-scope-after-failed-lateral-movement/README.md)
+- [Hunt 007: Account Use After Containment](labs/007-account-use-after-containment/README.md)
 
 ## Why mock data?
 
