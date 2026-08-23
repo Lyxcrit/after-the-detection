@@ -1,0 +1,10 @@
+{
+  "seed": 20260824,
+  "rows_per_lookup": 10000,
+  "lookups": 8,
+  "total_records": 80000,
+  "confirmed": ["ADMIN-WS-07", "FIN-WS-14", "FILE-02"],
+  "scope_not_confirmed": ["APP-API-02", "APP-API-03"],
+  "gaps": ["initial access to FILE-02", "persistence on FILE-02", "Q3.xlsx exfiltration"],
+  "lookalikes": ["DEPLOY-01 deployment", "BACKUP-01 backup", "JUMP-01 responder"]
+}

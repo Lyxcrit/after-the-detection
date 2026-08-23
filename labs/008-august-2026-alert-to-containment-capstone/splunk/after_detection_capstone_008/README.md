@@ -1,0 +1,1 @@
+Run `python3 generate_lab.py` from the lab root to populate this app's `lookups/` directory, then copy `after_detection_capstone_008` into `$SPLUNK_HOME/etc/apps/` and restart Splunk.
