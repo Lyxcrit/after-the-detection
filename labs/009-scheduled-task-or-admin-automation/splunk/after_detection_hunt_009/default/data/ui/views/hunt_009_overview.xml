@@ -1,1 +1,5 @@
-<form version="1.1" theme="dark"><label>Hunt 009 — Scheduled Task or Admin Automation?</label><row><panel><table><search><query>| inputlookup detection_results.csv | search detection_id="ATD-009-*"</query></search></table></panel></row></form>
+<form version="1.1" theme="dark">
+<label>Hunt 009 — Scheduled Task or Admin Automation?</label>
+<row><panel><table><search><query>| inputlookup detection_results.csv | search detection_id="ATD-009-*" | table _time severity title host user classification note</query></search></table></panel></row>
+<row><panel><table><search><query>| inputlookup scheduled_task.csv | search task_name="*TelemetryCheck*" | table _time host user task_name action task_command run_as classification note</query></search></table></panel></row>
+</form>

@@ -1,1 +1,9 @@
-# Attack Narrative\n\n`ACME\\kpatel` stages `C:\\ProgramData\\WinCache\\check.ps1` and creates `\\Microsoft\\Windows\\Update\\TelemetryCheck` to run hidden PowerShell as `SYSTEM`. The task launches `telemetry.dll` through `rundll32.exe`, performs discovery, and opens TLS to `203.0.113.55`.\n\n`PATCH-01` creates a similarly named approved task using `ACME\\svc_patch` and a trusted internal script. `HR-WS-22` also has a known ACME inventory task.\n\nThe evidence supports malicious scheduled-task persistence on `HR-WS-22`; it does not prove propagation or the semantic content of the TLS sessions.
+# Attack Narrative
+
+A user-context PowerShell process stages `C:\ProgramData\WinCache\check.ps1` on `HR-WS-22`, then creates `\Microsoft\Windows\Update\TelemetryCheck` to run the script as `SYSTEM`.
+
+The task starts fourteen seconds later. `taskeng.exe` launches hidden PowerShell, which executes `telemetry.dll` through `rundll32.exe`, performs basic system discovery, and opens outbound TLS sessions to `203.0.113.55`.
+
+Nearby activity is intentionally confusing. `PATCH-01` creates a similarly named `\ACME\Patch\TelemetryCheck` task that launches a trusted internal script as `ACME\svc_patch` and reports to `MGMT-01`. `HR-WS-22` also has a known `\ACME\Inventory\Daily` task.
+
+The supplied evidence supports malicious scheduled-task persistence on `HR-WS-22`. It does not prove the suspicious task exists on another host, and the external TLS sessions do not by themselves establish command-and-control content or data theft.

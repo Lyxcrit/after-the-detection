@@ -6,6 +6,10 @@
   "primary_host": "HR-WS-22",
   "suspicious_task": "\\Microsoft\\Windows\\Update\\TelemetryCheck",
   "expected_decision": "High-confidence malicious scheduled-task persistence on HR-WS-22.",
+  "benign_lookalikes": [
+    "PATCH-01 \\ACME\\Patch\\TelemetryCheck",
+    "HR-WS-22 \\ACME\\Inventory\\Daily"
+  ],
   "not_proven": [
     "same persistence on another host",
     "content of TLS sessions",
