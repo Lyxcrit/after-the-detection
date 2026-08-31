@@ -1,0 +1,1 @@
+<form version="1.1" theme="dark"><label>Hunt 009 — Scheduled Task or Admin Automation?</label><row><panel><table><search><query>| inputlookup detection_results.csv | search detection_id="ATD-009-*"</query></search></table></panel></row></form>
