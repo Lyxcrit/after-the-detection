@@ -7,6 +7,7 @@ on:
     paths:
       - .github/workflows/generate-hunt-009-once.yml
       - labs/009-scheduled-task-or-admin-automation/generate_lab.py
+      - labs/009-scheduled-task-or-admin-automation/finalize_lab.py
 
 permissions:
   contents: write
@@ -23,6 +24,8 @@ jobs:
           python-version: '3.12'
       - name: Generate lab
         run: python3 labs/009-scheduled-task-or-admin-automation/generate_lab.py
+      - name: Finalize documentation
+        run: python3 labs/009-scheduled-task-or-admin-automation/finalize_lab.py
       - name: Validate lab
         run: python3 labs/009-scheduled-task-or-admin-automation/validate_lab.py
       - name: Commit generated lab
@@ -33,6 +36,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No generated changes"
           else
-            git commit -m "Generate Hunt 009 lab data and materials"
+            git commit -m "Generate and validate Hunt 009 lab"
             git push origin HEAD:review/hunt-009-scheduled-task
           fi
