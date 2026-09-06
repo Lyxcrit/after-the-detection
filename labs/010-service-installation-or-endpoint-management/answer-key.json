@@ -1,0 +1,16 @@
+{
+  "seed": 20260907,
+  "lookup_count": 8,
+  "rows_per_lookup": 500,
+  "total_records": 4000,
+  "primary_host": "ENG-WS-17",
+  "malicious_service": "WinSupportSvc",
+  "benign_lookalike": "ACMESupportAgent on APP-06",
+  "expected_decision": "High-confidence malicious service-based persistence on ENG-WS-17.",
+  "not_proven": [
+    "WinSupportSvc on another host",
+    "TLS payload content",
+    "command-and-control semantics",
+    "data theft"
+  ]
+}
