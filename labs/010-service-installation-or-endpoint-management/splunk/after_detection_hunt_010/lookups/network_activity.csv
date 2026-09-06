@@ -1,0 +1,501 @@
+event_id,_time,src_host,dest_host,user,process_name,dest_port,action,bytes_out,classification,note
+NET-00453,2026-09-07T12:03:28Z,FILE-03,OPS-WS-08,ACME\jsmith,CcmExec.exe,5985,allowed,42789,benign,routine network activity
+NET-00471,2026-09-07T12:18:21Z,JUMP-01,APP-06,ACME\adavis,powershell.exe,443,allowed,4408,benign,routine network activity
+NET-00093,2026-09-07T12:32:09Z,APP-06,DC-01,ACME\mturner,System,445,allowed,46523,benign,routine network activity
+NET-00349,2026-09-07T12:39:55Z,FILE-03,FILE-03,NT AUTHORITY\SYSTEM,powershell.exe,53,allowed,47920,benign,routine network activity
+NET-00044,2026-09-07T12:51:59Z,SCCM-01,ENG-WS-17,ACME\svc_sccm,System,5985,allowed,4199,benign,routine network activity
+NET-00386,2026-09-07T12:53:33Z,DC-01,JUMP-01,ACME\svc_sccm,CcmExec.exe,53,allowed,55499,benign,routine network activity
+NET-00479,2026-09-07T12:56:09Z,OPS-WS-08,ENG-WS-17,ACME\mturner,System,53,allowed,19959,benign,routine network activity
+NET-00256,2026-09-07T13:01:48Z,APP-06,APP-06,ACME\mturner,agent.exe,443,allowed,20081,benign,routine network activity
+NET-00207,2026-09-07T13:08:22Z,SCCM-01,SCCM-01,ACME\mturner,CcmExec.exe,53,allowed,53622,benign,routine network activity
+NET-00177,2026-09-07T13:10:52Z,APP-06,ENG-WS-17,NT AUTHORITY\SYSTEM,System,445,allowed,33384,benign,routine network activity
+NET-00404,2026-09-07T13:12:31Z,OPS-WS-08,198.51.100.44,ACME\svc_sccm,powershell.exe,53,allowed,42893,benign,routine network activity
+NET-00429,2026-09-07T13:18:41Z,ENG-WS-17,SCCM-01,ACME\jsmith,System,445,allowed,186,benign,routine network activity
+NET-00356,2026-09-07T13:20:54Z,APP-06,FILE-03,NT AUTHORITY\SYSTEM,agent.exe,5985,allowed,8035,benign,routine network activity
+NET-00455,2026-09-07T13:25:09Z,APP-06,DC-01,ACME\adavis,CcmExec.exe,53,allowed,42486,benign,routine network activity
+NET-00419,2026-09-07T13:29:46Z,DC-01,ENG-WS-17,ACME\adavis,powershell.exe,5985,allowed,36299,benign,routine network activity
+NET-CTX-001,2026-09-07T13:56:05Z,ENG-WS-17,SCCM-01,NT AUTHORITY\SYSTEM,CcmExec.exe,443,allowed,9100,benign,known SCCM traffic
+NET-00110,2026-09-07T14:01:50Z,FILE-03,JUMP-01,ACME\svc_sccm,powershell.exe,445,allowed,33320,benign,routine network activity
+NET-00304,2026-09-07T14:04:18Z,FILE-03,APP-06,ACME\adavis,System,5985,allowed,5161,benign,routine network activity
+NET-00399,2026-09-07T14:06:23Z,FILE-03,SCCM-01,ACME\mturner,CcmExec.exe,445,allowed,48813,benign,routine network activity
+NET-00480,2026-09-07T14:09:21Z,JUMP-01,SCCM-01,NT AUTHORITY\SYSTEM,CcmExec.exe,5985,allowed,22163,benign,routine network activity
+NET-INC-001,2026-09-07T14:18:41Z,ENG-WS-17,198.51.100.44,NT AUTHORITY\SYSTEM,supportsvc.exe,443,allowed,3210,investigate,new service contacts external host
+NET-INC-002,2026-09-07T14:20:15Z,ENG-WS-17,198.51.100.44,NT AUTHORITY\SYSTEM,supportsvc.exe,443,allowed,7820,investigate,second TLS session; content unknown
+NET-BEN-001,2026-09-07T14:25:45Z,APP-06,SCCM-01,NT AUTHORITY\SYSTEM,agent.exe,443,allowed,11640,benign,support agent checks in to management server
+NET-RESP-001,2026-09-07T14:29:30Z,JUMP-01,ENG-WS-17,ACME\jsmith,mstsc.exe,3389,allowed,16000,response,authorized responder
+NET-00143,2026-09-07T14:39:32Z,JUMP-01,ENG-WS-17,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,5438,benign,routine network activity
+NET-00382,2026-09-07T14:50:17Z,OPS-WS-08,DC-01,ACME\svc_sccm,agent.exe,5985,allowed,54405,benign,routine network activity
+NET-00477,2026-09-07T15:09:56Z,FILE-03,OPS-WS-08,ACME\mturner,CcmExec.exe,53,allowed,27577,benign,routine network activity
+NET-00120,2026-09-07T15:14:10Z,APP-06,JUMP-01,NT AUTHORITY\SYSTEM,CcmExec.exe,53,allowed,25793,benign,routine network activity
+NET-00292,2026-09-07T15:24:45Z,SCCM-01,198.51.100.44,ACME\svc_sccm,agent.exe,445,allowed,54892,benign,routine network activity
+NET-00434,2026-09-07T15:27:10Z,SCCM-01,198.51.100.44,ACME\adavis,System,443,allowed,21104,benign,routine network activity
+NET-00186,2026-09-07T15:45:22Z,OPS-WS-08,198.51.100.44,ACME\mturner,CcmExec.exe,443,allowed,25774,benign,routine network activity
+NET-00393,2026-09-07T15:52:02Z,FILE-03,JUMP-01,NT AUTHORITY\SYSTEM,System,443,allowed,21245,benign,routine network activity
+NET-00140,2026-09-07T15:53:58Z,APP-06,SCCM-01,ACME\svc_sccm,powershell.exe,53,allowed,45856,benign,routine network activity
+NET-00091,2026-09-07T16:31:50Z,JUMP-01,SCCM-01,ACME\adavis,CcmExec.exe,5985,allowed,11963,benign,routine network activity
+NET-00176,2026-09-07T16:40:40Z,APP-06,DC-01,ACME\svc_sccm,powershell.exe,445,allowed,57335,benign,routine network activity
+NET-00493,2026-09-07T16:45:46Z,DC-01,198.51.100.44,ACME\adavis,powershell.exe,53,allowed,56403,benign,routine network activity
+NET-00228,2026-09-07T16:48:08Z,ENG-WS-17,ENG-WS-17,ACME\adavis,CcmExec.exe,5985,allowed,1502,benign,routine network activity
+NET-00452,2026-09-07T16:52:37Z,SCCM-01,FILE-03,ACME\mturner,agent.exe,53,allowed,34817,benign,routine network activity
+NET-00150,2026-09-07T17:09:24Z,JUMP-01,JUMP-01,ACME\mturner,CcmExec.exe,5985,allowed,37963,benign,routine network activity
+NET-00300,2026-09-07T17:12:48Z,APP-06,JUMP-01,ACME\adavis,CcmExec.exe,53,allowed,14512,benign,routine network activity
+NET-00158,2026-09-07T17:18:05Z,SCCM-01,ENG-WS-17,ACME\jsmith,agent.exe,53,allowed,53970,benign,routine network activity
+NET-00128,2026-09-07T17:52:35Z,OPS-WS-08,ENG-WS-17,ACME\jsmith,agent.exe,445,allowed,47668,benign,routine network activity
+NET-00391,2026-09-07T18:01:11Z,OPS-WS-08,JUMP-01,ACME\adavis,CcmExec.exe,5985,allowed,19342,benign,routine network activity
+NET-00123,2026-09-07T18:04:13Z,SCCM-01,JUMP-01,ACME\jsmith,agent.exe,445,allowed,16191,benign,routine network activity
+NET-00076,2026-09-07T18:46:10Z,APP-06,SCCM-01,ACME\svc_sccm,CcmExec.exe,443,allowed,29984,benign,routine network activity
+NET-00244,2026-09-07T19:10:21Z,OPS-WS-08,DC-01,NT AUTHORITY\SYSTEM,System,443,allowed,30530,benign,routine network activity
+NET-00368,2026-09-07T19:11:44Z,DC-01,ENG-WS-17,ACME\svc_sccm,agent.exe,445,allowed,61786,benign,routine network activity
+NET-00257,2026-09-07T19:12:20Z,OPS-WS-08,SCCM-01,NT AUTHORITY\SYSTEM,System,53,allowed,709,benign,routine network activity
+NET-00454,2026-09-07T19:37:33Z,ENG-WS-17,APP-06,ACME\svc_sccm,CcmExec.exe,445,allowed,3017,benign,routine network activity
+NET-00450,2026-09-07T20:01:56Z,ENG-WS-17,JUMP-01,ACME\jsmith,CcmExec.exe,53,allowed,38206,benign,routine network activity
+NET-00467,2026-09-07T20:26:17Z,ENG-WS-17,APP-06,NT AUTHORITY\SYSTEM,System,53,allowed,19652,benign,routine network activity
+NET-00154,2026-09-07T20:40:33Z,FILE-03,SCCM-01,ACME\jsmith,CcmExec.exe,5985,allowed,31015,benign,routine network activity
+NET-00416,2026-09-07T20:47:37Z,FILE-03,APP-06,ACME\mturner,powershell.exe,443,allowed,28331,benign,routine network activity
+NET-00016,2026-09-07T20:48:01Z,FILE-03,DC-01,ACME\mturner,powershell.exe,5985,allowed,61520,benign,routine network activity
+NET-00188,2026-09-07T20:59:18Z,ENG-WS-17,ENG-WS-17,ACME\jsmith,agent.exe,53,allowed,64371,benign,routine network activity
+NET-00172,2026-09-07T21:33:49Z,ENG-WS-17,ENG-WS-17,ACME\jsmith,powershell.exe,53,allowed,38000,benign,routine network activity
+NET-00330,2026-09-07T21:34:03Z,ENG-WS-17,SCCM-01,ACME\svc_sccm,CcmExec.exe,53,allowed,45375,benign,routine network activity
+NET-00388,2026-09-07T21:45:14Z,DC-01,JUMP-01,ACME\adavis,System,53,allowed,5417,benign,routine network activity
+NET-00415,2026-09-07T21:53:37Z,FILE-03,JUMP-01,ACME\svc_sccm,System,5985,allowed,46489,benign,routine network activity
+NET-00394,2026-09-07T22:03:17Z,SCCM-01,198.51.100.44,ACME\svc_sccm,powershell.exe,53,allowed,54599,benign,routine network activity
+NET-00423,2026-09-07T22:16:58Z,ENG-WS-17,APP-06,ACME\adavis,System,443,allowed,62362,benign,routine network activity
+NET-00316,2026-09-07T22:30:00Z,APP-06,SCCM-01,NT AUTHORITY\SYSTEM,System,443,allowed,13810,benign,routine network activity
+NET-00374,2026-09-07T22:35:59Z,JUMP-01,JUMP-01,ACME\adavis,agent.exe,443,allowed,17640,benign,routine network activity
+NET-00278,2026-09-07T22:39:19Z,APP-06,ENG-WS-17,NT AUTHORITY\SYSTEM,System,443,allowed,60813,benign,routine network activity
+NET-00340,2026-09-07T22:43:04Z,DC-01,APP-06,ACME\svc_sccm,CcmExec.exe,445,allowed,5074,benign,routine network activity
+NET-00104,2026-09-07T22:45:57Z,ENG-WS-17,198.51.100.44,ACME\adavis,powershell.exe,53,allowed,15308,benign,routine network activity
+NET-00383,2026-09-07T22:46:25Z,OPS-WS-08,FILE-03,ACME\mturner,powershell.exe,5985,allowed,19947,benign,routine network activity
+NET-00456,2026-09-07T23:04:40Z,SCCM-01,APP-06,ACME\mturner,System,53,allowed,50214,benign,routine network activity
+NET-00265,2026-09-07T23:05:34Z,FILE-03,198.51.100.44,ACME\mturner,agent.exe,443,allowed,54404,benign,routine network activity
+NET-00333,2026-09-07T23:18:07Z,JUMP-01,FILE-03,ACME\adavis,CcmExec.exe,445,allowed,46781,benign,routine network activity
+NET-00335,2026-09-07T23:30:46Z,OPS-WS-08,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,51817,benign,routine network activity
+NET-00051,2026-09-07T23:30:56Z,OPS-WS-08,SCCM-01,ACME\svc_sccm,agent.exe,443,allowed,43885,benign,routine network activity
+NET-00421,2026-09-07T23:42:28Z,APP-06,OPS-WS-08,NT AUTHORITY\SYSTEM,CcmExec.exe,445,allowed,25078,benign,routine network activity
+NET-00189,2026-09-07T23:46:35Z,DC-01,DC-01,ACME\jsmith,agent.exe,5985,allowed,27309,benign,routine network activity
+NET-00274,2026-09-07T23:55:01Z,APP-06,SCCM-01,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,12368,benign,routine network activity
+NET-00323,2026-09-07T23:56:39Z,ENG-WS-17,198.51.100.44,ACME\jsmith,powershell.exe,443,allowed,4036,benign,routine network activity
+NET-00246,2026-09-08T00:14:17Z,SCCM-01,APP-06,ACME\jsmith,powershell.exe,445,allowed,38937,benign,routine network activity
+NET-00489,2026-09-08T00:19:57Z,APP-06,DC-01,ACME\mturner,System,445,allowed,4423,benign,routine network activity
+NET-00379,2026-09-08T00:41:04Z,ENG-WS-17,OPS-WS-08,ACME\mturner,powershell.exe,443,allowed,2719,benign,routine network activity
+NET-00268,2026-09-08T00:49:18Z,OPS-WS-08,DC-01,ACME\svc_sccm,agent.exe,445,allowed,29510,benign,routine network activity
+NET-00357,2026-09-08T01:41:00Z,SCCM-01,SCCM-01,ACME\mturner,System,53,allowed,17473,benign,routine network activity
+NET-00204,2026-09-08T01:52:22Z,FILE-03,OPS-WS-08,ACME\adavis,CcmExec.exe,443,allowed,53444,benign,routine network activity
+NET-00445,2026-09-08T02:09:14Z,OPS-WS-08,ENG-WS-17,ACME\mturner,System,443,allowed,46250,benign,routine network activity
+NET-00151,2026-09-08T02:11:03Z,SCCM-01,JUMP-01,ACME\mturner,CcmExec.exe,443,allowed,53885,benign,routine network activity
+NET-00325,2026-09-08T02:12:40Z,FILE-03,JUMP-01,NT AUTHORITY\SYSTEM,System,445,allowed,63878,benign,routine network activity
+NET-00428,2026-09-08T02:27:14Z,APP-06,OPS-WS-08,ACME\adavis,System,53,allowed,32581,benign,routine network activity
+NET-00022,2026-09-08T02:54:44Z,FILE-03,FILE-03,ACME\mturner,System,443,allowed,31219,benign,routine network activity
+NET-00321,2026-09-08T02:54:52Z,FILE-03,FILE-03,NT AUTHORITY\SYSTEM,agent.exe,443,allowed,17373,benign,routine network activity
+NET-00448,2026-09-08T03:00:23Z,OPS-WS-08,JUMP-01,ACME\jsmith,agent.exe,5985,allowed,22997,benign,routine network activity
+NET-00169,2026-09-08T03:05:27Z,OPS-WS-08,SCCM-01,ACME\svc_sccm,System,5985,allowed,9946,benign,routine network activity
+NET-00395,2026-09-08T04:16:07Z,ENG-WS-17,FILE-03,ACME\jsmith,System,443,allowed,4479,benign,routine network activity
+NET-00039,2026-09-08T04:23:59Z,OPS-WS-08,JUMP-01,ACME\mturner,powershell.exe,53,allowed,14201,benign,routine network activity
+NET-00162,2026-09-08T04:37:36Z,DC-01,ENG-WS-17,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,13868,benign,routine network activity
+NET-00482,2026-09-08T04:59:37Z,JUMP-01,ENG-WS-17,ACME\mturner,System,443,allowed,3755,benign,routine network activity
+NET-00498,2026-09-08T05:24:33Z,FILE-03,DC-01,ACME\svc_sccm,System,53,allowed,51681,benign,routine network activity
+NET-00272,2026-09-08T05:49:52Z,APP-06,SCCM-01,ACME\svc_sccm,CcmExec.exe,53,allowed,14345,benign,routine network activity
+NET-00119,2026-09-08T06:01:10Z,DC-01,ENG-WS-17,ACME\svc_sccm,agent.exe,5985,allowed,28438,benign,routine network activity
+NET-00378,2026-09-08T06:14:39Z,FILE-03,FILE-03,ACME\mturner,agent.exe,5985,allowed,18444,benign,routine network activity
+NET-00040,2026-09-08T06:35:22Z,FILE-03,SCCM-01,ACME\jsmith,agent.exe,53,allowed,62117,benign,routine network activity
+NET-00017,2026-09-08T06:39:44Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,agent.exe,5985,allowed,12011,benign,routine network activity
+NET-00240,2026-09-08T06:51:51Z,OPS-WS-08,APP-06,ACME\adavis,System,443,allowed,53144,benign,routine network activity
+NET-00070,2026-09-08T07:26:32Z,JUMP-01,ENG-WS-17,ACME\jsmith,CcmExec.exe,443,allowed,13173,benign,routine network activity
+NET-00485,2026-09-08T07:44:24Z,JUMP-01,APP-06,ACME\jsmith,System,5985,allowed,44119,benign,routine network activity
+NET-00224,2026-09-08T08:03:41Z,FILE-03,APP-06,ACME\svc_sccm,agent.exe,5985,allowed,37100,benign,routine network activity
+NET-00097,2026-09-08T08:11:50Z,DC-01,FILE-03,ACME\adavis,System,443,allowed,3171,benign,routine network activity
+NET-00049,2026-09-08T08:18:18Z,OPS-WS-08,JUMP-01,ACME\jsmith,agent.exe,445,allowed,47844,benign,routine network activity
+NET-00460,2026-09-08T08:33:21Z,SCCM-01,ENG-WS-17,ACME\svc_sccm,CcmExec.exe,443,allowed,37602,benign,routine network activity
+NET-00312,2026-09-08T08:52:12Z,DC-01,SCCM-01,NT AUTHORITY\SYSTEM,System,443,allowed,8527,benign,routine network activity
+NET-00355,2026-09-08T08:55:17Z,APP-06,FILE-03,ACME\mturner,powershell.exe,443,allowed,32588,benign,routine network activity
+NET-00009,2026-09-08T08:58:05Z,SCCM-01,JUMP-01,ACME\svc_sccm,System,5985,allowed,53159,benign,routine network activity
+NET-00352,2026-09-08T09:31:12Z,ENG-WS-17,SCCM-01,ACME\jsmith,powershell.exe,445,allowed,22950,benign,routine network activity
+NET-00464,2026-09-08T10:01:12Z,OPS-WS-08,ENG-WS-17,NT AUTHORITY\SYSTEM,agent.exe,5985,allowed,23240,benign,routine network activity
+NET-00131,2026-09-08T10:16:19Z,APP-06,FILE-03,ACME\jsmith,agent.exe,445,allowed,3899,benign,routine network activity
+NET-00422,2026-09-08T10:20:14Z,SCCM-01,DC-01,ACME\adavis,powershell.exe,445,allowed,22278,benign,routine network activity
+NET-00155,2026-09-08T10:34:37Z,FILE-03,JUMP-01,ACME\adavis,powershell.exe,53,allowed,44260,benign,routine network activity
+NET-00497,2026-09-08T10:38:15Z,FILE-03,FILE-03,ACME\svc_sccm,powershell.exe,5985,allowed,13766,benign,routine network activity
+NET-00107,2026-09-08T10:44:34Z,FILE-03,APP-06,ACME\svc_sccm,System,53,allowed,61515,benign,routine network activity
+NET-00403,2026-09-08T11:02:04Z,DC-01,APP-06,ACME\jsmith,CcmExec.exe,443,allowed,24337,benign,routine network activity
+NET-00211,2026-09-08T11:10:05Z,OPS-WS-08,JUMP-01,ACME\jsmith,System,53,allowed,58569,benign,routine network activity
+NET-00401,2026-09-08T11:16:03Z,DC-01,JUMP-01,ACME\svc_sccm,CcmExec.exe,53,allowed,15014,benign,routine network activity
+NET-00336,2026-09-08T11:26:05Z,DC-01,DC-01,ACME\jsmith,powershell.exe,53,allowed,13859,benign,routine network activity
+NET-00469,2026-09-08T11:26:14Z,ENG-WS-17,SCCM-01,ACME\adavis,agent.exe,5985,allowed,34701,benign,routine network activity
+NET-00258,2026-09-08T11:30:07Z,OPS-WS-08,198.51.100.44,ACME\adavis,CcmExec.exe,53,allowed,7970,benign,routine network activity
+NET-00279,2026-09-08T11:31:13Z,JUMP-01,198.51.100.44,ACME\adavis,powershell.exe,445,allowed,11030,benign,routine network activity
+NET-00302,2026-09-08T11:32:44Z,FILE-03,JUMP-01,ACME\adavis,agent.exe,445,allowed,26809,benign,routine network activity
+NET-00381,2026-09-08T11:37:21Z,DC-01,198.51.100.44,ACME\adavis,powershell.exe,53,allowed,23785,benign,routine network activity
+NET-00476,2026-09-08T11:39:49Z,DC-01,FILE-03,NT AUTHORITY\SYSTEM,System,445,allowed,12022,benign,routine network activity
+NET-00264,2026-09-08T11:55:15Z,FILE-03,OPS-WS-08,ACME\jsmith,System,445,allowed,27549,benign,routine network activity
+NET-00491,2026-09-08T12:56:46Z,SCCM-01,ENG-WS-17,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,13124,benign,routine network activity
+NET-00171,2026-09-08T13:59:29Z,SCCM-01,JUMP-01,ACME\jsmith,CcmExec.exe,443,allowed,4353,benign,routine network activity
+NET-00147,2026-09-08T14:18:51Z,FILE-03,JUMP-01,ACME\adavis,System,445,allowed,57171,benign,routine network activity
+NET-00066,2026-09-08T14:51:27Z,ENG-WS-17,APP-06,ACME\mturner,powershell.exe,53,allowed,20548,benign,routine network activity
+NET-00324,2026-09-08T14:58:56Z,JUMP-01,SCCM-01,ACME\jsmith,powershell.exe,53,allowed,28539,benign,routine network activity
+NET-00133,2026-09-08T15:14:06Z,DC-01,APP-06,ACME\svc_sccm,CcmExec.exe,443,allowed,44212,benign,routine network activity
+NET-00099,2026-09-08T15:22:51Z,ENG-WS-17,198.51.100.44,ACME\svc_sccm,CcmExec.exe,445,allowed,40518,benign,routine network activity
+NET-00402,2026-09-08T15:23:50Z,APP-06,DC-01,ACME\jsmith,CcmExec.exe,53,allowed,41573,benign,routine network activity
+NET-00181,2026-09-08T15:30:56Z,JUMP-01,APP-06,NT AUTHORITY\SYSTEM,System,53,allowed,47678,benign,routine network activity
+NET-00056,2026-09-08T15:54:03Z,APP-06,JUMP-01,NT AUTHORITY\SYSTEM,agent.exe,5985,allowed,3730,benign,routine network activity
+NET-00351,2026-09-08T16:07:48Z,SCCM-01,OPS-WS-08,ACME\adavis,CcmExec.exe,445,allowed,8570,benign,routine network activity
+NET-00146,2026-09-08T16:37:19Z,DC-01,DC-01,NT AUTHORITY\SYSTEM,powershell.exe,53,allowed,10027,benign,routine network activity
+NET-00241,2026-09-08T16:57:23Z,FILE-03,APP-06,NT AUTHORITY\SYSTEM,CcmExec.exe,5985,allowed,37441,benign,routine network activity
+NET-00025,2026-09-08T17:00:09Z,FILE-03,APP-06,ACME\jsmith,agent.exe,53,allowed,7784,benign,routine network activity
+NET-00365,2026-09-08T17:11:56Z,OPS-WS-08,JUMP-01,NT AUTHORITY\SYSTEM,CcmExec.exe,5985,allowed,19514,benign,routine network activity
+NET-00250,2026-09-08T17:14:34Z,JUMP-01,FILE-03,NT AUTHORITY\SYSTEM,agent.exe,443,allowed,519,benign,routine network activity
+NET-00138,2026-09-08T17:37:15Z,SCCM-01,ENG-WS-17,ACME\adavis,CcmExec.exe,53,allowed,42944,benign,routine network activity
+NET-00052,2026-09-08T17:58:54Z,DC-01,APP-06,ACME\mturner,System,445,allowed,42032,benign,routine network activity
+NET-00339,2026-09-08T18:01:33Z,FILE-03,APP-06,ACME\mturner,System,445,allowed,23322,benign,routine network activity
+NET-00216,2026-09-08T18:03:50Z,APP-06,198.51.100.44,ACME\jsmith,powershell.exe,443,allowed,26979,benign,routine network activity
+NET-00338,2026-09-08T18:10:01Z,SCCM-01,FILE-03,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,4112,benign,routine network activity
+NET-00457,2026-09-08T18:13:09Z,ENG-WS-17,DC-01,NT AUTHORITY\SYSTEM,System,445,allowed,42051,benign,routine network activity
+NET-00297,2026-09-08T18:21:35Z,ENG-WS-17,APP-06,NT AUTHORITY\SYSTEM,agent.exe,5985,allowed,6299,benign,routine network activity
+NET-00337,2026-09-08T18:25:27Z,FILE-03,APP-06,ACME\svc_sccm,agent.exe,53,allowed,40874,benign,routine network activity
+NET-00149,2026-09-08T18:34:36Z,JUMP-01,OPS-WS-08,ACME\adavis,powershell.exe,53,allowed,26674,benign,routine network activity
+NET-00047,2026-09-08T18:52:32Z,OPS-WS-08,198.51.100.44,NT AUTHORITY\SYSTEM,CcmExec.exe,443,allowed,14077,benign,routine network activity
+NET-00236,2026-09-08T18:53:30Z,APP-06,198.51.100.44,ACME\svc_sccm,powershell.exe,445,allowed,15190,benign,routine network activity
+NET-00253,2026-09-08T18:53:59Z,ENG-WS-17,FILE-03,ACME\mturner,agent.exe,443,allowed,7348,benign,routine network activity
+NET-00021,2026-09-08T18:59:18Z,SCCM-01,JUMP-01,ACME\jsmith,CcmExec.exe,5985,allowed,32464,benign,routine network activity
+NET-00492,2026-09-08T19:08:46Z,ENG-WS-17,198.51.100.44,ACME\svc_sccm,agent.exe,445,allowed,23490,benign,routine network activity
+NET-00407,2026-09-08T19:25:35Z,DC-01,SCCM-01,ACME\mturner,powershell.exe,445,allowed,29265,benign,routine network activity
+NET-00173,2026-09-08T19:32:00Z,DC-01,OPS-WS-08,ACME\adavis,System,5985,allowed,12597,benign,routine network activity
+NET-00461,2026-09-08T19:53:00Z,FILE-03,198.51.100.44,ACME\mturner,System,53,allowed,3917,benign,routine network activity
+NET-00226,2026-09-08T20:01:42Z,JUMP-01,ENG-WS-17,ACME\jsmith,CcmExec.exe,443,allowed,59413,benign,routine network activity
+NET-00117,2026-09-08T20:04:34Z,OPS-WS-08,OPS-WS-08,ACME\jsmith,System,445,allowed,24018,benign,routine network activity
+NET-00332,2026-09-08T20:10:04Z,APP-06,FILE-03,ACME\adavis,agent.exe,445,allowed,8166,benign,routine network activity
+NET-00182,2026-09-08T20:28:17Z,FILE-03,APP-06,ACME\svc_sccm,System,53,allowed,23882,benign,routine network activity
+NET-00430,2026-09-08T20:33:08Z,OPS-WS-08,ENG-WS-17,ACME\svc_sccm,agent.exe,5985,allowed,18332,benign,routine network activity
+NET-00296,2026-09-08T20:45:07Z,ENG-WS-17,FILE-03,NT AUTHORITY\SYSTEM,System,53,allowed,42710,benign,routine network activity
+NET-00113,2026-09-08T20:48:16Z,DC-01,198.51.100.44,ACME\jsmith,System,5985,allowed,39657,benign,routine network activity
+NET-00459,2026-09-08T20:57:23Z,OPS-WS-08,DC-01,ACME\mturner,System,53,allowed,23539,benign,routine network activity
+NET-00425,2026-09-08T21:00:32Z,APP-06,SCCM-01,ACME\jsmith,CcmExec.exe,5985,allowed,17906,benign,routine network activity
+NET-00259,2026-09-08T21:04:14Z,ENG-WS-17,FILE-03,ACME\mturner,powershell.exe,445,allowed,8639,benign,routine network activity
+NET-00102,2026-09-08T21:26:46Z,OPS-WS-08,DC-01,ACME\mturner,CcmExec.exe,443,allowed,63696,benign,routine network activity
+NET-00369,2026-09-08T21:48:05Z,APP-06,DC-01,ACME\adavis,CcmExec.exe,443,allowed,55995,benign,routine network activity
+NET-00206,2026-09-08T21:50:01Z,FILE-03,SCCM-01,ACME\jsmith,agent.exe,5985,allowed,26905,benign,routine network activity
+NET-00385,2026-09-08T21:51:14Z,DC-01,APP-06,ACME\svc_sccm,CcmExec.exe,53,allowed,28683,benign,routine network activity
+NET-00196,2026-09-08T21:53:42Z,ENG-WS-17,JUMP-01,ACME\jsmith,agent.exe,443,allowed,15622,benign,routine network activity
+NET-00458,2026-09-08T21:59:17Z,JUMP-01,SCCM-01,ACME\adavis,System,443,allowed,56412,benign,routine network activity
+NET-00247,2026-09-08T22:00:54Z,OPS-WS-08,198.51.100.44,ACME\mturner,System,443,allowed,60296,benign,routine network activity
+NET-00141,2026-09-08T22:04:04Z,FILE-03,APP-06,ACME\svc_sccm,System,5985,allowed,57418,benign,routine network activity
+NET-00126,2026-09-08T22:09:39Z,SCCM-01,SCCM-01,ACME\mturner,powershell.exe,445,allowed,39573,benign,routine network activity
+NET-00371,2026-09-08T22:16:34Z,APP-06,DC-01,ACME\jsmith,agent.exe,53,allowed,24873,benign,routine network activity
+NET-00252,2026-09-08T22:35:39Z,DC-01,SCCM-01,ACME\mturner,System,445,allowed,24355,benign,routine network activity
+NET-00132,2026-09-08T22:41:06Z,OPS-WS-08,JUMP-01,NT AUTHORITY\SYSTEM,System,443,allowed,63789,benign,routine network activity
+NET-00200,2026-09-08T22:41:32Z,ENG-WS-17,DC-01,ACME\svc_sccm,powershell.exe,5985,allowed,38218,benign,routine network activity
+NET-00358,2026-09-08T22:46:28Z,DC-01,APP-06,ACME\mturner,CcmExec.exe,53,allowed,1476,benign,routine network activity
+NET-00090,2026-09-08T23:12:34Z,ENG-WS-17,FILE-03,ACME\svc_sccm,agent.exe,445,allowed,32464,benign,routine network activity
+NET-00384,2026-09-08T23:24:37Z,ENG-WS-17,198.51.100.44,ACME\svc_sccm,System,445,allowed,15637,benign,routine network activity
+NET-00190,2026-09-08T23:29:25Z,SCCM-01,198.51.100.44,ACME\jsmith,agent.exe,445,allowed,1270,benign,routine network activity
+NET-00033,2026-09-08T23:30:07Z,JUMP-01,SCCM-01,ACME\mturner,CcmExec.exe,443,allowed,37970,benign,routine network activity
+NET-00232,2026-09-08T23:33:12Z,FILE-03,DC-01,ACME\adavis,CcmExec.exe,445,allowed,19579,benign,routine network activity
+NET-00242,2026-09-08T23:34:31Z,SCCM-01,SCCM-01,ACME\jsmith,powershell.exe,5985,allowed,13047,benign,routine network activity
+NET-00293,2026-09-08T23:45:50Z,JUMP-01,FILE-03,ACME\svc_sccm,powershell.exe,445,allowed,42583,benign,routine network activity
+NET-00411,2026-09-08T23:58:23Z,ENG-WS-17,SCCM-01,ACME\jsmith,powershell.exe,53,allowed,30883,benign,routine network activity
+NET-00184,2026-09-09T00:10:01Z,APP-06,JUMP-01,ACME\mturner,agent.exe,53,allowed,27915,benign,routine network activity
+NET-00115,2026-09-09T00:16:17Z,OPS-WS-08,SCCM-01,ACME\mturner,agent.exe,445,allowed,35831,benign,routine network activity
+NET-00348,2026-09-09T00:55:23Z,OPS-WS-08,ENG-WS-17,NT AUTHORITY\SYSTEM,System,443,allowed,21454,benign,routine network activity
+NET-00280,2026-09-09T01:03:07Z,ENG-WS-17,198.51.100.44,ACME\adavis,powershell.exe,445,allowed,35337,benign,routine network activity
+NET-00255,2026-09-09T01:06:53Z,FILE-03,JUMP-01,ACME\jsmith,powershell.exe,5985,allowed,35295,benign,routine network activity
+NET-00166,2026-09-09T01:17:28Z,FILE-03,FILE-03,NT AUTHORITY\SYSTEM,powershell.exe,5985,allowed,16331,benign,routine network activity
+NET-00214,2026-09-09T01:49:46Z,SCCM-01,OPS-WS-08,ACME\jsmith,agent.exe,53,allowed,9330,benign,routine network activity
+NET-00199,2026-09-09T02:00:40Z,DC-01,OPS-WS-08,ACME\jsmith,agent.exe,53,allowed,34918,benign,routine network activity
+NET-00475,2026-09-09T02:02:30Z,OPS-WS-08,SCCM-01,ACME\adavis,CcmExec.exe,445,allowed,55414,benign,routine network activity
+NET-00037,2026-09-09T02:05:22Z,JUMP-01,SCCM-01,ACME\svc_sccm,CcmExec.exe,445,allowed,41868,benign,routine network activity
+NET-00437,2026-09-09T02:22:02Z,ENG-WS-17,SCCM-01,ACME\mturner,CcmExec.exe,5985,allowed,1669,benign,routine network activity
+NET-00041,2026-09-09T02:46:25Z,DC-01,SCCM-01,ACME\svc_sccm,System,53,allowed,41304,benign,routine network activity
+NET-00418,2026-09-09T02:50:58Z,DC-01,ENG-WS-17,ACME\jsmith,agent.exe,53,allowed,11944,benign,routine network activity
+NET-00359,2026-09-09T03:00:04Z,APP-06,OPS-WS-08,ACME\adavis,System,445,allowed,42303,benign,routine network activity
+NET-00361,2026-09-09T04:02:12Z,DC-01,DC-01,ACME\mturner,CcmExec.exe,445,allowed,16952,benign,routine network activity
+NET-00096,2026-09-09T04:08:21Z,OPS-WS-08,OPS-WS-08,ACME\adavis,powershell.exe,445,allowed,3771,benign,routine network activity
+NET-00277,2026-09-09T04:08:57Z,FILE-03,OPS-WS-08,ACME\jsmith,powershell.exe,53,allowed,19401,benign,routine network activity
+NET-00136,2026-09-09T04:29:10Z,APP-06,JUMP-01,ACME\jsmith,powershell.exe,53,allowed,25746,benign,routine network activity
+NET-00088,2026-09-09T04:48:48Z,ENG-WS-17,OPS-WS-08,NT AUTHORITY\SYSTEM,agent.exe,445,allowed,3301,benign,routine network activity
+NET-00366,2026-09-09T04:55:45Z,OPS-WS-08,JUMP-01,NT AUTHORITY\SYSTEM,powershell.exe,53,allowed,26057,benign,routine network activity
+NET-00397,2026-09-09T05:16:22Z,DC-01,JUMP-01,ACME\svc_sccm,powershell.exe,53,allowed,16894,benign,routine network activity
+NET-00372,2026-09-09T05:28:16Z,JUMP-01,FILE-03,ACME\adavis,CcmExec.exe,53,allowed,20194,benign,routine network activity
+NET-00145,2026-09-09T05:32:56Z,DC-01,DC-01,ACME\jsmith,powershell.exe,445,allowed,4078,benign,routine network activity
+NET-00011,2026-09-09T05:45:34Z,APP-06,SCCM-01,ACME\adavis,powershell.exe,53,allowed,52591,benign,routine network activity
+NET-00065,2026-09-09T05:51:33Z,APP-06,ENG-WS-17,ACME\mturner,powershell.exe,5985,allowed,22049,benign,routine network activity
+NET-00050,2026-09-09T05:53:44Z,APP-06,ENG-WS-17,ACME\svc_sccm,powershell.exe,5985,allowed,58737,benign,routine network activity
+NET-00074,2026-09-09T05:55:01Z,DC-01,OPS-WS-08,ACME\adavis,powershell.exe,445,allowed,55026,benign,routine network activity
+NET-00034,2026-09-09T05:56:05Z,JUMP-01,FILE-03,ACME\jsmith,System,445,allowed,62639,benign,routine network activity
+NET-00094,2026-09-09T06:00:00Z,FILE-03,SCCM-01,ACME\adavis,CcmExec.exe,53,allowed,27779,benign,routine network activity
+NET-00192,2026-09-09T07:29:29Z,APP-06,DC-01,ACME\mturner,CcmExec.exe,443,allowed,45711,benign,routine network activity
+NET-00267,2026-09-09T07:31:48Z,FILE-03,198.51.100.44,ACME\mturner,powershell.exe,5985,allowed,8366,benign,routine network activity
+NET-00373,2026-09-09T07:59:31Z,SCCM-01,FILE-03,ACME\svc_sccm,System,445,allowed,45780,benign,routine network activity
+NET-00406,2026-09-09T08:08:54Z,JUMP-01,APP-06,ACME\jsmith,System,445,allowed,57597,benign,routine network activity
+NET-00175,2026-09-09T08:34:09Z,DC-01,FILE-03,ACME\jsmith,System,5985,allowed,6432,benign,routine network activity
+NET-00069,2026-09-09T08:43:47Z,APP-06,198.51.100.44,ACME\adavis,System,53,allowed,34343,benign,routine network activity
+NET-00153,2026-09-09T08:58:58Z,SCCM-01,FILE-03,ACME\adavis,agent.exe,443,allowed,14489,benign,routine network activity
+NET-00465,2026-09-09T09:28:49Z,APP-06,DC-01,ACME\svc_sccm,System,443,allowed,59674,benign,routine network activity
+NET-00191,2026-09-09T09:31:34Z,OPS-WS-08,DC-01,ACME\mturner,CcmExec.exe,53,allowed,23460,benign,routine network activity
+NET-00270,2026-09-09T09:41:18Z,FILE-03,198.51.100.44,ACME\mturner,powershell.exe,445,allowed,38857,benign,routine network activity
+NET-00314,2026-09-09T10:28:25Z,SCCM-01,DC-01,ACME\mturner,powershell.exe,53,allowed,2711,benign,routine network activity
+NET-00020,2026-09-09T10:51:40Z,DC-01,SCCM-01,ACME\svc_sccm,powershell.exe,443,allowed,10228,benign,routine network activity
+NET-00413,2026-09-09T10:53:34Z,JUMP-01,DC-01,ACME\adavis,CcmExec.exe,443,allowed,42185,benign,routine network activity
+NET-00087,2026-09-09T11:30:48Z,ENG-WS-17,198.51.100.44,ACME\svc_sccm,CcmExec.exe,53,allowed,23644,benign,routine network activity
+NET-00311,2026-09-09T11:52:47Z,ENG-WS-17,JUMP-01,ACME\mturner,powershell.exe,5985,allowed,50173,benign,routine network activity
+NET-00320,2026-09-09T12:17:48Z,JUMP-01,ENG-WS-17,NT AUTHORITY\SYSTEM,System,5985,allowed,20422,benign,routine network activity
+NET-00212,2026-09-09T12:32:21Z,DC-01,OPS-WS-08,ACME\svc_sccm,agent.exe,445,allowed,3216,benign,routine network activity
+NET-00038,2026-09-09T12:34:25Z,DC-01,198.51.100.44,NT AUTHORITY\SYSTEM,agent.exe,443,allowed,34703,benign,routine network activity
+NET-00248,2026-09-09T12:54:07Z,APP-06,SCCM-01,ACME\svc_sccm,powershell.exe,53,allowed,62271,benign,routine network activity
+NET-00243,2026-09-09T12:57:22Z,SCCM-01,ENG-WS-17,NT AUTHORITY\SYSTEM,System,445,allowed,26391,benign,routine network activity
+NET-00031,2026-09-09T13:12:39Z,FILE-03,JUMP-01,ACME\adavis,System,443,allowed,43115,benign,routine network activity
+NET-00443,2026-09-09T13:18:31Z,OPS-WS-08,SCCM-01,ACME\jsmith,System,443,allowed,38938,benign,routine network activity
+NET-00195,2026-09-09T13:23:44Z,JUMP-01,ENG-WS-17,ACME\svc_sccm,agent.exe,5985,allowed,36836,benign,routine network activity
+NET-00185,2026-09-09T13:27:00Z,JUMP-01,JUMP-01,ACME\adavis,powershell.exe,445,allowed,13190,benign,routine network activity
+NET-00163,2026-09-09T13:47:27Z,FILE-03,198.51.100.44,ACME\svc_sccm,System,445,allowed,23078,benign,routine network activity
+NET-00057,2026-09-09T13:56:06Z,OPS-WS-08,JUMP-01,ACME\mturner,CcmExec.exe,443,allowed,45938,benign,routine network activity
+NET-00077,2026-09-09T14:21:11Z,DC-01,JUMP-01,ACME\svc_sccm,CcmExec.exe,5985,allowed,60137,benign,routine network activity
+NET-00424,2026-09-09T14:25:33Z,APP-06,SCCM-01,ACME\adavis,agent.exe,443,allowed,41268,benign,routine network activity
+NET-00053,2026-09-09T15:06:15Z,SCCM-01,FILE-03,ACME\adavis,agent.exe,53,allowed,49779,benign,routine network activity
+NET-00343,2026-09-09T15:10:09Z,OPS-WS-08,SCCM-01,ACME\mturner,agent.exe,53,allowed,29968,benign,routine network activity
+NET-00231,2026-09-09T15:13:21Z,APP-06,OPS-WS-08,ACME\svc_sccm,CcmExec.exe,443,allowed,21130,benign,routine network activity
+NET-00439,2026-09-09T15:13:35Z,DC-01,DC-01,ACME\jsmith,CcmExec.exe,5985,allowed,33099,benign,routine network activity
+NET-00360,2026-09-09T15:15:52Z,DC-01,SCCM-01,ACME\svc_sccm,agent.exe,443,allowed,42602,benign,routine network activity
+NET-00068,2026-09-09T15:16:30Z,FILE-03,ENG-WS-17,NT AUTHORITY\SYSTEM,powershell.exe,53,allowed,42859,benign,routine network activity
+NET-00484,2026-09-09T15:18:37Z,SCCM-01,198.51.100.44,ACME\adavis,agent.exe,443,allowed,1772,benign,routine network activity
+NET-00080,2026-09-09T15:30:39Z,SCCM-01,JUMP-01,ACME\mturner,powershell.exe,53,allowed,30514,benign,routine network activity
+NET-00209,2026-09-09T15:32:56Z,DC-01,ENG-WS-17,ACME\svc_sccm,agent.exe,443,allowed,50739,benign,routine network activity
+NET-00483,2026-09-09T15:36:10Z,OPS-WS-08,DC-01,ACME\mturner,System,445,allowed,28391,benign,routine network activity
+NET-00134,2026-09-09T15:40:15Z,FILE-03,OPS-WS-08,ACME\svc_sccm,CcmExec.exe,5985,allowed,24350,benign,routine network activity
+NET-00156,2026-09-09T16:19:42Z,SCCM-01,FILE-03,ACME\adavis,CcmExec.exe,53,allowed,40251,benign,routine network activity
+NET-00262,2026-09-09T16:35:22Z,ENG-WS-17,ENG-WS-17,NT AUTHORITY\SYSTEM,agent.exe,53,allowed,27934,benign,routine network activity
+NET-00463,2026-09-09T17:21:11Z,JUMP-01,ENG-WS-17,ACME\mturner,System,443,allowed,5582,benign,routine network activity
+NET-00046,2026-09-09T17:44:28Z,FILE-03,OPS-WS-08,ACME\mturner,agent.exe,445,allowed,42620,benign,routine network activity
+NET-00108,2026-09-09T17:47:21Z,OPS-WS-08,SCCM-01,ACME\mturner,powershell.exe,5985,allowed,43846,benign,routine network activity
+NET-00013,2026-09-09T17:50:35Z,FILE-03,FILE-03,ACME\jsmith,powershell.exe,5985,allowed,52432,benign,routine network activity
+NET-00328,2026-09-09T18:03:23Z,APP-06,ENG-WS-17,ACME\mturner,powershell.exe,5985,allowed,58447,benign,routine network activity
+NET-00478,2026-09-09T18:06:20Z,OPS-WS-08,DC-01,NT AUTHORITY\SYSTEM,System,5985,allowed,61733,benign,routine network activity
+NET-00294,2026-09-09T18:40:37Z,FILE-03,198.51.100.44,ACME\adavis,System,443,allowed,18063,benign,routine network activity
+NET-00251,2026-09-09T18:53:39Z,OPS-WS-08,JUMP-01,ACME\jsmith,System,53,allowed,40999,benign,routine network activity
+NET-00230,2026-09-09T19:16:03Z,DC-01,SCCM-01,ACME\mturner,CcmExec.exe,443,allowed,36058,benign,routine network activity
+NET-00081,2026-09-09T19:16:34Z,APP-06,DC-01,ACME\adavis,System,53,allowed,52515,benign,routine network activity
+NET-00334,2026-09-09T19:19:56Z,FILE-03,SCCM-01,ACME\jsmith,System,445,allowed,39078,benign,routine network activity
+NET-00112,2026-09-09T19:23:11Z,APP-06,DC-01,NT AUTHORITY\SYSTEM,CcmExec.exe,443,allowed,50589,benign,routine network activity
+NET-00105,2026-09-09T19:23:53Z,SCCM-01,DC-01,NT AUTHORITY\SYSTEM,CcmExec.exe,445,allowed,13811,benign,routine network activity
+NET-00473,2026-09-09T19:24:12Z,FILE-03,DC-01,ACME\jsmith,agent.exe,53,allowed,56597,benign,routine network activity
+NET-00427,2026-09-09T19:26:07Z,DC-01,FILE-03,ACME\adavis,agent.exe,445,allowed,13118,benign,routine network activity
+NET-00100,2026-09-09T19:31:13Z,FILE-03,198.51.100.44,NT AUTHORITY\SYSTEM,agent.exe,53,allowed,25784,benign,routine network activity
+NET-00273,2026-09-09T19:41:36Z,DC-01,APP-06,ACME\adavis,agent.exe,443,allowed,42863,benign,routine network activity
+NET-00055,2026-09-09T19:48:08Z,SCCM-01,JUMP-01,ACME\svc_sccm,CcmExec.exe,5985,allowed,669,benign,routine network activity
+NET-00354,2026-09-09T19:51:44Z,JUMP-01,ENG-WS-17,ACME\mturner,powershell.exe,443,allowed,58920,benign,routine network activity
+NET-00446,2026-09-09T20:01:50Z,OPS-WS-08,DC-01,ACME\jsmith,agent.exe,53,allowed,27457,benign,routine network activity
+NET-00289,2026-09-09T20:05:02Z,SCCM-01,OPS-WS-08,ACME\adavis,System,53,allowed,17378,benign,routine network activity
+NET-00444,2026-09-09T20:08:17Z,JUMP-01,FILE-03,ACME\jsmith,agent.exe,53,allowed,16402,benign,routine network activity
+NET-00157,2026-09-09T20:12:16Z,FILE-03,OPS-WS-08,ACME\mturner,powershell.exe,445,allowed,27231,benign,routine network activity
+NET-00307,2026-09-09T20:15:13Z,DC-01,OPS-WS-08,ACME\adavis,CcmExec.exe,53,allowed,40527,benign,routine network activity
+NET-00008,2026-09-09T20:42:28Z,OPS-WS-08,JUMP-01,ACME\jsmith,System,445,allowed,42958,benign,routine network activity
+NET-00054,2026-09-09T20:49:39Z,JUMP-01,JUMP-01,ACME\svc_sccm,CcmExec.exe,445,allowed,32933,benign,routine network activity
+NET-00101,2026-09-09T21:17:37Z,DC-01,ENG-WS-17,ACME\svc_sccm,System,5985,allowed,18854,benign,routine network activity
+NET-00063,2026-09-09T21:41:25Z,APP-06,OPS-WS-08,ACME\svc_sccm,powershell.exe,5985,allowed,25684,benign,routine network activity
+NET-00142,2026-09-09T21:59:32Z,JUMP-01,SCCM-01,ACME\svc_sccm,CcmExec.exe,443,allowed,49876,benign,routine network activity
+NET-00174,2026-09-09T21:59:34Z,JUMP-01,198.51.100.44,ACME\svc_sccm,agent.exe,445,allowed,62201,benign,routine network activity
+NET-00449,2026-09-09T22:13:06Z,FILE-03,FILE-03,ACME\mturner,CcmExec.exe,53,allowed,19544,benign,routine network activity
+NET-00135,2026-09-09T22:26:25Z,JUMP-01,OPS-WS-08,ACME\jsmith,CcmExec.exe,443,allowed,61180,benign,routine network activity
+NET-00043,2026-09-09T22:27:47Z,OPS-WS-08,APP-06,ACME\svc_sccm,System,53,allowed,29662,benign,routine network activity
+NET-00072,2026-09-09T22:29:42Z,JUMP-01,ENG-WS-17,ACME\adavis,powershell.exe,5985,allowed,44708,benign,routine network activity
+NET-00254,2026-09-09T22:30:17Z,OPS-WS-08,ENG-WS-17,ACME\mturner,System,5985,allowed,42894,benign,routine network activity
+NET-00282,2026-09-09T22:55:21Z,DC-01,APP-06,ACME\jsmith,agent.exe,5985,allowed,47332,benign,routine network activity
+NET-00398,2026-09-09T23:07:13Z,SCCM-01,JUMP-01,ACME\svc_sccm,CcmExec.exe,53,allowed,46736,benign,routine network activity
+NET-00245,2026-09-09T23:19:43Z,JUMP-01,DC-01,ACME\jsmith,agent.exe,443,allowed,21812,benign,routine network activity
+NET-00313,2026-09-09T23:27:54Z,ENG-WS-17,DC-01,NT AUTHORITY\SYSTEM,System,443,allowed,41801,benign,routine network activity
+NET-00202,2026-09-09T23:31:50Z,SCCM-01,DC-01,ACME\mturner,CcmExec.exe,445,allowed,21104,benign,routine network activity
+NET-00092,2026-09-09T23:32:44Z,DC-01,198.51.100.44,ACME\mturner,CcmExec.exe,443,allowed,18793,benign,routine network activity
+NET-00298,2026-09-09T23:47:44Z,FILE-03,ENG-WS-17,ACME\svc_sccm,System,445,allowed,14592,benign,routine network activity
+NET-00061,2026-09-09T23:56:56Z,APP-06,198.51.100.44,ACME\adavis,System,53,allowed,38122,benign,routine network activity
+NET-00367,2026-09-10T00:05:34Z,JUMP-01,ENG-WS-17,ACME\adavis,System,5985,allowed,16105,benign,routine network activity
+NET-00180,2026-09-10T00:33:32Z,FILE-03,ENG-WS-17,NT AUTHORITY\SYSTEM,System,443,allowed,4058,benign,routine network activity
+NET-00042,2026-09-10T00:58:09Z,OPS-WS-08,OPS-WS-08,ACME\jsmith,System,53,allowed,64584,benign,routine network activity
+NET-00462,2026-09-10T01:23:57Z,DC-01,APP-06,ACME\svc_sccm,powershell.exe,5985,allowed,3640,benign,routine network activity
+NET-00139,2026-09-10T01:25:45Z,FILE-03,JUMP-01,NT AUTHORITY\SYSTEM,System,5985,allowed,38396,benign,routine network activity
+NET-00409,2026-09-10T01:34:05Z,APP-06,OPS-WS-08,ACME\jsmith,System,53,allowed,51308,benign,routine network activity
+NET-00197,2026-09-10T01:39:23Z,OPS-WS-08,JUMP-01,ACME\svc_sccm,System,5985,allowed,28856,benign,routine network activity
+NET-00347,2026-09-10T01:40:02Z,OPS-WS-08,198.51.100.44,ACME\svc_sccm,CcmExec.exe,53,allowed,27356,benign,routine network activity
+NET-00306,2026-09-10T01:43:16Z,APP-06,SCCM-01,ACME\jsmith,agent.exe,5985,allowed,51770,benign,routine network activity
+NET-00350,2026-09-10T01:44:14Z,APP-06,198.51.100.44,ACME\adavis,agent.exe,53,allowed,24641,benign,routine network activity
+NET-00318,2026-09-10T02:00:33Z,OPS-WS-08,ENG-WS-17,ACME\adavis,powershell.exe,445,allowed,4941,benign,routine network activity
+NET-00287,2026-09-10T02:02:46Z,FILE-03,ENG-WS-17,ACME\adavis,powershell.exe,5985,allowed,33595,benign,routine network activity
+NET-00390,2026-09-10T02:04:38Z,FILE-03,DC-01,ACME\mturner,System,53,allowed,33818,benign,routine network activity
+NET-00494,2026-09-10T02:32:49Z,DC-01,FILE-03,ACME\jsmith,CcmExec.exe,445,allowed,51886,benign,routine network activity
+NET-00122,2026-09-10T02:41:31Z,APP-06,198.51.100.44,ACME\jsmith,powershell.exe,5985,allowed,31080,benign,routine network activity
+NET-00315,2026-09-10T02:45:52Z,FILE-03,198.51.100.44,ACME\jsmith,powershell.exe,445,allowed,54575,benign,routine network activity
+NET-00396,2026-09-10T03:19:51Z,APP-06,DC-01,ACME\mturner,System,443,allowed,54905,benign,routine network activity
+NET-00327,2026-09-10T03:21:05Z,APP-06,198.51.100.44,ACME\adavis,agent.exe,445,allowed,22392,benign,routine network activity
+NET-00018,2026-09-10T03:26:26Z,APP-06,FILE-03,NT AUTHORITY\SYSTEM,powershell.exe,53,allowed,30213,benign,routine network activity
+NET-00121,2026-09-10T03:31:26Z,APP-06,FILE-03,ACME\adavis,powershell.exe,445,allowed,24649,benign,routine network activity
+NET-00322,2026-09-10T03:36:06Z,SCCM-01,198.51.100.44,NT AUTHORITY\SYSTEM,agent.exe,53,allowed,36028,benign,routine network activity
+NET-00239,2026-09-10T03:45:44Z,APP-06,APP-06,ACME\adavis,System,443,allowed,30608,benign,routine network activity
+NET-00148,2026-09-10T04:12:04Z,FILE-03,198.51.100.44,ACME\svc_sccm,CcmExec.exe,53,allowed,21496,benign,routine network activity
+NET-00193,2026-09-10T04:14:07Z,JUMP-01,SCCM-01,ACME\adavis,agent.exe,5985,allowed,29743,benign,routine network activity
+NET-00447,2026-09-10T04:16:58Z,ENG-WS-17,APP-06,ACME\adavis,agent.exe,445,allowed,45222,benign,routine network activity
+NET-00487,2026-09-10T04:28:14Z,OPS-WS-08,ENG-WS-17,ACME\mturner,powershell.exe,53,allowed,27520,benign,routine network activity
+NET-00417,2026-09-10T04:29:08Z,OPS-WS-08,ENG-WS-17,NT AUTHORITY\SYSTEM,System,53,allowed,36776,benign,routine network activity
+NET-00019,2026-09-10T04:40:23Z,SCCM-01,SCCM-01,ACME\svc_sccm,CcmExec.exe,53,allowed,18560,benign,routine network activity
+NET-00438,2026-09-10T04:50:27Z,SCCM-01,APP-06,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,44553,benign,routine network activity
+NET-00203,2026-09-10T05:38:16Z,ENG-WS-17,FILE-03,ACME\adavis,System,445,allowed,4636,benign,routine network activity
+NET-00431,2026-09-10T05:42:26Z,JUMP-01,JUMP-01,ACME\adavis,powershell.exe,445,allowed,12699,benign,routine network activity
+NET-00495,2026-09-10T05:53:15Z,APP-06,OPS-WS-08,ACME\mturner,agent.exe,443,allowed,5095,benign,routine network activity
+NET-00221,2026-09-10T05:58:14Z,FILE-03,FILE-03,ACME\svc_sccm,System,445,allowed,41181,benign,routine network activity
+NET-00183,2026-09-10T06:07:15Z,OPS-WS-08,OPS-WS-08,ACME\jsmith,powershell.exe,5985,allowed,2735,benign,routine network activity
+NET-00408,2026-09-10T06:20:02Z,DC-01,SCCM-01,ACME\svc_sccm,agent.exe,443,allowed,21211,benign,routine network activity
+NET-00488,2026-09-10T06:39:58Z,JUMP-01,APP-06,ACME\jsmith,System,53,allowed,50731,benign,routine network activity
+NET-00130,2026-09-10T06:50:15Z,DC-01,APP-06,ACME\adavis,System,443,allowed,41105,benign,routine network activity
+NET-00060,2026-09-10T06:50:56Z,SCCM-01,DC-01,ACME\adavis,System,53,allowed,53689,benign,routine network activity
+NET-00026,2026-09-10T07:07:27Z,OPS-WS-08,198.51.100.44,ACME\jsmith,System,5985,allowed,34414,benign,routine network activity
+NET-00238,2026-09-10T07:28:17Z,SCCM-01,OPS-WS-08,ACME\adavis,System,5985,allowed,10919,benign,routine network activity
+NET-00276,2026-09-10T08:00:37Z,OPS-WS-08,OPS-WS-08,NT AUTHORITY\SYSTEM,CcmExec.exe,445,allowed,33408,benign,routine network activity
+NET-00440,2026-09-10T08:05:39Z,JUMP-01,APP-06,ACME\svc_sccm,powershell.exe,445,allowed,2005,benign,routine network activity
+NET-00436,2026-09-10T08:10:15Z,ENG-WS-17,JUMP-01,ACME\svc_sccm,CcmExec.exe,5985,allowed,55233,benign,routine network activity
+NET-00472,2026-09-10T08:13:58Z,OPS-WS-08,SCCM-01,ACME\svc_sccm,agent.exe,5985,allowed,3283,benign,routine network activity
+NET-00227,2026-09-10T08:30:55Z,SCCM-01,SCCM-01,NT AUTHORITY\SYSTEM,agent.exe,5985,allowed,37583,benign,routine network activity
+NET-00085,2026-09-10T08:35:42Z,JUMP-01,OPS-WS-08,ACME\adavis,CcmExec.exe,5985,allowed,29167,benign,routine network activity
+NET-00079,2026-09-10T08:37:20Z,DC-01,APP-06,ACME\jsmith,agent.exe,443,allowed,60955,benign,routine network activity
+NET-00363,2026-09-10T08:54:01Z,SCCM-01,OPS-WS-08,ACME\svc_sccm,System,445,allowed,38283,benign,routine network activity
+NET-00249,2026-09-10T08:59:40Z,ENG-WS-17,ENG-WS-17,NT AUTHORITY\SYSTEM,agent.exe,5985,allowed,21991,benign,routine network activity
+NET-00059,2026-09-10T09:04:11Z,FILE-03,OPS-WS-08,NT AUTHORITY\SYSTEM,powershell.exe,443,allowed,45187,benign,routine network activity
+NET-00426,2026-09-10T09:06:28Z,SCCM-01,DC-01,ACME\svc_sccm,System,445,allowed,12271,benign,routine network activity
+NET-00288,2026-09-10T09:11:21Z,OPS-WS-08,JUMP-01,ACME\mturner,System,443,allowed,53640,benign,routine network activity
+NET-00205,2026-09-10T09:18:26Z,OPS-WS-08,198.51.100.44,ACME\mturner,agent.exe,445,allowed,59745,benign,routine network activity
+NET-00144,2026-09-10T09:23:51Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,CcmExec.exe,53,allowed,1743,benign,routine network activity
+NET-00301,2026-09-10T09:25:23Z,JUMP-01,SCCM-01,NT AUTHORITY\SYSTEM,System,53,allowed,5284,benign,routine network activity
+NET-00310,2026-09-10T09:52:11Z,ENG-WS-17,OPS-WS-08,ACME\adavis,powershell.exe,5985,allowed,41027,benign,routine network activity
+NET-00412,2026-09-10T10:10:31Z,OPS-WS-08,JUMP-01,ACME\jsmith,powershell.exe,5985,allowed,63535,benign,routine network activity
+NET-00027,2026-09-10T10:14:12Z,SCCM-01,SCCM-01,ACME\adavis,agent.exe,5985,allowed,46447,benign,routine network activity
+NET-00305,2026-09-10T10:29:56Z,DC-01,APP-06,ACME\adavis,agent.exe,445,allowed,18855,benign,routine network activity
+NET-00392,2026-09-10T10:38:06Z,JUMP-01,ENG-WS-17,ACME\adavis,powershell.exe,443,allowed,45611,benign,routine network activity
+NET-00466,2026-09-10T11:03:01Z,JUMP-01,JUMP-01,ACME\jsmith,agent.exe,445,allowed,7340,benign,routine network activity
+NET-00015,2026-09-10T11:10:11Z,OPS-WS-08,APP-06,ACME\adavis,CcmExec.exe,53,allowed,48105,benign,routine network activity
+NET-00303,2026-09-10T11:23:58Z,APP-06,198.51.100.44,ACME\jsmith,CcmExec.exe,53,allowed,20420,benign,routine network activity
+NET-00326,2026-09-10T11:25:47Z,SCCM-01,DC-01,NT AUTHORITY\SYSTEM,CcmExec.exe,53,allowed,24526,benign,routine network activity
+NET-00414,2026-09-10T11:48:54Z,OPS-WS-08,JUMP-01,ACME\adavis,powershell.exe,53,allowed,35220,benign,routine network activity
+NET-00260,2026-09-10T11:50:54Z,APP-06,DC-01,ACME\mturner,agent.exe,5985,allowed,58868,benign,routine network activity
+NET-00208,2026-09-10T11:51:00Z,ENG-WS-17,APP-06,ACME\svc_sccm,System,53,allowed,14378,benign,routine network activity
+NET-00075,2026-09-10T11:52:10Z,OPS-WS-08,DC-01,ACME\jsmith,System,445,allowed,24060,benign,routine network activity
+NET-00124,2026-09-10T12:14:11Z,DC-01,APP-06,NT AUTHORITY\SYSTEM,CcmExec.exe,443,allowed,33735,benign,routine network activity
+NET-00299,2026-09-10T12:15:57Z,JUMP-01,JUMP-01,ACME\svc_sccm,powershell.exe,5985,allowed,42789,benign,routine network activity
+NET-00217,2026-09-10T12:17:18Z,APP-06,DC-01,ACME\adavis,CcmExec.exe,445,allowed,56510,benign,routine network activity
+NET-00137,2026-09-10T12:22:11Z,DC-01,APP-06,NT AUTHORITY\SYSTEM,System,445,allowed,35641,benign,routine network activity
+NET-00045,2026-09-10T12:54:13Z,APP-06,DC-01,ACME\jsmith,powershell.exe,445,allowed,17317,benign,routine network activity
+NET-00435,2026-09-10T12:57:06Z,JUMP-01,JUMP-01,NT AUTHORITY\SYSTEM,CcmExec.exe,5985,allowed,27165,benign,routine network activity
+NET-00129,2026-09-10T13:49:23Z,APP-06,JUMP-01,ACME\svc_sccm,powershell.exe,53,allowed,44711,benign,routine network activity
+NET-00481,2026-09-10T13:53:02Z,FILE-03,DC-01,ACME\mturner,powershell.exe,53,allowed,13019,benign,routine network activity
+NET-00442,2026-09-10T14:06:47Z,SCCM-01,198.51.100.44,ACME\mturner,powershell.exe,53,allowed,44895,benign,routine network activity
+NET-00290,2026-09-10T14:19:09Z,DC-01,JUMP-01,ACME\svc_sccm,powershell.exe,443,allowed,59781,benign,routine network activity
+NET-00291,2026-09-10T14:19:09Z,OPS-WS-08,ENG-WS-17,ACME\mturner,System,443,allowed,29624,benign,routine network activity
+NET-00179,2026-09-10T14:35:13Z,SCCM-01,APP-06,ACME\svc_sccm,System,5985,allowed,19170,benign,routine network activity
+NET-00233,2026-09-10T14:43:01Z,SCCM-01,198.51.100.44,ACME\mturner,System,53,allowed,35773,benign,routine network activity
+NET-00331,2026-09-10T14:49:21Z,ENG-WS-17,198.51.100.44,ACME\adavis,agent.exe,443,allowed,52957,benign,routine network activity
+NET-00125,2026-09-10T15:05:58Z,ENG-WS-17,198.51.100.44,ACME\svc_sccm,agent.exe,5985,allowed,51827,benign,routine network activity
+NET-00007,2026-09-10T15:07:09Z,FILE-03,OPS-WS-08,NT AUTHORITY\SYSTEM,agent.exe,5985,allowed,55906,benign,routine network activity
+NET-00159,2026-09-10T15:25:56Z,APP-06,FILE-03,ACME\jsmith,powershell.exe,53,allowed,62873,benign,routine network activity
+NET-00062,2026-09-10T15:35:02Z,SCCM-01,198.51.100.44,ACME\jsmith,CcmExec.exe,53,allowed,52213,benign,routine network activity
+NET-00067,2026-09-10T15:37:42Z,SCCM-01,198.51.100.44,ACME\svc_sccm,agent.exe,5985,allowed,57868,benign,routine network activity
+NET-00319,2026-09-10T15:56:32Z,JUMP-01,APP-06,ACME\adavis,System,53,allowed,24311,benign,routine network activity
+NET-00405,2026-09-10T16:03:57Z,APP-06,JUMP-01,ACME\mturner,agent.exe,443,allowed,12975,benign,routine network activity
+NET-00345,2026-09-10T16:45:59Z,DC-01,SCCM-01,ACME\svc_sccm,agent.exe,443,allowed,32283,benign,routine network activity
+NET-00071,2026-09-10T16:56:06Z,JUMP-01,OPS-WS-08,ACME\mturner,powershell.exe,443,allowed,41101,benign,routine network activity
+NET-00213,2026-09-10T17:00:01Z,OPS-WS-08,APP-06,ACME\jsmith,CcmExec.exe,445,allowed,2335,benign,routine network activity
+NET-00261,2026-09-10T17:02:22Z,ENG-WS-17,SCCM-01,NT AUTHORITY\SYSTEM,CcmExec.exe,53,allowed,48940,benign,routine network activity
+NET-00420,2026-09-10T17:20:53Z,FILE-03,JUMP-01,ACME\mturner,powershell.exe,445,allowed,24590,benign,routine network activity
+NET-00468,2026-09-10T17:23:09Z,ENG-WS-17,JUMP-01,NT AUTHORITY\SYSTEM,CcmExec.exe,445,allowed,64863,benign,routine network activity
+NET-00168,2026-09-10T17:34:51Z,DC-01,SCCM-01,NT AUTHORITY\SYSTEM,powershell.exe,445,allowed,34943,benign,routine network activity
+NET-00165,2026-09-10T17:35:12Z,OPS-WS-08,198.51.100.44,ACME\mturner,agent.exe,5985,allowed,41635,benign,routine network activity
+NET-00116,2026-09-10T17:37:46Z,SCCM-01,198.51.100.44,ACME\adavis,CcmExec.exe,445,allowed,9549,benign,routine network activity
+NET-00201,2026-09-10T17:42:49Z,FILE-03,198.51.100.44,ACME\svc_sccm,agent.exe,445,allowed,12723,benign,routine network activity
+NET-00023,2026-09-10T18:05:33Z,FILE-03,FILE-03,ACME\jsmith,agent.exe,443,allowed,9432,benign,routine network activity
+NET-00218,2026-09-10T18:05:49Z,SCCM-01,FILE-03,ACME\svc_sccm,powershell.exe,5985,allowed,29797,benign,routine network activity
+NET-00377,2026-09-10T18:06:41Z,OPS-WS-08,SCCM-01,ACME\svc_sccm,agent.exe,443,allowed,7156,benign,routine network activity
+NET-00036,2026-09-10T18:13:00Z,DC-01,FILE-03,ACME\mturner,System,5985,allowed,6350,benign,routine network activity
+NET-00164,2026-09-10T18:45:38Z,SCCM-01,ENG-WS-17,ACME\svc_sccm,powershell.exe,443,allowed,53453,benign,routine network activity
+NET-00344,2026-09-10T18:52:00Z,APP-06,FILE-03,NT AUTHORITY\SYSTEM,agent.exe,53,allowed,27186,benign,routine network activity
+NET-00005,2026-09-10T18:52:48Z,FILE-03,OPS-WS-08,NT AUTHORITY\SYSTEM,CcmExec.exe,53,allowed,15273,benign,routine network activity
+NET-00380,2026-09-10T18:57:38Z,DC-01,APP-06,ACME\mturner,agent.exe,443,allowed,30984,benign,routine network activity
+NET-00410,2026-09-10T19:00:40Z,SCCM-01,DC-01,NT AUTHORITY\SYSTEM,CcmExec.exe,445,allowed,52554,benign,routine network activity
+NET-00353,2026-09-10T19:03:31Z,ENG-WS-17,APP-06,NT AUTHORITY\SYSTEM,CcmExec.exe,53,allowed,22504,benign,routine network activity
+NET-00362,2026-09-10T19:11:40Z,OPS-WS-08,JUMP-01,ACME\adavis,agent.exe,53,allowed,61283,benign,routine network activity
+NET-00342,2026-09-10T19:17:50Z,JUMP-01,APP-06,NT AUTHORITY\SYSTEM,agent.exe,443,allowed,60270,benign,routine network activity
+NET-00486,2026-09-10T19:23:38Z,DC-01,ENG-WS-17,ACME\mturner,System,5985,allowed,50553,benign,routine network activity
+NET-00266,2026-09-10T19:48:00Z,FILE-03,OPS-WS-08,NT AUTHORITY\SYSTEM,CcmExec.exe,5985,allowed,56910,benign,routine network activity
+NET-00127,2026-09-10T19:52:07Z,JUMP-01,JUMP-01,ACME\mturner,System,5985,allowed,32914,benign,routine network activity
+NET-00283,2026-09-10T20:35:38Z,APP-06,JUMP-01,ACME\mturner,CcmExec.exe,443,allowed,45676,benign,routine network activity
+NET-00432,2026-09-10T20:42:44Z,OPS-WS-08,APP-06,ACME\mturner,powershell.exe,53,allowed,2556,benign,routine network activity
+NET-00215,2026-09-10T20:43:44Z,DC-01,FILE-03,ACME\adavis,CcmExec.exe,5985,allowed,33537,benign,routine network activity
+NET-00235,2026-09-10T20:55:40Z,OPS-WS-08,JUMP-01,ACME\jsmith,System,53,allowed,37127,benign,routine network activity
+NET-00234,2026-09-10T21:01:58Z,FILE-03,FILE-03,ACME\mturner,CcmExec.exe,445,allowed,20746,benign,routine network activity
+NET-00470,2026-09-10T21:07:39Z,OPS-WS-08,APP-06,ACME\adavis,CcmExec.exe,5985,allowed,10366,benign,routine network activity
+NET-00370,2026-09-10T21:22:23Z,FILE-03,FILE-03,ACME\svc_sccm,System,445,allowed,10862,benign,routine network activity
+NET-00219,2026-09-10T21:22:52Z,DC-01,APP-06,ACME\adavis,powershell.exe,5985,allowed,6510,benign,routine network activity
+NET-00490,2026-09-10T21:33:52Z,SCCM-01,JUMP-01,ACME\adavis,CcmExec.exe,445,allowed,47932,benign,routine network activity
+NET-00198,2026-09-10T21:55:29Z,SCCM-01,ENG-WS-17,NT AUTHORITY\SYSTEM,System,445,allowed,18052,benign,routine network activity
+NET-00474,2026-09-10T22:22:40Z,ENG-WS-17,OPS-WS-08,ACME\mturner,CcmExec.exe,445,allowed,57316,benign,routine network activity
+NET-00095,2026-09-10T22:36:36Z,OPS-WS-08,FILE-03,ACME\jsmith,CcmExec.exe,445,allowed,43783,benign,routine network activity
+NET-00194,2026-09-10T22:37:26Z,SCCM-01,DC-01,ACME\adavis,CcmExec.exe,445,allowed,38352,benign,routine network activity
+NET-00286,2026-09-10T22:42:19Z,JUMP-01,JUMP-01,ACME\svc_sccm,agent.exe,443,allowed,42303,benign,routine network activity
+NET-00029,2026-09-10T22:44:20Z,APP-06,APP-06,NT AUTHORITY\SYSTEM,agent.exe,443,allowed,22198,benign,routine network activity
+NET-00271,2026-09-10T22:52:43Z,SCCM-01,DC-01,ACME\mturner,powershell.exe,53,allowed,8884,benign,routine network activity
+NET-00073,2026-09-10T23:13:39Z,FILE-03,198.51.100.44,ACME\mturner,CcmExec.exe,443,allowed,42735,benign,routine network activity
+NET-00109,2026-09-10T23:15:50Z,SCCM-01,DC-01,ACME\svc_sccm,System,443,allowed,14872,benign,routine network activity
+NET-00028,2026-09-10T23:29:06Z,SCCM-01,JUMP-01,ACME\jsmith,System,53,allowed,13859,benign,routine network activity
+NET-00078,2026-09-10T23:38:48Z,ENG-WS-17,JUMP-01,ACME\svc_sccm,agent.exe,443,allowed,54180,benign,routine network activity
+NET-00187,2026-09-11T00:16:36Z,APP-06,SCCM-01,ACME\jsmith,powershell.exe,443,allowed,37253,benign,routine network activity
+NET-00496,2026-09-11T00:18:51Z,FILE-03,APP-06,NT AUTHORITY\SYSTEM,System,445,allowed,62669,benign,routine network activity
+NET-00317,2026-09-11T00:34:59Z,OPS-WS-08,DC-01,ACME\svc_sccm,System,443,allowed,24537,benign,routine network activity
+NET-00433,2026-09-11T00:38:09Z,OPS-WS-08,OPS-WS-08,ACME\mturner,powershell.exe,443,allowed,62725,benign,routine network activity
+NET-00346,2026-09-11T00:38:58Z,FILE-03,APP-06,ACME\adavis,CcmExec.exe,445,allowed,61593,benign,routine network activity
+NET-00451,2026-09-11T00:45:10Z,ENG-WS-17,ENG-WS-17,ACME\mturner,System,5985,allowed,17244,benign,routine network activity
+NET-00376,2026-09-11T00:45:14Z,JUMP-01,JUMP-01,ACME\mturner,agent.exe,5985,allowed,44230,benign,routine network activity
+NET-00083,2026-09-11T00:45:49Z,OPS-WS-08,OPS-WS-08,ACME\adavis,CcmExec.exe,5985,allowed,1211,benign,routine network activity
+NET-00084,2026-09-11T00:49:41Z,FILE-03,SCCM-01,ACME\jsmith,powershell.exe,5985,allowed,14177,benign,routine network activity
+NET-00030,2026-09-11T00:56:43Z,SCCM-01,OPS-WS-08,ACME\mturner,agent.exe,5985,allowed,26976,benign,routine network activity
+NET-00152,2026-09-11T01:02:07Z,DC-01,SCCM-01,ACME\svc_sccm,powershell.exe,445,allowed,176,benign,routine network activity
+NET-00275,2026-09-11T01:32:37Z,APP-06,198.51.100.44,ACME\mturner,agent.exe,5985,allowed,47356,benign,routine network activity
+NET-00400,2026-09-11T01:53:16Z,APP-06,JUMP-01,NT AUTHORITY\SYSTEM,agent.exe,445,allowed,11058,benign,routine network activity
+NET-00103,2026-09-11T01:54:14Z,ENG-WS-17,OPS-WS-08,ACME\jsmith,powershell.exe,445,allowed,57477,benign,routine network activity
+NET-00441,2026-09-11T02:11:22Z,DC-01,FILE-03,ACME\mturner,powershell.exe,5985,allowed,2788,benign,routine network activity
+NET-00263,2026-09-11T02:18:05Z,DC-01,198.51.100.44,ACME\jsmith,powershell.exe,445,allowed,51279,benign,routine network activity
+NET-00341,2026-09-11T02:23:19Z,APP-06,SCCM-01,NT AUTHORITY\SYSTEM,agent.exe,443,allowed,47600,benign,routine network activity
+NET-00012,2026-09-11T02:37:59Z,ENG-WS-17,FILE-03,ACME\svc_sccm,System,445,allowed,56659,benign,routine network activity
+NET-00223,2026-09-11T02:43:51Z,APP-06,ENG-WS-17,NT AUTHORITY\SYSTEM,agent.exe,443,allowed,36771,benign,routine network activity
+NET-00285,2026-09-11T02:47:35Z,SCCM-01,198.51.100.44,ACME\svc_sccm,powershell.exe,443,allowed,50516,benign,routine network activity
+NET-00309,2026-09-11T03:09:44Z,JUMP-01,ENG-WS-17,ACME\adavis,powershell.exe,5985,allowed,5002,benign,routine network activity
+NET-00499,2026-09-11T03:15:49Z,JUMP-01,FILE-03,ACME\mturner,CcmExec.exe,445,allowed,21651,benign,routine network activity
+NET-00064,2026-09-11T03:44:15Z,OPS-WS-08,ENG-WS-17,ACME\mturner,System,53,allowed,2810,benign,routine network activity
+NET-00111,2026-09-11T03:48:28Z,JUMP-01,SCCM-01,ACME\mturner,System,53,allowed,32433,benign,routine network activity
+NET-00014,2026-09-11T03:49:16Z,FILE-03,OPS-WS-08,ACME\mturner,System,5985,allowed,21663,benign,routine network activity
+NET-00210,2026-09-11T04:00:42Z,OPS-WS-08,ENG-WS-17,NT AUTHORITY\SYSTEM,agent.exe,53,allowed,58288,benign,routine network activity
+NET-00032,2026-09-11T04:13:16Z,SCCM-01,SCCM-01,ACME\adavis,agent.exe,5985,allowed,47338,benign,routine network activity
+NET-00082,2026-09-11T04:52:45Z,SCCM-01,OPS-WS-08,NT AUTHORITY\SYSTEM,System,5985,allowed,28925,benign,routine network activity
+NET-00281,2026-09-11T04:57:16Z,SCCM-01,198.51.100.44,ACME\adavis,System,53,allowed,8715,benign,routine network activity
+NET-00295,2026-09-11T05:03:56Z,ENG-WS-17,DC-01,ACME\mturner,agent.exe,445,allowed,9114,benign,routine network activity
+NET-00220,2026-09-11T05:04:06Z,FILE-03,JUMP-01,ACME\svc_sccm,System,445,allowed,28453,benign,routine network activity
+NET-00284,2026-09-11T05:45:59Z,OPS-WS-08,JUMP-01,ACME\jsmith,CcmExec.exe,5985,allowed,51767,benign,routine network activity
+NET-00098,2026-09-11T06:09:00Z,DC-01,FILE-03,ACME\jsmith,powershell.exe,443,allowed,27079,benign,routine network activity
+NET-00237,2026-09-11T06:12:19Z,FILE-03,DC-01,ACME\jsmith,System,5985,allowed,41880,benign,routine network activity
+NET-00024,2026-09-11T06:26:14Z,ENG-WS-17,SCCM-01,NT AUTHORITY\SYSTEM,agent.exe,443,allowed,35646,benign,routine network activity
+NET-00006,2026-09-11T06:39:45Z,SCCM-01,ENG-WS-17,ACME\svc_sccm,System,5985,allowed,60800,benign,routine network activity
+NET-00167,2026-09-11T06:52:27Z,ENG-WS-17,198.51.100.44,ACME\adavis,agent.exe,5985,allowed,37345,benign,routine network activity
+NET-00106,2026-09-11T07:09:42Z,ENG-WS-17,OPS-WS-08,ACME\mturner,CcmExec.exe,443,allowed,1665,benign,routine network activity
+NET-00170,2026-09-11T07:29:47Z,ENG-WS-17,ENG-WS-17,ACME\adavis,CcmExec.exe,5985,allowed,15126,benign,routine network activity
+NET-00048,2026-09-11T07:32:59Z,FILE-03,DC-01,ACME\svc_sccm,System,53,allowed,50170,benign,routine network activity
+NET-00387,2026-09-11T07:49:04Z,ENG-WS-17,DC-01,ACME\svc_sccm,agent.exe,443,allowed,10202,benign,routine network activity
+NET-00389,2026-09-11T07:55:59Z,OPS-WS-08,OPS-WS-08,ACME\adavis,powershell.exe,53,allowed,4386,benign,routine network activity
+NET-00229,2026-09-11T08:08:07Z,ENG-WS-17,APP-06,ACME\jsmith,powershell.exe,443,allowed,38352,benign,routine network activity
+NET-00178,2026-09-11T08:16:34Z,APP-06,FILE-03,ACME\jsmith,CcmExec.exe,445,allowed,21566,benign,routine network activity
+NET-00222,2026-09-11T08:50:31Z,JUMP-01,DC-01,ACME\svc_sccm,powershell.exe,53,allowed,56411,benign,routine network activity
+NET-00035,2026-09-11T08:56:24Z,APP-06,FILE-03,ACME\jsmith,agent.exe,445,allowed,55276,benign,routine network activity
+NET-00114,2026-09-11T09:12:15Z,SCCM-01,198.51.100.44,ACME\jsmith,agent.exe,445,allowed,64164,benign,routine network activity
+NET-00329,2026-09-11T09:12:57Z,SCCM-01,OPS-WS-08,ACME\mturner,System,445,allowed,37992,benign,routine network activity
+NET-00161,2026-09-11T09:27:20Z,FILE-03,ENG-WS-17,ACME\jsmith,System,443,allowed,57816,benign,routine network activity
+NET-00375,2026-09-11T09:28:35Z,SCCM-01,FILE-03,NT AUTHORITY\SYSTEM,CcmExec.exe,53,allowed,45818,benign,routine network activity
+NET-00089,2026-09-11T09:42:28Z,OPS-WS-08,198.51.100.44,ACME\mturner,System,443,allowed,27966,benign,routine network activity
+NET-00269,2026-09-11T09:45:59Z,FILE-03,APP-06,ACME\svc_sccm,agent.exe,443,allowed,13875,benign,routine network activity
+NET-00308,2026-09-11T10:00:45Z,JUMP-01,FILE-03,ACME\adavis,CcmExec.exe,445,allowed,13403,benign,routine network activity
+NET-00010,2026-09-11T10:32:06Z,APP-06,DC-01,ACME\svc_sccm,agent.exe,443,allowed,54662,benign,routine network activity
+NET-00225,2026-09-11T10:32:23Z,APP-06,ENG-WS-17,ACME\jsmith,powershell.exe,53,allowed,54563,benign,routine network activity
+NET-00364,2026-09-11T11:08:40Z,SCCM-01,FILE-03,NT AUTHORITY\SYSTEM,agent.exe,445,allowed,21544,benign,routine network activity
+NET-00086,2026-09-11T11:08:42Z,DC-01,198.51.100.44,ACME\svc_sccm,agent.exe,5985,allowed,59205,benign,routine network activity
+NET-00118,2026-09-11T11:23:23Z,SCCM-01,198.51.100.44,ACME\jsmith,System,5985,allowed,51310,benign,routine network activity
+NET-00058,2026-09-11T11:29:51Z,ENG-WS-17,FILE-03,ACME\adavis,agent.exe,5985,allowed,50694,benign,routine network activity
+NET-00160,2026-09-11T11:46:42Z,DC-01,JUMP-01,ACME\svc_sccm,System,445,allowed,50137,benign,routine network activity

@@ -1,0 +1,501 @@
+event_id,_time,host,actor,service_name,display_name,action,image_path,start_type,service_account,classification,note
+SVC-00295,2026-09-07T12:16:43Z,ENG-WS-17,ACME\adavis,WinDefend,Windows Defender,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00300,2026-09-07T12:23:26Z,FILE-03,ACME\jsmith,ACMEInventory,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00487,2026-09-07T12:29:13Z,DC-01,ACME\adavis,Spooler,Windows Defender,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00246,2026-09-07T12:35:26Z,DC-01,NT AUTHORITY\SYSTEM,ACMEInventory,SMS Agent Host,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00183,2026-09-07T12:46:38Z,JUMP-01,ACME\jsmith,WinDefend,SMS Agent Host,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00443,2026-09-07T12:48:24Z,DC-01,NT AUTHORITY\SYSTEM,CcmExec,SMS Agent Host,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00150,2026-09-07T12:56:15Z,SCCM-01,ACME\svc_sccm,WinDefend,Windows Defender,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00269,2026-09-07T13:01:54Z,ENG-WS-17,NT AUTHORITY\SYSTEM,WinDefend,Windows Defender,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00007,2026-09-07T13:15:32Z,JUMP-01,NT AUTHORITY\SYSTEM,CcmExec,Windows Defender,configuration_read,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00013,2026-09-07T13:25:46Z,SCCM-01,ACME\jsmith,CcmExec,Windows Defender,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00341,2026-09-07T13:30:50Z,DC-01,ACME\mturner,ACMEInventory,ACME Inventory,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00264,2026-09-07T13:31:44Z,ENG-WS-17,ACME\svc_sccm,CcmExec,Windows Defender,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00240,2026-09-07T13:49:20Z,SCCM-01,NT AUTHORITY\SYSTEM,Spooler,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00099,2026-09-07T13:54:02Z,JUMP-01,ACME\adavis,CcmExec,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-CTX-001,2026-09-07T13:56:00Z,ENG-WS-17,ACME\svc_sccm,CcmExec,SMS Agent Host,started,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,known endpoint-management service
+SVC-INC-001,2026-09-07T14:18:00Z,ENG-WS-17,ACME\adavis,WinSupportSvc,Windows Support Service,installed,C:\ProgramData\WinSupport\supportsvc.exe -service,auto,LocalSystem,investigate,plausible display name; unusual path
+SVC-INC-002,2026-09-07T14:18:12Z,ENG-WS-17,NT AUTHORITY\SYSTEM,WinSupportSvc,Windows Support Service,started,C:\ProgramData\WinSupport\supportsvc.exe -service,auto,LocalSystem,investigate,new service starts
+SVC-BEN-001,2026-09-07T14:25:00Z,APP-06,ACME\svc_sccm,ACMESupportAgent,ACME Support Agent,installed,C:\Program Files\ACME\Support\agent.exe --service,auto,LocalSystem,benign,approved endpoint support deployment
+SVC-BEN-002,2026-09-07T14:25:14Z,APP-06,NT AUTHORITY\SYSTEM,ACMESupportAgent,ACME Support Agent,started,C:\Program Files\ACME\Support\agent.exe --service,auto,LocalSystem,benign,approved support agent starts
+SVC-RESP-001,2026-09-07T14:32:00Z,ENG-WS-17,ACME\jsmith,WinSupportSvc,Windows Support Service,disabled,C:\ProgramData\WinSupport\supportsvc.exe -service,disabled,LocalSystem,response,responder disables persistence
+SVC-00445,2026-09-07T14:43:03Z,DC-01,ACME\svc_sccm,WinDefend,ACME Inventory,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00306,2026-09-07T14:47:50Z,APP-06,ACME\mturner,WinDefend,Windows Time,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00481,2026-09-07T14:57:22Z,JUMP-01,ACME\adavis,W32Time,Print Spooler,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00244,2026-09-07T15:01:42Z,JUMP-01,ACME\mturner,Spooler,Windows Time,configuration_read,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00256,2026-09-07T15:25:00Z,JUMP-01,ACME\svc_sccm,Spooler,ACME Inventory,stopped,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00254,2026-09-07T15:33:49Z,FILE-03,ACME\mturner,W32Time,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00051,2026-09-07T15:42:57Z,ENG-WS-17,ACME\svc_sccm,W32Time,ACME Inventory,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00035,2026-09-07T15:43:47Z,APP-06,ACME\adavis,Spooler,Windows Time,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00243,2026-09-07T15:51:04Z,ENG-WS-17,ACME\svc_sccm,CcmExec,Windows Time,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00274,2026-09-07T15:57:44Z,OPS-WS-08,ACME\jsmith,WinDefend,Print Spooler,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00067,2026-09-07T16:04:16Z,JUMP-01,NT AUTHORITY\SYSTEM,W32Time,SMS Agent Host,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00177,2026-09-07T16:23:34Z,SCCM-01,ACME\svc_sccm,W32Time,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00224,2026-09-07T16:42:11Z,FILE-03,ACME\mturner,W32Time,Windows Time,started,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00493,2026-09-07T16:49:33Z,APP-06,ACME\jsmith,CcmExec,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00448,2026-09-07T17:05:17Z,DC-01,ACME\svc_sccm,ACMEInventory,Print Spooler,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00397,2026-09-07T17:05:37Z,ENG-WS-17,ACME\jsmith,W32Time,Windows Time,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00166,2026-09-07T17:17:02Z,OPS-WS-08,ACME\svc_sccm,ACMEInventory,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00251,2026-09-07T17:29:47Z,OPS-WS-08,ACME\jsmith,CcmExec,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00105,2026-09-07T17:44:37Z,APP-06,ACME\adavis,Spooler,SMS Agent Host,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00396,2026-09-07T17:46:37Z,ENG-WS-17,ACME\svc_sccm,ACMEInventory,ACME Inventory,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00201,2026-09-07T17:51:12Z,APP-06,NT AUTHORITY\SYSTEM,W32Time,Print Spooler,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00468,2026-09-07T17:59:49Z,DC-01,ACME\adavis,Spooler,Windows Time,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00200,2026-09-07T18:00:39Z,OPS-WS-08,ACME\mturner,W32Time,Windows Defender,stopped,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00074,2026-09-07T18:05:26Z,ENG-WS-17,ACME\mturner,CcmExec,Windows Time,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00125,2026-09-07T18:15:44Z,APP-06,ACME\adavis,CcmExec,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00170,2026-09-07T18:53:52Z,DC-01,ACME\adavis,W32Time,Windows Time,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00151,2026-09-07T19:02:31Z,OPS-WS-08,ACME\adavis,W32Time,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00441,2026-09-07T19:14:23Z,SCCM-01,ACME\mturner,WinDefend,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00342,2026-09-07T19:28:20Z,FILE-03,ACME\jsmith,WinDefend,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00460,2026-09-07T19:35:04Z,APP-06,ACME\adavis,ACMEInventory,Windows Time,queried,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00411,2026-09-07T20:01:30Z,DC-01,ACME\adavis,CcmExec,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00351,2026-09-07T20:09:08Z,JUMP-01,ACME\mturner,Spooler,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00159,2026-09-07T20:29:27Z,DC-01,ACME\mturner,WinDefend,ACME Inventory,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00079,2026-09-07T20:31:07Z,SCCM-01,ACME\mturner,W32Time,Print Spooler,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00032,2026-09-07T20:36:56Z,APP-06,ACME\adavis,W32Time,Windows Time,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00413,2026-09-07T20:48:52Z,DC-01,ACME\svc_sccm,W32Time,Print Spooler,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00196,2026-09-07T20:53:21Z,ENG-WS-17,ACME\adavis,Spooler,SMS Agent Host,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00052,2026-09-07T20:57:55Z,FILE-03,ACME\svc_sccm,ACMEInventory,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00280,2026-09-07T21:05:04Z,FILE-03,ACME\svc_sccm,WinDefend,SMS Agent Host,stopped,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00290,2026-09-07T21:15:13Z,SCCM-01,ACME\adavis,ACMEInventory,Windows Defender,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00287,2026-09-07T21:37:04Z,APP-06,ACME\adavis,WinDefend,Windows Time,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00449,2026-09-07T21:37:14Z,FILE-03,ACME\jsmith,ACMEInventory,SMS Agent Host,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00063,2026-09-07T21:39:00Z,ENG-WS-17,ACME\adavis,W32Time,SMS Agent Host,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00496,2026-09-07T21:49:45Z,ENG-WS-17,NT AUTHORITY\SYSTEM,WinDefend,ACME Inventory,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00308,2026-09-07T22:30:21Z,APP-06,NT AUTHORITY\SYSTEM,W32Time,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00174,2026-09-07T22:31:38Z,FILE-03,ACME\svc_sccm,CcmExec,ACME Inventory,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00309,2026-09-07T22:44:21Z,FILE-03,ACME\svc_sccm,WinDefend,Windows Time,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00412,2026-09-07T22:50:40Z,OPS-WS-08,ACME\svc_sccm,ACMEInventory,Windows Time,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00024,2026-09-07T22:55:09Z,OPS-WS-08,ACME\jsmith,W32Time,Print Spooler,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00214,2026-09-07T23:01:27Z,FILE-03,ACME\mturner,Spooler,ACME Inventory,queried,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00087,2026-09-07T23:43:20Z,ENG-WS-17,ACME\svc_sccm,W32Time,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00027,2026-09-07T23:51:05Z,OPS-WS-08,ACME\svc_sccm,W32Time,SMS Agent Host,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00315,2026-09-07T23:55:46Z,JUMP-01,ACME\jsmith,WinDefend,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00304,2026-09-08T00:05:31Z,FILE-03,ACME\jsmith,ACMEInventory,Print Spooler,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00285,2026-09-08T00:18:32Z,JUMP-01,ACME\svc_sccm,ACMEInventory,Print Spooler,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00061,2026-09-08T00:37:33Z,JUMP-01,ACME\mturner,WinDefend,SMS Agent Host,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00302,2026-09-08T01:09:45Z,FILE-03,ACME\mturner,WinDefend,ACME Inventory,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00084,2026-09-08T01:10:12Z,FILE-03,ACME\mturner,CcmExec,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00381,2026-09-08T01:21:34Z,SCCM-01,ACME\jsmith,CcmExec,Windows Time,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00292,2026-09-08T01:46:51Z,ENG-WS-17,NT AUTHORITY\SYSTEM,Spooler,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00263,2026-09-08T02:24:00Z,SCCM-01,ACME\adavis,WinDefend,SMS Agent Host,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00230,2026-09-08T02:36:05Z,FILE-03,ACME\adavis,WinDefend,Windows Time,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00278,2026-09-08T02:43:07Z,DC-01,ACME\jsmith,W32Time,ACME Inventory,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00065,2026-09-08T02:52:27Z,JUMP-01,ACME\adavis,W32Time,Print Spooler,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00289,2026-09-08T03:01:23Z,ENG-WS-17,ACME\svc_sccm,W32Time,Windows Defender,configuration_read,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00216,2026-09-08T03:07:25Z,FILE-03,NT AUTHORITY\SYSTEM,W32Time,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00327,2026-09-08T03:11:29Z,DC-01,NT AUTHORITY\SYSTEM,CcmExec,Print Spooler,configuration_read,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00080,2026-09-08T03:31:05Z,SCCM-01,ACME\jsmith,Spooler,Windows Time,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00241,2026-09-08T03:31:46Z,JUMP-01,ACME\adavis,ACMEInventory,Print Spooler,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00053,2026-09-08T03:49:27Z,ENG-WS-17,ACME\jsmith,Spooler,Windows Defender,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00294,2026-09-08T03:52:28Z,ENG-WS-17,ACME\jsmith,WinDefend,ACME Inventory,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00011,2026-09-08T04:25:53Z,SCCM-01,ACME\adavis,WinDefend,Windows Time,queried,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00187,2026-09-08T04:30:47Z,FILE-03,NT AUTHORITY\SYSTEM,ACMEInventory,Windows Time,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00299,2026-09-08T04:31:38Z,FILE-03,ACME\svc_sccm,CcmExec,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00257,2026-09-08T04:32:24Z,DC-01,ACME\svc_sccm,CcmExec,ACME Inventory,started,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00094,2026-09-08T04:36:33Z,SCCM-01,ACME\jsmith,ACMEInventory,Print Spooler,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00059,2026-09-08T04:53:07Z,OPS-WS-08,ACME\adavis,W32Time,Windows Defender,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00417,2026-09-08T05:01:12Z,DC-01,ACME\jsmith,W32Time,SMS Agent Host,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00249,2026-09-08T05:29:22Z,ENG-WS-17,ACME\svc_sccm,CcmExec,ACME Inventory,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00291,2026-09-08T05:30:34Z,SCCM-01,NT AUTHORITY\SYSTEM,WinDefend,ACME Inventory,configuration_read,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00175,2026-09-08T05:52:38Z,JUMP-01,ACME\jsmith,WinDefend,ACME Inventory,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00428,2026-09-08T05:52:50Z,JUMP-01,ACME\svc_sccm,Spooler,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00168,2026-09-08T05:59:03Z,FILE-03,ACME\mturner,Spooler,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00437,2026-09-08T06:01:34Z,OPS-WS-08,ACME\jsmith,WinDefend,Print Spooler,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00395,2026-09-08T06:11:00Z,ENG-WS-17,NT AUTHORITY\SYSTEM,WinDefend,Print Spooler,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00467,2026-09-08T06:18:37Z,FILE-03,NT AUTHORITY\SYSTEM,Spooler,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00237,2026-09-08T07:00:50Z,FILE-03,ACME\adavis,WinDefend,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00253,2026-09-08T07:07:48Z,FILE-03,ACME\mturner,Spooler,Windows Defender,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00238,2026-09-08T07:12:09Z,DC-01,ACME\jsmith,Spooler,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00012,2026-09-08T07:42:48Z,ENG-WS-17,ACME\mturner,WinDefend,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00211,2026-09-08T07:54:07Z,ENG-WS-17,ACME\jsmith,W32Time,ACME Inventory,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00050,2026-09-08T07:54:29Z,DC-01,ACME\adavis,WinDefend,Windows Defender,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00480,2026-09-08T08:08:02Z,APP-06,ACME\adavis,ACMEInventory,SMS Agent Host,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00362,2026-09-08T08:09:20Z,APP-06,ACME\jsmith,CcmExec,SMS Agent Host,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00329,2026-09-08T08:27:30Z,SCCM-01,ACME\svc_sccm,CcmExec,ACME Inventory,queried,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00167,2026-09-08T08:35:50Z,DC-01,ACME\adavis,ACMEInventory,Windows Time,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00398,2026-09-08T08:56:52Z,DC-01,ACME\adavis,W32Time,ACME Inventory,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00447,2026-09-08T09:01:43Z,FILE-03,ACME\jsmith,CcmExec,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00140,2026-09-08T09:02:54Z,ENG-WS-17,ACME\jsmith,Spooler,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00162,2026-09-08T09:34:12Z,DC-01,ACME\svc_sccm,CcmExec,ACME Inventory,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00499,2026-09-08T09:52:31Z,APP-06,ACME\svc_sccm,Spooler,Windows Defender,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00328,2026-09-08T10:00:31Z,SCCM-01,ACME\jsmith,WinDefend,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00405,2026-09-08T10:07:13Z,FILE-03,ACME\mturner,ACMEInventory,ACME Inventory,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00316,2026-09-08T10:07:52Z,FILE-03,ACME\svc_sccm,Spooler,Windows Defender,configuration_read,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00319,2026-09-08T10:16:21Z,ENG-WS-17,ACME\jsmith,CcmExec,Windows Time,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00418,2026-09-08T10:20:41Z,APP-06,ACME\svc_sccm,ACMEInventory,Print Spooler,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00385,2026-09-08T10:21:58Z,ENG-WS-17,ACME\jsmith,Spooler,Print Spooler,configuration_read,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00270,2026-09-08T10:25:06Z,OPS-WS-08,ACME\mturner,Spooler,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00258,2026-09-08T10:31:51Z,DC-01,ACME\adavis,W32Time,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00129,2026-09-08T10:41:49Z,ENG-WS-17,ACME\svc_sccm,ACMEInventory,Windows Defender,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00439,2026-09-08T10:46:50Z,APP-06,ACME\jsmith,ACMEInventory,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00089,2026-09-08T10:47:27Z,FILE-03,ACME\adavis,Spooler,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00172,2026-09-08T10:52:03Z,APP-06,ACME\jsmith,Spooler,SMS Agent Host,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00488,2026-09-08T11:06:13Z,FILE-03,ACME\adavis,Spooler,Windows Time,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00193,2026-09-08T11:10:33Z,ENG-WS-17,ACME\mturner,W32Time,ACME Inventory,configuration_read,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00133,2026-09-08T11:30:21Z,APP-06,NT AUTHORITY\SYSTEM,WinDefend,Windows Time,stopped,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00156,2026-09-08T12:02:26Z,JUMP-01,NT AUTHORITY\SYSTEM,Spooler,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00260,2026-09-08T12:10:32Z,DC-01,ACME\jsmith,WinDefend,SMS Agent Host,stopped,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00490,2026-09-08T13:08:48Z,FILE-03,NT AUTHORITY\SYSTEM,CcmExec,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00121,2026-09-08T13:24:18Z,ENG-WS-17,NT AUTHORITY\SYSTEM,W32Time,Windows Defender,queried,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00453,2026-09-08T13:47:03Z,FILE-03,ACME\mturner,ACMEInventory,Print Spooler,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00469,2026-09-08T14:05:01Z,OPS-WS-08,ACME\jsmith,Spooler,Windows Defender,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00026,2026-09-08T14:11:22Z,SCCM-01,ACME\mturner,ACMEInventory,ACME Inventory,started,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00340,2026-09-08T14:20:42Z,APP-06,ACME\adavis,CcmExec,Windows Defender,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00394,2026-09-08T14:27:17Z,DC-01,ACME\mturner,ACMEInventory,Print Spooler,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00108,2026-09-08T14:47:04Z,JUMP-01,ACME\adavis,WinDefend,Windows Defender,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00031,2026-09-08T15:02:21Z,ENG-WS-17,ACME\svc_sccm,CcmExec,Windows Time,stopped,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00364,2026-09-08T15:20:18Z,OPS-WS-08,ACME\adavis,WinDefend,Windows Time,stopped,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00019,2026-09-08T15:24:39Z,OPS-WS-08,ACME\adavis,Spooler,Print Spooler,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00098,2026-09-08T15:27:35Z,JUMP-01,ACME\svc_sccm,WinDefend,Windows Time,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00399,2026-09-08T15:38:32Z,OPS-WS-08,ACME\jsmith,CcmExec,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00361,2026-09-08T16:05:24Z,OPS-WS-08,ACME\svc_sccm,CcmExec,Windows Defender,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00477,2026-09-08T16:13:44Z,SCCM-01,ACME\mturner,Spooler,ACME Inventory,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00234,2026-09-08T16:18:46Z,OPS-WS-08,ACME\svc_sccm,ACMEInventory,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00010,2026-09-08T16:20:45Z,SCCM-01,ACME\adavis,WinDefend,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00462,2026-09-08T16:41:57Z,ENG-WS-17,ACME\adavis,Spooler,Windows Time,started,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00066,2026-09-08T16:44:20Z,APP-06,NT AUTHORITY\SYSTEM,WinDefend,ACME Inventory,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00321,2026-09-08T17:03:23Z,FILE-03,NT AUTHORITY\SYSTEM,ACMEInventory,Windows Time,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00419,2026-09-08T17:09:26Z,ENG-WS-17,ACME\adavis,ACMEInventory,Windows Time,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00333,2026-09-08T17:11:34Z,DC-01,ACME\jsmith,ACMEInventory,ACME Inventory,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00358,2026-09-08T17:23:17Z,JUMP-01,ACME\mturner,ACMEInventory,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00123,2026-09-08T17:27:01Z,JUMP-01,ACME\jsmith,Spooler,Print Spooler,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00377,2026-09-08T17:34:37Z,FILE-03,NT AUTHORITY\SYSTEM,CcmExec,SMS Agent Host,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00337,2026-09-08T17:41:49Z,SCCM-01,NT AUTHORITY\SYSTEM,CcmExec,Print Spooler,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00252,2026-09-08T17:57:56Z,DC-01,NT AUTHORITY\SYSTEM,W32Time,Print Spooler,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00459,2026-09-08T17:59:37Z,JUMP-01,ACME\jsmith,Spooler,Windows Defender,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00485,2026-09-08T18:09:43Z,ENG-WS-17,ACME\mturner,ACMEInventory,ACME Inventory,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00350,2026-09-08T18:32:43Z,ENG-WS-17,ACME\mturner,WinDefend,ACME Inventory,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00281,2026-09-08T19:20:25Z,OPS-WS-08,NT AUTHORITY\SYSTEM,Spooler,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00130,2026-09-08T19:25:00Z,OPS-WS-08,ACME\adavis,ACMEInventory,Print Spooler,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00368,2026-09-08T19:25:26Z,JUMP-01,ACME\mturner,WinDefend,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00379,2026-09-08T19:37:56Z,DC-01,ACME\adavis,ACMEInventory,Print Spooler,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00149,2026-09-08T19:39:08Z,DC-01,ACME\jsmith,ACMEInventory,ACME Inventory,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00145,2026-09-08T19:48:34Z,DC-01,ACME\svc_sccm,CcmExec,Print Spooler,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00444,2026-09-08T20:06:00Z,JUMP-01,ACME\svc_sccm,CcmExec,Windows Time,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00119,2026-09-08T20:19:29Z,ENG-WS-17,ACME\svc_sccm,ACMEInventory,Windows Time,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00322,2026-09-08T20:21:24Z,DC-01,ACME\jsmith,Spooler,Print Spooler,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00135,2026-09-08T20:41:43Z,ENG-WS-17,ACME\svc_sccm,WinDefend,SMS Agent Host,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00284,2026-09-08T21:00:43Z,ENG-WS-17,NT AUTHORITY\SYSTEM,WinDefend,Windows Time,configuration_read,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00072,2026-09-08T21:37:53Z,SCCM-01,ACME\jsmith,Spooler,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00336,2026-09-08T21:51:32Z,FILE-03,NT AUTHORITY\SYSTEM,W32Time,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00323,2026-09-08T22:05:41Z,DC-01,ACME\svc_sccm,CcmExec,SMS Agent Host,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00245,2026-09-08T22:26:55Z,APP-06,ACME\adavis,CcmExec,ACME Inventory,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00259,2026-09-08T22:45:02Z,OPS-WS-08,ACME\svc_sccm,Spooler,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00006,2026-09-08T23:02:27Z,SCCM-01,NT AUTHORITY\SYSTEM,Spooler,Windows Defender,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00114,2026-09-08T23:07:29Z,SCCM-01,ACME\mturner,WinDefend,Windows Defender,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00387,2026-09-08T23:30:41Z,ENG-WS-17,ACME\jsmith,CcmExec,Windows Defender,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00371,2026-09-08T23:33:24Z,DC-01,ACME\mturner,W32Time,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00489,2026-09-08T23:40:30Z,SCCM-01,ACME\adavis,CcmExec,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00382,2026-09-08T23:46:22Z,FILE-03,ACME\mturner,ACMEInventory,ACME Inventory,queried,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00034,2026-09-08T23:56:30Z,OPS-WS-08,NT AUTHORITY\SYSTEM,ACMEInventory,Print Spooler,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00458,2026-09-08T23:56:54Z,SCCM-01,NT AUTHORITY\SYSTEM,W32Time,Windows Defender,started,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00205,2026-09-08T23:59:37Z,FILE-03,ACME\adavis,CcmExec,Windows Time,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00122,2026-09-09T00:22:38Z,SCCM-01,ACME\mturner,WinDefend,SMS Agent Host,queried,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00356,2026-09-09T00:23:14Z,ENG-WS-17,ACME\adavis,CcmExec,Windows Defender,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00393,2026-09-09T00:34:25Z,SCCM-01,ACME\mturner,WinDefend,Print Spooler,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00478,2026-09-09T00:39:39Z,OPS-WS-08,ACME\jsmith,WinDefend,Windows Time,stopped,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00359,2026-09-09T00:44:19Z,FILE-03,NT AUTHORITY\SYSTEM,W32Time,Windows Time,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00207,2026-09-09T00:56:58Z,ENG-WS-17,ACME\adavis,ACMEInventory,Windows Defender,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00410,2026-09-09T01:37:49Z,SCCM-01,ACME\svc_sccm,W32Time,Windows Time,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00169,2026-09-09T01:46:48Z,DC-01,ACME\jsmith,W32Time,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00248,2026-09-09T01:49:34Z,ENG-WS-17,NT AUTHORITY\SYSTEM,WinDefend,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00048,2026-09-09T02:17:22Z,OPS-WS-08,ACME\mturner,WinDefend,ACME Inventory,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00217,2026-09-09T02:21:07Z,JUMP-01,ACME\jsmith,WinDefend,ACME Inventory,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00155,2026-09-09T02:31:52Z,FILE-03,ACME\mturner,CcmExec,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00038,2026-09-09T02:47:40Z,ENG-WS-17,ACME\jsmith,WinDefend,Windows Time,started,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00235,2026-09-09T02:53:17Z,FILE-03,ACME\svc_sccm,CcmExec,SMS Agent Host,queried,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00152,2026-09-09T03:10:18Z,FILE-03,ACME\svc_sccm,W32Time,Windows Defender,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00470,2026-09-09T03:20:07Z,ENG-WS-17,NT AUTHORITY\SYSTEM,CcmExec,ACME Inventory,configuration_read,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00231,2026-09-09T03:37:15Z,OPS-WS-08,NT AUTHORITY\SYSTEM,Spooler,Windows Defender,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00102,2026-09-09T03:41:16Z,ENG-WS-17,ACME\adavis,Spooler,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00262,2026-09-09T03:58:46Z,OPS-WS-08,ACME\jsmith,CcmExec,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00160,2026-09-09T04:06:33Z,APP-06,ACME\adavis,W32Time,SMS Agent Host,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00434,2026-09-09T04:13:31Z,ENG-WS-17,ACME\svc_sccm,Spooler,Windows Defender,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00112,2026-09-09T04:15:04Z,OPS-WS-08,ACME\mturner,WinDefend,SMS Agent Host,stopped,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00349,2026-09-09T04:24:37Z,SCCM-01,ACME\svc_sccm,Spooler,Windows Defender,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00136,2026-09-09T04:25:02Z,APP-06,NT AUTHORITY\SYSTEM,WinDefend,Windows Time,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00100,2026-09-09T05:00:53Z,FILE-03,ACME\svc_sccm,WinDefend,Windows Defender,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00198,2026-09-09T05:02:31Z,FILE-03,NT AUTHORITY\SYSTEM,WinDefend,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00158,2026-09-09T05:18:37Z,FILE-03,ACME\mturner,W32Time,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00400,2026-09-09T05:19:25Z,FILE-03,NT AUTHORITY\SYSTEM,ACMEInventory,SMS Agent Host,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00367,2026-09-09T05:33:11Z,FILE-03,NT AUTHORITY\SYSTEM,WinDefend,Print Spooler,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00271,2026-09-09T06:06:26Z,OPS-WS-08,NT AUTHORITY\SYSTEM,W32Time,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00483,2026-09-09T06:22:01Z,DC-01,ACME\jsmith,WinDefend,Windows Time,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00101,2026-09-09T06:27:52Z,DC-01,ACME\jsmith,WinDefend,SMS Agent Host,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00392,2026-09-09T06:38:52Z,SCCM-01,ACME\svc_sccm,ACMEInventory,Print Spooler,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00056,2026-09-09T06:56:39Z,OPS-WS-08,ACME\svc_sccm,WinDefend,ACME Inventory,configuration_read,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00215,2026-09-09T07:04:53Z,OPS-WS-08,ACME\adavis,Spooler,Windows Time,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00107,2026-09-09T07:55:08Z,OPS-WS-08,ACME\jsmith,Spooler,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00178,2026-09-09T08:07:02Z,APP-06,ACME\jsmith,W32Time,SMS Agent Host,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00275,2026-09-09T08:11:05Z,ENG-WS-17,ACME\mturner,WinDefend,Print Spooler,configuration_read,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00486,2026-09-09T08:19:34Z,FILE-03,ACME\mturner,W32Time,Windows Defender,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00148,2026-09-09T08:46:46Z,OPS-WS-08,ACME\svc_sccm,Spooler,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00305,2026-09-09T08:54:21Z,SCCM-01,ACME\mturner,W32Time,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00083,2026-09-09T08:58:27Z,JUMP-01,ACME\adavis,ACMEInventory,Print Spooler,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00219,2026-09-09T09:00:18Z,FILE-03,ACME\mturner,CcmExec,Windows Defender,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00451,2026-09-09T09:02:49Z,ENG-WS-17,ACME\svc_sccm,WinDefend,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00384,2026-09-09T09:14:57Z,FILE-03,ACME\adavis,WinDefend,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00143,2026-09-09T09:34:01Z,SCCM-01,ACME\adavis,ACMEInventory,Print Spooler,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00247,2026-09-09T09:48:41Z,JUMP-01,ACME\mturner,CcmExec,SMS Agent Host,queried,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00222,2026-09-09T09:56:28Z,FILE-03,ACME\mturner,ACMEInventory,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00081,2026-09-09T10:00:36Z,FILE-03,ACME\svc_sccm,W32Time,Windows Defender,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00401,2026-09-09T10:13:54Z,APP-06,ACME\mturner,CcmExec,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00095,2026-09-09T10:19:52Z,ENG-WS-17,NT AUTHORITY\SYSTEM,ACMEInventory,Print Spooler,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00276,2026-09-09T10:23:24Z,FILE-03,ACME\mturner,WinDefend,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00265,2026-09-09T10:23:59Z,SCCM-01,ACME\jsmith,ACMEInventory,SMS Agent Host,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00127,2026-09-09T10:28:10Z,OPS-WS-08,ACME\adavis,ACMEInventory,SMS Agent Host,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00408,2026-09-09T10:43:28Z,FILE-03,ACME\jsmith,Spooler,ACME Inventory,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00414,2026-09-09T10:50:01Z,FILE-03,ACME\jsmith,WinDefend,Windows Time,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00403,2026-09-09T11:02:22Z,FILE-03,ACME\jsmith,WinDefend,Print Spooler,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00141,2026-09-09T11:15:35Z,JUMP-01,ACME\adavis,ACMEInventory,SMS Agent Host,started,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00225,2026-09-09T12:07:54Z,SCCM-01,NT AUTHORITY\SYSTEM,Spooler,Print Spooler,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00132,2026-09-09T12:17:47Z,FILE-03,ACME\mturner,ACMEInventory,Windows Defender,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00491,2026-09-09T12:27:34Z,ENG-WS-17,NT AUTHORITY\SYSTEM,ACMEInventory,Print Spooler,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00110,2026-09-09T12:36:10Z,APP-06,ACME\svc_sccm,W32Time,Windows Time,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00326,2026-09-09T12:40:31Z,JUMP-01,ACME\adavis,Spooler,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00144,2026-09-09T13:22:02Z,JUMP-01,ACME\jsmith,W32Time,Windows Time,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00126,2026-09-09T13:54:41Z,ENG-WS-17,NT AUTHORITY\SYSTEM,Spooler,Windows Defender,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00363,2026-09-09T14:09:10Z,APP-06,ACME\mturner,CcmExec,Windows Time,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00335,2026-09-09T14:14:57Z,SCCM-01,ACME\adavis,WinDefend,SMS Agent Host,queried,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00017,2026-09-09T14:15:51Z,SCCM-01,ACME\mturner,ACMEInventory,Windows Time,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00071,2026-09-09T14:20:45Z,FILE-03,NT AUTHORITY\SYSTEM,WinDefend,SMS Agent Host,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00070,2026-09-09T14:45:32Z,SCCM-01,ACME\mturner,W32Time,SMS Agent Host,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00457,2026-09-09T14:45:56Z,FILE-03,ACME\svc_sccm,W32Time,Windows Time,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00268,2026-09-09T14:52:56Z,OPS-WS-08,ACME\jsmith,WinDefend,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00267,2026-09-09T15:15:33Z,ENG-WS-17,ACME\jsmith,WinDefend,Windows Defender,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00402,2026-09-09T15:37:14Z,APP-06,ACME\jsmith,WinDefend,Windows Time,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00463,2026-09-09T15:49:12Z,DC-01,ACME\jsmith,WinDefend,SMS Agent Host,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00360,2026-09-09T15:53:00Z,JUMP-01,ACME\mturner,Spooler,Windows Defender,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00076,2026-09-09T16:01:54Z,APP-06,ACME\adavis,W32Time,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00210,2026-09-09T16:02:36Z,APP-06,NT AUTHORITY\SYSTEM,W32Time,SMS Agent Host,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00161,2026-09-09T16:05:36Z,DC-01,ACME\adavis,WinDefend,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00199,2026-09-09T16:21:53Z,FILE-03,ACME\svc_sccm,Spooler,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00310,2026-09-09T16:27:30Z,ENG-WS-17,ACME\svc_sccm,ACMEInventory,Windows Defender,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00138,2026-09-09T16:40:35Z,DC-01,ACME\svc_sccm,Spooler,Windows Time,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00075,2026-09-09T16:51:39Z,OPS-WS-08,ACME\adavis,CcmExec,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00057,2026-09-09T17:06:54Z,DC-01,ACME\adavis,Spooler,Print Spooler,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00190,2026-09-09T17:20:50Z,OPS-WS-08,ACME\mturner,Spooler,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00077,2026-09-09T17:27:29Z,OPS-WS-08,ACME\jsmith,ACMEInventory,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00409,2026-09-09T17:33:20Z,OPS-WS-08,NT AUTHORITY\SYSTEM,CcmExec,Windows Time,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00113,2026-09-09T17:33:34Z,OPS-WS-08,ACME\mturner,W32Time,SMS Agent Host,queried,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00206,2026-09-09T17:34:54Z,FILE-03,ACME\svc_sccm,CcmExec,SMS Agent Host,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00197,2026-09-09T17:38:14Z,FILE-03,ACME\adavis,CcmExec,ACME Inventory,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00286,2026-09-09T18:12:46Z,APP-06,ACME\adavis,W32Time,Print Spooler,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00498,2026-09-09T18:19:09Z,ENG-WS-17,ACME\svc_sccm,W32Time,SMS Agent Host,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00334,2026-09-09T18:22:56Z,ENG-WS-17,NT AUTHORITY\SYSTEM,CcmExec,Print Spooler,started,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00184,2026-09-09T18:34:51Z,OPS-WS-08,ACME\mturner,W32Time,Print Spooler,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00120,2026-09-09T18:38:55Z,JUMP-01,ACME\svc_sccm,W32Time,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00016,2026-09-09T19:03:22Z,JUMP-01,NT AUTHORITY\SYSTEM,WinDefend,Windows Time,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00344,2026-09-09T19:07:36Z,SCCM-01,ACME\jsmith,WinDefend,ACME Inventory,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00153,2026-09-09T19:17:59Z,APP-06,ACME\jsmith,WinDefend,Windows Time,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00388,2026-09-09T19:36:21Z,OPS-WS-08,ACME\mturner,WinDefend,Windows Time,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00466,2026-09-09T19:59:28Z,APP-06,ACME\mturner,W32Time,Print Spooler,configuration_read,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00233,2026-09-09T20:25:22Z,ENG-WS-17,ACME\adavis,WinDefend,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00049,2026-09-09T20:36:41Z,JUMP-01,NT AUTHORITY\SYSTEM,W32Time,Windows Defender,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00330,2026-09-09T20:45:11Z,JUMP-01,NT AUTHORITY\SYSTEM,ACMEInventory,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00348,2026-09-09T20:45:59Z,OPS-WS-08,ACME\svc_sccm,CcmExec,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00014,2026-09-09T20:47:07Z,DC-01,ACME\mturner,ACMEInventory,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00383,2026-09-09T20:57:24Z,DC-01,ACME\adavis,W32Time,Print Spooler,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00474,2026-09-09T20:59:57Z,APP-06,ACME\adavis,WinDefend,Print Spooler,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00484,2026-09-09T21:20:25Z,DC-01,ACME\svc_sccm,CcmExec,Print Spooler,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00456,2026-09-09T21:24:54Z,SCCM-01,ACME\svc_sccm,CcmExec,Print Spooler,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00047,2026-09-09T21:28:10Z,DC-01,ACME\mturner,ACMEInventory,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00186,2026-09-09T21:29:44Z,DC-01,ACME\mturner,W32Time,Windows Defender,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00142,2026-09-09T21:55:54Z,FILE-03,ACME\svc_sccm,W32Time,ACME Inventory,started,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00106,2026-09-09T21:59:27Z,ENG-WS-17,ACME\svc_sccm,W32Time,Windows Time,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00391,2026-09-09T22:17:40Z,JUMP-01,ACME\svc_sccm,Spooler,Print Spooler,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00374,2026-09-09T22:20:55Z,JUMP-01,ACME\adavis,Spooler,Windows Time,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00429,2026-09-09T22:43:01Z,FILE-03,ACME\jsmith,WinDefend,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00427,2026-09-09T22:51:39Z,APP-06,ACME\mturner,Spooler,Print Spooler,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00279,2026-09-09T23:13:13Z,DC-01,ACME\adavis,W32Time,Print Spooler,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00454,2026-09-09T23:25:40Z,ENG-WS-17,ACME\mturner,CcmExec,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00043,2026-09-09T23:29:43Z,DC-01,ACME\svc_sccm,ACMEInventory,Print Spooler,queried,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00062,2026-09-10T00:01:52Z,OPS-WS-08,ACME\adavis,WinDefend,Windows Defender,stopped,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00406,2026-09-10T00:11:24Z,JUMP-01,NT AUTHORITY\SYSTEM,ACMEInventory,Print Spooler,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00192,2026-09-10T00:12:30Z,FILE-03,ACME\mturner,ACMEInventory,ACME Inventory,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00318,2026-09-10T00:24:36Z,FILE-03,ACME\jsmith,WinDefend,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00104,2026-09-10T00:43:32Z,JUMP-01,ACME\mturner,WinDefend,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00277,2026-09-10T01:01:53Z,SCCM-01,NT AUTHORITY\SYSTEM,ACMEInventory,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00380,2026-09-10T01:13:33Z,APP-06,ACME\adavis,Spooler,SMS Agent Host,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00171,2026-09-10T01:14:22Z,FILE-03,NT AUTHORITY\SYSTEM,W32Time,ACME Inventory,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00092,2026-09-10T01:28:17Z,SCCM-01,ACME\svc_sccm,Spooler,Print Spooler,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00442,2026-09-10T01:29:54Z,JUMP-01,NT AUTHORITY\SYSTEM,WinDefend,Windows Defender,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00415,2026-09-10T01:31:44Z,ENG-WS-17,ACME\svc_sccm,CcmExec,Windows Defender,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00037,2026-09-10T01:45:02Z,DC-01,NT AUTHORITY\SYSTEM,W32Time,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00440,2026-09-10T01:57:02Z,SCCM-01,ACME\mturner,Spooler,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00242,2026-09-10T01:59:10Z,JUMP-01,NT AUTHORITY\SYSTEM,WinDefend,ACME Inventory,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00370,2026-09-10T02:21:28Z,APP-06,ACME\adavis,WinDefend,Print Spooler,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00088,2026-09-10T02:22:07Z,DC-01,ACME\svc_sccm,WinDefend,SMS Agent Host,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00273,2026-09-10T02:23:45Z,ENG-WS-17,ACME\svc_sccm,WinDefend,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00124,2026-09-10T02:24:04Z,SCCM-01,ACME\jsmith,CcmExec,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00228,2026-09-10T02:32:26Z,DC-01,ACME\adavis,CcmExec,SMS Agent Host,queried,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00147,2026-09-10T02:37:56Z,FILE-03,ACME\svc_sccm,Spooler,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00229,2026-09-10T03:08:01Z,APP-06,ACME\mturner,WinDefend,Windows Defender,started,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00029,2026-09-10T03:19:54Z,DC-01,ACME\svc_sccm,CcmExec,Print Spooler,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00023,2026-09-10T03:28:53Z,DC-01,NT AUTHORITY\SYSTEM,W32Time,SMS Agent Host,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00173,2026-09-10T03:46:28Z,DC-01,ACME\adavis,W32Time,ACME Inventory,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00078,2026-09-10T03:56:55Z,OPS-WS-08,ACME\adavis,WinDefend,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00227,2026-09-10T04:00:51Z,OPS-WS-08,ACME\mturner,ACMEInventory,SMS Agent Host,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00266,2026-09-10T04:03:41Z,FILE-03,ACME\mturner,CcmExec,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00355,2026-09-10T04:18:27Z,JUMP-01,ACME\svc_sccm,CcmExec,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00422,2026-09-10T04:38:27Z,JUMP-01,ACME\adavis,WinDefend,Windows Defender,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00255,2026-09-10T04:58:02Z,ENG-WS-17,ACME\mturner,W32Time,SMS Agent Host,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00272,2026-09-10T05:14:15Z,APP-06,NT AUTHORITY\SYSTEM,CcmExec,Windows Time,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00117,2026-09-10T05:16:17Z,APP-06,NT AUTHORITY\SYSTEM,W32Time,Windows Defender,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00476,2026-09-10T05:20:02Z,ENG-WS-17,ACME\mturner,WinDefend,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00250,2026-09-10T05:21:17Z,DC-01,ACME\jsmith,CcmExec,Print Spooler,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00332,2026-09-10T05:41:50Z,JUMP-01,ACME\mturner,WinDefend,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00073,2026-09-10T06:04:09Z,OPS-WS-08,ACME\mturner,Spooler,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00103,2026-09-10T06:17:08Z,FILE-03,NT AUTHORITY\SYSTEM,Spooler,ACME Inventory,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00213,2026-09-10T06:18:30Z,OPS-WS-08,ACME\svc_sccm,CcmExec,Windows Time,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00025,2026-09-10T06:51:04Z,OPS-WS-08,ACME\jsmith,ACMEInventory,SMS Agent Host,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00473,2026-09-10T06:55:33Z,APP-06,ACME\svc_sccm,W32Time,SMS Agent Host,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00446,2026-09-10T07:04:14Z,SCCM-01,ACME\mturner,W32Time,SMS Agent Host,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00030,2026-09-10T07:22:43Z,DC-01,NT AUTHORITY\SYSTEM,W32Time,ACME Inventory,stopped,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00028,2026-09-10T07:34:51Z,DC-01,ACME\adavis,W32Time,ACME Inventory,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00163,2026-09-10T07:49:39Z,FILE-03,ACME\adavis,WinDefend,Print Spooler,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00093,2026-09-10T07:53:02Z,OPS-WS-08,ACME\jsmith,CcmExec,Windows Time,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00421,2026-09-10T07:58:39Z,SCCM-01,NT AUTHORITY\SYSTEM,ACMEInventory,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00208,2026-09-10T08:08:19Z,DC-01,ACME\mturner,W32Time,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00154,2026-09-10T08:23:01Z,SCCM-01,ACME\adavis,WinDefend,Windows Defender,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00096,2026-09-10T08:29:35Z,JUMP-01,ACME\jsmith,CcmExec,Windows Time,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00045,2026-09-10T08:30:14Z,SCCM-01,ACME\jsmith,WinDefend,Windows Defender,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00317,2026-09-10T08:58:08Z,JUMP-01,ACME\jsmith,ACMEInventory,SMS Agent Host,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00303,2026-09-10T09:06:56Z,FILE-03,ACME\mturner,W32Time,SMS Agent Host,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00452,2026-09-10T09:28:37Z,APP-06,ACME\mturner,ACMEInventory,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00425,2026-09-10T09:50:10Z,ENG-WS-17,ACME\jsmith,CcmExec,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00069,2026-09-10T10:00:55Z,SCCM-01,ACME\mturner,WinDefend,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00343,2026-09-10T10:12:37Z,APP-06,NT AUTHORITY\SYSTEM,Spooler,Windows Defender,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00261,2026-09-10T10:14:17Z,APP-06,ACME\adavis,WinDefend,ACME Inventory,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00086,2026-09-10T10:20:57Z,ENG-WS-17,ACME\svc_sccm,W32Time,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00282,2026-09-10T10:28:33Z,SCCM-01,ACME\adavis,W32Time,Windows Time,queried,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00054,2026-09-10T10:32:19Z,SCCM-01,ACME\mturner,WinDefend,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00296,2026-09-10T10:37:31Z,OPS-WS-08,NT AUTHORITY\SYSTEM,Spooler,SMS Agent Host,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00055,2026-09-10T10:44:56Z,OPS-WS-08,ACME\svc_sccm,ACMEInventory,ACME Inventory,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00090,2026-09-10T11:21:50Z,JUMP-01,ACME\jsmith,WinDefend,SMS Agent Host,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00311,2026-09-10T11:43:27Z,DC-01,ACME\mturner,ACMEInventory,Windows Defender,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00226,2026-09-10T12:27:28Z,DC-01,ACME\jsmith,CcmExec,SMS Agent Host,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00338,2026-09-10T12:34:21Z,JUMP-01,ACME\svc_sccm,ACMEInventory,SMS Agent Host,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00389,2026-09-10T12:51:16Z,SCCM-01,ACME\svc_sccm,W32Time,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00365,2026-09-10T13:09:25Z,SCCM-01,ACME\svc_sccm,W32Time,Windows Time,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00324,2026-09-10T13:29:49Z,FILE-03,ACME\adavis,Spooler,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00435,2026-09-10T13:37:39Z,OPS-WS-08,NT AUTHORITY\SYSTEM,W32Time,SMS Agent Host,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00085,2026-09-10T13:38:16Z,SCCM-01,ACME\svc_sccm,CcmExec,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00423,2026-09-10T13:44:46Z,OPS-WS-08,ACME\mturner,Spooler,Print Spooler,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00044,2026-09-10T13:47:36Z,JUMP-01,NT AUTHORITY\SYSTEM,Spooler,Windows Defender,queried,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00195,2026-09-10T14:16:11Z,APP-06,ACME\jsmith,CcmExec,Windows Time,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00060,2026-09-10T14:21:25Z,ENG-WS-17,ACME\jsmith,WinDefend,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00179,2026-09-10T14:30:28Z,APP-06,ACME\mturner,W32Time,Windows Time,stopped,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00495,2026-09-10T14:44:41Z,FILE-03,ACME\adavis,CcmExec,Windows Defender,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00018,2026-09-10T14:54:20Z,OPS-WS-08,ACME\adavis,WinDefend,Windows Time,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00353,2026-09-10T14:57:13Z,SCCM-01,ACME\svc_sccm,ACMEInventory,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00420,2026-09-10T15:00:15Z,APP-06,ACME\adavis,ACMEInventory,Windows Defender,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00482,2026-09-10T15:13:13Z,ENG-WS-17,ACME\svc_sccm,CcmExec,Windows Time,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00492,2026-09-10T15:30:35Z,JUMP-01,NT AUTHORITY\SYSTEM,ACMEInventory,Windows Time,stopped,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00232,2026-09-10T15:35:38Z,SCCM-01,NT AUTHORITY\SYSTEM,Spooler,ACME Inventory,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00221,2026-09-10T15:36:52Z,APP-06,ACME\adavis,WinDefend,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00139,2026-09-10T15:47:30Z,FILE-03,ACME\jsmith,CcmExec,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00479,2026-09-10T16:03:05Z,ENG-WS-17,ACME\svc_sccm,WinDefend,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00430,2026-09-10T16:46:09Z,SCCM-01,ACME\jsmith,ACMEInventory,SMS Agent Host,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00202,2026-09-10T16:52:09Z,FILE-03,ACME\jsmith,WinDefend,Print Spooler,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00223,2026-09-10T16:53:07Z,SCCM-01,NT AUTHORITY\SYSTEM,CcmExec,SMS Agent Host,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00109,2026-09-10T17:38:00Z,SCCM-01,NT AUTHORITY\SYSTEM,CcmExec,Print Spooler,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00313,2026-09-10T17:40:25Z,APP-06,NT AUTHORITY\SYSTEM,Spooler,Windows Time,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00041,2026-09-10T18:27:28Z,FILE-03,ACME\svc_sccm,WinDefend,ACME Inventory,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00345,2026-09-10T18:29:02Z,OPS-WS-08,ACME\svc_sccm,ACMEInventory,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00352,2026-09-10T18:40:56Z,FILE-03,ACME\adavis,ACMEInventory,Windows Time,started,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00464,2026-09-10T18:44:53Z,OPS-WS-08,ACME\jsmith,CcmExec,Print Spooler,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00008,2026-09-10T18:50:11Z,JUMP-01,ACME\mturner,ACMEInventory,ACME Inventory,started,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00450,2026-09-10T19:13:14Z,APP-06,ACME\jsmith,W32Time,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00220,2026-09-10T19:23:18Z,FILE-03,ACME\mturner,WinDefend,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00189,2026-09-10T19:28:29Z,APP-06,ACME\jsmith,Spooler,SMS Agent Host,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00369,2026-09-10T19:30:22Z,JUMP-01,ACME\svc_sccm,Spooler,ACME Inventory,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00293,2026-09-10T20:39:08Z,DC-01,ACME\svc_sccm,W32Time,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00020,2026-09-10T20:40:42Z,SCCM-01,ACME\jsmith,ACMEInventory,Windows Defender,queried,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00426,2026-09-10T20:53:37Z,FILE-03,ACME\adavis,W32Time,ACME Inventory,queried,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00375,2026-09-10T21:21:19Z,DC-01,NT AUTHORITY\SYSTEM,Spooler,Windows Time,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00111,2026-09-10T21:28:40Z,SCCM-01,ACME\adavis,CcmExec,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00033,2026-09-10T21:28:52Z,SCCM-01,NT AUTHORITY\SYSTEM,ACMEInventory,Windows Time,queried,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00021,2026-09-10T21:46:30Z,APP-06,ACME\svc_sccm,CcmExec,SMS Agent Host,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00164,2026-09-10T22:03:12Z,FILE-03,ACME\jsmith,WinDefend,Windows Time,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00407,2026-09-10T22:08:47Z,SCCM-01,ACME\mturner,WinDefend,Windows Defender,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00236,2026-09-10T22:18:16Z,DC-01,ACME\jsmith,W32Time,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00068,2026-09-10T22:18:19Z,APP-06,NT AUTHORITY\SYSTEM,WinDefend,Windows Defender,started,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00386,2026-09-10T22:21:04Z,SCCM-01,ACME\jsmith,WinDefend,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00424,2026-09-10T22:29:35Z,OPS-WS-08,ACME\mturner,W32Time,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00040,2026-09-10T23:18:56Z,APP-06,ACME\adavis,CcmExec,SMS Agent Host,queried,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00331,2026-09-10T23:29:02Z,SCCM-01,ACME\jsmith,W32Time,Windows Defender,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00146,2026-09-10T23:57:49Z,DC-01,ACME\svc_sccm,CcmExec,Print Spooler,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00431,2026-09-11T00:17:36Z,ENG-WS-17,ACME\svc_sccm,W32Time,Windows Defender,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00137,2026-09-11T00:21:18Z,JUMP-01,ACME\svc_sccm,ACMEInventory,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00354,2026-09-11T00:45:26Z,ENG-WS-17,NT AUTHORITY\SYSTEM,ACMEInventory,Print Spooler,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00015,2026-09-11T00:56:36Z,ENG-WS-17,ACME\jsmith,CcmExec,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00288,2026-09-11T01:16:12Z,APP-06,ACME\svc_sccm,WinDefend,Print Spooler,stopped,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00357,2026-09-11T01:53:12Z,ENG-WS-17,ACME\svc_sccm,ACMEInventory,SMS Agent Host,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00471,2026-09-11T02:15:07Z,ENG-WS-17,ACME\svc_sccm,W32Time,Windows Time,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00497,2026-09-11T02:15:26Z,JUMP-01,ACME\adavis,CcmExec,SMS Agent Host,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00325,2026-09-11T02:21:04Z,SCCM-01,ACME\mturner,ACMEInventory,Windows Time,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00082,2026-09-11T02:28:29Z,OPS-WS-08,NT AUTHORITY\SYSTEM,CcmExec,SMS Agent Host,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00209,2026-09-11T02:37:46Z,SCCM-01,ACME\jsmith,CcmExec,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00115,2026-09-11T02:37:48Z,APP-06,ACME\svc_sccm,WinDefend,Print Spooler,configuration_read,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00298,2026-09-11T02:55:34Z,OPS-WS-08,NT AUTHORITY\SYSTEM,Spooler,Windows Time,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00301,2026-09-11T03:06:04Z,JUMP-01,ACME\mturner,WinDefend,Windows Defender,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00165,2026-09-11T03:12:05Z,JUMP-01,NT AUTHORITY\SYSTEM,CcmExec,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00128,2026-09-11T03:18:36Z,APP-06,ACME\svc_sccm,CcmExec,ACME Inventory,queried,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00314,2026-09-11T03:47:10Z,OPS-WS-08,ACME\adavis,ACMEInventory,Windows Time,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00203,2026-09-11T03:47:14Z,JUMP-01,ACME\mturner,Spooler,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00432,2026-09-11T03:56:25Z,JUMP-01,NT AUTHORITY\SYSTEM,ACMEInventory,Print Spooler,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00433,2026-09-11T03:57:59Z,OPS-WS-08,NT AUTHORITY\SYSTEM,ACMEInventory,ACME Inventory,stopped,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00022,2026-09-11T03:58:56Z,DC-01,ACME\svc_sccm,CcmExec,ACME Inventory,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00188,2026-09-11T04:00:56Z,ENG-WS-17,ACME\adavis,CcmExec,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00436,2026-09-11T04:00:58Z,ENG-WS-17,NT AUTHORITY\SYSTEM,W32Time,Windows Time,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00366,2026-09-11T04:03:39Z,SCCM-01,ACME\jsmith,CcmExec,Windows Defender,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00212,2026-09-11T04:09:33Z,JUMP-01,ACME\adavis,WinDefend,Windows Defender,configuration_read,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00046,2026-09-11T04:41:56Z,JUMP-01,ACME\mturner,ACMEInventory,ACME Inventory,started,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00378,2026-09-11T04:48:20Z,JUMP-01,ACME\mturner,Spooler,Print Spooler,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00191,2026-09-11T05:03:30Z,OPS-WS-08,ACME\mturner,ACMEInventory,SMS Agent Host,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00118,2026-09-11T05:27:43Z,DC-01,ACME\svc_sccm,CcmExec,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00461,2026-09-11T05:38:49Z,ENG-WS-17,ACME\adavis,WinDefend,ACME Inventory,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00039,2026-09-11T05:40:36Z,FILE-03,ACME\svc_sccm,ACMEInventory,Windows Defender,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00182,2026-09-11T06:01:22Z,SCCM-01,ACME\jsmith,CcmExec,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00494,2026-09-11T06:10:40Z,OPS-WS-08,NT AUTHORITY\SYSTEM,ACMEInventory,Print Spooler,queried,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00131,2026-09-11T06:19:10Z,DC-01,ACME\adavis,Spooler,Windows Defender,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00185,2026-09-11T06:26:12Z,ENG-WS-17,ACME\jsmith,Spooler,Windows Time,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00312,2026-09-11T06:52:44Z,ENG-WS-17,ACME\jsmith,Spooler,Print Spooler,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00372,2026-09-11T07:05:23Z,APP-06,ACME\adavis,WinDefend,Windows Time,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00116,2026-09-11T07:24:31Z,FILE-03,ACME\jsmith,CcmExec,ACME Inventory,started,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00390,2026-09-11T07:27:34Z,JUMP-01,ACME\jsmith,ACMEInventory,ACME Inventory,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00181,2026-09-11T07:37:32Z,FILE-03,ACME\adavis,WinDefend,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00091,2026-09-11T07:52:12Z,APP-06,ACME\jsmith,WinDefend,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00283,2026-09-11T08:03:59Z,SCCM-01,ACME\svc_sccm,CcmExec,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00438,2026-09-11T08:13:47Z,APP-06,NT AUTHORITY\SYSTEM,W32Time,ACME Inventory,queried,C:\Windows\CCM\CcmExec.exe,demand,NetworkService,benign,routine service activity
+SVC-00194,2026-09-11T08:14:21Z,FILE-03,ACME\mturner,ACMEInventory,Windows Defender,stopped,C:\Windows\CCM\CcmExec.exe,auto,NetworkService,benign,routine service activity
+SVC-00373,2026-09-11T08:21:28Z,ENG-WS-17,ACME\jsmith,W32Time,Print Spooler,queried,C:\Windows\System32\svchost.exe,demand,NetworkService,benign,routine service activity
+SVC-00297,2026-09-11T08:34:24Z,FILE-03,ACME\svc_sccm,W32Time,SMS Agent Host,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00320,2026-09-11T08:48:15Z,DC-01,ACME\svc_sccm,WinDefend,Windows Time,stopped,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00058,2026-09-11T08:51:01Z,SCCM-01,ACME\jsmith,W32Time,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00347,2026-09-11T08:53:24Z,OPS-WS-08,ACME\mturner,Spooler,ACME Inventory,configuration_read,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00204,2026-09-11T09:07:53Z,FILE-03,NT AUTHORITY\SYSTEM,W32Time,Windows Time,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00472,2026-09-11T09:11:23Z,DC-01,NT AUTHORITY\SYSTEM,CcmExec,Print Spooler,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00064,2026-09-11T09:18:10Z,SCCM-01,NT AUTHORITY\SYSTEM,W32Time,Windows Defender,queried,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00180,2026-09-11T09:18:19Z,OPS-WS-08,ACME\svc_sccm,CcmExec,Windows Defender,queried,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00346,2026-09-11T09:27:45Z,DC-01,ACME\mturner,Spooler,Windows Time,queried,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00239,2026-09-11T09:37:35Z,JUMP-01,ACME\mturner,Spooler,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00176,2026-09-11T09:42:02Z,JUMP-01,NT AUTHORITY\SYSTEM,Spooler,Windows Time,queried,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00376,2026-09-11T10:01:19Z,APP-06,ACME\svc_sccm,Spooler,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,demand,LocalSystem,benign,routine service activity
+SVC-00218,2026-09-11T10:28:35Z,OPS-WS-08,ACME\adavis,Spooler,ACME Inventory,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
+SVC-00042,2026-09-11T10:44:18Z,JUMP-01,ACME\svc_sccm,WinDefend,Windows Defender,queried,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00404,2026-09-11T10:46:46Z,OPS-WS-08,ACME\svc_sccm,W32Time,Print Spooler,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00036,2026-09-11T10:48:23Z,SCCM-01,NT AUTHORITY\SYSTEM,W32Time,ACME Inventory,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,LocalSystem,benign,routine service activity
+SVC-00339,2026-09-11T10:48:54Z,FILE-03,ACME\adavis,ACMEInventory,Windows Time,started,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00134,2026-09-11T11:05:01Z,DC-01,ACME\adavis,CcmExec,SMS Agent Host,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00157,2026-09-11T11:08:56Z,OPS-WS-08,ACME\jsmith,W32Time,Windows Defender,stopped,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,NetworkService,benign,routine service activity
+SVC-00416,2026-09-11T11:09:29Z,FILE-03,ACME\svc_sccm,CcmExec,Windows Defender,started,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00455,2026-09-11T11:16:29Z,SCCM-01,ACME\adavis,CcmExec,ACME Inventory,configuration_read,C:\Windows\System32\svchost.exe,auto,NetworkService,benign,routine service activity
+SVC-00475,2026-09-11T11:17:01Z,DC-01,NT AUTHORITY\SYSTEM,ACMEInventory,Print Spooler,configuration_read,C:\Windows\System32\svchost.exe,auto,LocalSystem,benign,routine service activity
+SVC-00009,2026-09-11T11:23:29Z,JUMP-01,ACME\mturner,W32Time,Print Spooler,started,C:\Windows\System32\svchost.exe,demand,LocalSystem,benign,routine service activity
+SVC-00097,2026-09-11T11:34:56Z,OPS-WS-08,ACME\jsmith,W32Time,ACME Inventory,configuration_read,C:\Windows\CCM\CcmExec.exe,auto,LocalSystem,benign,routine service activity
+SVC-00465,2026-09-11T11:49:13Z,ENG-WS-17,NT AUTHORITY\SYSTEM,Spooler,Windows Defender,configuration_read,C:\Program Files\ACME\Inventory\inventorysvc.exe,auto,NetworkService,benign,routine service activity
+SVC-00307,2026-09-11T11:53:14Z,FILE-03,NT AUTHORITY\SYSTEM,W32Time,Windows Defender,queried,C:\Program Files\ACME\Inventory\inventorysvc.exe,demand,LocalSystem,benign,routine service activity
