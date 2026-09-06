@@ -1,0 +1,35 @@
+name: Hunt 010 one-time generation
+
+on:
+  push:
+    branches:
+      - review/hunt-010-service-installation
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/hunt-010-service-installation
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate deterministic lab data
+        run: python labs/010-service-installation-or-endpoint-management/generate_lab.py
+      - name: Validate lab
+        run: python labs/010-service-installation-or-endpoint-management/validate_lab.py
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add labs/010-service-installation-or-endpoint-management/data labs/010-service-installation-or-endpoint-management/splunk/after_detection_hunt_010/lookups
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Generate Hunt 010 synthetic data"
+            git push origin HEAD:review/hunt-010-service-installation
+          fi
