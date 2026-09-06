@@ -1,0 +1,501 @@
+change_id,_time,host,owner,change_type,approved,package,deployment_source,classification,note
+CHG-01229,2026-09-07T12:30:40Z,APP-06,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01380,2026-09-07T12:31:52Z,SCCM-01,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01320,2026-09-07T12:47:15Z,APP-06,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01275,2026-09-07T12:53:47Z,DC-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01282,2026-09-07T13:03:35Z,OPS-WS-08,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01138,2026-09-07T13:09:52Z,OPS-WS-08,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01005,2026-09-07T13:12:01Z,JUMP-01,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01071,2026-09-07T13:14:40Z,DC-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-CTX-001,2026-09-07T13:18:00Z,ENG-WS-17,Endpoint Team,inventory_cycle,yes,Monthly endpoint inventory,SCCM-01,benign,documents routine management activity
+CHG-01126,2026-09-07T13:21:52Z,OPS-WS-08,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01454,2026-09-07T13:28:16Z,FILE-03,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01259,2026-09-07T13:51:45Z,APP-06,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01027,2026-09-07T13:58:02Z,DC-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01481,2026-09-07T14:02:05Z,FILE-03,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01062,2026-09-07T14:02:09Z,JUMP-01,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01285,2026-09-07T14:04:44Z,OPS-WS-08,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-GAP-001,2026-09-07T14:18:00Z,ENG-WS-17,,none_found,no,WinSupportSvc,,investigate,no approved change matches service
+CHG-BEN-001,2026-09-07T14:24:00Z,APP-06,Endpoint Team,software_deployment,yes,ACME Support Agent 4.2,SCCM-01,benign,approved support-agent rollout
+CHG-RESP-001,2026-09-07T14:28:00Z,ENG-WS-17,SOC,incident_response,yes,IR containment ENG-WS-17,JUMP-01,response,response change opened
+CHG-01117,2026-09-07T14:33:45Z,SCCM-01,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01150,2026-09-07T15:16:57Z,SCCM-01,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01422,2026-09-07T15:19:39Z,JUMP-01,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01417,2026-09-07T15:37:06Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01298,2026-09-07T15:44:28Z,FILE-03,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01119,2026-09-07T15:47:42Z,SCCM-01,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01488,2026-09-07T16:07:51Z,FILE-03,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01046,2026-09-07T16:13:35Z,ENG-WS-17,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01432,2026-09-07T16:42:53Z,JUMP-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01343,2026-09-07T17:04:32Z,SCCM-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01113,2026-09-07T17:08:35Z,APP-06,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01020,2026-09-07T17:08:47Z,ENG-WS-17,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01246,2026-09-07T17:10:25Z,DC-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01272,2026-09-07T17:24:52Z,SCCM-01,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01228,2026-09-07T18:10:56Z,DC-01,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01388,2026-09-07T18:13:12Z,APP-06,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01400,2026-09-07T18:14:24Z,APP-06,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01037,2026-09-07T18:34:27Z,FILE-03,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01191,2026-09-07T19:04:42Z,APP-06,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01250,2026-09-07T19:44:28Z,FILE-03,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01419,2026-09-07T19:44:38Z,JUMP-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01423,2026-09-07T19:54:44Z,APP-06,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01286,2026-09-07T19:59:51Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01135,2026-09-07T20:07:01Z,FILE-03,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01052,2026-09-07T20:13:22Z,SCCM-01,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01498,2026-09-07T20:19:03Z,ENG-WS-17,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01363,2026-09-07T21:00:03Z,APP-06,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01328,2026-09-07T21:04:18Z,ENG-WS-17,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01199,2026-09-07T21:07:21Z,SCCM-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01174,2026-09-07T21:10:37Z,APP-06,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01091,2026-09-07T21:11:17Z,DC-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01148,2026-09-07T21:41:30Z,APP-06,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01392,2026-09-07T22:07:21Z,FILE-03,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01411,2026-09-07T22:11:20Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01125,2026-09-07T22:12:35Z,OPS-WS-08,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01256,2026-09-07T22:46:49Z,OPS-WS-08,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01175,2026-09-07T22:49:39Z,FILE-03,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01268,2026-09-07T22:57:36Z,OPS-WS-08,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01188,2026-09-07T23:16:19Z,SCCM-01,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01459,2026-09-07T23:20:28Z,FILE-03,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01129,2026-09-07T23:42:32Z,FILE-03,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01499,2026-09-08T00:08:59Z,OPS-WS-08,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01495,2026-09-08T00:15:37Z,ENG-WS-17,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01352,2026-09-08T00:21:02Z,FILE-03,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01475,2026-09-08T00:30:49Z,FILE-03,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01210,2026-09-08T00:37:10Z,JUMP-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01279,2026-09-08T01:08:02Z,FILE-03,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01215,2026-09-08T01:17:05Z,FILE-03,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01212,2026-09-08T01:48:05Z,ENG-WS-17,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01258,2026-09-08T01:50:23Z,ENG-WS-17,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01455,2026-09-08T02:04:38Z,DC-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01264,2026-09-08T02:09:21Z,DC-01,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01332,2026-09-08T02:24:43Z,SCCM-01,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01374,2026-09-08T02:27:39Z,SCCM-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01296,2026-09-08T02:36:09Z,JUMP-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01141,2026-09-08T02:45:04Z,OPS-WS-08,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01221,2026-09-08T02:46:27Z,JUMP-01,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01391,2026-09-08T02:51:19Z,ENG-WS-17,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01110,2026-09-08T03:11:53Z,FILE-03,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01450,2026-09-08T03:16:05Z,JUMP-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01493,2026-09-08T03:25:06Z,DC-01,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01065,2026-09-08T03:42:16Z,SCCM-01,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01059,2026-09-08T03:47:05Z,ENG-WS-17,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01181,2026-09-08T04:06:43Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01494,2026-09-08T04:11:28Z,SCCM-01,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01204,2026-09-08T04:31:56Z,DC-01,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01152,2026-09-08T04:38:03Z,SCCM-01,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01147,2026-09-08T04:46:20Z,ENG-WS-17,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01205,2026-09-08T04:50:33Z,ENG-WS-17,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01030,2026-09-08T04:54:13Z,DC-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01029,2026-09-08T04:57:07Z,DC-01,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01183,2026-09-08T04:57:47Z,ENG-WS-17,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01497,2026-09-08T05:01:00Z,ENG-WS-17,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01418,2026-09-08T05:02:23Z,OPS-WS-08,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01485,2026-09-08T05:16:39Z,FILE-03,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01477,2026-09-08T06:11:52Z,SCCM-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01004,2026-09-08T06:14:10Z,APP-06,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01179,2026-09-08T06:23:23Z,SCCM-01,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01213,2026-09-08T06:54:20Z,FILE-03,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01036,2026-09-08T06:59:06Z,SCCM-01,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01316,2026-09-08T07:16:00Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01220,2026-09-08T07:27:35Z,DC-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01144,2026-09-08T07:32:57Z,SCCM-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01169,2026-09-08T08:06:07Z,APP-06,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01054,2026-09-08T08:12:39Z,DC-01,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01403,2026-09-08T08:26:30Z,SCCM-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01017,2026-09-08T08:37:11Z,APP-06,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01331,2026-09-08T08:39:19Z,FILE-03,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01436,2026-09-08T08:39:55Z,ENG-WS-17,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01390,2026-09-08T08:43:48Z,SCCM-01,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01167,2026-09-08T08:48:37Z,OPS-WS-08,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01031,2026-09-08T08:56:41Z,ENG-WS-17,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01414,2026-09-08T08:59:08Z,APP-06,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01118,2026-09-08T09:21:45Z,SCCM-01,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01405,2026-09-08T09:35:39Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01076,2026-09-08T09:43:39Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01190,2026-09-08T09:53:25Z,SCCM-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01480,2026-09-08T10:07:45Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01222,2026-09-08T10:27:59Z,DC-01,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01086,2026-09-08T10:39:51Z,APP-06,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01416,2026-09-08T10:44:54Z,APP-06,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01050,2026-09-08T10:54:06Z,FILE-03,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01339,2026-09-08T11:09:33Z,JUMP-01,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01366,2026-09-08T11:10:30Z,APP-06,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01235,2026-09-08T11:20:39Z,FILE-03,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01168,2026-09-08T11:28:07Z,SCCM-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01249,2026-09-08T11:29:45Z,SCCM-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01489,2026-09-08T11:41:19Z,JUMP-01,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01084,2026-09-08T11:42:36Z,OPS-WS-08,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01385,2026-09-08T11:47:55Z,APP-06,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01044,2026-09-08T11:56:17Z,SCCM-01,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01218,2026-09-08T12:07:46Z,ENG-WS-17,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01143,2026-09-08T12:31:00Z,ENG-WS-17,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01314,2026-09-08T12:48:46Z,APP-06,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01166,2026-09-08T13:04:24Z,OPS-WS-08,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01149,2026-09-08T13:27:11Z,OPS-WS-08,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01025,2026-09-08T13:30:46Z,JUMP-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01443,2026-09-08T13:49:59Z,ENG-WS-17,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01387,2026-09-08T14:03:26Z,APP-06,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01336,2026-09-08T14:19:26Z,JUMP-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01178,2026-09-08T14:22:31Z,APP-06,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01386,2026-09-08T14:31:57Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01189,2026-09-08T14:36:55Z,ENG-WS-17,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01310,2026-09-08T14:39:36Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01156,2026-09-08T15:09:08Z,ENG-WS-17,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01051,2026-09-08T15:16:02Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01066,2026-09-08T15:29:58Z,DC-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01207,2026-09-08T15:35:09Z,JUMP-01,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01227,2026-09-08T15:45:03Z,JUMP-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01446,2026-09-08T16:16:04Z,SCCM-01,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01311,2026-09-08T16:17:47Z,DC-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01251,2026-09-08T16:20:12Z,OPS-WS-08,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01431,2026-09-08T16:42:32Z,ENG-WS-17,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01201,2026-09-08T16:44:14Z,APP-06,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01410,2026-09-08T16:48:24Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01460,2026-09-08T16:51:18Z,JUMP-01,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01253,2026-09-08T17:00:21Z,APP-06,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01347,2026-09-08T17:05:46Z,SCCM-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01185,2026-09-08T17:25:17Z,JUMP-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01101,2026-09-08T17:25:22Z,JUMP-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01192,2026-09-08T17:28:33Z,SCCM-01,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01356,2026-09-08T17:40:24Z,ENG-WS-17,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01073,2026-09-08T18:05:16Z,APP-06,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01479,2026-09-08T18:05:25Z,FILE-03,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01122,2026-09-08T18:29:13Z,JUMP-01,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01233,2026-09-08T18:29:41Z,APP-06,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01376,2026-09-08T18:55:00Z,APP-06,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01478,2026-09-08T20:11:24Z,ENG-WS-17,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01309,2026-09-08T20:18:14Z,APP-06,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01350,2026-09-08T20:31:01Z,DC-01,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01284,2026-09-08T20:56:59Z,DC-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01234,2026-09-08T21:09:48Z,ENG-WS-17,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01394,2026-09-08T22:35:36Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01424,2026-09-08T22:44:10Z,ENG-WS-17,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01217,2026-09-08T22:58:13Z,ENG-WS-17,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01115,2026-09-08T23:02:10Z,JUMP-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01008,2026-09-08T23:03:07Z,DC-01,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01057,2026-09-08T23:05:43Z,FILE-03,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01161,2026-09-08T23:38:05Z,SCCM-01,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01465,2026-09-08T23:57:33Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01114,2026-09-09T00:08:55Z,SCCM-01,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01070,2026-09-09T00:33:31Z,APP-06,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01043,2026-09-09T00:49:46Z,JUMP-01,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01248,2026-09-09T01:03:19Z,DC-01,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01355,2026-09-09T01:25:34Z,APP-06,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01300,2026-09-09T01:33:05Z,DC-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01466,2026-09-09T01:56:51Z,JUMP-01,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01093,2026-09-09T02:19:33Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01053,2026-09-09T02:40:04Z,JUMP-01,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01496,2026-09-09T02:41:38Z,FILE-03,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01214,2026-09-09T02:42:33Z,OPS-WS-08,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01208,2026-09-09T02:43:03Z,ENG-WS-17,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01348,2026-09-09T03:00:37Z,FILE-03,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01327,2026-09-09T03:18:12Z,APP-06,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01430,2026-09-09T03:35:21Z,ENG-WS-17,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01444,2026-09-09T03:36:29Z,OPS-WS-08,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01049,2026-09-09T03:52:55Z,APP-06,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01022,2026-09-09T04:42:27Z,ENG-WS-17,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01299,2026-09-09T04:51:47Z,SCCM-01,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01034,2026-09-09T05:13:31Z,SCCM-01,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01326,2026-09-09T05:15:23Z,JUMP-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01383,2026-09-09T05:20:53Z,ENG-WS-17,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01382,2026-09-09T05:55:23Z,OPS-WS-08,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01315,2026-09-09T05:55:54Z,FILE-03,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01292,2026-09-09T06:16:59Z,DC-01,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01159,2026-09-09T06:17:35Z,APP-06,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01396,2026-09-09T06:18:16Z,ENG-WS-17,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01226,2026-09-09T06:25:42Z,APP-06,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01408,2026-09-09T06:57:11Z,JUMP-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01367,2026-09-09T06:59:52Z,FILE-03,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01428,2026-09-09T07:00:07Z,FILE-03,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01269,2026-09-09T07:04:15Z,JUMP-01,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01322,2026-09-09T07:07:46Z,SCCM-01,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01280,2026-09-09T07:08:36Z,APP-06,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01415,2026-09-09T07:10:04Z,JUMP-01,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01154,2026-09-09T07:33:18Z,APP-06,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01375,2026-09-09T07:47:34Z,OPS-WS-08,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01085,2026-09-09T08:06:49Z,DC-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01145,2026-09-09T08:13:13Z,DC-01,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01092,2026-09-09T08:19:35Z,SCCM-01,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01476,2026-09-09T08:20:18Z,FILE-03,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01240,2026-09-09T08:27:20Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01064,2026-09-09T08:31:50Z,OPS-WS-08,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01447,2026-09-09T08:42:04Z,ENG-WS-17,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01283,2026-09-09T08:45:01Z,JUMP-01,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01337,2026-09-09T08:59:11Z,JUMP-01,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01075,2026-09-09T09:00:40Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01398,2026-09-09T09:06:00Z,FILE-03,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01297,2026-09-09T09:21:26Z,JUMP-01,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01223,2026-09-09T09:43:27Z,FILE-03,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01293,2026-09-09T09:59:21Z,SCCM-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01176,2026-09-09T10:20:12Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01351,2026-09-09T10:21:23Z,SCCM-01,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01247,2026-09-09T10:31:52Z,SCCM-01,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01243,2026-09-09T10:42:01Z,SCCM-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01319,2026-09-09T10:57:41Z,JUMP-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01014,2026-09-09T11:09:40Z,ENG-WS-17,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01468,2026-09-09T11:13:27Z,ENG-WS-17,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01338,2026-09-09T11:15:55Z,JUMP-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01211,2026-09-09T11:21:43Z,SCCM-01,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01015,2026-09-09T11:31:51Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01271,2026-09-09T11:36:33Z,DC-01,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01230,2026-09-09T11:44:21Z,OPS-WS-08,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01206,2026-09-09T11:53:30Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01334,2026-09-09T12:19:41Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01289,2026-09-09T12:37:02Z,SCCM-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01257,2026-09-09T13:13:36Z,FILE-03,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01440,2026-09-09T13:15:59Z,APP-06,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01140,2026-09-09T13:45:55Z,FILE-03,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01067,2026-09-09T14:25:50Z,APP-06,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01451,2026-09-09T14:32:18Z,APP-06,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01373,2026-09-09T14:34:38Z,ENG-WS-17,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01260,2026-09-09T14:39:54Z,DC-01,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01267,2026-09-09T14:42:13Z,DC-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01010,2026-09-09T14:43:53Z,DC-01,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01133,2026-09-09T14:58:58Z,JUMP-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01463,2026-09-09T15:03:20Z,SCCM-01,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01426,2026-09-09T15:21:54Z,JUMP-01,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01077,2026-09-09T15:38:21Z,OPS-WS-08,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01395,2026-09-09T15:40:11Z,FILE-03,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01288,2026-09-09T15:41:31Z,DC-01,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01484,2026-09-09T15:59:42Z,ENG-WS-17,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01335,2026-09-09T16:23:23Z,ENG-WS-17,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01061,2026-09-09T16:26:33Z,JUMP-01,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01266,2026-09-09T16:44:26Z,APP-06,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01461,2026-09-09T16:58:04Z,OPS-WS-08,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01457,2026-09-09T17:23:46Z,SCCM-01,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01088,2026-09-09T17:30:07Z,OPS-WS-08,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01128,2026-09-09T17:31:05Z,APP-06,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01160,2026-09-09T17:32:12Z,APP-06,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01353,2026-09-09T17:40:21Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01371,2026-09-09T18:09:21Z,DC-01,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01080,2026-09-09T18:47:24Z,DC-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01421,2026-09-09T19:07:08Z,APP-06,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01224,2026-09-09T19:13:28Z,SCCM-01,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01294,2026-09-09T19:19:26Z,FILE-03,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01056,2026-09-09T19:20:30Z,APP-06,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01007,2026-09-09T19:21:18Z,JUMP-01,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01123,2026-09-09T19:39:30Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01482,2026-09-09T19:44:22Z,ENG-WS-17,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01162,2026-09-09T20:08:04Z,FILE-03,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01011,2026-09-09T20:26:00Z,DC-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01467,2026-09-09T20:35:38Z,JUMP-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01435,2026-09-09T20:39:10Z,FILE-03,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01187,2026-09-09T21:00:52Z,SCCM-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01163,2026-09-09T21:11:37Z,JUMP-01,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01368,2026-09-09T21:14:54Z,FILE-03,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01413,2026-09-09T21:19:25Z,APP-06,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01437,2026-09-09T21:26:13Z,SCCM-01,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01018,2026-09-09T21:59:37Z,FILE-03,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01236,2026-09-09T22:08:18Z,OPS-WS-08,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01333,2026-09-09T22:18:16Z,OPS-WS-08,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01127,2026-09-09T23:16:58Z,JUMP-01,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01330,2026-09-09T23:33:29Z,FILE-03,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01245,2026-09-09T23:50:21Z,DC-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01021,2026-09-09T23:57:38Z,SCCM-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01196,2026-09-10T00:18:14Z,FILE-03,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01360,2026-09-10T00:21:44Z,ENG-WS-17,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01137,2026-09-10T00:26:32Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01287,2026-09-10T00:27:11Z,DC-01,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01032,2026-09-10T00:37:56Z,DC-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01016,2026-09-10T00:46:39Z,FILE-03,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01364,2026-09-10T00:55:17Z,ENG-WS-17,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01401,2026-09-10T00:59:27Z,DC-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01384,2026-09-10T01:17:48Z,SCCM-01,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01225,2026-09-10T01:45:41Z,JUMP-01,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01474,2026-09-10T01:49:31Z,FILE-03,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01026,2026-09-10T01:51:16Z,JUMP-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01321,2026-09-10T01:55:18Z,APP-06,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01124,2026-09-10T02:02:08Z,OPS-WS-08,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01203,2026-09-10T02:06:55Z,APP-06,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01039,2026-09-10T02:45:56Z,APP-06,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01276,2026-09-10T02:59:33Z,SCCM-01,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01103,2026-09-10T03:05:40Z,ENG-WS-17,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01448,2026-09-10T03:27:57Z,SCCM-01,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01263,2026-09-10T03:29:29Z,SCCM-01,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01060,2026-09-10T03:32:20Z,APP-06,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01193,2026-09-10T03:50:48Z,OPS-WS-08,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01058,2026-09-10T03:55:27Z,OPS-WS-08,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01100,2026-09-10T04:08:20Z,JUMP-01,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01278,2026-09-10T04:24:06Z,OPS-WS-08,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01237,2026-09-10T04:31:21Z,DC-01,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01291,2026-09-10T05:03:06Z,APP-06,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01082,2026-09-10T05:10:04Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01306,2026-09-10T05:21:06Z,ENG-WS-17,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01180,2026-09-10T05:26:32Z,ENG-WS-17,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01369,2026-09-10T06:04:45Z,FILE-03,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01151,2026-09-10T06:13:15Z,APP-06,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01111,2026-09-10T06:14:49Z,SCCM-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01202,2026-09-10T06:25:32Z,FILE-03,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01209,2026-09-10T06:44:41Z,ENG-WS-17,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01273,2026-09-10T07:08:16Z,APP-06,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01407,2026-09-10T07:11:39Z,FILE-03,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01019,2026-09-10T07:18:27Z,DC-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01109,2026-09-10T07:18:46Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01155,2026-09-10T07:26:08Z,FILE-03,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01195,2026-09-10T07:33:33Z,SCCM-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01349,2026-09-10T08:00:15Z,SCCM-01,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01429,2026-09-10T08:10:26Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01378,2026-09-10T08:27:04Z,DC-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01009,2026-09-10T08:30:09Z,SCCM-01,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01158,2026-09-10T08:37:19Z,JUMP-01,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01165,2026-09-10T08:40:42Z,DC-01,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01083,2026-09-10T08:46:13Z,ENG-WS-17,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01097,2026-09-10T09:00:58Z,JUMP-01,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01131,2026-09-10T09:05:55Z,DC-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01041,2026-09-10T09:15:27Z,FILE-03,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01012,2026-09-10T09:23:39Z,JUMP-01,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01425,2026-09-10T09:24:03Z,DC-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01358,2026-09-10T09:33:11Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01370,2026-09-10T09:38:42Z,ENG-WS-17,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01157,2026-09-10T09:44:15Z,OPS-WS-08,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01068,2026-09-10T10:52:08Z,JUMP-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01438,2026-09-10T11:17:25Z,SCCM-01,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01486,2026-09-10T11:26:47Z,APP-06,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01108,2026-09-10T11:30:35Z,JUMP-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01242,2026-09-10T11:33:43Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01244,2026-09-10T11:43:32Z,DC-01,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01357,2026-09-10T11:57:39Z,ENG-WS-17,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01290,2026-09-10T12:07:53Z,JUMP-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01345,2026-09-10T12:07:59Z,ENG-WS-17,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01098,2026-09-10T12:32:00Z,APP-06,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01040,2026-09-10T12:34:02Z,FILE-03,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01262,2026-09-10T12:56:36Z,OPS-WS-08,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01442,2026-09-10T13:19:18Z,JUMP-01,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01379,2026-09-10T13:26:41Z,OPS-WS-08,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01099,2026-09-10T13:28:07Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01081,2026-09-10T13:37:59Z,ENG-WS-17,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01458,2026-09-10T13:41:23Z,SCCM-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01318,2026-09-10T13:54:12Z,DC-01,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01469,2026-09-10T13:59:06Z,ENG-WS-17,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01216,2026-09-10T14:00:10Z,FILE-03,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01038,2026-09-10T14:08:05Z,ENG-WS-17,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01136,2026-09-10T14:20:05Z,OPS-WS-08,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01325,2026-09-10T14:30:44Z,SCCM-01,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01441,2026-09-10T14:41:01Z,FILE-03,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01238,2026-09-10T14:58:06Z,APP-06,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01198,2026-09-10T15:04:22Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01453,2026-09-10T15:14:23Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01120,2026-09-10T15:36:48Z,FILE-03,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01171,2026-09-10T16:00:56Z,APP-06,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01112,2026-09-10T16:16:51Z,SCCM-01,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01172,2026-09-10T16:35:19Z,JUMP-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01132,2026-09-10T16:36:35Z,SCCM-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01164,2026-09-10T16:42:20Z,SCCM-01,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01197,2026-09-10T16:43:18Z,JUMP-01,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01456,2026-09-10T16:58:27Z,JUMP-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01470,2026-09-10T17:01:53Z,JUMP-01,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01200,2026-09-10T17:13:53Z,FILE-03,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01013,2026-09-10T17:14:19Z,SCCM-01,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01412,2026-09-10T17:20:33Z,JUMP-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01420,2026-09-10T17:32:25Z,JUMP-01,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01399,2026-09-10T17:37:42Z,SCCM-01,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01397,2026-09-10T17:53:11Z,ENG-WS-17,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01359,2026-09-10T17:54:23Z,JUMP-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01047,2026-09-10T17:58:49Z,FILE-03,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01434,2026-09-10T18:01:31Z,APP-06,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01362,2026-09-10T18:05:04Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01153,2026-09-10T18:22:47Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01090,2026-09-10T18:37:38Z,APP-06,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01074,2026-09-10T18:43:15Z,FILE-03,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01473,2026-09-10T18:48:29Z,DC-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01406,2026-09-10T19:13:18Z,FILE-03,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01146,2026-09-10T19:20:41Z,JUMP-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01308,2026-09-10T19:38:15Z,SCCM-01,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01303,2026-09-10T19:46:55Z,OPS-WS-08,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01094,2026-09-10T19:57:10Z,DC-01,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01006,2026-09-10T19:58:04Z,DC-01,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01028,2026-09-10T20:00:49Z,ENG-WS-17,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01365,2026-09-10T20:14:22Z,FILE-03,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01265,2026-09-10T20:16:03Z,APP-06,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01184,2026-09-10T20:43:03Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01078,2026-09-10T20:47:37Z,OPS-WS-08,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01402,2026-09-10T21:16:58Z,JUMP-01,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01462,2026-09-10T22:13:50Z,DC-01,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01491,2026-09-10T22:28:12Z,ENG-WS-17,Endpoint Team,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01449,2026-09-10T22:35:28Z,APP-06,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01439,2026-09-10T22:36:20Z,APP-06,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01079,2026-09-10T22:39:28Z,DC-01,Endpoint Team,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01492,2026-09-10T22:44:14Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01255,2026-09-10T22:56:37Z,FILE-03,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01254,2026-09-10T23:15:34Z,ENG-WS-17,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01472,2026-09-10T23:30:26Z,DC-01,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01445,2026-09-10T23:40:23Z,JUMP-01,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01341,2026-09-11T00:14:09Z,ENG-WS-17,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01087,2026-09-11T00:31:06Z,DC-01,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01095,2026-09-11T00:59:56Z,OPS-WS-08,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01389,2026-09-11T01:04:51Z,OPS-WS-08,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01393,2026-09-11T01:29:12Z,SCCM-01,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01105,2026-09-11T01:37:37Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01139,2026-09-11T01:39:21Z,OPS-WS-08,Endpoint Team,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01023,2026-09-11T01:41:43Z,JUMP-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01304,2026-09-11T01:43:25Z,ENG-WS-17,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01354,2026-09-11T01:49:45Z,APP-06,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01377,2026-09-11T01:58:26Z,JUMP-01,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01106,2026-09-11T02:13:53Z,FILE-03,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01487,2026-09-11T02:23:15Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01307,2026-09-11T02:34:19Z,ENG-WS-17,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01194,2026-09-11T02:52:58Z,JUMP-01,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01177,2026-09-11T03:00:46Z,ENG-WS-17,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01045,2026-09-11T03:17:28Z,FILE-03,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01302,2026-09-11T03:27:25Z,OPS-WS-08,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01490,2026-09-11T03:42:51Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01096,2026-09-11T03:47:41Z,FILE-03,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01270,2026-09-11T03:51:16Z,APP-06,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01116,2026-09-11T04:05:43Z,JUMP-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01323,2026-09-11T04:12:39Z,FILE-03,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01069,2026-09-11T04:33:47Z,APP-06,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01104,2026-09-11T04:44:38Z,SCCM-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01433,2026-09-11T04:44:55Z,APP-06,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01317,2026-09-11T04:52:43Z,SCCM-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01409,2026-09-11T04:54:14Z,APP-06,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01107,2026-09-11T04:56:30Z,APP-06,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01035,2026-09-11T05:09:55Z,JUMP-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01305,2026-09-11T05:18:18Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01186,2026-09-11T05:49:50Z,ENG-WS-17,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01173,2026-09-11T05:53:50Z,APP-06,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01277,2026-09-11T06:02:35Z,ENG-WS-17,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01102,2026-09-11T06:07:07Z,JUMP-01,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01340,2026-09-11T06:24:36Z,JUMP-01,Endpoint Team,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01089,2026-09-11T06:32:04Z,SCCM-01,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01231,2026-09-11T06:46:46Z,FILE-03,Workplace Engineering,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01134,2026-09-11T06:54:48Z,JUMP-01,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01252,2026-09-11T06:56:39Z,JUMP-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01232,2026-09-11T06:57:03Z,DC-01,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01241,2026-09-11T07:05:00Z,SCCM-01,Endpoint Team,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01471,2026-09-11T07:10:51Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01329,2026-09-11T07:18:39Z,DC-01,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01182,2026-09-11T07:29:08Z,SCCM-01,Infrastructure,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01301,2026-09-11T07:32:07Z,DC-01,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01281,2026-09-11T07:33:14Z,DC-01,Infrastructure,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01024,2026-09-11T07:35:34Z,SCCM-01,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01274,2026-09-11T07:44:26Z,FILE-03,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01381,2026-09-11T07:46:33Z,ENG-WS-17,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01346,2026-09-11T08:09:41Z,ENG-WS-17,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01239,2026-09-11T08:38:41Z,JUMP-01,Workplace Engineering,inventory_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01048,2026-09-11T08:43:11Z,DC-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01142,2026-09-11T09:06:13Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01312,2026-09-11T09:13:13Z,OPS-WS-08,Workplace Engineering,patch_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01130,2026-09-11T09:21:44Z,APP-06,Endpoint Team,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01344,2026-09-11T09:35:53Z,OPS-WS-08,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01295,2026-09-11T09:44:03Z,SCCM-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01055,2026-09-11T09:45:18Z,JUMP-01,Workplace Engineering,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01483,2026-09-11T09:52:25Z,DC-01,Endpoint Team,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01033,2026-09-11T10:12:25Z,SCCM-01,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01063,2026-09-11T10:13:09Z,DC-01,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01313,2026-09-11T10:25:27Z,JUMP-01,Infrastructure,software_deployment,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01072,2026-09-11T10:26:25Z,SCCM-01,Infrastructure,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01042,2026-09-11T10:30:37Z,DC-01,Infrastructure,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01324,2026-09-11T10:32:22Z,ENG-WS-17,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01372,2026-09-11T10:38:36Z,JUMP-01,Infrastructure,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01342,2026-09-11T10:42:09Z,OPS-WS-08,Endpoint Team,patch_cycle,yes,ACME Inventory,SCCM-01,benign,routine approved change
+CHG-01361,2026-09-11T10:55:10Z,FILE-03,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01121,2026-09-11T10:55:56Z,JUMP-01,Infrastructure,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01170,2026-09-11T11:14:48Z,OPS-WS-08,Endpoint Team,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01261,2026-09-11T11:32:28Z,OPS-WS-08,Infrastructure,inventory_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01427,2026-09-11T11:33:08Z,SCCM-01,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01452,2026-09-11T11:44:03Z,FILE-03,Workplace Engineering,software_deployment,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01219,2026-09-11T11:47:58Z,APP-06,Infrastructure,patch_cycle,yes,Monthly Patch,SCCM-01,benign,routine approved change
+CHG-01404,2026-09-11T11:51:55Z,DC-01,Workplace Engineering,inventory_cycle,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change
+CHG-01464,2026-09-11T11:57:50Z,ENG-WS-17,Workplace Engineering,software_deployment,yes,Endpoint Health Agent,SCCM-01,benign,routine approved change

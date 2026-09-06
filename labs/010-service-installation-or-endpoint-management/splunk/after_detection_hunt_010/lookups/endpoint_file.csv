@@ -1,0 +1,501 @@
+event_id,_time,host,user,action,file_path,source_process,classification,note
+FILE-00061,2026-09-07T12:07:08Z,APP-06,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00367,2026-09-07T12:42:42Z,JUMP-01,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00092,2026-09-07T13:05:32Z,OPS-WS-08,ACME\svc_sccm,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00359,2026-09-07T13:07:19Z,JUMP-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00434,2026-09-07T13:21:35Z,SCCM-01,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00097,2026-09-07T13:30:09Z,DC-01,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00094,2026-09-07T13:31:37Z,JUMP-01,ACME\mturner,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00476,2026-09-07T13:54:09Z,ENG-WS-17,ACME\mturner,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00285,2026-09-07T13:58:36Z,OPS-WS-08,ACME\mturner,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00180,2026-09-07T14:00:00Z,OPS-WS-08,ACME\jsmith,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00344,2026-09-07T14:08:52Z,SCCM-01,ACME\mturner,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00273,2026-09-07T14:12:33Z,DC-01,ACME\jsmith,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00339,2026-09-07T14:12:57Z,APP-06,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-INC-001,2026-09-07T14:17:23Z,ENG-WS-17,ACME\adavis,create,C:\ProgramData\WinSupport\supportsvc.exe,powershell.exe,investigate,service binary staged before creation
+FILE-INC-002,2026-09-07T14:17:29Z,ENG-WS-17,ACME\adavis,create,C:\ProgramData\WinSupport\collect.ps1,powershell.exe,investigate,follow-on script staged
+FILE-INC-003,2026-09-07T14:18:56Z,ENG-WS-17,NT AUTHORITY\SYSTEM,create,C:\ProgramData\WinSupport\who.txt,cmd.exe,investigate,discovery output
+FILE-BEN-001,2026-09-07T14:24:35Z,APP-06,ACME\svc_sccm,create,C:\Program Files\ACME\Support\agent.exe,msiexec.exe,benign,approved MSI installs signed service binary
+FILE-RESP-001,2026-09-07T14:30:20Z,ENG-WS-17,ACME\jsmith,read,C:\ProgramData\WinSupport\supportsvc.exe,powershell.exe,response,responder hashes service binary
+FILE-00338,2026-09-07T15:06:41Z,SCCM-01,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00093,2026-09-07T15:08:58Z,ENG-WS-17,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00297,2026-09-07T15:23:52Z,APP-06,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00214,2026-09-07T15:26:49Z,JUMP-01,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00419,2026-09-07T15:29:13Z,DC-01,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00298,2026-09-07T15:39:31Z,FILE-03,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00145,2026-09-07T15:58:46Z,OPS-WS-08,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00331,2026-09-07T16:24:43Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00489,2026-09-07T16:39:28Z,FILE-03,ACME\jsmith,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00044,2026-09-07T16:57:09Z,DC-01,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00378,2026-09-07T17:40:26Z,JUMP-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00080,2026-09-07T17:40:33Z,OPS-WS-08,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00369,2026-09-07T17:59:47Z,SCCM-01,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00409,2026-09-07T18:00:09Z,DC-01,ACME\jsmith,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00460,2026-09-07T18:02:51Z,FILE-03,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00129,2026-09-07T18:04:42Z,OPS-WS-08,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00492,2026-09-07T18:06:30Z,OPS-WS-08,ACME\jsmith,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00140,2026-09-07T18:20:27Z,JUMP-01,ACME\mturner,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00054,2026-09-07T18:23:56Z,JUMP-01,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00221,2026-09-07T18:40:39Z,FILE-03,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00069,2026-09-07T19:01:17Z,DC-01,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00421,2026-09-07T19:22:17Z,JUMP-01,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00245,2026-09-07T19:26:10Z,DC-01,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00111,2026-09-07T20:00:15Z,SCCM-01,ACME\mturner,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00364,2026-09-07T20:08:19Z,SCCM-01,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00395,2026-09-07T20:18:58Z,FILE-03,ACME\jsmith,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00242,2026-09-07T20:45:53Z,DC-01,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00279,2026-09-07T21:07:33Z,FILE-03,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00127,2026-09-07T21:11:21Z,DC-01,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00191,2026-09-07T21:13:54Z,APP-06,ACME\adavis,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00292,2026-09-07T21:21:26Z,ENG-WS-17,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00038,2026-09-07T21:31:29Z,JUMP-01,ACME\jsmith,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00039,2026-09-07T22:01:36Z,FILE-03,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00040,2026-09-07T22:03:41Z,SCCM-01,ACME\adavis,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00461,2026-09-07T22:35:36Z,JUMP-01,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00357,2026-09-07T22:46:41Z,ENG-WS-17,ACME\adavis,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00023,2026-09-07T22:55:38Z,SCCM-01,ACME\svc_sccm,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00013,2026-09-07T22:57:07Z,DC-01,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00294,2026-09-07T23:08:18Z,APP-06,ACME\jsmith,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00204,2026-09-07T23:09:28Z,APP-06,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00418,2026-09-07T23:14:46Z,JUMP-01,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00457,2026-09-07T23:30:48Z,APP-06,ACME\adavis,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00265,2026-09-07T23:30:53Z,SCCM-01,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00445,2026-09-07T23:51:11Z,OPS-WS-08,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00381,2026-09-08T00:16:37Z,OPS-WS-08,ACME\jsmith,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00089,2026-09-08T00:18:57Z,APP-06,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00392,2026-09-08T00:28:51Z,DC-01,ACME\jsmith,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00289,2026-09-08T01:10:03Z,DC-01,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00183,2026-09-08T01:17:34Z,SCCM-01,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00152,2026-09-08T02:12:05Z,DC-01,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00379,2026-09-08T02:15:19Z,JUMP-01,ACME\svc_sccm,read,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00377,2026-09-08T02:16:52Z,JUMP-01,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00417,2026-09-08T02:18:47Z,SCCM-01,ACME\jsmith,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00051,2026-09-08T03:03:58Z,OPS-WS-08,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00323,2026-09-08T03:28:55Z,SCCM-01,ACME\jsmith,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00218,2026-09-08T03:39:04Z,APP-06,ACME\jsmith,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00356,2026-09-08T03:56:27Z,OPS-WS-08,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00350,2026-09-08T03:57:30Z,DC-01,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00228,2026-09-08T04:24:17Z,SCCM-01,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00076,2026-09-08T04:34:45Z,APP-06,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00006,2026-09-08T04:45:32Z,APP-06,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00498,2026-09-08T04:48:23Z,OPS-WS-08,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00301,2026-09-08T04:53:56Z,FILE-03,ACME\mturner,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00215,2026-09-08T05:06:42Z,FILE-03,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00453,2026-09-08T05:09:02Z,DC-01,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00391,2026-09-08T05:12:52Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00192,2026-09-08T05:25:15Z,FILE-03,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00130,2026-09-08T05:26:00Z,ENG-WS-17,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00224,2026-09-08T05:47:13Z,SCCM-01,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00101,2026-09-08T05:48:23Z,JUMP-01,ACME\mturner,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00312,2026-09-08T05:59:05Z,SCCM-01,ACME\adavis,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00240,2026-09-08T06:25:13Z,SCCM-01,ACME\jsmith,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00139,2026-09-08T06:44:51Z,FILE-03,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00198,2026-09-08T06:55:13Z,DC-01,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00271,2026-09-08T07:01:28Z,ENG-WS-17,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00118,2026-09-08T07:04:19Z,APP-06,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00223,2026-09-08T07:16:41Z,ENG-WS-17,ACME\adavis,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00407,2026-09-08T07:26:20Z,APP-06,ACME\mturner,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00018,2026-09-08T08:21:56Z,DC-01,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00014,2026-09-08T08:45:58Z,OPS-WS-08,ACME\jsmith,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00436,2026-09-08T09:00:29Z,DC-01,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00113,2026-09-08T09:01:46Z,ENG-WS-17,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00027,2026-09-08T09:13:46Z,FILE-03,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00165,2026-09-08T09:34:10Z,JUMP-01,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00463,2026-09-08T09:45:51Z,OPS-WS-08,ACME\adavis,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00386,2026-09-08T09:49:39Z,OPS-WS-08,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00478,2026-09-08T10:02:22Z,APP-06,ACME\mturner,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00428,2026-09-08T10:14:16Z,SCCM-01,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00142,2026-09-08T10:25:14Z,FILE-03,ACME\mturner,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00442,2026-09-08T10:27:27Z,FILE-03,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00325,2026-09-08T10:44:46Z,APP-06,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00497,2026-09-08T11:05:59Z,FILE-03,ACME\adavis,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00234,2026-09-08T11:13:36Z,JUMP-01,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00202,2026-09-08T11:16:32Z,OPS-WS-08,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00400,2026-09-08T11:17:59Z,DC-01,ACME\jsmith,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00441,2026-09-08T11:38:34Z,DC-01,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00197,2026-09-08T11:45:31Z,SCCM-01,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00376,2026-09-08T11:59:08Z,ENG-WS-17,ACME\svc_sccm,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00429,2026-09-08T11:59:32Z,FILE-03,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00123,2026-09-08T12:15:49Z,ENG-WS-17,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00112,2026-09-08T12:20:08Z,OPS-WS-08,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00373,2026-09-08T12:36:17Z,JUMP-01,ACME\mturner,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00452,2026-09-08T12:39:08Z,DC-01,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00342,2026-09-08T12:40:15Z,FILE-03,ACME\adavis,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00114,2026-09-08T12:41:48Z,OPS-WS-08,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00096,2026-09-08T12:57:10Z,DC-01,ACME\jsmith,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00329,2026-09-08T12:58:41Z,APP-06,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00005,2026-09-08T13:02:46Z,JUMP-01,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00390,2026-09-08T13:06:46Z,JUMP-01,ACME\adavis,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00491,2026-09-08T13:09:28Z,FILE-03,ACME\svc_sccm,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00262,2026-09-08T13:10:52Z,ENG-WS-17,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00276,2026-09-08T13:30:41Z,DC-01,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00481,2026-09-08T13:47:30Z,OPS-WS-08,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00411,2026-09-08T14:08:52Z,FILE-03,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00432,2026-09-08T14:18:13Z,ENG-WS-17,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00012,2026-09-08T14:36:09Z,DC-01,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00046,2026-09-08T14:45:06Z,JUMP-01,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00487,2026-09-08T14:48:40Z,FILE-03,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00496,2026-09-08T14:55:44Z,APP-06,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00267,2026-09-08T14:57:41Z,OPS-WS-08,ACME\jsmith,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00315,2026-09-08T15:08:39Z,SCCM-01,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00472,2026-09-08T15:27:21Z,FILE-03,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00241,2026-09-08T15:33:48Z,ENG-WS-17,ACME\adavis,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00435,2026-09-08T15:47:36Z,OPS-WS-08,ACME\adavis,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00169,2026-09-08T16:09:54Z,SCCM-01,ACME\mturner,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00137,2026-09-08T16:18:21Z,APP-06,ACME\mturner,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00173,2026-09-08T16:22:12Z,DC-01,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00239,2026-09-08T16:31:05Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00430,2026-09-08T16:38:28Z,JUMP-01,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00479,2026-09-08T16:50:05Z,ENG-WS-17,ACME\mturner,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00175,2026-09-08T16:55:01Z,FILE-03,ACME\adavis,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00181,2026-09-08T17:03:53Z,JUMP-01,ACME\svc_sccm,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00115,2026-09-08T17:06:25Z,OPS-WS-08,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00231,2026-09-08T17:13:25Z,OPS-WS-08,ACME\jsmith,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00446,2026-09-08T17:47:20Z,JUMP-01,ACME\adavis,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00064,2026-09-08T17:49:53Z,DC-01,ACME\mturner,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00482,2026-09-08T18:10:12Z,OPS-WS-08,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00066,2026-09-08T18:30:51Z,SCCM-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00168,2026-09-08T18:55:35Z,APP-06,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00144,2026-09-08T18:59:38Z,ENG-WS-17,ACME\adavis,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00238,2026-09-08T20:11:55Z,ENG-WS-17,ACME\jsmith,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00258,2026-09-08T20:20:15Z,JUMP-01,ACME\svc_sccm,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00437,2026-09-08T20:32:44Z,ENG-WS-17,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00296,2026-09-08T20:57:11Z,DC-01,ACME\adavis,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00105,2026-09-08T20:59:47Z,FILE-03,ACME\adavis,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00063,2026-09-08T21:23:36Z,OPS-WS-08,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00058,2026-09-08T21:26:28Z,SCCM-01,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00260,2026-09-08T21:26:32Z,JUMP-01,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00490,2026-09-08T21:33:44Z,ENG-WS-17,ACME\jsmith,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00471,2026-09-08T21:37:02Z,DC-01,ACME\jsmith,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00451,2026-09-08T21:45:09Z,OPS-WS-08,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00449,2026-09-08T22:14:08Z,FILE-03,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00045,2026-09-08T22:23:09Z,FILE-03,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00247,2026-09-08T22:39:48Z,SCCM-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00073,2026-09-08T22:57:36Z,OPS-WS-08,ACME\adavis,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00332,2026-09-08T23:01:39Z,ENG-WS-17,ACME\jsmith,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00307,2026-09-08T23:19:04Z,JUMP-01,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00154,2026-09-08T23:24:38Z,ENG-WS-17,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00269,2026-09-08T23:36:19Z,FILE-03,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00382,2026-09-08T23:37:05Z,JUMP-01,ACME\jsmith,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00320,2026-09-09T00:15:15Z,JUMP-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00078,2026-09-09T00:17:45Z,DC-01,ACME\jsmith,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00109,2026-09-09T00:58:10Z,APP-06,ACME\svc_sccm,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00249,2026-09-09T01:03:19Z,JUMP-01,ACME\mturner,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00477,2026-09-09T01:32:10Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00394,2026-09-09T01:46:48Z,SCCM-01,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00237,2026-09-09T01:54:01Z,FILE-03,ACME\svc_sccm,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00143,2026-09-09T02:09:12Z,JUMP-01,ACME\jsmith,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00261,2026-09-09T02:27:39Z,ENG-WS-17,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00309,2026-09-09T02:48:19Z,APP-06,ACME\svc_sccm,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00406,2026-09-09T03:19:21Z,JUMP-01,ACME\svc_sccm,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00207,2026-09-09T04:02:32Z,DC-01,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00151,2026-09-09T04:20:49Z,JUMP-01,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00084,2026-09-09T04:38:42Z,ENG-WS-17,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00125,2026-09-09T04:56:00Z,ENG-WS-17,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00263,2026-09-09T04:56:17Z,APP-06,ACME\jsmith,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00030,2026-09-09T05:44:27Z,DC-01,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00334,2026-09-09T05:53:26Z,JUMP-01,ACME\adavis,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00083,2026-09-09T06:01:53Z,JUMP-01,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00035,2026-09-09T06:10:25Z,SCCM-01,ACME\adavis,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00425,2026-09-09T06:29:43Z,APP-06,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00494,2026-09-09T07:14:03Z,OPS-WS-08,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00213,2026-09-09T07:18:35Z,SCCM-01,ACME\mturner,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00250,2026-09-09T07:23:25Z,JUMP-01,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00199,2026-09-09T07:24:56Z,SCCM-01,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00283,2026-09-09T07:29:29Z,ENG-WS-17,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00016,2026-09-09T08:08:50Z,SCCM-01,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00019,2026-09-09T08:11:40Z,FILE-03,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00363,2026-09-09T08:34:58Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00178,2026-09-09T08:36:00Z,ENG-WS-17,ACME\mturner,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00219,2026-09-09T08:38:56Z,OPS-WS-08,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00034,2026-09-09T08:42:35Z,ENG-WS-17,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00275,2026-09-09T08:46:02Z,OPS-WS-08,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00208,2026-09-09T08:54:29Z,DC-01,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00085,2026-09-09T08:58:46Z,APP-06,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00256,2026-09-09T09:09:30Z,ENG-WS-17,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00042,2026-09-09T09:10:37Z,ENG-WS-17,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00404,2026-09-09T09:39:16Z,FILE-03,ACME\svc_sccm,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00160,2026-09-09T09:42:49Z,APP-06,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00414,2026-09-09T09:48:38Z,FILE-03,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00186,2026-09-09T10:00:58Z,ENG-WS-17,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00148,2026-09-09T10:02:13Z,JUMP-01,ACME\adavis,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00402,2026-09-09T10:04:13Z,ENG-WS-17,ACME\adavis,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00049,2026-09-09T10:45:03Z,FILE-03,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00170,2026-09-09T10:50:44Z,SCCM-01,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00401,2026-09-09T11:03:57Z,ENG-WS-17,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00375,2026-09-09T11:33:41Z,FILE-03,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00268,2026-09-09T11:48:21Z,JUMP-01,ACME\adavis,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00065,2026-09-09T11:50:03Z,APP-06,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00473,2026-09-09T12:03:58Z,OPS-WS-08,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00176,2026-09-09T12:05:22Z,FILE-03,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00087,2026-09-09T12:30:38Z,DC-01,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00467,2026-09-09T12:40:32Z,JUMP-01,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00420,2026-09-09T12:43:30Z,SCCM-01,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00287,2026-09-09T13:06:19Z,JUMP-01,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00433,2026-09-09T13:23:43Z,OPS-WS-08,ACME\mturner,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00427,2026-09-09T13:34:51Z,ENG-WS-17,ACME\jsmith,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00462,2026-09-09T13:38:53Z,OPS-WS-08,ACME\jsmith,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00266,2026-09-09T13:44:32Z,APP-06,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00055,2026-09-09T13:49:27Z,OPS-WS-08,ACME\adavis,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00134,2026-09-09T13:56:22Z,APP-06,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00119,2026-09-09T13:58:41Z,JUMP-01,ACME\jsmith,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00103,2026-09-09T14:07:46Z,OPS-WS-08,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00438,2026-09-09T14:08:45Z,SCCM-01,ACME\adavis,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00286,2026-09-09T14:16:04Z,FILE-03,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00212,2026-09-09T14:32:39Z,APP-06,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00079,2026-09-09T14:35:47Z,SCCM-01,ACME\jsmith,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00136,2026-09-09T14:35:47Z,OPS-WS-08,ACME\jsmith,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00222,2026-09-09T14:37:03Z,DC-01,ACME\mturner,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00133,2026-09-09T14:54:03Z,DC-01,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00288,2026-09-09T15:08:06Z,FILE-03,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00303,2026-09-09T15:16:12Z,FILE-03,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00335,2026-09-09T15:25:00Z,ENG-WS-17,ACME\adavis,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00274,2026-09-09T15:27:54Z,OPS-WS-08,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00340,2026-09-09T15:29:53Z,ENG-WS-17,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00088,2026-09-09T16:15:52Z,OPS-WS-08,ACME\adavis,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00194,2026-09-09T16:18:42Z,APP-06,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00305,2026-09-09T16:29:08Z,DC-01,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00158,2026-09-09T16:31:52Z,SCCM-01,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00017,2026-09-09T16:33:04Z,DC-01,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00295,2026-09-09T16:43:02Z,DC-01,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00043,2026-09-09T16:55:55Z,OPS-WS-08,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00098,2026-09-09T17:03:17Z,JUMP-01,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00217,2026-09-09T17:06:34Z,SCCM-01,ACME\jsmith,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00431,2026-09-09T17:12:50Z,OPS-WS-08,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00011,2026-09-09T17:14:56Z,ENG-WS-17,ACME\mturner,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00403,2026-09-09T18:09:18Z,FILE-03,ACME\adavis,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00314,2026-09-09T18:19:06Z,APP-06,ACME\jsmith,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00284,2026-09-09T18:28:37Z,FILE-03,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00149,2026-09-09T18:34:27Z,SCCM-01,ACME\svc_sccm,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00244,2026-09-09T18:36:05Z,OPS-WS-08,ACME\mturner,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00056,2026-09-09T18:41:50Z,FILE-03,ACME\adavis,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00326,2026-09-09T19:08:15Z,OPS-WS-08,ACME\svc_sccm,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00210,2026-09-09T19:22:31Z,OPS-WS-08,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00182,2026-09-09T19:46:00Z,JUMP-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00310,2026-09-09T19:48:52Z,APP-06,ACME\mturner,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00399,2026-09-09T20:11:26Z,DC-01,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00361,2026-09-09T20:27:43Z,DC-01,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00493,2026-09-09T20:40:22Z,OPS-WS-08,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00059,2026-09-09T20:47:02Z,DC-01,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00304,2026-09-09T20:51:26Z,SCCM-01,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00107,2026-09-09T21:07:22Z,JUMP-01,ACME\adavis,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00162,2026-09-09T21:11:33Z,JUMP-01,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00187,2026-09-09T21:15:35Z,SCCM-01,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00311,2026-09-09T21:35:48Z,ENG-WS-17,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00372,2026-09-09T21:49:02Z,ENG-WS-17,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00102,2026-09-09T21:53:55Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00166,2026-09-09T22:00:48Z,FILE-03,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00347,2026-09-09T22:35:26Z,JUMP-01,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00397,2026-09-09T22:36:29Z,JUMP-01,ACME\adavis,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00067,2026-09-09T22:52:23Z,FILE-03,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00354,2026-09-09T23:47:47Z,APP-06,ACME\mturner,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00408,2026-09-09T23:56:21Z,ENG-WS-17,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00209,2026-09-10T00:05:28Z,DC-01,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00483,2026-09-10T00:24:46Z,APP-06,ACME\mturner,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00033,2026-09-10T00:36:07Z,SCCM-01,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00423,2026-09-10T00:37:08Z,FILE-03,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00120,2026-09-10T00:40:14Z,SCCM-01,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00172,2026-09-10T00:44:32Z,ENG-WS-17,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00062,2026-09-10T00:52:25Z,JUMP-01,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00251,2026-09-10T01:20:29Z,JUMP-01,ACME\mturner,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00159,2026-09-10T01:34:05Z,SCCM-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00047,2026-09-10T01:42:41Z,OPS-WS-08,ACME\mturner,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00468,2026-09-10T01:48:18Z,FILE-03,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00328,2026-09-10T01:57:59Z,APP-06,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00108,2026-09-10T02:00:59Z,FILE-03,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00248,2026-09-10T02:03:02Z,SCCM-01,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00389,2026-09-10T02:13:35Z,OPS-WS-08,ACME\jsmith,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00416,2026-09-10T02:25:16Z,JUMP-01,ACME\jsmith,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00448,2026-09-10T02:27:37Z,OPS-WS-08,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00235,2026-09-10T02:33:22Z,JUMP-01,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00195,2026-09-10T02:39:40Z,OPS-WS-08,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00349,2026-09-10T02:50:20Z,ENG-WS-17,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00456,2026-09-10T02:59:28Z,JUMP-01,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00200,2026-09-10T03:12:26Z,FILE-03,ACME\svc_sccm,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00321,2026-09-10T03:17:00Z,OPS-WS-08,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00405,2026-09-10T03:49:31Z,JUMP-01,ACME\adavis,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00020,2026-09-10T04:07:56Z,APP-06,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00370,2026-09-10T04:25:42Z,APP-06,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00470,2026-09-10T04:28:24Z,ENG-WS-17,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00032,2026-09-10T04:34:41Z,OPS-WS-08,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00163,2026-09-10T04:39:18Z,FILE-03,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00306,2026-09-10T04:47:59Z,APP-06,ACME\mturner,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00229,2026-09-10T04:49:23Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00050,2026-09-10T04:52:50Z,OPS-WS-08,ACME\jsmith,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00412,2026-09-10T04:59:25Z,ENG-WS-17,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00132,2026-09-10T05:10:45Z,SCCM-01,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00387,2026-09-10T05:20:23Z,OPS-WS-08,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00147,2026-09-10T05:22:09Z,SCCM-01,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00475,2026-09-10T05:35:13Z,FILE-03,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00444,2026-09-10T05:44:31Z,FILE-03,ACME\svc_sccm,read,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00252,2026-09-10T06:03:20Z,SCCM-01,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00330,2026-09-10T06:04:35Z,JUMP-01,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00327,2026-09-10T06:06:33Z,FILE-03,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00290,2026-09-10T06:20:24Z,OPS-WS-08,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00150,2026-09-10T06:26:02Z,APP-06,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00227,2026-09-10T06:48:18Z,JUMP-01,ACME\mturner,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00488,2026-09-10T07:05:02Z,JUMP-01,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00071,2026-09-10T07:20:24Z,ENG-WS-17,ACME\adavis,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00259,2026-09-10T07:32:41Z,APP-06,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00171,2026-09-10T07:34:17Z,OPS-WS-08,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00146,2026-09-10T07:36:55Z,ENG-WS-17,ACME\adavis,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00410,2026-09-10T07:52:31Z,APP-06,ACME\mturner,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00495,2026-09-10T08:15:06Z,DC-01,ACME\adavis,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00068,2026-09-10T08:22:32Z,SCCM-01,ACME\svc_sccm,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00060,2026-09-10T08:23:47Z,APP-06,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00348,2026-09-10T08:43:25Z,ENG-WS-17,ACME\jsmith,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00313,2026-09-10T08:57:44Z,OPS-WS-08,ACME\mturner,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00254,2026-09-10T09:03:47Z,SCCM-01,ACME\svc_sccm,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00122,2026-09-10T09:04:08Z,SCCM-01,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00188,2026-09-10T09:30:07Z,JUMP-01,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00110,2026-09-10T09:39:15Z,ENG-WS-17,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00201,2026-09-10T09:39:17Z,FILE-03,ACME\mturner,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00179,2026-09-10T10:18:01Z,JUMP-01,ACME\adavis,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00026,2026-09-10T10:21:25Z,OPS-WS-08,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00205,2026-09-10T10:26:46Z,JUMP-01,ACME\mturner,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00337,2026-09-10T10:28:48Z,ENG-WS-17,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00153,2026-09-10T10:33:02Z,FILE-03,ACME\jsmith,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00099,2026-09-10T10:47:21Z,SCCM-01,ACME\adavis,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00091,2026-09-10T10:47:59Z,JUMP-01,ACME\mturner,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00174,2026-09-10T11:06:09Z,ENG-WS-17,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00255,2026-09-10T11:10:07Z,ENG-WS-17,ACME\jsmith,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00466,2026-09-10T11:14:55Z,DC-01,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00455,2026-09-10T11:40:07Z,DC-01,ACME\adavis,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00028,2026-09-10T11:51:48Z,OPS-WS-08,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00121,2026-09-10T11:55:21Z,FILE-03,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00324,2026-09-10T12:30:52Z,SCCM-01,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00156,2026-09-10T12:35:56Z,SCCM-01,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00126,2026-09-10T12:40:24Z,OPS-WS-08,ACME\jsmith,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00280,2026-09-10T12:52:37Z,DC-01,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00008,2026-09-10T13:00:00Z,ENG-WS-17,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00225,2026-09-10T13:01:24Z,DC-01,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00485,2026-09-10T13:08:40Z,DC-01,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00117,2026-09-10T13:33:50Z,JUMP-01,ACME\jsmith,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00385,2026-09-10T13:39:36Z,DC-01,ACME\mturner,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00291,2026-09-10T13:48:19Z,DC-01,ACME\mturner,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00024,2026-09-10T14:04:11Z,ENG-WS-17,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00345,2026-09-10T14:32:32Z,ENG-WS-17,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00029,2026-09-10T14:51:42Z,JUMP-01,ACME\jsmith,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00211,2026-09-10T14:51:44Z,ENG-WS-17,ACME\mturner,read,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00189,2026-09-10T15:10:35Z,APP-06,ACME\mturner,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00458,2026-09-10T15:16:00Z,DC-01,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00353,2026-09-10T15:44:22Z,ENG-WS-17,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00010,2026-09-10T15:52:54Z,SCCM-01,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00447,2026-09-10T16:45:13Z,FILE-03,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00124,2026-09-10T17:00:44Z,FILE-03,ACME\mturner,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00072,2026-09-10T17:04:15Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00220,2026-09-10T17:18:19Z,OPS-WS-08,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00422,2026-09-10T17:25:34Z,FILE-03,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00469,2026-09-10T17:46:08Z,OPS-WS-08,ACME\jsmith,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00352,2026-09-10T17:54:03Z,DC-01,ACME\adavis,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00216,2026-09-10T17:58:35Z,FILE-03,ACME\mturner,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00138,2026-09-10T18:01:32Z,SCCM-01,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00075,2026-09-10T18:17:33Z,ENG-WS-17,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00015,2026-09-10T18:25:02Z,APP-06,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00499,2026-09-10T18:32:23Z,SCCM-01,ACME\mturner,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00343,2026-09-10T18:32:43Z,SCCM-01,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00439,2026-09-10T18:42:47Z,FILE-03,ACME\adavis,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00474,2026-09-10T18:57:01Z,OPS-WS-08,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00413,2026-09-10T19:02:32Z,OPS-WS-08,NT AUTHORITY\SYSTEM,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00246,2026-09-10T19:02:47Z,JUMP-01,ACME\mturner,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00322,2026-09-10T19:16:21Z,OPS-WS-08,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00184,2026-09-10T20:05:31Z,APP-06,ACME\mturner,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00081,2026-09-10T20:45:49Z,SCCM-01,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00100,2026-09-10T20:56:26Z,SCCM-01,ACME\jsmith,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00070,2026-09-10T21:07:36Z,SCCM-01,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00077,2026-09-10T21:09:23Z,SCCM-01,ACME\jsmith,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00243,2026-09-10T21:11:16Z,ENG-WS-17,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00380,2026-09-10T21:28:28Z,OPS-WS-08,ACME\svc_sccm,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00464,2026-09-10T21:36:31Z,OPS-WS-08,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00278,2026-09-10T21:42:56Z,OPS-WS-08,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00384,2026-09-10T21:50:19Z,JUMP-01,ACME\svc_sccm,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00190,2026-09-10T21:51:14Z,ENG-WS-17,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00282,2026-09-10T21:52:44Z,DC-01,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00157,2026-09-10T21:53:22Z,ENG-WS-17,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00341,2026-09-10T22:01:11Z,ENG-WS-17,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00383,2026-09-10T22:15:45Z,FILE-03,ACME\jsmith,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00424,2026-09-10T22:44:19Z,OPS-WS-08,NT AUTHORITY\SYSTEM,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00155,2026-09-10T22:53:33Z,FILE-03,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00484,2026-09-10T22:58:52Z,ENG-WS-17,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00048,2026-09-10T23:09:14Z,SCCM-01,ACME\jsmith,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00095,2026-09-10T23:13:31Z,OPS-WS-08,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00082,2026-09-10T23:20:30Z,JUMP-01,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00308,2026-09-10T23:21:48Z,APP-06,ACME\jsmith,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00193,2026-09-10T23:27:17Z,APP-06,ACME\mturner,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00459,2026-09-10T23:49:15Z,ENG-WS-17,ACME\adavis,modify,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00293,2026-09-10T23:51:12Z,JUMP-01,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00074,2026-09-11T00:12:49Z,ENG-WS-17,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00230,2026-09-11T00:21:58Z,SCCM-01,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00090,2026-09-11T00:24:22Z,FILE-03,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00106,2026-09-11T00:27:05Z,APP-06,ACME\mturner,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00164,2026-09-11T00:29:56Z,ENG-WS-17,ACME\adavis,create,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00007,2026-09-11T00:43:45Z,JUMP-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00086,2026-09-11T00:53:10Z,FILE-03,ACME\mturner,read,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00037,2026-09-11T00:56:58Z,FILE-03,ACME\mturner,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00141,2026-09-11T01:01:18Z,JUMP-01,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00264,2026-09-11T01:08:31Z,ENG-WS-17,ACME\mturner,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00368,2026-09-11T01:17:41Z,DC-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00270,2026-09-11T01:21:59Z,OPS-WS-08,ACME\jsmith,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00415,2026-09-11T01:32:12Z,JUMP-01,ACME\svc_sccm,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00317,2026-09-11T01:55:16Z,ENG-WS-17,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00131,2026-09-11T02:07:28Z,APP-06,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00374,2026-09-11T02:36:23Z,DC-01,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00116,2026-09-11T02:47:06Z,DC-01,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00196,2026-09-11T02:51:04Z,OPS-WS-08,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00480,2026-09-11T02:51:40Z,APP-06,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00226,2026-09-11T03:06:05Z,DC-01,ACME\mturner,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00041,2026-09-11T03:14:49Z,SCCM-01,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00052,2026-09-11T03:15:04Z,ENG-WS-17,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00333,2026-09-11T03:15:27Z,SCCM-01,ACME\mturner,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00302,2026-09-11T03:21:54Z,APP-06,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00358,2026-09-11T03:22:37Z,DC-01,ACME\svc_sccm,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00253,2026-09-11T03:28:13Z,OPS-WS-08,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00177,2026-09-11T03:33:59Z,JUMP-01,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00104,2026-09-11T03:37:27Z,DC-01,ACME\adavis,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00398,2026-09-11T03:45:52Z,JUMP-01,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00128,2026-09-11T03:46:23Z,DC-01,ACME\jsmith,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00053,2026-09-11T03:52:12Z,ENG-WS-17,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00454,2026-09-11T03:59:47Z,FILE-03,ACME\mturner,create,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00022,2026-09-11T04:01:03Z,DC-01,NT AUTHORITY\SYSTEM,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00167,2026-09-11T04:13:01Z,FILE-03,ACME\jsmith,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00426,2026-09-11T04:21:08Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00257,2026-09-11T04:27:16Z,DC-01,ACME\mturner,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00236,2026-09-11T04:37:03Z,SCCM-01,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00450,2026-09-11T04:54:46Z,OPS-WS-08,ACME\adavis,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00318,2026-09-11T05:15:54Z,APP-06,ACME\jsmith,create,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00135,2026-09-11T05:16:56Z,DC-01,ACME\jsmith,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00203,2026-09-11T05:26:34Z,APP-06,NT AUTHORITY\SYSTEM,modify,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00388,2026-09-11T05:27:02Z,DC-01,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00233,2026-09-11T05:33:50Z,DC-01,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00206,2026-09-11T05:34:51Z,OPS-WS-08,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00025,2026-09-11T05:44:04Z,OPS-WS-08,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00366,2026-09-11T05:47:32Z,OPS-WS-08,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00362,2026-09-11T05:57:15Z,OPS-WS-08,ACME\svc_sccm,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00360,2026-09-11T06:21:26Z,ENG-WS-17,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00281,2026-09-11T06:30:25Z,OPS-WS-08,ACME\svc_sccm,read,C:\Windows\Temp\setup.log,CcmExec.exe,benign,routine file activity
+FILE-00465,2026-09-11T06:51:28Z,APP-06,ACME\jsmith,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00031,2026-09-11T06:59:47Z,DC-01,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00319,2026-09-11T07:13:55Z,JUMP-01,ACME\svc_sccm,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00316,2026-09-11T07:15:55Z,OPS-WS-08,ACME\mturner,modify,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00036,2026-09-11T07:36:17Z,DC-01,ACME\mturner,modify,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00393,2026-09-11T07:50:27Z,SCCM-01,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00371,2026-09-11T08:13:35Z,ENG-WS-17,ACME\svc_sccm,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00396,2026-09-11T08:16:27Z,DC-01,ACME\adavis,create,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00185,2026-09-11T08:18:06Z,DC-01,NT AUTHORITY\SYSTEM,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00440,2026-09-11T08:21:12Z,OPS-WS-08,ACME\jsmith,read,C:\Program Files\ACME\Inventory\state.db,msiexec.exe,benign,routine file activity
+FILE-00009,2026-09-11T08:30:46Z,JUMP-01,NT AUTHORITY\SYSTEM,read,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00443,2026-09-11T08:42:01Z,APP-06,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00336,2026-09-11T08:44:09Z,APP-06,ACME\adavis,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00021,2026-09-11T08:51:10Z,ENG-WS-17,ACME\jsmith,modify,C:\Windows\CCM\Logs\AppEnforce.log,powershell.exe,benign,routine file activity
+FILE-00365,2026-09-11T08:54:40Z,SCCM-01,ACME\jsmith,read,C:\Windows\CCM\Logs\AppEnforce.log,inventorysvc.exe,benign,routine file activity
+FILE-00299,2026-09-11T09:42:45Z,APP-06,ACME\svc_sccm,read,C:\Program Files\ACME\Inventory\state.db,inventorysvc.exe,benign,routine file activity
+FILE-00272,2026-09-11T09:46:20Z,FILE-03,ACME\adavis,create,C:\Program Files\ACME\Inventory\state.db,powershell.exe,benign,routine file activity
+FILE-00351,2026-09-11T10:22:11Z,SCCM-01,ACME\jsmith,modify,C:\Windows\CCM\Logs\AppEnforce.log,msiexec.exe,benign,routine file activity
+FILE-00161,2026-09-11T10:32:28Z,FILE-03,ACME\jsmith,create,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00355,2026-09-11T10:47:23Z,SCCM-01,NT AUTHORITY\SYSTEM,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00232,2026-09-11T11:16:09Z,OPS-WS-08,NT AUTHORITY\SYSTEM,modify,C:\Windows\Temp\setup.log,powershell.exe,benign,routine file activity
+FILE-00346,2026-09-11T11:35:55Z,JUMP-01,ACME\mturner,read,C:\Program Files\ACME\Inventory\state.db,CcmExec.exe,benign,routine file activity
+FILE-00277,2026-09-11T11:39:55Z,JUMP-01,ACME\adavis,modify,C:\Windows\Temp\setup.log,inventorysvc.exe,benign,routine file activity
+FILE-00057,2026-09-11T11:42:46Z,JUMP-01,NT AUTHORITY\SYSTEM,create,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity
+FILE-00300,2026-09-11T11:55:31Z,ENG-WS-17,ACME\svc_sccm,create,C:\Windows\Temp\setup.log,msiexec.exe,benign,routine file activity
+FILE-00486,2026-09-11T11:59:37Z,OPS-WS-08,ACME\svc_sccm,modify,C:\Windows\CCM\Logs\AppEnforce.log,CcmExec.exe,benign,routine file activity

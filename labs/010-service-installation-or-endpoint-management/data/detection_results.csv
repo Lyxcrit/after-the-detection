@@ -1,0 +1,501 @@
+detection_id,_time,severity,title,host,user,classification,note
+ATD-010-00538,2026-09-07T12:33:47Z,medium,Service Change Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00199,2026-09-07T12:34:37Z,low,Service Change Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00266,2026-09-07T12:39:15Z,medium,Software Deployment Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00512,2026-09-07T12:41:35Z,low,Service Change Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00221,2026-09-07T12:52:59Z,medium,Software Deployment Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00111,2026-09-07T12:54:35Z,low,Service Change Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00436,2026-09-07T12:56:20Z,medium,Service Change Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00119,2026-09-07T13:02:50Z,medium,Service Change Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00316,2026-09-07T13:19:23Z,low,Software Deployment Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00446,2026-09-07T13:55:31Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00456,2026-09-07T13:56:40Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00183,2026-09-07T14:00:35Z,medium,Unsigned Binary Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-001,2026-09-07T14:18:00Z,medium,New Auto-Start Service Installed,ENG-WS-17,ACME\adavis,investigate,support-sounding service installed
+ATD-010-002,2026-09-07T14:18:12Z,high,Unsigned Service Binary Started,ENG-WS-17,NT AUTHORITY\SYSTEM,investigate,service starts from ProgramData
+ATD-010-00377,2026-09-07T14:18:16Z,low,Service Change Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-003,2026-09-07T14:18:41Z,high,New Service Opens External TLS,ENG-WS-17,NT AUTHORITY\SYSTEM,investigate,supportsvc.exe connects externally
+ATD-010-004,2026-09-07T14:25:00Z,medium,Endpoint Management Installs Service,APP-06,ACME\svc_sccm,benign,approved SCCM deployment
+ATD-010-00215,2026-09-07T14:26:17Z,low,Unsigned Binary Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-005,2026-09-07T14:32:00Z,medium,Responder Disables Service,ENG-WS-17,ACME\jsmith,response,service preserved then disabled
+ATD-010-006,2026-09-07T14:35:00Z,high,Service Persistence Scope Review,ENG-WS-17,ACME\adavis,decision,persistence confirmed on ENG-WS-17; propagation unproven
+ATD-010-00135,2026-09-07T14:39:55Z,medium,Service Change Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00548,2026-09-07T14:42:29Z,medium,Service Change Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00437,2026-09-07T14:51:02Z,medium,Service Change Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00579,2026-09-07T14:51:31Z,low,Service Change Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00433,2026-09-07T14:53:12Z,low,Software Deployment Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00346,2026-09-07T15:34:06Z,medium,Software Deployment Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00577,2026-09-07T15:38:59Z,low,Unsigned Binary Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00363,2026-09-07T15:43:22Z,medium,Software Deployment Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00185,2026-09-07T15:43:31Z,medium,Software Deployment Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00466,2026-09-07T15:50:43Z,low,Software Deployment Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00591,2026-09-07T16:01:18Z,medium,Service Change Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00554,2026-09-07T16:01:38Z,medium,Service Change Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00402,2026-09-07T16:07:16Z,medium,Unsigned Binary Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00304,2026-09-07T16:22:50Z,low,Software Deployment Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00151,2026-09-07T16:37:34Z,medium,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00410,2026-09-07T16:39:21Z,medium,Software Deployment Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00252,2026-09-07T16:42:44Z,low,Unsigned Binary Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00311,2026-09-07T16:56:01Z,medium,Service Change Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00341,2026-09-07T16:57:02Z,low,Unsigned Binary Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00588,2026-09-07T17:17:03Z,medium,Unsigned Binary Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00356,2026-09-07T17:36:41Z,medium,Service Change Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00535,2026-09-07T17:43:22Z,low,Software Deployment Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00249,2026-09-07T17:46:39Z,low,Unsigned Binary Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00334,2026-09-07T17:53:36Z,low,Software Deployment Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00576,2026-09-07T18:19:44Z,low,Software Deployment Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00203,2026-09-07T18:20:30Z,medium,Service Change Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00427,2026-09-07T18:43:06Z,low,Service Change Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00594,2026-09-07T18:50:42Z,medium,Unsigned Binary Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00125,2026-09-07T18:52:32Z,medium,Unsigned Binary Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00496,2026-09-07T18:55:32Z,medium,Unsigned Binary Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00350,2026-09-07T19:02:53Z,low,Service Change Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00423,2026-09-07T19:05:42Z,low,Service Change Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00171,2026-09-07T19:17:51Z,medium,Software Deployment Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00381,2026-09-07T19:56:20Z,medium,Service Change Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00110,2026-09-07T20:02:43Z,low,Service Change Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00362,2026-09-07T20:13:24Z,low,Unsigned Binary Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00375,2026-09-07T20:51:58Z,medium,Software Deployment Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00458,2026-09-07T21:23:28Z,medium,Unsigned Binary Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00272,2026-09-07T21:34:12Z,medium,Service Change Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00179,2026-09-07T21:50:32Z,low,Software Deployment Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00308,2026-09-07T21:59:14Z,medium,Software Deployment Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00274,2026-09-07T22:23:25Z,medium,Service Change Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00372,2026-09-07T22:26:58Z,medium,Service Change Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00439,2026-09-07T22:29:22Z,medium,Unsigned Binary Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00180,2026-09-07T22:34:42Z,low,Service Change Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00435,2026-09-07T22:36:05Z,low,Service Change Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00457,2026-09-07T22:42:55Z,medium,Service Change Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00508,2026-09-08T00:06:44Z,low,Unsigned Binary Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00314,2026-09-08T00:20:22Z,medium,Service Change Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00175,2026-09-08T00:26:35Z,low,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00555,2026-09-08T00:27:29Z,low,Software Deployment Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00127,2026-09-08T00:28:59Z,low,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00188,2026-09-08T00:49:08Z,medium,Service Change Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00416,2026-09-08T01:12:44Z,low,Software Deployment Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00113,2026-09-08T01:35:08Z,low,Service Change Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00422,2026-09-08T01:54:36Z,medium,Unsigned Binary Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00241,2026-09-08T01:56:26Z,medium,Service Change Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00515,2026-09-08T02:17:12Z,medium,Service Change Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-00417,2026-09-08T02:22:21Z,medium,Service Change Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00506,2026-09-08T02:24:52Z,medium,Unsigned Binary Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00174,2026-09-08T02:41:06Z,medium,Service Change Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00366,2026-09-08T03:20:41Z,medium,Service Change Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00520,2026-09-08T03:26:44Z,low,Unsigned Binary Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00242,2026-09-08T03:32:50Z,low,Unsigned Binary Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00540,2026-09-08T03:50:42Z,low,Service Change Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00290,2026-09-08T03:58:43Z,medium,Software Deployment Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00405,2026-09-08T04:10:22Z,medium,Service Change Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00455,2026-09-08T04:14:48Z,medium,Service Change Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00118,2026-09-08T04:25:03Z,medium,Software Deployment Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00142,2026-09-08T04:26:38Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00164,2026-09-08T04:30:03Z,low,Software Deployment Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00112,2026-09-08T04:39:38Z,low,Unsigned Binary Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00313,2026-09-08T04:46:58Z,low,Unsigned Binary Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00270,2026-09-08T04:48:34Z,medium,Service Change Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00292,2026-09-08T04:59:03Z,medium,Service Change Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00589,2026-09-08T05:13:15Z,medium,Unsigned Binary Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00281,2026-09-08T05:16:27Z,low,Service Change Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00359,2026-09-08T05:25:06Z,medium,Unsigned Binary Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00243,2026-09-08T05:25:53Z,medium,Software Deployment Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00368,2026-09-08T05:48:33Z,low,Service Change Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00108,2026-09-08T06:11:36Z,low,Service Change Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00235,2026-09-08T06:13:48Z,medium,Service Change Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00163,2026-09-08T06:15:53Z,low,Unsigned Binary Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00400,2026-09-08T06:17:25Z,low,Service Change Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00398,2026-09-08T06:23:25Z,medium,Software Deployment Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-00189,2026-09-08T07:10:06Z,low,Service Change Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00205,2026-09-08T07:30:41Z,low,Software Deployment Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00517,2026-09-08T07:35:27Z,medium,Software Deployment Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00286,2026-09-08T07:52:41Z,low,Unsigned Binary Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00277,2026-09-08T08:21:54Z,medium,Software Deployment Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00378,2026-09-08T08:28:29Z,medium,Unsigned Binary Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00141,2026-09-08T08:39:42Z,medium,Service Change Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00497,2026-09-08T08:42:37Z,low,Unsigned Binary Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00236,2026-09-08T08:47:20Z,low,Unsigned Binary Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00245,2026-09-08T09:31:44Z,medium,Unsigned Binary Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00139,2026-09-08T09:44:28Z,low,Unsigned Binary Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00280,2026-09-08T10:10:53Z,medium,Software Deployment Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00300,2026-09-08T10:16:28Z,medium,Service Change Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00525,2026-09-08T10:20:19Z,medium,Software Deployment Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00154,2026-09-08T10:31:11Z,low,Software Deployment Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00441,2026-09-08T10:42:12Z,low,Service Change Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00255,2026-09-08T10:45:03Z,low,Unsigned Binary Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00553,2026-09-08T10:48:56Z,medium,Software Deployment Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00474,2026-09-08T10:51:27Z,medium,Service Change Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00121,2026-09-08T10:55:50Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00552,2026-09-08T11:05:37Z,medium,Service Change Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00384,2026-09-08T11:13:45Z,medium,Software Deployment Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00315,2026-09-08T11:23:20Z,medium,Unsigned Binary Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00148,2026-09-08T12:31:00Z,low,Service Change Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00597,2026-09-08T12:41:36Z,medium,Service Change Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00184,2026-09-08T12:44:47Z,medium,Software Deployment Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00511,2026-09-08T12:45:41Z,low,Unsigned Binary Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00469,2026-09-08T13:14:56Z,low,Service Change Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00162,2026-09-08T13:17:59Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00573,2026-09-08T13:18:07Z,low,Unsigned Binary Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00461,2026-09-08T13:27:32Z,medium,Software Deployment Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00592,2026-09-08T13:31:58Z,medium,Unsigned Binary Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00116,2026-09-08T13:47:06Z,low,Service Change Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00370,2026-09-08T13:57:12Z,low,Software Deployment Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00448,2026-09-08T14:06:44Z,medium,Service Change Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00193,2026-09-08T14:12:55Z,medium,Unsigned Binary Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00303,2026-09-08T14:31:09Z,low,Software Deployment Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-00237,2026-09-08T14:34:17Z,medium,Service Change Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00293,2026-09-08T14:37:14Z,low,Unsigned Binary Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00599,2026-09-08T14:44:40Z,medium,Service Change Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00462,2026-09-08T14:57:46Z,low,Software Deployment Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00530,2026-09-08T15:01:53Z,medium,Software Deployment Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00357,2026-09-08T15:26:49Z,low,Software Deployment Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00130,2026-09-08T15:38:17Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00407,2026-09-08T15:49:04Z,low,Software Deployment Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00246,2026-09-08T15:51:06Z,medium,Software Deployment Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00338,2026-09-08T15:57:06Z,low,Unsigned Binary Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00429,2026-09-08T16:04:19Z,low,Service Change Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00256,2026-09-08T16:06:03Z,low,Service Change Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00532,2026-09-08T16:20:45Z,low,Unsigned Binary Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00533,2026-09-08T16:26:21Z,low,Unsigned Binary Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00156,2026-09-08T16:37:13Z,medium,Service Change Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00450,2026-09-08T16:50:30Z,low,Service Change Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00442,2026-09-08T17:14:34Z,medium,Software Deployment Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00528,2026-09-08T17:16:25Z,medium,Software Deployment Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00389,2026-09-08T17:25:56Z,medium,Service Change Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00486,2026-09-08T17:41:13Z,medium,Unsigned Binary Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00578,2026-09-08T17:50:55Z,low,Service Change Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00395,2026-09-08T18:01:45Z,low,Unsigned Binary Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00213,2026-09-08T18:02:30Z,low,Software Deployment Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00371,2026-09-08T18:04:22Z,medium,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00539,2026-09-08T18:16:25Z,medium,Service Change Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00413,2026-09-08T18:27:35Z,low,Service Change Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00473,2026-09-08T18:39:00Z,low,Unsigned Binary Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00254,2026-09-08T19:01:44Z,low,Service Change Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00349,2026-09-08T19:19:47Z,low,Software Deployment Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00342,2026-09-08T19:20:39Z,low,Unsigned Binary Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00445,2026-09-08T19:35:17Z,medium,Unsigned Binary Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00332,2026-09-08T19:51:22Z,medium,Software Deployment Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00571,2026-09-08T20:01:21Z,medium,Service Change Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00504,2026-09-08T20:01:22Z,medium,Service Change Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00114,2026-09-08T20:01:50Z,medium,Service Change Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00434,2026-09-08T20:02:01Z,medium,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00518,2026-09-08T20:03:32Z,low,Unsigned Binary Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00225,2026-09-08T20:03:42Z,low,Unsigned Binary Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00248,2026-09-08T20:06:55Z,medium,Software Deployment Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00483,2026-09-08T20:11:31Z,low,Service Change Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00106,2026-09-08T20:24:45Z,low,Software Deployment Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00191,2026-09-08T20:38:47Z,low,Service Change Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00265,2026-09-08T21:05:11Z,medium,Unsigned Binary Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00305,2026-09-08T21:06:08Z,low,Service Change Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00222,2026-09-08T22:16:35Z,medium,Unsigned Binary Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00369,2026-09-08T22:19:16Z,low,Software Deployment Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00324,2026-09-08T22:27:42Z,low,Service Change Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00335,2026-09-08T22:29:00Z,medium,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00288,2026-09-08T22:31:37Z,medium,Unsigned Binary Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00367,2026-09-08T22:37:53Z,medium,Service Change Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00575,2026-09-08T22:57:54Z,low,Service Change Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00219,2026-09-08T23:07:46Z,medium,Software Deployment Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00392,2026-09-08T23:11:11Z,low,Software Deployment Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00494,2026-09-08T23:17:42Z,low,Unsigned Binary Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00261,2026-09-08T23:19:49Z,medium,Unsigned Binary Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00247,2026-09-08T23:31:46Z,low,Service Change Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00534,2026-09-08T23:34:29Z,medium,Unsigned Binary Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00228,2026-09-08T23:44:56Z,low,Service Change Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00250,2026-09-08T23:46:54Z,low,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00570,2026-09-08T23:54:52Z,medium,Software Deployment Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00411,2026-09-09T00:00:44Z,low,Service Change Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00107,2026-09-09T00:03:03Z,medium,Software Deployment Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00276,2026-09-09T00:07:00Z,low,Service Change Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00537,2026-09-09T00:34:24Z,low,Unsigned Binary Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00598,2026-09-09T00:43:04Z,low,Software Deployment Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00294,2026-09-09T00:57:02Z,medium,Service Change Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00593,2026-09-09T01:05:53Z,medium,Service Change Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00523,2026-09-09T01:35:07Z,medium,Unsigned Binary Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00564,2026-09-09T01:53:21Z,low,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00207,2026-09-09T02:03:49Z,low,Service Change Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00364,2026-09-09T02:11:29Z,medium,Software Deployment Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00479,2026-09-09T02:11:30Z,low,Unsigned Binary Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00204,2026-09-09T02:14:51Z,medium,Service Change Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00158,2026-09-09T02:21:23Z,low,Software Deployment Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00172,2026-09-09T02:21:42Z,low,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00491,2026-09-09T02:25:09Z,low,Unsigned Binary Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00200,2026-09-09T02:40:21Z,medium,Unsigned Binary Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00547,2026-09-09T02:47:39Z,low,Software Deployment Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00425,2026-09-09T02:53:17Z,low,Unsigned Binary Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00298,2026-09-09T03:07:49Z,low,Service Change Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00238,2026-09-09T03:10:39Z,low,Software Deployment Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00352,2026-09-09T03:13:01Z,low,Software Deployment Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00165,2026-09-09T03:47:57Z,low,Software Deployment Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00544,2026-09-09T03:53:18Z,low,Service Change Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00190,2026-09-09T03:56:15Z,medium,Unsigned Binary Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00526,2026-09-09T04:01:18Z,low,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00481,2026-09-09T04:20:53Z,medium,Unsigned Binary Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00522,2026-09-09T04:22:45Z,low,Software Deployment Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00330,2026-09-09T04:28:51Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00115,2026-09-09T04:33:47Z,low,Software Deployment Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00202,2026-09-09T04:54:21Z,low,Service Change Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00490,2026-09-09T04:56:46Z,low,Service Change Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00153,2026-09-09T05:06:24Z,medium,Software Deployment Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00580,2026-09-09T05:10:22Z,medium,Software Deployment Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00358,2026-09-09T05:25:05Z,low,Software Deployment Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00452,2026-09-09T05:38:57Z,low,Service Change Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00484,2026-09-09T05:40:20Z,medium,Software Deployment Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00124,2026-09-09T05:41:02Z,medium,Unsigned Binary Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00109,2026-09-09T05:46:07Z,medium,Service Change Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00328,2026-09-09T05:53:10Z,low,Unsigned Binary Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00287,2026-09-09T05:55:10Z,low,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00155,2026-09-09T06:05:38Z,medium,Unsigned Binary Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00586,2026-09-09T06:16:22Z,medium,Service Change Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00472,2026-09-09T06:18:42Z,low,Service Change Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00145,2026-09-09T06:31:39Z,medium,Software Deployment Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00196,2026-09-09T06:39:18Z,medium,Unsigned Binary Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00264,2026-09-09T06:55:09Z,low,Unsigned Binary Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00336,2026-09-09T07:10:14Z,low,Service Change Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00499,2026-09-09T07:42:57Z,medium,Software Deployment Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00120,2026-09-09T07:44:55Z,low,Unsigned Binary Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00161,2026-09-09T07:51:39Z,medium,Unsigned Binary Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00173,2026-09-09T08:12:29Z,medium,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00386,2026-09-09T08:14:37Z,medium,Service Change Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00556,2026-09-09T08:53:51Z,medium,Software Deployment Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00464,2026-09-09T08:55:34Z,low,Service Change Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00233,2026-09-09T09:02:01Z,medium,Unsigned Binary Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00424,2026-09-09T09:18:30Z,low,Service Change Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00327,2026-09-09T09:28:46Z,low,Service Change Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00545,2026-09-09T09:49:10Z,medium,Service Change Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00519,2026-09-09T09:57:24Z,low,Unsigned Binary Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00123,2026-09-09T09:58:49Z,medium,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00587,2026-09-09T10:04:49Z,medium,Software Deployment Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00376,2026-09-09T10:05:02Z,low,Unsigned Binary Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00463,2026-09-09T10:07:09Z,low,Software Deployment Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00297,2026-09-09T10:15:12Z,low,Software Deployment Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00399,2026-09-09T10:18:26Z,medium,Unsigned Binary Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00258,2026-09-09T10:19:20Z,low,Software Deployment Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00348,2026-09-09T10:34:39Z,medium,Software Deployment Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00581,2026-09-09T10:40:34Z,medium,Unsigned Binary Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00418,2026-09-09T10:47:21Z,medium,Software Deployment Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00271,2026-09-09T10:56:25Z,medium,Unsigned Binary Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00159,2026-09-09T11:00:45Z,low,Service Change Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00477,2026-09-09T11:18:48Z,low,Software Deployment Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00339,2026-09-09T11:30:50Z,medium,Unsigned Binary Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00582,2026-09-09T11:42:21Z,medium,Service Change Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00157,2026-09-09T11:44:40Z,low,Software Deployment Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00536,2026-09-09T11:54:05Z,medium,Software Deployment Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00565,2026-09-09T12:06:32Z,low,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00500,2026-09-09T12:22:09Z,low,Software Deployment Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00329,2026-09-09T12:24:17Z,medium,Unsigned Binary Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-00557,2026-09-09T12:32:34Z,medium,Software Deployment Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00361,2026-09-09T12:34:19Z,medium,Unsigned Binary Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00521,2026-09-09T12:36:59Z,medium,Software Deployment Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00542,2026-09-09T13:03:26Z,low,Service Change Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00283,2026-09-09T13:07:52Z,medium,Service Change Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00567,2026-09-09T13:08:47Z,low,Service Change Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00353,2026-09-09T13:18:17Z,medium,Software Deployment Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00260,2026-09-09T13:51:35Z,low,Software Deployment Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00583,2026-09-09T13:54:08Z,low,Unsigned Binary Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00268,2026-09-09T14:08:37Z,medium,Software Deployment Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00514,2026-09-09T14:17:32Z,medium,Software Deployment Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00198,2026-09-09T14:24:39Z,low,Service Change Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00414,2026-09-09T14:26:39Z,medium,Unsigned Binary Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00347,2026-09-09T14:29:25Z,low,Unsigned Binary Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00584,2026-09-09T14:30:37Z,medium,Unsigned Binary Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00240,2026-09-09T14:35:26Z,low,Service Change Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00426,2026-09-09T15:07:51Z,medium,Unsigned Binary Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00325,2026-09-09T15:16:38Z,medium,Service Change Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00396,2026-09-09T15:35:45Z,medium,Unsigned Binary Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00186,2026-09-09T15:37:54Z,medium,Service Change Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00560,2026-09-09T15:45:20Z,medium,Unsigned Binary Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00379,2026-09-09T15:46:53Z,medium,Software Deployment Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00432,2026-09-09T15:48:34Z,low,Unsigned Binary Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00482,2026-09-09T15:58:17Z,low,Service Change Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00317,2026-09-09T16:01:55Z,low,Service Change Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00306,2026-09-09T16:10:57Z,low,Unsigned Binary Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00309,2026-09-09T16:20:18Z,low,Service Change Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00428,2026-09-09T16:41:07Z,medium,Unsigned Binary Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00224,2026-09-09T16:51:50Z,low,Software Deployment Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00187,2026-09-09T16:55:05Z,low,Unsigned Binary Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00212,2026-09-09T16:59:56Z,low,Service Change Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00510,2026-09-09T17:02:14Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00307,2026-09-09T17:13:10Z,medium,Service Change Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00590,2026-09-09T18:09:01Z,medium,Service Change Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00476,2026-09-09T18:09:56Z,medium,Service Change Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00195,2026-09-09T18:41:30Z,low,Service Change Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00503,2026-09-09T18:52:39Z,low,Unsigned Binary Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00516,2026-09-09T19:00:29Z,medium,Service Change Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00421,2026-09-09T19:05:17Z,low,Service Change Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00201,2026-09-09T19:24:55Z,low,Unsigned Binary Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00131,2026-09-09T19:53:32Z,low,Service Change Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00230,2026-09-09T20:02:13Z,medium,Service Change Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00211,2026-09-09T20:04:56Z,low,Software Deployment Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00149,2026-09-09T20:24:20Z,low,Unsigned Binary Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00549,2026-09-09T20:35:12Z,low,Unsigned Binary Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-00412,2026-09-09T20:36:31Z,medium,Software Deployment Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00269,2026-09-09T20:59:52Z,low,Service Change Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00333,2026-09-09T21:36:46Z,medium,Service Change Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00310,2026-09-09T21:51:22Z,medium,Software Deployment Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00393,2026-09-09T21:56:15Z,medium,Unsigned Binary Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00244,2026-09-09T22:15:26Z,low,Unsigned Binary Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00178,2026-09-09T22:16:35Z,low,Service Change Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00150,2026-09-09T22:31:22Z,low,Service Change Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00251,2026-09-09T22:46:26Z,low,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00388,2026-09-09T22:53:14Z,low,Service Change Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00208,2026-09-09T23:05:43Z,medium,Service Change Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-00467,2026-09-09T23:13:54Z,medium,Software Deployment Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00295,2026-09-09T23:53:48Z,low,Unsigned Binary Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00397,2026-09-09T23:59:40Z,low,Service Change Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00485,2026-09-10T00:39:19Z,low,Unsigned Binary Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00345,2026-09-10T01:13:47Z,medium,Software Deployment Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00419,2026-09-10T01:40:17Z,low,Unsigned Binary Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00214,2026-09-10T01:41:30Z,medium,Software Deployment Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00480,2026-09-10T01:41:34Z,low,Unsigned Binary Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00169,2026-09-10T01:47:11Z,low,Software Deployment Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00505,2026-09-10T01:50:26Z,low,Software Deployment Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00126,2026-09-10T02:05:52Z,low,Software Deployment Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00355,2026-09-10T03:16:57Z,low,Service Change Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00167,2026-09-10T03:29:30Z,low,Service Change Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00223,2026-09-10T03:32:45Z,medium,Software Deployment Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00471,2026-09-10T03:49:10Z,low,Software Deployment Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00468,2026-09-10T04:16:18Z,low,Service Change Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00562,2026-09-10T04:17:50Z,medium,Unsigned Binary Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00289,2026-09-10T04:45:44Z,medium,Service Change Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00194,2026-09-10T04:48:25Z,medium,Service Change Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00390,2026-09-10T04:53:56Z,low,Software Deployment Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00531,2026-09-10T05:45:44Z,low,Software Deployment Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00147,2026-09-10T05:47:50Z,medium,Software Deployment Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00551,2026-09-10T05:56:51Z,low,Unsigned Binary Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00218,2026-09-10T06:12:34Z,medium,Software Deployment Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00572,2026-09-10T06:19:02Z,medium,Software Deployment Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00322,2026-09-10T06:22:31Z,medium,Unsigned Binary Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00166,2026-09-10T06:28:51Z,low,Unsigned Binary Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00404,2026-09-10T06:30:34Z,low,Unsigned Binary Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00312,2026-09-10T07:16:08Z,low,Service Change Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00440,2026-09-10T08:31:40Z,low,Unsigned Binary Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00487,2026-09-10T08:32:03Z,medium,Unsigned Binary Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00492,2026-09-10T08:38:15Z,medium,Software Deployment Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00524,2026-09-10T09:02:03Z,medium,Software Deployment Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00263,2026-09-10T09:14:06Z,medium,Service Change Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00574,2026-09-10T09:15:59Z,medium,Software Deployment Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00181,2026-09-10T09:21:18Z,medium,Unsigned Binary Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00360,2026-09-10T09:36:50Z,medium,Software Deployment Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00460,2026-09-10T09:45:46Z,low,Service Change Review,FILE-03,ACME\adavis,context,background detection
+ATD-010-00231,2026-09-10T09:46:55Z,medium,Software Deployment Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00234,2026-09-10T09:50:13Z,low,Software Deployment Review,APP-06,ACME\jsmith,context,background detection
+ATD-010-00220,2026-09-10T09:50:45Z,low,Service Change Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00296,2026-09-10T09:55:42Z,medium,Service Change Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00278,2026-09-10T10:34:44Z,medium,Software Deployment Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00170,2026-09-10T10:52:37Z,low,Unsigned Binary Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00136,2026-09-10T11:11:10Z,medium,Software Deployment Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00459,2026-09-10T11:12:13Z,low,Service Change Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00385,2026-09-10T11:17:20Z,low,Software Deployment Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00326,2026-09-10T11:18:12Z,medium,Unsigned Binary Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00383,2026-09-10T11:27:22Z,low,Unsigned Binary Review,JUMP-01,ACME\svc_sccm,context,background detection
+ATD-010-00239,2026-09-10T11:45:37Z,medium,Software Deployment Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00284,2026-09-10T11:59:29Z,low,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00282,2026-09-10T12:13:44Z,low,Service Change Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00138,2026-09-10T12:16:25Z,medium,Service Change Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00140,2026-09-10T12:25:18Z,medium,Unsigned Binary Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00498,2026-09-10T12:26:35Z,medium,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00563,2026-09-10T12:28:29Z,medium,Software Deployment Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00453,2026-09-10T12:49:04Z,medium,Service Change Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00216,2026-09-10T12:57:07Z,medium,Software Deployment Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00527,2026-09-10T13:02:37Z,medium,Unsigned Binary Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00299,2026-09-10T13:18:51Z,low,Software Deployment Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00403,2026-09-10T13:43:02Z,medium,Software Deployment Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00420,2026-09-10T13:46:58Z,low,Software Deployment Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00351,2026-09-10T13:57:46Z,low,Service Change Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00470,2026-09-10T14:04:17Z,medium,Software Deployment Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00152,2026-09-10T14:18:04Z,low,Unsigned Binary Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-00488,2026-09-10T14:18:44Z,medium,Unsigned Binary Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00454,2026-09-10T14:35:19Z,low,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00340,2026-09-10T14:41:40Z,low,Service Change Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00380,2026-09-10T14:44:06Z,medium,Unsigned Binary Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00541,2026-09-10T14:53:59Z,medium,Software Deployment Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00344,2026-09-10T15:01:36Z,low,Unsigned Binary Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00192,2026-09-10T15:03:31Z,low,Unsigned Binary Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00444,2026-09-10T15:11:44Z,medium,Service Change Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00177,2026-09-10T15:28:59Z,medium,Unsigned Binary Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00451,2026-09-10T15:30:32Z,low,Unsigned Binary Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00561,2026-09-10T15:42:50Z,low,Service Change Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00401,2026-09-10T15:43:34Z,medium,Unsigned Binary Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00443,2026-09-10T15:49:34Z,low,Unsigned Binary Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00566,2026-09-10T16:19:37Z,low,Service Change Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00226,2026-09-10T16:26:49Z,medium,Unsigned Binary Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00569,2026-09-10T17:45:15Z,medium,Service Change Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00301,2026-09-10T17:46:58Z,low,Unsigned Binary Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00430,2026-09-10T18:00:44Z,low,Software Deployment Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00117,2026-09-10T18:05:02Z,medium,Unsigned Binary Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00431,2026-09-10T18:38:00Z,low,Software Deployment Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00134,2026-09-10T18:57:32Z,low,Unsigned Binary Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00337,2026-09-10T18:58:47Z,medium,Service Change Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00279,2026-09-10T19:12:06Z,medium,Software Deployment Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00596,2026-09-10T19:19:03Z,medium,Software Deployment Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00217,2026-09-10T19:28:44Z,low,Software Deployment Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00321,2026-09-10T19:50:17Z,medium,Service Change Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00143,2026-09-10T19:51:40Z,medium,Software Deployment Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00137,2026-09-10T19:54:51Z,medium,Software Deployment Review,FILE-03,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00415,2026-09-10T20:09:33Z,medium,Service Change Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00302,2026-09-10T21:28:04Z,low,Service Change Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00529,2026-09-10T21:29:03Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00227,2026-09-10T21:46:05Z,medium,Service Change Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00323,2026-09-10T21:50:26Z,medium,Service Change Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00387,2026-09-10T22:11:32Z,low,Unsigned Binary Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00275,2026-09-10T22:16:13Z,low,Software Deployment Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00331,2026-09-10T22:18:29Z,low,Software Deployment Review,ENG-WS-17,ACME\jsmith,context,background detection
+ATD-010-00144,2026-09-10T22:44:53Z,medium,Service Change Review,JUMP-01,ACME\mturner,context,background detection
+ATD-010-00568,2026-09-10T22:46:15Z,low,Software Deployment Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00447,2026-09-10T23:50:35Z,low,Unsigned Binary Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00182,2026-09-10T23:58:45Z,medium,Service Change Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00438,2026-09-11T00:00:40Z,medium,Service Change Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00543,2026-09-11T00:03:00Z,medium,Software Deployment Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00559,2026-09-11T00:05:45Z,low,Service Change Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00262,2026-09-11T00:17:06Z,low,Software Deployment Review,SCCM-01,ACME\adavis,context,background detection
+ATD-010-00209,2026-09-11T00:38:35Z,low,Service Change Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-00502,2026-09-11T00:53:17Z,low,Software Deployment Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00210,2026-09-11T00:53:20Z,low,Software Deployment Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00229,2026-09-11T01:09:06Z,low,Software Deployment Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00595,2026-09-11T01:29:03Z,low,Service Change Review,OPS-WS-08,ACME\jsmith,context,background detection
+ATD-010-00501,2026-09-11T01:44:15Z,low,Unsigned Binary Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00489,2026-09-11T01:51:27Z,low,Unsigned Binary Review,ENG-WS-17,ACME\adavis,context,background detection
+ATD-010-00513,2026-09-11T01:59:49Z,medium,Unsigned Binary Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00259,2026-09-11T02:04:34Z,medium,Software Deployment Review,JUMP-01,ACME\jsmith,context,background detection
+ATD-010-00291,2026-09-11T02:12:26Z,low,Service Change Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00197,2026-09-11T02:17:01Z,low,Software Deployment Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00493,2026-09-11T03:02:57Z,medium,Software Deployment Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00394,2026-09-11T03:39:41Z,low,Unsigned Binary Review,DC-01,ACME\jsmith,context,background detection
+ATD-010-00128,2026-09-11T03:39:48Z,low,Software Deployment Review,DC-01,ACME\mturner,context,background detection
+ATD-010-00373,2026-09-11T03:52:22Z,medium,Unsigned Binary Review,APP-06,ACME\adavis,context,background detection
+ATD-010-00122,2026-09-11T04:10:22Z,low,Software Deployment Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00365,2026-09-11T04:31:54Z,low,Software Deployment Review,OPS-WS-08,ACME\svc_sccm,context,background detection
+ATD-010-00320,2026-09-11T04:32:31Z,low,Service Change Review,JUMP-01,ACME\adavis,context,background detection
+ATD-010-00546,2026-09-11T04:34:27Z,medium,Software Deployment Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00406,2026-09-11T04:34:35Z,medium,Service Change Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00168,2026-09-11T04:45:08Z,medium,Unsigned Binary Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00273,2026-09-11T05:10:09Z,medium,Software Deployment Review,APP-06,ACME\svc_sccm,context,background detection
+ATD-010-00133,2026-09-11T05:36:25Z,low,Unsigned Binary Review,OPS-WS-08,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00409,2026-09-11T05:44:44Z,low,Unsigned Binary Review,ENG-WS-17,ACME\mturner,context,background detection
+ATD-010-00129,2026-09-11T05:53:11Z,medium,Unsigned Binary Review,ENG-WS-17,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00475,2026-09-11T06:04:02Z,low,Service Change Review,SCCM-01,ACME\svc_sccm,context,background detection
+ATD-010-00382,2026-09-11T06:16:39Z,medium,Service Change Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00465,2026-09-11T06:27:57Z,medium,Software Deployment Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00253,2026-09-11T06:32:20Z,medium,Unsigned Binary Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00343,2026-09-11T06:37:27Z,low,Software Deployment Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00558,2026-09-11T06:48:22Z,low,Service Change Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00550,2026-09-11T07:00:53Z,low,Software Deployment Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00267,2026-09-11T07:07:21Z,medium,Service Change Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00160,2026-09-11T07:10:13Z,medium,Unsigned Binary Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00232,2026-09-11T07:12:12Z,low,Software Deployment Review,DC-01,ACME\svc_sccm,context,background detection
+ATD-010-00206,2026-09-11T07:17:05Z,medium,Service Change Review,APP-06,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00391,2026-09-11T07:18:44Z,medium,Software Deployment Review,DC-01,ACME\adavis,context,background detection
+ATD-010-00319,2026-09-11T07:29:03Z,low,Service Change Review,FILE-03,ACME\mturner,context,background detection
+ATD-010-00257,2026-09-11T07:35:58Z,medium,Software Deployment Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00495,2026-09-11T07:41:31Z,low,Unsigned Binary Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00408,2026-09-11T08:32:04Z,medium,Software Deployment Review,FILE-03,ACME\svc_sccm,context,background detection
+ATD-010-00132,2026-09-11T08:48:32Z,medium,Unsigned Binary Review,DC-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00176,2026-09-11T08:57:55Z,low,Unsigned Binary Review,OPS-WS-08,ACME\mturner,context,background detection
+ATD-010-00285,2026-09-11T09:48:55Z,medium,Unsigned Binary Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00449,2026-09-11T10:05:22Z,low,Software Deployment Review,JUMP-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00509,2026-09-11T10:28:12Z,low,Software Deployment Review,SCCM-01,ACME\mturner,context,background detection
+ATD-010-00146,2026-09-11T11:03:18Z,low,Service Change Review,SCCM-01,ACME\jsmith,context,background detection
+ATD-010-00478,2026-09-11T11:07:14Z,low,Software Deployment Review,SCCM-01,NT AUTHORITY\SYSTEM,context,background detection
+ATD-010-00318,2026-09-11T11:11:58Z,medium,Software Deployment Review,FILE-03,ACME\jsmith,context,background detection
+ATD-010-00585,2026-09-11T11:14:09Z,medium,Service Change Review,OPS-WS-08,ACME\adavis,context,background detection
+ATD-010-00374,2026-09-11T11:24:52Z,low,Service Change Review,APP-06,ACME\mturner,context,background detection
+ATD-010-00507,2026-09-11T11:36:57Z,medium,Software Deployment Review,ENG-WS-17,ACME\svc_sccm,context,background detection
+ATD-010-00354,2026-09-11T11:56:59Z,medium,Unsigned Binary Review,JUMP-01,ACME\adavis,context,background detection
