@@ -1,0 +1,501 @@
+detection_id,_time,severity,title,host,user,classification,note
+ATD11-0580,2026-09-14T12:03:52Z,low,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0530,2026-09-14T12:06:02Z,medium,Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0561,2026-09-14T12:13:51Z,medium,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0449,2026-09-14T12:16:01Z,low,Application Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0498,2026-09-14T12:27:29Z,low,Policy Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0163,2026-09-14T12:40:39Z,medium,Policy Review,DC-01,SYSTEM,context,background
+ATD11-0514,2026-09-14T12:48:56Z,medium,Application Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0542,2026-09-14T12:52:43Z,medium,Application Startup Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0386,2026-09-14T13:17:39Z,medium,Policy Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0220,2026-09-14T13:23:09Z,low,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0179,2026-09-14T13:27:07Z,low,Application Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0191,2026-09-14T13:40:08Z,medium,Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0586,2026-09-14T13:53:47Z,medium,Policy Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0266,2026-09-14T13:53:58Z,medium,Application Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0517,2026-09-14T13:56:47Z,low,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0440,2026-09-14T14:01:46Z,medium,Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0151,2026-09-14T14:10:06Z,low,Policy Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0252,2026-09-14T14:11:49Z,low,Policy Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-001,2026-09-14T14:18:00Z,medium,New User Startup Item,FIN-WS-09,ACME\\lchen,investigate,new item requires provenance review
+ATD11-002,2026-09-14T14:30:00Z,high,Startup Item Executes Untrusted Script,FIN-WS-09,ACME\\lchen,investigate,logon execution observed
+ATD11-003,2026-09-14T14:31:00Z,high,Startup Process External TLS,FIN-WS-09,ACME\\lchen,investigate,external session from suspicious chain
+ATD11-004,2026-09-14T14:37:00Z,medium,Responder Preserves Startup Configuration,FIN-WS-09,ACME\\jsmith,response,configuration preserved
+ATD11-005,2026-09-14T14:40:00Z,high,Startup Scope Decision,FIN-WS-09,ACME\\lchen,decision,local user persistence supported; central policy compromise not supported
+ATD11-0183,2026-09-14T14:46:17Z,low,Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0543,2026-09-14T14:57:32Z,low,Application Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0209,2026-09-14T15:00:46Z,low,Application Startup Review,DC-01,SYSTEM,context,background
+ATD11-0541,2026-09-14T15:11:46Z,medium,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0546,2026-09-14T15:27:14Z,medium,Policy Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0505,2026-09-14T15:47:36Z,low,Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0504,2026-09-14T15:57:58Z,medium,Policy Review,HR-WS-04,SYSTEM,context,background
+ATD11-0156,2026-09-14T16:11:37Z,low,Application Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0276,2026-09-14T16:24:27Z,low,Policy Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0145,2026-09-14T16:25:01Z,medium,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0235,2026-09-14T16:25:20Z,medium,Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0413,2026-09-14T16:29:39Z,medium,Startup Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0111,2026-09-14T16:36:34Z,low,Policy Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0214,2026-09-14T16:39:02Z,medium,Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0316,2026-09-14T17:07:20Z,medium,Application Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0154,2026-09-14T17:21:46Z,low,Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0404,2026-09-14T17:30:39Z,medium,Application Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0294,2026-09-14T18:10:32Z,low,Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0253,2026-09-14T18:24:50Z,medium,Application Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0261,2026-09-14T18:31:36Z,medium,Policy Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0480,2026-09-14T18:50:09Z,low,Policy Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0265,2026-09-14T19:27:28Z,low,Application Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0585,2026-09-14T19:37:39Z,low,Policy Review,DC-01,ACME\\jsmith,context,background
+ATD11-0559,2026-09-14T19:38:38Z,medium,Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0379,2026-09-14T19:53:13Z,medium,Application Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0234,2026-09-14T19:58:22Z,low,Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0340,2026-09-14T20:08:18Z,low,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0110,2026-09-14T21:30:24Z,medium,Policy Review,DC-01,ACME\\lchen,context,background
+ATD11-0268,2026-09-14T21:35:06Z,low,Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0130,2026-09-14T21:38:57Z,medium,Application Startup Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0178,2026-09-14T21:47:41Z,low,Application Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0391,2026-09-14T21:57:23Z,medium,Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0459,2026-09-14T22:22:18Z,low,Policy Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0553,2026-09-14T22:23:33Z,low,Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0456,2026-09-14T22:31:35Z,medium,Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0422,2026-09-14T22:43:53Z,medium,Application Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0439,2026-09-14T23:13:48Z,medium,Application Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0368,2026-09-14T23:16:48Z,low,Application Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0293,2026-09-14T23:20:34Z,medium,Application Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0254,2026-09-14T23:25:50Z,low,Application Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0388,2026-09-14T23:44:07Z,low,Policy Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0239,2026-09-14T23:49:06Z,medium,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0375,2026-09-14T23:49:41Z,low,Policy Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0382,2026-09-14T23:50:02Z,medium,Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0229,2026-09-15T00:09:24Z,low,Policy Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0488,2026-09-15T00:37:56Z,medium,Application Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0527,2026-09-15T00:39:47Z,low,Application Startup Review,DC-01,SYSTEM,context,background
+ATD11-0105,2026-09-15T01:06:28Z,low,Application Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0492,2026-09-15T01:08:34Z,low,Policy Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0241,2026-09-15T01:25:15Z,low,Policy Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0296,2026-09-15T02:08:15Z,medium,Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0119,2026-09-15T02:40:54Z,medium,Policy Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0280,2026-09-15T02:45:45Z,low,Policy Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0286,2026-09-15T03:05:34Z,low,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0322,2026-09-15T03:13:09Z,low,Policy Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0247,2026-09-15T03:19:03Z,medium,Policy Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0324,2026-09-15T03:38:39Z,low,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0161,2026-09-15T03:39:30Z,medium,Application Startup Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0350,2026-09-15T03:43:11Z,medium,Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0255,2026-09-15T03:46:19Z,low,Policy Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0162,2026-09-15T03:49:56Z,medium,Policy Review,HR-WS-04,SYSTEM,context,background
+ATD11-0408,2026-09-15T04:15:01Z,medium,Application Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0473,2026-09-15T04:35:16Z,medium,Policy Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0118,2026-09-15T04:45:59Z,medium,Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0491,2026-09-15T04:46:49Z,low,Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0571,2026-09-15T04:56:07Z,low,Application Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0562,2026-09-15T05:05:44Z,medium,Application Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0419,2026-09-15T05:10:22Z,medium,Application Startup Review,DC-01,SYSTEM,context,background
+ATD11-0522,2026-09-15T05:10:33Z,low,Policy Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0436,2026-09-15T05:18:42Z,low,Policy Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0482,2026-09-15T05:28:04Z,medium,Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0275,2026-09-15T05:35:08Z,medium,Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0211,2026-09-15T05:37:52Z,medium,Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0557,2026-09-15T05:40:54Z,medium,Policy Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0426,2026-09-15T05:43:03Z,low,Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0469,2026-09-15T05:50:14Z,medium,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0146,2026-09-15T06:22:19Z,medium,Application Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0223,2026-09-15T06:23:15Z,medium,Application Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0242,2026-09-15T06:23:49Z,medium,Application Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0202,2026-09-15T06:27:06Z,low,Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0394,2026-09-15T06:29:14Z,low,Policy Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0283,2026-09-15T06:31:46Z,low,Application Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0282,2026-09-15T06:57:32Z,medium,Application Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0511,2026-09-15T07:15:16Z,medium,Policy Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0443,2026-09-15T07:18:31Z,low,Application Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0238,2026-09-15T07:20:08Z,low,Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0117,2026-09-15T07:25:44Z,low,Policy Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0197,2026-09-15T07:29:40Z,low,Policy Review,JUMP-01,SYSTEM,context,background
+ATD11-0497,2026-09-15T08:06:46Z,low,Application Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0446,2026-09-15T08:19:41Z,low,Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0516,2026-09-15T08:36:49Z,medium,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0444,2026-09-15T08:48:00Z,medium,Policy Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0500,2026-09-15T09:06:09Z,medium,Policy Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0454,2026-09-15T09:20:06Z,low,Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0351,2026-09-15T09:38:12Z,medium,Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0274,2026-09-15T09:47:42Z,low,Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0270,2026-09-15T09:53:24Z,low,Policy Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0393,2026-09-15T10:08:44Z,medium,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0583,2026-09-15T10:30:21Z,medium,Policy Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0455,2026-09-15T10:35:00Z,medium,Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0207,2026-09-15T10:38:26Z,medium,Policy Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0113,2026-09-15T10:41:00Z,medium,Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0506,2026-09-15T10:44:59Z,low,Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0457,2026-09-15T11:07:04Z,medium,Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0499,2026-09-15T11:08:42Z,low,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0387,2026-09-15T11:18:00Z,medium,Application Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0402,2026-09-15T11:47:47Z,medium,Policy Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0493,2026-09-15T11:47:54Z,low,Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0554,2026-09-15T12:02:47Z,medium,Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0534,2026-09-15T12:11:47Z,low,Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0526,2026-09-15T12:16:23Z,medium,Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0352,2026-09-15T12:27:14Z,medium,Application Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0390,2026-09-15T12:27:23Z,low,Policy Review,DC-01,SYSTEM,context,background
+ATD11-0186,2026-09-15T12:59:00Z,low,Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0412,2026-09-15T13:14:25Z,low,Application Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0528,2026-09-15T13:28:16Z,low,Policy Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0358,2026-09-15T13:32:02Z,medium,Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0448,2026-09-15T13:41:24Z,medium,Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0484,2026-09-15T13:43:00Z,low,Application Startup Review,DC-01,SYSTEM,context,background
+ATD11-0420,2026-09-15T13:47:01Z,medium,Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0215,2026-09-15T13:48:58Z,medium,Application Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0552,2026-09-15T13:49:28Z,medium,Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0196,2026-09-15T14:08:50Z,medium,Policy Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0385,2026-09-15T14:10:48Z,low,Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0372,2026-09-15T14:19:22Z,low,Policy Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0125,2026-09-15T15:00:53Z,low,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0341,2026-09-15T15:10:07Z,low,Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0124,2026-09-15T15:10:11Z,medium,Policy Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0236,2026-09-15T15:11:32Z,low,Application Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0141,2026-09-15T15:18:05Z,medium,Policy Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0143,2026-09-15T15:20:14Z,low,Policy Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0217,2026-09-15T15:23:46Z,medium,Policy Review,MGMT-01,SYSTEM,context,background
+ATD11-0378,2026-09-15T15:45:20Z,medium,Application Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0380,2026-09-15T16:12:36Z,low,Startup Review,DC-01,SYSTEM,context,background
+ATD11-0309,2026-09-15T16:21:33Z,low,Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0152,2026-09-15T16:56:40Z,medium,Application Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0335,2026-09-15T16:59:02Z,medium,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0291,2026-09-15T17:12:26Z,low,Application Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0144,2026-09-15T17:16:45Z,low,Startup Review,DC-01,SYSTEM,context,background
+ATD11-0490,2026-09-15T17:19:51Z,low,Policy Review,JUMP-01,SYSTEM,context,background
+ATD11-0257,2026-09-15T17:23:04Z,low,Application Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0594,2026-09-15T17:26:49Z,low,Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0287,2026-09-15T17:33:41Z,low,Application Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0206,2026-09-15T17:35:44Z,low,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0515,2026-09-15T17:43:44Z,low,Application Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0371,2026-09-15T18:05:45Z,medium,Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0401,2026-09-15T18:22:16Z,medium,Application Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0269,2026-09-15T18:33:50Z,low,Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0589,2026-09-15T18:50:18Z,medium,Application Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0525,2026-09-15T18:51:28Z,low,Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0172,2026-09-15T19:20:13Z,low,Policy Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0593,2026-09-15T19:35:49Z,low,Policy Review,MGMT-01,SYSTEM,context,background
+ATD11-0519,2026-09-15T19:44:57Z,medium,Application Startup Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0329,2026-09-15T19:56:20Z,medium,Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0218,2026-09-15T20:01:20Z,low,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0348,2026-09-15T20:28:57Z,medium,Application Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0307,2026-09-15T20:59:15Z,medium,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0320,2026-09-15T21:14:59Z,low,Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0410,2026-09-15T21:17:19Z,low,Application Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0510,2026-09-15T21:36:42Z,medium,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0495,2026-09-15T22:03:02Z,low,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0181,2026-09-15T22:05:03Z,low,Startup Review,DC-01,SYSTEM,context,background
+ATD11-0297,2026-09-15T22:05:51Z,low,Startup Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0317,2026-09-15T22:35:15Z,medium,Application Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0397,2026-09-15T22:40:39Z,low,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0166,2026-09-15T22:59:43Z,low,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0437,2026-09-15T22:59:50Z,medium,Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0570,2026-09-15T23:26:59Z,medium,Policy Review,DC-01,SYSTEM,context,background
+ATD11-0560,2026-09-15T23:32:38Z,medium,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0182,2026-09-15T23:42:37Z,medium,Policy Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0155,2026-09-15T23:51:42Z,low,Policy Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0392,2026-09-16T00:15:40Z,medium,Application Startup Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0232,2026-09-16T00:22:52Z,medium,Application Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0414,2026-09-16T00:33:34Z,low,Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0259,2026-09-16T00:34:33Z,low,Policy Review,DC-01,SYSTEM,context,background
+ATD11-0227,2026-09-16T00:37:48Z,low,Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0321,2026-09-16T01:03:43Z,low,Policy Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0431,2026-09-16T01:14:23Z,medium,Policy Review,DC-01,ACME\\lchen,context,background
+ATD11-0313,2026-09-16T01:17:10Z,medium,Policy Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0271,2026-09-16T01:41:00Z,medium,Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0199,2026-09-16T01:41:14Z,low,Policy Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0256,2026-09-16T01:44:56Z,low,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0430,2026-09-16T01:48:24Z,medium,Policy Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0548,2026-09-16T01:50:22Z,medium,Policy Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0479,2026-09-16T01:52:47Z,low,Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0415,2026-09-16T01:59:58Z,low,Policy Review,DC-01,ACME\\lchen,context,background
+ATD11-0550,2026-09-16T02:03:10Z,medium,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0104,2026-09-16T02:03:41Z,medium,Policy Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0503,2026-09-16T02:09:13Z,low,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0429,2026-09-16T03:15:28Z,medium,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0346,2026-09-16T03:25:27Z,medium,Policy Review,DC-01,SYSTEM,context,background
+ATD11-0314,2026-09-16T03:27:37Z,medium,Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0221,2026-09-16T03:28:17Z,medium,Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0417,2026-09-16T03:55:16Z,low,Policy Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0213,2026-09-16T03:57:50Z,medium,Policy Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0150,2026-09-16T04:27:46Z,low,Application Startup Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0112,2026-09-16T04:33:24Z,medium,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0315,2026-09-16T04:35:17Z,medium,Startup Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0171,2026-09-16T04:55:14Z,low,Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0250,2026-09-16T05:03:30Z,medium,Application Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0460,2026-09-16T05:10:36Z,medium,Application Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0216,2026-09-16T05:11:59Z,low,Application Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0165,2026-09-16T05:32:29Z,medium,Application Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0224,2026-09-16T05:56:36Z,medium,Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0230,2026-09-16T06:00:21Z,low,Application Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0107,2026-09-16T06:04:48Z,low,Policy Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0581,2026-09-16T06:22:29Z,low,Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0159,2026-09-16T06:28:23Z,low,Policy Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0383,2026-09-16T06:32:24Z,low,Policy Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0328,2026-09-16T06:33:25Z,medium,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0246,2026-09-16T07:00:11Z,low,Policy Review,DC-01,ACME\\jsmith,context,background
+ATD11-0330,2026-09-16T07:48:42Z,low,Application Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0201,2026-09-16T08:11:19Z,low,Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0175,2026-09-16T08:14:10Z,medium,Application Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0461,2026-09-16T08:15:18Z,medium,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0288,2026-09-16T08:23:21Z,medium,Startup Review,DC-01,SYSTEM,context,background
+ATD11-0428,2026-09-16T08:39:37Z,medium,Policy Review,JUMP-01,SYSTEM,context,background
+ATD11-0452,2026-09-16T08:40:14Z,low,Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0573,2026-09-16T08:42:13Z,low,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0192,2026-09-16T09:00:03Z,low,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0556,2026-09-16T09:14:15Z,low,Application Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0468,2026-09-16T09:20:55Z,medium,Application Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0531,2026-09-16T09:26:41Z,low,Application Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0551,2026-09-16T09:34:03Z,low,Application Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0299,2026-09-16T09:57:49Z,medium,Policy Review,DC-01,ACME\\jsmith,context,background
+ATD11-0127,2026-09-16T10:08:41Z,medium,Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0139,2026-09-16T10:19:52Z,low,Policy Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0466,2026-09-16T10:31:22Z,medium,Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0226,2026-09-16T10:46:44Z,low,Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0558,2026-09-16T10:47:50Z,low,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0121,2026-09-16T10:53:53Z,low,Application Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0463,2026-09-16T11:06:35Z,medium,Policy Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0521,2026-09-16T11:08:36Z,medium,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0411,2026-09-16T11:16:40Z,medium,Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0366,2026-09-16T11:32:38Z,low,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0310,2026-09-16T11:48:25Z,low,Policy Review,DC-01,SYSTEM,context,background
+ATD11-0311,2026-09-16T11:52:40Z,medium,Policy Review,JUMP-01,SYSTEM,context,background
+ATD11-0284,2026-09-16T11:53:17Z,low,Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0567,2026-09-16T12:01:00Z,medium,Policy Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0572,2026-09-16T12:01:37Z,low,Application Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0285,2026-09-16T12:05:04Z,medium,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0188,2026-09-16T12:13:42Z,low,Application Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0577,2026-09-16T12:23:19Z,low,Policy Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0451,2026-09-16T12:25:27Z,low,Application Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0481,2026-09-16T12:46:37Z,low,Application Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0370,2026-09-16T13:04:35Z,low,Policy Review,DC-01,SYSTEM,context,background
+ATD11-0578,2026-09-16T13:10:55Z,medium,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0458,2026-09-16T13:19:33Z,medium,Policy Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0103,2026-09-16T13:23:41Z,low,Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0434,2026-09-16T13:24:37Z,medium,Application Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0354,2026-09-16T13:34:20Z,low,Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0590,2026-09-16T13:42:15Z,low,Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0301,2026-09-16T14:09:44Z,low,Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0549,2026-09-16T14:19:15Z,medium,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0142,2026-09-16T14:23:30Z,medium,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0347,2026-09-16T14:27:29Z,low,Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0203,2026-09-16T14:47:28Z,medium,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0101,2026-09-16T14:58:01Z,medium,Application Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0263,2026-09-16T15:19:27Z,low,Policy Review,DC-01,ACME\\lchen,context,background
+ATD11-0298,2026-09-16T15:24:04Z,medium,Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0185,2026-09-16T15:26:17Z,medium,Application Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0210,2026-09-16T15:42:08Z,medium,Policy Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0494,2026-09-16T15:42:37Z,medium,Policy Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0136,2026-09-16T15:43:55Z,low,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0325,2026-09-16T16:10:48Z,low,Application Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0114,2026-09-16T16:36:03Z,low,Policy Review,JUMP-01,SYSTEM,context,background
+ATD11-0278,2026-09-16T16:36:37Z,medium,Policy Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0279,2026-09-16T16:41:17Z,medium,Policy Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0231,2026-09-16T16:47:47Z,medium,Application Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0399,2026-09-16T16:48:37Z,low,Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0334,2026-09-16T16:51:49Z,medium,Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0359,2026-09-16T17:33:21Z,medium,Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0249,2026-09-16T17:34:03Z,medium,Application Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0164,2026-09-16T17:35:48Z,low,Application Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0445,2026-09-16T17:40:12Z,medium,Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0343,2026-09-16T17:40:35Z,medium,Application Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0361,2026-09-16T17:46:43Z,medium,Policy Review,DC-01,ACME\\lchen,context,background
+ATD11-0544,2026-09-16T17:49:20Z,low,Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0462,2026-09-16T18:09:27Z,medium,Policy Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0123,2026-09-16T18:13:14Z,low,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0464,2026-09-16T18:27:10Z,medium,Policy Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0538,2026-09-16T18:29:20Z,low,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0369,2026-09-16T18:35:37Z,medium,Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0157,2026-09-16T18:37:34Z,low,Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0332,2026-09-16T19:08:57Z,low,Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0537,2026-09-16T19:54:09Z,medium,Application Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0569,2026-09-16T19:57:33Z,medium,Application Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0470,2026-09-16T20:16:33Z,medium,Policy Review,DC-01,SYSTEM,context,background
+ATD11-0137,2026-09-16T20:21:35Z,medium,Application Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0194,2026-09-16T20:22:14Z,low,Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0520,2026-09-16T20:43:46Z,low,Application Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0566,2026-09-16T20:54:38Z,medium,Application Startup Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0472,2026-09-16T20:57:12Z,medium,Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0364,2026-09-16T21:00:00Z,low,Policy Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0405,2026-09-16T22:01:03Z,medium,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0533,2026-09-16T22:13:41Z,low,Application Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0331,2026-09-16T22:42:53Z,medium,Application Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0416,2026-09-16T22:53:16Z,low,Application Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0273,2026-09-16T22:58:31Z,low,Policy Review,DC-01,ACME\\lchen,context,background
+ATD11-0502,2026-09-16T23:02:28Z,medium,Application Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0149,2026-09-16T23:27:29Z,low,Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0128,2026-09-16T23:36:52Z,medium,Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0100,2026-09-16T23:57:50Z,medium,Application Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0198,2026-09-17T00:00:26Z,medium,Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0349,2026-09-17T00:58:14Z,medium,Policy Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0148,2026-09-17T01:17:25Z,low,Application Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0133,2026-09-17T01:17:52Z,medium,Policy Review,DC-01,ACME\\jsmith,context,background
+ATD11-0264,2026-09-17T01:29:15Z,medium,Policy Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0327,2026-09-17T01:31:32Z,medium,Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0568,2026-09-17T01:54:54Z,low,Application Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0453,2026-09-17T01:56:02Z,low,Application Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0540,2026-09-17T02:18:18Z,low,Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0319,2026-09-17T02:39:41Z,medium,Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0200,2026-09-17T02:52:45Z,low,Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0132,2026-09-17T03:06:39Z,low,Policy Review,HR-WS-04,SYSTEM,context,background
+ATD11-0140,2026-09-17T03:19:13Z,medium,Policy Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0333,2026-09-17T03:38:15Z,low,Policy Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0295,2026-09-17T03:41:37Z,medium,Application Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0169,2026-09-17T03:56:43Z,low,Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0174,2026-09-17T03:58:46Z,medium,Startup Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0245,2026-09-17T03:59:43Z,medium,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0447,2026-09-17T04:11:12Z,low,Startup Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0251,2026-09-17T04:11:37Z,low,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0574,2026-09-17T04:13:27Z,medium,Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0564,2026-09-17T04:34:10Z,medium,Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0579,2026-09-17T04:37:28Z,medium,Policy Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0476,2026-09-17T04:52:39Z,low,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0292,2026-09-17T04:55:09Z,medium,Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0427,2026-09-17T05:03:45Z,medium,Policy Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0281,2026-09-17T05:16:55Z,low,Application Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0357,2026-09-17T05:24:17Z,medium,Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0147,2026-09-17T05:28:08Z,low,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0588,2026-09-17T05:28:28Z,low,Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0395,2026-09-17T05:35:25Z,low,Policy Review,DC-01,ACME\\jsmith,context,background
+ATD11-0177,2026-09-17T05:38:49Z,medium,Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0536,2026-09-17T06:03:49Z,low,Application Startup Review,DC-01,SYSTEM,context,background
+ATD11-0518,2026-09-17T06:41:40Z,medium,Application Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0176,2026-09-17T06:42:16Z,medium,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0507,2026-09-17T06:56:33Z,medium,Policy Review,HR-WS-04,SYSTEM,context,background
+ATD11-0421,2026-09-17T07:10:44Z,low,Policy Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0339,2026-09-17T07:12:57Z,low,Application Startup Review,DC-01,SYSTEM,context,background
+ATD11-0248,2026-09-17T07:13:35Z,medium,Policy Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0312,2026-09-17T07:31:28Z,low,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0131,2026-09-17T07:38:13Z,low,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0362,2026-09-17T07:39:55Z,low,Application Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0345,2026-09-17T07:46:34Z,medium,Policy Review,DC-01,ACME\\lchen,context,background
+ATD11-0398,2026-09-17T07:53:37Z,medium,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0338,2026-09-17T08:03:13Z,medium,Application Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0237,2026-09-17T08:08:11Z,medium,Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0545,2026-09-17T08:17:04Z,low,Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0342,2026-09-17T08:18:46Z,low,Policy Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0539,2026-09-17T08:41:23Z,medium,Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0116,2026-09-17T08:44:50Z,medium,Application Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0302,2026-09-17T09:20:18Z,medium,Application Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0138,2026-09-17T09:28:27Z,medium,Policy Review,DC-01,ACME\\jsmith,context,background
+ATD11-0240,2026-09-17T09:31:20Z,low,Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0555,2026-09-17T09:33:54Z,low,Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0167,2026-09-17T09:36:29Z,medium,Policy Review,JUMP-01,SYSTEM,context,background
+ATD11-0547,2026-09-17T09:44:07Z,medium,Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0108,2026-09-17T09:45:18Z,medium,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0308,2026-09-17T10:11:11Z,medium,Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0219,2026-09-17T10:13:42Z,low,Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0377,2026-09-17T10:17:44Z,low,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0508,2026-09-17T10:18:23Z,low,Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0134,2026-09-17T10:19:41Z,medium,Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0575,2026-09-17T10:23:30Z,medium,Policy Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0477,2026-09-17T10:31:06Z,low,Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0109,2026-09-17T10:37:30Z,medium,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0471,2026-09-17T10:37:34Z,low,Startup Review,DC-01,SYSTEM,context,background
+ATD11-0485,2026-09-17T10:58:50Z,medium,Policy Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0344,2026-09-17T11:26:39Z,low,Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0474,2026-09-17T11:28:48Z,medium,Policy Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0406,2026-09-17T11:34:14Z,medium,Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0565,2026-09-17T11:38:14Z,low,Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0304,2026-09-17T11:52:35Z,medium,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0487,2026-09-17T12:05:58Z,medium,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0184,2026-09-17T12:22:42Z,low,Policy Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0243,2026-09-17T12:35:26Z,low,Policy Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0442,2026-09-17T12:47:18Z,low,Application Startup Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0356,2026-09-17T12:58:06Z,medium,Application Startup Review,DC-01,SYSTEM,context,background
+ATD11-0486,2026-09-17T13:17:44Z,low,Policy Review,DC-01,ACME\\jsmith,context,background
+ATD11-0591,2026-09-17T14:00:58Z,medium,Application Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0475,2026-09-17T14:07:06Z,medium,Startup Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0496,2026-09-17T14:15:32Z,low,Policy Review,MGMT-01,SYSTEM,context,background
+ATD11-0363,2026-09-17T14:35:19Z,medium,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0300,2026-09-17T15:01:55Z,low,Policy Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0290,2026-09-17T15:09:47Z,low,Policy Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0225,2026-09-17T15:11:02Z,medium,Application Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0289,2026-09-17T15:14:26Z,low,Policy Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0262,2026-09-17T15:26:44Z,medium,Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0158,2026-09-17T15:38:32Z,medium,Policy Review,JUMP-01,SYSTEM,context,background
+ATD11-0360,2026-09-17T15:43:16Z,low,Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0535,2026-09-17T15:56:06Z,medium,Policy Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0529,2026-09-17T16:34:19Z,medium,Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0244,2026-09-17T16:37:24Z,medium,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0337,2026-09-17T17:08:39Z,medium,Startup Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0189,2026-09-17T17:19:00Z,low,Policy Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0501,2026-09-17T17:21:29Z,medium,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0120,2026-09-17T17:27:57Z,low,Application Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0424,2026-09-17T17:45:14Z,low,Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0135,2026-09-17T18:02:36Z,medium,Startup Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0425,2026-09-17T18:18:58Z,medium,Startup Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0432,2026-09-17T18:22:11Z,medium,Policy Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0396,2026-09-17T19:04:02Z,medium,Policy Review,MGMT-01,ACME\\jsmith,context,background
+ATD11-0106,2026-09-17T19:25:31Z,medium,Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0102,2026-09-17T19:25:46Z,medium,Startup Review,ENG-WS-17,ACME\\jsmith,context,background
+ATD11-0450,2026-09-17T19:27:42Z,low,Startup Review,HR-WS-04,ACME\\lchen,context,background
+ATD11-0409,2026-09-17T19:30:17Z,medium,Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0122,2026-09-17T19:50:35Z,medium,Application Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0326,2026-09-17T19:58:49Z,medium,Application Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0400,2026-09-17T20:04:18Z,low,Application Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0365,2026-09-17T20:44:56Z,low,Policy Review,DC-01,SYSTEM,context,background
+ATD11-0305,2026-09-17T21:12:55Z,medium,Application Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0153,2026-09-17T21:24:26Z,medium,Policy Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0353,2026-09-17T21:43:38Z,medium,Policy Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0228,2026-09-17T21:54:00Z,low,Application Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0170,2026-09-17T22:18:38Z,medium,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0582,2026-09-17T22:20:33Z,low,Policy Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0512,2026-09-17T22:32:46Z,low,Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0418,2026-09-17T22:33:43Z,low,Policy Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0576,2026-09-17T22:52:12Z,medium,Policy Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0433,2026-09-17T22:53:29Z,low,Policy Review,DC-01,ACME\\jsmith,context,background
+ATD11-0509,2026-09-17T22:57:02Z,medium,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0441,2026-09-17T23:04:44Z,medium,Startup Review,JUMP-01,ACME\\mgarcia,context,background
+ATD11-0563,2026-09-17T23:05:48Z,low,Application Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0513,2026-09-17T23:28:21Z,medium,Startup Review,DC-01,SYSTEM,context,background
+ATD11-0187,2026-09-17T23:30:26Z,low,Application Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0381,2026-09-17T23:52:11Z,medium,Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0260,2026-09-18T00:00:35Z,medium,Application Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0205,2026-09-18T00:21:15Z,medium,Policy Review,MGMT-01,SYSTEM,context,background
+ATD11-0532,2026-09-18T00:28:23Z,low,Startup Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0160,2026-09-18T00:31:57Z,low,Application Startup Review,DC-01,ACME\\mgarcia,context,background
+ATD11-0190,2026-09-18T00:47:14Z,low,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0318,2026-09-18T01:33:49Z,medium,Application Startup Review,DC-01,SYSTEM,context,background
+ATD11-0435,2026-09-18T02:15:34Z,medium,Application Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0407,2026-09-18T02:19:17Z,medium,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0478,2026-09-18T02:23:16Z,low,Policy Review,ENG-WS-17,ACME\\lchen,context,background
+ATD11-0208,2026-09-18T02:23:58Z,low,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0592,2026-09-18T02:26:15Z,medium,Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0258,2026-09-18T03:32:37Z,low,Application Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0384,2026-09-18T03:33:57Z,low,Policy Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0483,2026-09-18T03:38:58Z,low,Application Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0204,2026-09-18T04:07:22Z,medium,Policy Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0465,2026-09-18T04:32:13Z,medium,Application Startup Review,MGMT-01,ACME\\mgarcia,context,background
+ATD11-0126,2026-09-18T04:41:37Z,low,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0389,2026-09-18T04:44:33Z,low,Startup Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0173,2026-09-18T05:04:19Z,low,Startup Review,JUMP-01,SYSTEM,context,background
+ATD11-0376,2026-09-18T05:08:57Z,medium,Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0233,2026-09-18T05:28:54Z,low,Startup Review,DC-01,SYSTEM,context,background
+ATD11-0374,2026-09-18T05:51:57Z,medium,Application Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0336,2026-09-18T06:21:11Z,medium,Application Startup Review,HR-WS-04,SYSTEM,context,background
+ATD11-0168,2026-09-18T06:27:53Z,low,Application Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0523,2026-09-18T06:30:02Z,low,Startup Review,JUMP-01,ACME\\jsmith,context,background
+ATD11-0277,2026-09-18T07:13:44Z,low,Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0467,2026-09-18T07:22:42Z,medium,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0355,2026-09-18T07:41:50Z,medium,Policy Review,JUMP-01,SYSTEM,context,background
+ATD11-0272,2026-09-18T07:54:25Z,low,Application Startup Review,MGMT-01,SYSTEM,context,background
+ATD11-0180,2026-09-18T08:03:08Z,low,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0212,2026-09-18T08:04:21Z,medium,Application Startup Review,HR-WS-04,ACME\\mgarcia,context,background
+ATD11-0303,2026-09-18T08:05:14Z,low,Startup Review,FIN-WS-09,SYSTEM,context,background
+ATD11-0195,2026-09-18T08:32:27Z,medium,Application Startup Review,ENG-WS-17,ACME\\mgarcia,context,background
+ATD11-0524,2026-09-18T08:46:54Z,low,Application Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0367,2026-09-18T08:51:50Z,low,Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0584,2026-09-18T09:12:09Z,medium,Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0267,2026-09-18T09:51:39Z,medium,Policy Review,HR-WS-04,ACME\\jsmith,context,background
+ATD11-0403,2026-09-18T10:02:30Z,medium,Startup Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0323,2026-09-18T10:05:35Z,medium,Application Startup Review,DC-01,ACME\\lchen,context,background
+ATD11-0129,2026-09-18T10:07:32Z,medium,Startup Review,DC-01,ACME\\jsmith,context,background
+ATD11-0222,2026-09-18T10:22:19Z,medium,Startup Review,FIN-WS-09,ACME\\lchen,context,background
+ATD11-0587,2026-09-18T10:36:37Z,low,Policy Review,DC-01,ACME\\lchen,context,background
+ATD11-0489,2026-09-18T10:37:50Z,low,Application Startup Review,MGMT-01,ACME\\lchen,context,background
+ATD11-0438,2026-09-18T10:44:52Z,low,Application Startup Review,FIN-WS-09,ACME\\jsmith,context,background
+ATD11-0193,2026-09-18T10:56:50Z,medium,Policy Review,JUMP-01,ACME\\lchen,context,background
+ATD11-0423,2026-09-18T10:58:19Z,medium,Policy Review,FIN-WS-09,ACME\\mgarcia,context,background
+ATD11-0373,2026-09-18T11:22:23Z,medium,Policy Review,ENG-WS-17,SYSTEM,context,background
+ATD11-0115,2026-09-18T11:28:27Z,medium,Policy Review,MGMT-01,SYSTEM,context,background
+ATD11-0306,2026-09-18T11:42:57Z,medium,Policy Review,HR-WS-04,ACME\\mgarcia,context,background
