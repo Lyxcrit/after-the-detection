@@ -1,0 +1,17 @@
+{
+  "seed": 20260914,
+  "lookups": 9,
+  "rows_per_lookup": 500,
+  "total_records": 4500,
+  "expected_decision": "High-confidence malicious user-context startup persistence on FIN-WS-09.",
+  "benign_lookalikes": [
+    "MapDrives enterprise logon policy",
+    "signed Teams updater",
+    "approved DisplayProfile startup shortcut"
+  ],
+  "not_proven": [
+    "enterprise policy compromise",
+    "same persistence on another host",
+    "TLS payload content or data theft"
+  ]
+}
