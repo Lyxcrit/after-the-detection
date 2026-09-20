@@ -1,0 +1,1 @@
+<form version="1.1" theme="dark"><label>September 2026 Capstone</label><row><panel><table><search><query>| inputlookup detection_results.csv | search id="CAP-*" | sort 0 _time</query></search></table></panel></row></form>
