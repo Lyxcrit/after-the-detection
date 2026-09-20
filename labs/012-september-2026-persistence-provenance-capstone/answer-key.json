@@ -1,0 +1,28 @@
+{
+  "seed": 20260921,
+  "lookups": 10,
+  "rows_per_lookup": 10000,
+  "total_records": 100000,
+  "confirmed_hosts": [
+    "HR-WS-22",
+    "ENG-WS-17",
+    "FIN-WS-09"
+  ],
+  "incident_mechanisms": [
+    "scheduled task TelemetryCheck",
+    "WinSupportSvc",
+    "OneDriveHealth startup"
+  ],
+  "benign_lookalikes": [
+    "ACME Patch TelemetryCheck",
+    "ACMESupportAgent",
+    "Teams startup",
+    "MapDrives GPO"
+  ],
+  "not_proven": [
+    "initial credential access",
+    "TLS payload contents",
+    "central policy compromise",
+    "SCCM compromise"
+  ]
+}
