@@ -1,0 +1,25 @@
+name: Capstone 012 generation
+on:
+  push:
+    branches:
+      - review/september-2026-persistence-provenance-capstone
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/september-2026-persistence-provenance-capstone
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate
+        run: python labs/012-september-2026-persistence-provenance-capstone/generate_lab.py
+      - name: Validate
+        run: python labs/012-september-2026-persistence-provenance-capstone/validate_lab.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Generate September 2026 capstone
+          branch: review/september-2026-persistence-provenance-capstone
