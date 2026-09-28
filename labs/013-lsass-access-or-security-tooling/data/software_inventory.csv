@@ -1,0 +1,501 @@
+_time,host,product,process_name,publisher,approved
+2026-09-28T13:00:00Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:01:01Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:02:02Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:03:03Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:04:04Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:05:05Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:06:06Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:07:07Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:08:08Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:09:09Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:10:10Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:11:11Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:12:12Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:13:13Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:14:14Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:15:15Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:16:16Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:17:17Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:18:18Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:19:19Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:20:20Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:21:21Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:22:22Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:23:23Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:24:24Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:25:25Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:26:26Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:27:27Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:28:28Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:29:29Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:30:30Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:31:31Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:32:32Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:33:33Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:34:34Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:35:35Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:36:36Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:37:37Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:38:38Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:39:39Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:40:40Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:41:41Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:42:42Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:43:00Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:44:01Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:45:02Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:46:03Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:47:04Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:48:05Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:49:06Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:50:07Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:51:08Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:52:09Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:53:10Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:54:11Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:55:12Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:56:13Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:57:14Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:58:15Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:59:16Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:00:17Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:01:18Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:02:19Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:03:20Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:04:21Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:05:22Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:06:23Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:07:24Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:08:25Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:09:26Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:10:27Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:11:28Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:12:29Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:13:30Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:14:31Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:15:32Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:16:33Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:17:34Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:18:35Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:19:36Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:20:37Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:21:38Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:22:39Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:23:40Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:24:41Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:25:42Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:26:00Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:27:01Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:28:02Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:29:03Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:30:04Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:31:05Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:32:06Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:33:07Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:34:08Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:35:09Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:36:10Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:37:11Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:38:12Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:39:13Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:40:14Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:41:15Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:42:16Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:43:17Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:44:18Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:45:19Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:46:20Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:47:21Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:48:22Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:49:23Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:50:24Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:51:25Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:52:26Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:53:27Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:54:28Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:55:29Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:56:30Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:57:31Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:58:32Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:59:33Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:00:34Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:01:35Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:02:36Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:03:37Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:04:38Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:05:39Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:06:40Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:07:41Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:08:42Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:09:00Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:10:01Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:11:02Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:12:03Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:13:04Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:14:05Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:15:06Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:16:07Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:17:08Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:18:09Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:19:10Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:20:11Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:21:12Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:22:13Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:23:14Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:24:15Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:25:16Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:26:17Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:27:18Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:28:19Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:29:20Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:30:21Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:31:22Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:32:23Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:33:24Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:34:25Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:35:26Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:36:27Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:37:28Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:38:29Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:39:30Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:40:31Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:41:32Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:42:33Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:43:34Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:44:35Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:45:36Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:46:37Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:47:38Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:48:39Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:49:40Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:50:41Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:51:42Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:52:00Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:53:01Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:54:02Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:55:03Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:56:04Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:57:05Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:58:06Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:59:07Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:00:08Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:01:09Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:02:10Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:03:11Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:04:12Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:05:13Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:06:14Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:07:15Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:08:16Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:09:17Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:10:18Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:11:19Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:12:20Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:13:21Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:14:22Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:15:23Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:16:24Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:17:25Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:18:26Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:19:27Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:20:28Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:21:29Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:22:30Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:23:31Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:24:32Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:25:33Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:26:34Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:27:35Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:28:36Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:29:37Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:30:38Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:31:39Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:32:40Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:33:41Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:34:42Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:35:00Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:36:01Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:37:02Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:38:03Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:39:04Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:40:05Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:41:06Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:42:07Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:43:08Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:44:09Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:45:10Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:46:11Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:47:12Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:48:13Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:49:14Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:50:15Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:51:16Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:52:17Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:53:18Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:54:19Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:55:20Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:56:21Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:57:22Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:58:23Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:59:24Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:00:25Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:01:26Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:02:27Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:03:28Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:04:29Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:05:30Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:06:31Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:07:32Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:08:33Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:09:34Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:10:35Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:11:36Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:12:37Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:13:38Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:14:39Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:15:40Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:16:41Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:17:42Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:18:00Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:19:01Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:20:02Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:21:03Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:22:04Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:23:05Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:24:06Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:25:07Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:26:08Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:27:09Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:28:10Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:29:11Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:40:00Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:31:13Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:32:14Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:33:15Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:34:16Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:35:17Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:36:18Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:37:19Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:38:20Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:39:21Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:40:22Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:41:23Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:42:24Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:43:25Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:44:26Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:45:27Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:46:28Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:47:29Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:48:30Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:49:31Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:50:32Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:51:33Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:52:34Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:53:35Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:54:36Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:55:37Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:56:38Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:57:39Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:58:40Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:59:41Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:00:42Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:01:00Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:02:01Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:03:02Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:04:03Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:05:04Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:06:05Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:07:06Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:08:07Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:09:08Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:10:09Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:11:10Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:12:11Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:13:12Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:14:13Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:15:14Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:16:15Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:17:16Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:18:17Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:19:18Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:20:19Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:21:20Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:22:21Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:23:22Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:24:23Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:25:24Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:26:25Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:27:26Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:28:27Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:29:28Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:30:29Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:31:30Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:32:31Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:33:32Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:34:33Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:35:34Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:36:35Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:37:36Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:38:37Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:39:38Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:40:39Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:41:40Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:42:41Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:43:42Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:44:00Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:45:01Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:46:02Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:47:03Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:48:04Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:49:05Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:50:06Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:51:07Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:52:08Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:53:09Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:54:10Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:55:11Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:56:12Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T14:57:13Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T14:58:14Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T14:59:15Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:00:16Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:01:17Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:02:18Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:03:19Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:04:20Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:05:21Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:06:22Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:07:23Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:08:24Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:09:25Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:10:26Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:11:27Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:12:28Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:13:29Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:14:30Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:15:31Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:16:32Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:17:33Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:18:34Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:19:35Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:20:36Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:21:37Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:22:38Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:23:39Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:24:40Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:25:41Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:26:42Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:27:00Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:28:01Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:29:02Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:30:03Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:31:04Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:32:05Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:33:06Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:34:07Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:35:08Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:36:09Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:37:10Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:38:11Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:39:12Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:40:13Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:41:14Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:42:15Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:43:16Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:44:17Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:45:18Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:46:19Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:47:20Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:48:21Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:49:22Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:50:23Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:51:24Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:52:25Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:53:26Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:54:27Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T15:55:28Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:56:29Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:57:30Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T15:58:31Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T15:59:32Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:00:33Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:01:34Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:02:35Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:03:36Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:04:37Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:05:38Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:06:39Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:07:40Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:08:41Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:09:42Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:10:00Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:11:01Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:12:02Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:13:03Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:14:04Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:15:05Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:16:06Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:17:07Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:18:08Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:19:09Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:20:10Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:21:11Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:22:12Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:23:13Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:24:14Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:25:15Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:26:16Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:27:17Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:28:18Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:29:19Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:30:20Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:31:21Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:32:22Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:33:23Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:34:24Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:35:25Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:36:26Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:37:27Z,DEV-WS-18,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:38:28Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:39:29Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:40:30Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:41:31Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:42:32Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:43:33Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:44:34Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:45:35Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:46:36Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:47:37Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:48:38Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:49:39Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:50:40Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:51:41Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:52:42Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:53:00Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:54:01Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:55:02Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:56:03Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T16:57:04Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T16:58:05Z,DEV-WS-12,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T16:59:06Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:00:07Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:01:08Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:02:09Z,DEV-WS-12,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:03:10Z,DEV-WS-03,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:04:11Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:05:12Z,DEV-WS-03,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:06:13Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:07:14Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:08:15Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:09:16Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:10:17Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:11:18Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:12:19Z,DEV-WS-07,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:13:20Z,DEV-WS-07,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:14:21Z,DEV-WS-18,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:15:22Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:16:23Z,DEV-WS-18,Microsoft Defender for Endpoint,SenseIR.exe,Microsoft Corporation,true
+2026-09-28T13:17:24Z,DEV-WS-12,Visual Studio Code,Code.exe,Microsoft Corporation,true
+2026-09-28T13:18:25Z,DEV-WS-03,ACME Diagnostics,acmediag.exe,ACME IT,true
+2026-09-28T13:19:26Z,DEV-WS-07,Visual Studio Code,Code.exe,Microsoft Corporation,true
