@@ -1,0 +1,27 @@
+{
+  "hunt": "013-lsass-access-or-security-tooling",
+  "confirmed_compromised": [
+    "DEV-WS-12"
+  ],
+  "investigative_scope": [
+    "FILE-DEV-03"
+  ],
+  "benign_lookalikes": [
+    "SenseIR.exe LSASS access",
+    "approved WerFault diagnostic collection",
+    "routine developer SMB",
+    "IR-JUMP-01 responder activity"
+  ],
+  "malicious_sequence": [
+    "powershell.exe launches rundll32.exe with comsvcs.dll MiniDump against LSASS",
+    "C:\\ProgramData\\Diag\\lsass.dmp created",
+    "PowerShell archives dump to C:\\ProgramData\\Diag\\diag-0928.zip"
+  ],
+  "not_proven": [
+    "contents of LSASS dump",
+    "which credentials were recovered",
+    "ACME\\jpatel came from the dump",
+    "successful FILE-DEV-03 authentication used dumped credentials",
+    "FILE-DEV-03 compromise"
+  ]
+}
