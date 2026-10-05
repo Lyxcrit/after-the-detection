@@ -1,0 +1,25 @@
+name: Hunt 014 one-time generation
+on:
+  push:
+    branches: [review/hunt-014-signin-provenance]
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/hunt-014-signin-provenance
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python labs/014-signin-provenance/generate_lab.py
+      - run: python labs/014-signin-provenance/validate_lab.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add labs/014-signin-provenance
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Generate Hunt 014 lab data"
+          git push origin HEAD:review/hunt-014-signin-provenance
