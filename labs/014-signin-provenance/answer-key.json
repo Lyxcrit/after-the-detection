@@ -1,0 +1,38 @@
+{
+  "hunt": "014-signin-provenance",
+  "identity": "ACME\\knguyen",
+  "known_context": {
+    "host": "SALES-WS-18",
+    "managed": true,
+    "time": "2026-10-04T15:48:00Z"
+  },
+  "anomalous_context": {
+    "time": "2026-10-04T16:12:00Z",
+    "source_ip": "198.51.100.77",
+    "device_state": "unmanaged",
+    "session_id": "sess-kng-7f2",
+    "result": "success"
+  },
+  "follow_on": [
+    "SharePoint activity from sess-kng-7f2 at 16:15"
+  ],
+  "explained_lookalikes": [
+    "corporate VPN source changes",
+    "mobile sign-ins",
+    "token refreshes",
+    "approved help-desk activity",
+    "routine cloud access"
+  ],
+  "response": [
+    "revoke anomalous session",
+    "review other active sessions",
+    "evaluate credential reset/re-authentication"
+  ],
+  "not_proven": [
+    "password theft",
+    "token/cookie theft",
+    "MFA bypass",
+    "source-device compromise",
+    "initial-access mechanism"
+  ]
+}
