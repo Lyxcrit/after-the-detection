@@ -1,0 +1,501 @@
+_time,user,app,result,source_ip,device_name,device_state,os,auth_method,session_id
+2026-10-04T13:00:00Z,ACME\rlee,SharePoint,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-000
+2026-10-04T13:01:01Z,ACME\lchen,SharePoint,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-001
+2026-10-04T13:02:02Z,ACME\knguyen,SharePoint,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-002
+2026-10-04T13:03:03Z,ACME\rlee,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-003
+2026-10-04T13:04:04Z,ACME\rlee,Teams,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-004
+2026-10-04T13:05:05Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-005
+2026-10-04T13:06:06Z,ACME\mrivera,Teams,success,192.0.2.44,MOBILE,mobile,Windows,MFA,sess-normal-006
+2026-10-04T13:07:07Z,ACME\lchen,Microsoft 365,success,203.0.113.10,FIN-WS-09,mobile,iOS,MFA,sess-normal-007
+2026-10-04T13:08:08Z,ACME\mrivera,Teams,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-008
+2026-10-04T13:09:09Z,ACME\mrivera,SharePoint,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-009
+2026-10-04T13:10:10Z,ACME\rlee,Teams,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-010
+2026-10-04T13:11:11Z,ACME\knguyen,Teams,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-011
+2026-10-04T13:12:12Z,ACME\lchen,Teams,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-012
+2026-10-04T13:13:13Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,FIN-WS-09,mobile,iOS,MFA,sess-normal-013
+2026-10-04T13:14:14Z,ACME\lchen,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-014
+2026-10-04T13:15:15Z,ACME\knguyen,SharePoint,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-015
+2026-10-04T13:16:16Z,ACME\knguyen,Teams,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-016
+2026-10-04T13:17:17Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-017
+2026-10-04T13:18:18Z,ACME\mrivera,Teams,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-018
+2026-10-04T13:19:19Z,ACME\lchen,Microsoft 365,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-019
+2026-10-04T13:20:20Z,ACME\knguyen,Teams,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-020
+2026-10-04T13:21:21Z,ACME\lchen,SharePoint,success,203.0.113.22,SALES-WS-18,managed,iOS,MFA,sess-normal-021
+2026-10-04T13:22:22Z,ACME\lchen,SharePoint,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-022
+2026-10-04T13:23:23Z,ACME\lchen,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-023
+2026-10-04T13:24:24Z,ACME\lchen,Microsoft 365,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-024
+2026-10-04T13:25:25Z,ACME\lchen,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-025
+2026-10-04T13:26:26Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-026
+2026-10-04T13:27:27Z,ACME\knguyen,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-027
+2026-10-04T13:28:28Z,ACME\rlee,Teams,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-028
+2026-10-04T13:29:29Z,ACME\lchen,Microsoft 365,success,203.0.113.22,SALES-WS-18,mobile,Windows,MFA,sess-normal-029
+2026-10-04T13:30:30Z,ACME\knguyen,Teams,success,192.0.2.44,MOBILE,mobile,Windows,MFA,sess-normal-030
+2026-10-04T13:31:31Z,ACME\rlee,Teams,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-031
+2026-10-04T13:32:32Z,ACME\rlee,Teams,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-032
+2026-10-04T13:33:33Z,ACME\knguyen,Teams,success,203.0.113.22,DEV-WS-12,mobile,Windows,MFA,sess-normal-033
+2026-10-04T13:34:34Z,ACME\lchen,Teams,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-034
+2026-10-04T13:35:35Z,ACME\rlee,Teams,success,192.0.2.44,DEV-WS-12,mobile,iOS,MFA,sess-normal-035
+2026-10-04T13:36:36Z,ACME\mrivera,SharePoint,success,192.0.2.44,DEV-WS-12,mobile,iOS,MFA,sess-normal-036
+2026-10-04T13:37:37Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-037
+2026-10-04T13:38:38Z,ACME\knguyen,Teams,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-038
+2026-10-04T13:39:39Z,ACME\rlee,SharePoint,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-039
+2026-10-04T13:40:40Z,ACME\lchen,Teams,success,192.0.2.44,FIN-WS-09,mobile,iOS,MFA,sess-normal-040
+2026-10-04T13:41:41Z,ACME\mrivera,Teams,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-041
+2026-10-04T13:42:42Z,ACME\rlee,Teams,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-042
+2026-10-04T13:43:43Z,ACME\rlee,Microsoft 365,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-043
+2026-10-04T13:44:44Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,MOBILE,mobile,iOS,MFA,sess-normal-044
+2026-10-04T13:45:45Z,ACME\rlee,SharePoint,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-045
+2026-10-04T13:46:46Z,ACME\knguyen,Teams,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-046
+2026-10-04T13:47:47Z,ACME\rlee,Microsoft 365,success,203.0.113.10,SALES-WS-18,mobile,Windows,MFA,sess-normal-047
+2026-10-04T13:48:48Z,ACME\mrivera,SharePoint,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-048
+2026-10-04T13:49:49Z,ACME\rlee,Microsoft 365,success,203.0.113.22,DEV-WS-12,mobile,Windows,MFA,sess-normal-049
+2026-10-04T13:50:50Z,ACME\rlee,SharePoint,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-050
+2026-10-04T13:51:51Z,ACME\mrivera,Teams,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-051
+2026-10-04T13:52:52Z,ACME\mrivera,Teams,success,203.0.113.22,DEV-WS-12,managed,iOS,MFA,sess-normal-052
+2026-10-04T13:53:00Z,ACME\lchen,Microsoft 365,success,203.0.113.22,FIN-WS-09,mobile,Windows,MFA,sess-normal-053
+2026-10-04T13:54:01Z,ACME\mrivera,Teams,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-054
+2026-10-04T13:55:02Z,ACME\knguyen,Microsoft 365,success,192.0.2.44,DEV-WS-12,mobile,Windows,MFA,sess-normal-055
+2026-10-04T13:56:03Z,ACME\rlee,SharePoint,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-056
+2026-10-04T13:57:04Z,ACME\mrivera,Teams,success,192.0.2.44,SALES-WS-18,mobile,iOS,MFA,sess-normal-057
+2026-10-04T13:58:05Z,ACME\mrivera,Teams,success,203.0.113.10,MOBILE,mobile,iOS,MFA,sess-normal-058
+2026-10-04T13:59:06Z,ACME\rlee,SharePoint,success,192.0.2.44,DEV-WS-12,mobile,Windows,MFA,sess-normal-059
+2026-10-04T14:00:07Z,ACME\rlee,Teams,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-060
+2026-10-04T14:01:08Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-061
+2026-10-04T14:02:09Z,ACME\rlee,Teams,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-062
+2026-10-04T14:03:10Z,ACME\rlee,Teams,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-063
+2026-10-04T14:04:11Z,ACME\knguyen,Teams,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-064
+2026-10-04T14:05:12Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,SALES-WS-18,mobile,iOS,MFA,sess-normal-065
+2026-10-04T14:06:13Z,ACME\rlee,SharePoint,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-066
+2026-10-04T14:07:14Z,ACME\lchen,SharePoint,success,203.0.113.10,MOBILE,mobile,Windows,MFA,sess-normal-067
+2026-10-04T14:08:15Z,ACME\knguyen,Teams,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-068
+2026-10-04T14:09:16Z,ACME\lchen,Teams,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-069
+2026-10-04T14:10:17Z,ACME\lchen,SharePoint,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-070
+2026-10-04T14:11:18Z,ACME\lchen,Microsoft 365,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-071
+2026-10-04T14:12:19Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-072
+2026-10-04T14:13:20Z,ACME\rlee,SharePoint,success,192.0.2.44,FIN-WS-09,mobile,iOS,MFA,sess-normal-073
+2026-10-04T14:14:21Z,ACME\rlee,SharePoint,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-074
+2026-10-04T14:15:22Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-075
+2026-10-04T14:16:23Z,ACME\mrivera,Teams,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-076
+2026-10-04T14:17:24Z,ACME\mrivera,SharePoint,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-077
+2026-10-04T14:18:25Z,ACME\lchen,Teams,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-078
+2026-10-04T14:19:26Z,ACME\rlee,SharePoint,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-079
+2026-10-04T14:20:27Z,ACME\rlee,Teams,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-080
+2026-10-04T14:21:28Z,ACME\knguyen,SharePoint,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-081
+2026-10-04T14:22:29Z,ACME\mrivera,Teams,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-082
+2026-10-04T14:23:30Z,ACME\rlee,Microsoft 365,success,192.0.2.44,DEV-WS-12,mobile,Windows,MFA,sess-normal-083
+2026-10-04T14:24:31Z,ACME\lchen,Microsoft 365,success,203.0.113.22,FIN-WS-09,mobile,Windows,MFA,sess-normal-084
+2026-10-04T14:25:32Z,ACME\rlee,SharePoint,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-085
+2026-10-04T14:26:33Z,ACME\mrivera,Teams,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-086
+2026-10-04T14:27:34Z,ACME\lchen,SharePoint,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-087
+2026-10-04T14:28:35Z,ACME\knguyen,SharePoint,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-088
+2026-10-04T14:29:36Z,ACME\mrivera,Teams,success,203.0.113.22,DEV-WS-12,mobile,Windows,MFA,sess-normal-089
+2026-10-04T14:30:37Z,ACME\rlee,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-090
+2026-10-04T14:31:38Z,ACME\lchen,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-091
+2026-10-04T14:32:39Z,ACME\rlee,Teams,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-092
+2026-10-04T14:33:40Z,ACME\rlee,Microsoft 365,success,203.0.113.22,DEV-WS-12,mobile,iOS,MFA,sess-normal-093
+2026-10-04T14:34:41Z,ACME\rlee,Teams,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-094
+2026-10-04T14:35:42Z,ACME\mrivera,SharePoint,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-095
+2026-10-04T14:36:43Z,ACME\mrivera,Teams,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-096
+2026-10-04T14:37:44Z,ACME\knguyen,SharePoint,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-097
+2026-10-04T14:38:45Z,ACME\mrivera,Teams,success,203.0.113.10,MOBILE,mobile,iOS,MFA,sess-normal-098
+2026-10-04T14:39:46Z,ACME\rlee,SharePoint,success,192.0.2.44,DEV-WS-12,mobile,Windows,MFA,sess-normal-099
+2026-10-04T14:40:47Z,ACME\lchen,Teams,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-100
+2026-10-04T14:41:48Z,ACME\lchen,SharePoint,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-101
+2026-10-04T14:42:49Z,ACME\knguyen,Teams,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-102
+2026-10-04T14:43:50Z,ACME\lchen,SharePoint,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-103
+2026-10-04T14:44:51Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,FIN-WS-09,mobile,Windows,MFA,sess-normal-104
+2026-10-04T14:45:52Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-105
+2026-10-04T14:46:00Z,ACME\lchen,Teams,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-106
+2026-10-04T14:47:01Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-107
+2026-10-04T14:48:02Z,ACME\knguyen,SharePoint,success,203.0.113.10,MOBILE,mobile,Windows,MFA,sess-normal-108
+2026-10-04T14:49:03Z,ACME\lchen,SharePoint,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-109
+2026-10-04T14:50:04Z,ACME\mrivera,Teams,success,192.0.2.44,MOBILE,mobile,Windows,MFA,sess-normal-110
+2026-10-04T14:51:05Z,ACME\rlee,Microsoft 365,success,203.0.113.10,MOBILE,mobile,iOS,MFA,sess-normal-111
+2026-10-04T14:52:06Z,ACME\mrivera,Teams,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-112
+2026-10-04T14:53:07Z,ACME\mrivera,Teams,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-113
+2026-10-04T14:54:08Z,ACME\mrivera,Teams,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-114
+2026-10-04T14:55:09Z,ACME\mrivera,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-115
+2026-10-04T14:56:10Z,ACME\mrivera,SharePoint,success,203.0.113.10,SALES-WS-18,mobile,Windows,MFA,sess-normal-116
+2026-10-04T14:57:11Z,ACME\rlee,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-117
+2026-10-04T14:58:12Z,ACME\lchen,Microsoft 365,success,192.0.2.44,DEV-WS-12,managed,Windows,MFA,sess-normal-118
+2026-10-04T14:59:13Z,ACME\lchen,SharePoint,success,203.0.113.22,SALES-WS-18,managed,iOS,MFA,sess-normal-119
+2026-10-04T15:00:14Z,ACME\rlee,Teams,success,203.0.113.22,MOBILE,mobile,iOS,MFA,sess-normal-120
+2026-10-04T15:01:15Z,ACME\mrivera,SharePoint,success,203.0.113.22,DEV-WS-12,managed,iOS,MFA,sess-normal-121
+2026-10-04T15:02:16Z,ACME\mrivera,Teams,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-122
+2026-10-04T15:03:17Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-123
+2026-10-04T15:04:18Z,ACME\lchen,Microsoft 365,success,203.0.113.10,DEV-WS-12,mobile,iOS,MFA,sess-normal-124
+2026-10-04T15:05:19Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-125
+2026-10-04T15:06:20Z,ACME\knguyen,SharePoint,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-126
+2026-10-04T15:07:21Z,ACME\rlee,SharePoint,success,192.0.2.44,DEV-WS-12,managed,Windows,MFA,sess-normal-127
+2026-10-04T15:08:22Z,ACME\rlee,Teams,success,203.0.113.22,DEV-WS-12,mobile,iOS,MFA,sess-normal-128
+2026-10-04T15:09:23Z,ACME\knguyen,SharePoint,success,192.0.2.44,FIN-WS-09,mobile,iOS,MFA,sess-normal-129
+2026-10-04T15:10:24Z,ACME\knguyen,Teams,success,203.0.113.22,FIN-WS-09,mobile,Windows,MFA,sess-normal-130
+2026-10-04T15:11:25Z,ACME\rlee,Teams,success,192.0.2.44,MOBILE,mobile,Windows,MFA,sess-normal-131
+2026-10-04T15:12:26Z,ACME\lchen,SharePoint,success,203.0.113.22,FIN-WS-09,mobile,iOS,MFA,sess-normal-132
+2026-10-04T15:13:27Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-133
+2026-10-04T15:14:28Z,ACME\rlee,Microsoft 365,success,192.0.2.44,SALES-WS-18,mobile,iOS,MFA,sess-normal-134
+2026-10-04T15:15:29Z,ACME\mrivera,SharePoint,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-135
+2026-10-04T15:16:30Z,ACME\knguyen,SharePoint,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-136
+2026-10-04T15:17:31Z,ACME\lchen,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-137
+2026-10-04T15:18:32Z,ACME\rlee,SharePoint,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-138
+2026-10-04T15:19:33Z,ACME\mrivera,SharePoint,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-139
+2026-10-04T15:20:34Z,ACME\rlee,SharePoint,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-140
+2026-10-04T15:21:35Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,SALES-WS-18,mobile,Windows,MFA,sess-normal-141
+2026-10-04T15:22:36Z,ACME\lchen,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-142
+2026-10-04T15:23:37Z,ACME\knguyen,SharePoint,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-143
+2026-10-04T15:24:38Z,ACME\lchen,Microsoft 365,success,192.0.2.44,DEV-WS-12,mobile,iOS,MFA,sess-normal-144
+2026-10-04T15:25:39Z,ACME\knguyen,SharePoint,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-145
+2026-10-04T15:26:40Z,ACME\mrivera,Teams,success,203.0.113.10,DEV-WS-12,mobile,Windows,MFA,sess-normal-146
+2026-10-04T15:27:41Z,ACME\knguyen,SharePoint,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-147
+2026-10-04T15:28:42Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-148
+2026-10-04T15:29:43Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,SALES-WS-18,managed,iOS,MFA,sess-normal-149
+2026-10-04T15:30:44Z,ACME\rlee,SharePoint,success,192.0.2.44,MOBILE,mobile,iOS,MFA,sess-normal-150
+2026-10-04T15:31:45Z,ACME\lchen,SharePoint,success,203.0.113.10,FIN-WS-09,mobile,Windows,MFA,sess-normal-151
+2026-10-04T15:32:46Z,ACME\knguyen,Teams,success,192.0.2.44,FIN-WS-09,mobile,iOS,MFA,sess-normal-152
+2026-10-04T15:33:47Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-153
+2026-10-04T15:34:48Z,ACME\lchen,SharePoint,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-154
+2026-10-04T15:35:49Z,ACME\rlee,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-155
+2026-10-04T15:36:50Z,ACME\rlee,SharePoint,success,192.0.2.44,FIN-WS-09,mobile,Windows,MFA,sess-normal-156
+2026-10-04T15:37:51Z,ACME\mrivera,SharePoint,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-157
+2026-10-04T15:38:52Z,ACME\mrivera,SharePoint,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-158
+2026-10-04T15:39:00Z,ACME\knguyen,Teams,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-159
+2026-10-04T15:40:01Z,ACME\rlee,Teams,success,203.0.113.22,SALES-WS-18,mobile,iOS,MFA,sess-normal-160
+2026-10-04T15:41:02Z,ACME\rlee,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-161
+2026-10-04T15:42:03Z,ACME\lchen,Microsoft 365,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-162
+2026-10-04T15:43:04Z,ACME\rlee,Teams,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-163
+2026-10-04T15:44:05Z,ACME\rlee,Teams,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-164
+2026-10-04T15:45:06Z,ACME\rlee,SharePoint,success,203.0.113.22,MOBILE,mobile,iOS,MFA,sess-normal-165
+2026-10-04T15:46:07Z,ACME\mrivera,SharePoint,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-166
+2026-10-04T15:47:08Z,ACME\rlee,Teams,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-167
+2026-10-04T15:48:09Z,ACME\lchen,Teams,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-168
+2026-10-04T15:49:10Z,ACME\mrivera,SharePoint,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-169
+2026-10-04T15:50:11Z,ACME\mrivera,SharePoint,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-170
+2026-10-04T15:51:12Z,ACME\lchen,Teams,success,203.0.113.22,SALES-WS-18,mobile,Windows,MFA,sess-normal-171
+2026-10-04T15:52:13Z,ACME\rlee,Microsoft 365,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-172
+2026-10-04T15:53:14Z,ACME\knguyen,Microsoft 365,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-173
+2026-10-04T15:54:15Z,ACME\knguyen,Teams,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-174
+2026-10-04T15:55:16Z,ACME\knguyen,SharePoint,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-175
+2026-10-04T15:56:17Z,ACME\rlee,Microsoft 365,success,203.0.113.10,MOBILE,mobile,iOS,MFA,sess-normal-176
+2026-10-04T15:57:18Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-177
+2026-10-04T15:58:19Z,ACME\lchen,Teams,success,203.0.113.10,FIN-WS-09,mobile,Windows,MFA,sess-normal-178
+2026-10-04T15:59:20Z,ACME\lchen,Teams,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-179
+2026-10-04T16:00:21Z,ACME\rlee,SharePoint,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-180
+2026-10-04T16:01:22Z,ACME\mrivera,SharePoint,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-181
+2026-10-04T16:02:23Z,ACME\knguyen,SharePoint,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-182
+2026-10-04T16:03:24Z,ACME\knguyen,SharePoint,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-183
+2026-10-04T16:04:25Z,ACME\rlee,Microsoft 365,success,203.0.113.22,FIN-WS-09,mobile,iOS,MFA,sess-normal-184
+2026-10-04T16:05:26Z,ACME\lchen,SharePoint,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-185
+2026-10-04T16:06:27Z,ACME\knguyen,Teams,success,192.0.2.44,FIN-WS-09,mobile,iOS,MFA,sess-normal-186
+2026-10-04T16:07:28Z,ACME\mrivera,Teams,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-187
+2026-10-04T16:08:29Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,SALES-WS-18,mobile,Windows,MFA,sess-normal-188
+2026-10-04T16:09:30Z,ACME\lchen,SharePoint,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-189
+2026-10-04T16:10:31Z,ACME\rlee,SharePoint,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-190
+2026-10-04T16:11:32Z,ACME\lchen,SharePoint,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-191
+2026-10-04T16:12:33Z,ACME\lchen,Microsoft 365,success,192.0.2.44,DEV-WS-12,managed,Windows,MFA,sess-normal-192
+2026-10-04T16:13:34Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,SALES-WS-18,mobile,iOS,MFA,sess-normal-193
+2026-10-04T16:14:35Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-194
+2026-10-04T16:15:36Z,ACME\rlee,Teams,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-195
+2026-10-04T16:16:37Z,ACME\lchen,SharePoint,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-196
+2026-10-04T16:17:38Z,ACME\mrivera,SharePoint,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-197
+2026-10-04T16:18:39Z,ACME\lchen,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-198
+2026-10-04T16:19:40Z,ACME\rlee,SharePoint,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-199
+2026-10-04T16:20:41Z,ACME\lchen,Teams,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-200
+2026-10-04T16:21:42Z,ACME\rlee,Microsoft 365,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-201
+2026-10-04T16:22:43Z,ACME\lchen,Microsoft 365,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-202
+2026-10-04T16:23:44Z,ACME\lchen,Teams,success,203.0.113.10,FIN-WS-09,mobile,Windows,MFA,sess-normal-203
+2026-10-04T16:24:45Z,ACME\rlee,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-204
+2026-10-04T16:25:46Z,ACME\mrivera,SharePoint,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-205
+2026-10-04T16:26:47Z,ACME\rlee,SharePoint,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-206
+2026-10-04T16:27:48Z,ACME\lchen,Microsoft 365,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-207
+2026-10-04T16:28:49Z,ACME\lchen,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-208
+2026-10-04T16:29:50Z,ACME\knguyen,SharePoint,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-209
+2026-10-04T16:30:51Z,ACME\lchen,Microsoft 365,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-210
+2026-10-04T16:31:52Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,MOBILE,mobile,Windows,MFA,sess-normal-211
+2026-10-04T16:32:00Z,ACME\lchen,Teams,success,203.0.113.10,DEV-WS-12,mobile,iOS,MFA,sess-normal-212
+2026-10-04T16:33:01Z,ACME\rlee,SharePoint,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-213
+2026-10-04T16:34:02Z,ACME\lchen,Microsoft 365,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-214
+2026-10-04T16:35:03Z,ACME\lchen,Teams,success,192.0.2.44,MOBILE,mobile,iOS,MFA,sess-normal-215
+2026-10-04T16:36:04Z,ACME\lchen,Teams,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-216
+2026-10-04T16:37:05Z,ACME\rlee,Microsoft 365,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-217
+2026-10-04T16:38:06Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,SALES-WS-18,mobile,iOS,MFA,sess-normal-218
+2026-10-04T16:39:07Z,ACME\lchen,SharePoint,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-219
+2026-10-04T16:40:08Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-220
+2026-10-04T16:41:09Z,ACME\mrivera,Teams,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-221
+2026-10-04T16:42:10Z,ACME\lchen,Microsoft 365,success,203.0.113.22,SALES-WS-18,mobile,iOS,MFA,sess-normal-222
+2026-10-04T16:43:11Z,ACME\lchen,SharePoint,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-223
+2026-10-04T16:44:12Z,ACME\knguyen,SharePoint,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-224
+2026-10-04T16:45:13Z,ACME\rlee,Microsoft 365,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-225
+2026-10-04T16:46:14Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,FIN-WS-09,mobile,iOS,MFA,sess-normal-226
+2026-10-04T16:47:15Z,ACME\knguyen,SharePoint,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-227
+2026-10-04T16:48:16Z,ACME\mrivera,Teams,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-228
+2026-10-04T16:49:17Z,ACME\knguyen,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-229
+2026-10-04T15:48:00Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-kng-normal
+2026-10-04T16:12:00Z,ACME\knguyen,Microsoft 365,success,198.51.100.77,UNKNOWN-WIN,unmanaged,Windows,MFA,sess-kng-7f2
+2026-10-04T16:52:20Z,ACME\lchen,SharePoint,success,203.0.113.10,FIN-WS-09,mobile,iOS,MFA,sess-normal-232
+2026-10-04T16:53:21Z,ACME\mrivera,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-233
+2026-10-04T16:54:22Z,ACME\rlee,Teams,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-234
+2026-10-04T16:55:23Z,ACME\rlee,SharePoint,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-235
+2026-10-04T16:56:24Z,ACME\rlee,SharePoint,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-236
+2026-10-04T16:57:25Z,ACME\mrivera,SharePoint,success,203.0.113.22,DEV-WS-12,managed,iOS,MFA,sess-normal-237
+2026-10-04T16:58:26Z,ACME\knguyen,SharePoint,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-238
+2026-10-04T16:59:27Z,ACME\lchen,Teams,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-239
+2026-10-04T13:00:28Z,ACME\rlee,Microsoft 365,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-240
+2026-10-04T13:01:29Z,ACME\rlee,SharePoint,success,203.0.113.22,SALES-WS-18,mobile,Windows,MFA,sess-normal-241
+2026-10-04T13:02:30Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-242
+2026-10-04T13:03:31Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-243
+2026-10-04T13:04:32Z,ACME\knguyen,SharePoint,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-244
+2026-10-04T13:05:33Z,ACME\rlee,Teams,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-245
+2026-10-04T13:06:34Z,ACME\knguyen,SharePoint,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-246
+2026-10-04T13:07:35Z,ACME\rlee,Microsoft 365,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-247
+2026-10-04T13:08:36Z,ACME\mrivera,SharePoint,success,192.0.2.44,DEV-WS-12,mobile,iOS,MFA,sess-normal-248
+2026-10-04T13:09:37Z,ACME\knguyen,SharePoint,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-249
+2026-10-04T13:10:38Z,ACME\lchen,SharePoint,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-250
+2026-10-04T13:11:39Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-251
+2026-10-04T13:12:40Z,ACME\lchen,SharePoint,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-252
+2026-10-04T13:13:41Z,ACME\rlee,Teams,success,203.0.113.10,SALES-WS-18,mobile,Windows,MFA,sess-normal-253
+2026-10-04T13:14:42Z,ACME\lchen,Teams,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-254
+2026-10-04T13:15:43Z,ACME\mrivera,Teams,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-255
+2026-10-04T13:16:44Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,SALES-WS-18,mobile,Windows,MFA,sess-normal-256
+2026-10-04T13:17:45Z,ACME\mrivera,Teams,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-257
+2026-10-04T13:18:46Z,ACME\rlee,SharePoint,success,203.0.113.22,DEV-WS-12,mobile,Windows,MFA,sess-normal-258
+2026-10-04T13:19:47Z,ACME\mrivera,SharePoint,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-259
+2026-10-04T13:20:48Z,ACME\lchen,Microsoft 365,success,203.0.113.10,FIN-WS-09,mobile,iOS,MFA,sess-normal-260
+2026-10-04T13:21:49Z,ACME\rlee,Microsoft 365,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-261
+2026-10-04T13:22:50Z,ACME\mrivera,Teams,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-262
+2026-10-04T13:23:51Z,ACME\lchen,Teams,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-263
+2026-10-04T13:24:52Z,ACME\knguyen,SharePoint,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-264
+2026-10-04T13:25:00Z,ACME\lchen,SharePoint,success,203.0.113.22,SALES-WS-18,mobile,Windows,MFA,sess-normal-265
+2026-10-04T13:26:01Z,ACME\lchen,SharePoint,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-266
+2026-10-04T13:27:02Z,ACME\rlee,Teams,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-267
+2026-10-04T13:28:03Z,ACME\rlee,Teams,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-268
+2026-10-04T13:29:04Z,ACME\rlee,Teams,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-269
+2026-10-04T13:30:05Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,FIN-WS-09,mobile,Windows,MFA,sess-normal-270
+2026-10-04T13:31:06Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,SALES-WS-18,mobile,Windows,MFA,sess-normal-271
+2026-10-04T13:32:07Z,ACME\knguyen,Teams,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-272
+2026-10-04T13:33:08Z,ACME\mrivera,Teams,success,203.0.113.22,MOBILE,mobile,iOS,MFA,sess-normal-273
+2026-10-04T13:34:09Z,ACME\lchen,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-274
+2026-10-04T13:35:10Z,ACME\mrivera,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-275
+2026-10-04T13:36:11Z,ACME\knguyen,Microsoft 365,success,192.0.2.44,FIN-WS-09,mobile,Windows,MFA,sess-normal-276
+2026-10-04T13:37:12Z,ACME\rlee,Microsoft 365,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-277
+2026-10-04T13:38:13Z,ACME\lchen,Teams,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-278
+2026-10-04T13:39:14Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,SALES-WS-18,mobile,iOS,MFA,sess-normal-279
+2026-10-04T13:40:15Z,ACME\lchen,SharePoint,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-280
+2026-10-04T13:41:16Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-281
+2026-10-04T13:42:17Z,ACME\rlee,Microsoft 365,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-282
+2026-10-04T13:43:18Z,ACME\mrivera,SharePoint,success,203.0.113.22,FIN-WS-09,mobile,iOS,MFA,sess-normal-283
+2026-10-04T13:44:19Z,ACME\lchen,Teams,success,192.0.2.44,FIN-WS-09,mobile,Windows,MFA,sess-normal-284
+2026-10-04T13:45:20Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,DEV-WS-12,managed,iOS,MFA,sess-normal-285
+2026-10-04T13:46:21Z,ACME\knguyen,Microsoft 365,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-286
+2026-10-04T13:47:22Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-287
+2026-10-04T13:48:23Z,ACME\rlee,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-288
+2026-10-04T13:49:24Z,ACME\rlee,Microsoft 365,success,203.0.113.10,FIN-WS-09,mobile,iOS,MFA,sess-normal-289
+2026-10-04T13:50:25Z,ACME\lchen,Microsoft 365,success,192.0.2.44,DEV-WS-12,mobile,Windows,MFA,sess-normal-290
+2026-10-04T13:51:26Z,ACME\mrivera,Teams,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-291
+2026-10-04T13:52:27Z,ACME\mrivera,SharePoint,success,203.0.113.22,FIN-WS-09,mobile,Windows,MFA,sess-normal-292
+2026-10-04T13:53:28Z,ACME\mrivera,SharePoint,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-293
+2026-10-04T13:54:29Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,MOBILE,mobile,iOS,MFA,sess-normal-294
+2026-10-04T13:55:30Z,ACME\knguyen,Teams,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-295
+2026-10-04T13:56:31Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-296
+2026-10-04T13:57:32Z,ACME\rlee,SharePoint,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-297
+2026-10-04T13:58:33Z,ACME\lchen,Teams,success,192.0.2.44,MOBILE,mobile,iOS,MFA,sess-normal-298
+2026-10-04T13:59:34Z,ACME\knguyen,SharePoint,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-299
+2026-10-04T14:00:35Z,ACME\rlee,Microsoft 365,success,192.0.2.44,FIN-WS-09,mobile,Windows,MFA,sess-normal-300
+2026-10-04T14:01:36Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,SALES-WS-18,mobile,Windows,MFA,sess-normal-301
+2026-10-04T14:02:37Z,ACME\mrivera,SharePoint,success,192.0.2.44,FIN-WS-09,mobile,Windows,MFA,sess-normal-302
+2026-10-04T14:03:38Z,ACME\rlee,SharePoint,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-303
+2026-10-04T14:04:39Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-304
+2026-10-04T14:05:40Z,ACME\knguyen,Teams,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-305
+2026-10-04T14:06:41Z,ACME\rlee,SharePoint,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-306
+2026-10-04T14:07:42Z,ACME\mrivera,Teams,success,203.0.113.22,MOBILE,mobile,iOS,MFA,sess-normal-307
+2026-10-04T14:08:43Z,ACME\lchen,Teams,success,203.0.113.22,DEV-WS-12,mobile,Windows,MFA,sess-normal-308
+2026-10-04T14:09:44Z,ACME\rlee,Microsoft 365,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-309
+2026-10-04T14:10:45Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-310
+2026-10-04T14:11:46Z,ACME\lchen,Microsoft 365,success,203.0.113.22,FIN-WS-09,mobile,Windows,MFA,sess-normal-311
+2026-10-04T14:12:47Z,ACME\lchen,SharePoint,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-312
+2026-10-04T14:13:48Z,ACME\rlee,Microsoft 365,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-313
+2026-10-04T14:14:49Z,ACME\mrivera,Teams,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-314
+2026-10-04T14:15:50Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,SALES-WS-18,mobile,iOS,MFA,sess-normal-315
+2026-10-04T14:16:51Z,ACME\rlee,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-316
+2026-10-04T14:17:52Z,ACME\rlee,SharePoint,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-317
+2026-10-04T14:18:00Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-318
+2026-10-04T14:19:01Z,ACME\knguyen,Teams,success,192.0.2.44,DEV-WS-12,mobile,iOS,MFA,sess-normal-319
+2026-10-04T14:20:02Z,ACME\knguyen,Teams,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-320
+2026-10-04T14:21:03Z,ACME\rlee,Teams,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-321
+2026-10-04T14:22:04Z,ACME\knguyen,SharePoint,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-322
+2026-10-04T14:23:05Z,ACME\rlee,Teams,success,192.0.2.44,MOBILE,mobile,Windows,MFA,sess-normal-323
+2026-10-04T14:24:06Z,ACME\mrivera,Teams,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-324
+2026-10-04T14:25:07Z,ACME\mrivera,Teams,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-325
+2026-10-04T14:26:08Z,ACME\lchen,SharePoint,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-326
+2026-10-04T14:27:09Z,ACME\rlee,Teams,success,203.0.113.10,DEV-WS-12,mobile,Windows,MFA,sess-normal-327
+2026-10-04T14:28:10Z,ACME\rlee,Teams,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-328
+2026-10-04T14:29:11Z,ACME\knguyen,SharePoint,success,203.0.113.10,FIN-WS-09,mobile,Windows,MFA,sess-normal-329
+2026-10-04T14:30:12Z,ACME\lchen,SharePoint,success,203.0.113.10,FIN-WS-09,mobile,Windows,MFA,sess-normal-330
+2026-10-04T14:31:13Z,ACME\lchen,Teams,success,192.0.2.44,FIN-WS-09,mobile,Windows,MFA,sess-normal-331
+2026-10-04T14:32:14Z,ACME\knguyen,Teams,success,192.0.2.44,DEV-WS-12,mobile,iOS,MFA,sess-normal-332
+2026-10-04T14:33:15Z,ACME\mrivera,Teams,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-333
+2026-10-04T14:34:16Z,ACME\knguyen,SharePoint,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-334
+2026-10-04T14:35:17Z,ACME\rlee,Microsoft 365,success,203.0.113.10,DEV-WS-12,mobile,Windows,MFA,sess-normal-335
+2026-10-04T14:36:18Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-336
+2026-10-04T14:37:19Z,ACME\rlee,Microsoft 365,success,192.0.2.44,DEV-WS-12,managed,Windows,MFA,sess-normal-337
+2026-10-04T14:38:20Z,ACME\knguyen,SharePoint,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-338
+2026-10-04T14:39:21Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,DEV-WS-12,managed,iOS,MFA,sess-normal-339
+2026-10-04T14:40:22Z,ACME\mrivera,SharePoint,success,192.0.2.44,MOBILE,mobile,iOS,MFA,sess-normal-340
+2026-10-04T14:41:23Z,ACME\knguyen,Teams,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-341
+2026-10-04T14:42:24Z,ACME\rlee,SharePoint,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-342
+2026-10-04T14:43:25Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-343
+2026-10-04T14:44:26Z,ACME\knguyen,Teams,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-344
+2026-10-04T14:45:27Z,ACME\mrivera,SharePoint,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-345
+2026-10-04T14:46:28Z,ACME\rlee,SharePoint,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-346
+2026-10-04T14:47:29Z,ACME\rlee,Teams,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-347
+2026-10-04T14:48:30Z,ACME\lchen,Teams,success,203.0.113.22,MOBILE,mobile,iOS,MFA,sess-normal-348
+2026-10-04T14:49:31Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-349
+2026-10-04T14:50:32Z,ACME\lchen,Teams,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-350
+2026-10-04T14:51:33Z,ACME\knguyen,Teams,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-351
+2026-10-04T14:52:34Z,ACME\lchen,Teams,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-352
+2026-10-04T14:53:35Z,ACME\mrivera,SharePoint,success,203.0.113.22,FIN-WS-09,mobile,iOS,MFA,sess-normal-353
+2026-10-04T14:54:36Z,ACME\knguyen,SharePoint,success,203.0.113.10,MOBILE,mobile,iOS,MFA,sess-normal-354
+2026-10-04T14:55:37Z,ACME\rlee,SharePoint,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-355
+2026-10-04T14:56:38Z,ACME\mrivera,SharePoint,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-356
+2026-10-04T14:57:39Z,ACME\lchen,SharePoint,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-357
+2026-10-04T14:58:40Z,ACME\lchen,SharePoint,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-358
+2026-10-04T14:59:41Z,ACME\rlee,SharePoint,success,203.0.113.10,SALES-WS-18,mobile,Windows,MFA,sess-normal-359
+2026-10-04T15:00:42Z,ACME\rlee,SharePoint,success,203.0.113.22,SALES-WS-18,mobile,iOS,MFA,sess-normal-360
+2026-10-04T15:01:43Z,ACME\lchen,SharePoint,success,203.0.113.22,MOBILE,mobile,iOS,MFA,sess-normal-361
+2026-10-04T15:02:44Z,ACME\rlee,Microsoft 365,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-362
+2026-10-04T15:03:45Z,ACME\lchen,Microsoft 365,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-363
+2026-10-04T15:04:46Z,ACME\rlee,Teams,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-364
+2026-10-04T15:05:47Z,ACME\mrivera,SharePoint,success,192.0.2.44,DEV-WS-12,managed,Windows,MFA,sess-normal-365
+2026-10-04T15:06:48Z,ACME\lchen,Microsoft 365,success,192.0.2.44,FIN-WS-09,mobile,Windows,MFA,sess-normal-366
+2026-10-04T15:07:49Z,ACME\lchen,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-367
+2026-10-04T15:08:50Z,ACME\lchen,SharePoint,success,203.0.113.22,SALES-WS-18,managed,iOS,MFA,sess-normal-368
+2026-10-04T15:09:51Z,ACME\rlee,SharePoint,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-369
+2026-10-04T15:10:52Z,ACME\rlee,SharePoint,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-370
+2026-10-04T15:11:00Z,ACME\knguyen,SharePoint,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-371
+2026-10-04T15:12:01Z,ACME\mrivera,Teams,success,203.0.113.22,SALES-WS-18,managed,Windows,MFA,sess-normal-372
+2026-10-04T15:13:02Z,ACME\rlee,Teams,success,192.0.2.44,DEV-WS-12,mobile,iOS,MFA,sess-normal-373
+2026-10-04T15:14:03Z,ACME\lchen,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-374
+2026-10-04T15:15:04Z,ACME\lchen,Microsoft 365,success,192.0.2.44,DEV-WS-12,mobile,iOS,MFA,sess-normal-375
+2026-10-04T15:16:05Z,ACME\lchen,SharePoint,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-376
+2026-10-04T15:17:06Z,ACME\rlee,SharePoint,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-377
+2026-10-04T15:18:07Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-378
+2026-10-04T15:19:08Z,ACME\lchen,SharePoint,success,192.0.2.44,MOBILE,mobile,iOS,MFA,sess-normal-379
+2026-10-04T15:20:09Z,ACME\knguyen,SharePoint,success,192.0.2.44,FIN-WS-09,mobile,iOS,MFA,sess-normal-380
+2026-10-04T15:21:10Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-381
+2026-10-04T15:22:11Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,MOBILE,mobile,Windows,MFA,sess-normal-382
+2026-10-04T15:23:12Z,ACME\lchen,SharePoint,success,192.0.2.44,DEV-WS-12,managed,Windows,MFA,sess-normal-383
+2026-10-04T15:24:13Z,ACME\knguyen,SharePoint,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-384
+2026-10-04T15:25:14Z,ACME\rlee,SharePoint,success,203.0.113.10,FIN-WS-09,mobile,Windows,MFA,sess-normal-385
+2026-10-04T15:26:15Z,ACME\mrivera,Teams,success,192.0.2.44,DEV-WS-12,mobile,Windows,MFA,sess-normal-386
+2026-10-04T15:27:16Z,ACME\knguyen,Microsoft 365,success,203.0.113.22,DEV-WS-12,mobile,Windows,MFA,sess-normal-387
+2026-10-04T15:28:17Z,ACME\mrivera,Teams,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-388
+2026-10-04T15:29:18Z,ACME\mrivera,Teams,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-389
+2026-10-04T15:30:19Z,ACME\rlee,Microsoft 365,success,192.0.2.44,MOBILE,mobile,Windows,MFA,sess-normal-390
+2026-10-04T15:31:20Z,ACME\lchen,SharePoint,success,192.0.2.44,SALES-WS-18,mobile,iOS,MFA,sess-normal-391
+2026-10-04T15:32:21Z,ACME\rlee,SharePoint,success,192.0.2.44,DEV-WS-12,mobile,Windows,MFA,sess-normal-392
+2026-10-04T15:33:22Z,ACME\lchen,SharePoint,success,192.0.2.44,SALES-WS-18,mobile,iOS,MFA,sess-normal-393
+2026-10-04T15:34:23Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-394
+2026-10-04T15:35:24Z,ACME\lchen,Teams,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-395
+2026-10-04T15:36:25Z,ACME\lchen,SharePoint,success,203.0.113.10,FIN-WS-09,managed,iOS,MFA,sess-normal-396
+2026-10-04T15:37:26Z,ACME\mrivera,SharePoint,success,203.0.113.22,MOBILE,mobile,Windows,MFA,sess-normal-397
+2026-10-04T15:38:27Z,ACME\rlee,Microsoft 365,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-398
+2026-10-04T15:39:28Z,ACME\knguyen,Teams,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-399
+2026-10-04T15:40:29Z,ACME\lchen,Microsoft 365,success,192.0.2.44,SALES-WS-18,mobile,iOS,MFA,sess-normal-400
+2026-10-04T15:41:30Z,ACME\rlee,Microsoft 365,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-401
+2026-10-04T15:42:31Z,ACME\rlee,Teams,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-402
+2026-10-04T15:43:32Z,ACME\mrivera,SharePoint,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-403
+2026-10-04T15:44:33Z,ACME\mrivera,SharePoint,success,192.0.2.44,MOBILE,mobile,Windows,MFA,sess-normal-404
+2026-10-04T15:45:34Z,ACME\knguyen,SharePoint,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-405
+2026-10-04T15:46:35Z,ACME\rlee,Teams,success,203.0.113.22,FIN-WS-09,managed,iOS,MFA,sess-normal-406
+2026-10-04T15:47:36Z,ACME\mrivera,SharePoint,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-407
+2026-10-04T15:48:37Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-408
+2026-10-04T15:49:38Z,ACME\lchen,Microsoft 365,success,203.0.113.22,DEV-WS-12,mobile,iOS,MFA,sess-normal-409
+2026-10-04T15:50:39Z,ACME\lchen,Microsoft 365,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-410
+2026-10-04T15:51:40Z,ACME\lchen,Teams,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-411
+2026-10-04T15:52:41Z,ACME\mrivera,SharePoint,success,203.0.113.22,DEV-WS-12,managed,iOS,MFA,sess-normal-412
+2026-10-04T15:53:42Z,ACME\lchen,Teams,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-413
+2026-10-04T15:54:43Z,ACME\rlee,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-414
+2026-10-04T15:55:44Z,ACME\rlee,Microsoft 365,success,203.0.113.10,MOBILE,mobile,iOS,MFA,sess-normal-415
+2026-10-04T15:56:45Z,ACME\rlee,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-416
+2026-10-04T15:57:46Z,ACME\lchen,Microsoft 365,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-417
+2026-10-04T15:58:47Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,iOS,MFA,sess-normal-418
+2026-10-04T15:59:48Z,ACME\lchen,Teams,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-419
+2026-10-04T16:00:49Z,ACME\lchen,SharePoint,success,192.0.2.44,SALES-WS-18,managed,Windows,MFA,sess-normal-420
+2026-10-04T16:01:50Z,ACME\rlee,Teams,success,203.0.113.22,DEV-WS-12,mobile,iOS,MFA,sess-normal-421
+2026-10-04T16:02:51Z,ACME\mrivera,SharePoint,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-422
+2026-10-04T16:03:52Z,ACME\knguyen,SharePoint,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-423
+2026-10-04T16:04:00Z,ACME\rlee,Teams,success,203.0.113.22,DEV-WS-12,mobile,iOS,MFA,sess-normal-424
+2026-10-04T16:05:01Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,DEV-WS-12,mobile,Windows,MFA,sess-normal-425
+2026-10-04T16:06:02Z,ACME\knguyen,Microsoft 365,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-426
+2026-10-04T16:07:03Z,ACME\rlee,Teams,success,203.0.113.22,FIN-WS-09,mobile,iOS,MFA,sess-normal-427
+2026-10-04T16:08:04Z,ACME\rlee,SharePoint,success,192.0.2.44,SALES-WS-18,mobile,Windows,MFA,sess-normal-428
+2026-10-04T16:09:05Z,ACME\knguyen,SharePoint,success,203.0.113.10,SALES-WS-18,mobile,Windows,MFA,sess-normal-429
+2026-10-04T16:10:06Z,ACME\lchen,Microsoft 365,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-430
+2026-10-04T16:11:07Z,ACME\rlee,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-431
+2026-10-04T16:12:08Z,ACME\mrivera,SharePoint,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-432
+2026-10-04T16:13:09Z,ACME\lchen,Microsoft 365,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-433
+2026-10-04T16:14:10Z,ACME\knguyen,Teams,success,203.0.113.22,FIN-WS-09,mobile,iOS,MFA,sess-normal-434
+2026-10-04T16:15:11Z,ACME\knguyen,SharePoint,success,192.0.2.44,MOBILE,mobile,iOS,MFA,sess-normal-435
+2026-10-04T16:16:12Z,ACME\lchen,Teams,success,203.0.113.10,SALES-WS-18,mobile,Windows,MFA,sess-normal-436
+2026-10-04T16:17:13Z,ACME\rlee,SharePoint,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-437
+2026-10-04T16:18:14Z,ACME\mrivera,SharePoint,success,203.0.113.22,SALES-WS-18,managed,iOS,MFA,sess-normal-438
+2026-10-04T16:19:15Z,ACME\knguyen,SharePoint,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-439
+2026-10-04T16:20:16Z,ACME\rlee,Teams,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-440
+2026-10-04T16:21:17Z,ACME\rlee,SharePoint,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-441
+2026-10-04T16:22:18Z,ACME\rlee,Teams,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-442
+2026-10-04T16:23:19Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,MOBILE,managed,Windows,MFA,sess-normal-443
+2026-10-04T16:24:20Z,ACME\lchen,Microsoft 365,success,192.0.2.44,FIN-WS-09,managed,Windows,MFA,sess-normal-444
+2026-10-04T16:25:21Z,ACME\knguyen,Teams,success,203.0.113.10,MOBILE,mobile,Windows,MFA,sess-normal-445
+2026-10-04T16:26:22Z,ACME\lchen,Teams,success,203.0.113.22,SALES-WS-18,managed,iOS,MFA,sess-normal-446
+2026-10-04T16:27:23Z,ACME\lchen,SharePoint,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-447
+2026-10-04T16:28:24Z,ACME\rlee,SharePoint,success,203.0.113.22,SALES-WS-18,managed,iOS,MFA,sess-normal-448
+2026-10-04T16:29:25Z,ACME\mrivera,SharePoint,success,192.0.2.44,MOBILE,managed,Windows,MFA,sess-normal-449
+2026-10-04T16:30:26Z,ACME\rlee,Teams,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-450
+2026-10-04T16:31:27Z,ACME\mrivera,Teams,success,192.0.2.44,FIN-WS-09,managed,iOS,MFA,sess-normal-451
+2026-10-04T16:32:28Z,ACME\rlee,Teams,success,203.0.113.10,DEV-WS-12,mobile,iOS,MFA,sess-normal-452
+2026-10-04T16:33:29Z,ACME\lchen,Teams,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-453
+2026-10-04T16:34:30Z,ACME\knguyen,Microsoft 365,success,192.0.2.44,SALES-WS-18,mobile,Windows,MFA,sess-normal-454
+2026-10-04T16:35:31Z,ACME\knguyen,SharePoint,success,203.0.113.22,DEV-WS-12,managed,iOS,MFA,sess-normal-455
+2026-10-04T16:36:32Z,ACME\rlee,Teams,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-456
+2026-10-04T16:37:33Z,ACME\rlee,Microsoft 365,success,203.0.113.10,FIN-WS-09,managed,Windows,MFA,sess-normal-457
+2026-10-04T16:38:34Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-458
+2026-10-04T16:39:35Z,ACME\rlee,SharePoint,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-459
+2026-10-04T16:40:36Z,ACME\mrivera,Microsoft 365,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-460
+2026-10-04T16:41:37Z,ACME\rlee,Microsoft 365,success,192.0.2.44,FIN-WS-09,mobile,Windows,MFA,sess-normal-461
+2026-10-04T16:42:38Z,ACME\lchen,Teams,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-462
+2026-10-04T16:43:39Z,ACME\lchen,Teams,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-463
+2026-10-04T16:44:40Z,ACME\mrivera,SharePoint,success,203.0.113.22,SALES-WS-18,managed,iOS,MFA,sess-normal-464
+2026-10-04T16:45:41Z,ACME\rlee,Teams,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-465
+2026-10-04T16:46:42Z,ACME\mrivera,Teams,success,203.0.113.10,DEV-WS-12,managed,Windows,MFA,sess-normal-466
+2026-10-04T16:47:43Z,ACME\mrivera,SharePoint,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-467
+2026-10-04T16:48:44Z,ACME\knguyen,SharePoint,success,203.0.113.22,FIN-WS-09,mobile,iOS,MFA,sess-normal-468
+2026-10-04T16:49:45Z,ACME\mrivera,SharePoint,success,192.0.2.44,SALES-WS-18,mobile,Windows,MFA,sess-normal-469
+2026-10-04T16:50:46Z,ACME\mrivera,SharePoint,success,203.0.113.10,SALES-WS-18,mobile,iOS,MFA,sess-normal-470
+2026-10-04T16:51:47Z,ACME\lchen,Teams,success,192.0.2.44,MOBILE,mobile,Windows,MFA,sess-normal-471
+2026-10-04T16:52:48Z,ACME\knguyen,SharePoint,success,203.0.113.10,MOBILE,managed,iOS,MFA,sess-normal-472
+2026-10-04T16:53:49Z,ACME\rlee,SharePoint,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-473
+2026-10-04T16:54:50Z,ACME\rlee,Teams,success,203.0.113.10,MOBILE,managed,Windows,MFA,sess-normal-474
+2026-10-04T16:55:51Z,ACME\mrivera,Teams,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-475
+2026-10-04T16:56:52Z,ACME\knguyen,Teams,success,192.0.2.44,SALES-WS-18,managed,iOS,MFA,sess-normal-476
+2026-10-04T16:57:00Z,ACME\lchen,Microsoft 365,success,192.0.2.44,DEV-WS-12,mobile,Windows,MFA,sess-normal-477
+2026-10-04T16:58:01Z,ACME\rlee,SharePoint,success,192.0.2.44,MOBILE,managed,iOS,MFA,sess-normal-478
+2026-10-04T16:59:02Z,ACME\rlee,Teams,success,203.0.113.22,DEV-WS-12,mobile,iOS,MFA,sess-normal-479
+2026-10-04T13:00:03Z,ACME\knguyen,Teams,success,192.0.2.44,SALES-WS-18,mobile,iOS,MFA,sess-normal-480
+2026-10-04T13:01:04Z,ACME\mrivera,Microsoft 365,success,203.0.113.22,FIN-WS-09,managed,Windows,MFA,sess-normal-481
+2026-10-04T13:02:05Z,ACME\mrivera,SharePoint,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-482
+2026-10-04T13:03:06Z,ACME\mrivera,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-483
+2026-10-04T13:04:07Z,ACME\rlee,SharePoint,success,203.0.113.10,FIN-WS-09,mobile,iOS,MFA,sess-normal-484
+2026-10-04T13:05:08Z,ACME\rlee,SharePoint,success,203.0.113.10,SALES-WS-18,managed,Windows,MFA,sess-normal-485
+2026-10-04T13:06:09Z,ACME\knguyen,SharePoint,success,192.0.2.44,MOBILE,mobile,iOS,MFA,sess-normal-486
+2026-10-04T13:07:10Z,ACME\lchen,Teams,success,192.0.2.44,DEV-WS-12,mobile,Windows,MFA,sess-normal-487
+2026-10-04T13:08:11Z,ACME\mrivera,Teams,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-488
+2026-10-04T13:09:12Z,ACME\rlee,Teams,success,203.0.113.22,DEV-WS-12,managed,Windows,MFA,sess-normal-489
+2026-10-04T13:10:13Z,ACME\lchen,Microsoft 365,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-490
+2026-10-04T13:11:14Z,ACME\rlee,Teams,success,203.0.113.22,DEV-WS-12,managed,iOS,MFA,sess-normal-491
+2026-10-04T13:12:15Z,ACME\lchen,Teams,success,203.0.113.22,MOBILE,managed,iOS,MFA,sess-normal-492
+2026-10-04T13:13:16Z,ACME\rlee,Teams,success,192.0.2.44,DEV-WS-12,managed,Windows,MFA,sess-normal-493
+2026-10-04T13:14:17Z,ACME\lchen,SharePoint,success,192.0.2.44,DEV-WS-12,managed,iOS,MFA,sess-normal-494
+2026-10-04T13:15:18Z,ACME\mrivera,SharePoint,success,203.0.113.10,MOBILE,mobile,iOS,MFA,sess-normal-495
+2026-10-04T13:16:19Z,ACME\rlee,Microsoft 365,success,192.0.2.44,DEV-WS-12,managed,Windows,MFA,sess-normal-496
+2026-10-04T13:17:20Z,ACME\mrivera,Microsoft 365,success,192.0.2.44,FIN-WS-09,mobile,iOS,MFA,sess-normal-497
+2026-10-04T13:18:21Z,ACME\knguyen,Microsoft 365,success,203.0.113.10,SALES-WS-18,managed,iOS,MFA,sess-normal-498
+2026-10-04T13:19:22Z,ACME\mrivera,SharePoint,success,192.0.2.44,FIN-WS-09,mobile,iOS,MFA,sess-normal-499
