@@ -1,0 +1,25 @@
+{
+  "hunt": "015-oauth-consent-session-revocation",
+  "primary_identity": "ACME\\mrivera",
+  "detection_id": "ATD15-001",
+  "primary_app_id": "app-qrs-779",
+  "grant_id": "grant-qrs-779",
+  "token_id": "tok-qrs-779-1",
+  "timeline_utc": [
+    ["09:14", "managed sign-in from FIN-WS-09"],
+    ["09:24", "successful MFA sign-in from unmanaged UNKNOWN-WIN and unclassified 198.51.100.146"],
+    ["09:26", "user consent to Mail.Read offline_access for unapproved Quarterly Reports Sync"],
+    ["09:28", "access token issued"],
+    ["09:29", "successful Graph mail read"],
+    ["09:31", "successful Graph mail read"],
+    ["09:32", "SOC revokes interactive session"],
+    ["09:36", "successful Graph mail read with the same access token after revocation"],
+    ["09:41", "consent removed and app disabled"],
+    ["09:42", "refresh tokens revoked"],
+    ["09:44", "Graph request denied HTTP 403"]
+  ],
+  "confirmed": ["new user-granted delegated OAuth consent", "unapproved app and unknown publisher", "successful mail reads with a linked access token", "successful mail read after interactive session revocation", "later denied read"],
+  "not_proven": ["password theft", "token theft", "MFA bypass", "mailbox exfiltration", "compromise of the unmanaged Windows device", "cause of the 403 response", "identity of actor"],
+  "response": ["preserve audit evidence", "revoke unexplained interactive sessions", "review and remove unapproved delegated grant", "assess disabling app impact", "revoke refresh tokens and verify resource-level denial", "scope other app grants and affected users"],
+  "benign_lookalikes": ["approved internal connectors", "admin-approved consent", "normal self-service user consent", "calendar/profile Graph requests", "managed sign-ins", "routine SOC review actions"]
+}
