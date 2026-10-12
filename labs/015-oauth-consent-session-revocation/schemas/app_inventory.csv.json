@@ -1,0 +1,25 @@
+{
+  "name": "app_inventory.csv",
+  "fields": [
+    "app_id",
+    "display_name",
+    "approval_state"
+  ],
+  "noise": {
+    "app_id": "app-normal-{i}",
+    "display_name": "Approved Connector {i}",
+    "approval_state": "approved"
+  },
+  "overrides": [
+    {
+      "index": 250,
+      "id": "inv-qrs",
+      "minute": 120,
+      "data": {
+        "app_id": "app-qrs-779",
+        "display_name": "Quarterly Reports Sync",
+        "approval_state": "unapproved"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<dashboard version="1.1">
+  <label>Hunt 015 Overview</label>
+  <description>Session revoked, app still reading — synthetic OAuth investigation</description>
+  <row>
+    <panel>
+      <title>Primary detection</title>
+      <table>
+        <search><query>| inputlookup detection_results.csv | search detection_id="ATD15-001" | table _time detection_id user app_id grant_id severity</query></search>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <title>Suspicious Graph access</title>
+      <table>
+        <search><query>| inputlookup graph_activity.csv | search token_id="tok-qrs-779-1" | sort 0 _time | table _time operation resource_id status token_id</query></search>
+      </table>
+    </panel>
+  </row>
+</dashboard>

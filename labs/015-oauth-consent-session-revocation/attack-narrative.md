@@ -1,0 +1,9 @@
+# Synthetic attack narrative — Hunt 015
+
+The environment includes routine Microsoft 365 activity and approved enterprise integrations. On October 9, 2026, the identity `ACME\mrivera` signs in normally from managed `FIN-WS-09` at 09:14 UTC. Ten minutes later the same identity signs in successfully from `198.51.100.146`, which has no approved corporate/VPN context in the provided network lookup, using `UNKNOWN-WIN` (unmanaged). The authentication record shows MFA, but does not establish who controlled the client or how access was obtained.
+
+At 09:26 the identity grants delegated `Mail.Read offline_access` to the previously unapproved `Quarterly Reports Sync` application (`app-qrs-779`, grant `grant-qrs-779`). The application receives access token `tok-qrs-779-1` at 09:28. It reads mailbox items at 09:29 and 09:31. SOC revokes the interactive session `sess-mriv-new-824` at 09:32. The same app/token records another successful mail read at 09:36, demonstrating that the session action did not immediately prevent the observed application access in this modeled environment.
+
+An identity administrator removes the consent and disables the app at 09:41, then revokes refresh tokens at 09:42. A 09:44 mail request using the original token is denied with HTTP 403. That ordering does not prove which enforcement action caused the denial. It also does not prove mailbox export, data exfiltration, attacker identity, stolen credentials, or a stolen token. Mail reads are supported; outbound delivery or use of message contents is not.
+
+The benign comparison set contains administrator-approved and self-consented internal apps, managed workstations, approved source networks, calendar/profile reads, and routine SOC ticket activity. The exercise asks analysts to keep the primary case distinct from those operational look-alikes and distinguish *revoking a browser session* from *evaluating an app grant and issued tokens*.

@@ -1,0 +1,1 @@
+{"name":"authentication.csv","fields":["user","source_ip","device","managed","result","session_id"],"noise":{"user":"ACME\\lchen","source_ip":"203.0.113.18","device":"CORP-WS-02","managed":"true","result":"success","session_id":"sess-normal-{i}"},"overrides":[]}
