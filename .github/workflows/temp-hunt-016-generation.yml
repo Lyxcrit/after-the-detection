@@ -1,0 +1,31 @@
+name: Temporary Hunt 016 data generation
+on:
+  push:
+    branches:
+      - review/hunt-016-mailbox-rule-20261019
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Generate and validate deterministic Hunt 016 CSVs
+        run: |
+          cd labs/016-mailbox-rule-after-session-revocation
+          python generate_lab.py
+          python validate_lab.py
+      - name: Commit generated lookups
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add labs/016-mailbox-rule-after-session-revocation/data labs/016-mailbox-rule-after-session-revocation/splunk/after_detection_hunt_016/lookups
+          if ! git diff --cached --quiet; then
+            git commit -m "Hunt 016: add deterministic synthetic lookups"
+            git push
+          fi

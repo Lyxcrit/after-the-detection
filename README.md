@@ -46,6 +46,8 @@ Start here:
 - [Hunt 006: Scope After Failed Lateral Movement](labs/006-scope-after-failed-lateral-movement/README.md)
 - [Hunt 007: Account Use After Containment](labs/007-account-use-after-containment/README.md)
 
+- [Hunt 016: The Session Was Revoked. The Mail Rule Stayed.](labs/016-mailbox-rule-after-session-revocation/README.md)
+
 ## Why mock data?
 
 Mock data lets defenders safely practice the workflow without exposing real environments. The goal is not to pretend synthetic telemetry is real. The goal is to demonstrate how an analyst can move from alert to understanding.

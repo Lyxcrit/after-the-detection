@@ -1,0 +1,3 @@
+[lookups]
+access = read : [ * ], write : [ admin ]
+export = system
