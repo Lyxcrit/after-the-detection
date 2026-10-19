@@ -1,0 +1,35 @@
+{
+  "hunt": "016",
+  "scenario": "Unapproved inbox forwarding persists after anomalous interactive-session revocation",
+  "user": "ACME\\jortiz",
+  "session_id": "sess-jo-new-01",
+  "rule_id": "rule-jo-invoices-77",
+  "external_destination": "invoice-review@outside.example",
+  "key_utc_times": {
+    "managed_signin": "2026-10-16T13:04:00Z",
+    "unmanaged_signin": "2026-10-16T13:19:00Z",
+    "rule_created": "2026-10-16T13:22:00Z",
+    "first_forward": "2026-10-16T13:25:00Z",
+    "session_revoked": "2026-10-16T13:31:00Z",
+    "post_revocation_forward": "2026-10-16T13:36:00Z",
+    "rule_disabled": "2026-10-16T13:44:00Z",
+    "later_inbox_delivery": "2026-10-16T13:49:00Z"
+  },
+  "confirmed": [
+    "Successful unmanaged sign-in from unclassified source",
+    "New-InboxRule audit tied to that session and source",
+    "Unapproved external forwarding rule matching invoice subjects",
+    "Three distinct messages with modeled external forward delivery",
+    "One successful forward delivery after interactive-session revocation",
+    "Disable-InboxRule audit and disabled rule snapshot",
+    "Later modeled inbox deliveries without external forward rows"
+  ],
+  "not_proven": [
+    "Password theft, MFA bypass, or initial access mechanism",
+    "Who physically operated the new session",
+    "External recipient read, retention, or onward dissemination",
+    "No other forwarding paths exist outside the supplied data",
+    "The absence of a forwarding event alone conclusively proves containment"
+  ],
+  "decision": "Disable unapproved forwarding, investigate the account and other mailbox forwarding paths, scope delivered messages, verify state and follow-on traces. Preserve legitimate approved forwarding rules."
+}
