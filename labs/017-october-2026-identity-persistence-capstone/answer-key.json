@@ -1,0 +1,31 @@
+{
+  "case": "INC-017",
+  "primary_user": "ACME\\knguyen",
+  "confidence": "high confidence of unauthorized-looking identity use and two persistence mechanisms in the synthetic chain; operator and initial access unknown",
+  "timeline_utc": [
+    ["2026-10-23T15:48:00Z", "AUTH-00000", "Known managed sign-in SALES-WS-18"],
+    ["2026-10-23T16:12:00Z", "AUTH-00001", "Successful unmanaged sign-in UNKNOWN-WIN, MFA satisfied"],
+    ["2026-10-23T16:14:00Z", "GRAPH-00000", "SharePoint file operation succeeds"],
+    ["2026-10-23T16:16:00Z", "GRANT-00000", "Unreviewed Mail.Read offline_access consent"],
+    ["2026-10-23T16:17:00Z", "TOKEN-00000", "OAuth access token issued"],
+    ["2026-10-23T16:18:00Z", "GRAPH-00001", "Graph Mail.Read succeeds"],
+    ["2026-10-23T16:19:00Z", "AUDIT-00000", "Unapproved external inbox rule created"],
+    ["2026-10-23T16:20:00Z", "MAIL-00000", "First external invoice forward delivered"],
+    ["2026-10-23T16:21:00Z", "GRAPH-00002", "Second Graph Mail.Read succeeds"],
+    ["2026-10-23T16:22:00Z", "RESP-00000", "Interactive session revoked"],
+    ["2026-10-23T16:24:00Z", "MAIL-00001", "Second external invoice forward delivered after revocation"],
+    ["2026-10-23T16:25:00Z", "GRAPH-00003", "Graph Mail.Read succeeds after revocation"],
+    ["2026-10-23T16:28:00Z", "RESP-00001", "App disabled and consent removed"],
+    ["2026-10-23T16:29:00Z", "RESP-00002", "Refresh tokens revoked"],
+    ["2026-10-23T16:31:00Z", "GRAPH-00004", "Later Graph request denied"],
+    ["2026-10-23T16:34:00Z", "AUDIT-00001", "Inbox rule disabled"],
+    ["2026-10-23T16:36:00Z", "MAIL-00002", "Invoice delivered to mailbox; no modeled external forward"],
+    ["2026-10-23T16:39:00Z", "RESP-00004", "Account password reset"],
+    ["2026-10-23T16:40:00Z", "MAIL-00003", "Invoice delivered to mailbox; no modeled external forward"],
+    ["2026-10-23T16:42:00Z", "RESP-00005", "Responder verifies forwarding" ]
+  ],
+  "confirmed": ["unexplained successful sign-in from unmanaged device", "unreviewed OAuth grant", "three successful Graph Mail.Read operations", "unapproved inbox rule", "two distinct messages forwarded externally, one after session revocation", "Graph read after session revocation", "later Graph denial and disabled rule"],
+  "not_proven": ["MFA bypass", "password or token theft", "identity of operator", "external recipient reading messages", "absence of any other access path outside bounded telemetry"],
+  "approved_lookalike": {"rule_id": "rule-partner-approved", "change_ticket": "CHG-2048"},
+  "containment_decision": "Target account, OAuth grant/app and rule; verify all three separately. Do not disable all external forwarding or business connectors without additional scope evidence."
+}

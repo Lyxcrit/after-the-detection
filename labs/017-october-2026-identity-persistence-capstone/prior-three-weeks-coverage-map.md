@@ -1,0 +1,9 @@
+# October coverage map — previous three weekly cycles
+
+| Week | Published hunt and article theme | Capstone application | Key evidence | What it cannot prove |
+|---|---|---|---|---|
+| Oct 5 / 7 / 9 | [Hunt 014 — Successful Sign-In, Wrong Context](../014-signin-provenance/README.md): explain successful auth using source, device, VPN, and follow-on application activity | Compare `SALES-WS-18` at 15:48 with unmanaged `UNKNOWN-WIN` at 16:12 and SharePoint at 16:14 | `identity_signins`, `device_inventory`, `network_context`, `graph_activity` | MFA bypass, credential theft, or the operator |
+| Oct 12 / 14 / 16 | [Hunt 015 — Session Revoked, App Still Reading](../015-oauth-consent-session-revocation/README.md): OAuth consent, token use, and session revocation limits | Track `grant-qrs-779`, `tok-qrs-779-1`, Graph `Mail.Read` after 16:22 | `oauth_grants`, `token_events`, `graph_activity`, `responder_actions` | Whether all tokens were invalidated instantly or the data was read by a human |
+| Oct 19 / 21 / 23 | [Hunt 016 — The Session Was Revoked. The Mail Rule Stayed.](../016-mailbox-rule-after-session-revocation/README.md): mailbox configuration persistence, trace-backed forwarding, rule-specific response | Track `rule-kn-invoices-017` through 16:24 forward and 16:34 disable | `mailbox_rules`, `mailbox_audit`, `message_trace`, `responder_actions` | That an external recipient opened messages or that all other forwarding paths were absent |
+
+The capstone intentionally **combines** these into one related identity incident rather than replaying three unrelated alerts. A shared identity and session connect device provenance to consent and mailbox configuration. Approved app and partner forwarding activity is present as benign operational look-alikes. The analyst must decide whether the same response action can contain all three mechanisms (it cannot in the modeled evidence).
