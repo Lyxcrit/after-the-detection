@@ -48,6 +48,8 @@ Start here:
 
 - [Hunt 016: The Session Was Revoked. The Mail Rule Stayed.](labs/016-mailbox-rule-after-session-revocation/README.md)
 
+- [Hunt 017: October 2026 Identity Persistence Capstone](labs/017-october-2026-identity-persistence-capstone/README.md)
+
 ## Why mock data?
 
 Mock data lets defenders safely practice the workflow without exposing real environments. The goal is not to pretend synthetic telemetry is real. The goal is to demonstrate how an analyst can move from alert to understanding.
