@@ -44,6 +44,16 @@ def check():
     a=one(d['identity_signins'],session_id='sess-kn-new-017')
     assert a['timestamp']=='2026-10-23T16:12:00Z' and a['source_ip']=='198.51.100.74' and a['mfa_result']=='satisfied'
     assert one(d['oauth_grants'],grant_id='grant-qrs-779')['timestamp']=='2026-10-23T16:16:00Z'
+    assert one(d['oauth_grants'],grant_id='grant-00001')['timestamp'] < one(d['token_events'],token_id='tok-interactive-017')['timestamp'] < one(d['graph_activity'],request_id='req-00000')['timestamp']
+    assert one(d['token_events'],token_id='tok-interactive-017')['grant_id']=='grant-00001'
+    assert one(d['graph_activity'],request_id='req-00000')['app_id']=='app-approved-002'
+    case_tokens={r['token_id']:r for r in d['token_events'] if r['token_id'] in ('tok-interactive-017','tok-qrs-779-1')}
+    for i in range(5):
+        g=one(d['graph_activity'],request_id=f'req-{i:05}')
+        t=case_tokens[g['token_id']]
+        assert g['app_id']==t['app_id'] and g['user']==t['user'] and t['timestamp'] <= g['timestamp']
+        grant=one(d['oauth_grants'],grant_id=t['grant_id'])
+        assert grant['app_id']==t['app_id'] and grant['user']==t['user'] and grant['timestamp'] <= t['timestamp']
     assert one(d['mailbox_audit'],operation='New-InboxRule')['timestamp']=='2026-10-23T16:19:00Z'
     assert one(d['responder_actions'],ticket='INC-017',action='revoke_interactive_session')['timestamp']=='2026-10-23T16:22:00Z'
     post_graph=one(d['graph_activity'],request_id='req-00003')

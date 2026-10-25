@@ -1,5 +1,5 @@
 event_id,timestamp,request_id,token_id,app_id,user,resource,operation,result,bytes_returned
-GRAPH-00000,2026-10-23T16:14:00Z,req-00000,tok-interactive-017,app-qrs-779,ACME\knguyen,SharePoint,SharePoint.Files.Read,success,8120
+GRAPH-00000,2026-10-23T16:14:00Z,req-00000,tok-interactive-017,app-approved-002,ACME\knguyen,SharePoint,SharePoint.Files.Read,success,8120
 GRAPH-00001,2026-10-23T16:18:00Z,req-00001,tok-qrs-779-1,app-qrs-779,ACME\knguyen,Graph,Mail.Read,success,9300
 GRAPH-00002,2026-10-23T16:21:00Z,req-00002,tok-qrs-779-1,app-qrs-779,ACME\knguyen,Graph,Mail.Read,success,12100
 GRAPH-00003,2026-10-23T16:25:00Z,req-00003,tok-qrs-779-1,app-qrs-779,ACME\knguyen,Graph,Mail.Read,success,8500

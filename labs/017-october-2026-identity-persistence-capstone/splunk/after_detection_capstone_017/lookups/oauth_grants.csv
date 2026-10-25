@@ -1,6 +1,6 @@
 event_id,timestamp,grant_id,app_id,user,scopes,consent_actor,approval,status
 GRANT-00000,2026-10-23T16:16:00Z,grant-qrs-779,app-qrs-779,ACME\knguyen,Mail.Read offline_access,ACME\knguyen,unreviewed,active
-GRANT-00001,2026-10-23T12:01:00Z,grant-00001,app-approved-002,ACME\mrivera,User.Read,ACME\mrivera,approved,active
+GRANT-00001,2026-10-23T12:00:00Z,grant-00001,app-approved-002,ACME\knguyen,Files.Read,ACME\soc-admin,approved,active
 GRANT-00002,2026-10-23T12:02:00Z,grant-00002,app-0002,ACME\jortiz,User.Read,ACME\jortiz,approved,active
 GRANT-00003,2026-10-23T12:03:00Z,grant-00003,app-0003,ACME\user001,User.Read,ACME\user001,approved,active
 GRANT-00004,2026-10-23T12:04:00Z,grant-00004,app-0004,ACME\user002,User.Read,ACME\user002,approved,active

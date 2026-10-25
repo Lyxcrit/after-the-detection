@@ -1,6 +1,6 @@
 event_id,timestamp,token_id,grant_id,app_id,user,session_id,action,result,expires_at
 TOKEN-00000,2026-10-23T16:17:00Z,tok-qrs-779-1,grant-qrs-779,app-qrs-779,ACME\knguyen,sess-kn-new-017,issue,success,2026-10-23T17:17:00Z
-TOKEN-00001,2026-10-23T16:13:00Z,tok-interactive-017,grant-qrs-779,app-qrs-779,ACME\knguyen,sess-kn-new-017,issue,success,2026-10-23T17:13:00Z
+TOKEN-00001,2026-10-23T16:13:00Z,tok-interactive-017,grant-00001,app-approved-002,ACME\knguyen,sess-kn-new-017,issue,success,2026-10-23T17:13:00Z
 TOKEN-00002,2026-10-23T12:02:00Z,tok-00002,grant-00002,app-0002,ACME\jortiz,sess-00002,issue,success,2026-10-23T13:02:00Z
 TOKEN-00003,2026-10-23T12:03:00Z,tok-00003,grant-00003,app-0003,ACME\user001,sess-00003,issue,success,2026-10-23T13:03:00Z
 TOKEN-00004,2026-10-23T12:04:00Z,tok-00004,grant-00004,app-0004,ACME\user002,sess-00004,issue,success,2026-10-23T13:04:00Z
