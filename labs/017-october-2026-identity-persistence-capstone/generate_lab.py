@@ -64,6 +64,7 @@ grants=[]
 for i in range(ROWS):
     user=USERS[i%len(USERS)]; approved=i%9!=0
     grants.append(dict(event_id=f'GRANT-{i:05}',timestamp=stamp(i%600),grant_id=GRANTS[i],app_id=APPS[i%len(APPS)],user=user,scopes='User.Read' if approved else 'Mail.Read offline_access',consent_actor=user,approval='approved' if approved else 'unreviewed',status='active'))
+grants[1].update(timestamp=stamp(0),grant_id='grant-00001',app_id='app-approved-002',user='ACME\\knguyen',scopes='Files.Read',consent_actor='ACME\\soc-admin',approval='approved',status='active')
 grants[0].update(timestamp=stamp(256),grant_id='grant-qrs-779',app_id='app-qrs-779',user='ACME\\knguyen',scopes='Mail.Read offline_access',consent_actor='ACME\\knguyen',approval='unreviewed',status='active')
 write('oauth_grants',['event_id','timestamp','grant_id','app_id','user','scopes','consent_actor','approval','status'],grants)
 
@@ -72,7 +73,7 @@ for i in range(ROWS):
     grant=grants[i]
     tokens.append(dict(event_id=f'TOKEN-{i:05}',timestamp=stamp(i%600),token_id=TOKENS[i],grant_id=grant['grant_id'],app_id=grant['app_id'],user=grant['user'],session_id=SESSIONS[i],action='issue',result='success',expires_at=stamp((i%600)+60)))
 tokens[0].update(timestamp=stamp(257),token_id='tok-qrs-779-1',grant_id='grant-qrs-779',app_id='app-qrs-779',user='ACME\\knguyen',session_id='sess-kn-new-017',expires_at=stamp(317))
-tokens[1].update(timestamp=stamp(253),token_id='tok-interactive-017',grant_id='grant-qrs-779',app_id='app-qrs-779',user='ACME\\knguyen',session_id='sess-kn-new-017',expires_at=stamp(313))
+tokens[1].update(timestamp=stamp(253),token_id='tok-interactive-017',grant_id='grant-00001',app_id='app-approved-002',user='ACME\\knguyen',session_id='sess-kn-new-017',expires_at=stamp(313))
 write('token_events',['event_id','timestamp','token_id','grant_id','app_id','user','session_id','action','result','expires_at'],tokens)
 
 graph=[]
@@ -80,7 +81,7 @@ for i in range(ROWS):
     token=tokens[i%len(tokens)]
     graph.append(dict(event_id=f'GRAPH-{i:05}',timestamp=stamp(i%600),request_id=f'req-{i:05}',token_id=token['token_id'],app_id=token['app_id'],user=token['user'],resource='Graph',operation='User.Read' if i%5 else 'Mail.Read',result='success' if i%31 else 'denied',bytes_returned=R.randrange(400,12000)))
 for i,minute,token,operation,result,bytes_ in [(0,254,'tok-interactive-017','SharePoint.Files.Read','success',8120),(1,258,'tok-qrs-779-1','Mail.Read','success',9300),(2,261,'tok-qrs-779-1','Mail.Read','success',12100),(3,265,'tok-qrs-779-1','Mail.Read','success',8500),(4,271,'tok-qrs-779-1','Mail.Read','denied',0)]:
-    graph[i].update(timestamp=stamp(minute),token_id=token,app_id='app-qrs-779',user='ACME\\knguyen',resource='SharePoint' if i==0 else 'Graph',operation=operation,result=result,bytes_returned=bytes_)
+    graph[i].update(timestamp=stamp(minute),token_id=token,app_id='app-approved-002' if i==0 else 'app-qrs-779',user='ACME\\knguyen',resource='SharePoint' if i==0 else 'Graph',operation=operation,result=result,bytes_returned=bytes_)
 write('graph_activity',['event_id','timestamp','request_id','token_id','app_id','user','resource','operation','result','bytes_returned'],graph)
 
 rules=[]
